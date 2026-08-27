@@ -1,7 +1,7 @@
 /* =====================================================================================
    build.mjs — COMPOSIÇÃO
 
-   Lê dados/, resolve os tokens de proveniência e injeta o resultado em src/index.html,
+   Lê dados/, resolve os tokens de proveniência e injeta o resultado em index.html (raiz),
    produzindo dist/Gerador_Roteiros_v2.html: um arquivo único, que abre com dois cliques,
    sem servidor, sem fetch e sem módulos ES — as três coisas que morrem em file://.
 
@@ -137,9 +137,9 @@ const CATALOGO = ler('catalogo.json');
 arquivos += 2;
 
 /* ------------------------------------------------------------------ INJEÇÃO */
-const tpl = fs.readFileSync(path.join(RAIZ, 'src/index.html'), 'utf8');
+const tpl = fs.readFileSync(path.join(RAIZ, 'index.html'), 'utf8');
 ['/*@BASE@*/', '/*@CATALOGO@*/'].forEach(m => {
-    if (tpl.indexOf(m) < 0) throw new Error('Marcador ausente em src/index.html: ' + m);
+    if (tpl.indexOf(m) < 0) throw new Error('Marcador ausente em index.html: ' + m);
 });
 
 const literal = (nome, obj) =>

@@ -52,8 +52,7 @@ gerador-roteiros/
 │   │   ├── hospedagens.json · alimentacao.json · consular.json
 │   │   └── atracoes/ roma.json · cassino.json · monte_santangelo.json · …
 │   └── fr/  (mesma forma)
-├── src/
-│   └── index.html            ← motor, render, formulário, CSS. Dois marcadores no
+├── index.html                ← motor, render, formulário, CSS. Dois marcadores no
 │                               lugar dos literais: /*@BASE@*/ e /*@CATALOGO@*/
 ├── dist/
 │   └── Gerador_Roteiros_v2.html  ← o que você distribui
@@ -110,9 +109,9 @@ endereço (sem link de mapa), plantão consular publicado sem ressalva de emerg�
 locais. `<script>` clássico não é. O build resolve isso pela raiz: os dados entram no
 HTML como literal, e o produto não faz requisição nenhuma para existir.
 
-Se preferir desenvolver servido, `npm run servir` e abra `src/index.html` — mas aí os
-marcadores ainda estarão lá. O caminho servido só faz sentido depois de um carregador
-por `fetch`, que não existe hoje e não é necessário.
+Se preferir desenvolver servido, `npm run servir` e abra `index.html` (raiz) — mas aí os
+marcadores ainda estarão lá até rodar `npm run build`. O caminho servido só faz sentido
+depois de um carregador por `fetch`, que não existe hoje e não é necessário.
 
 ## Fronteiras que este desenho preserva
 
