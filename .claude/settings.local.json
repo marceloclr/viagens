@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(sort -k6,7)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(mkdir -p src)",
+      "Bash(git mv *)",
+      "Bash(git rm *)"
     ]
   }
 }

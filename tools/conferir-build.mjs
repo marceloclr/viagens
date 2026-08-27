@@ -6,7 +6,7 @@
    registro perdido, reordenado ou alterado no caminho é uma mudança de produto disfarçada
    de mudança de arquitetura.
 
-       node tools/conferir-build.mjs origem_fase3.html dist/Gerador_Roteiros_v2.html
+       node tools/conferir-build.mjs origem_fase3.html index.html
    ===================================================================================== */
 import fs from 'fs';
 import vm from 'vm';

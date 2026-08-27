@@ -1,9 +1,10 @@
 /* =====================================================================================
    build.mjs — COMPOSIÇÃO
 
-   Lê dados/, resolve os tokens de proveniência e injeta o resultado em index.html (raiz),
-   produzindo dist/Gerador_Roteiros_v2.html: um arquivo único, que abre com dois cliques,
-   sem servidor, sem fetch e sem módulos ES — as três coisas que morrem em file://.
+   Lê dados/, resolve os tokens de proveniência e injeta o resultado em src/template.html,
+   produzindo index.html (raiz): um arquivo único, que abre com dois cliques, sem servidor,
+   sem fetch e sem módulos ES — as três coisas que morrem em file://. É esse index.html
+   que um servidor de publicação carrega por padrão.
 
    Autoria modular, distribuição monolítica. É a leitura literal do §8.
 
@@ -137,9 +138,9 @@ const CATALOGO = ler('catalogo.json');
 arquivos += 2;
 
 /* ------------------------------------------------------------------ INJEÇÃO */
-const tpl = fs.readFileSync(path.join(RAIZ, 'index.html'), 'utf8');
+const tpl = fs.readFileSync(path.join(RAIZ, 'src/template.html'), 'utf8');
 ['/*@BASE@*/', '/*@CATALOGO@*/'].forEach(m => {
-    if (tpl.indexOf(m) < 0) throw new Error('Marcador ausente em index.html: ' + m);
+    if (tpl.indexOf(m) < 0) throw new Error('Marcador ausente em src/template.html: ' + m);
 });
 
 const literal = (nome, obj) =>
@@ -156,13 +157,12 @@ let saida = tpl
     .replace('/*@BASE@*/', () => seguro(literal('DB', DB)))
     .replace('/*@CATALOGO@*/', () => seguro(literal('CATALOGO', CATALOGO)));
 
-fs.mkdirSync(path.join(RAIZ, 'dist'), { recursive: true });
-const destino = path.join(RAIZ, 'dist/Gerador_Roteiros_v2.html');
+const destino = path.join(RAIZ, 'index.html');
 fs.writeFileSync(destino, saida);
 
 console.log('\n  ' + arquivos + ' arquivos de dados lidos');
 console.log('  ' + DB.cidades.length + ' cidades · ' + DB.cidadesSugeridas.length + ' sugeridas · ' + DB.atracoes.length + ' atrações · ' +
     DB.hospedagens.length + ' hospedagens · ' + DB.representacoes.length + ' repartições consulares · ' +
     DB.portos.length + ' portos · ' + DB.voos.length + ' voos');
-console.log('  dist/Gerador_Roteiros_v2.html — ' + (Buffer.byteLength(saida) / 1024).toFixed(1) +
+console.log('  index.html — ' + (Buffer.byteLength(saida) / 1024).toFixed(1) +
     ' KB, ' + saida.split('\n').length + ' linhas\n');

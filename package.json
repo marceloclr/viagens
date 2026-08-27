@@ -3,12 +3,12 @@
   "version": "2.2.0",
   "private": true,
   "type": "module",
-  "description": "Sistema inteligente de planejamento e geração de roteiros — curadoria em dados/, motor em src/, distribuição em dist/.",
+  "description": "Sistema inteligente de planejamento e geração de roteiros — curadoria em dados/, template do motor em src/, produto publicável em index.html (raiz).",
   "scripts": {
     "validar": "node tools/validar-base.mjs",
     "build": "node tools/validar-base.mjs && node tools/build.mjs",
-    "testar": "node tools/testar.cjs dist/Gerador_Roteiros_v2.html",
-    "conferir": "node tools/conferir-build.mjs origem_fase3.html dist/Gerador_Roteiros_v2.html",
+    "testar": "node tools/testar.cjs index.html",
+    "conferir": "node tools/conferir-build.mjs origem_fase3.html index.html",
     "tudo": "npm run build && npm run conferir && npm run testar",
     "servir": "python3 -m http.server 8080"
   }

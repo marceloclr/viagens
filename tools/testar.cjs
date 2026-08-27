@@ -5,7 +5,7 @@
    bloco [21], as mesmas que ?debug=1 dispara na página. Serve para conferir o arquivo
    construído antes de distribuí-lo: teste vermelho impede a entrega.
 
-       node tools/testar.mjs dist/Gerador_Roteiros_v2.html
+       node tools/testar.mjs index.html
    ===================================================================================== */
 const fs = require('fs');
 
@@ -43,7 +43,7 @@ global.localStorage = {
 global.fetch = () => Promise.reject(new Error('rede indisponível no arnês'));
 global.requestAnimationFrame = f => setTimeout(f, 0);
 
-const html = fs.readFileSync(process.argv[2] || 'dist/Gerador_Roteiros_v2.html', 'utf8');
+const html = fs.readFileSync(process.argv[2] || 'index.html', 'utf8');
 const src = html.slice(html.indexOf('<script>') + 8, html.lastIndexOf('</script>'));
 const vm = require('vm');
 vm.createContext(global);

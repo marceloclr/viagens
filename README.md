@@ -4,17 +4,23 @@ A curadoria saiu do HTML. O que era um literal de 690 linhas no meio do motor vi
 uma árvore de arquivos JSON que pode ser revisada, versionada e corrigida sem que
 ninguém precise abrir o arquivo do sistema.
 
-O produto continua sendo **um arquivo único**, que abre com dois cliques, sem servidor.
+O produto continua sendo **um arquivo único**, que abre com dois cliques, sem servidor —
+e que se publica sozinho: `index.html` na raiz é o nome que qualquer servidor web carrega
+por padrão.
 
 ## Fluxo
 
 ```
-dados/*.json  ──▶  tools/build.mjs  ──▶  dist/Gerador_Roteiros_v2.html
-   (fonte)          (ferramenta)              (produto)
+dados/*.json        ──▶  tools/build.mjs  ──▶  index.html
+src/template.html                                (raiz — produto, publicável)
+(fonte + template)       (ferramenta)
 ```
 
-A direção importa: os JSON são a origem, o HTML é o resultado. Uma página não escreve
-arquivos no disco — quem lê `dados/` e costura tudo é um script Node, no seu terminal.
+A direção importa: os JSON e o template são a origem, o `index.html` da raiz é o
+resultado. Uma página não escreve arquivos no disco — quem lê `dados/` e `src/template.html`
+e costura tudo é um script Node, no seu terminal. `src/template.html` nunca é aberto
+direto no navegador: ele carrega os marcadores `/*@BASE@*/` e `/*@CATALOGO@*/` no lugar
+dos dados, então o formulário não teria o que renderizar.
 
 O que o HTML gera são os **roteiros do usuário**: o PDF pela impressão e o JSON do
 roteiro pela exportação. Dado de quem viaja, não a base curada.
@@ -52,10 +58,13 @@ gerador-roteiros/
 │   │   ├── hospedagens.json · alimentacao.json · consular.json
 │   │   └── atracoes/ roma.json · cassino.json · monte_santangelo.json · …
 │   └── fr/  (mesma forma)
-├── index.html                ← motor, render, formulário, CSS. Dois marcadores no
-│                               lugar dos literais: /*@BASE@*/ e /*@CATALOGO@*/
-├── dist/
-│   └── Gerador_Roteiros_v2.html  ← o que você distribui
+├── src/
+│   └── template.html         ← motor, render, formulário, CSS. Dois marcadores no
+│                               lugar dos literais: /*@BASE@*/ e /*@CATALOGO@*/. Nunca
+│                               abrir direto — sem dados, o formulário não aparece.
+├── index.html                 ← PRODUTO. Gerado por tools/build.mjs a partir de
+│                               src/template.html + dados/. É o que você publica e o
+│                               que um servidor carrega por padrão.
 ├── tools/
 │   ├── extrair-base.mjs      migração, executada uma única vez (já rodou)
 │   ├── validar-base.mjs      integridade referencial e disciplina de proveniência
@@ -69,7 +78,7 @@ gerador-roteiros/
 
 ```bash
 npm run validar     # confere dados/ — erro bloqueia o build
-npm run build       # valida e compõe dist/
+npm run build       # valida e compõe index.html (raiz)
 npm run conferir    # prova que a reconstrução é idêntica à origem
 npm run testar      # roda o arnês sobre o arquivo construído
 npm run tudo        # build + conferir + testar
@@ -109,7 +118,7 @@ endereço (sem link de mapa), plantão consular publicado sem ressalva de emerg�
 locais. `<script>` clássico não é. O build resolve isso pela raiz: os dados entram no
 HTML como literal, e o produto não faz requisição nenhuma para existir.
 
-Se preferir desenvolver servido, `npm run servir` e abra `index.html` (raiz) — mas aí os
+Se preferir desenvolver servido, `npm run servir` e abra `src/template.html` — mas aí os
 marcadores ainda estarão lá até rodar `npm run build`. O caminho servido só faz sentido
 depois de um carregador por `fetch`, que não existe hoje e não é necessário.
 

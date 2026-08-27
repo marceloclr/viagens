@@ -2,8 +2,8 @@
    extrair-base.mjs — MIGRAÇÃO, EXECUTADA UMA ÚNICA VEZ
 
    Lê o HTML monolítico, avalia o bloco [4] fora do navegador e escreve a curadoria em
-   dados/. Também produz index.html (raiz): o mesmo HTML com o literal da base substituído
-   por marcadores, para que tools/build.mjs possa recompô-lo.
+   dados/. Também produz src/template.html: o mesmo HTML com o literal da base substituído
+   por marcadores, para que tools/build.mjs possa recompô-lo em index.html (raiz).
 
    Depois desta execução, a fonte da verdade passa a ser dados/. O HTML deixa de ser
    lugar de curadoria e volta a ser apenas o motor.
@@ -147,7 +147,7 @@ if (aerOrfaos.length || estOrfaas.length) {
 }
 
 /* ------------------------------------------------------------------ TEMPLATE
-   O HTML de origem vira index.html (raiz) com dois marcadores no lugar dos literais.
+   O HTML de origem vira src/template.html com dois marcadores no lugar dos literais.
    Nada mais é tocado: motor, renderização, formulário e arnês seguem intactos. */
 const recorte = (txt, abre, fecha, marcador, nome) => {
     const i = txt.indexOf(abre);
@@ -162,7 +162,8 @@ const recorte = (txt, abre, fecha, marcador, nome) => {
 let tpl = html;
 tpl = recorte(tpl, 'const DB = {', '\n};\n', '/*@BASE@*/', 'literal DB');
 tpl = recorte(tpl, 'const CATALOGO = {', '\n};\n', '/*@CATALOGO@*/', 'literal CATALOGO');
-fs.writeFileSync(path.join(RAIZ, 'index.html'), tpl);
+fs.mkdirSync(path.join(RAIZ, 'src'), { recursive: true });
+fs.writeFileSync(path.join(RAIZ, 'src/template.html'), tpl);
 
 console.log('\n' + escritos + ' arquivos JSON · ' + (bytes / 1024).toFixed(1) + ' KB');
-console.log('index.html gravado — ' + tpl.split('\n').length + ' linhas (origem: ' + html.split('\n').length + ')\n');
+console.log('src/template.html gravado — ' + tpl.split('\n').length + ' linhas (origem: ' + html.split('\n').length + ')\n');
