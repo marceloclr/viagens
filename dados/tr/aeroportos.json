@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ist",
+    "cidadeId": "istambul",
+    "codigo": "IST",
+    "nome": "Aeroporto de Istambul",
+    "endereco": "Tayakadın, Terminal Cd. No:1, 34283 Arnavutköy/İstanbul, Turquia",
+    "fonte": "Wikipedia / sítios de referência de aviação (istanbulairport.com) consultados em 2026-08-26"
+  },
+  {
+    "id": "saw",
+    "cidadeId": "istambul",
+    "codigo": "SAW",
+    "nome": "Aeroporto Internacional Sabiha Gökçen",
+    "endereco": "Terminal Building, Pendik, 34906 Istambul, Turquia",
+    "fonte": "sabihagokcen.aero — consultado em 2026-08-26"
+  },
+  {
+    "id": "adb",
+    "cidadeId": "esmirna",
+    "codigo": "ADB",
+    "nome": "Aeroporto Internacional Adnan Menderes de Izmir",
+    "endereco": "Dokuz Eylül Mh., 35425 Gaziemir/İzmir, Turquia",
+    "fonte": "dhmi.gov.tr (Diretoria Geral de Aeroportos do Estado da Turquia) — consultado em 2026-08-26"
+  },
+  {
+    "id": "nav",
+    "cidadeId": "capadocia",
+    "codigo": "NAV",
+    "nome": "Aeroporto de Kapadokya (Nevşehir)",
+    "endereco": "Gülşehir, 50400 Nevşehir, Turquia",
+    "fonte": "Pesquisa de referência (yolcu360.com, airportnavi.com) — consultado em 2026-08-26; aeroporto mais próximo de Göreme (~40 km), preferível ao Aeroporto de Kayseri (~100 km)"
+  },
+  {
+    "id": "asr",
+    "cidadeId": "capadocia",
+    "codigo": "ASR",
+    "nome": "Aeroporto de Kayseri (Erkilet)",
+    "endereco": "Erkilet, 38070 Kocasinan/Kayseri, Turquia",
+    "fonte": "Pesquisa de referência — consultado em 2026-08-26; alternativa a NAV, cerca de 100 km de Göreme, com mais voos internacionais"
+  },
+  {
+    "id": "esb",
+    "cidadeId": "tr_ancara",
+    "codigo": "ESB",
+    "nome": "Aeroporto Internacional Esenboğa",
+    "endereco": "Esenboğa, 06790 Akyurt/Ankara, Turquia",
+    "fonte": "Pesquisa de referência consolidada (en.wikipedia.org/wiki/Ankara_Esenboğa_Airport, world-airport-codes.com) — consultado em 2026-08-27"
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "br_emb_paris",
+    "paisId": "fr",
+    "cidade": "Paris",
+    "tipo": "embaixada",
+    "nomeOficial": "Embaixada do Brasil em Paris",
+    "endereco": {
+      "valor": "34 Cours Albert 1er, 75008 Paris, França",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Paris, contato",
+      "consultadoEm": "2026-08-27"
+    },
+    "telefoneGeral": {
+      "valor": "+33 1 45 61 63 00",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Paris, contato",
+      "consultadoEm": "2026-08-27"
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "brasemb.paris@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Paris, contato",
+      "consultadoEm": "2026-08-27"
+    },
+    "emailConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioAtendimento": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Jurisdição diplomática sobre toda a França; o atendimento consular ao público é prestado pelo Consulado-Geral em Paris.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — rede de repartições brasileiras na França",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-paris",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": null,
+    "observacoes": "Embaixada e setor consular funcionam como repartições distintas. Confirme endereço e horário no sítio oficial."
+  },
+  {
+    "id": "br_cg_paris",
+    "paisId": "fr",
+    "cidade": "Paris",
+    "tipo": "consulado_geral",
+    "nomeOficial": "Consulado-Geral do Brasil em Paris",
+    "endereco": {
+      "valor": "65 Avenue Franklin Delano Roosevelt, 75008 Paris, França",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Paris",
+      "consultadoEm": "2026-08-27"
+    },
+    "telefoneGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": "+33 6 80 80 96 78",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Paris, plantão consular (emergências graves, 24h)",
+      "consultadoEm": "2026-08-27"
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "consulat.cgparis@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Paris",
+      "consultadoEm": "2026-08-27"
+    },
+    "emailConsular": {
+      "valor": "assistencia.cgparis@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Paris, assistência a brasileiros",
+      "consultadoEm": "2026-08-27"
+    },
+    "horarioAtendimento": {
+      "valor": "Assistência a brasileiros: segunda a sexta-feira, das 10h às 16h",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Paris",
+      "consultadoEm": "2026-08-27"
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Île-de-France, Grand Est, Bourgogne-Franche-Comté, Centre-Val de Loire, Pays de la Loire, Bretanha, Normandia e Hauts-de-France.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Paris, jurisdição",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/consulado-paris",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": null,
+    "observacoes": "Confirme jurisdição, horário do setor consular e regime de agendamento no sítio oficial. O contato de plantão é de uso exclusivo para emergências (acidente, óbito, prisão, hospitalização, desastre natural), não para trâmites consulares de rotina."
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "rotulos": {
+    "genebra": ["rade", "vieille_ville", "nations", "plainpalais", "eaux_vives"],
+    "zurique": ["altstadt", "hauptbahnhof", "uetliberg"],
+    "lucerna": ["altstadt", "lowenplatz", "pilatus", "lido", "rigi"],
+    "berna": ["altstadt", "kirchenfeld"]
+  },
+  "coordenadas": {
+    "genebra": {
+      "rade": { "lat": 46.2076, "lon": 6.1548 },
+      "vieille_ville": { "lat": 46.2003, "lon": 6.1477 },
+      "nations": { "lat": 46.2264, "lon": 6.1414 },
+      "plainpalais": { "lat": 46.1959, "lon": 6.1417 },
+      "eaux_vives": { "lat": 46.2033, "lon": 6.1608 }
+    },
+    "zurique": {
+      "altstadt": { "lat": 47.3707, "lon": 8.5432 },
+      "hauptbahnhof": { "lat": 47.3779, "lon": 8.5403 },
+      "uetliberg": { "lat": 47.3500, "lon": 8.4917 }
+    },
+    "lucerna": {
+      "altstadt": { "lat": 47.0505, "lon": 8.3061 },
+      "lowenplatz": { "lat": 47.0552, "lon": 8.3059 },
+      "lido": { "lat": 47.0490, "lon": 8.3200 },
+      "pilatus": { "lat": 46.9789, "lon": 8.2540 },
+      "rigi": { "lat": 47.0567, "lon": 8.4864 }
+    },
+    "berna": {
+      "altstadt": { "lat": 46.9481, "lon": 7.4474 },
+      "kirchenfeld": { "lat": 46.9445, "lon": 7.4515 }
+    }
+  }
+}

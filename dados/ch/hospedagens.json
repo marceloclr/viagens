@@ -1,0 +1,90 @@
+[
+  {
+    "id": "h_gen_armures",
+    "cidadeId": "genebra",
+    "nome": "Hôtel Les Armures",
+    "categoria": "Hotel — Vieille-Ville",
+    "zona": "vieille_ville",
+    "endereco": "Rue du Puits-Saint-Pierre 1, 1204 Genève, Suíça",
+    "nota": "Hotel boutique dentro da Cidade Velha, a poucos passos da Catedral de Saint-Pierre e da Maison Tavel.",
+    "fonte": "https://www.lesarmures.ch/en/",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_gen_belesperance",
+    "cidadeId": "genebra",
+    "nome": "Hôtel Bel'Espérance",
+    "categoria": "Hotel — econômico",
+    "zona": "vieille_ville",
+    "endereco": "1 Rue de la Vallée, 1204 Genève, Suíça",
+    "nota": "Opção econômica administrada pelo Exército da Salvação, na encosta de acesso à Cidade Velha, com terraço com vista.",
+    "fonte": "https://www.christian-hospitality.com/node/188",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_zur_adler",
+    "cidadeId": "zurique",
+    "nome": "Hotel Adler Zürich",
+    "categoria": "Hotel — Niederdorf",
+    "zona": "altstadt",
+    "endereco": "Rosengasse 10, 8001 Zürich, Suíça",
+    "nota": "Localizado no coração do Niederdorf, na Cidade Velha, próximo às margens do rio Limmat e à Bahnhofstrasse.",
+    "fonte": "https://hotel-adler.ch/en/",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_zur_rutli",
+    "cidadeId": "zurique",
+    "nome": "Sorell Hotel Rütli",
+    "categoria": "Hotel — Niederdorf",
+    "zona": "altstadt",
+    "endereco": "Zähringerstrasse 43, 8001 Zürich, Suíça",
+    "nota": "Alternativa no mesmo bairro histórico do Niederdorf, próximo à ETH Zürich e aos funiculares.",
+    "fonte": "https://www.sorellhotels.com/en/hotels/ruetli-zurich",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_luc_balances",
+    "cidadeId": "lucerna",
+    "nome": "Hotel des Balances",
+    "categoria": "Hotel — Altstadt / rio Reuss",
+    "zona": "altstadt",
+    "endereco": "Weinmarkt, 6004 Luzern, Suíça",
+    "nota": "Fica na praça Weinmarkt, na Cidade Velha, direto às margens do rio Reuss e perto da Kapellbrücke.",
+    "fonte": "https://www.balances.ch/",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_luc_waldstatterhof",
+    "cidadeId": "lucerna",
+    "nome": "Hotel Waldstätterhof Lucerne",
+    "categoria": "Hotel — próximo à estação",
+    "zona": "altstadt",
+    "endereco": "Zentralstrasse 4, 6003 Luzern, Suíça",
+    "nota": "Alternativa junto à estação central de trens, conveniente para excursões ao Pilatus e Rigi.",
+    "fonte": "https://www.hotel-waldstaetterhof.ch/en",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_ber_belleepoque",
+    "cidadeId": "berna",
+    "nome": "Boutique Hotel Belle Époque",
+    "categoria": "Hotel — Altstadt",
+    "zona": "altstadt",
+    "endereco": "Gerechtigkeitsgasse 18, 3011 Bern, Suíça",
+    "nota": "Hotel boutique na Gerechtigkeitsgasse, dentro da Cidade Velha Patrimônio da UNESCO, a poucos passos da Torre do Relógio.",
+    "fonte": "https://belle-epoque.ch/en",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_ber_landhaus",
+    "cidadeId": "berna",
+    "nome": "Hotel Landhaus",
+    "categoria": "Hotel — Kirchenfeld",
+    "zona": "kirchenfeld",
+    "endereco": "Altenbergstrasse 4, 3013 Bern, Suíça",
+    "nota": "Hotel familiar a 5 minutos a pé da Cidade Velha e a 200 metros do fosso dos ursos, opção mais tranquila e econômica.",
+    "fonte": "https://www.frommers.com/destinations/bern/hotels/hotel-landhaus/",
+    "flag": "flag-alt"
+  }
+]

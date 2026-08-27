@@ -1,0 +1,56 @@
+[
+  {
+    "id": "br_emb_atenas",
+    "paisId": "gr",
+    "cidade": "Atenas",
+    "tipo": "embaixada",
+    "nomeOficial": "Embaixada do Brasil em Atenas",
+    "endereco": {
+      "valor": "Vasilissis Sofias, 23, 3º andar, 10674 Atenas, Grécia",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, endereço e contatos",
+      "consultadoEm": "2026-08-27"
+    },
+    "telefoneGeral": {
+      "valor": "+30 210 721 3039",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, endereço e contatos",
+      "consultadoEm": "2026-08-27"
+    },
+    "telefoneConsular": {
+      "valor": "+30 210 721 3039, ramal 1",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, setor consular",
+      "consultadoEm": "2026-08-27"
+    },
+    "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "emailGeral": {
+      "valor": "brasemb.atenas@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, endereço e contatos",
+      "consultadoEm": "2026-08-27"
+    },
+    "emailConsular": {
+      "valor": "consular.atenas@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, setor consular",
+      "consultadoEm": "2026-08-27"
+    },
+    "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "jurisdicao": {
+      "valor": "Toda a Grécia — único posto brasileiro no país; a Embaixada acumula a função de setor consular.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — rede de repartições brasileiras na Grécia",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-atenas",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-27",
+    "observacoes": "Fax institucional: +30 210 724 4731. Horário de atendimento presencial e telefone de plantão para emergências não constavam nas páginas oficiais consultadas — confirme no sítio oficial antes da viagem."
+  }
+]

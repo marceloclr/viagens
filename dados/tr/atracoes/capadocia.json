@@ -1,0 +1,176 @@
+[
+  {
+    "id": "cap_museu_ceu_aberto_goreme",
+    "cidadeId": "capadocia",
+    "nome": "Museu a Céu Aberto de Göreme",
+    "zona": "goreme_centro",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Aydınlı, Müze Cd. No:1, 50180 Göreme/Nevşehir, Turquia",
+    "desc": "Complexo monástico bizantino escavado na rocha, com igrejas e capelas rupestres decoradas com afrescos dos séculos X a XII, patrimônio da UNESCO.",
+    "custo": {
+      "valor": 20,
+      "tipo": "CADASTRADO",
+      "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros; algumas capelas (como a Igreja das Sandálias/Karanlık Kilise) têm bilhete adicional não confirmado nesta pesquisa."
+    },
+    "horario": {
+      "valor": "Verão: 8h às 19h (última entrada 18h); inverno: 8h às 17h (última entrada 16h)",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (whichmuseum.com, visitcappadocia.com) cruzada com listagem oficial muze.gov.tr",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "arte"
+    ],
+    "prio": 92,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "cap_voo_balao",
+    "cidadeId": "capadocia",
+    "nome": "Voo de balão de ar quente sobre a Capadócia",
+    "zona": "goreme_vales",
+    "dur": 180,
+    "idadeMin": 6,
+    "fechado": [],
+    "endereco": "Decolagem em pontos próximos a Göreme, Nevşehir/Turquia (varia por operadora)",
+    "desc": "Passeio de balão ao amanhecer sobre os vales e chaminés de fada da Capadócia, atividade símbolo da região; inclui traslado, café da manhã e cerca de 1 hora de voo.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Preço extremamente variável por operadora, temporada e câmbio (fontes indicam faixa aproximada de 70 a 280 euros por pessoa em 2026); não há tarifa oficial única, por isso não foi registrado um valor específico."
+    },
+    "horario": {
+      "valor": "Voos ao amanhecer, sujeitos a cancelamento por condições climáticas",
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de operadoras de turismo da região (kapadokyaturufiyatlari.com e afins)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "aventura",
+      "fotografia",
+      "natureza"
+    ],
+    "prio": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  },
+  {
+    "id": "cap_castelo_uchisar",
+    "cidadeId": "capadocia",
+    "nome": "Castelo de Uçhisar",
+    "zona": "uchisar",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Uçhisar, 50240 Nevşehir, Turquia",
+    "desc": "Formação rochosa mais alta da região, esculpida com câmaras e túneis desde a Antiguidade, com vista panorâmica de 360° sobre os vales da Capadócia.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Administrado pela Prefeitura de Uçhisar (não pelo Ministério da Cultura); fontes divergem muito sobre o valor atual (de 10 a 400 TL conforme o ano da fonte), não foi possível confirmar preço confiável e atual."
+    },
+    "horario": {
+      "valor": "Aproximadamente 7h às 20h no verão; 8h às 17h no inverno",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (thetripverdict.com, gezibilen.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "fotografia",
+      "natureza"
+    ],
+    "prio": 78,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "cap_cidade_subterranea_derinkuyu",
+    "cidadeId": "capadocia",
+    "nome": "Cidade Subterrânea de Derinkuyu",
+    "zona": "derinkuyu",
+    "dur": 90,
+    "idadeMin": 6,
+    "fechado": [],
+    "endereco": "Derinkuyu, 50700 Nevşehir, Turquia",
+    "desc": "Maior cidade subterrânea escavada da Capadócia, com até oito níveis de profundidade, usada como refúgio por comunidades cristãs bizantinas.",
+    "custo": {
+      "valor": 13,
+      "tipo": "CADASTRADO",
+      "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros."
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "aventura"
+    ],
+    "prio": 82,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "cap_zelve_oren_yeri",
+    "cidadeId": "capadocia",
+    "nome": "Vale e Museu a Céu Aberto de Zelve",
+    "zona": "zelve",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Zelve Ören Yeri, 50240 Nevşehir, Turquia",
+    "desc": "Antigo vilarejo rupestre habitado até a década de 1950, com igrejas, casas e pombais escavados diretamente na rocha vulcânica.",
+    "custo": {
+      "valor": 12,
+      "tipo": "CADASTRADO",
+      "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros; bilhete combinado com outro sítio, conforme a fonte oficial."
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "natureza",
+      "aventura"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  }
+]

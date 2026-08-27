@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bari_sao_nicolau",
+    "cidadeId": "bari",
+    "nome": "Basílica de São Nicolau",
+    "zona": "bari_vecchia",
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 88,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Largo Abate Elia, 13, 70122 Bari BA, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Cripta com as relíquias de São Nicolau — encerramento espiritual natural na Puglia."
+  },
+  {
+    "id": "bari_vecchia",
+    "cidadeId": "bari",
+    "nome": "Bari Vecchia e as muralhas",
+    "zona": "bari_vecchia",
+    "cat": [
+      "cultura",
+      "gastronomia",
+      "fotografia"
+    ],
+    "prio": 66,
+    "dur": 105,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Strada Vallisa, 70122 Bari BA, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Ruas onde as orecchiette ainda são feitas na soleira das casas, com o passeio pelas muralhas sobre o Adriático."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "rotulos": {
+    "madrid": ["paseo_del_arte", "centro", "parque_del_oeste", "retiro", "chamartin"],
+    "barcelona": ["eixample", "gracia", "barri_gotic"],
+    "santiago_de_compostela": ["casco_historico"],
+    "sevilha": ["santa_cruz", "centro_historico", "parque_maria_luisa"],
+    "valencia": ["ciutat_vella", "ciutat_arts_ciencies"]
+  },
+  "coordenadas": {
+    "madrid": {
+      "paseo_del_arte": { "lat": 40.4139, "lon": -3.6923 },
+      "centro": { "lat": 40.4183, "lon": -3.7038 },
+      "parque_del_oeste": { "lat": 40.4300, "lon": -3.7228 },
+      "retiro": { "lat": 40.4153, "lon": -3.6844 },
+      "chamartin": { "lat": 40.4725, "lon": -3.6772 }
+    },
+    "barcelona": {
+      "eixample": { "lat": 41.3915, "lon": 2.1620 },
+      "gracia": { "lat": 41.4036, "lon": 2.1527 },
+      "barri_gotic": { "lat": 41.3833, "lon": 2.1765 }
+    },
+    "santiago_de_compostela": {
+      "casco_historico": { "lat": 42.8805, "lon": -8.5456 }
+    },
+    "sevilha": {
+      "santa_cruz": { "lat": 37.3860, "lon": -5.9902 },
+      "centro_historico": { "lat": 37.3891, "lon": -5.9926 },
+      "parque_maria_luisa": { "lat": 37.3752, "lon": -5.9873 }
+    },
+    "valencia": {
+      "ciutat_vella": { "lat": 39.4763, "lon": -0.3757 },
+      "ciutat_arts_ciencies": { "lat": 39.4544, "lon": -0.3529 }
+    }
+  }
+}

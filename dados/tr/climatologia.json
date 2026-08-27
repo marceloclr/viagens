@@ -1,0 +1,6 @@
+{
+  "istambul": { "mes": 11, "max": 16, "min": 10, "mm": 100, "diasChuva": 13 },
+  "efeso": { "mes": 11, "max": 19, "min": 14, "mm": 82, "diasChuva": 6 },
+  "capadocia": { "mes": 11, "max": 14, "min": 0, "mm": 38, "diasChuva": 9 },
+  "esmirna": { "mes": 11, "max": 18.4, "min": 10.7, "mm": 89, "diasChuva": 9 }
+}

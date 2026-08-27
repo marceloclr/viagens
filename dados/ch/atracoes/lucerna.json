@@ -1,0 +1,238 @@
+[
+  {
+    "id": "luc_kapellbrucke",
+    "cidadeId": "lucerna",
+    "nome": "Kapellbrücke (Ponte da Capela)",
+    "zona": "altstadt",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kapellbrücke, 6002 Luzern, Suíça",
+    "desc": "Ponte de madeira coberta do século XIV, a mais antiga da Europa, com pinturas históricas do século XVII e a Torre da Água (Wasserturm) ao lado.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Luzern.com - site oficial de turismo, atração pública sem bilheteria",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Aberta ao público permanentemente (passagem pedestre)",
+      "tipo": "CADASTRADO",
+      "fonte": "Luzern.com - site oficial de turismo",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "luc_lowendenkmal",
+    "cidadeId": "lucerna",
+    "nome": "Löwendenkmal (Monumento do Leão)",
+    "zona": "lowenplatz",
+    "dur": 20,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Denkmalstrasse 4, 6006 Luzern, Suíça",
+    "desc": "Escultura em rocha de um leão moribundo, homenagem aos guardas suíços mortos na Revolução Francesa em 1792; Mark Twain a descreveu como o monumento mais triste e comovente do mundo.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias turísticos consolidados (Tripadvisor/Audiala), monumento público ao ar livre",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Acesso livre 24 horas, todos os dias",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias turísticos consolidados (Tripadvisor/Audiala)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "fotografia"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "luc_pilatus",
+    "cidadeId": "lucerna",
+    "nome": "Monte Pilatus (Golden Round Trip)",
+    "zona": "pilatus",
+    "dur": 300,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Partida em Lucerna (barco até Alpnachstad, trem cremalheira até Pilatus Kulm), 6010 Kriens, Suíça",
+    "desc": "Excursão clássica ao 'Monte Dragão' de Lucerna, combinando travessia de barco no Lago dos Quatro Cantões e a ferrovia de cremalheira mais íngreme do mundo até o topo, com vistas panorâmicas dos Alpes.",
+    "custo": {
+      "valor": 119.8,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial pilatus.ch/en/railway-cableways/prices (Golden Round Trip, 2ª classe barco e ônibus, sazonal maio-outubro)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Operação sazonal e sujeita a condições climáticas; horários variam por época do ano, consultar pilatus.ch",
+      "consultadoEm": null
+    },
+    "cat": [
+      "natureza",
+      "aventura",
+      "fotografia"
+    ],
+    "prio": 85,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "luc_hofkirche",
+    "cidadeId": "lucerna",
+    "nome": "Hofkirche St. Leodegar",
+    "zona": "altstadt",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "St.-Leodegar-Strasse 6, 6006 Luzern, Suíça",
+    "desc": "Principal igreja paroquial de Lucerna, referência da arquitetura renascentista suíça, reconstruída no século XVII sobre fundações de uma basílica românica.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias turísticos consolidados (Switzerland Tourism/Luzern.com); entrada gratuita com doações voluntárias",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "luc_verkehrshaus",
+    "cidadeId": "lucerna",
+    "nome": "Verkehrshaus der Schweiz (Museu Suíço de Transportes)",
+    "zona": "lido",
+    "dur": 150,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Lidostrasse 5, 6006 Luzern, Suíça",
+    "desc": "Maior museu de transportes da Suíça, com exposições interativas sobre trens, aviação, navegação e espaço, além de planetário e Aventura do Chocolate Suíço.",
+    "custo": {
+      "valor": 37,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial verkehrshaus.ch/en/your-visit/besuch-planen/prices-and-tickets",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "10h às 18h no verão, 10h às 17h no inverno; aberto 365 dias por ano",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial verkehrshaus.ch",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "familia",
+      "juvenil",
+      "museus"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "luc_rigi",
+    "cidadeId": "lucerna",
+    "nome": "Monte Rigi (Rainha das Montanhas)",
+    "zona": "rigi",
+    "dur": 300,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Partida em Vitznau ou Arth-Goldau via Rigi Bahnen, 6354 Vitznau, Suíça",
+    "desc": "Montanha panorâmica apelidada 'Rainha das Montanhas', acessível pela mais antiga ferrovia de montanha da Europa, com vistas dos Alpes e de vários lagos suíços.",
+    "custo": {
+      "valor": 84,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial rigi.ch/en/inform/prices (bilhete diário ida e volta)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horários de trem variam por estação; consultar rigi.ch",
+      "consultadoEm": null
+    },
+    "cat": [
+      "natureza",
+      "aventura",
+      "fotografia"
+    ],
+    "prio": 82,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "luc_museggmauer",
+    "cidadeId": "lucerna",
+    "nome": "Museggmauer (Muralha e Torres de Musegg)",
+    "zona": "altstadt",
+    "dur": 60,
+    "idadeMin": 6,
+    "fechado": [],
+    "endereco": "Musegg, 6004 Luzern, Suíça",
+    "desc": "Muralha medieval do século XIII de 870 metros, a mais longa preservada da Suíça, com torres visitáveis gratuitamente e vista sobre a Cidade Velha e o lago.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "myswitzerland.com - site oficial de turismo suíço",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "1º de abril a 1º de novembro, das 8h às 19h; fechada de 2 de novembro a 31 de março",
+      "tipo": "CADASTRADO",
+      "fonte": "myswitzerland.com - site oficial de turismo suíço",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 70,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

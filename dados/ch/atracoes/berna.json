@@ -1,0 +1,207 @@
+[
+  {
+    "id": "ber_zytglogge",
+    "cidadeId": "berna",
+    "nome": "Zytglogge (Torre do Relógio)",
+    "zona": "altstadt",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kramgasse/Zytglogge, 3011 Bern, Suíça",
+    "desc": "Torre medieval do relógio astronômico, um dos símbolos mais fotografados de Berna; visitas guiadas mostram o mecanismo interno e o autômato de bonecos.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Vista externa é gratuita; valor exato do tour guiado ao interior varia por operador (aprox. equivalente a USD 22, sem confirmação oficial em CHF)",
+      "consultadoEm": null
+    },
+    "horario": {
+      "valor": "Tour guiado diário às 14h30, de abril a outubro; de novembro a março, sob consulta",
+      "tipo": "CADASTRADO",
+      "fonte": "bern.com - site oficial de turismo (Tour of the Clock Tower)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 78,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": true
+  },
+  {
+    "id": "ber_munster",
+    "cidadeId": "berna",
+    "nome": "Berner Münster (Catedral de Berna, torre)",
+    "zona": "altstadt",
+    "dur": 60,
+    "idadeMin": 6,
+    "fechado": [],
+    "endereco": "Münsterplatz 1, 3011 Bern, Suíça",
+    "desc": "Maior e mais alta catedral gótica da Suíça, com torre de 100 metros e 344 degraus até o mirante; a entrada na igreja é gratuita.",
+    "custo": {
+      "valor": 5,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados citando site oficial bernermuenster.ch (entrada da torre)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Segunda a sábado 10h-17h, domingo 12h-17h; última entrada na torre às 16h30",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados citando site oficial bernermuenster.ch",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 80,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "ber_barengraben",
+    "cidadeId": "berna",
+    "nome": "BärenPark (Fosso dos Ursos)",
+    "zona": "altstadt",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Grosser Muristalden 6, 3006 Bern, Suíça",
+    "desc": "Parque ao ar livre à margem do rio Aare onde vivem os ursos-pardos, símbolo e mascote histórica da cidade de Berna desde sua fundação.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial tierpark-bern.ch/en/bearpark",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Acesso livre 24 horas; guardas presentes verão 9h-17h, inverno 11h-15h",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial tierpark-bern.ch/en/bearpark/opening-hours",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "natureza",
+      "familia",
+      "juvenil"
+    ],
+    "prio": 78,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "ber_bundeshaus",
+    "cidadeId": "berna",
+    "nome": "Bundeshaus (Palácio Federal / Parlamento Suíço)",
+    "zona": "altstadt",
+    "dur": 60,
+    "idadeMin": 10,
+    "fechado": [],
+    "endereco": "Bundesplatz 3, 3003 Bern, Suíça",
+    "desc": "Sede do governo e parlamento federal suíço, com cúpula central e salões que abrigam o Conselho Nacional e o Conselho dos Estados; visitas guiadas gratuitas quando o parlamento não está em sessão.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados (explorial.com/myswitzerland.com) citando gratuidade dos tours quando o parlamento não está em sessão, mediante reserva prévia",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Disponibilidade de tours depende do calendário de sessões parlamentares; reserva obrigatória com 2 dias de antecedência pelo site oficial",
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "cultura"
+    ],
+    "prio": 70,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  },
+  {
+    "id": "ber_einstein_museum",
+    "cidadeId": "berna",
+    "nome": "Einstein Museum (no Museu Histórico de Berna)",
+    "zona": "kirchenfeld",
+    "dur": 120,
+    "idadeMin": 8,
+    "fechado": [
+      1
+    ],
+    "endereco": "Helvetiaplatz 5, 3005 Bern, Suíça",
+    "desc": "Exposição dedicada à vida e obra de Albert Einstein, que viveu em Berna quando formulou a Teoria da Relatividade, integrada ao Museu Histórico da cidade.",
+    "custo": {
+      "valor": 18,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados (Trip.com/Tripadvisor) citando ingresso combinado Einstein Museum + Museu Histórico de Berna",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Terça a domingo, 10h às 17h; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados citando informações do Museu Histórico de Berna",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "museus",
+      "cultura"
+    ],
+    "prio": 68,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ber_rosengarten",
+    "cidadeId": "berna",
+    "nome": "Rosengarten (Jardim de Rosas)",
+    "zona": "kirchenfeld",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Alter Aargauerstalden 31b, 3006 Bern, Suíça",
+    "desc": "Parque panorâmico com cerca de 220 variedades de rosas, íris e rododendros, com um dos melhores mirantes sobre a Cidade Velha de Berna, Patrimônio Mundial da UNESCO.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "myswitzerland.com / bern.com - site oficial de turismo, acesso livre",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Acesso livre 24 horas, todos os dias",
+      "tipo": "CADASTRADO",
+      "fonte": "myswitzerland.com / bern.com - site oficial de turismo",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "natureza",
+      "fotografia",
+      "descanso"
+    ],
+    "prio": 72,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

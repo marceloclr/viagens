@@ -1,0 +1,157 @@
+[
+  {
+    "id": "es_valencia_catedral",
+    "cidadeId": "es_valencia",
+    "nome": "Catedral de Valência (Capela do Santo Cálice)",
+    "zona": "ciutat_vella",
+    "cat": ["religiao", "historia", "arquitetura"],
+    "prio": 92,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Plaza de la Reina, s/n, 46001 València, Espanha",
+    "horario": {
+      "valor": "Segunda a sexta 10h30–18h30; sábado 10h30–17h30; domingo 14h–17h30.",
+      "tipo": "CADASTRADO",
+      "fonte": "visitvalencia.com — página oficial de turismo de Valência, seção Catedral (horário e tarifas)",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 10,
+      "tipo": "CADASTRADO",
+      "fonte": "visitvalencia.com — bilhete geral adulto; bilhete reduzido € 6",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Capela do Santo Cálice, cálice medieval venerado pela tradição católica como o Santo Graal — o motivo original pelo qual Valência entrou na base como sugestão de turismo religioso."
+  },
+  {
+    "id": "es_valencia_lonja",
+    "cidadeId": "es_valencia",
+    "nome": "La Lonja de la Seda",
+    "zona": "ciutat_vella",
+    "cat": ["historia", "arquitetura", "cultura"],
+    "prio": 78,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Carrer de la Llotja, 2, 46001 València, Espanha",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Fontes turísticas divergem sobre o dia de fechamento semanal (algumas indicam segunda-feira fechada, outras aberto todos os dias) — não confirmado em fonte oficial no momento da consulta. Faixa geral relatada: segunda a sábado 10h–19h, domingos e feriados 10h–14h.",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 2,
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de guias oficiais de turismo de Valência — bilhete geral; gratuito aos domingos e feriados",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Antiga bolsa de mercadores de seda dos séculos XV–XVI, Patrimônio Mundial da UNESCO — um dos exemplares mais completos da arquitetura gótica civil da Europa."
+  },
+  {
+    "id": "es_valencia_ciudad_artes_ciencias",
+    "cidadeId": "es_valencia",
+    "nome": "Ciudad de las Artes y las Ciencias",
+    "zona": "ciutat_arts_ciencies",
+    "cat": ["familia", "arquitetura", "museus"],
+    "prio": 85,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Av. del Professor López Piñero, 7, 46013 València, Espanha",
+    "horario": {
+      "valor": "Complexo aberto das 10h às 21h; cada recinto (Oceanogràfic, Hemisfèric, Museu de las Ciències) tem horário próprio, variável por temporada.",
+      "tipo": "CADASTRADO",
+      "fonte": "visitvalencia.com / civitatis.com — horário geral do complexo",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Ingresso varia por recinto — de € 8,70 (Hemisfèric ou Museu de las Ciències) a € 34,70 (Oceanogràfic) — e por combinações de bilhetes; sem tarifa única a registrar.",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Complexo arquitetônico de Santiago Calatrava e Félix Candela, com aquário, planetário e museu de ciências — o marco moderno de Valência, contraponto ao centro histórico."
+  },
+  {
+    "id": "es_valencia_mercado_central",
+    "cidadeId": "es_valencia",
+    "nome": "Mercado Central",
+    "zona": "ciutat_vella",
+    "cat": ["gastronomia", "cultura", "compras"],
+    "prio": 74,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [0],
+    "endereco": "Plaza del Mercado, s/n, 46001 València, Espanha",
+    "horario": {
+      "valor": "Segunda a sábado, 7h30–15h; fechado aos domingos.",
+      "tipo": "CADASTRADO",
+      "fonte": "valencia.es — Infociudad, página oficial do Mercado Central",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso gratuito — mercado público municipal (valencia.es)",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": "https://www.mercadocentralvalencia.es",
+    "desc": "Um dos maiores mercados cobertos da Europa, referência do modernismo valenciano em ferro e vidro — parada gastronômica para produtos locais."
+  },
+  {
+    "id": "es_valencia_torres_serranos",
+    "cidadeId": "es_valencia",
+    "nome": "Torres de Serranos",
+    "zona": "ciutat_vella",
+    "cat": ["historia", "arquitetura", "fotografia"],
+    "prio": 70,
+    "dur": 45,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Plaza de los Fueros, s/n, 46003 València, Espanha",
+    "horario": {
+      "valor": "Segunda a sábado 10h–19h (acesso até 30 min antes do fechamento); domingos e feriados 10h–14h. Fechado em 1/1, 6/1, 1/5 e 25/12.",
+      "tipo": "CADASTRADO",
+      "fonte": "valencia.es — Infociudad, página oficial das Torres de Serranos",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 2,
+      "tipo": "CADASTRADO",
+      "fonte": "valencia.es — bilhete geral; reduzido € 1; gratuito aos domingos e feriados",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Antiga porta medieval da muralha da cidade, com terraços de onde se vê o Jardim do Turia e o centro histórico."
+  }
+]

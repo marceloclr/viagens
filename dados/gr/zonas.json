@@ -1,0 +1,10 @@
+{
+  "rotulos": {
+    "atenas": ["acropole_plaka"]
+  },
+  "coordenadas": {
+    "atenas": {
+      "acropole_plaka": { "lat": 37.9715, "lon": 23.7257 }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "h_paris_levant",
+    "cidadeId": "paris",
+    "nome": "Hôtel du Levant",
+    "categoria": "Hotel — Quartier Latin",
+    "zona": "quartier_latin",
+    "endereco": "18 Rue de la Harpe, 75005 Paris, França",
+    "nota": "Próximo a Saint-Michel; conveniente para o circuito Notre-Dame/Sainte-Chapelle.",
+    "fonte": "@ref:v12",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_paris_adagio",
+    "cidadeId": "paris",
+    "nome": "Aparthotel Adagio Paris Montmartre",
+    "categoria": "Apart-hotel — Montmartre",
+    "zona": "montmartre",
+    "endereco": "10 Place Charles Dullin, 75018 Paris, França",
+    "nota": "Opção com cozinha, adequada a família de três, junto ao Sacré-Cœur.",
+    "fonte": "@ref:v12",
+    "flag": "flag-alt"
+  }
+]

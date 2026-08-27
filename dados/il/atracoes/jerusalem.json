@@ -1,0 +1,277 @@
+[
+  {
+    "id": "jer_santo_sepulcro",
+    "cidadeId": "jerusalem",
+    "nome": "Igreja do Santo Sepulcro",
+    "zona": "cidade_velha",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Christian Quarter, Old City of Jerusalem",
+    "desc": "Local tradicionalmente identificado como o Calvário e o túmulo de Jesus Cristo, sob custódia compartilhada de várias igrejas cristãs. Aberta todos os dias do ano, sem necessidade de reserva.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://thechurchoftheholysepulchre.com/plan-your-visit/ (agregado de guias de visitantes; entrada gratuita confirmada em múltiplas fontes)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Verão (abr-set) 05:00-20:45; outubro 05:00-20:00; inverno (nov-fev) 04:00-19:00; março 04:00-19:30",
+      "tipo": "CADASTRADO",
+      "fonte": "https://thechurchoftheholysepulchre.com/plan-your-visit/",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 96,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_muro_lamentacoes",
+    "cidadeId": "jerusalem",
+    "nome": "Muro das Lamentações (Muro Ocidental)",
+    "zona": "cidade_velha",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Western Wall Plaza, Old City of Jerusalem",
+    "desc": "Sítio mais sagrado do judaísmo, remanescente do muro de sustentação do Segundo Templo. Aberto 24 horas, sem cobrança; áreas separadas para homens e mulheres, com exigência de cobrir ombros e joelhos.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (touristisrael.com, jerusalemtourism.org); entrada gratuita e acesso 24h confirmados em múltiplas fontes",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Aberto 24 horas, todos os dias",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (touristisrael.com, jerusalemtourism.org)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 96,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_cupula_rocha",
+    "cidadeId": "jerusalem",
+    "nome": "Cúpula da Rocha (Esplanada das Mesquitas / Monte do Templo)",
+    "zona": "cidade_velha",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [
+      5,
+      6
+    ],
+    "endereco": "Temple Mount / Haram al-Sharif, Old City of Jerusalem, acesso por Mughrabi Gate",
+    "desc": "Santuário islâmico do século VII sobre a Rocha Fundamental, marco arquitetônico da Cidade Velha. Não-muçulmanos podem circular pela esplanada e fotografar o exterior, mas não têm acesso ao interior da Cúpula ou da Mesquita Al-Aqsa; horário restrito a domingo-quinta, fechado em sextas, sábados e feriados muçulmanos.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (jerusalemtourism.org, earthtrekkers.com); acesso à esplanada gratuito para visitantes não-muçulmanos",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo a quinta, aprox. 07:30-10:30 e 12:30-13:30 no inverno (uma hora mais tarde no verão); fechado sexta, sábado e feriados muçulmanos",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (jerusalemtourism.org, earthtrekkers.com); horário sujeito a mudança sem aviso, recomenda-se confirmar no mesmo dia",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 92,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_via_dolorosa",
+    "cidadeId": "jerusalem",
+    "nome": "Via Dolorosa",
+    "zona": "cidade_velha",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Da Fortaleza Antônia até a Igreja do Santo Sepulcro, Cidade Velha de Jerusalém",
+    "desc": "Percurso de cerca de 600 metros tradicionalmente associado ao caminho de Jesus até a crucificação, marcado pelas 14 Estações da Cruz. Percurso livre e gratuito a qualquer hora; procissão franciscana gratuita ocorre às sextas-feiras à tarde.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (tektonministries.org, dolr.org); percurso público, sem cobrança",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 88,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_getsemani",
+    "cidadeId": "jerusalem",
+    "nome": "Getsêmani e Basílica da Agonia (Igreja de Todas as Nações)",
+    "zona": "monte_das_oliveiras",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Jericho Road, sopé do Monte das Oliveiras, Jerusalém",
+    "desc": "Jardim com oliveiras milenares e basílica franciscana que abriga a 'Rocha da Agonia', onde a tradição situa a oração de Jesus na noite de sua prisão.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.custodia.org/en/sanctuaries/gethsemane-basilica-agony/ (sítio oficial da Custódia da Terra Santa)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Verão (abr-set) 08:00-18:00; inverno (out-mar) 08:00-17:00",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.custodia.org/en/sanctuaries/gethsemane-basilica-agony/ (sítio oficial da Custódia da Terra Santa)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "natureza"
+    ],
+    "prio": 85,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_yad_vashem",
+    "cidadeId": "jerusalem",
+    "nome": "Yad Vashem — Centro Mundial de Memória do Holocausto",
+    "zona": "monte_herzl",
+    "dur": 150,
+    "idadeMin": 10,
+    "fechado": [],
+    "endereco": "Har HaZikaron, Jerusalém",
+    "desc": "Principal memorial e museu do Holocausto de Israel. Entrada gratuita, mas requer reserva prévia pelo sistema online oficial; não recomendado para menores de 10 anos na Sala de Exposição Histórica.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.yadvashem.org/visiting.html (informação agregada, confirmada por busca ao sítio oficial yadvashem.org)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo e quarta 09:00-16:00; terça 09:00-14:00; segunda e quinta 09:00-19:00; sexta e vésperas de feriado 09:00-13:00",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.yadvashem.org/visiting/opening-hours.html (informação agregada, confirmada por busca ao sítio oficial yadvashem.org)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "museus"
+    ],
+    "prio": 88,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_israel_museum",
+    "cidadeId": "jerusalem",
+    "nome": "Museu de Israel",
+    "zona": "givat_ram",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Ruppin Blvd, Jerusalém",
+    "desc": "Maior museu de Israel, com o Santuário do Livro (Manuscritos do Mar Morto) e vasto acervo de arqueologia e arte. Preço de referência para adultos e horários variam por dia da semana.",
+    "custo": {
+      "valor": 54,
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.imj.org.il/en/content/ticket-info (sítio oficial do Museu de Israel), valor em NIS para adulto",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo, segunda, quarta, quinta e sábado 10:00-17:00; terça 16:00-21:00; sexta e feriados 10:00-14:00",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.imj.org.il/en/content/visitor-information (sítio oficial do Museu de Israel)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "historia"
+    ],
+    "prio": 78,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "jer_mahane_yehuda",
+    "cidadeId": "jerusalem",
+    "nome": "Mercado Mahane Yehuda",
+    "zona": "cidade_nova",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [
+      6
+    ],
+    "endereco": "Mahane Yehuda St, Jerusalém",
+    "desc": "Mercado municipal tradicional com bancas de comida, especiarias e vida noturna gastronômica; sábado (Shabat) o mercado fecha, embora bares e restaurantes internos costumem funcionar.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://en.machne.co.il/ (sítio oficial do mercado); entrada livre, gastos apenas nas compras",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo a quinta 08:00-19:00; sexta 08:00-15:00 aprox.; fechado sábado",
+      "tipo": "CADASTRADO",
+      "fonte": "https://en.machne.co.il/ (sítio oficial do mercado)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "gastronomia",
+      "cultura",
+      "compras"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": false,
+    "reserva": false
+  }
+]

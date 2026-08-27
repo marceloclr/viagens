@@ -1,0 +1,6 @@
+{
+  "lisboa": { "mes": 11, "max": 17.5, "min": 12.5, "mm": 87, "diasChuva": 12 },
+  "porto": { "mes": 11, "max": 17, "min": 11, "mm": 163, "diasChuva": 15 },
+  "fatima": { "mes": 11, "max": 16.3, "min": 9.5, "mm": 58, "diasChuva": 12 },
+  "sintra": { "mes": 11, "max": 16.9, "min": 13, "mm": 96, "diasChuva": 13 }
+}

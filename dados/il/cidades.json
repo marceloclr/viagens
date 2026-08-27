@@ -1,0 +1,94 @@
+[
+  {
+    "id": "jerusalem",
+    "paisId": "il",
+    "nome": "Jerusalém",
+    "glifo": "🕍",
+    "lat": 31.7683,
+    "lon": 35.2137,
+    "curada": true,
+    "noitesMin": 2,
+    "noitesIdeal": 4,
+    "noitesMax": 7,
+    "perfil": {
+      "religiao": 100, "historia": 100, "cultura": 90, "arte": 70, "arquitetura": 90,
+      "gastronomia": 75, "museus": 85, "familia": 60, "juvenil": 55, "compras": 65,
+      "natureza": 25, "praias": 0, "aventura": 20, "fotografia": 95, "descanso": 30,
+      "romantico": 45, "esportes": 10
+    },
+    "transporteUrbano": "Light rail (Jerusalem Light Rail), ônibus urbanos e caminhada na Cidade Velha",
+    "aeroportos": ["tlv"],
+    "estacoes": [],
+    "bairrosBase": "Cidade Velha (bairros Cristão, Judeu, Armênio e Muçulmano), Cidade Nova, Yemin Moshe e Mahane Yehuda",
+    "resumo": "Epicentro religioso das três grandes fés monoteístas, com a Cidade Velha murada concentrando o Santo Sepulcro, o Muro das Lamentações e a Esplanada das Mesquitas num raio de poucos minutos a pé."
+  },
+  {
+    "id": "belem",
+    "paisId": "il",
+    "nome": "Belém",
+    "glifo": "⭐",
+    "lat": 31.7054,
+    "lon": 35.2024,
+    "curada": true,
+    "noitesMin": 0,
+    "noitesIdeal": 1,
+    "noitesMax": 2,
+    "perfil": {
+      "religiao": 100, "historia": 90, "cultura": 65, "arte": 50, "arquitetura": 75,
+      "gastronomia": 55, "museus": 30, "familia": 55, "juvenil": 30, "compras": 45,
+      "natureza": 15, "praias": 0, "aventura": 10, "fotografia": 80, "descanso": 20,
+      "romantico": 35, "esportes": 5
+    },
+    "transporteUrbano": "Táxi/van a partir de Jerusalém (checkpoint de Belém) e caminhada no centro histórico",
+    "aeroportos": ["tlv"],
+    "estacoes": [],
+    "bairrosBase": "Centro histórico ao redor da Praça da Manjedoura (Manger Square) e Beit Sahour",
+    "resumo": "Cidade natal tradicional de Jesus Cristo, administrada pela Autoridade Palestina na Cisjordânia; visitada tipicamente em excursão de um dia a partir de Jerusalém, concentrada na Igreja da Natividade e arredores."
+  },
+  {
+    "id": "nazare",
+    "paisId": "il",
+    "nome": "Nazaré",
+    "glifo": "✝️",
+    "lat": 32.7018,
+    "lon": 35.2973,
+    "curada": true,
+    "noitesMin": 0,
+    "noitesIdeal": 1,
+    "noitesMax": 2,
+    "perfil": {
+      "religiao": 100, "historia": 80, "cultura": 60, "arte": 45, "arquitetura": 65,
+      "gastronomia": 55, "museus": 25, "familia": 50, "juvenil": 25, "compras": 40,
+      "natureza": 20, "praias": 0, "aventura": 10, "fotografia": 70, "descanso": 20,
+      "romantico": 30, "esportes": 5
+    },
+    "transporteUrbano": "Ônibus regionais e caminhada no centro histórico (Cidade Baixa)",
+    "aeroportos": ["tlv"],
+    "estacoes": [],
+    "bairrosBase": "Cidade Baixa, ao redor da Basílica da Anunciação e do Souk (mercado antigo)",
+    "resumo": "Maior cidade árabe de Israel e local tradicional da Anunciação, hoje visitada sobretudo por peregrinos cristãos a caminho da Galileia, com forte comércio local no souk histórico."
+  },
+  {
+    "id": "tel_aviv",
+    "paisId": "il",
+    "nome": "Tel Aviv",
+    "glifo": "🏖️",
+    "lat": 32.0853,
+    "lon": 34.7818,
+    "curada": true,
+    "noitesMin": 2,
+    "noitesIdeal": 3,
+    "noitesMax": 6,
+    "perfil": {
+      "religiao": 20, "historia": 55, "cultura": 90, "arte": 85, "arquitetura": 85,
+      "gastronomia": 95, "museus": 75, "familia": 55, "juvenil": 95, "compras": 85,
+      "natureza": 30, "praias": 90, "aventura": 30, "fotografia": 85, "descanso": 65,
+      "romantico": 60, "esportes": 40
+    },
+    "transporteUrbano": "Ônibus urbanos, bicicletas compartilhadas (Tel-O-Fun) e caminhada na orla",
+    "aeroportos": ["tlv"],
+    "estacoes": [],
+    "bairrosBase": "Jaffa (Yafo), Neve Tzedek, Rothschild Boulevard e orla marítima (Tayelet)",
+    "resumo": "Cidade litorânea cosmopolita, com a arquitetura Bauhaus da 'Cidade Branca' (patrimônio da UNESCO), praias urbanas e a cidade portuária antiga de Jaffa contrastando com a vida noturna contemporânea."
+  }
+]

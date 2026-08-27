@@ -1,0 +1,106 @@
+[
+  {
+    "id": "cassino_montecassino",
+    "cidadeId": "cassino",
+    "nome": "Abadia de Montecassino",
+    "zona": "abadia",
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 97,
+    "dur": 180,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horário sujeito à vida monástica — verificar no sítio da Abadia",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Basílica e museu com regimes distintos",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.abbaziamontecassino.org",
+    "desc": "Túmulos de São Bento e Santa Escolástica, berço do monaquismo ocidental, reconstruída após a destruição de 1944. Subida de carro ou táxi."
+  },
+  {
+    "id": "cassino_cemiterio_polones",
+    "cidadeId": "cassino",
+    "nome": "Cemitério Militar Polonês",
+    "zona": "abadia",
+    "cat": [
+      "historia",
+      "juvenil"
+    ],
+    "prio": 68,
+    "dur": 45,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Encosta da Abadia, com o cemitério dos soldados poloneses de 1944 — leitura direta da batalha para quem se interessa por história militar."
+  },
+  {
+    "id": "cassino_museo_storico",
+    "cidadeId": "cassino",
+    "nome": "Museu Histórico de Montecassino",
+    "zona": "abadia",
+    "cat": [
+      "historia",
+      "museus",
+      "juvenil"
+    ],
+    "prio": 60,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "oficial": "https://www.abbaziamontecassino.org",
+    "desc": "Acervo do mosteiro e da destruição de 1944, no próprio conjunto da Abadia."
+  }
+]

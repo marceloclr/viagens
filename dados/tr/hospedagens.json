@@ -1,0 +1,68 @@
+[
+  {
+    "id": "h_ist_ibrahimpasha",
+    "cidadeId": "istambul",
+    "nome": "Hotel Ibrahim Pasha",
+    "categoria": "Hotel — Sultanahmet",
+    "zona": "sultanahmet",
+    "endereco": "Terzihane Sokak 7, Sultanahmet, 34122 Istambul, Turquia",
+    "nota": "Boutique bem avaliado a poucos minutos a pé da Mesquita Azul e da Hagia Sophia.",
+    "fonte": "Sítio oficial do hotel (ibrahimpasha.com)",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_ist_ajwa",
+    "cidadeId": "istambul",
+    "nome": "AJWA Sultanahmet",
+    "categoria": "Hotel — Sultanahmet",
+    "zona": "sultanahmet",
+    "endereco": "Emin Sinan Mahallesi, Piyerloti Caddesi No 30, 34126 Istambul, Turquia",
+    "nota": "Alternativa de categoria superior no mesmo bairro histórico, próxima ao Grande Bazar.",
+    "fonte": "ajwa.com.tr (sítio oficial)",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_efeso_nazar",
+    "cidadeId": "efeso",
+    "nome": "Nazar Hotel",
+    "categoria": "Hotel — Selçuk",
+    "zona": "selcuk_centro",
+    "endereco": "İsabey Mahallesi, Şehit Polis Metin Tavaslıoğlu Caddesi No:34, 35920 Selçuk, Turquia",
+    "nota": "Base tradicional em Selçuk, a curta distância de carro do sítio arqueológico de Éfeso.",
+    "fonte": "Booking.com (booking.com/hotel/tr/nazar.html)",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_cap_museum",
+    "cidadeId": "capadocia",
+    "nome": "Museum Hotel",
+    "categoria": "Hotel-caverna de luxo — Uçhisar",
+    "zona": "uchisar",
+    "endereco": "Tekelli Mahallesi No.1, Uçhisar, 50240 Nevşehir, Turquia",
+    "nota": "Hotel-caverna premiado, no ponto mais alto da Capadócia, com vista para o vale.",
+    "fonte": "Sítio oficial do hotel (museumhotel.com.tr)",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_cap_kelebek",
+    "cidadeId": "capadocia",
+    "nome": "Kelebek Special Cave Hotel & Spa",
+    "categoria": "Hotel-caverna — Göreme",
+    "zona": "goreme_centro",
+    "endereco": "Aydınlı Mahallesi, Yavuz Sokak No:1, 50180 Göreme, Nevşehir, Turquia",
+    "nota": "Alternativa em Göreme, mais central para explorar a pé as igrejas rupestres e o vale.",
+    "fonte": "Sítio oficial do hotel (kelebekhotel.com)",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_esm_key",
+    "cidadeId": "esmirna",
+    "nome": "Key Hotel",
+    "categoria": "Hotel — Konak",
+    "zona": "konak",
+    "endereco": "Mimar Kemalettin Caddesi No:1, Konak, 35260 Esmirna, Turquia",
+    "nota": "Boutique no coração de Konak, a pé dos principais pontos históricos e do bairro de Alsancak.",
+    "fonte": "Sítio oficial do hotel (keyhotel.com)",
+    "flag": "flag-best"
+  }
+]

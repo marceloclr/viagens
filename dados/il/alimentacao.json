@@ -1,0 +1,26 @@
+[
+  {
+    "cidadeId": "jerusalem",
+    "titulo": "Jerusalém — Mahane Yehuda e comida de rua",
+    "texto": "O Mercado de Mahane Yehuda concentra bancas de falafel, hummus e pão recheado a preço acessível, virando point noturno de bares depois do expediente. Muitos estabelecimentos seguem regras de kashrut e fecham do pôr do sol de sexta ao pôr do sol de sábado — checar antes de planejar o Shabat.",
+    "tags": ["street_food", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "belem",
+    "titulo": "Belém — cozinha palestina de bairro",
+    "texto": "Restaurantes familiares em torno da Praça da Manjedoura servem hummus, musakhan e knafeh — a sobremesa doce de queijo típica da cidade vizinha Nablus, mas presente em toda a região. Preços sensivelmente mais baixos que em Jerusalém, do outro lado do posto de fronteira.",
+    "tags": ["tradicional", "regional", "economica"]
+  },
+  {
+    "cidadeId": "nazare",
+    "titulo": "Nazaré — grelhados árabe-israelenses",
+    "texto": "A cidade tem forte população árabe-cristã, e a culinária reflete isso: grelhados mistos, saladas frescas e pães de forno de bairro, com preços mais baixos que os destinos turísticos do país. Doceria local para o knafeh de sobremesa.",
+    "tags": ["tradicional", "regional", "economica"]
+  },
+  {
+    "cidadeId": "tel_aviv",
+    "titulo": "Tel Aviv — Mercado Carmel e cena vegana",
+    "texto": "O Mercado Carmel oferece o melhor custo-benefício para comida de rua durante o dia; a cidade também tem uma das cenas veganas mais fortes do mundo, com opções concentradas na Rothschild Boulevard e em Florentin. Restaurantes de praia cobram mais caro pela vista.",
+    "tags": ["street_food", "vegana", "gastronomica"]
+  }
+]

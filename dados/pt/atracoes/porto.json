@@ -1,0 +1,265 @@
+[
+  {
+    "id": "por_livraria_lello",
+    "cidadeId": "porto",
+    "nome": "Livraria Lello",
+    "zona": "centro_historico",
+    "cat": [
+      "cultura",
+      "arquitetura",
+      "compras"
+    ],
+    "prio": 80,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Rua das Carmelitas, 144, 4050-161 Porto, Portugal",
+    "horario": {
+      "valor": "Diariamente, 9h–19h30. Fechado em 1º de janeiro, domingo de Páscoa, 1º de maio, 24 de junho e 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "livrarialello.pt/faqs — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "O sítio oficial informa que a entrada é um Ticket-Voucher descontável em compra de livros, mas não expõe o valor numérico fixo na página consultada",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://livrarialello.pt",
+    "desc": "Livraria neogótica de 1906, com escadaria vermelha emblemática, considerada uma das mais bonitas do mundo. Entrada por bilhete-voucher com hora marcada."
+  },
+  {
+    "id": "por_torre_clerigos",
+    "cidadeId": "porto",
+    "nome": "Torre dos Clérigos",
+    "zona": "centro_historico",
+    "cat": [
+      "arquitetura",
+      "fotografia",
+      "historia"
+    ],
+    "prio": 78,
+    "dur": 60,
+    "interior": true,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Rua de São Filipe de Nery, 4050-546 Porto, Portugal",
+    "horario": {
+      "valor": "Diariamente, 9h–19h (última entrada cerca de 30 min antes); extensão noturna 19h–23h na Páscoa e no verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico consultado por indisponibilidade de horário detalhado na página inicial oficial (fernandolopes.pt / tudosobreporto.com), coerente com torredosclerigos.pt",
+      "consultadoEm": "2026-08-26",
+      "nota": "Confirmar horário sazonal exato no sítio oficial antes da visita."
+    },
+    "custo": {
+      "valor": {
+        "entradaGeral": 8,
+        "visitaGuiada": 9.5,
+        "passeNoturno": 5
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico consultado por indisponibilidade de tarifário detalhado na página inicial oficial (fernandolopes.pt), coerente com torredosclerigos.pt",
+      "consultadoEm": "2026-08-26",
+      "nota": "Crianças até 10 anos costumam ter entrada gratuita; a igreja isoladamente tem acesso livre. Confirmar tarifário vigente no sítio oficial."
+    },
+    "oficial": "https://torredosclerigos.pt",
+    "desc": "Torre barroca de 1763, com 75 metros e 225 degraus, símbolo da cidade e um dos melhores miradouros do Porto."
+  },
+  {
+    "id": "por_palacio_bolsa",
+    "cidadeId": "porto",
+    "nome": "Palácio da Bolsa",
+    "zona": "ribeira",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 80,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Rua de Ferreira Borges, 4050-253 Porto, Portugal",
+    "horario": {
+      "valor": "Baixa época (novembro a março): diariamente, 9h–12h30 e 14h–17h30. Alta época: diariamente, 9h–18h30.",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico (tudosobreporto.com / agendaculturalporto.org) — sítio oficial palaciodabolsa.com não expôs horário estruturado na busca realizada",
+      "consultadoEm": "2026-08-26",
+      "nota": "Confirmar horário exato no sítio oficial antes da visita, já que só é possível visitar com guia em horários marcados."
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Buscas retornaram apenas a gratuidade para crianças até 12 anos; valor do bilhete adulto não confirmado em fonte oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.palaciodabolsa.com",
+    "desc": "Sede histórica da Associação Comercial do Porto, em estilo neoclássico, famosa pelo Salão Árabe. Visita apenas com guia, em grupos com horário marcado."
+  },
+  {
+    "id": "por_igreja_sao_francisco",
+    "cidadeId": "porto",
+    "nome": "Igreja de São Francisco",
+    "zona": "ribeira",
+    "cat": [
+      "religiao",
+      "arte",
+      "arquitetura"
+    ],
+    "prio": 82,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Rua do Infante D. Henrique, 4050-297 Porto, Portugal",
+    "horario": {
+      "valor": "1 de abril a 30 de setembro: 9h–20h. 1 de outubro a 31 de março: 9h–19h. Fechado em 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "porto.travel — Portal oficial de turismo do Porto",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto": 8,
+        "estudante": 6.5,
+        "crianca6a12": 2.5,
+        "ate5anos": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "porto.travel — Portal oficial de turismo do Porto",
+      "consultadoEm": "2026-08-26",
+      "nota": "Bilhete dá acesso à igreja, sacristia da Ordem Terceira, catacumbas e museu no piso superior."
+    },
+    "oficial": "https://porto.travel/san-francisco-church",
+    "desc": "Igreja gótica com interior de talha dourada barroca exuberante, incluindo a famosa Árvore de Jessé, e catacumbas no subsolo."
+  },
+  {
+    "id": "por_se_porto",
+    "cidadeId": "porto",
+    "nome": "Sé Catedral do Porto",
+    "zona": "centro_historico",
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 76,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Terreiro da Sé, 4050-573 Porto, Portugal",
+    "horario": {
+      "valor": "Igreja: abril a outubro, 9h–18h30; novembro a março, 9h–17h30. Claustros com horário de fecho 30 minutos antes.",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico (tudosobreporto.com / fernandolopes.pt), com contato citado da Diocese do Porto (+351 222 059 028)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Fonte secundária por falta de página oficial estruturada da Diocese; confirmar horário no local."
+    },
+    "custo": {
+      "valor": {
+        "catedral": 0,
+        "claustroCasaCabidoTorre": 3,
+        "ate10anos": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico (tudosobreporto.com / fernandolopes.pt), com contato citado da Diocese do Porto",
+      "consultadoEm": "2026-08-26",
+      "nota": "Entrada na catedral é gratuita; bilhete de 3 € dá acesso ao claustro gótico, Casa do Cabido e subida à torre. Fonte secundária — confirmar tarifário vigente."
+    },
+    "oficial": null,
+    "desc": "Catedral fortificada dos séculos XII–XIII, no ponto mais alto do centro histórico, com claustro gótico revestido de azulejos."
+  },
+  {
+    "id": "por_ponte_dom_luis",
+    "cidadeId": "porto",
+    "nome": "Ponte Dom Luís I e Ribeira",
+    "zona": "ribeira",
+    "cat": [
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 85,
+    "dur": 60,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Ponte Luiz I, 4050 Porto / Vila Nova de Gaia, Portugal",
+    "horario": {
+      "valor": "Acesso livre e permanente aos tabuleiros pedonais, a qualquer hora",
+      "tipo": "CADASTRADO",
+      "fonte": "Comissão Nacional da UNESCO Portugal e portais turísticos (audiala.com, viator.com) sobre a classificação como Patrimônio Mundial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Comissão Nacional da UNESCO Portugal e portais turísticos (audiala.com, viator.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": null,
+    "desc": "Ponte de ferro de 1886, projetada por discípulo de Gustave Eiffel, ligando a Ribeira (Porto) a Vila Nova de Gaia. Parte do Centro Histórico do Porto, Patrimônio Mundial da UNESCO desde 1996."
+  },
+  {
+    "id": "por_caves_vinho_porto",
+    "cidadeId": "porto",
+    "nome": "Caves do Vinho do Porto (Vila Nova de Gaia)",
+    "zona": "vila_nova_gaia",
+    "cat": [
+      "gastronomia",
+      "cultura"
+    ],
+    "prio": 82,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Avenida de Diogo Leite, 4400 Vila Nova de Gaia, Portugal",
+    "horario": {
+      "valor": "Março a outubro: 10h–12h30 e 14h–18h. Novembro a fevereiro: 9h30–12h30 e 14h–17h30 (horário de referência geral; varia conforme a cave visitada).",
+      "tipo": "CADASTRADO",
+      "fonte": "Câmara Municipal de Gaia (cm-gaia.pt) — Turismo, Caves de Vinho do Porto",
+      "consultadoEm": "2026-08-26",
+      "nota": "Cada cave (Cálem, Sandeman, Graham's, Ferreira, Taylor's, etc.) tem horário e reserva próprios."
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Preço varia por cave e tipo de visita (entre aproximadamente 6 € e 40 €, conforme número de provas incluídas) — sem tarifa única oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.cm-gaia.pt/pt/turismo/caves-de-vinho-do-porto/",
+    "desc": "Conjunto de caves centenárias em Vila Nova de Gaia onde o vinho do Porto envelhece em cascos de carvalho, com visitas guiadas e provas."
+  }
+]

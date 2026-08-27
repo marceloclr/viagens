@@ -1,0 +1,57 @@
+{
+  "rotulos": {
+    "paris": [
+      "ile_cite",
+      "quartier_latin",
+      "louvre_rivoli",
+      "eiffel_trocadero",
+      "montmartre",
+      "invalides",
+      "etoile",
+      "villette",
+      "le_bourget"
+    ],
+    "fr_lourdes": ["sanctuaire"],
+    "fr_lisieux": ["sanctuaire"]
+  },
+  "matriz": {
+    "paris": {
+      "ile_cite|quartier_latin": 8,
+      "ile_cite|louvre_rivoli": 14,
+      "ile_cite|eiffel_trocadero": 40,
+      "ile_cite|montmartre": 38,
+      "ile_cite|invalides": 30,
+      "ile_cite|etoile": 42,
+      "ile_cite|villette": 40,
+      "ile_cite|le_bourget": 55,
+      "quartier_latin|louvre_rivoli": 18,
+      "quartier_latin|eiffel_trocadero": 40,
+      "quartier_latin|montmartre": 42,
+      "quartier_latin|invalides": 28,
+      "quartier_latin|etoile": 45,
+      "quartier_latin|villette": 42,
+      "quartier_latin|le_bourget": 58,
+      "louvre_rivoli|eiffel_trocadero": 33,
+      "louvre_rivoli|montmartre": 30,
+      "louvre_rivoli|invalides": 25,
+      "louvre_rivoli|etoile": 30,
+      "louvre_rivoli|villette": 35,
+      "louvre_rivoli|le_bourget": 50,
+      "eiffel_trocadero|montmartre": 45,
+      "eiffel_trocadero|invalides": 18,
+      "eiffel_trocadero|etoile": 20,
+      "eiffel_trocadero|villette": 50,
+      "eiffel_trocadero|le_bourget": 60,
+      "montmartre|invalides": 45,
+      "montmartre|etoile": 32,
+      "montmartre|villette": 25,
+      "montmartre|le_bourget": 40,
+      "invalides|etoile": 25,
+      "invalides|villette": 45,
+      "invalides|le_bourget": 60,
+      "etoile|villette": 40,
+      "etoile|le_bourget": 50,
+      "villette|le_bourget": 28
+    }
+  }
+}

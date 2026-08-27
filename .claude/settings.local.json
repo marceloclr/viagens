@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sort -k6,7)",
+      "Bash(npm run *)"
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "efe_sitio_arqueologico",
+    "cidadeId": "efeso",
+    "nome": "Sítio Arqueológico de Éfeso",
+    "zona": "efes_oren_yeri",
+    "dur": 150,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Efes Örenyeri, Atatürk, 35920 Selçuk/İzmir, Turquia",
+    "desc": "Uma das cidades greco-romanas mais bem preservadas do Mediterrâneo, com a Biblioteca de Celso, o Grande Teatro e a Rua dos Curetes; local onde o apóstolo Paulo pregou aos efésios.",
+    "custo": {
+      "valor": 40,
+      "tipo": "CADASTRADO",
+      "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros (Efes Ören Yeri). Válido com Müzekart. As Casas em Terraço (Terrace Houses) têm ingresso separado, não confirmado nesta pesquisa."
+    },
+    "horario": {
+      "valor": "Verão (abril a outubro): 8h às 18h30; inverno (outubro a abril): 8h30 às 17h30",
+      "tipo": "CADASTRADO",
+      "fonte": "https://muze.gov.tr/muze-detay?DistId=EFS&SectionId=EFS01",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 95,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "efe_museu_efeso",
+    "cidadeId": "efeso",
+    "nome": "Museu de Éfeso (Selçuk)",
+    "zona": "selcuk_centro",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Uğur Mumcu Sevgi Yolu Caddesi, 35920 Selçuk/İzmir, Turquia",
+    "desc": "Acervo com artefatos escavados em Éfeso, incluindo as estátuas de Ártemis e objetos do dia a dia da cidade antiga.",
+    "custo": {
+      "valor": 10,
+      "tipo": "CADASTRADO",
+      "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros."
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "museus",
+      "arte"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "efe_casa_virgem_maria",
+    "cidadeId": "efeso",
+    "nome": "Casa da Virgem Maria (Meryem Ana Evi)",
+    "zona": "bulbul_dagi",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Bülbüldağı, 35920 Selçuk/İzmir, Turquia (a cerca de 9 km ao sul de Selçuk)",
+    "desc": "Casa de pedra num monte próximo a Éfeso, venerada por católicos e ortodoxos como o local onde a Virgem Maria teria vivido seus últimos anos; santuário reconhecido pela Igreja Católica e visitado por papas.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Fontes indicam histórico de 50 TL para adultos (dado de 2021, desatualizado por inflação); não foi possível confirmar valor atual em fonte confiável."
+    },
+    "horario": {
+      "valor": "Aproximadamente 8h às 18h (varia por fonte, do nascer ao pôr do sol)",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (ephesustravelguide.com, viator.com)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Horário aproximado; recomenda-se confirmação local, pois fontes divergem entre 17h e 18h para o fechamento."
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 85,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "efe_basilica_sao_joao",
+    "cidadeId": "efeso",
+    "nome": "Basílica de São João",
+    "zona": "selcuk_centro",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Ayasuluk Tepesi, St. Jean Cd., 35920 Selçuk/İzmir, Turquia",
+    "desc": "Ruínas de uma basílica bizantina do século VI erguida sobre o túmulo tradicional do apóstolo João Evangelista, no monte Ayasuluk ao lado do castelo de Selçuk.",
+    "custo": {
+      "valor": 6,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (getyourguide.com / travellingtrekker.com)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros; o ingresso costuma incluir também a Fortaleza de Ayasuluk (Selçuk Castle)."
+    },
+    "horario": {
+      "valor": "Verão (abril a outubro): 8h às 19h; inverno (novembro a março): 8h às 17h",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "efe_templo_artemis",
+    "cidadeId": "efeso",
+    "nome": "Templo de Ártemis",
+    "zona": "selcuk_centro",
+    "dur": 20,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kuşadası Cd., 35920 Selçuk/İzmir, Turquia",
+    "desc": "Sítio remanescente de uma das Sete Maravilhas do Mundo Antigo; hoje resta apenas uma coluna solitária reconstruída em meio a um brejo, mas o valor histórico e bíblico do local permanece alto (mencionado em Atos dos Apóstolos).",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de fontes turísticas: sítio aberto e gratuito, sem estrutura de bilheteria",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Espaço aberto ao ar livre, sem controle formal de horário confirmado em fonte oficial."
+    },
+    "cat": [
+      "historia",
+      "religiao"
+    ],
+    "prio": 60,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "efe_sirince",
+    "cidadeId": "efeso",
+    "nome": "Vila de Şirince",
+    "zona": "sirince",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Şirince, 35921 Selçuk/İzmir, Turquia (a cerca de 12 km de Selçuk)",
+    "desc": "Antiga vila grega otomana nas colinas, com casas de pedra, ruelas estreitas, produção local de vinhos de frutas e uma igreja ortodoxa histórica.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de fontes turísticas: acesso livre à vila (custos apenas em compras/degustações)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Vila aberta continuamente; lojas e restaurantes têm horários próprios não centralizados."
+    },
+    "cat": [
+      "cultura",
+      "gastronomia",
+      "natureza"
+    ],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

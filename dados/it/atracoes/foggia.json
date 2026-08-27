@@ -1,0 +1,95 @@
+[
+  {
+    "id": "foggia_cattedrale",
+    "cidadeId": "foggia",
+    "nome": "Cattedrale di Foggia",
+    "zona": "centro",
+    "cat": ["religiao", "historia", "arquitetura"],
+    "prio": 60,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza De Sanctis, 71121 Foggia, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Igreja de acesso público e gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Catedral românico-pugliese de 1170, reconstruída em estilo barroco após o terremoto de 1731 — a parada mais rápida para quem tem só algumas horas em Foggia entre um trem e outro."
+  },
+  {
+    "id": "foggia_villa_comunale",
+    "cidadeId": "foggia",
+    "nome": "Villa Comunale (Parco Karol Wojtyla)",
+    "zona": "centro",
+    "cat": ["natureza", "descanso", "familia"],
+    "prio": 45,
+    "dur": 30,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza Cavour, 71121 Foggia, Itália",
+    "horario": {
+      "valor": "Jardim público de acesso livre, sem bilheteria.",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias de turismo da Puglia (turismo.puglia.it)",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso público gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Um dos maiores parques públicos do sul da Itália, com pórtico de 28 colunas na entrada pela Piazza Cavour — opção de descanso rápido para quem só passa por Foggia a caminho do Gargano."
+  },
+  {
+    "id": "foggia_fontana_sele",
+    "cidadeId": "foggia",
+    "nome": "Fontana del Sele",
+    "zona": "centro",
+    "cat": ["fotografia", "historia"],
+    "prio": 30,
+    "dur": 15,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza Vittorio Emanuele II, 71121 Foggia, Itália",
+    "horario": {
+      "valor": "Praça pública, acesso livre a qualquer hora.",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias de turismo da Puglia",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso público gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Fonte histórica em forma de estrela-do-mar, lembrança de quando o aqueduto do rio Sele abastecia a cidade — parada de cinco minutos entre a Catedral e a estação."
+  }
+]

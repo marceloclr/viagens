@@ -1,0 +1,269 @@
+[
+  {
+    "id": "br_emb_berna",
+    "paisId": "ch",
+    "cidade": "Berna",
+    "tipo": "embaixada",
+    "nomeOficial": "Embaixada do Brasil em Berna",
+    "endereco": {
+      "valor": "Monbijoustrasse 68, 3007 Bern, Suíça",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Embaixada do Brasil em Berna",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": "+41 31 371 85 15",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Embaixada do Brasil em Berna",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "brasemb.berna@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Embaixada do Brasil em Berna",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioAtendimento": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Jurisdição diplomática sobre toda a Suíça e o Liechtenstein; o atendimento consular ao público é dividido entre os Consulados-Gerais em Genebra e Zurique.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — rede de repartições brasileiras na Suíça",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-berna",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "A Embaixada do Brasil em Berna não possui setor consular; atendimento consular é feito pelos Consulados-Gerais em Genebra ou Zurique."
+  },
+  {
+    "id": "br_cg_genebra",
+    "paisId": "ch",
+    "cidade": "Genebra",
+    "tipo": "consulado",
+    "nomeOficial": "Consulado-Geral do Brasil em Genebra",
+    "endereco": {
+      "valor": "Rue du Pré-de-la-Bichette 1, 1er étage, 1202 Genève, Suíça",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": "+41 22 906 9420",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneConsular": {
+      "valor": "+41 79 830 3556",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefonePlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappGeral": {
+      "valor": "+41 22 906 9420",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra (WhatsApp para informações gerais, exclusivo para brasileiros ou portadores de RNM válido)",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "cg.genebra@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioAtendimento": {
+      "valor": "Segunda a sexta-feira, das 9h às 12h, mediante agendamento eletrônico",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Cantões de Genebra, Friburgo, Jura, Neuchâtel, Valais e Vaud.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Genebra, jurisdição",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/consulado-genebra",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "Agendamento eletrônico obrigatório via https://ec-genebra.itamaraty.gov.br"
+  },
+  {
+    "id": "br_cg_zurique",
+    "paisId": "ch",
+    "cidade": "Zurique",
+    "tipo": "consulado",
+    "nomeOficial": "Consulado-Geral do Brasil em Zurique",
+    "endereco": {
+      "valor": "Stampfenbachstrasse 138, 8006 Zürich, Suíça",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Zurique",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": "+41 44 206 9020",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Zurique",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": "+41 79 742 5300",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Zurique (emergências: prisão, acidente grave, morte ou catástrofe natural)",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "geral.cgzurique@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Zurique",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailConsular": {
+      "valor": "vistos.cgzurique@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Zurique",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioAtendimento": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Cantões suíços de expressão alemã e italiana — Argóvia, Appenzell Exterior, Appenzell Interior, Basileia-Cidade, Basileia-Campo, Berna, Glarus, Grisões, Lucerna, Nidwalden, Obwalden, Sankt Gallen, Schaffhausen, Schwyz, Solothurn, Turgóvia, Ticino, Uri, Zurique e Zug — além do Principado de Liechtenstein.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Zurique, jurisdição",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/consulado-zurique",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "Atendimento exclusivamente mediante agendamento prévio pelo sistema e-Consular. O contato de plantão é de uso exclusivo para emergências (acidente, óbito, prisão, hospitalização, desastre natural), não para trâmites consulares de rotina."
+  }
+]

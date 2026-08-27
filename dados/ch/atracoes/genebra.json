@@ -1,0 +1,277 @@
+[
+  {
+    "id": "gen_jet_deau",
+    "cidadeId": "genebra",
+    "nome": "Jet d'Eau",
+    "zona": "rade",
+    "dur": 20,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Quai Gustave-Ador, 1207 Genève, Suíça",
+    "desc": "Chafariz monumental de 140 metros de altura no lago Léman, símbolo máximo da cidade de Genebra.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Ville de Genève - site oficial (geneve.ch/jet-eau-geneve)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Funcionamento sujeito a condições climáticas (vento/frio); horários variam e devem ser confirmados no site da SIG",
+      "consultadoEm": null
+    },
+    "cat": [
+      "fotografia",
+      "natureza"
+    ],
+    "prio": 70,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "gen_cathedrale_saint_pierre",
+    "cidadeId": "genebra",
+    "nome": "Cathédrale Saint-Pierre (torres e sítio arqueológico)",
+    "zona": "vieille_ville",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Cour de Saint-Pierre 6, 1204 Genève, Suíça",
+    "desc": "Catedral gótica que foi centro da Reforma Calvinista; a entrada na igreja é livre, mas a subida às torres e o sítio arqueológico são pagos.",
+    "custo": {
+      "valor": 5,
+      "tipo": "CADASTRADO",
+      "fonte": "Reportagem consolidada de guias turísticos (Rehlat/USNews) citando tarifa das torres em CHF; valor não confirmado no site oficial saintpierre-geneve.ch (indisponível no momento da consulta)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Igreja: seg-sáb 10h-17h30, dom 12h-17h30 (verão até 18h); horário das torres pode variar por estação",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias turísticos consolidados (USNews/Rehlat); site oficial saintpierre-geneve.ch estava indisponível (erro 503) no momento da consulta",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "gen_musee_reforme",
+    "cidadeId": "genebra",
+    "nome": "Musée International de la Réforme (MIR)",
+    "zona": "vieille_ville",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Rue du Cloître 4, 1204 Genève, Suíça",
+    "desc": "Museu dedicado à história da Reforma Protestante, com forte ligação a Calvino e à identidade religiosa de Genebra.",
+    "custo": {
+      "valor": 8,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial do museu (musee-reforme.ch/informations-pratiques)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Terça a domingo, 10h às 17h (fechado às segundas)",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial do museu (musee-reforme.ch/informations-pratiques)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "religiao",
+      "museus"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "gen_palais_nations",
+    "cidadeId": "genebra",
+    "nome": "Palais des Nations (sede da ONU em Genebra)",
+    "zona": "nations",
+    "dur": 90,
+    "idadeMin": 6,
+    "fechado": [],
+    "endereco": "Avenue de la Paix 14, 1211 Genève, Suíça",
+    "desc": "Sede europeia da ONU; visitas guiadas de cerca de uma hora percorrem salas de conferência e o histórico complexo diplomático internacional de Genebra.",
+    "custo": {
+      "valor": 25,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial ungeneva.org/en/visit",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sítio oficial informa apenas que datas são liberadas mensalmente para reserva online, sem horário fixo publicado; visitas limitadas por obras de renovação",
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "cultura"
+    ],
+    "prio": 72,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  },
+  {
+    "id": "gen_patek_philippe",
+    "cidadeId": "genebra",
+    "nome": "Patek Philippe Museum",
+    "zona": "plainpalais",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [
+      0,
+      1
+    ],
+    "endereco": "Rue des Vieux-Grenadiers 7, 1205 Genève, Suíça",
+    "desc": "Museu dedicado à relojoaria genebrina de alta precisão, com coleções históricas do fabricante Patek Philippe.",
+    "custo": {
+      "valor": 10,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial patek.com/en/museum/plan-your-visit",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Terça a sexta 14h-18h, sábado 10h-18h; fechado domingo e segunda",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial patek.com/en/museum/plan-your-visit",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "cultura",
+      "museus"
+    ],
+    "prio": 55,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "gen_mur_reformateurs",
+    "cidadeId": "genebra",
+    "nome": "Mur des Réformateurs (Monumento Internacional da Reforma)",
+    "zona": "vieille_ville",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Promenade des Bastions, 1204 Genève, Suíça",
+    "desc": "Muro monumental de 100 metros com estátuas de 5 metros de Calvino, Farel, Bèze e Knox, erguido em 1917 no Parc des Bastions.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Ville de Genève - site oficial (geneve.ch/reformateurs), monumento público ao ar livre sem bilheteria",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "religiao",
+      "fotografia"
+    ],
+    "prio": 65,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "gen_musee_art_histoire",
+    "cidadeId": "genebra",
+    "nome": "Musée d'art et d'histoire (MAH)",
+    "zona": "eaux_vives",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Rue Charles-Galland 2, 1206 Genève, Suíça",
+    "desc": "Maior museu de belas-artes e arqueologia da Suíça, com acervo de pintura, artes decorativas e antiguidades.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial da rede de museus de Genebra (mahmah.ch/visite/tarifs-reservations) - entrada a preço livre",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 68,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "gen_horloge_fleurie",
+    "cidadeId": "genebra",
+    "nome": "Horloge Fleurie (Jardin Anglais)",
+    "zona": "rade",
+    "dur": 15,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Jardin Anglais, Quai du Général-Guisan, 1204 Genève, Suíça",
+    "desc": "Relógio floral símbolo da tradição relojoeira de Genebra, com cerca de 6.500 plantas e o maior ponteiro de segundos do mundo.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Geneve.com - Genève Tourisme, atração ao ar livre de acesso livre",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "fotografia",
+      "natureza"
+    ],
+    "prio": 60,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

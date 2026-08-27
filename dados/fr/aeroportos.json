@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ory",
+    "cidadeId": "paris",
+    "codigo": "ORY",
+    "nome": "Aeroporto de Paris-Orly",
+    "endereco": "Aéroport d’Orly, 94390 Paray-Vieille-Poste, França",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "cdg",
+    "cidadeId": "paris",
+    "codigo": "CDG",
+    "nome": "Aeroporto Paris Charles de Gaulle",
+    "endereco": "95700 Roissy-en-France, França",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "lde",
+    "cidadeId": "fr_lourdes",
+    "codigo": "LDE",
+    "nome": "Aeroporto de Tarbes-Lourdes-Pyrénées",
+    "endereco": "65290 Juillan, França",
+    "fonte": "Wikipédia (verificado contra o sítio oficial tlp.aeroport.fr) — código IATA LDE, ICAO LFBT, consultado em 2026-08-27"
+  }
+]

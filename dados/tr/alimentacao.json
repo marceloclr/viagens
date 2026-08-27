@@ -1,0 +1,26 @@
+[
+  {
+    "cidadeId": "istambul",
+    "titulo": "Istambul — balık ekmek e mercado de Kadıköy",
+    "texto": "O balık ekmek (sanduíche de peixe grelhado) vendido nos barcos de Eminönü é a referência de comida de rua barata à beira do Bósforo. Do lado asiático, o mercado de Kadıköy reúne lokantas tradicionais com preço mais justo que o lado europeu turístico.",
+    "tags": ["street_food", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "efeso",
+    "titulo": "Éfeso (Selçuk) — grelhados e gözleme de bairro",
+    "texto": "A cidade-base de Selçuk vive da visita às ruínas: lokantas familiares servem ocakbaşı (grelhados) e gözleme (panqueca recheada) a preço bem mais baixo que restaurantes voltados a excursões. Mercado local aos sábados para produtos frescos.",
+    "tags": ["regional", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "capadocia",
+    "titulo": "Capadócia — testi kebab em restaurante de caverna",
+    "texto": "O testi kebab, cozido e servido dentro de um pote de barro quebrado à mesa, é a experiência gastronômica típica da região, geralmente em restaurantes escavados na rocha em Göreme ou Ürgüp. Meze variados de mesa completam a refeição a preço moderado.",
+    "tags": ["regional", "tradicional", "gastronomica"]
+  },
+  {
+    "cidadeId": "esmirna",
+    "titulo": "Esmirna (İzmir) — Kordon e mercado de Kemeraltı",
+    "texto": "O kumru (sanduíche local com linguiça, queijo e tomate) é a referência de rua da cidade, vendido em bancas por toda a orla (Kordon). O mercado histórico de Kemeraltı reúne lokantas tradicionais a preço bem mais baixo que os restaurantes de frente para o mar.",
+    "tags": ["street_food", "regional", "tradicional"]
+  }
+]

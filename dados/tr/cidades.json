@@ -1,0 +1,117 @@
+[
+  {
+    "id": "istambul",
+    "paisId": "tr",
+    "nome": "Istambul",
+    "glifo": "🕌",
+    "lat": 41.0082,
+    "lon": 28.9784,
+    "curada": true,
+    "noitesMin": 2,
+    "noitesIdeal": 4,
+    "noitesMax": 7,
+    "perfil": {
+      "religiao": 95, "historia": 100, "cultura": 95, "arte": 80, "arquitetura": 100,
+      "gastronomia": 90, "museus": 90, "familia": 70, "juvenil": 75, "compras": 90,
+      "natureza": 25, "praias": 10, "aventura": 20, "fotografia": 95, "descanso": 40,
+      "romantico": 75, "esportes": 20
+    },
+    "transporteUrbano": "Metrô, tram (T1), funicular, ferryboat pelo Bósforo e caminhada",
+    "aeroportos": ["ist", "saw"],
+    "estacoes": [],
+    "bairrosBase": "Sultanahmet, Beyoğlu/Taksim e arredores da Praça Taksim",
+    "resumo": "Cruzamento histórico entre Europa e Ásia, com mesquitas imperiais, cisternas bizantinas e o maior mercado coberto do mundo — eixo forte de religião, história e arquitetura otomana e bizantina."
+  },
+  {
+    "id": "efeso",
+    "paisId": "tr",
+    "nome": "Éfeso (Selçuk)",
+    "glifo": "🏛️",
+    "lat": 37.9505,
+    "lon": 27.3695,
+    "curada": true,
+    "noitesMin": 1,
+    "noitesIdeal": 2,
+    "noitesMax": 3,
+    "perfil": {
+      "religiao": 100, "historia": 100, "cultura": 80, "arte": 60, "arquitetura": 90,
+      "gastronomia": 55, "museus": 70, "familia": 60, "juvenil": 40, "compras": 30,
+      "natureza": 40, "praias": 15, "aventura": 15, "fotografia": 85, "descanso": 45,
+      "romantico": 50, "esportes": 10
+    },
+    "transporteUrbano": "Táxi, dolmuş (van compartilhada) e caminhada no sítio arqueológico",
+    "aeroportos": ["adb"],
+    "estacoes": [],
+    "bairrosBase": "Centro de Selçuk, próximo à estação de trem e ao castelo de Ayasuluk",
+    "resumo": "Base para visitar as ruínas de Éfeso, a Casa da Virgem Maria e a Basílica de São João — um dos eixos bíblicos e arqueológicos mais densos da Turquia."
+  },
+  {
+    "id": "capadocia",
+    "paisId": "tr",
+    "nome": "Capadócia (Göreme)",
+    "glifo": "🎈",
+    "lat": 38.6431,
+    "lon": 34.8286,
+    "curada": true,
+    "noitesMin": 2,
+    "noitesIdeal": 3,
+    "noitesMax": 5,
+    "perfil": {
+      "religiao": 55, "historia": 75, "cultura": 65, "arte": 55, "arquitetura": 60,
+      "gastronomia": 55, "museus": 50, "familia": 55, "juvenil": 60, "compras": 35,
+      "natureza": 95, "praias": 0, "aventura": 85, "fotografia": 100, "descanso": 60,
+      "romantico": 85, "esportes": 30
+    },
+    "transporteUrbano": "Vans de tour, quadriciclo/ATV, ônibus locais (dolmuş) e caminhada",
+    "aeroportos": ["nav", "asr"],
+    "estacoes": [],
+    "bairrosBase": "Centro de Göreme, próximo ao terminal de ônibus e às cavas de fada",
+    "resumo": "Paisagem vulcânica de chaminés de fada, mosteiros rupestres bizantinos e cidades subterrâneas, famosa pelos voos de balão ao amanhecer."
+  },
+  {
+    "id": "esmirna",
+    "paisId": "tr",
+    "nome": "Esmirna (Izmir)",
+    "glifo": "⚓",
+    "lat": 38.4192,
+    "lon": 27.1287,
+    "curada": true,
+    "noitesMin": 1,
+    "noitesIdeal": 2,
+    "noitesMax": 3,
+    "perfil": {
+      "religiao": 60, "historia": 80, "cultura": 70, "arte": 55, "arquitetura": 65,
+      "gastronomia": 80, "museus": 55, "familia": 55, "juvenil": 65, "compras": 70,
+      "natureza": 35, "praias": 40, "aventura": 20, "fotografia": 65, "descanso": 55,
+      "romantico": 55, "esportes": 20
+    },
+    "transporteUrbano": "Metrô, tram, ferryboat (vapur) pela baía e caminhada",
+    "aeroportos": ["adb"],
+    "estacoes": [],
+    "bairrosBase": "Konak e Alsancak, à beira da baía de Esmirna",
+    "resumo": "Antiga Smyrna, uma das Sete Igrejas do Apocalipse, hoje cidade portuária moderna com ágora romana, bazar histórico e vida à beira-mar."
+  },
+  {
+    "id": "tr_ancara",
+    "paisId": "tr",
+    "nome": "Ancara",
+    "glifo": "🏛️",
+    "lat": 39.9334,
+    "lon": 32.8597,
+    "curada": true,
+    "noitesMin": 1,
+    "noitesIdeal": 1,
+    "noitesMax": 2,
+    "perfil": {
+      "religiao": 40, "historia": 95, "cultura": 80, "arte": 55, "arquitetura": 75,
+      "gastronomia": 60, "museus": 90, "familia": 55, "juvenil": 50, "compras": 45,
+      "natureza": 25, "praias": 0, "aventura": 15, "fotografia": 75, "descanso": 35,
+      "romantico": 30, "esportes": 15
+    },
+    "transporteUrbano": "Metrô (Ankaray e linhas M1-M4), ônibus municipal (EGO) e caminhada nas áreas centrais de Ulus e Kızılay",
+    "aeroportos": ["esb"],
+    "estacoes": ["ankara_gari"],
+    "bairrosBase": "Kızılay e Çankaya (hubs modernos, hospedagem); Ulus para o centro histórico e os museus",
+    "resumo": "Capital da Turquia e sede do governo, com o mausoléu de Atatürk (Anıtkabir), um dos museus de arqueologia mais premiados da Anatólia e a cidadela otomana de Ulus. Perfil mais administrativo e histórico que religioso nesta base — cadastrada também como nó terrestre de conexão (trem de alta velocidade YHT e ônibus) para o interior do país."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "cidadeId": "roma",
+    "titulo": "Roma — comer fora do eixo turístico",
+    "texto": "Almoço rápido de pizza al taglio ou tavola calda em Prati e Monti; jantar em trattoria de bairro no Rione Monti, no Celio ou em Trastevere. Evitar o entorno imediato de Trevi, Navona e Piazza San Pietro, onde o preço sobe e a qualidade cai.",
+    "tags": [
+      "economica",
+      "tradicional",
+      "regional"
+    ]
+  },
+  {
+    "cidadeId": "cassino",
+    "titulo": "Cassino — cozinha familiar do Lácio meridional",
+    "texto": "Restaurantes familiares no centro, evitando os estabelecimentos de beira de estrada. Massas frescas e cozinha ciociara.",
+    "tags": [
+      "tradicional",
+      "regional",
+      "economica"
+    ]
+  },
+  {
+    "cidadeId": "monte_santangelo",
+    "titulo": "Gargano — rosticceria ao meio-dia",
+    "texto": "Rosticceria ou panificio no almoço; à noite, cozinha pugliese com orecchiette, caciocavallo e produtos do Gargano.",
+    "tags": [
+      "regional",
+      "tradicional",
+      "economica"
+    ]
+  },
+  {
+    "cidadeId": "san_giovanni_rotondo",
+    "titulo": "San Giovanni Rotondo — trattoria de bairro",
+    "texto": "A oferta em torno do santuário é volumosa e desigual. Afastar-se duas ou três ruas melhora consideravelmente a relação entre preço e qualidade.",
+    "tags": [
+      "economica",
+      "tradicional"
+    ]
+  },
+  {
+    "cidadeId": "bari",
+    "titulo": "Bari — orecchiette e frutos do mar",
+    "texto": "Bari Vecchia para massa fresca artesanal; a orla para peixe. Aperitivo no fim da tarde resolve boa parte do jantar.",
+    "tags": [
+      "regional",
+      "gastronomica",
+      "tradicional"
+    ]
+  },
+  {
+    "cidadeId": "napoli",
+    "titulo": "Nápoles — pizza e street food",
+    "texto": "Pizzarias históricas do Centro Storico e street food de rua; excelente relação custo-benefício.",
+    "tags": [
+      "economica",
+      "street_food",
+      "regional"
+    ]
+  },
+  {
+    "cidadeId": "foggia",
+    "titulo": "Foggia — parada funcional",
+    "texto": "Cidade de passagem: refeição simples junto à estação antes de seguir ao Gargano.",
+    "tags": [
+      "economica"
+    ]
+  }
+]

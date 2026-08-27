@@ -1,0 +1,157 @@
+[
+  {
+    "id": "atenas_acropole",
+    "cidadeId": "atenas",
+    "nome": "Acrópole e Partenon",
+    "zona": "acropole_plaka",
+    "cat": ["historia", "arquitetura", "cultura", "fotografia"],
+    "prio": 96,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Acropolis Hill, Atenas 105 58, Grécia",
+    "horario": {
+      "valor": "Verão (1/4–31/10): 8h–20h, última entrada 19h30. Inverno (1/11–31/3): 8h–17h, última entrada 16h30.",
+      "tipo": "CADASTRADO",
+      "fonte": "Bilheteria oficial da Acrópole (athensacropolis.gr / páginas de turismo oficiais de Atenas)",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 20,
+      "tipo": "CADASTRADO",
+      "fonte": "Bilheteria oficial da Acrópole — tarifa cheia de abril a outubro (€ 10 de novembro a março)",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "O Partenon e o platô da Acrópole, símbolo da Atenas clássica — reserve entrada com horário marcado, a fila cresce rápido no meio da manhã."
+  },
+  {
+    "id": "atenas_agora_antiga",
+    "cidadeId": "atenas",
+    "nome": "Ágora Antiga",
+    "zona": "acropole_plaka",
+    "cat": ["historia", "arquitetura", "cultura"],
+    "prio": 80,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Entrada por Adrianou, próximo à estação de metrô Thissio, Atenas, Grécia",
+    "horario": {
+      "valor": "Verão (1/4–31/10): 8h–20h. Horário reduzido no inverno.",
+      "tipo": "CADASTRADO",
+      "fonte": "Páginas oficiais de turismo de Atenas / Ministério da Cultura da Grécia",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 20,
+      "tipo": "CADASTRADO",
+      "fonte": "Bilheteria oficial — inclui o Museu da Ágora na Stoa de Átalos",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Praça pública da Atenas clássica, onde Sócrates ensinava — a Stoa de Átalos reconstruída abriga o museu do sítio."
+  },
+  {
+    "id": "atenas_areopago",
+    "cidadeId": "atenas",
+    "nome": "Areópago (Colina de Marte)",
+    "zona": "acropole_plaka",
+    "cat": ["religiao", "historia", "fotografia"],
+    "prio": 85,
+    "dur": 30,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Areios Pagos, junto à entrada da Acrópole, Atenas, Grécia",
+    "horario": {
+      "valor": "Acesso livre, 24 horas, todos os dias — sítio ao ar livre sem bilheteria.",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias oficiais de turismo de Atenas",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso público gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Rocha onde o apóstolo Paulo pregou aos atenienses o \"Deus desconhecido\" (Atos 17) — pedra escorregadia, use calçado com boa aderência."
+  },
+  {
+    "id": "atenas_museu_arqueologico",
+    "cidadeId": "atenas",
+    "nome": "Museu Arqueológico Nacional",
+    "zona": "acropole_plaka",
+    "cat": ["museus", "historia", "cultura"],
+    "prio": 75,
+    "dur": 120,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "44 Rua 28 de Outubro (Patission), Atenas 106 82, Grécia",
+    "horario": {
+      "valor": "Alta temporada (mai–nov): quarta a segunda 8h–20h, terça 13h–20h. Baixa temporada (nov–mar): segunda 13h–17h, terça a domingo 8h30–16h.",
+      "tipo": "CADASTRADO",
+      "fonte": "namuseum.gr — sítio oficial do Museu Arqueológico Nacional de Atenas",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 12,
+      "tipo": "CADASTRADO",
+      "fonte": "namuseum.gr — tarifa cheia de abril a outubro (€ 6 de novembro a março; gratuito para cidadãos da UE até 25 anos)",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": "https://www.namuseum.gr/en/",
+    "desc": "O maior acervo arqueológico da Grécia — máscara de Agamêmnon e o mecanismo de Antikythera entre as peças mais conhecidas."
+  },
+  {
+    "id": "atenas_plaka",
+    "cidadeId": "atenas",
+    "nome": "Bairro de Plaka",
+    "zona": "acropole_plaka",
+    "cat": ["cultura", "gastronomia", "compras", "fotografia"],
+    "prio": 70,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Plaka, aos pés da Acrópole, Atenas, Grécia",
+    "horario": {
+      "valor": "Bairro aberto 24 horas — ruas de pedestres, sem horário de funcionamento.",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias oficiais de turismo de Atenas",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Passeio de acesso livre pelas ruas históricas",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "O bairro mais antigo de Atenas, com mais de 3 mil anos de ocupação contínua — ruas de pedestres, arquitetura neoclássica e vista para a Acrópole."
+  }
+]

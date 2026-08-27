@@ -1,0 +1,34 @@
+{
+  "rotulos": {
+    "istambul": ["sultanahmet", "beyazit", "vefa", "edirnekapi", "besiktas"],
+    "efeso": ["selcuk_centro", "efes_oren_yeri", "bulbul_dagi", "sirince"],
+    "capadocia": ["goreme_centro", "goreme_vales", "uchisar", "derinkuyu", "zelve"],
+    "esmirna": ["konak", "namazgah"]
+  },
+  "coordenadas": {
+    "istambul": {
+      "sultanahmet": { "lat": 41.0055, "lon": 28.9769 },
+      "beyazit": { "lat": 41.0106, "lon": 28.9639 },
+      "vefa": { "lat": 41.0157, "lon": 28.9569 },
+      "edirnekapi": { "lat": 41.0311, "lon": 28.9391 },
+      "besiktas": { "lat": 41.0422, "lon": 29.0061 }
+    },
+    "efeso": {
+      "selcuk_centro": { "lat": 37.9500, "lon": 27.3667 },
+      "efes_oren_yeri": { "lat": 37.9412, "lon": 27.3416 },
+      "bulbul_dagi": { "lat": 37.9186, "lon": 27.3348 },
+      "sirince": { "lat": 37.9394, "lon": 27.4142 }
+    },
+    "capadocia": {
+      "goreme_centro": { "lat": 38.6431, "lon": 34.8289 },
+      "goreme_vales": { "lat": 38.6500, "lon": 34.8400 },
+      "uchisar": { "lat": 38.6317, "lon": 34.8106 },
+      "derinkuyu": { "lat": 38.3728, "lon": 34.7350 },
+      "zelve": { "lat": 38.6642, "lon": 34.8531 }
+    },
+    "esmirna": {
+      "konak": { "lat": 38.4189, "lon": 27.1287 },
+      "namazgah": { "lat": 38.4297, "lon": 27.1367 }
+    }
+  }
+}

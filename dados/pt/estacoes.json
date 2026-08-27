@@ -1,0 +1,23 @@
+[
+  {
+    "id": "oriente",
+    "cidadeId": "lisboa",
+    "nome": "Estação de Lisboa-Oriente",
+    "endereco": "Edifício Gare do Oriente, Av. D. João II, 1900-233 Lisboa, Portugal",
+    "fonte": "CP — Comboios de Portugal, cp.pt/passageiros/pt/consultar-horarios/estacoes/lisboa-oriente (consultado via busca em 2026-08-26)"
+  },
+  {
+    "id": "sao_bento",
+    "cidadeId": "porto",
+    "nome": "Estação de Porto-São Bento",
+    "endereco": "Praça de Almeida Garrett, 4000-069 Porto, Portugal",
+    "fonte": "CP — Comboios de Portugal, cp.pt/passageiros/pt/consultar-horarios/estacoes/porto-sao-bento (consultado via busca em 2026-08-26)"
+  },
+  {
+    "id": "sintra",
+    "cidadeId": "sintra",
+    "nome": "Estação de Sintra",
+    "endereco": "Av. Dr. Miguel Bombarda, 2710-590 Sintra, Portugal",
+    "fonte": "CP — Comboios de Portugal, cp.pt/passageiros/pt/consultar-horarios/estacoes/sintra (consultado via busca em 2026-08-26)"
+  }
+]

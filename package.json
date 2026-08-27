@@ -1,0 +1,15 @@
+{
+  "name": "gerador-roteiros",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Sistema inteligente de planejamento e geração de roteiros — curadoria em dados/, motor em src/, distribuição em dist/.",
+  "scripts": {
+    "validar": "node tools/validar-base.mjs",
+    "build": "node tools/validar-base.mjs && node tools/build.mjs",
+    "testar": "node tools/testar.cjs dist/Gerador_Roteiros_v2.html",
+    "conferir": "node tools/conferir-build.mjs origem_fase3.html dist/Gerador_Roteiros_v2.html",
+    "tudo": "npm run build && npm run conferir && npm run testar",
+    "servir": "python3 -m http.server 8080"
+  }
+}

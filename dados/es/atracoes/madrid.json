@@ -1,0 +1,275 @@
+[
+  {
+    "id": "mad_museo_prado",
+    "cidadeId": "madrid",
+    "nome": "Museu do Prado",
+    "zona": "paseo_del_arte",
+    "dur": 150,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "C. de Ruiz de Alarcón, 23, 28014 Madrid, Espanha",
+    "desc": "Principal museu de belas artes da Espanha, com acervo de Velázquez, Goya, Ticiano e Bosch.",
+    "custo": {
+      "valor": 15,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial de venda de entradas do Museu do Prado (entradas.museodelprado.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Seg-sáb 10h-20h; dom e feriados 10h-19h; fechado em 1/jan, 1/mai e 25/dez",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial do Museu do Prado",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 96,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "mad_palacio_real",
+    "cidadeId": "madrid",
+    "nome": "Palácio Real de Madrid",
+    "zona": "centro",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Calle de Bailén, s/n, 28071 Madrid, Espanha",
+    "desc": "Residência oficial da Coroa espanhola, usada apenas em cerimônias de Estado, com salões suntuosos abertos à visitação.",
+    "custo": {
+      "valor": 18,
+      "tipo": "CADASTRADO",
+      "fonte": "Patrimonio Nacional — tickets.patrimonionacional.es (tarifa básica)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Seg-sáb 10h-18h; dom 10h-16h; fechado em 1 e 6/jan, 24, 25, 26 e 31/dez",
+      "tipo": "CADASTRADO",
+      "fonte": "Patrimonio Nacional — tickets.patrimonionacional.es",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 88,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "mad_reina_sofia",
+    "cidadeId": "madrid",
+    "nome": "Museu Reina Sofía",
+    "zona": "paseo_del_arte",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [
+      2
+    ],
+    "endereco": "Calle de Santa Isabel, 52, 28012 Madrid, Espanha",
+    "desc": "Museu de arte moderna e contemporânea espanhola, abriga o Guernica de Picasso.",
+    "custo": {
+      "valor": 12,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial do Museu Reina Sofía (museoreinasofia.es/visita/horarios-tarifas)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Seg e qua-sáb 10h-21h; dom 10h-14h30; fechado às terças",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial do Museu Reina Sofía",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 88,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "mad_templo_debod",
+    "cidadeId": "madrid",
+    "nome": "Templo de Debod",
+    "zona": "parque_del_oeste",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Calle Ferraz, 1, 28008 Madrid, Espanha",
+    "desc": "Templo egípcio do século II a.C. doado à Espanha, remontado em Madrid com vista para o pôr do sol.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Ayuntamiento de Madrid — página oficial do Templo de Debod (madrid.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Ter-dom, inverno 10h-20h e verão (15/jun-15/set) 10h-19h; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "Ayuntamiento de Madrid — página oficial do Templo de Debod (madrid.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "fotografia"
+    ],
+    "prio": 70,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "mad_plaza_mayor",
+    "cidadeId": "madrid",
+    "nome": "Plaza Mayor e Puerta del Sol",
+    "zona": "centro",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Plaza Mayor, 28012 Madrid, Espanha",
+    "desc": "Praça porticada do século XVI, coração histórico de Madrid, a poucos passos do Km 0 da Puerta del Sol.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Espaço público de acesso livre, verificado via páginas oficiais de turismo de Madrid (visitmadrid.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "gastronomia"
+    ],
+    "prio": 78,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "mad_catedral_almudena",
+    "cidadeId": "madrid",
+    "nome": "Catedral de la Almudena",
+    "zona": "centro",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Calle de Bailén, 10, 28013 Madrid, Espanha",
+    "desc": "Catedral católica de Madrid, ao lado do Palácio Real, com museu e cripta neorromânica visitáveis.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial catedraldelaalmudena.es (entrada sem cobrança, donativo voluntário de 1€)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Set-jun: seg-sex 9h30-20h, sáb 9h-19h30, dom/feriados 9h-20h30; jul-ago até 21h",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial catedraldelaalmudena.es",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "mad_parque_retiro",
+    "cidadeId": "madrid",
+    "nome": "Parque do Retiro",
+    "zona": "retiro",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Plaza de la Independencia, 7, 28001 Madrid, Espanha",
+    "desc": "Antigo jardim real do século XVII, com o Palácio de Cristal e o lago principal, hoje o maior parque urbano do centro de Madrid.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Ayuntamiento de Madrid — página oficial dos Jardines de El Buen Retiro (madrid.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Abr-set 6h-24h; out-mar 6h-22h",
+      "tipo": "CADASTRADO",
+      "fonte": "Ayuntamiento de Madrid — página oficial dos Jardines de El Buen Retiro (madrid.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "natureza",
+      "descanso",
+      "familia"
+    ],
+    "prio": 82,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "mad_bernabeu",
+    "cidadeId": "madrid",
+    "nome": "Tour Santiago Bernabéu",
+    "zona": "chamartin",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Av. de Concha Espina, 1, 28036 Madrid, Espanha",
+    "desc": "Visita autoguiada ao estádio e museu do Real Madrid, incluindo os vestiários e o gramado.",
+    "custo": {
+      "valor": 35,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial do Real Madrid — realmadrid.com/es-ES/tour-bernabeu (entrada Classic)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Seg-sáb 9h-19h; dom e feriados 9h30-18h30 (variável em dias de jogo)",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial do Real Madrid — realmadrid.com/es-ES/tour-bernabeu",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "esportes",
+      "juvenil"
+    ],
+    "prio": 80,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": true,
+    "familia": false,
+    "reserva": true
+  }
+]

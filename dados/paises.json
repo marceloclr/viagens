@@ -1,0 +1,65 @@
+{
+  "it": {
+    "id": "it",
+    "nome": "Itália",
+    "bandeira": "🇮🇹",
+    "moeda": "EUR",
+    "idioma": "italiano"
+  },
+  "fr": {
+    "id": "fr",
+    "nome": "França",
+    "bandeira": "🇫🇷",
+    "moeda": "EUR",
+    "idioma": "francês"
+  },
+  "br": {
+    "id": "br",
+    "nome": "Brasil",
+    "bandeira": "🇧🇷",
+    "moeda": "BRL",
+    "idioma": "português"
+  },
+  "pt": {
+    "id": "pt",
+    "nome": "Portugal",
+    "bandeira": "🇵🇹",
+    "moeda": "EUR",
+    "idioma": "português"
+  },
+  "es": {
+    "id": "es",
+    "nome": "Espanha",
+    "bandeira": "🇪🇸",
+    "moeda": "EUR",
+    "idioma": "espanhol"
+  },
+  "ch": {
+    "id": "ch",
+    "nome": "Suíça",
+    "bandeira": "🇨🇭",
+    "moeda": "CHF",
+    "idioma": "alemão, francês e italiano"
+  },
+  "il": {
+    "id": "il",
+    "nome": "Israel",
+    "bandeira": "🇮🇱",
+    "moeda": "ILS",
+    "idioma": "hebraico"
+  },
+  "tr": {
+    "id": "tr",
+    "nome": "Turquia",
+    "bandeira": "🇹🇷",
+    "moeda": "TRY",
+    "idioma": "turco"
+  },
+  "gr": {
+    "id": "gr",
+    "nome": "Grécia",
+    "bandeira": "🇬🇷",
+    "moeda": "EUR",
+    "idioma": "grego"
+  }
+}

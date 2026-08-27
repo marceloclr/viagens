@@ -1,0 +1,207 @@
+[
+  {
+    "id": "bar_sagrada_familia",
+    "cidadeId": "barcelona",
+    "nome": "Basílica da Sagrada Família",
+    "zona": "eixample",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Carrer de Mallorca, 401, 08013 Barcelona, Espanha",
+    "desc": "Basílica inacabada de Antoni Gaudí, obra-prima do modernismo catalão e Patrimônio da Humanidade.",
+    "custo": {
+      "valor": 26,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial sagradafamilia.org/en/tickets (entrada básica com audioguia)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Variável por estação: nov-fev 9h-18h; mar e out 9h-19h; abr-set 9h-20h",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial sagradafamilia.org",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 98,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  },
+  {
+    "id": "bar_park_guell",
+    "cidadeId": "barcelona",
+    "nome": "Park Güell",
+    "zona": "gracia",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "08024 Barcelona, Espanha",
+    "desc": "Parque público projetado por Gaudí, com mosaicos de trencadís e vista panorâmica da cidade.",
+    "custo": {
+      "valor": 18,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial parkguell.barcelona/en/planning-your-visit/prices-and-times",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Variável por estação, entre 9h30 e 20h30 conforme período do ano",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial parkguell.barcelona",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arquitetura",
+      "natureza",
+      "fotografia"
+    ],
+    "prio": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": true
+  },
+  {
+    "id": "bar_casa_batllo",
+    "cidadeId": "barcelona",
+    "nome": "Casa Batlló",
+    "zona": "eixample",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Passeig de Gràcia, 43, 08007 Barcelona, Espanha",
+    "desc": "Edifício modernista reformado por Gaudí, com fachada ondulada inspirada em formas orgânicas.",
+    "custo": {
+      "valor": 25,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial casabatllo.es/en/online-tickets (entrada básica, valor variável por demanda)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Diariamente 9h-20h15 (última entrada 19h15)",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial casabatllo.es",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 85,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  },
+  {
+    "id": "bar_catedral",
+    "cidadeId": "barcelona",
+    "nome": "Catedral de Barcelona (Santa Eulàlia)",
+    "zona": "barri_gotic",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Pla de la Seu, 3, 08002 Barcelona, Espanha",
+    "desc": "Catedral gótica do século XIV, sede da arquidiocese de Barcelona, com claustro de acesso gratuito.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial catedralbcn.org/es/visita-turistica/horarios-visita-turistica (templo e claustro gratuitos; extras 3-7€)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Seg-sex 9h30-18h30; sáb 9h30-17h15; dom e feriados 14h-17h",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial catedralbcn.org",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 78,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "bar_museu_picasso",
+    "cidadeId": "barcelona",
+    "nome": "Museu Picasso",
+    "zona": "barri_gotic",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Carrer de Montcada, 15-23, 08003 Barcelona, Espanha",
+    "desc": "Um dos maiores acervos do mundo dedicado à obra de Pablo Picasso, com foco em seus anos de formação.",
+    "custo": {
+      "valor": 11,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "14 out-13 abr: ter-dom 10h-19h; 15 abr-12 out: ter/qua/dom 9h-20h, qui-sáb 9h-21h; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial museupicassobcn.cat",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 85,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  },
+  {
+    "id": "bar_barri_gotic",
+    "cidadeId": "barcelona",
+    "nome": "Barri Gòtic e Las Ramblas",
+    "zona": "barri_gotic",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Barri Gòtic, 08002 Barcelona, Espanha",
+    "desc": "Bairro medieval erguido sobre a antiga colônia romana de Barcino, ligado pela avenida Las Ramblas ao Porto Antigo.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Passeio público de acesso livre pelas ruas históricas, verificado via guias oficiais de turismo de Barcelona",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "fotografia"
+    ],
+    "prio": 80,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

@@ -1,0 +1,20 @@
+[
+  { "nome": "Lisboa", "paisId": "pt", "lat": 38.7223, "lon": -9.1393 },
+  { "nome": "Porto", "paisId": "pt", "lat": 41.1579, "lon": -8.6291 },
+  { "nome": "Fátima", "paisId": "pt", "lat": 39.6086, "lon": -8.6720 },
+  { "nome": "Madrid", "paisId": "es", "lat": 40.4168, "lon": -3.7038 },
+  { "nome": "Barcelona", "paisId": "es", "lat": 41.3874, "lon": 2.1686 },
+  { "nome": "Santiago de Compostela", "paisId": "es", "lat": 42.8782, "lon": -8.5448 },
+  { "nome": "Sevilha", "paisId": "es", "lat": 37.3891, "lon": -5.9845 },
+  { "nome": "Genebra", "paisId": "ch", "lat": 46.2044, "lon": 6.1432 },
+  { "nome": "Zurique", "paisId": "ch", "lat": 47.3769, "lon": 8.5417 },
+  { "nome": "Lucerna", "paisId": "ch", "lat": 47.0502, "lon": 8.3093 },
+  { "nome": "Jerusalém", "paisId": "il", "lat": 31.7683, "lon": 35.2137 },
+  { "nome": "Tel Aviv", "paisId": "il", "lat": 32.0853, "lon": 34.7818 },
+  { "nome": "Nazaré", "paisId": "il", "lat": 32.7018, "lon": 35.2973 },
+  { "nome": "Belém", "paisId": "il", "lat": 31.7054, "lon": 35.2024 },
+  { "nome": "Istambul", "paisId": "tr", "lat": 41.0082, "lon": 28.9784 },
+  { "nome": "Ancara", "paisId": "tr", "lat": 39.9334, "lon": 32.8597 },
+  { "nome": "Cappadocia", "paisId": "tr", "lat": 38.6431, "lon": 34.8289 },
+  { "nome": "Esmirna", "paisId": "tr", "lat": 38.4237, "lon": 27.1428 }
+]

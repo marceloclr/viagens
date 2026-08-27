@@ -1,0 +1,139 @@
+[
+  {
+    "id": "sdc_catedral",
+    "cidadeId": "santiago_de_compostela",
+    "nome": "Catedral de Santiago de Compostela",
+    "zona": "casco_historico",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Praza do Obradoiro, s/n, 15704 Santiago de Compostela, Espanha",
+    "desc": "Destino final do Caminho de Santiago, sepultura do Apóstolo Tiago e um dos maiores santuários da cristandade.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Informação turística oficial de Santiago (santiago.es/que-ver/catedral) — acesso às naves e ao túmulo do Apóstolo é gratuito; Museu, Pórtico da Glória e coberturas são pagos à parte",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Acesso livre às naves e ao túmulo do Apóstolo diariamente das 7h às 21h (sábados de verão até 20h30)",
+      "tipo": "CADASTRADO",
+      "fonte": "Informação turística oficial de Santiago (santiago.es/que-ver/catedral)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 97,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "sdc_museo_peregrinacions",
+    "cidadeId": "santiago_de_compostela",
+    "nome": "Museo das Peregrinacións e de Santiago",
+    "zona": "casco_historico",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Praza das Praterías, s/n, 15704 Santiago de Compostela, Espanha",
+    "desc": "Museu público (Xunta de Galicia) dedicado à história das peregrinações e do Caminho de Santiago.",
+    "custo": {
+      "valor": 2.4,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial museoperegrinacions.xunta.gal/es/visita/informacion",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Ter-sex 9h30-20h30; sáb 11h-19h30; dom e feriados 10h15-14h45; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial museoperegrinacions.xunta.gal",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "religiao"
+    ],
+    "prio": 68,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "sdc_praza_obradoiro",
+    "cidadeId": "santiago_de_compostela",
+    "nome": "Praza do Obradoiro e Pazo de Raxoi",
+    "zona": "casco_historico",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Praza do Obradoiro, 15705 Santiago de Compostela, Espanha",
+    "desc": "Praça monumental em frente à Catedral, ladeada pelo neoclássico Pazo de Raxoi (sede da Câmara Municipal), o Hostal dos Reis Católicos e o Colégio de San Xerome.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Espaço público de acesso livre, verificado via Turismo de Galicia (turismo.gal)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 82,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "sdc_san_martino_pinario",
+    "cidadeId": "santiago_de_compostela",
+    "nome": "Mosteiro de San Martiño Pinario",
+    "zona": "casco_historico",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Praza da Inmaculada, 3, 15704 Santiago de Compostela, Espanha",
+    "desc": "Grande mosteiro beneditino barroco, um dos maiores da Espanha, com igreja e museu visitáveis.",
+    "custo": {
+      "valor": 4,
+      "tipo": "CADASTRADO",
+      "fonte": "Turismo de Galicia (turismo.gal) — valor de referência para visita guiada",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "10h-20h, exceto terças (10h-15h)",
+      "tipo": "CADASTRADO",
+      "fonte": "Turismo de Galicia (turismo.gal)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  }
+]

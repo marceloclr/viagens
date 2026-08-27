@@ -1,0 +1,23 @@
+{
+  "aeroportos": [
+    {
+      "id": "for",
+      "codigo": "FOR",
+      "cidadeNome": "Fortaleza",
+      "nome": "Aeroporto Internacional de Fortaleza — Pinto Martins",
+      "endereco": "Av. Senador Carlos Jereissati, 3000, Serrinha, Fortaleza - CE, 60741-900",
+      "fonte": "https://aeroportodefortaleza.com/ — sítio oficial do Aeroporto Internacional de Fortaleza (Pinto Martins)",
+      "consultadoEm": "2026-08-26"
+    },
+    {
+      "id": "gru",
+      "codigo": "GRU",
+      "cidadeNome": "São Paulo",
+      "nome": "Aeroporto Internacional de São Paulo/Guarulhos — Governador André Franco Montoro",
+      "endereco": "Rodovia Hélio Smidt, s/nº, Guarulhos - SP, 07190-100",
+      "fonte": "https://www.gru.com.br/pt — sítio oficial do GRU Airport",
+      "consultadoEm": "2026-08-26"
+    }
+  ],
+  "estacoes": []
+}

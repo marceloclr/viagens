@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gva",
+    "cidadeId": "genebra",
+    "codigo": "GVA",
+    "nome": "Aeroporto Internacional de Genebra",
+    "endereco": "Route de l'Aéroport 21, 1215 Le Grand-Saconnex, Suíça",
+    "fonte": "Wikipedia (Geneva Airport) / gva.ch"
+  },
+  {
+    "id": "zrh",
+    "cidadeId": "zurique",
+    "codigo": "ZRH",
+    "nome": "Aeroporto de Zurique (Flughafen Zürich)",
+    "endereco": "Postfach, CH-8058 Zürich-Flughafen, Suíça",
+    "fonte": "Wikipedia (Zurich Airport) / flughafen-zuerich.ch"
+  },
+  {
+    "id": "brn",
+    "cidadeId": "berna",
+    "codigo": "BRN",
+    "nome": "Aeroporto de Berna (Bern-Belp)",
+    "endereco": "Flugplatzstrasse 31, 3123 Belp, Suíça",
+    "fonte": "Wikipedia (Bern Airport) / bernairport.ch"
+  }
+]

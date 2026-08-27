@@ -1,0 +1,243 @@
+[
+  {
+    "id": "zur_grossmunster",
+    "cidadeId": "zurique",
+    "nome": "Grossmünster (torres)",
+    "zona": "altstadt",
+    "dur": 60,
+    "idadeMin": 6,
+    "fechado": [],
+    "endereco": "Grossmünsterplatz, 8001 Zürich, Suíça",
+    "desc": "Igreja românica de torres gêmeas onde Zwinglio liderou a Reforma Protestante em Zurique; a subida pelas 187 escadas leva a um mirante panorâmico.",
+    "custo": {
+      "valor": 5,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial grossmuenster.ch",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sítio oficial informa mudanças sazonais no horário das torres (a partir de agosto de 2026, fechado seg-qui); consultar grossmuenster.ch antes da visita",
+      "consultadoEm": null
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 82,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "zur_fraumunster",
+    "cidadeId": "zurique",
+    "nome": "Fraumünster (vitrais de Chagall)",
+    "zona": "altstadt",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Münsterhof 2, 8001 Zürich, Suíça",
+    "desc": "Igreja gótica com cinco vitrais coloridos criados por Marc Chagall em 1970, retratando cenas bíblicas.",
+    "custo": {
+      "valor": 5,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados (Kupi/ZurichGuru); confirmar valor atualizado no site oficial fraumuenster.ch",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Março a outubro: segunda a sábado, 10h às 18h; domingo apenas após o culto; horário reduzido no inverno",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados citando site oficial fraumuenster.ch",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arte",
+      "arquitetura"
+    ],
+    "prio": 80,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "zur_kunsthaus",
+    "cidadeId": "zurique",
+    "nome": "Kunsthaus Zürich",
+    "zona": "altstadt",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Heimplatz 1, 8001 Zürich, Suíça",
+    "desc": "Principal museu de arte de Zurique, com coleção que vai de mestres antigos a arte moderna e contemporânea, incluindo Monet, Munch e Giacometti.",
+    "custo": {
+      "valor": 24,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial kunsthaus.ch/en/besuch-planen",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Terça, quarta, sexta a domingo 10h-18h; quinta 10h-20h; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial kunsthaus.ch/en/besuch-planen",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "zur_landesmuseum",
+    "cidadeId": "zurique",
+    "nome": "Landesmuseum (Museu Nacional Suíço)",
+    "zona": "hauptbahnhof",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [
+      1
+    ],
+    "endereco": "Museumstrasse 2, 8001 Zürich, Suíça",
+    "desc": "Maior museu de história e cultura da Suíça, com acervo que cobre da pré-história à atualidade, em edifício estilo castelo perto da estação central.",
+    "custo": {
+      "valor": 10,
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial landesmuseum.ch/en/your-visit/tickets",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Terça a domingo 10h-17h, quinta até 19h; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial landesmuseum.ch",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "museus",
+      "cultura"
+    ],
+    "prio": 72,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "zur_lindenhof",
+    "cidadeId": "zurique",
+    "nome": "Lindenhof",
+    "zona": "altstadt",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Lindenhof, 8001 Zürich, Suíça",
+    "desc": "Colina histórica no centro da Cidade Velha, sítio de antigo forte romano, com mirante gratuito sobre o rio Limmat e a Grossmünster.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Parque público municipal de acesso livre, conforme guias turísticos consolidados (zuerich.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Aberto 24 horas, todos os dias (espaço público)",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias turísticos consolidados sobre parques públicos de Zurique",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "fotografia",
+      "descanso"
+    ],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "zur_bahnhofstrasse",
+    "cidadeId": "zurique",
+    "nome": "Bahnhofstrasse",
+    "zona": "hauptbahnhof",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Bahnhofstrasse, 8001 Zürich, Suíça",
+    "desc": "Avenida comercial de 1,4 km entre a Estação Central e o Lago de Zurique, uma das ruas de compras mais caras do mundo, com lojas de relojoaria suíça e moda de luxo.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "zuerich.com - site oficial de turismo (via aberta ao público, sem custo de acesso)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Lojas fecham aos domingos, mas horário individual varia por estabelecimento",
+      "consultadoEm": null
+    },
+    "cat": [
+      "compras",
+      "cultura"
+    ],
+    "prio": 70,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "zur_uetliberg",
+    "cidadeId": "zurique",
+    "nome": "Uetliberg (Monte Uetliberg)",
+    "zona": "uetliberg",
+    "dur": 180,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Uetliberg, 8143 Uitikon/Zürich, Suíça (acesso pela estação Zürich HB via trem S10)",
+    "desc": "Montanha de 871m conhecida como o 'telhado de Zurique', acessível de trem em cerca de 25 minutos, com torre-mirante e trilhas panorâmicas sobre a cidade, o lago e os Alpes.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horario": {
+      "valor": "Trens partem da Estação Central de Zurique a cada 30 minutos",
+      "tipo": "CADASTRADO",
+      "fonte": "zuerich.com / myswitzerland.com - site oficial de turismo",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "natureza",
+      "fotografia",
+      "aventura"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  }
+]

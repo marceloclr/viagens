@@ -1,0 +1,137 @@
+[
+  {
+    "id": "bet_igreja_natividade",
+    "cidadeId": "belem",
+    "nome": "Igreja da Natividade",
+    "zona": "centro",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Manger Square, Bethlehem",
+    "desc": "Uma das igrejas cristãs mais antigas em uso contínuo, erguida sobre a gruta tradicionalmente identificada como local do nascimento de Jesus. Patrimônio Mundial da UNESCO; entrada gratuita, mas há fila para acessar a Gruta da Natividade, especialmente em alta temporada (set-dez).",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (thebackpackingfamily.com, zuluf.com); entrada gratuita confirmada em múltiplas fontes",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Verão (abr-set) 06:30-19:30; inverno (out-mar) 05:30-17:00",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (thebackpackingfamily.com, zuluf.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 96,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "bet_gruta_leite",
+    "cidadeId": "belem",
+    "nome": "Capela da Gruta do Leite",
+    "zona": "centro",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Milk Grotto St, Bethlehem",
+    "desc": "Capela franciscana sobre uma gruta de rocha branca, associada por tradição à Sagrada Família durante a fuga para o Egito. Entrada gratuita; recomenda-se vestimenta modesta (ombros e joelhos cobertos).",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.bethlehem-city.org/en/milkgrotto (portal oficial da Municipalidade de Belém)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Verão (abr-set) 08:00-12:00 e 14:00-18:00; inverno (out-mar) 08:00-12:00 e 14:00-17:00",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado a partir de guias de peregrinação, consistente com o portal da Municipalidade de Belém (bethlehem-city.org)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "bet_campo_pastores",
+    "cidadeId": "belem",
+    "nome": "Campo dos Pastores (Shepherds' Field), Beit Sahour",
+    "zona": "beit_sahour",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Beit Sahour, cerca de 2 km a leste do centro de Belém",
+    "desc": "Sítio tradicionalmente associado ao anúncio do nascimento de Jesus aos pastores; existem dois locais comemorativos próximos, um católico (franciscano, aberto diariamente) e um grego-ortodoxo (visita mediante reserva de grupo).",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (seetheholyland.net, dannythedigger.com); sítio franciscano de entrada gratuita",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "natureza"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "bet_walled_off_hotel",
+    "cidadeId": "belem",
+    "nome": "Walled Off Hotel e Muro de Separação (arte de Banksy)",
+    "zona": "muro_separacao",
+    "dur": 60,
+    "idadeMin": 12,
+    "fechado": [],
+    "endereco": "182 Caritas Street, Bethlehem, ao lado do muro de separação da Cisjordânia",
+    "desc": "Hotel-instalação de arte criado pelo artista Banksy em 2017, com museu e galeria voltados ao contexto do muro de separação; reabriu em dezembro de 2025 após dois anos fechado por conta do conflito Israel-Gaza. Tema sensível; recomenda-se abordagem informativa e não-panfletária no roteiro.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horario": {
+      "valor": "Museu e galeria abertos diariamente das 11:00 às 19:30 para não-hóspedes",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de notícias e guias (thenationalnews.com, designboom.com); reabertura dez/2025 confirmada por reportagem do The National",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "cultura",
+      "arte",
+      "historia"
+    ],
+    "prio": 60,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  }
+]

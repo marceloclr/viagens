@@ -1,0 +1,72 @@
+{
+  "rotulos": {
+    "roma": [
+      "vaticano",
+      "centro_storico",
+      "colosseo",
+      "monti_esquilino",
+      "trastevere",
+      "borghese",
+      "ostiense"
+    ],
+    "cassino": [
+      "centro",
+      "abadia"
+    ],
+    "monte_santangelo": [
+      "centro_medieval",
+      "foresta"
+    ],
+    "san_giovanni_rotondo": [
+      "santuario",
+      "centro"
+    ],
+    "bari": [
+      "bari_vecchia"
+    ],
+    "napoli": [
+      "centro_storico",
+      "lungomare_chiaia"
+    ],
+    "foggia": [
+      "centro"
+    ]
+  },
+  "matriz": {
+    "roma": {
+      "vaticano|centro_storico": 22,
+      "vaticano|colosseo": 38,
+      "vaticano|monti_esquilino": 40,
+      "vaticano|trastevere": 26,
+      "vaticano|borghese": 35,
+      "vaticano|ostiense": 45,
+      "centro_storico|colosseo": 20,
+      "centro_storico|monti_esquilino": 22,
+      "centro_storico|trastevere": 18,
+      "centro_storico|borghese": 22,
+      "centro_storico|ostiense": 35,
+      "colosseo|monti_esquilino": 12,
+      "colosseo|trastevere": 28,
+      "colosseo|borghese": 32,
+      "colosseo|ostiense": 25,
+      "monti_esquilino|trastevere": 33,
+      "monti_esquilino|borghese": 25,
+      "monti_esquilino|ostiense": 30,
+      "trastevere|borghese": 38,
+      "trastevere|ostiense": 25,
+      "borghese|ostiense": 45
+    },
+    "cassino": {
+      "centro|abadia": 25
+    },
+    "monte_santangelo": {
+      "centro_medieval|foresta": 35
+    },
+    "san_giovanni_rotondo": {
+      "santuario|centro": 12
+    },
+    "napoli": {
+      "centro_storico|lungomare_chiaia": 25
+    }
+  }
+}

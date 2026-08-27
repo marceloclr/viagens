@@ -1,0 +1,137 @@
+[
+  {
+    "id": "sev_real_alcazar",
+    "cidadeId": "sevilha",
+    "nome": "Real Alcázar de Sevilha",
+    "zona": "santa_cruz",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Patio de Banderas, s/n, 41004 Sevilha, Espanha",
+    "desc": "Palácio real em uso, maior exemplo de arquitetura mudéjar da Espanha, com jardins históricos.",
+    "custo": {
+      "valor": 15.5,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial alcazarsevilla.org/prepara-la-visita",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "1 out-31 mar: 9h30-17h; 1 abr-30 set: 9h30-19h; fechado em 1 e 6/jan, Sexta-feira Santa e 25/dez",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial alcazarsevilla.org",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 92,
+    "interior": false,
+    "chuva": "medio",
+    "juvenil": false,
+    "familia": true,
+    "reserva": true
+  },
+  {
+    "id": "sev_catedral_giralda",
+    "cidadeId": "sevilha",
+    "nome": "Catedral de Sevilha e Giralda",
+    "zona": "centro_historico",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Av. de la Constitución, s/n, 41004 Sevilha, Espanha",
+    "desc": "Maior catedral gótica do mundo, erguida sobre a antiga mesquita almóada; a torre Giralda era seu antigo minarete.",
+    "custo": {
+      "valor": 12,
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial sevillacatedral.com/precios-y-horarios (entrada geral, tarifa 2026)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Seg-sáb 11h-19h; dom 14h30-19h; fechado em 25/dez, 1 e 6/jan",
+      "tipo": "CADASTRADO",
+      "fonte": "Site oficial sevillacatedral.com",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 92,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "sev_plaza_espana",
+    "cidadeId": "sevilha",
+    "nome": "Plaza de España",
+    "zona": "parque_maria_luisa",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Av. de Isabel la Católica, s/n, 41004 Sevilha, Espanha",
+    "desc": "Praça monumental semicircular construída para a Exposição Ibero-Americana de 1929, com painéis de azulejos de todas as províncias espanholas.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Junta de Andalucía — Destinos Turísticos Accesibles (juntadeandalucia.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Inverno (nov-mar) 8h-22h; verão (abr-out) 8h-24h",
+      "tipo": "CADASTRADO",
+      "fonte": "Junta de Andalucía — Destinos Turísticos Accesibles (juntadeandalucia.es)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 88,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "sev_barrio_santa_cruz",
+    "cidadeId": "sevilha",
+    "nome": "Barrio de Santa Cruz",
+    "zona": "santa_cruz",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Barrio de Santa Cruz, 41004 Sevilha, Espanha",
+    "desc": "Antiga judiaria medieval de Sevilha, com ruas estreitas, pátios floridos e vista para o Alcázar e a Catedral.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "spain.info (Turespaña) — página oficial do Barrio de Santa Cruz",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "gastronomia"
+    ],
+    "prio": 78,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

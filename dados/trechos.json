@@ -1,0 +1,443 @@
+[
+  {
+    "de": "roma",
+    "para": "cassino",
+    "modo": "trem",
+    "icone": "🚆",
+    "duracao": 105,
+    "custoPP": [
+      11,
+      16
+    ],
+    "obs": "Regional/Intercity a partir de Roma Termini.",
+    "fonte": "@ref:v12",
+    "categoria": "regional"
+  },
+  {
+    "de": "cassino",
+    "para": "foggia",
+    "modo": "trem",
+    "icone": "🚆",
+    "duracao": 150,
+    "custoPP": [
+      15,
+      25
+    ],
+    "obs": "Trecho ferroviário até Foggia, onde se retira o automóvel.",
+    "fonte": "@ref:v12",
+    "categoria": "regional"
+  },
+  {
+    "de": "foggia",
+    "para": "monte_santangelo",
+    "modo": "carro",
+    "icone": "🚗",
+    "duracao": 75,
+    "custoPP": [
+      8,
+      14
+    ],
+    "obs": "Subida ao Gargano por estrada de montanha.",
+    "fonte": "@ref:v12"
+  },
+  {
+    "de": "monte_santangelo",
+    "para": "san_giovanni_rotondo",
+    "modo": "carro",
+    "icone": "🚗",
+    "duracao": 35,
+    "custoPP": [
+      4,
+      8
+    ],
+    "obs": "Percurso curto entre os dois santuários.",
+    "fonte": "@ref:v12"
+  },
+  {
+    "de": "san_giovanni_rotondo",
+    "para": "bari",
+    "modo": "carro",
+    "icone": "🚗",
+    "duracao": 145,
+    "custoPP": [
+      14,
+      24
+    ],
+    "obs": "Descida do Gargano com entrega do automóvel em Bari.",
+    "fonte": "@ref:v12"
+  },
+  {
+    "de": "monte_santangelo",
+    "para": "bari",
+    "modo": "carro",
+    "icone": "🚗",
+    "duracao": 160,
+    "custoPP": [
+      16,
+      26
+    ],
+    "obs": "Alternativa direta ao Adriático.",
+    "fonte": "@ref:v12"
+  },
+  {
+    "de": "roma",
+    "para": "napoli",
+    "modo": "trem",
+    "icone": "🚆",
+    "duracao": 80,
+    "custoPP": [
+      20,
+      45
+    ],
+    "obs": "Alta velocidade Roma Termini → Napoli Centrale.",
+    "fonte": "@ref:v12",
+    "categoria": "alta_velocidade"
+  },
+  {
+    "de": "napoli",
+    "para": "cassino",
+    "modo": "trem",
+    "icone": "🚆",
+    "duracao": 95,
+    "custoPP": [
+      10,
+      15
+    ],
+    "obs": "Regional a partir de Napoli Centrale.",
+    "fonte": "@ref:v12",
+    "categoria": "regional"
+  },
+  {
+    "de": "paris",
+    "para": "napoli",
+    "modo": "aviao",
+    "icone": "✈️",
+    "duracao": 165,
+    "custoPP": null,
+    "obs": "Trecho aéreo intraeuropeu. Preço não disponível sem provedor de tarifas.",
+    "fonte": "@ref:v12"
+  },
+  {
+    "de": "paris",
+    "para": "roma",
+    "modo": "aviao",
+    "icone": "✈️",
+    "duracao": 140,
+    "custoPP": null,
+    "obs": "Trecho aéreo intraeuropeu. Preço não disponível sem provedor de tarifas. Existe alternativa terrestre por trem de alta velocidade (Frecciarossa Roma–Milão + TGV/Frecciarossa Milão–Paris, 1 troca em Milão, cerca de 10h40) — mantido como avião aqui porque é a opção prática para esta distância; ajuste manualmente na Jornada se preferir a rota terrestre.",
+    "fonte": "@ref:v12"
+  },
+  {
+    "de": "roma",
+    "para": "bari",
+    "modo": "trem",
+    "icone": "🚆",
+    "duracao": 245,
+    "custoPP": [
+      30,
+      60
+    ],
+    "obs": "Intercity/Frecciarossa pelo eixo adriático.",
+    "fonte": "@ref:v12",
+    "categoria": "alta_velocidade"
+  },
+  {
+    "de": "foggia",
+    "para": "bari",
+    "modo": "trem",
+    "icone": "🚆",
+    "duracao": 80,
+    "custoPP": [
+      10,
+      18
+    ],
+    "obs": "Regional pelo eixo adriático.",
+    "fonte": "@ref:v12",
+    "categoria": "regional"
+  },
+  {
+    "de": "roma",
+    "para": "foggia",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 185,
+    "custoPP": [
+      20,
+      45
+    ],
+    "obs": "Frecciargento/Frecciarossa diretos (~6 por dia); opção Intercity regional mais lenta e mais barata também disponível.",
+    "fonte": "Agregadores de bilhetes ferroviários italianos (omio.it, italotreno.com), consultado em 2026-08-27"
+  },
+  {
+    "de": "roma",
+    "para": "san_giovanni_rotondo",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 360,
+    "custoPP": [
+      14,
+      30
+    ],
+    "obs": "Marino Autolinee, FlixBus e Ferrovie del Gargano operam ligação direta — a cidade não tem estação ferroviária, então não há opção de trem para este trecho.",
+    "fonte": "flixbus.com, omio.it, busbud.com — agregadores de bilhetes de ônibus, consultado em 2026-08-27"
+  },
+  {
+    "de": "paris",
+    "para": "fr_lourdes",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 300,
+    "custoPP": [
+      35,
+      90
+    ],
+    "obs": "TGV inOui direto, ~4 partidas diárias sem troca.",
+    "fonte": "omio.fr, thetrainline.com — agregadores de bilhetes SNCF, consultado em 2026-08-27"
+  },
+  {
+    "de": "paris",
+    "para": "fr_lisieux",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "regional",
+    "duracao": 140,
+    "custoPP": null,
+    "obs": "TER ou Intercités a partir de Paris Saint-Lazare, ~16 trens por dia — sem trecho de alta velocidade nesta linha normanda.",
+    "fonte": "thetrainline.com — agregador de bilhetes SNCF, consultado em 2026-08-27"
+  },
+  {
+    "de": "genebra",
+    "para": "berna",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "regional",
+    "duracao": 111,
+    "custoPP": null,
+    "obs": "InterCity SBB direto, saídas horárias. A rede suíça não opera trem de alta velocidade dedicado — o InterCity é o serviço mais rápido do país.",
+    "fonte": "network.sbb.ch, sbb.ch — sítio oficial SBB/CFF/FFS, consultado em 2026-08-27"
+  },
+  {
+    "de": "zurique",
+    "para": "berna",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "regional",
+    "duracao": 65,
+    "custoPP": null,
+    "obs": "InterCity SBB direto, alta frequência (linha IC1). Sem trem de alta velocidade dedicado na Suíça.",
+    "fonte": "sbb.ch — sítio oficial SBB/CFF/FFS, consultado em 2026-08-27"
+  },
+  {
+    "de": "lucerna",
+    "para": "berna",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "regional",
+    "duracao": 60,
+    "custoPP": null,
+    "obs": "InterRegio SBB direto (linha IR15). Sem trem de alta velocidade dedicado na Suíça.",
+    "fonte": "sbb.ch — sítio oficial SBB/CFF/FFS, consultado em 2026-08-27"
+  },
+  {
+    "de": "madrid",
+    "para": "barcelona",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 157,
+    "custoPP": [
+      30,
+      90
+    ],
+    "obs": "AVE direto, até 300 km/h. Tarifa dinâmica (gestão de receita da Renfe) — varia bastante por antecedência de compra.",
+    "fonte": "spain.info (Turespaña), agregadores de bilhetes AVE, consultado em 2026-08-27"
+  },
+  {
+    "de": "madrid",
+    "para": "sevilha",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 160,
+    "custoPP": [
+      25,
+      80
+    ],
+    "obs": "AVE direto — a primeira linha de alta velocidade da Espanha (1992). Tarifa dinâmica.",
+    "fonte": "spain.info (Turespaña), agregadores de bilhetes AVE, consultado em 2026-08-27"
+  },
+  {
+    "de": "madrid",
+    "para": "es_valencia",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 114,
+    "custoPP": [
+      20,
+      70
+    ],
+    "obs": "AVE direto, uma das rotas mais rápidas da rede espanhola. Tarifa dinâmica.",
+    "fonte": "spain.info (Turespaña), agregadores de bilhetes AVE, consultado em 2026-08-27"
+  },
+  {
+    "de": "madrid",
+    "para": "santiago_de_compostela",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 210,
+    "custoPP": [
+      35,
+      100
+    ],
+    "obs": "AVE direto pela linha de alta velocidade da Galícia. Tarifa dinâmica.",
+    "fonte": "spain.info (Turespaña), agregadores de bilhetes AVE, consultado em 2026-08-27"
+  },
+  {
+    "de": "jerusalem",
+    "para": "tel_aviv",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "regional",
+    "duracao": 33,
+    "custoPP": [
+      5,
+      7
+    ],
+    "obs": "Linha rápida eletrificada da Israel Railways (até 160 km/h, mais da metade do trajeto em túnel) — rápida, mas não classificada internacionalmente como trem de alta velocidade. Partidas a cada ~30 min.",
+    "fonte": "seat61.com, timesofisrael.com — cobertura da linha rápida Jerusalém–Tel Aviv, consultado em 2026-08-27"
+  },
+  {
+    "de": "jerusalem",
+    "para": "nazare",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 100,
+    "custoPP": [
+      5,
+      8
+    ],
+    "obs": "Egged opera ligação direta entre os terminais centrais, ~5 partidas por dia. Não há trem direto para o centro de Nazaré.",
+    "fonte": "moovitapp.com, rome2rio.com — dados agregados de linhas Egged, consultado em 2026-08-27"
+  },
+  {
+    "de": "jerusalem",
+    "para": "belem",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 45,
+    "custoPP": [
+      2,
+      4
+    ],
+    "obs": "Ônibus 231, saindo do terminal de Sultan Suleiman/Damascus Gate (Jerusalém Oriental), a cada ~15 min — passa por posto de controle na fronteira com a Cisjordânia. Leve passaporte; portadores de passaporte israelense não podem entrar em Belém. Sem trem nesta ligação.",
+    "fonte": "Guias de viagem consolidados (liveandletsfly.com, thebackpackingfamily.com), consultado em 2026-08-27"
+  },
+  {
+    "de": "lisboa",
+    "para": "porto",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 178,
+    "custoPP": [
+      22,
+      35
+    ],
+    "obs": "Alfa Pendular — o comboio pendular mais rápido de Portugal (até 220 km/h), tratado como o equivalente português a um trem de alta velocidade, embora não seja uma linha dedicada como o AVE ou o TGV.",
+    "fonte": "cp.pt — sítio oficial da CP, consultado em 2026-08-27"
+  },
+  {
+    "de": "lisboa",
+    "para": "fatima",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 90,
+    "custoPP": [
+      4,
+      15
+    ],
+    "obs": "Rede Expressos liga Lisboa (Sete Rios/Oriente) direto ao terminal de Fátima, perto do santuário. Alternativa de trem existe, mas a estação \"Fátima\" fica a 23 km do santuário, exigindo táxi para completar o trajeto — por isso o ônibus é a opção mais prática.",
+    "fonte": "omio.com, rome2rio.com — dados agregados Rede Expressos e CP, consultado em 2026-08-27"
+  },
+  {
+    "de": "lisboa",
+    "para": "sintra",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "regional",
+    "duracao": 42,
+    "custoPP": [
+      2,
+      4
+    ],
+    "obs": "Linha de Sintra (CP), suburbana e muito frequente — a cada 10-20 min em horário de pico.",
+    "fonte": "cp.pt, ondebus.pt — sítio oficial CP e agregador de horários, consultado em 2026-08-27"
+  },
+  {
+    "de": "istambul",
+    "para": "tr_ancara",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 275,
+    "custoPP": null,
+    "obs": "YHT (Yüksek Hızlı Tren) direto, até 300 km/h — a linha de alta velocidade mais movimentada da Turquia. Tarifa em lira turca, sujeita a forte variação cambial; consulte a TCDD antes de comprar.",
+    "fonte": "tr.railturkey.org, tr.wikipedia.org — cobertura da linha YHT Ancara-Istambul, consultado em 2026-08-27"
+  },
+  {
+    "de": "esmirna",
+    "para": "tr_ancara",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 480,
+    "custoPP": null,
+    "obs": "Metro Turizm, Kamil Koç e outras operam ligação direta. Sem trem direto entre as duas cidades. Tarifa em lira turca, sujeita a forte variação cambial.",
+    "fonte": "enuygun.com — agregador de bilhetes de ônibus turcos, consultado em 2026-08-27"
+  },
+  {
+    "de": "efeso",
+    "para": "tr_ancara",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 510,
+    "custoPP": null,
+    "obs": "Pamukkale Turizm e outras operam ligação direta a partir de Selçuk. Sem trem direto. Tarifa em lira turca, sujeita a forte variação cambial.",
+    "fonte": "enuygun.com, pamukkale.com.tr — agregadores de bilhetes de ônibus turcos, consultado em 2026-08-27"
+  },
+  {
+    "de": "capadocia",
+    "para": "tr_ancara",
+    "modo": "onibus",
+    "icone": "🚌",
+    "duracao": 270,
+    "custoPP": null,
+    "obs": "Ligação direta via Aksaray, operada por diversas companhias (Metro Turizm, Süha Turizm, Nevtur). Sem trem direto. Tarifa em lira turca, sujeita a forte variação cambial.",
+    "fonte": "gezire.com, kapadokyalist.com — guias de acesso à Capadócia, consultado em 2026-08-27"
+  },
+  {
+    "de": "paris",
+    "para": "madrid",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 650,
+    "custoPP": null,
+    "obs": "TGV + AVE, com 1 troca (normalmente em Barcelona) — sem trem direto sem troca nesta ligação. Tarifa dinâmica, combinando dois sistemas de bilhetagem (SNCF + Renfe).",
+    "fonte": "thetrainline.com, rome2rio.com — agregadores de bilhetes ferroviários, consultado em 2026-08-27"
+  },
+  {
+    "de": "paris",
+    "para": "berna",
+    "modo": "trem",
+    "icone": "🚆",
+    "categoria": "alta_velocidade",
+    "duracao": 270,
+    "custoPP": null,
+    "obs": "TGV Lyria até Basileia (alta velocidade) + trem regional Basileia–Berna, ~1 troca. Vendido pela TGV Lyria como um único itinerário. Tarifa dinâmica.",
+    "fonte": "tgv-lyria.com — sítio oficial TGV Lyria, consultado em 2026-08-27"
+  }
+]

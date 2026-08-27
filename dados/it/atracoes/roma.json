@@ -1,0 +1,554 @@
+[
+  {
+    "id": "roma_sao_pedro",
+    "cidadeId": "roma",
+    "nome": "Basílica de São Pedro",
+    "zona": "vaticano",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "arte",
+      "historia"
+    ],
+    "prio": 98,
+    "dur": 150,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza San Pietro, 00120 Città del Vaticano",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horário sujeito a celebrações litúrgicas",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Entrada na basílica sem cobrança; a subida à Cúpula é bilhetada à parte."
+    },
+    "oficial": "https://www.vatican.va",
+    "desc": "Núcleo espiritual da etapa romana. A subida à Cúpula é bilhetada separadamente e cobrada na própria bilheteria."
+  },
+  {
+    "id": "roma_cupula",
+    "cidadeId": "roma",
+    "nome": "Cúpula de São Pedro (subida)",
+    "zona": "vaticano",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 78,
+    "dur": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 6,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza San Pietro, 00120 Città del Vaticano",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa cobrada na bilheteria — não publicada na base",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.vatican.va",
+    "desc": "Cerca de 550 degraus (ou elevador parcial) até a vista mais alta sobre a praça e a cidade."
+  },
+  {
+    "id": "roma_museus_vaticanos",
+    "cidadeId": "roma",
+    "nome": "Museus Vaticanos e Capela Sistina",
+    "zona": "vaticano",
+    "cat": [
+      "arte",
+      "museus",
+      "religiao",
+      "cultura",
+      "historia"
+    ],
+    "prio": 96,
+    "dur": 210,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [
+      0
+    ],
+    "endereco": "Viale Vaticano, 00165 Roma, Itália",
+    "horario": {
+      "valor": "Segunda a sábado, 8h–20h (último ingresso às 18h). Fechado aos domingos, salvo o último do mês, quando abre das 9h às 14h com entrada gratuita e grande afluência.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": {
+        "adulto": 20,
+        "menor18": 10,
+        "taxaReserva": 5,
+        "gratuitoAte": 7
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Reduzido de 7 a 18 anos. Acréscimo de € 5,00 por pessoa pela reserva com hora marcada. Bilhetes não reembolsáveis."
+    },
+    "oficial": "https://tickets.museivaticani.va",
+    "desc": "Reserva \"salta la fila\" indispensável: fixa o horário e dispensa a fila. Há domínios semelhantes praticando preços muito superiores — comprar somente no sítio oficial."
+  },
+  {
+    "id": "roma_castel_santangelo",
+    "cidadeId": "roma",
+    "nome": "Castel Sant'Angelo",
+    "zona": "vaticano",
+    "cat": [
+      "historia",
+      "museus",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 84,
+    "dur": 120,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [
+      1
+    ],
+    "endereco": "Lungotevere Castello, 50, 00193 Roma, Itália",
+    "horario": {
+      "valor": "Terça a domingo, 9h–19h30 (último ingresso às 18h30). Fechado às segundas-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": {
+        "adulto": 18,
+        "menor18": 0,
+        "reduzidoUE1825": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Bilhete nominativo: cada visitante informa os próprios dados e apresenta documento original na entrada. Gratuidade para menores de 18 é a regra dos museus estatais italianos — confirmar na bilheteria."
+    },
+    "oficial": "https://castelsantangelo.cultura.gov.it",
+    "desc": "Mausoléu de Adriano convertido em fortaleza e residência papal. Rampa helicoidal, Sala Paulina e o terraço com a vista mais generosa sobre a cúpula de São Pedro."
+  },
+  {
+    "id": "roma_coliseu",
+    "cidadeId": "roma",
+    "nome": "Coliseu",
+    "zona": "colosseo",
+    "cat": [
+      "historia",
+      "arqueologia",
+      "cultura",
+      "arquitetura"
+    ],
+    "prio": 95,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Piazza del Colosseo, 1, 00184 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Bilhete conjunto com Fórum e Palatino — verificar tarifa vigente",
+      "consultadoEm": null
+    },
+    "oficial": "https://parcocolosseo.it",
+    "desc": "Principal conexão do roteiro com a Roma imperial. Reserva com hora marcada é obrigatória; o bilhete costuma ser conjunto com Fórum e Palatino."
+  },
+  {
+    "id": "roma_forum_palatino",
+    "cidadeId": "roma",
+    "nome": "Fórum Romano e Palatino",
+    "zona": "colosseo",
+    "cat": [
+      "historia",
+      "arqueologia",
+      "cultura"
+    ],
+    "prio": 88,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Via della Salara Vecchia, 5/6, 00186 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Bilhete conjunto com o Coliseu",
+      "consultadoEm": null
+    },
+    "oficial": "https://parcocolosseo.it",
+    "desc": "Centro político da República e do Império, encadeando naturalmente com o Coliseu na mesma jornada."
+  },
+  {
+    "id": "roma_santa_maria_maggiore",
+    "cidadeId": "roma",
+    "nome": "Basílica de Santa Maria Maggiore",
+    "zona": "monti_esquilino",
+    "cat": [
+      "religiao",
+      "arte",
+      "arquitetura"
+    ],
+    "prio": 82,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza di Santa Maria Maggiore, 00100 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Basílica maior de acesso livre; áreas específicas podem ser bilhetadas."
+    },
+    "oficial": "https://www.vatican.va",
+    "desc": "Uma das quatro basílicas papais, a poucos minutos de Termini — encaixe natural no dia de chegada."
+  },
+  {
+    "id": "roma_sao_joao_latrao",
+    "cidadeId": "roma",
+    "nome": "Basílica de São João de Latrão",
+    "zona": "monti_esquilino",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 80,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza di San Giovanni in Laterano, 4, 00184 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Basílica de acesso livre; claustro bilhetado à parte."
+    },
+    "oficial": "https://www.vatican.va",
+    "desc": "Catedral de Roma e primeira em dignidade entre as basílicas papais."
+  },
+  {
+    "id": "roma_panteao",
+    "cidadeId": "roma",
+    "nome": "Panteão",
+    "zona": "centro_storico",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "religiao",
+      "arqueologia"
+    ],
+    "prio": 86,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza della Rotonda, 00186 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Passou a ser bilhetado — verificar tarifa vigente",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.pantheonroma.com",
+    "desc": "A maior cúpula de concreto não armado já construída, íntegra desde o século II — abrigo natural em dia de chuva."
+  },
+  {
+    "id": "roma_trevi_navona",
+    "cidadeId": "roma",
+    "nome": "Fontana di Trevi e Piazza Navona",
+    "zona": "centro_storico",
+    "cat": [
+      "cultura",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 74,
+    "dur": 75,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza di Trevi, 00187 Roma, Itália",
+    "horario": {
+      "valor": "Logradouro público, acessível a qualquer hora.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Circuito barroco a céu aberto. Convém percorrer cedo ou no fim da noite, quando o fluxo diminui sensivelmente."
+  },
+  {
+    "id": "roma_galleria_borghese",
+    "cidadeId": "roma",
+    "nome": "Galleria Borghese",
+    "zona": "borghese",
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 79,
+    "dur": 120,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": true,
+    "fechado": [
+      1
+    ],
+    "endereco": "Piazzale Scipione Borghese, 5, 00197 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Entrada por faixa horária — verificar tarifa vigente",
+      "consultadoEm": null
+    },
+    "oficial": "https://galleriaborghese.beniculturali.it",
+    "desc": "Bernini e Caravaggio em concentração rara. Entrada por faixa horária estrita, com reserva obrigatória."
+  },
+  {
+    "id": "roma_trastevere",
+    "cidadeId": "roma",
+    "nome": "Trastevere e Santa Maria in Trastevere",
+    "zona": "trastevere",
+    "cat": [
+      "gastronomia",
+      "cultura",
+      "religiao",
+      "fotografia"
+    ],
+    "prio": 72,
+    "dur": 120,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza di Santa Maria in Trastevere, 00153 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Bairro de trattorias e mosaicos do século XII — melhor aproveitado no fim da tarde, emendando com o jantar."
+  },
+  {
+    "id": "roma_sao_paulo_muros",
+    "cidadeId": "roma",
+    "nome": "Basílica de São Paulo Fora dos Muros",
+    "zona": "ostiense",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 76,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazzale San Paolo, 1, 00146 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.vatican.va",
+    "desc": "A quarta basílica papal, sobre o túmulo do Apóstolo — completa o circuito das basílicas maiores."
+  },
+  {
+    "id": "roma_catacumbas",
+    "cidadeId": "roma",
+    "nome": "Catacumbas da Via Ápia",
+    "zona": "ostiense",
+    "cat": [
+      "religiao",
+      "historia",
+      "arqueologia"
+    ],
+    "prio": 70,
+    "dur": 105,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 6,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Appia Antica, 110/126, 00179 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa por complexo — verificar no sítio de cada catacumba",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.catacombe.roma.it",
+    "desc": "Visita guiada aos cemitérios cristãos primitivos. Interessa particularmente a roteiros de peregrinação."
+  },
+  {
+    "id": "roma_monti",
+    "cidadeId": "roma",
+    "nome": "Rione Monti",
+    "zona": "monti_esquilino",
+    "cat": [
+      "gastronomia",
+      "cultura",
+      "compras"
+    ],
+    "prio": 62,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via dei Serpenti, 00184 Roma, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Bairro entre Termini e o Coliseu, com trattorias de bairro fora do eixo turístico — jantar mais barato e mais honesto."
+  }
+]

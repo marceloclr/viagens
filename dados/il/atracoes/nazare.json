@@ -1,0 +1,140 @@
+[
+  {
+    "id": "naz_basilica_anunciacao",
+    "cidadeId": "nazare",
+    "nome": "Basílica da Anunciação",
+    "zona": "cidade_baixa",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Basilica Street, Nazaré",
+    "desc": "Maior igreja católica do Oriente Médio, erguida sobre a gruta tradicionalmente identificada como a casa de Maria e local da Anunciação. Sob custódia dos franciscanos (Custódia da Terra Santa); entrada gratuita.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (israel-taxi.com, sacred-destinations.com); entrada gratuita, doações bem-vindas",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Gruta 05:45-21:00; Basílica Superior 08:00-18:00 (referência do Centro de Informação Cristã de Jerusalém)",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação citando o Christian Information Center; não confirmado diretamente no sítio oficial custodia.org",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 92,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "naz_igreja_sao_jose",
+    "cidadeId": "nazare",
+    "nome": "Igreja de São José",
+    "zona": "cidade_baixa",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Ao lado da Basílica da Anunciação, Nazaré",
+    "desc": "Igreja franciscana construída sobre restos identificados por tradição como a oficina de carpintaria de José, pai adotivo de Jesus.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (israel-taxi.com); entrada gratuita, mesmo complexo da Basílica da Anunciação",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "07:00-18:00 (referência do Centro de Informação Cristã de Jerusalém)",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação citando o Christian Information Center",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "naz_igreja_sao_gabriel",
+    "cidadeId": "nazare",
+    "nome": "Igreja Ortodoxa de São Gabriel (Poço de Maria)",
+    "zona": "centro",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [
+      0
+    ],
+    "endereco": "Próximo ao Poço de Maria, centro de Nazaré",
+    "desc": "Igreja grega-ortodoxa construída sobre a antiga fonte de água da cidade, venerada pela tradição ortodoxa como o local da Anunciação. Entrada gratuita; fechada aos domingos para visitação turística.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (biblewalks.com, travelingisrael.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Segunda a sábado, aproximadamente 08:00-11:45 e 14:00-17:00 (fontes variam ligeiramente)",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de peregrinação (biblewalks.com); horários apresentam pequenas divergências entre fontes consultadas",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "naz_souk",
+    "cidadeId": "nazare",
+    "nome": "Souk (Mercado da Cidade Velha)",
+    "zona": "cidade_baixa",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [
+      0
+    ],
+    "endereco": "Ruas ao redor da Basílica da Anunciação, Cidade Baixa, Nazaré",
+    "desc": "Mercado tradicional árabe com especiarias, doces, tecidos e comida de rua, num labirinto de vielas históricas próximo às igrejas principais. Fechado aos domingos.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (abraham.travel, jesustrail.com); acesso livre, gastos apenas nas compras",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Segunda a sábado, aproximadamente 09:00-16:00/17:00; fechado domingo",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (abraham.travel); horários variam ligeiramente por comerciante",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "cultura",
+      "compras",
+      "gastronomia"
+    ],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": false,
+    "reserva": false
+  }
+]

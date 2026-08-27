@@ -1,0 +1,10 @@
+[
+  {
+    "id": "tlv",
+    "cidadeId": "tel_aviv",
+    "codigo": "TLV",
+    "nome": "Aeroporto Internacional Ben Gurion",
+    "endereco": "Ben Gurion Airport, cerca de 20 km a sudeste do centro de Tel Aviv, Israel",
+    "fonte": "https://en.wikipedia.org/wiki/Ben_Gurion_Airport (código IATA TLV / ICAO LLBG confirmado)"
+  }
+]

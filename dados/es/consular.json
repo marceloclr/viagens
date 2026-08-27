@@ -1,0 +1,269 @@
+[
+  {
+    "id": "br_emb_madrid",
+    "paisId": "es",
+    "cidade": "Madrid",
+    "tipo": "embaixada",
+    "nomeOficial": "Embaixada do Brasil em Madrid",
+    "endereco": {
+      "valor": "Calle de Fernando el Santo, 6, 28010 Madrid, Espanha",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Embaixada do Brasil em Madri, página de contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": "+34 91 700 46 50",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Embaixada do Brasil em Madri, página de contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Assuntos consulares em Madrid são atendidos pelo Consulado-Geral do Brasil em Madri, registro separado",
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "brasemb.madrid@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Embaixada do Brasil em Madri, página de contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Serviços consulares centralizados no Consulado-Geral do Brasil em Madri",
+      "consultadoEm": null
+    },
+    "horarioAtendimento": {
+      "valor": "Segunda a sexta-feira, 9h-13h e 14h-17h",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Embaixada do Brasil em Madri, página de contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Jurisdição diplomática sobre toda a Espanha; o atendimento consular ao público é dividido entre os Consulados-Gerais em Madri e Barcelona.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — rede de repartições brasileiras na Espanha",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-madri",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "A Embaixada trata de assuntos diplomáticos, políticos e de representação; serviços consulares (passaporte, vistos, assistência a brasileiros) são prestados pelo Consulado-Geral do Brasil em Madri, registro separado nesta lista. Confirme dados atualizados no sítio oficial."
+  },
+  {
+    "id": "br_cg_madrid",
+    "paisId": "es",
+    "cidade": "Madrid",
+    "tipo": "consulado_geral",
+    "nomeOficial": "Consulado-Geral do Brasil em Madri",
+    "endereco": {
+      "valor": "Calle de Goya, 5-7, Pasaje Comercial, 2ª entreplanta, 28001 Madrid, Espanha",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": "+34 91 702 1220",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneConsular": {
+      "valor": "+34 91 702 1220",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefonePlantao": {
+      "valor": "+34 677 547 004",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco (número de emergência)",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappGeral": {
+      "valor": "+34 663 676 193",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappConsular": {
+      "valor": "+34 663 676 193",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Site oficial lista e-mails por setor (passaportes, notariais, assistência etc.), sem um e-mail geral único",
+      "consultadoEm": null
+    },
+    "emailConsular": {
+      "valor": "assistencia.cgmadri@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco (e-mail de assistência a brasileiros)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioAtendimento": {
+      "valor": "Atendimento presencial de segunda a sexta-feira, exclusivamente mediante agendamento prévio pelo sistema e-consular (ec-madri.itamaraty.gov.br)",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioConsular": {
+      "valor": "Atendimento presencial mediante agendamento prévio, segunda a sexta-feira",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioTelefonico": {
+      "valor": "Segunda a sexta-feira, 15h30 às 16h30",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Madri, página Fale Conosco",
+      "consultadoEm": "2026-08-26"
+    },
+    "jurisdicao": {
+      "valor": "Território espanhol não coberto pelo Consulado-Geral em Barcelona — inclui Madri e a maior parte do país.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Madri, jurisdição",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/consulado-madri",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "Serviços consulares (passaporte, vistos, atos notariais, assistência a brasileiros) exigem agendamento prévio pelo sistema e-consular. Confirme jurisdição e horários atualizados no sítio oficial. O contato de plantão é de uso exclusivo para emergências (acidente, óbito, prisão, hospitalização, desastre natural), não para trâmites consulares de rotina."
+  },
+  {
+    "id": "br_cg_barcelona",
+    "paisId": "es",
+    "cidade": "Barcelona",
+    "tipo": "consulado_geral",
+    "nomeOficial": "Consulado-Geral do Brasil em Barcelona",
+    "endereco": {
+      "valor": "Av. Diagonal, 468, 2º, 08006 Barcelona, Espanha",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "O sítio oficial informa que o Consulado não possui atendimento telefônico geral para consultas sobre serviços consulares",
+      "consultadoEm": null
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "O sítio oficial informa que o Consulado não possui atendimento telefônico para consultas consulares; atendimento é por e-mail ou e-consular",
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": "+34 659 078 057",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos (linha de emergência para acidentes, óbitos, prisão, hospitalização)",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": "+34 659 078 057",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos (mesmo número de emergência, também via WhatsApp)",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailGeral": {
+      "valor": "info.barcelona@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailConsular": {
+      "valor": "assist.barcelona@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos (assistência consular)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioAtendimento": {
+      "valor": "Segunda a sexta-feira, 9h às 15h",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioConsular": {
+      "valor": "Segunda a sexta-feira, 9h às 15h, mediante agendamento",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Não há atendimento telefônico regular; apenas linha de emergência",
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Principado de Andorra e as comunidades autônomas espanholas de Aragão, Baleares, Catalunha, Comunidade Valenciana, Múrcia, Navarra, País Basco e Rioja — cobre Valência.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Barcelona, jurisdição",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/consulado-barcelona",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "Sem atendimento telefônico regular; contato principal por e-mail ou sistema e-consular (ec-barcelona.itamaraty.gov.br). Linha de emergência exclusiva para casos graves (acidente, óbito, prisão, hospitalização, desastre natural)."
+  }
+]

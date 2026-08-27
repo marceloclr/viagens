@@ -1,0 +1,91 @@
+[
+  {
+    "id": "br_emb_israel",
+    "paisId": "il",
+    "cidade": "Tel Aviv",
+    "tipo": "embaixada",
+    "nomeOficial": "Embaixada do Brasil em Tel Aviv",
+    "endereco": {
+      "valor": "Derech Menachem Begin, nº 23, 28º andar, Tel Aviv-Yaffo, 6618356, Israel",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.gov.br/mre/pt-br/embaixada-tel-aviv/contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneGeral": {
+      "valor": "+972 3 797-1500",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.gov.br/mre/pt-br/embaixada-tel-aviv/contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "telefoneConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "telefonePlantao": {
+      "valor": "+972 54 803-5858",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.gov.br/mre/pt-br/embaixada-tel-aviv/contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "whatsappGeral": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "whatsappPlantao": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "emailGeral": {
+      "valor": "brasemb.telaviv@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.gov.br/mre/pt-br/embaixada-tel-aviv/contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "emailConsular": {
+      "valor": "consular.telaviv@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.gov.br/mre/pt-br/embaixada-tel-aviv/contatos",
+      "consultadoEm": "2026-08-26"
+    },
+    "horarioAtendimento": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioConsular": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "horarioTelefonico": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "jurisdicao": {
+      "valor": "Estado de Israel, exceto os territórios palestinos. Belém (Cisjordânia) não tem posto consular brasileiro dedicado; documentos e assistência dessa área costumam depender de outra repartição da região — confirmar caso a caso.",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Tel Aviv, jurisdição (pesquisa atualizada — valor anterior era apenas \"Israel\")",
+      "consultadoEm": "2026-08-27"
+    },
+    "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-tel-aviv",
+    "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+    "consultadoEm": "2026-08-26",
+    "observacoes": "O telefone de plantão (+972 54 803-5858) é destinado exclusivamente a emergências consulares fora do horário comercial (ex.: prisão, acidente grave, óbito de brasileiro). Recomenda-se confirmar endereço, horários de atendimento presencial e necessidade de agendamento prévio diretamente no sítio oficial antes da viagem, já que a página consultada não detalhou horário de funcionamento do balcão consular."
+  }
+]

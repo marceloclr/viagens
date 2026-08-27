@@ -1,0 +1,90 @@
+[
+  {
+    "id": "h_mad_petitpalace",
+    "cidadeId": "madrid",
+    "nome": "Petit Palace Puerta del Sol",
+    "categoria": "Hotel — Centro (Ópera)",
+    "zona": "centro",
+    "endereco": "Calle del Arenal, 4, 28013 Madrid, Espanha",
+    "nota": "A poucos passos da Puerta del Sol, base conveniente para o circuito histórico do Centro e da Ópera.",
+    "fonte": "https://www.petitpalace.com/en/petit-palace-puerta-del-sol/",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_mad_recoletos",
+    "cidadeId": "madrid",
+    "nome": "Apartamentos Recoletos",
+    "categoria": "Apart-hotel — Salamanca/Retiro",
+    "zona": "retiro",
+    "endereco": "Calle Villanueva, 2, 28001 Madrid, Espanha",
+    "nota": "Apartamentos com cozinha equipada, próximos ao Parque do Retiro; boa opção econômica para famílias.",
+    "fonte": "https://en.apart-hotelserranorecoletos.com/",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_bcn_neri",
+    "cidadeId": "barcelona",
+    "nome": "Hotel Neri - Relais & Châteaux",
+    "categoria": "Hotel — Barri Gòtic",
+    "zona": "barri_gotic",
+    "endereco": "Carrer de Sant Sever, 5, 08002 Barcelona, Espanha",
+    "nota": "Instalado em um palácio histórico junto à Catedral, ideal para explorar o Barri Gòtic a pé.",
+    "fonte": "https://www.hotelneri.com/en/",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_bcn_aramunt",
+    "cidadeId": "barcelona",
+    "nome": "Aparthotel Aramunt",
+    "categoria": "Apart-hotel — Eixample",
+    "zona": "eixample",
+    "endereco": "Carrer de Muntaner, 60, 08011 Barcelona, Espanha",
+    "nota": "Apartamentos com cozinha no Eixample, opção mais econômica e prática para famílias ou estadias longas.",
+    "fonte": "https://www.aramunt-apartments.com/en",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_sdc_parador",
+    "cidadeId": "santiago_de_compostela",
+    "nome": "Parador de Santiago de Compostela (Hostal dos Reis Católicos)",
+    "categoria": "Hotel histórico — Praza do Obradoiro",
+    "zona": "casco_historico",
+    "endereco": "Praza do Obradoiro, 1, 15705 Santiago de Compostela, Espanha",
+    "nota": "Antigo hospital de peregrinos de 1499, situado bem na Praza do Obradoiro, ao lado da Catedral.",
+    "fonte": "https://en.wikipedia.org/wiki/Hostal_dos_Reis_Cat%C3%B3licos",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_sdc_costavella",
+    "cidadeId": "santiago_de_compostela",
+    "nome": "Hotel Costa Vella",
+    "categoria": "Hotel — Casco histórico",
+    "zona": "casco_historico",
+    "endereco": "Rúa Porta da Pena, 17, 15704 Santiago de Compostela, Espanha",
+    "nota": "Hotel de charme na cidade velha, com jardim, opção mais econômica dentro da zona histórica a pé de tudo.",
+    "fonte": "https://www.costavella.com/en",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_sev_murillo",
+    "cidadeId": "sevilha",
+    "nome": "Hotel Murillo",
+    "categoria": "Hotel — Barrio de Santa Cruz",
+    "zona": "santa_cruz",
+    "endereco": "Calle Lope de Rueda, 7-9, 41004 Sevilha, Espanha",
+    "nota": "No coração do Barrio de Santa Cruz, a poucos minutos a pé da Catedral e do Real Alcázar.",
+    "fonte": "https://www.hotelmurillo.com/en/",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_sev_pasarela",
+    "cidadeId": "sevilha",
+    "nome": "Hotel Pasarela",
+    "categoria": "Hotel — Parque de María Luisa",
+    "zona": "parque_maria_luisa",
+    "endereco": "Avenida de la Borbolla, 11, 41004 Sevilha, Espanha",
+    "nota": "Em frente ao Parque de María Luisa e à Plaza de España, opção mais tranquila e a bom preço fora do centro histórico.",
+    "fonte": "https://www.hotelpasarela.com/en/",
+    "flag": "flag-alt"
+  }
+]

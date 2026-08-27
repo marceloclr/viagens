@@ -1,0 +1,51 @@
+{
+  "roma": {
+    "mes": 11,
+    "max": 16.3,
+    "min": 9.2,
+    "mm": 135,
+    "diasChuva": 9
+  },
+  "cassino": {
+    "mes": 11,
+    "max": 14.5,
+    "min": 5.8,
+    "mm": 199,
+    "diasChuva": 9
+  },
+  "monte_santangelo": {
+    "mes": 11,
+    "max": 14.7,
+    "min": 9.9,
+    "mm": 83,
+    "diasChuva": 7
+  },
+  "san_giovanni_rotondo": {
+    "mes": 11,
+    "max": 14.9,
+    "min": 7.8,
+    "mm": 77,
+    "diasChuva": 7
+  },
+  "bari": {
+    "mes": 11,
+    "max": 16.8,
+    "min": 12.1,
+    "mm": 74,
+    "diasChuva": 7
+  },
+  "foggia": {
+    "mes": 11,
+    "max": 17.4,
+    "min": 8.5,
+    "mm": 56,
+    "diasChuva": 6
+  },
+  "napoli": {
+    "mes": 11,
+    "max": 17,
+    "min": 10,
+    "mm": 130,
+    "diasChuva": 9
+  }
+}

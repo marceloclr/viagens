@@ -1,0 +1,191 @@
+[
+  {
+    "id": "sin_palacio_nacional_sintra",
+    "cidadeId": "sintra",
+    "nome": "Palácio Nacional de Sintra",
+    "zona": "centro_historico",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 82,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Largo Rainha Dona Amélia, 2710-616 Sintra, Portugal",
+    "horario": {
+      "valor": "Diariamente, 9h30–18h30 (última entrada 18h); bilheteira fecha entre 12h e 13h, mas há máquina automática disponível",
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto18a64": 13
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor referente à \"Visita Essencial\". Reserva de data e hora obrigatória, feita online em bilheteira.parquesdesintra.pt."
+    },
+    "oficial": "https://www.parquesdesintra.pt",
+    "desc": "Palácio medieval e mourisco no centro histórico de Sintra, com suas icônicas chaminés cônicas, residência real usada até o século XX."
+  },
+  {
+    "id": "sin_palacio_pena",
+    "cidadeId": "sintra",
+    "nome": "Palácio Nacional da Pena",
+    "zona": "serra_de_sintra",
+    "cat": [
+      "arquitetura",
+      "fotografia",
+      "historia"
+    ],
+    "prio": 95,
+    "dur": 150,
+    "interior": true,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Estrada da Pena, 2710-609 Sintra, Portugal",
+    "horario": {
+      "valor": "Parque: diariamente, 9h–19h (última entrada 18h). Palácio: diariamente, 9h30–18h30.",
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto18a64": 20,
+        "jovem6a17": 18,
+        "senior65mais": 18
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/bilhetes-palacio-da-pena — Sítio oficial",
+      "consultadoEm": "2026-08-26",
+      "nota": "Bilhete Parque + Palácio, com reserva obrigatória de data e hora para a entrada no palácio. Criança até 6 anos entra grátis, mas precisa de bilhete gratuito com hora marcada. Shuttle opcional do portão principal ao palácio custa 3 € ida e volta."
+    },
+    "oficial": "https://www.parquesdesintra.pt",
+    "desc": "Palácio romântico do século XIX em cores vivas no topo da Serra de Sintra, misturando estilos neomanuelino, neogótico e neomourisco. Ícone máximo da paisagem cultural de Sintra, Patrimônio Mundial da UNESCO."
+  },
+  {
+    "id": "sin_castelo_mouros",
+    "cidadeId": "sintra",
+    "nome": "Castelo dos Mouros",
+    "zona": "serra_de_sintra",
+    "cat": [
+      "historia",
+      "natureza",
+      "fotografia"
+    ],
+    "prio": 85,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Castelo dos Mouros, 2710-624 Sintra, Portugal",
+    "horario": {
+      "valor": "Diariamente, 9h30–18h (última entrada 17h30)",
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto18a64": 12
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.parquesdesintra.pt",
+    "desc": "Fortificação militar mourisca do século IX–X, com muralhas que serpenteiam pela crista da Serra de Sintra, oferecendo vistas amplas até o Atlântico."
+  },
+  {
+    "id": "sin_quinta_regaleira",
+    "cidadeId": "sintra",
+    "nome": "Quinta da Regaleira",
+    "zona": "centro_historico",
+    "cat": [
+      "arquitetura",
+      "natureza",
+      "fotografia"
+    ],
+    "prio": 88,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "R. Barbosa du Bocage 5, 2710-567 Sintra, Portugal",
+    "horario": {
+      "valor": "Horário varia por mês: janeiro, novembro e dezembro 10h–17h30; fevereiro, março e outubro 10h–18h30; abril a setembro 10h–20h (horários de referência 2026).",
+      "tipo": "CADASTRADO",
+      "fonte": "regaleira.pt — Sítio oficial da Quinta da Regaleira",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto18a64": 20,
+        "ate5anos": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "regaleira.pt/pt/destaques/2025-tarifarios-2026 — Tarifário oficial 2026",
+      "consultadoEm": "2026-08-26",
+      "nota": "Preço referente a visita livre. Áudioguia disponível por 5 € adicionais. Não há gratuidade de domingo/feriado aplicada em outros monumentos estatais."
+    },
+    "oficial": "https://www.regaleira.pt",
+    "desc": "Palácio e jardins simbolistas do início do século XX, famosos pelo Poço Iniciático e por grutas e túneis que remetem a rituais maçônicos e templários."
+  },
+  {
+    "id": "sin_palacio_monserrate",
+    "cidadeId": "sintra",
+    "nome": "Palácio de Monserrate",
+    "zona": "serra_de_sintra",
+    "cat": [
+      "arquitetura",
+      "natureza"
+    ],
+    "prio": 75,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Parque de Monserrate, 2710-405 Sintra, Portugal",
+    "horario": {
+      "valor": "Parque: diariamente, 9h–19h (última entrada 18h). Palácio: diariamente, 9h30–18h (última venda de bilhetes 17h, última entrada 17h30).",
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate — Sítio oficial",
+      "consultadoEm": "2026-08-26",
+      "nota": "Em obras de restauro do telhado até o primeiro trimestre de 2027, com andaimes e cobertura provisória sobre o monumento, segundo o sítio oficial."
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Preço do bilhete adulto não foi exposto na página consultada — verificar em parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.parquesdesintra.pt",
+    "desc": "Palácio romântico do século XIX de influência mourisca e indiana, cercado por um dos jardins botânicos mais ricos de Portugal, com árvores exóticas trazidas de todo o mundo."
+  }
+]

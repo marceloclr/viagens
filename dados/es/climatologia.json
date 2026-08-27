@@ -1,0 +1,6 @@
+{
+  "madrid": { "mes": 11, "max": 13.7, "min": 4.8, "mm": 46, "diasChuva": 8 },
+  "barcelona": { "mes": 11, "max": 17, "min": 11, "mm": 66, "diasChuva": 11 },
+  "santiago_de_compostela": { "mes": 11, "max": 15, "min": 8, "mm": 159, "diasChuva": 19 },
+  "sevilha": { "mes": 11, "max": 21, "min": 10, "mm": 66, "diasChuva": 12 }
+}

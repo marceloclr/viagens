@@ -1,0 +1,214 @@
+[
+  {
+    "id": "tav_jaffa_antiga",
+    "cidadeId": "tel_aviv",
+    "nome": "Cidade Velha de Jaffa (Old Jaffa) e Torre do Relógio",
+    "zona": "jaffa",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Old Jaffa, Tel Aviv-Yafo",
+    "desc": "Um dos portos mais antigos do mundo, com vielas de pedra, vista panorâmica para a orla de Tel Aviv e a Torre do Relógio como marco de acesso ao bairro histórico. Acesso público livre.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (visit-tel-aviv.com, israel-in-photos.com); área pública sem cobrança de entrada",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "fotografia"
+    ],
+    "prio": 82,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "tav_mercado_pulgas",
+    "cidadeId": "tel_aviv",
+    "nome": "Mercado das Pulgas de Jaffa (Shuk HaPishpishim)",
+    "zona": "jaffa",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [
+      6
+    ],
+    "endereco": "Ao redor da Torre do Relógio, Old Jaffa, Tel Aviv-Yafo",
+    "desc": "Mercado de antiguidades, artesanato e achados vintage nas vielas de Jaffa; fechado aos sábados (Shabat).",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (fleamarketinsiders.com); entrada livre, gastos apenas nas compras",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo a quinta 10:00-18:00; sexta 10:00-14:00; fechado sábado",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (fleamarketinsiders.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "compras",
+      "cultura",
+      "gastronomia"
+    ],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "tav_mercado_carmel",
+    "cidadeId": "tel_aviv",
+    "nome": "Mercado Carmel (Shuk HaCarmel)",
+    "zona": "kerem_hateimanim",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [
+      6
+    ],
+    "endereco": "HaCarmel St, Tel Aviv",
+    "desc": "Maior mercado a céu aberto de Tel Aviv, com produtos frescos, especiarias, roupas e comida de rua; fechado aos sábados (Shabat).",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://en.shuktlv.co.il/category/useful-information-carmel-market (sítio informativo dedicado ao mercado)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo a quinta, aproximadamente 08:00 até o entardecer; sexta 08:00-14:00; fechado sábado",
+      "tipo": "CADASTRADO",
+      "fonte": "https://en.shuktlv.co.il/category/useful-information-carmel-market",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "gastronomia",
+      "compras",
+      "cultura"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "tav_rothschild_bauhaus",
+    "cidadeId": "tel_aviv",
+    "nome": "Rothschild Boulevard e Cidade Branca (arquitetura Bauhaus)",
+    "zona": "lev_hair",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Rothschild Boulevard, Tel Aviv",
+    "desc": "Avenida arborizada que atravessa a 'Cidade Branca', maior conjunto de edifícios em estilo Bauhaus/Estilo Internacional do mundo, reconhecida como Patrimônio Mundial da UNESCO em 2003. Percurso livre e gratuito.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.tel-aviv.gov.il/en/Visit/WhiteCity/Pages/default.aspx (portal oficial da Municipalidade de Tel Aviv-Yafo)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "arquitetura",
+      "fotografia",
+      "cultura"
+    ],
+    "prio": 70,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "tav_museu_arte",
+    "cidadeId": "tel_aviv",
+    "nome": "Museu de Arte de Tel Aviv",
+    "zona": "lev_hair",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [
+      0,
+      1
+    ],
+    "endereco": "27 Shaul HaMelech Blvd, Tel Aviv",
+    "desc": "Principal museu de arte da cidade, com acervo de arte moderna, impressionista e israelense; fechado aos domingos e segundas-feiras. Entrada gratuita para menores de 18 anos.",
+    "custo": {
+      "valor": 50,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias oficiais (tickets.tamuseum.org.il, tamuseum.org.il/en/visit); valor em NIS para ingresso adulto",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Terça e quinta 10:00-21:00; quarta 10:00-18:00; sexta 10:00-14:00; sábado 10:00-18:00; fechado domingo e segunda",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias oficiais (tamuseum.org.il/en/visit)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 72,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "tav_salao_independencia",
+    "cidadeId": "tel_aviv",
+    "nome": "Salão da Independência (Independence Hall)",
+    "zona": "lev_hair",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [
+      6
+    ],
+    "endereco": "Centro de visitantes na Shalom Meir Tower, 4 Ahuzat Bait St, Tel Aviv (prédio histórico da Rothschild Blvd 16 encontrava-se em reforma)",
+    "desc": "Local onde Ben-Gurion declarou a independência do Estado de Israel em 1948; a sede histórica está em reforma e a exposição funciona temporariamente num centro de visitantes próximo, com visitas guiadas diárias sem custo adicional.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (beinharimtours.com, enjoyingisrael.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Domingo a quinta 09:00-17:00; sexta 09:00-13:00; fechado sábado",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado de guias de turismo (beinharimtours.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "cultura"
+    ],
+    "prio": 65,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "id": "lis_torre_belem",
+    "cidadeId": "lisboa",
+    "nome": "Torre de Belém",
+    "zona": "belem",
+    "cat": [
+      "arquitetura",
+      "historia",
+      "fotografia"
+    ],
+    "prio": 90,
+    "dur": 60,
+    "interior": true,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [
+      1
+    ],
+    "endereco": "Av. Brasília, 1400-038 Lisboa, Portugal",
+    "horario": {
+      "valor": "Terça a domingo, 9h30–17h30 (fechado às segundas-feiras, 1º de janeiro, domingo de Páscoa, 1º de maio, 13 de junho e 25 de dezembro)",
+      "tipo": "CADASTRADO",
+      "fonte": "museusemonumentos.pt — Torre de Belém, ficha oficial da Direção-Geral do Patrimônio Cultural",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto": 15,
+        "menor12": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "museusemonumentos.pt — Torre de Belém, ficha oficial da Direção-Geral do Patrimônio Cultural",
+      "consultadoEm": "2026-08-26",
+      "nota": "Redução de 50% para seniores e estudantes; gratuidade para menores de 12 anos."
+    },
+    "oficial": "https://www.patrimoniocultural.gov.pt",
+    "desc": "Fortificação manuelina do século XVI erguida à margem do Tejo, Patrimônio Mundial da UNESCO desde 1983, símbolo dos Descobrimentos portugueses."
+  },
+  {
+    "id": "lis_mosteiro_jeronimos",
+    "cidadeId": "lisboa",
+    "nome": "Mosteiro dos Jerónimos",
+    "zona": "belem",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia",
+      "arte"
+    ],
+    "prio": 92,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [
+      1
+    ],
+    "endereco": "Praça do Império, 1400-206 Lisboa, Portugal",
+    "horario": {
+      "valor": "Claustro: terça a domingo, 9h30–17h30 (última entrada 17h). Igreja: terça a sábado 10h30–17h; domingos e feriados religiosos 14h–17h. Fechado às segundas-feiras, 1º de janeiro, domingo de Páscoa, 1º de maio e 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "museusemonumentos.pt — Mosteiro dos Jerónimos, ficha oficial da Direção-Geral do Patrimônio Cultural",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto": 18
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "museusemonumentos.pt — Mosteiro dos Jerónimos, ficha oficial da Direção-Geral do Patrimônio Cultural",
+      "consultadoEm": "2026-08-26",
+      "nota": "Entrada gratuita aos domingos e feriados até às 14h, conforme regra geral dos monumentos estatais portugueses. A igreja em si é de acesso livre."
+    },
+    "oficial": "https://www.patrimoniocultural.gov.pt",
+    "desc": "Obra-prima do estilo manuelino, erguida a partir de 1501 para celebrar os Descobrimentos. Abriga o túmulo de Vasco da Gama e é Patrimônio Mundial da UNESCO."
+  },
+  {
+    "id": "lis_padrao_descobrimentos",
+    "cidadeId": "lisboa",
+    "nome": "Padrão dos Descobrimentos",
+    "zona": "belem",
+    "cat": [
+      "historia",
+      "fotografia"
+    ],
+    "prio": 75,
+    "dur": 45,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Av. Brasília, 1400-038 Lisboa, Portugal",
+    "horario": {
+      "valor": "10h–19h (março a setembro, última entrada 18h30); 10h–18h (outubro a fevereiro, última entrada 17h30). Fechado em 1º de janeiro, 1º de maio e 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "padraodosdescobrimentos.pt — Bilheteira oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Bilheteira oficial lista categorias de desconto (residentes, estudantes, Lisboa Card) mas não expôs o valor cheio do adulto na busca realizada",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://padraodosdescobrimentos.pt",
+    "desc": "Monumento erguido em 1960 à margem do Tejo em homenagem aos navegadores portugueses, com mirante panorâmico no topo."
+  },
+  {
+    "id": "lis_oceanario",
+    "cidadeId": "lisboa",
+    "nome": "Oceanário de Lisboa",
+    "zona": "parque_das_nacoes",
+    "cat": [
+      "natureza",
+      "familia",
+      "juvenil"
+    ],
+    "prio": 85,
+    "dur": 120,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Esplanada Dom Carlos I, 1990-005 Lisboa, Portugal",
+    "horario": {
+      "valor": "Diariamente, 10h–19h (inverno) ou 10h–20h (verão), última entrada 1 hora antes do fecho. 25 de dezembro: 13h–18h; 1º de janeiro: 12h–18h.",
+      "tipo": "CADASTRADO",
+      "fonte": "oceanario.pt — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto": 25,
+        "crianca3a12": 15,
+        "senior65mais": 17
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "oceanario.pt — Sítio oficial",
+      "consultadoEm": "2026-08-26",
+      "nota": "Preços variam por época (baixa/alta), podendo chegar a 31 € (adulto) na alta temporada. Bilhete válido por até 120 dias após a compra."
+    },
+    "oficial": "https://www.oceanario.pt",
+    "desc": "Um dos maiores aquários da Europa, no Parque das Nações, com tanque central de água salgada e exibições de biodiversidade marinha mundial."
+  },
+  {
+    "id": "lis_se_lisboa",
+    "cidadeId": "lisboa",
+    "nome": "Sé de Lisboa (Catedral Patriarcal)",
+    "zona": "alfama",
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 78,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [
+      0
+    ],
+    "endereco": "Largo da Sé, 1100-585 Lisboa, Portugal",
+    "horario": {
+      "valor": "Novembro a maio: segunda a sábado, 10h–18h. Junho a outubro: segunda a sábado, 9h30–19h. Fechado aos domingos e dias santos. Última entrada 45 minutos antes do fecho.",
+      "tipo": "CADASTRADO",
+      "fonte": "sedelisboa.pt — Sítio oficial, seção de bilhetes",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "sedelisboa.pt — Sítio oficial, seção de bilhetes",
+      "consultadoEm": "2026-08-26",
+      "nota": "Entrada na nave da catedral é gratuita; claustro e Museu do Tesouro são bilhetados à parte (bilhete combinado com acesso ao coro alto)."
+    },
+    "oficial": "https://www.sedelisboa.pt",
+    "desc": "Catedral fortificada do século XII, sede da Arquidiocese de Lisboa, erguida no antigo local de uma mesquita após a Reconquista."
+  },
+  {
+    "id": "lis_castelo_sao_jorge",
+    "cidadeId": "lisboa",
+    "nome": "Castelo de São Jorge",
+    "zona": "alfama",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 85,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Rua de Santa Cruz do Castelo, 1100-129 Lisboa, Portugal",
+    "horario": {
+      "valor": "9h–21h (março a outubro); 9h–18h (novembro a fevereiro). Fechado em 1º de janeiro, 1º de maio, 24, 25 e 31 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "castelodesaojorge.pt — Sítio oficial",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": {
+        "adulto": 17,
+        "ate12anos": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "castelodesaojorge.pt — Sítio oficial, página \"Choose Your Ticket\"",
+      "consultadoEm": "2026-08-26",
+      "nota": "Bilhete inclui acesso ao monumento e jardins, sem limite de tempo dentro do horário de funcionamento."
+    },
+    "oficial": "https://castelodesaojorge.pt",
+    "desc": "Castelo mourisco que domina o miradouro mais alto de Lisboa, com vista de 360° sobre a Baixa, o Tejo e Alfama."
+  },
+  {
+    "id": "lis_elevador_santa_justa",
+    "cidadeId": "lisboa",
+    "nome": "Elevador de Santa Justa",
+    "zona": "baixa_chiado",
+    "cat": [
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 65,
+    "dur": 20,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "R. do Ouro, 1150-060 Lisboa, Portugal",
+    "horario": {
+      "valor": "7h30–23h (maio a outubro); 7h30–21h (novembro a abril). Miradouro com horário próprio.",
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico consultado por falta de página oficial da Carris com horário publicado (fernandolopes.pt / lisboa.es)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Horário obtido em fonte secundária — recomendado confirmar no sítio da Carris antes da visita."
+    },
+    "custo": {
+      "valor": 5.15,
+      "tipo": "CADASTRADO",
+      "fonte": "Agregado turístico consultado por falta de página oficial da Carris com tarifário publicado (fernandolopes.pt / lisboa.es)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Tarifa de ida e volta comprada a bordo; com cartão Viva Viagem o trajeto sai mais barato. Gratuito com Lisboa Card. Fonte secundária — confirmar tarifário vigente na Carris."
+    },
+    "oficial": null,
+    "desc": "Elevador de ferro do início do século XX que liga a Baixa ao Largo do Carmo, com mirante panorâmico no topo."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "cidadeId": "madrid",
+    "titulo": "Madrid — menú del día e tapeo",
+    "texto": "Almoço pelo menú del día em bar de bairro em La Latina ou Malasaña, com entrada, prato principal e sobremesa a preço fixo. À noite, tapeo de bar em bar é mais barato e mais típico que sentar num único restaurante turístico.",
+    "tags": ["economica", "tradicional", "street_food"]
+  },
+  {
+    "cidadeId": "barcelona",
+    "titulo": "Barcelona — mercat e tapeo em El Born",
+    "texto": "La Boqueria resolve um almoço rápido de tapas no balcão por preço justo, longe das Ramblas mais turísticas. À noite, os bares de tapas de El Born e Gràcia mantêm melhor relação preço-qualidade que o entorno da Sagrada Família.",
+    "tags": ["economica", "tradicional", "gastronomica"]
+  },
+  {
+    "cidadeId": "santiago_de_compostela",
+    "titulo": "Santiago de Compostela — polbo e mercado de abastos",
+    "texto": "Pulpo à feira (polbo á feira) é o prato obrigatório, servido nas tabernas ao redor do Mercado de Abastos. Praças com vista para a Praza do Obradoiro cobram mais caro pela mesma comida — vale caminhar uma quadra a mais.",
+    "tags": ["regional", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "sevilha",
+    "titulo": "Sevilha — tapeo no Barrio de Santa Cruz",
+    "texto": "A tradição do tapeo — pequenas porções acompanhando o vinho — concentra-se nos bares do Barrio de Santa Cruz e de Triana, do outro lado do rio, geralmente mais barato. Mercados de bairro complementam com produtos frescos para quem prefere montar a própria refeição.",
+    "tags": ["tradicional", "regional", "economica"]
+  },
+  {
+    "cidadeId": "es_valencia",
+    "titulo": "Valência — paella na origem e Mercado Central",
+    "texto": "Valência é a origem da paella: procurar casas que sirvam a versão valenciana tradicional (frango, coelho, feijão verde), não a versão turística de frutos do mar genérica. O Mercado Central oferece opções rápidas e horchata com fartons como lanche típico.",
+    "tags": ["regional", "gastronomica", "street_food"]
+  }
+]

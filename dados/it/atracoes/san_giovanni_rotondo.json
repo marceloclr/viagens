@@ -1,0 +1,106 @@
+[
+  {
+    "id": "sgr_santuario_padre_pio",
+    "cidadeId": "san_giovanni_rotondo",
+    "nome": "Santuário de Padre Pio",
+    "zona": "santuario",
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 96,
+    "dur": 150,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Piazza Santa Maria delle Grazie, 71013 San Giovanni Rotondo FG, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.santuariopadrepio.it",
+    "desc": "Conjunto formado pela igreja antiga, pela igreja de Santa Maria delle Grazie e pela cripta com o corpo do santo."
+  },
+  {
+    "id": "sgr_igreja_renzo_piano",
+    "cidadeId": "san_giovanni_rotondo",
+    "nome": "Igreja de São Pio (Renzo Piano)",
+    "zona": "santuario",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 78,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Viale Cappuccini, 71013 San Giovanni Rotondo FG, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.santuariopadrepio.it",
+    "desc": "Uma das maiores igrejas contemporâneas da Europa, com arcos de pedra em vão livre — interesse arquitetônico independente da devoção."
+  },
+  {
+    "id": "sgr_via_crucis",
+    "cidadeId": "san_giovanni_rotondo",
+    "nome": "Via Crucis monumental",
+    "zona": "santuario",
+    "cat": [
+      "religiao",
+      "arte",
+      "natureza"
+    ],
+    "prio": 60,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 6,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Viale Cappuccini, 71013 San Giovanni Rotondo FG, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Percurso em encosta com estações em bronze — exige caminhada e tempo firme."
+  }
+]

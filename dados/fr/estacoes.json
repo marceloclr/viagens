@@ -1,0 +1,16 @@
+[
+  {
+    "id": "gare_nord",
+    "cidadeId": "paris",
+    "nome": "Gare du Nord",
+    "endereco": "18 Rue de Dunkerque, 75010 Paris, França",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "gare_lyon",
+    "cidadeId": "paris",
+    "nome": "Gare de Lyon",
+    "endereco": "Place Louis Armand, 75012 Paris, França",
+    "fonte": "@ref:v12"
+  }
+]

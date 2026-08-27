@@ -1,0 +1,29 @@
+{
+  "rotulos": {
+    "lisboa": ["belem", "parque_das_nacoes", "alfama", "baixa_chiado"],
+    "porto": ["centro_historico", "ribeira", "vila_nova_gaia"],
+    "fatima": ["recinto_santuario", "aljustrel"],
+    "sintra": ["centro_historico", "serra_de_sintra"]
+  },
+  "coordenadas": {
+    "lisboa": {
+      "belem": { "lat": 38.6979, "lon": -9.2062 },
+      "parque_das_nacoes": { "lat": 38.7681, "lon": -9.0937 },
+      "alfama": { "lat": 38.7127, "lon": -9.1305 },
+      "baixa_chiado": { "lat": 38.7107, "lon": -9.1391 }
+    },
+    "porto": {
+      "centro_historico": { "lat": 41.1435, "lon": -8.6116 },
+      "ribeira": { "lat": 41.1408, "lon": -8.6122 },
+      "vila_nova_gaia": { "lat": 41.1329, "lon": -8.6108 }
+    },
+    "fatima": {
+      "recinto_santuario": { "lat": 39.6297, "lon": -8.6725 },
+      "aljustrel": { "lat": 39.6146, "lon": -8.6656 }
+    },
+    "sintra": {
+      "centro_historico": { "lat": 38.7975, "lon": -9.3906 },
+      "serra_de_sintra": { "lat": 38.7883, "lon": -9.4207 }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "atenas",
+    "paisId": "gr",
+    "nome": "Atenas",
+    "glifo": "🏛️",
+    "lat": 37.9838,
+    "lon": 23.7275,
+    "curada": true,
+    "noitesMin": 2,
+    "noitesIdeal": 3,
+    "noitesMax": 5,
+    "perfil": {
+      "religiao": 60,
+      "historia": 98,
+      "cultura": 92,
+      "arte": 70,
+      "museus": 80,
+      "arquitetura": 90,
+      "gastronomia": 75,
+      "familia": 60,
+      "juvenil": 65,
+      "compras": 55,
+      "natureza": 40,
+      "praias": 35,
+      "aventura": 25,
+      "fotografia": 90,
+      "descanso": 45,
+      "romantico": 65,
+      "esportes": 30
+    },
+    "transporteUrbano": "Metrô de Atenas (3 linhas), elétrico e caminhada no centro histórico",
+    "aeroportos": ["ath"],
+    "estacoes": [],
+    "bairrosBase": "Plaka e Monastiraki, aos pés da Acrópole",
+    "resumo": "Berço da democracia e da filosofia ocidental — Acrópole, Ágora Antiga e o Areópago onde Paulo pregou aos atenienses (Atos 17), tudo a poucos passos um do outro."
+  }
+]

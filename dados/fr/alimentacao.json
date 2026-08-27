@@ -1,0 +1,24 @@
+[
+  {
+    "cidadeId": "paris",
+    "titulo": "Paris — boulangerie ao meio-dia, bistrô à noite",
+    "texto": "Almoço de sanduíche de boulangerie ou fórmula do dia em bistrô do Quartier Latin e do Marais; jantar com menu fixo, sensivelmente mais barato que o à la carte. Mercados cobertos resolvem a refeição de família com bom custo.",
+    "tags": [
+      "economica",
+      "gastronomica",
+      "tradicional"
+    ]
+  },
+  {
+    "cidadeId": "fr_lourdes",
+    "titulo": "Lourdes — crepes e restaurantes de peregrino",
+    "texto": "A cidade vive do fluxo de peregrinos: creperias e restaurantes práticos concentram-se na Avenue Bernadette Soubirous e ao redor do santuário, com cardápios voltados a grupos e turismo religioso. Para pratos mais típicos dos Pirenéus (garbure, queijos de montanha), vale se afastar um pouco do entorno imediato da Gruta.",
+    "tags": ["economica", "tradicional"]
+  },
+  {
+    "cidadeId": "fr_lisieux",
+    "titulo": "Lisieux — cozinha normanda de cidra e queijo",
+    "texto": "Cidade pequena, com poucas opções perto do santuário — restaurantes tradicionais normandos servem prato à base de cidra (poulet vallée d'Auge) e queijos regionais como camembert e livarot. Padarias no centro resolvem um almoço rápido entre a Basílica e o Carmelo.",
+    "tags": ["regional", "tradicional", "economica"]
+  }
+]

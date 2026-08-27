@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mad",
+    "cidadeId": "madrid",
+    "codigo": "MAD",
+    "nome": "Aeroporto Adolfo Suárez Madrid-Barajas",
+    "endereco": "Avda. de la Hispanidad, s/n, 28042 Madrid, Espanha",
+    "fonte": "Ficha de situação do aeroporto — Agencia Estatal de Seguridad Aérea (seguridadaerea.gob.es), consultado em 2026-08-26"
+  },
+  {
+    "id": "bcn",
+    "cidadeId": "barcelona",
+    "codigo": "BCN",
+    "nome": "Aeroporto Josep Tarradellas Barcelona-El Prat",
+    "endereco": "08820 El Prat de Llobregat, Barcelona, Espanha",
+    "fonte": "Ficha de situação do aeroporto — Agencia Estatal de Seguridad Aérea (seguridadaerea.gob.es), consultado em 2026-08-26"
+  },
+  {
+    "id": "scq",
+    "cidadeId": "santiago_de_compostela",
+    "codigo": "SCQ",
+    "nome": "Aeroporto de Santiago de Compostela — Rosalía de Castro",
+    "endereco": "Lavacolla, s/n, 15820 Santiago de Compostela, Espanha",
+    "fonte": "Ficha de situação do aeroporto — Agencia Estatal de Seguridad Aérea (seguridadaerea.gob.es), consultado em 2026-08-26"
+  },
+  {
+    "id": "svq",
+    "cidadeId": "sevilha",
+    "codigo": "SVQ",
+    "nome": "Aeroporto de Sevilha — San Pablo",
+    "endereco": "Carretera N-IV Madrid-Cádiz, km 532, 41020 Sevilha, Espanha",
+    "fonte": "Ficha de situação do aeroporto — Agencia Estatal de Seguridad Aérea (seguridadaerea.gob.es), consultado em 2026-08-26"
+  },
+  {
+    "id": "vlc",
+    "cidadeId": "es_valencia",
+    "codigo": "VLC",
+    "nome": "Aeroporto de Valência — Manises",
+    "endereco": "Carretera del Aeropuerto, s/n, 46940 Manises, Valência, Espanha",
+    "fonte": "Ficha de situação do aeroporto — Agencia Estatal de Seguridad Aérea (seguridadaerea.gob.es), consultado em 2026-08-27"
+  }
+]

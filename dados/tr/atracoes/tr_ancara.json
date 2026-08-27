@@ -1,0 +1,172 @@
+[
+  {
+    "id": "anc_anitkabir",
+    "cidadeId": "tr_ancara",
+    "nome": "Anıtkabir",
+    "zona": "ancara_anittepe",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Mebusevleri Mah., Anıttepe, 06570 Çankaya/Ankara, Turquia",
+    "desc": "Mausoléu monumental de Mustafa Kemal Atatürk, fundador da república turca, com museu sobre a Guerra de Independência e a troca da guarda no pátio de honra — o monumento mais visitado do país.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (advantour.com, gidiyorum.com) — consultado em 2026-08-27: entrada gratuita para todos os visitantes",
+      "consultadoEm": "2026-08-27"
+    },
+    "horario": {
+      "valor": "Verão (abril a setembro): 9h às 17h; inverno (outubro a março): 9h às 16h. Fechado das 12h às 13h para o almoço, aberto todos os dias da semana.",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (advantour.com, gidiyorum.com) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
+    },
+    "cat": [
+      "historia",
+      "cultura",
+      "arquitetura"
+    ],
+    "prio": 90,
+    "interior": false,
+    "chuva": "medio",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "anc_museu_civilizacoes_anatolia",
+    "cidadeId": "tr_ancara",
+    "nome": "Museu das Civilizações da Anatólia",
+    "zona": "ancara_ulus",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Gözcü Sokak No:2, 06240 Ulus, Ankara, Turquia",
+    "desc": "Um dos acervos arqueológicos mais premiados da Turquia, instalado em dois edifícios otomanos restaurados aos pés do Castelo de Ancara, com achados hititas, frígios e urartianos.",
+    "custo": {
+      "valor": 12,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (whichmuseum.com, advantour.com) — consultado em 2026-08-27; valor em euros para visitantes estrangeiros, aceita o Museum Pass Türkiye",
+      "consultadoEm": "2026-08-27"
+    },
+    "horario": {
+      "valor": "Diariamente das 8h30 às 19h (última entrada às 18h15).",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (whichmuseum.com, trip.com) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
+    },
+    "cat": [
+      "historia",
+      "museus",
+      "arte"
+    ],
+    "prio": 85,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "anc_castelo_ancara",
+    "cidadeId": "tr_ancara",
+    "nome": "Castelo de Ancara (Ankara Kalesi)",
+    "zona": "ancara_ulus",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kale Mh., 06240 Ankara, Turquia",
+    "desc": "Cidadela no ponto mais alto da cidade, com muralhas de origem romana e bizantina reforçadas por seljúcidas e otomanos, envolvendo o bairro histórico de Hamamönü — vista panorâmica de Ulus.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (advantour.com, thrillophilia.com) — consultado em 2026-08-27: acesso livre às muralhas e ao bairro interno",
+      "consultadoEm": "2026-08-27"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Espaço aberto, integrado ao bairro de Ulus; fontes turísticas divergem sobre um horário formal de fechamento (algumas citam 9h–19h no verão e 9h–17h no inverno, outras afirmam acesso livre a qualquer hora) — sem confirmação em fonte oficial, mantido como indisponível."
+    },
+    "cat": [
+      "historia",
+      "fotografia",
+      "arquitetura"
+    ],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "anc_mesquita_kocatepe",
+    "cidadeId": "tr_ancara",
+    "nome": "Mesquita Kocatepe",
+    "zona": "ancara_cankaya",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kültür, Dr. Mediha Eldem Sk. No:67, 06420 Çankaya/Ankara, Turquia",
+    "desc": "Maior mesquita de Ancara, de arquitetura otomana clássica concluída em 1987, com capacidade para dezenas de milhares de fiéis — aberta a visitantes fora dos horários de oração.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (traveleva.in, travelsetu.com) — consultado em 2026-08-27: entrada gratuita",
+      "consultadoEm": "2026-08-27"
+    },
+    "horario": {
+      "valor": "Aberta a visitantes durante o dia, fora dos horários de oração — especialmente evitar a oração coletiva de sexta-feira ao meio-dia. Vestimenta modesta exigida; lenço de cabeça para mulheres.",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (traveleva.in, travelsetu.com, rehlat.co) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 55,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "anc_templo_augusto",
+    "cidadeId": "tr_ancara",
+    "nome": "Templo de Augusto e Roma",
+    "zona": "ancara_ulus",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Hacı Bayram Mh., Ulus, Ankara, Turquia (junto à Mesquita Hacı Bayram)",
+    "desc": "Templo romano de 25–20 a.C. que preserva o texto mais completo do Res Gestae Divi Augusti, o testamento político de Augusto — hoje visível só externamente, ao lado de uma das mesquitas seljúcidas mais antigas da Anatólia, erguida sobre um antigo templo dedicado a Cibele.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (advantour.com, travelsetu.com) — consultado em 2026-08-27: sítio a céu aberto, visível gratuitamente do exterior",
+      "consultadoEm": "2026-08-27"
+    },
+    "horario": {
+      "valor": "10h às 16h.",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (travelsetu.com) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
+    },
+    "cat": [
+      "historia",
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 60,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  }
+]

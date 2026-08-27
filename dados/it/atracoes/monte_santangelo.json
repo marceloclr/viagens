@@ -1,0 +1,143 @@
+[
+  {
+    "id": "msa_santuario_sao_miguel",
+    "cidadeId": "monte_santangelo",
+    "nome": "Santuário de São Miguel Arcanjo",
+    "zona": "centro_medieval",
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 97,
+    "dur": 120,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Reale Basilica, 127, 71037 Monte Sant'Angelo FG, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Gruta de acesso livre; museus anexos podem cobrar."
+    },
+    "oficial": "https://www.santuariosanmichele.it",
+    "desc": "Gruta e santuário que formam o principal ponto de peregrinação do Gargano, com escadaria monumental de acesso."
+  },
+  {
+    "id": "msa_tomba_rotari",
+    "cidadeId": "monte_santangelo",
+    "nome": "Tomba di Rotari e centro medieval",
+    "zona": "centro_medieval",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 64,
+    "dur": 75,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Largo Tomba di Rotari, 71037 Monte Sant'Angelo FG, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "O bairro Junno, de casas brancas escalonadas, e o batistério longobardo do século XII."
+  },
+  {
+    "id": "msa_castelo",
+    "cidadeId": "monte_santangelo",
+    "nome": "Castelo Normando-Suevo-Aragonês",
+    "zona": "centro_medieval",
+    "cat": [
+      "historia",
+      "juvenil",
+      "fotografia"
+    ],
+    "prio": 62,
+    "dur": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Largo Roberto il Guiscardo, 71037 Monte Sant'Angelo FG, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Fortificação sobre o promontório, com vista para o golfo — atrativo forte para público juvenil."
+  },
+  {
+    "id": "msa_foresta_umbra",
+    "cidadeId": "monte_santangelo",
+    "nome": "Foresta Umbra",
+    "zona": "foresta",
+    "cat": [
+      "natureza",
+      "descanso",
+      "fotografia"
+    ],
+    "prio": 58,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Foresta Umbra, 71030 Provincia di Foggia, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Faial milenar no coração do Parque Nacional do Gargano. Depende de tempo firme e de automóvel."
+  }
+]

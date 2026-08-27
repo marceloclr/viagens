@@ -1,0 +1,174 @@
+[
+  {
+    "id": "esm_agora_smyrna",
+    "cidadeId": "esmirna",
+    "nome": "Ágora de Smyrna",
+    "zona": "namazgah",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Namazgah Mah., Tarık Sarı Sk. No:29, İzmir, Turquia",
+    "desc": "Ruínas do fórum romano da antiga Smyrna, cidade citada entre as Sete Igrejas do Apocalipse (Ap 2:8-11), com colunatas e criptopórtico preservados.",
+    "custo": {
+      "valor": 6,
+      "tipo": "CADASTRADO",
+      "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros."
+    },
+    "horario": {
+      "valor": "Diariamente das 8h30 às 19h (bilheteria fecha às 18h30)",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada, cruzada com dados oficiais de contato do sítio (muze.gov.tr)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "esm_kadifekale",
+    "cidadeId": "esmirna",
+    "nome": "Kadifekale (Castelo de Veludo)",
+    "zona": "konak",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kadifekale Mh., Konak/İzmir, Turquia",
+    "desc": "Fortaleza no topo do Monte Pagos, erguida por ordem de Alexandre, o Grande, sobre a antiga acrópole de Smyrna, com vista panorâmica da baía de Esmirna.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de fontes turísticas (kulturportali.gov.tr): entrada gratuita",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Espaço aberto ao ar livre; não foi confirmado horário formal de fechamento em fonte oficial."
+    },
+    "cat": [
+      "historia",
+      "fotografia"
+    ],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "esm_museu_arqueologia",
+    "cidadeId": "esmirna",
+    "nome": "Museu Arqueológico de Izmir",
+    "zona": "konak",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Bahribaba Parkı, Konak/İzmir, Turquia",
+    "desc": "Acervo de artefatos da região do Egeu turco, incluindo achados de Esmirna, Éfeso e outras cidades antigas da Anatólia ocidental.",
+    "custo": {
+      "valor": 32,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (hurriyet.com.tr) — valor em liras turcas, dado sujeito a defasagem por inflação",
+      "consultadoEm": "2026-08-26",
+      "nota": "Preço em TL desatualizado com frequência; consulte izmir.ktb.gov.tr para o valor vigente."
+    },
+    "horario": {
+      "valor": "Verão (1º de abril a 1º de outubro): 10h às 17h; inverno (1º de outubro a 1º de abril): 8h30 às 17h",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (fontes cruzadas com izmir.ktb.gov.tr)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "museus",
+      "arte"
+    ],
+    "prio": 70,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "esm_museu_etnografia",
+    "cidadeId": "esmirna",
+    "nome": "Museu de Etnografia de Izmir",
+    "zona": "konak",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Bahribaba Parkı, Konak/İzmir, Turquia",
+    "desc": "Instalado num antigo hospital, reúne trajes, artesanato e objetos do cotidiano otomano da região de Esmirna, no mesmo complexo do Museu Arqueológico.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (muzeler.org): entrada gratuita",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "cat": [
+      "cultura",
+      "museus",
+      "historia"
+    ],
+    "prio": 62,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "esm_kemeralti",
+    "cidadeId": "esmirna",
+    "nome": "Bazar de Kemeraltı",
+    "zona": "konak",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Kemeraltı, Konak/İzmir, Turquia",
+    "desc": "Histórico mercado a céu aberto no coração de Esmirna, com becos labirínticos, mesquitas otomanas, sinagogas e lojas de especiarias e artesanato.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de fontes turísticas: mercado de acesso livre",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Horário varia por loja; não há horário único centralizado confirmado em fonte oficial."
+    },
+    "cat": [
+      "compras",
+      "gastronomia",
+      "cultura"
+    ],
+    "prio": 72,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": false,
+    "reserva": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fco",
+    "cidadeId": "roma",
+    "codigo": "FCO",
+    "nome": "Aeroporto de Roma Fiumicino — Leonardo da Vinci",
+    "endereco": "Via dell'Aeroporto di Fiumicino, 320, 00054 Fiumicino RM, Itália",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "nap",
+    "cidadeId": "napoli",
+    "codigo": "NAP",
+    "nome": "Aeroporto Internacional de Nápoles — Capodichino",
+    "endereco": "Viale Fulco Ruffo di Calabria, 80144 Napoli NA, Itália",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "bri",
+    "cidadeId": "bari",
+    "codigo": "BRI",
+    "nome": "Aeroporto de Bari — Karol Wojtyła",
+    "endereco": "Viale Enzo Ferrari, 70128 Bari BA, Itália",
+    "fonte": "@ref:v12"
+  }
+]

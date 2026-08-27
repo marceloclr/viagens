@@ -1,0 +1,68 @@
+[
+  {
+    "id": "h_lis_alfama",
+    "cidadeId": "lisboa",
+    "nome": "Santiago de Alfama - Boutique Hotel",
+    "categoria": "Hotel — Alfama",
+    "zona": "alfama",
+    "endereco": "Rua de Santiago, 10-14, 1100-494 Lisboa, Portugal",
+    "nota": "Hotel boutique instalado em edifício histórico do século XV, no coração de Alfama, perto do Castelo de São Jorge e da Sé.",
+    "fonte": "Sítio oficial santiagodealfama.com",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_lis_baixa_chiado",
+    "cidadeId": "lisboa",
+    "nome": "AlmaLusa Baixa/Chiado",
+    "categoria": "Hotel — Baixa/Chiado",
+    "zona": "baixa_chiado",
+    "endereco": "Praça do Município, 21, 1100-365 Lisboa, Portugal",
+    "nota": "Boa base central para explorar a pé a Baixa, o Chiado e o Terreiro do Paço, com fácil acesso a transporte público.",
+    "fonte": "Sítio oficial almalusahotels.com/baixachiado",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_porto_ribeira",
+    "cidadeId": "porto",
+    "nome": "The Editory House Ribeira",
+    "categoria": "Hotel — Ribeira",
+    "zona": "ribeira",
+    "endereco": "Rua Infante Dom Henrique, 26, 4050-296 Porto, Portugal",
+    "nota": "Localizado à beira do Douro, em frente ao Palácio da Bolsa, no meio da Ribeira, Património Mundial da UNESCO.",
+    "fonte": "Sítio oficial editoryhotels.com/en/house-ribeira-porto",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_porto_gaia",
+    "cidadeId": "porto",
+    "nome": "Hilton Porto Gaia",
+    "categoria": "Hotel — Vila Nova de Gaia",
+    "zona": "vila_nova_gaia",
+    "endereco": "Rua de Serpa Pinto, 124, 4400-307 Vila Nova de Gaia, Portugal",
+    "nota": "Opção do lado de Gaia, próxima às caves de vinho do Porto, com vista sobre o rio Douro e a Ribeira.",
+    "fonte": "Sítio oficial hilton.com",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_fatima_recinto",
+    "cidadeId": "fatima",
+    "nome": "Hotel Recinto",
+    "categoria": "Hotel — Recinto do Santuário",
+    "zona": "recinto_santuario",
+    "endereco": "Rua de Santa Ana, 147, 2495-425 Fátima, Portugal",
+    "nota": "Fica a cerca de 50 metros do Santuário de Fátima, ideal para quem quer estar a pé de distância da Basílica.",
+    "fonte": "Sítio oficial hotelrecinto.com",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_sintra_centro",
+    "cidadeId": "sintra",
+    "nome": "NH Sintra Centro",
+    "categoria": "Hotel — Centro Histórico",
+    "zona": "centro_historico",
+    "endereco": "Praça da República, 2710-616 Sintra, Portugal",
+    "nota": "Fica na praça principal, em frente ao Palácio Nacional de Sintra, no centro histórico da vila.",
+    "fonte": "Sítio oficial nh-hotels.com",
+    "flag": "flag-best"
+  }
+]

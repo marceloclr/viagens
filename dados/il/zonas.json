@@ -1,0 +1,31 @@
+{
+  "rotulos": {
+    "jerusalem": ["cidade_velha", "monte_das_oliveiras", "monte_herzl", "givat_ram", "cidade_nova"],
+    "belem": ["centro", "beit_sahour", "muro_separacao"],
+    "nazare": ["cidade_baixa", "centro"],
+    "tel_aviv": ["jaffa", "kerem_hateimanim", "lev_hair"]
+  },
+  "coordenadas": {
+    "jerusalem": {
+      "cidade_velha": { "lat": 31.7767, "lon": 35.2345 },
+      "monte_das_oliveiras": { "lat": 31.7784, "lon": 35.2444 },
+      "monte_herzl": { "lat": 31.7736, "lon": 35.1758 },
+      "givat_ram": { "lat": 31.7756, "lon": 35.2003 },
+      "cidade_nova": { "lat": 31.7840, "lon": 35.2170 }
+    },
+    "belem": {
+      "centro": { "lat": 31.7043, "lon": 35.2044 },
+      "beit_sahour": { "lat": 31.7042, "lon": 35.2225 },
+      "muro_separacao": { "lat": 31.7196, "lon": 35.2029 }
+    },
+    "nazare": {
+      "cidade_baixa": { "lat": 32.7021, "lon": 35.3007 },
+      "centro": { "lat": 32.7009, "lon": 35.2960 }
+    },
+    "tel_aviv": {
+      "jaffa": { "lat": 32.0546, "lon": 34.7519 },
+      "kerem_hateimanim": { "lat": 32.0644, "lon": 34.7679 },
+      "lev_hair": { "lat": 32.0700, "lon": 34.7745 }
+    }
+  }
+}

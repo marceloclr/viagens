@@ -1,0 +1,139 @@
+[
+  {
+    "id": "fat_capelinha_aparicoes",
+    "cidadeId": "fatima",
+    "nome": "Capelinha das Aparições",
+    "zona": "recinto_santuario",
+    "cat": [
+      "religiao"
+    ],
+    "prio": 95,
+    "dur": 30,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Recinto de Oração e Basílicas, 2495-424 Fátima, Portugal",
+    "horario": {
+      "valor": "Missa diária às 12h30. Terço diário às 18h30 e 21h30 (procissão das velas após o terço das 21h30).",
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt/pt/schedule — Sítio oficial do Santuário de Fátima",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt — Sítio oficial do Santuário de Fátima",
+      "consultadoEm": "2026-08-26",
+      "nota": "Acesso ao recinto do Santuário é totalmente livre e gratuito, sem necessidade de bilhete."
+    },
+    "oficial": "https://www.fatima.pt",
+    "desc": "Pequena capela erguida no exato local das aparições marianas de 1917 aos três pastorinhos, coração devocional do Santuário."
+  },
+  {
+    "id": "fat_basilica_rosario",
+    "cidadeId": "fatima",
+    "nome": "Basílica de Nossa Senhora do Rosário de Fátima",
+    "zona": "recinto_santuario",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 90,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Recinto de Oração e Basílicas, 2495-424 Fátima, Portugal",
+    "horario": {
+      "valor": "Missas diárias às 7h30 e 18h30, e de segunda a sexta-feira também às 11h.",
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt/pt/schedule — Sítio oficial do Santuário de Fátima",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt — Sítio oficial do Santuário de Fátima",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.fatima.pt",
+    "desc": "Basílica neoclássica inaugurada em 1953, onde estão sepultados os três pastorinhos (Francisco, Jacinta e Lúcia), com a torre-sino mais alta do recinto."
+  },
+  {
+    "id": "fat_basilica_trindade",
+    "cidadeId": "fatima",
+    "nome": "Basílica da Santíssima Trindade",
+    "zona": "recinto_santuario",
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 85,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Recinto de Oração e Basílicas, 2495-424 Fátima, Portugal",
+    "horario": {
+      "valor": "Missas diárias às 7h30, 9h, 11h, 15h, 16h30 e 18h30.",
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt/pt/schedule — Sítio oficial do Santuário de Fátima",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt — Sítio oficial do Santuário de Fátima",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.fatima.pt",
+    "desc": "Basílica circular moderna inaugurada em 2007, com 125 metros de diâmetro, projetada pelo arquiteto grego Alexandros Tombazis, com capacidade para milhares de peregrinos."
+  },
+  {
+    "id": "fat_casa_pastorinhos_aljustrel",
+    "cidadeId": "fatima",
+    "nome": "Casas dos Pastorinhos (Aljustrel)",
+    "zona": "aljustrel",
+    "cat": [
+      "religiao",
+      "historia"
+    ],
+    "prio": 70,
+    "dur": 45,
+    "interior": true,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": false,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Aljustrel, 2495-450 Fátima, Portugal",
+    "horario": {
+      "valor": "Diariamente, 9h–18h, sem interrupção para almoço",
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt — comunicado oficial \"Casas dos Pastorinhos em Aljustrel com novo horário de visita\" e turismodocentro.pt",
+      "consultadoEm": "2026-08-26"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "fatima.pt — comunicado oficial sobre horário de visita das Casas dos Pastorinhos",
+      "consultadoEm": "2026-08-26"
+    },
+    "oficial": "https://www.fatima.pt",
+    "desc": "Casas natais de Lúcia, Francisco e Jacinta, os três pastorinhos videntes, preservadas como museu a cerca de 2 km do Santuário, no povoado de Aljustrel."
+  }
+]

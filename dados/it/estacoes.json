@@ -1,0 +1,37 @@
+[
+  {
+    "id": "roma_termini",
+    "cidadeId": "roma",
+    "nome": "Roma Termini",
+    "endereco": "Piazza dei Cinquecento, 1, 00185 Roma RM, Itália",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "napoli_centrale",
+    "cidadeId": "napoli",
+    "nome": "Napoli Centrale",
+    "endereco": "Piazza Garibaldi, 1, 80142 Napoli NA, Itália",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "cassino_est",
+    "cidadeId": "cassino",
+    "nome": "Stazione di Cassino",
+    "endereco": "Piazza Garibaldi, 03043 Cassino FR, Itália",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "foggia_centrale",
+    "cidadeId": "foggia",
+    "nome": "Foggia Centrale",
+    "endereco": "Piazza Vittorio Veneto, 71121 Foggia FG, Itália",
+    "fonte": "@ref:v12"
+  },
+  {
+    "id": "bari_centrale",
+    "cidadeId": "bari",
+    "nome": "Bari Centrale",
+    "endereco": "Piazza Aldo Moro, 70122 Bari BA, Itália",
+    "fonte": "@ref:v12"
+  }
+]

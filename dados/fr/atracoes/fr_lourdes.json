@@ -1,0 +1,157 @@
+[
+  {
+    "id": "fr_lourdes_grotte",
+    "cidadeId": "fr_lourdes",
+    "nome": "Grotte de Massabielle",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "historia"],
+    "prio": 98,
+    "dur": 45,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Sanctuaire Notre-Dame de Lourdes, 1 Avenue Monseigneur Théas, 65100 Lourdes, França",
+    "horario": {
+      "valor": "Todos os dias, 5h à meia-noite — a gruta em si fica acessível desde as 5h.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítios consolidados sobre o Santuário de Lourdes (generationvoyage.fr, enjoylourdes.com)",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso ao santuário é inteiramente gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Local das 18 aparições marianas a Santa Bernadette Soubirous em 1858 — o coração do santuário, que recebe até 6 milhões de peregrinos por ano."
+  },
+  {
+    "id": "fr_lourdes_basilicas_superiores",
+    "cidadeId": "fr_lourdes",
+    "nome": "Basílica da Imaculada Conceição e Basílica do Rosário",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "arquitetura", "historia"],
+    "prio": 88,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Sanctuaire Notre-Dame de Lourdes, 65100 Lourdes, França",
+    "horario": {
+      "valor": "Todos os dias, 7h às 19h30.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítios consolidados sobre o Santuário de Lourdes",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso ao santuário é inteiramente gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Duas basílicas sobrepostas construídas sobre a Gruta — a neogótica Imaculada Conceição embaixo do Rosário bizantino, com o mosaico dourado da fachada."
+  },
+  {
+    "id": "fr_lourdes_basilique_st_pie_x",
+    "cidadeId": "fr_lourdes",
+    "nome": "Basílica Subterrânea São Pio X",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "arquitetura"],
+    "prio": 65,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Sanctuaire Notre-Dame de Lourdes, 65100 Lourdes, França",
+    "horario": {
+      "valor": "Todos os dias, aproximadamente 7h30 às 19h30, conforme as celebrações.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítios consolidados sobre o Santuário de Lourdes",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso ao santuário é inteiramente gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Basílica subterrânea em concreto, uma das maiores igrejas do mundo em área coberta — comporta até 25 mil peregrinos para as grandes celebrações."
+  },
+  {
+    "id": "fr_lourdes_chateau_fort",
+    "cidadeId": "fr_lourdes",
+    "nome": "Château Fort e Museu Pirenaico",
+    "zona": "sanctuaire",
+    "cat": ["historia", "cultura", "museus"],
+    "prio": 55,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "25 Rue du Fort, 65100 Lourdes, França",
+    "horario": {
+      "valor": "Variável por temporada — em outubro–dezembro, por exemplo, segunda 10h–12h e 14h–18h; última entrada 1h antes do fechamento. Confirme o horário do mês da visita no sítio oficial.",
+      "tipo": "CADASTRADO",
+      "fonte": "chateaufort-lourdes.fr — sítio oficial do Château Fort e Museu Pirenaico",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa vigente não confirmada em fonte oficial no momento da consulta — crianças até 6 anos entram gratuitamente.",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": "https://www.chateaufort-lourdes.fr/",
+    "desc": "Fortaleza medieval no alto da cidade, hoje sede do Museu Pirenaico — a opção não religiosa de Lourdes, com panorama sobre o santuário e os Pirenéus."
+  },
+  {
+    "id": "fr_lourdes_moulin_boly",
+    "cidadeId": "fr_lourdes",
+    "nome": "Moulin de Boly (casa natal de Santa Bernadette)",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "historia"],
+    "prio": 60,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "12 Rue Bernadette Soubirous, 65100 Lourdes, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Locais ligados à vida de Santa Bernadette são mantidos pelo Santuário, com acesso gratuito",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Moinho onde Bernadette Soubirous nasceu em 1844 — um dos pontos do circuito \"Trajetos de Bernadette\" pela cidade."
+  }
+]

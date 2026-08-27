@@ -1,0 +1,126 @@
+[
+  {
+    "id": "fr_lisieux_basilica",
+    "cidadeId": "fr_lisieux",
+    "nome": "Basílica Santa Teresinha de Lisieux",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "arquitetura", "historia"],
+    "prio": 95,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Avenue Jean-Paul II, 14100 Lisieux, França",
+    "horario": {
+      "valor": "Todos os dias, aproximadamente 8h30 às 19h30 — confirme antes da visita, o horário pode variar por celebração.",
+      "tipo": "CADASTRADO",
+      "fonte": "therese-de-lisieux.catholique.fr — sítio oficial do Santuário de Lisieux",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada gratuita — doações aceitas para a manutenção do santuário",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": "https://www.therese-de-lisieux.catholique.fr/",
+    "desc": "Uma das basílicas mais visitadas da França, erguida em homenagem a Santa Teresinha do Menino Jesus (Thérèse Martin) — guarda relíquias da santa."
+  },
+  {
+    "id": "fr_lisieux_carmel",
+    "cidadeId": "fr_lisieux",
+    "nome": "Carmelo de Lisieux",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "historia"],
+    "prio": 90,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "21 Rue du Carmel, 14100 Lisieux, França",
+    "horario": {
+      "valor": "Missas às 8h (segunda a sábado) e 11h15 (todos os dias) — capela aberta à visitação nos demais horários; confirme no sítio oficial.",
+      "tipo": "CADASTRADO",
+      "fonte": "carmeldelisieux.fr — sítio oficial do Carmelo de Lisieux",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada gratuita",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": "https://carmeldelisieux.fr/",
+    "desc": "Convento onde Santa Teresinha viveu de 1888 até sua morte em 1897 — guarda sua cela e os relicários com seus restos mortais."
+  },
+  {
+    "id": "fr_lisieux_buissonnets",
+    "cidadeId": "fr_lisieux",
+    "nome": "Les Buissonnets (casa de infância de Santa Teresinha)",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "historia"],
+    "prio": 78,
+    "dur": 40,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [0],
+    "endereco": "Rue Chemin du Paradis (Les Buissonnets), 14100 Lisieux, França",
+    "horario": {
+      "valor": "Todos os dias, exceto domingo de manhã, 15 de agosto, 25 de dezembro e 1º de janeiro.",
+      "tipo": "CADASTRADO",
+      "fonte": "therese-de-lisieux.catholique.fr — sítio oficial do Santuário de Lisieux",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Visita por doação voluntária, sem bilhete fixo",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Casa onde Teresinha viveu 11 anos com seu pai, Louis Martin, antes de entrar para o Carmelo — mobília e jardim originais preservados."
+  },
+  {
+    "id": "fr_lisieux_cathedrale_st_pierre",
+    "cidadeId": "fr_lisieux",
+    "nome": "Catedral de São Pedro de Lisieux",
+    "zona": "sanctuaire",
+    "cat": ["religiao", "arquitetura", "historia"],
+    "prio": 60,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Place François Mitterrand, 14100 Lisieux, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada gratuita",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Catedral gótica normanda onde Santa Teresinha foi batizada em 1873 — um dos quatro pontos oficiais do Santuário de Lisieux."
+  }
+]

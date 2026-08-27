@@ -1,0 +1,68 @@
+[
+  {
+    "id": "h_jer_mamilla",
+    "cidadeId": "jerusalem",
+    "nome": "Mamilla Hotel",
+    "categoria": "Hotel de luxo — Cidade Nova / Mamilla",
+    "zona": "cidade_nova",
+    "endereco": "11 King Solomon St, Jerusalem 94182, Israel",
+    "nota": "A poucos passos da Jaffa Gate e do calçadão comercial de Mamilla, ponto de partida conveniente para a Cidade Velha.",
+    "fonte": "Sítio oficial do hotel (mamillahotel.com)",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_jer_golden_walls",
+    "cidadeId": "jerusalem",
+    "nome": "Golden Walls Hotel",
+    "categoria": "Hotel — Portão de Damasco",
+    "zona": "cidade_velha",
+    "endereco": "23 Sultan Suleiman St, Damascus Gate, Jerusalem, Israel",
+    "nota": "Opção mais econômica a dois minutos a pé do Portão de Damasco, na muralha norte da Cidade Velha.",
+    "fonte": "Booking.com e sítio do hotel (goldenwalls.com)",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_tlv_norman",
+    "cidadeId": "tel_aviv",
+    "nome": "The Norman Tel Aviv",
+    "categoria": "Hotel de luxo — Lev HaIr",
+    "zona": "lev_hair",
+    "endereco": "23-25 Nahmani Street, Tel Aviv-Yafo, 6579441, Israel",
+    "nota": "Boutique de alto padrão em prédios Bauhaus restaurados, central para Rothschild Boulevard e a orla.",
+    "fonte": "Booking.com (referência de endereço) e vhospitality.com",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_tlv_brown_beach",
+    "cidadeId": "tel_aviv",
+    "nome": "Brown Beach House Tel Aviv",
+    "categoria": "Hotel boutique — orla marítima",
+    "zona": "lev_hair",
+    "endereco": "HaYarkon St 64, 6343220, Tel Aviv-Yafo, Israel",
+    "nota": "A um minuto a pé da praia, boa base para quem prioriza orla e vida noturna em vez do centro histórico.",
+    "fonte": "Sítio oficial do grupo (brownhotels.com)",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_bet_jacir_palace",
+    "cidadeId": "belem",
+    "nome": "Jacir Palace InterContinental Bethlehem",
+    "categoria": "Hotel histórico — centro de Belém",
+    "zona": "centro",
+    "endereco": "Jerusalem-Hebron Road, PO Box 1167, Bethlehem, Palestina",
+    "nota": "Antigo palácio otomano restaurado, próximo à Praça da Manjedoura e à Igreja da Natividade.",
+    "fonte": "Sítio do hotel/AHA (palestinehotels.com) e Wikipedia",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_naz_golden_crown",
+    "cidadeId": "nazare",
+    "nome": "Golden Crown Old City Hotel",
+    "categoria": "Hotel — próximo à Cidade Baixa",
+    "zona": "cidade_baixa",
+    "endereco": "Galilee St 16, Nazareth, 16100, Israel",
+    "nota": "Localização prática para visitar a Basílica da Anunciação e o souk histórico a pé.",
+    "fonte": "Booking.com e sítio do hotel",
+    "flag": "flag-best"
+  }
+]

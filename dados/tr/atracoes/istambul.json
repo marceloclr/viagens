@@ -1,0 +1,286 @@
+[
+  {
+    "id": "ist_hagia_sophia",
+    "cidadeId": "istambul",
+    "nome": "Hagia Sophia (Ayasofya)",
+    "zona": "sultanahmet",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Turquia",
+    "desc": "Antiga catedral bizantina, depois mesquita, museu e hoje mesquita novamente, com mosaicos e cúpula únicos de mais de 1.400 anos.",
+    "custo": {
+      "valor": 25,
+      "tipo": "CADASTRADO",
+      "fonte": "https://muze.gov.tr/muze-detay?SectionId=YSM01&DistId=MRK (Ministério da Cultura e Turismo da Turquia)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros para visitantes estrangeiros; crianças até 8 anos entram gratuitamente. Área de oração é aberta gratuitamente aos fiéis; a tarifa cobre o andar superior/experiência de visitação turística."
+    },
+    "horario": {
+      "valor": "Diariamente das 9h às 20h (venda de ingressos até 19h); acesso ao piso principal é interrompido durante as cinco orações diárias, com fechamento mais longo às sextas-feiras",
+      "tipo": "CADASTRADO",
+      "fonte": "https://muze.gov.tr/muze-detay?SectionId=YSM01&DistId=MRK",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "historia",
+      "arquitetura"
+    ],
+    "prio": 97,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_mesquita_azul",
+    "cidadeId": "istambul",
+    "nome": "Mesquita Azul (Sultan Ahmed)",
+    "zona": "sultanahmet",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Sultan Ahmet, Atmeydanı Cd. No:7, 34122 Fatih/İstanbul, Turquia",
+    "desc": "Mesquita imperial do século XVII, famosa pelos azulejos de İznik azuis e seis minaretes; entrada gratuita para visitantes fora dos horários de oração.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (bluemosque.gen.tr / bluemosquetickets.com)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Entrada gratuita; código de vestimenta rigoroso é exigido."
+    },
+    "horario": {
+      "valor": "Aproximadamente 8h30 às 18h30, com fechamento nas cinco orações diárias e fechamento estendido nas manhãs de sexta-feira até cerca de 14h30",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (bluemosquetickets.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
+    "prio": 92,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_cisterna_basilica",
+    "cidadeId": "istambul",
+    "nome": "Cisterna da Basílica (Yerebatan Sarnıcı)",
+    "zona": "sultanahmet",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Alemdar, Yerebatan Cd. 1/3, 34110 Fatih/İstanbul, Turquia",
+    "desc": "Antiga cisterna subterrânea bizantina do século VI, com colunas reaproveitadas e as famosas cabeças de Medusa.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Fontes consultadas (yerebatan.com, basilica-cistern.com) divergem fortemente sobre o preço atual (valores entre 90 TL e cerca de 1950-3000 TL/38-58 EUR), não foi possível confirmar um valor confiável único."
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Fontes divergem entre 18h e 18h30 de fechamento; sessões noturnas adicionais também são anunciadas de forma inconsistente entre fontes."
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 85,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_topkapi",
+    "cidadeId": "istambul",
+    "nome": "Palácio de Topkapi",
+    "zona": "sultanahmet",
+    "dur": 150,
+    "idadeMin": 0,
+    "fechado": [
+      2
+    ],
+    "endereco": "Cankurtaran, 34122 Fatih/İstanbul, Turquia",
+    "desc": "Residência dos sultões otomanos por quase 400 anos, com o Harém, relíquias sagradas islâmicas e vista para o Corno de Ouro e o Bósforo.",
+    "custo": {
+      "valor": 2750,
+      "tipo": "CADASTRADO",
+      "fonte": "https://topkapisarayi.org/en/visiting-info",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em liras turcas (TRY) para o ingresso combinado (Palácio + Harém + Hagia Irene) para visitantes estrangeiros; sujeito a variação frequente por inflação/câmbio."
+    },
+    "horario": {
+      "valor": "Diariamente das 9h às 18h (bilheteria fecha às 17h); fechado às terças-feiras",
+      "tipo": "CADASTRADO",
+      "fonte": "https://topkapisarayi.org/en/visiting-info",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "historia",
+      "arte",
+      "cultura"
+    ],
+    "prio": 88,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_kariye_chora",
+    "cidadeId": "istambul",
+    "nome": "Igreja de Chora (Mesquita Kariye)",
+    "zona": "edirnekapi",
+    "dur": 60,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Derviş Ali Mh., Kariye Cami Sk., 34087 Fatih/İstanbul, Turquia",
+    "desc": "Antiga igreja bizantina, hoje mesquita ativa, com um dos conjuntos mais bem preservados de mosaicos e afrescos bizantinos do mundo.",
+    "custo": {
+      "valor": 20,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (istanbulclues.com / muze.gen.tr)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor em euros (ou equivalente em lira) para visitantes estrangeiros; Museum Pass Istanbul não é aceito aqui."
+    },
+    "horario": {
+      "valor": "Diariamente das 9h às 18h; fechado a turistas às sextas-feiras devido à oração coletiva",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arte",
+      "historia"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_grande_bazar",
+    "cidadeId": "istambul",
+    "nome": "Grande Bazar (Kapalıçarşı)",
+    "zona": "beyazit",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [
+      0
+    ],
+    "endereco": "Beyazıt, Kalpakçılar Cd. No:22, 34126 Fatih/İstanbul, Turquia",
+    "desc": "Um dos maiores e mais antigos mercados cobertos do mundo, com mais de 4.000 lojas de tapetes, joias, cerâmica e especiarias.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (museumpass.istanbul / theistanbulinsider.com)",
+      "consultadoEm": "2026-08-26",
+      "nota": "Entrada livre; é um mercado, não uma atração paga."
+    },
+    "horario": {
+      "valor": "Segunda a sábado, aproximadamente das 8h30/9h às 19h; fechado aos domingos e em feriados religiosos",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "compras",
+      "cultura",
+      "gastronomia"
+    ],
+    "prio": 82,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": true,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_suleymaniye",
+    "cidadeId": "istambul",
+    "nome": "Mesquita de Süleymaniye",
+    "zona": "vefa",
+    "dur": 45,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Süleymaniye Mh., Prof. Sıddık Sami Onar Cd. No:1, 34116 Fatih/İstanbul, Turquia",
+    "desc": "Maior mesquita imperial de Istambul, obra-prima do arquiteto Mimar Sinan no século XVI, com túmulos de Suleiman, o Magnífico, e sua esposa Hürrem Sultan.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada (istanbulclues.com)",
+      "consultadoEm": "2026-08-26"
+    },
+    "horario": {
+      "valor": "Diariamente das 9h às 18h, com interrupções nos horários de oração; acesso reduzido nas manhãs de sexta-feira",
+      "tipo": "CADASTRADO",
+      "fonte": "Pesquisa de referência consolidada",
+      "consultadoEm": "2026-08-26"
+    },
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 80,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": false
+  },
+  {
+    "id": "ist_dolmabahce",
+    "cidadeId": "istambul",
+    "nome": "Palácio de Dolmabahçe",
+    "zona": "besiktas",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "Vişnezade, Dolmabahçe Cd., 34357 Beşiktaş/İstanbul, Turquia",
+    "desc": "Palácio do século XIX às margens do Bósforo, residência final dos sultões otomanos e local de morte de Atatürk, com decoração em estilo europeu barroco e neoclássico.",
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Administrado pela Presidência de Palácios Nacionais (Milli Saraylar); não foi possível confirmar o preço vigente numa fonte oficial durante esta pesquisa."
+    },
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null,
+      "nota": "Dias de fechamento (segunda e quinta) amplamente citados por fontes turísticas, mas não confirmados em fonte primária oficial nesta pesquisa; por isso não registrado como CADASTRADO."
+    },
+    "cat": [
+      "historia",
+      "arquitetura",
+      "arte"
+    ],
+    "prio": 80,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": false,
+    "reserva": true
+  }
+]

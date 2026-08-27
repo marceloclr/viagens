@@ -1,0 +1,6 @@
+{
+  "jerusalem": { "mes": 11, "max": 19.9, "min": 12.9, "mm": 41, "diasChuva": 7 },
+  "belem": { "mes": 11, "max": 20, "min": 10, "mm": 60, "diasChuva": 5 },
+  "nazare": { "mes": 11, "max": 23.5, "min": 13.8, "mm": 72, "diasChuva": 9 },
+  "tel_aviv": { "mes": 11, "max": 24, "min": 15, "mm": 81, "diasChuva": 5 }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lis",
+    "cidadeId": "lisboa",
+    "codigo": "LIS",
+    "nome": "Aeroporto Humberto Delgado (Lisboa)",
+    "endereco": "Alameda das Comunidades Portuguesas, 1700-111 Lisboa, Portugal",
+    "fonte": "ANA Aeroportos de Portugal — aeroportolisboa.pt (consultado via busca em 2026-08-26)"
+  },
+  {
+    "id": "opo",
+    "cidadeId": "porto",
+    "codigo": "OPO",
+    "nome": "Aeroporto Francisco Sá Carneiro (Porto)",
+    "endereco": "Aeroporto Francisco Sá Carneiro, 4470-558 Maia, Portugal",
+    "fonte": "ANA Aeroportos de Portugal — aeroportoporto.pt (consultado via busca em 2026-08-26)"
+  }
+]

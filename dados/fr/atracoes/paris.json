@@ -1,0 +1,473 @@
+[
+  {
+    "id": "paris_notre_dame",
+    "cidadeId": "paris",
+    "nome": "Notre-Dame de Paris",
+    "zona": "ile_cite",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
+    "prio": 94,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "6 Parvis Notre-Dame, 75004 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Acesso sujeito a regulação de fluxo — verificar no sítio oficial",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Acesso à nave sem cobrança; pode exigir reserva de horário."
+    },
+    "oficial": "https://www.notredamedeparis.fr",
+    "desc": "Patrimônio gótico fundamental, articulando a peregrinação com a história medieval da cidade."
+  },
+  {
+    "id": "paris_sainte_chapelle",
+    "cidadeId": "paris",
+    "nome": "Sainte-Chapelle",
+    "zona": "ile_cite",
+    "cat": [
+      "religiao",
+      "arte",
+      "arquitetura"
+    ],
+    "prio": 88,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "8 Boulevard du Palais, 75001 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa e bilhete combinado com a Conciergerie",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.sainte-chapelle.fr",
+    "desc": "Os vitrais do século XIII mostram de forma imediata a arte sacra medieval. Visitar sob luz do dia, nunca ao entardecer."
+  },
+  {
+    "id": "paris_sacre_coeur",
+    "cidadeId": "paris",
+    "nome": "Sacré-Cœur e Montmartre",
+    "zona": "montmartre",
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "cultura",
+      "fotografia"
+    ],
+    "prio": 85,
+    "dur": 135,
+    "interior": true,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "35 Rue du Chevalier de la Barre, 75018 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null,
+      "nota": "Basílica de acesso livre; a subida ao domo é bilhetada."
+    },
+    "oficial": "https://www.sacre-coeur-montmartre.com",
+    "desc": "Basílica, funicular e o bairro dos ateliês — combinação de fé, panorama e caminhada agradável."
+  },
+  {
+    "id": "paris_louvre",
+    "cidadeId": "paris",
+    "nome": "Musée du Louvre",
+    "zona": "louvre_rivoli",
+    "cat": [
+      "arte",
+      "museus",
+      "cultura",
+      "historia"
+    ],
+    "prio": 95,
+    "dur": 210,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [
+      2
+    ],
+    "endereco": "99 Rue de Rivoli, 75001 Paris, França",
+    "horario": {
+      "valor": "Fechado às terças-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa vigente e política de gratuidade para menores",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.louvre.fr",
+    "desc": "História da arte em escala monumental. Com adolescentes, fazer percurso curto e dirigido — não tentar \"ver tudo\"."
+  },
+  {
+    "id": "paris_orsay",
+    "cidadeId": "paris",
+    "nome": "Musée d'Orsay",
+    "zona": "louvre_rivoli",
+    "cat": [
+      "arte",
+      "museus",
+      "cultura"
+    ],
+    "prio": 84,
+    "dur": 150,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": true,
+    "fechado": [
+      1
+    ],
+    "endereco": "1 Rue de la Légion d'Honneur, 75007 Paris, França",
+    "horario": {
+      "valor": "Fechado às segundas-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa vigente",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.musee-orsay.fr",
+    "desc": "Impressionismo e pós-impressionismo numa antiga estação ferroviária — complementa o Louvre sem repeti-lo."
+  },
+  {
+    "id": "paris_invalides",
+    "cidadeId": "paris",
+    "nome": "Musée de l'Armée — Invalides",
+    "zona": "invalides",
+    "cat": [
+      "historia",
+      "museus",
+      "juvenil",
+      "arquitetura"
+    ],
+    "prio": 86,
+    "dur": 165,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "129 Rue de Grenelle, 75007 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa vigente",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.musee-armee.fr",
+    "desc": "Conecta França, Napoleão, estratégia militar e tecnologia; o Dôme abriga o túmulo de Napoleão. Escolha forte para adolescentes."
+  },
+  {
+    "id": "paris_torre_eiffel",
+    "cidadeId": "paris",
+    "nome": "Torre Eiffel e Trocadéro",
+    "zona": "eiffel_trocadero",
+    "cat": [
+      "arquitetura",
+      "fotografia",
+      "cultura",
+      "juvenil"
+    ],
+    "prio": 92,
+    "dur": 165,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "5 Avenue Anatole France, 75007 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa varia por nível de acesso — verificar no sítio oficial",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.toureiffel.paris",
+    "desc": "Grande experiência visual do roteiro. Reservar com antecedência e combinar com o Trocadéro no fim da tarde."
+  },
+  {
+    "id": "paris_arco_triunfo",
+    "cidadeId": "paris",
+    "nome": "Arc de Triomphe",
+    "zona": "etoile",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "fotografia"
+    ],
+    "prio": 78,
+    "dur": 75,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Place Charles de Gaulle, 75008 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa do terraço",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.paris-arc-de-triomphe.fr",
+    "desc": "Excelente para explicar Revolução, Império e o urbanismo haussmanniano, com panorama sobre os doze eixos."
+  },
+  {
+    "id": "paris_pantheon",
+    "cidadeId": "paris",
+    "nome": "Panthéon",
+    "zona": "quartier_latin",
+    "cat": [
+      "historia",
+      "arquitetura",
+      "cultura"
+    ],
+    "prio": 74,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Place du Panthéon, 75005 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa vigente",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.paris-pantheon.fr",
+    "desc": "Victor Hugo, Voltaire, Rousseau, Marie Curie e Simone Veil — complemento escolar de alto rendimento."
+  },
+  {
+    "id": "paris_cite_sciences",
+    "cidadeId": "paris",
+    "nome": "Cité des sciences et de l'industrie",
+    "zona": "villette",
+    "cat": [
+      "juvenil",
+      "museus",
+      "cultura"
+    ],
+    "prio": 76,
+    "dur": 180,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [
+      1
+    ],
+    "endereco": "30 Avenue Corentin Cariou, 75019 Paris, França",
+    "horario": {
+      "valor": "Fechado às segundas-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Verificar tarifa por exposição",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.cite-sciences.fr",
+    "desc": "Ciência, tecnologia e imagem. Para 13 anos ou mais, priorizar as exposições gerais — a Cité des Enfants é para faixas menores."
+  },
+  {
+    "id": "paris_air_espace",
+    "cidadeId": "paris",
+    "nome": "Musée de l'Air et de l'Espace",
+    "zona": "le_bourget",
+    "cat": [
+      "juvenil",
+      "museus",
+      "historia"
+    ],
+    "prio": 72,
+    "dur": 180,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [
+      1
+    ],
+    "endereco": "3 Esplanade de l'Air et de l'Espace, 93350 Le Bourget, França",
+    "horario": {
+      "valor": "Fechado às segundas-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Coleção permanente e bilhetes específicos — verificar no sítio oficial",
+      "consultadoEm": null
+    },
+    "oficial": "https://www.museeairespace.fr",
+    "desc": "História da aviação e da exploração espacial em Le Bourget. Deslocamento longo: reservar meio período inteiro."
+  },
+  {
+    "id": "paris_sena",
+    "cidadeId": "paris",
+    "nome": "Passeio de barco pelo Sena",
+    "zona": "eiffel_trocadero",
+    "cat": [
+      "cultura",
+      "fotografia",
+      "romantico",
+      "descanso"
+    ],
+    "prio": 68,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Port de la Bourdonnais, 75007 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa varia por operador",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "Descanso ativo ao entardecer, com leitura arquitetônica da cidade a partir do rio."
+  },
+  {
+    "id": "paris_marais",
+    "cidadeId": "paris",
+    "nome": "Le Marais e Place des Vosges",
+    "zona": "ile_cite",
+    "cat": [
+      "cultura",
+      "gastronomia",
+      "compras",
+      "arquitetura"
+    ],
+    "prio": 66,
+    "dur": 105,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Place des Vosges, 75004 Paris, França",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": null,
+      "consultadoEm": null
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "@ref:v12",
+      "consultadoEm": null
+    },
+    "oficial": null,
+    "desc": "A praça mais antiga de Paris e o bairro de melhor relação entre caminhada, comida e arquitetura civil."
+  }
+]

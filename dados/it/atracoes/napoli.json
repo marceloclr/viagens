@@ -1,0 +1,157 @@
+[
+  {
+    "id": "napoli_duomo",
+    "cidadeId": "napoli",
+    "nome": "Duomo di Napoli (Catedral de São Januário)",
+    "zona": "centro_storico",
+    "cat": ["religiao", "historia", "arquitetura"],
+    "prio": 88,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Duomo, 147, 80138 Napoli, Itália",
+    "horario": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Horário de funcionamento da catedral não confirmado em fonte oficial no momento da consulta — consulte antes da visita.",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Entrada da catedral é gratuita; a Capela e o Tesouro de São Januário têm bilhete à parte (relatado entre € 8 e € 12) — valor não confirmado em fonte oficial.",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Sé de Nápoles, dedicada a São Januário — guarda a relíquia do sangue do santo, exibida duas vezes ao ano em cerimônia que atrai multidões."
+  },
+  {
+    "id": "napoli_spaccanapoli",
+    "cidadeId": "napoli",
+    "nome": "Spaccanapoli",
+    "zona": "centro_storico",
+    "cat": ["cultura", "historia", "fotografia", "gastronomia"],
+    "prio": 80,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via San Biagio dei Librai / Via Benedetto Croce, Centro Storico, Napoli, Itália",
+    "horario": {
+      "valor": "Rua pública, acesso livre a qualquer hora.",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias de turismo consolidados sobre o centro histórico de Nápoles",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Passeio de acesso livre pela rua histórica",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "A rua reta que corta ao meio o centro histórico (Patrimônio Mundial da UNESCO) — a alma popular de Nápoles, entre igrejas barrocas e lojas de presépio."
+  },
+  {
+    "id": "napoli_sotterranea",
+    "cidadeId": "napoli",
+    "nome": "Napoli Sotterranea",
+    "zona": "centro_storico",
+    "cat": ["historia", "cultura", "aventura"],
+    "prio": 72,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 6,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Piazza San Gaetano, 69, 80138 Napoli, Itália",
+    "horario": {
+      "valor": "Todos os dias, 9h às 18h (última entrada 17h30) — visita apenas com grupo guiado, em horários fixos.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítios de venda de ingressos consolidados (vesuviolive.it, livenapoli.com)",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 15,
+      "tipo": "CADASTRADO",
+      "fonte": "Bilhete adulto; reduzido € 10 (11–24 anos) e € 8 (5–10 anos)",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Rede de túneis, cisternas e um teatro greco-romano sob a cidade — 2400 anos de história subterrânea, acessível só em visita guiada."
+  },
+  {
+    "id": "napoli_cappella_sansevero",
+    "cidadeId": "napoli",
+    "nome": "Cappella Sansevero (Cristo Velado)",
+    "zona": "centro_storico",
+    "cat": ["arte", "historia", "religiao"],
+    "prio": 90,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [2],
+    "endereco": "Via Francesco De Sanctis, 19/21, 80134 Napoli, Itália (atrás da Piazza San Domenico Maggiore)",
+    "horario": {
+      "valor": "Todos os dias, 9h às 19h. Fechado às terças-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítios de venda de ingressos consolidados (ilmattino.it, travel365.it) — reserva antecipada recomendada, ingressos limitados",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 10,
+      "tipo": "CADASTRADO",
+      "fonte": "Bilhete inteiro; reduzido € 7 (10–25 anos); gratuito até 9 anos",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "Pequena capela barroca que guarda o Cristo Velado de Giuseppe Sanmartino (1753) — o véu esculpido em mármore parece tecido real sobre o corpo."
+  },
+  {
+    "id": "napoli_castel_dellovo",
+    "cidadeId": "napoli",
+    "nome": "Castel dell'Ovo",
+    "zona": "lungomare_chiaia",
+    "cat": ["historia", "arquitetura", "fotografia", "romantico"],
+    "prio": 75,
+    "dur": 60,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Via Eldorado, 3, 80132 Napoli, Itália",
+    "horario": {
+      "valor": "Segunda a sábado 9h–18h30 (última entrada 18h); domingos e feriados 9h–14h (última entrada 13h30).",
+      "tipo": "CADASTRADO",
+      "fonte": "napoli-turistica.com — guia consolidado sobre o Castel dell'Ovo",
+      "consultadoEm": "2026-08-27"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada gratuita, sem necessidade de reserva",
+      "consultadoEm": "2026-08-27"
+    },
+    "oficial": null,
+    "desc": "O castelo mais antigo de Nápoles, numa ilhota ligada por uma ponte estreita — vista privilegiada sobre o golfo e o Vesúvio, entrada gratuita."
+  }
+]

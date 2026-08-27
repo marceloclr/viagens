@@ -1,0 +1,26 @@
+[
+  {
+    "cidadeId": "genebra",
+    "titulo": "Genebra — brasserie ao meio-dia, fondue à noite",
+    "texto": "Almoço de prato do dia (plat du jour) em brasserie perto da Cidade Velha ou de Plainpalais, onde o preço fixo ameniza o custo suíço. Jantar de fondue ou raclette em restaurante tradicional — reservar com antecedência nos fins de semana.",
+    "tags": ["gastronomica", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "zurique",
+    "titulo": "Zurique — Niederdorf e mercado coberto",
+    "texto": "Zürcher Geschnetzeltes (vitela ao molho de creme com rösti) em taverna da Niederdorf; ao meio-dia, o menu executivo reduz bastante o gasto em relação ao jantar à la carte. Boas opções rápidas na Markthalle im Viadukt, sob os arcos da ferrovia.",
+    "tags": ["tradicional", "street_food", "gastronomica"]
+  },
+  {
+    "cidadeId": "lucerna",
+    "titulo": "Lucerna — à beira do lago",
+    "texto": "Restaurantes com vista para o Lago dos Quatro Cantões concentram a oferta turística; para custo menor, padarias e cafés no centro histórico resolvem o almoço com pratos regionais de queijo e batata.",
+    "tags": ["regional", "economica", "tradicional"]
+  },
+  {
+    "cidadeId": "berna",
+    "titulo": "Berna — adegas do centro histórico",
+    "texto": "O Berner Platte (prato bernês de carnes defumadas e chucrute) é a referência regional, servido nas adegas (Kellerbars) sob as arcadas da cidade velha. Nos dias quentes, os cafés à beira do rio Aare oferecem opções mais leves e econômicas.",
+    "tags": ["tradicional", "regional", "gastronomica"]
+  }
+]

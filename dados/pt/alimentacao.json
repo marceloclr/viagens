@@ -1,0 +1,26 @@
+[
+  {
+    "cidadeId": "lisboa",
+    "titulo": "Lisboa — tascas de bairro e pastéis de Belém",
+    "texto": "Almoço de prato do dia em tasca de bairro na Mouraria ou em Alfama custa uma fração do mesmo prato perto do Terreiro do Paço. O pastel de nata é obrigatório — a versão original é da Fábrica dos Pastéis de Belém, mas boas padarias por toda a cidade servem versões honestas.",
+    "tags": ["tradicional", "economica", "street_food"]
+  },
+  {
+    "cidadeId": "porto",
+    "titulo": "Porto — francesinha e Mercado do Bolhão",
+    "texto": "A francesinha (sanduíche coberto de molho e queijo) é o prato símbolo da cidade — casas de bairro costumam fazer melhor e mais barato que os pontos turísticos da Baixa. O Mercado do Bolhão, recém-reformado, reúne produtores locais para quem prefere montar a própria refeição.",
+    "tags": ["tradicional", "regional", "economica"]
+  },
+  {
+    "cidadeId": "fatima",
+    "titulo": "Fátima — refeição funcional perto do Santuário",
+    "texto": "A cidade vive do fluxo de peregrinos: restaurantes ao redor do Santuário são práticos e a preço justo, sem grande variedade gastronômica. Quem busca mais opções de cozinha regional portuguesa faz melhor reservando isso para Lisboa ou Porto.",
+    "tags": ["economica", "tradicional"]
+  },
+  {
+    "cidadeId": "sintra",
+    "titulo": "Sintra — travesseiros e almoço fora do centro histórico",
+    "texto": "Os doces típicos — travesseiro e queijada — enchem as confeitarias do centro, quase sempre com fila. Para o almoço, afastar-se duas ou três quadras do entorno imediato dos palácios reduz bastante o preço pela mesma qualidade.",
+    "tags": ["regional", "economica", "street_food"]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "h_roma_virgilio",
+    "cidadeId": "roma",
+    "nome": "Hotel Virgilio",
+    "categoria": "Hotel — base recomendada",
+    "zona": "monti_esquilino",
+    "endereco": "Via Palermo, 30, 00184 Roma RM, Itália",
+    "nota": "Base romana utilizada como referência no orçamento do documento original. A pé de Termini e do Rione Monti.",
+    "fonte": "@ref:v12",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_cassino_lapace",
+    "cidadeId": "cassino",
+    "nome": "Hotel La Pace",
+    "categoria": "Hotel — chegada de trem",
+    "zona": "centro",
+    "endereco": "Via Abruzzi, 16, 03043 Cassino FR, Itália",
+    "nota": "Escolha preferida para quem chega de trem: dispensa automóvel na chegada.",
+    "fonte": "@ref:v12",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_cassino_rocca",
+    "cidadeId": "cassino",
+    "nome": "Best Western Hotel Rocca",
+    "categoria": "Hotel de rede",
+    "zona": "centro",
+    "endereco": "Via Sferracavalli, 105, 03043 Cassino FR, Itália",
+    "nota": "Alternativa de rede, mais dependente de carro ou táxi.",
+    "fonte": "@ref:v12",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_cassino_forum",
+    "cidadeId": "cassino",
+    "nome": "Forum Palace Hotel",
+    "categoria": "Hotel — chegada rodoviária",
+    "zona": "centro",
+    "endereco": "Via Casilina Nord, km 136,500, 03043 Cassino FR, Itália",
+    "nota": "Adequado quando o grupo estiver de automóvel.",
+    "fonte": "@ref:v12",
+    "flag": "flag-watch"
+  },
+  {
+    "id": "h_msa_sanmichele",
+    "cidadeId": "monte_santangelo",
+    "nome": "Palace Hotel San Michele",
+    "categoria": "Hotel — peregrinação",
+    "zona": "centro_medieval",
+    "endereco": "Via Madonna degli Angeli SNC, 71037 Monte Sant'Angelo FG, Itália",
+    "nota": "Base de maior conforto em Monte Sant’Angelo. Verificar sazonalidade: parte da hotelaria do Gargano fecha fora da temporada.",
+    "fonte": "@ref:v12",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_sgr_vittoria",
+    "cidadeId": "san_giovanni_rotondo",
+    "nome": "Hotel Vittoria",
+    "categoria": "Hotel — circuito Padre Pio",
+    "zona": "santuario",
+    "endereco": "Via Santa Vittoria, 4, 71013 San Giovanni Rotondo FG, Itália",
+    "nota": "Bem localizado para o conjunto do santuário.",
+    "fonte": "@ref:v12",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_bari_boston",
+    "cidadeId": "bari",
+    "nome": "Boston Hotel Bari",
+    "categoria": "Hotel — última noite",
+    "zona": "bari_vecchia",
+    "endereco": "Via Niccolò Piccinni, 155, 70122 Bari BA, Itália",
+    "nota": "Referência para a noite anterior ao voo de saída por BRI.",
+    "fonte": "@ref:v12",
+    "flag": "flag-best"
+  }
+]
