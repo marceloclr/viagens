@@ -118,10 +118,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Disponibilidade de tours depende do calendário de sessões parlamentares; reserva obrigatória com 2 dias de antecedência pelo site oficial",
-      "consultadoEm": null
+      "valor": "Visitas guiadas gratuitas de terça a sábado, com no máximo 60 minutos; nenhuma visita ocorre quando o Parlamento está em sessão. Reserva online a partir de 3 dias antes da visita.",
+      "tipo": "CADASTRADO",
+      "fonte": "parlament.ch — site oficial do Parlamento Suíço (\"Guided tours of the Parliament Building\")",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",

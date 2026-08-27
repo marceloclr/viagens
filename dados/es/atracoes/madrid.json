@@ -155,10 +155,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Praça pública, acesso livre a qualquer hora — sem bilheteria; o Centro de Turismo na praça funciona diariamente das 10h às 20h.",
+      "tipo": "CADASTRADO",
+      "fonte": "madrid.es — Ayuntamiento de Madrid, página do Centro de Turismo Plaza Mayor",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",

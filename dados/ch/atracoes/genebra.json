@@ -16,10 +16,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Funcionamento sujeito a condições climáticas (vento/frio); horários variam e devem ser confirmados no site da SIG",
-      "consultadoEm": null
+      "valor": "Verão: cerca de 9h até o pôr do sol; inverno: aproximadamente 10h às 16h. Desligado com ventos fortes e durante a manutenção anual (2 de novembro a 3 de dezembro de 2026).",
+      "tipo": "CADASTRADO",
+      "fonte": "SIG (Services Industriels de Genève, operadora do Jet d'Eau) — ww2.sig-ge.ch; guias consolidados (usnews.com, myswissalps.com)",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "fotografia",
@@ -119,10 +119,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sítio oficial informa apenas que datas são liberadas mensalmente para reserva online, sem horário fixo publicado; visitas limitadas por obras de renovação",
-      "consultadoEm": null
+      "valor": "Visitas guiadas de segunda a sexta, 10h-12h e 14h-16h, o ano todo; também aos sábados nos mesmos horários de 1º de abril a 30 de setembro. Oferta de tours limitada por obras de renovação em curso.",
+      "tipo": "CADASTRADO",
+      "fonte": "ungeneva.org/en/visit — site oficial do Escritório das Nações Unidas em Genebra",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -188,10 +188,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Acesso livre 24 horas, todos os dias — monumento ao ar livre no Parc des Bastions",
+      "tipo": "CADASTRADO",
+      "fonte": "geneve.ch/promenade-bastions — site oficial da Ville de Genève",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -224,10 +224,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Terça a domingo, 11h às 18h; quinta-feira até 21h; fechado às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "mahmah.ch — site oficial do Musée d'art et d'histoire de Genève",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "arte",
@@ -258,10 +258,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Acesso livre 24 horas, todos os dias — parque público (Jardin Anglais)",
+      "tipo": "CADASTRADO",
+      "fonte": "geneve.ch/jardin-anglais — site oficial da Ville de Genève",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "fotografia",

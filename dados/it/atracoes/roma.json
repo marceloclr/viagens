@@ -21,10 +21,10 @@
     "fechado": [],
     "endereco": "Piazza San Pietro, 00120 Città del Vaticano",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horário sujeito a celebrações litúrgicas",
-      "consultadoEm": null
+      "valor": "Diariamente 7h às 20h (última entrada 19h15) no período de verão (a partir de 1º de junho de 2026); horário reduzido em outros períodos do ano. Fechada aos turistas nas quartas-feiras de manhã (aprox. 7h–12h30) por causa da Audiência Papal Geral, quando ocorre.",
+      "tipo": "CADASTRADO",
+      "fonte": "basilicasanpietro.va (Orari) e stpetersbasilica-guide.com — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -57,10 +57,10 @@
     "fechado": [],
     "endereco": "Piazza San Pietro, 00120 Città del Vaticano",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Abril a setembro: 7h30 às 18h; outubro a março: 7h30 às 17h. O acesso pode fechar até 30 minutos antes do horário programado quando a fila está longa.",
+      "tipo": "CADASTRADO",
+      "fonte": "romewise.com e rome.us (St Peter's Dome) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -181,10 +181,10 @@
     "fechado": [],
     "endereco": "Piazza del Colosseo, 1, 00184 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Abre às 8h30. Fechamento varia por temporada: 29/mar–30/set até 19h15 (última entrada 18h15); 1–24/out até 18h30; 25/out–28/fev até 16h30. Fechado apenas em 25 de dezembro e 1º de janeiro (com abertura especial reduzida no dia 1º).",
+      "tipo": "CADASTRADO",
+      "fonte": "colosseo.it e parcocolosseo.it (Orari e biglietti) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -216,10 +216,10 @@
     "fechado": [],
     "endereco": "Via della Salara Vecchia, 5/6, 00186 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Abre às 9h. Fechamento varia por temporada: 29/mar–30/set até 19h15 (última entrada 18h15); 1–24/out até 18h30; 25/out–28/fev até 16h30. Fechado em 25 de dezembro e 1º de janeiro.",
+      "tipo": "CADASTRADO",
+      "fonte": "colosseo.it e parcocolosseo.it (Orari e biglietti) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -251,10 +251,10 @@
     "fechado": [],
     "endereco": "Piazza di Santa Maria Maggiore, 00100 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Basílica: diariamente, aproximadamente 7h às 19h (o horário de fechamento varia sazonalmente entre 18h30 e 20h), entrada gratuita. Museu e área arqueológica: 9h às 18h30 (última entrada 18h).",
+      "tipo": "CADASTRADO",
+      "fonte": "basilicasantamariamaggiore.com (Opening Hours) e radicalstorage.com — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -287,10 +287,10 @@
     "fechado": [],
     "endereco": "Piazza di San Giovanni in Laterano, 4, 00184 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Basílica: diariamente 7h às 18h30, entrada gratuita. Claustro: 9h às 17h (€5). Batistério: gratuito, 9h às 19h.",
+      "tipo": "CADASTRADO",
+      "fonte": "basilicasangiovanni.va (Info e orari) e thebettervacation.com — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -324,10 +324,10 @@
     "fechado": [],
     "endereco": "Piazza della Rotonda, 00186 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Diariamente 9h às 19h (última entrada 18h30; bilheteria fecha às 18h). Fechado em 1º de janeiro, 15 de agosto e 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "pantheonroma.com (Orari e informazioni) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -396,10 +396,10 @@
     ],
     "endereco": "Piazzale Scipione Borghese, 5, 00197 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Terça a domingo, 9h às 19h (última entrada 17h45; bilheteria abre às 8h30). Fechada às segundas-feiras, 25 de dezembro e 1º de janeiro. Visitas organizadas em turnos de 2 horas, com reserva obrigatória mesmo para ingressos gratuitos.",
+      "tipo": "CADASTRADO",
+      "fonte": "galleriaborghese.cultura.gov.it (Visita/Info e orari) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -432,10 +432,10 @@
     "fechado": [],
     "endereco": "Piazza di Santa Maria in Trastevere, 00153 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "O bairro é de acesso livre a qualquer hora. A igreja Santa Maria in Trastevere abre diariamente das 7h30 às 20h30 (fecha entre 13h e 15h30 em agosto), entrada gratuita.",
+      "tipo": "CADASTRADO",
+      "fonte": "romawonder.com e rome.us (Santa Maria in Trastevere) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -467,10 +467,10 @@
     "fechado": [],
     "endereco": "Piazzale San Paolo, 1, 00146 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Basílica: diariamente 7h às 18h30, entrada gratuita. Claustro: diariamente 9h às 17h30 (€4, reduzido €3).",
+      "tipo": "CADASTRADO",
+      "fonte": "basilicasanpaolo.org (Orari) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -499,13 +499,15 @@
     "juvenil": true,
     "familia": true,
     "reserva": false,
-    "fechado": [],
+    "fechado": [
+      3
+    ],
     "endereco": "Via Appia Antica, 110/126, 00179 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "9h às 12h e 14h às 17h (última visita guiada por volta do meio-dia pela manhã e às 17h à tarde; a visita dura cerca de 40 min e é sempre acompanhada por guia). Fechado às quartas-feiras, além de um período de manutenção anual de cerca de 4 semanas (datas variam a cada ano, geralmente em janeiro/fevereiro).",
+      "tipo": "CADASTRADO",
+      "fonte": "catacombesancallisto.it/catacombesancallisto.rome.it (Opening hours) — consultado em 2026-08-27; endereço corresponde às Catacombe di San Callisto",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -537,10 +539,10 @@
     "fechado": [],
     "endereco": "Via dei Serpenti, 00184 Roma, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Bairro residencial e comercial de acesso livre, sem horário de funcionamento próprio — lojas, ateliês e trattorias seguem horário individual.",
+      "tipo": "CADASTRADO",
+      "fonte": "Natureza do local (bairro a céu aberto, sem bilheteria) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,

@@ -20,10 +20,10 @@
     "fechado": [],
     "endereco": "6 Parvis Notre-Dame, 75004 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Acesso sujeito a regulação de fluxo — verificar no sítio oficial",
-      "consultadoEm": null
+      "valor": "Segunda a sexta 7h50–19h (quinta até 22h); sábado e domingo 8h15–19h30. Última entrada 30 min antes do fechamento. Acesso sujeito a sistema de reserva de horário gratuita.",
+      "tipo": "CADASTRADO",
+      "fonte": "notredamedeparis.fr — sítio oficial da catedral, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -56,10 +56,10 @@
     "fechado": [],
     "endereco": "8 Boulevard du Palais, 75001 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Abril a setembro: 9h às 19h. Outubro a março: 9h às 17h. Aberta todos os dias. Fechada em 1º de janeiro, 1º de maio e 25 de dezembro. Última entrada 30 min antes do fechamento.",
+      "tipo": "CADASTRADO",
+      "fonte": "sainte-chapelle-paris.com, paristickets.com — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -92,10 +92,10 @@
     "fechado": [],
     "endereco": "35 Rue du Chevalier de la Barre, 75018 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Basílica: todos os dias, 6h30 às 22h30, entrada gratuita. Cúpula: 9h30 às 20h (maio a setembro) ou 9h30 às 17h (outubro a abril).",
+      "tipo": "CADASTRADO",
+      "fonte": "sortiraparis.com, offi.fr — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -131,10 +131,10 @@
     ],
     "endereco": "99 Rue de Rivoli, 75001 Paris, França",
     "horario": {
-      "valor": "Fechado às terças-feiras.",
+      "valor": "Todos os dias, 9h às 18h, exceto terça-feira (fechado). Quarta e sexta-feira até 21h. Última entrada 1h antes do fechamento. Fechado também em 1º de janeiro, 1º de maio e 25 de dezembro.",
       "tipo": "CADASTRADO",
-      "fonte": "@ref:v12",
-      "consultadoEm": null
+      "fonte": "louvre.fr, museumticketsparis.com — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -168,10 +168,10 @@
     ],
     "endereco": "1 Rue de la Légion d'Honneur, 75007 Paris, França",
     "horario": {
-      "valor": "Fechado às segundas-feiras.",
+      "valor": "Terça a domingo, 9h30 às 18h (quinta-feira até 21h45). Fechado às segundas-feiras, 1º de maio e 25 de dezembro. Reserva de horário obrigatória.",
       "tipo": "CADASTRADO",
-      "fonte": "@ref:v12",
-      "consultadoEm": null
+      "fonte": "musee-orsay.fr — sítio oficial, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -204,10 +204,10 @@
     "fechado": [],
     "endereco": "129 Rue de Grenelle, 75007 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Todos os dias, 10h às 18h (venda de bilhetes até 30 min antes do fechamento). Primeira sexta-feira do mês: nocturna até 22h. Fechado em 1º de janeiro, 1º de maio e 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "musee-armee.fr — sítio oficial, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -240,10 +240,10 @@
     "fechado": [],
     "endereco": "5 Avenue Anatole France, 75007 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Todos os dias do ano, abertura às 9h30. Fechamento às 23h (baixa temporada) ou 0h45 (alta temporada/verão). Última subida ao topo às 22h45.",
+      "tipo": "CADASTRADO",
+      "fonte": "toureiffel.paris — sítio oficial, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -275,10 +275,10 @@
     "fechado": [],
     "endereco": "Place Charles de Gaulle, 75008 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Abril a setembro: 10h às 23h (terças a partir das 11h). Outubro a março: 10h às 22h30 (terças a partir das 11h). Fechado em 1º de maio, manhãs de 8 de maio, 14 de julho e 11 de novembro, e 25 de dezembro. Última entrada 45 min antes.",
+      "tipo": "CADASTRADO",
+      "fonte": "arc-de-triomphe.paris — sítio oficial, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -310,10 +310,10 @@
     "fechado": [],
     "endereco": "Place du Panthéon, 75005 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Abril a setembro: 10h às 18h30. Outubro a março: 10h às 18h. Abre ao meio-dia na primeira segunda-feira útil do mês. Fechado em 1º de janeiro, 1º de maio e 25 de dezembro.",
+      "tipo": "CADASTRADO",
+      "fonte": "pantheonparis.org, paristickets.com — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -347,10 +347,10 @@
     ],
     "endereco": "30 Avenue Corentin Cariou, 75019 Paris, França",
     "horario": {
-      "valor": "Fechado às segundas-feiras.",
+      "valor": "Terça a sábado, 10h às 18h; domingo, 10h às 19h. Fechado às segundas-feiras, 1º de janeiro, 1º de maio e 25 de dezembro.",
       "tipo": "CADASTRADO",
-      "fonte": "@ref:v12",
-      "consultadoEm": null
+      "fonte": "cite-sciences.fr — sítio oficial, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -384,10 +384,10 @@
     ],
     "endereco": "3 Esplanade de l'Air et de l'Espace, 93350 Le Bourget, França",
     "horario": {
-      "valor": "Fechado às segundas-feiras.",
+      "valor": "Terça a domingo. Abril a setembro: 10h às 18h (última entrada 17h30). Outubro a março: 10h às 17h (última entrada 16h30). Fechado às segundas-feiras.",
       "tipo": "CADASTRADO",
-      "fonte": "@ref:v12",
-      "consultadoEm": null
+      "fonte": "museeairespace.fr — sítio oficial, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -420,10 +420,11 @@
     "fechado": [],
     "endereco": "Port de la Bourdonnais, 75007 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Varia por operador — referência (Bateaux-Mouches): alta temporada (abril a setembro) partidas a cada 30 min, 10h às 22h30; baixa temporada (outubro a março) a cada 45 min, 10h15 às 15h30, e a cada 30 min, 16h às 21h30. Duração aproximada de 1h10.",
+      "tipo": "CADASTRADO",
+      "fonte": "croisieresseineparis.com — consultado em 2026-08-27",
+      "nota": "Existem múltiplos operadores de cruzeiro pelo Sena com horários próprios; valor de referência de um operador específico.",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -456,10 +457,10 @@
     "fechado": [],
     "endereco": "Place des Vosges, 75004 Paris, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Bairro e Place des Vosges (incluindo as arcadas): acesso livre 24h. O jardim central (square Louis XIII) fecha ao anoitecer — 17h de novembro a março, 21h de abril a outubro.",
+      "tipo": "CADASTRADO",
+      "fonte": "mairiepariscentre.paris.fr — sítio oficial da prefeitura do Paris Centre, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,

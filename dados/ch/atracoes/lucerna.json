@@ -83,10 +83,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Operação sazonal e sujeita a condições climáticas; horários variam por época do ano, consultar pilatus.ch",
-      "consultadoEm": null
+      "valor": "Ferrovia de cremalheira opera de 11 de maio a 29 de novembro de 2026 (suspensa 30-31 de março e de 19 de outubro a 27 de novembro para manutenção); os teleféricos operam o ano todo, salvo manutenção. Última subida de Kriens: 17h no verão, 16h no inverno.",
+      "tipo": "CADASTRADO",
+      "fonte": "pilatus.ch/en/railway-cableways/timetable — site oficial",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "natureza",
@@ -117,10 +117,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Diariamente das 7h às 19h",
+      "tipo": "CADASTRADO",
+      "fonte": "hofkirche.ch / luzern.com — site oficial de turismo de Lucerna",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "religiao",
@@ -184,10 +184,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horários de trem variam por estação; consultar rigi.ch",
-      "consultadoEm": null
+      "valor": "Trens partem de Vitznau e Arth-Goldau o ano todo, em horário sazonal, geralmente a cada 30-60 minutos; no verão, primeira partida de Vitznau por volta das 8h15 e última por volta das 22h05. Temporadas 2026: verão (23/mai-6/set), outono (7/set-11/out), outono-inverno (12/out-12/dez).",
+      "tipo": "CADASTRADO",
+      "fonte": "rigi.ch/en/inform/timetables — site oficial",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "natureza",

@@ -16,9 +16,9 @@
     "fechado": [],
     "endereco": "Via Duomo, 147, 80138 Napoli, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horário de funcionamento da catedral não confirmado em fonte oficial no momento da consulta — consulte antes da visita.",
+      "valor": "Duomo: segunda a sábado 8h às 12h30 e 16h30 às 19h; domingos 8h às 13h30 e 17h às 19h30. Cappella e Museu do Tesouro de São Januário: manhãs 9h30 às 13h; tardes segunda e sábado 15h às 18h, terça a sexta 14h30 às 18h, domingos/feriados 16h30 às 18h.",
+      "tipo": "CADASTRADO",
+      "fonte": "livenapoli.com e guidaturisticacampania.it — guias consolidados sobre o Duomo di Napoli",
       "consultadoEm": "2026-08-27"
     },
     "custo": {

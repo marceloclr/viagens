@@ -52,10 +52,10 @@
       "nota": "Valor em euros para visitantes estrangeiros."
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Verão (abril a outubro): 8h às 18h30; inverno (novembro a março): 8h30 às 17h30. Bilheteria fecha 30 min antes.",
+      "tipo": "CADASTRADO",
+      "fonte": "whichmuseum.com, turkeytravelplanner.com — guias de visita consolidados, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -155,11 +155,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Espaço aberto ao ar livre, sem controle formal de horário confirmado em fonte oficial."
+      "valor": "1º maio–1º out: 8h às 19h; 1º out–1º maio: 8h às 17h30. Sítio a céu aberto, entrada gratuita.",
+      "tipo": "CADASTRADO",
+      "fonte": "bestephesustours.com — guia de horários de Éfeso e sítios próximos, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -189,11 +188,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Vila aberta continuamente; lojas e restaurantes têm horários próprios não centralizados."
+      "valor": "Vila de acesso livre, aberta continuamente; lojas, vinícolas e restaurantes seguem horário comercial próprio, não centralizado.",
+      "tipo": "CADASTRADO",
+      "fonte": "Consenso de guias de viagem sobre a vila (turkeysforlife.com e afins), consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "cultura",

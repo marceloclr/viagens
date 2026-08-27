@@ -50,11 +50,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Espaço aberto ao ar livre; não foi confirmado horário formal de fechamento em fonte oficial."
+      "valor": "8h30 às 17h30, diariamente.",
+      "tipo": "CADASTRADO",
+      "fonte": "travelsetu.com, rehlat.co — guias de visita consolidados, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -119,10 +118,11 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Verão (1º abr–1º out): 8h30 às 17h30; inverno (1º out–1º abr): 8h às 17h.",
+      "tipo": "CADASTRADO",
+      "fonte": "izmir.bel.tr — página oficial de museus da Prefeitura de Izmir, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27",
+      "nota": "O acervo foi incorporado ao complexo do Museu Arqueológico/Fábrica de Cultura e Arte de Izmir; horário pode ser unificado com o do museu arqueológico dependendo da fonte consultada."
     },
     "cat": [
       "cultura",
@@ -153,11 +153,11 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Horário varia por loja; não há horário único centralizado confirmado em fonte oficial."
+      "valor": "Aproximadamente 9h às 20h, de segunda a sábado; aos domingos, parte das lojas permanece fechada.",
+      "tipo": "CADASTRADO",
+      "fonte": "kupi.com, tripadvisor.com (consenso de guias de visita) — consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27",
+      "nota": "Horário varia por loja; a faixa reflete o padrão geral do bazar, não um horário único centralizado."
     },
     "cat": [
       "compras",

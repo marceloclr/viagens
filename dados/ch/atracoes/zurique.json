@@ -16,10 +16,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sítio oficial informa mudanças sazonais no horário das torres (a partir de agosto de 2026, fechado seg-qui); consultar grossmuenster.ch antes da visita",
-      "consultadoEm": null
+      "valor": "A partir de 3 de agosto de 2026: torre fechada de segunda a quinta, aberta de sexta a domingo. A igreja e o Karlsturm seguem acessíveis durante a reforma de 2026-2027.",
+      "tipo": "CADASTRADO",
+      "fonte": "grossmuenster.ch — site oficial (seção Information)",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "religiao",
@@ -190,10 +190,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Lojas fecham aos domingos, mas horário individual varia por estabelecimento",
-      "consultadoEm": null
+      "valor": "Rua pública sempre acessível. Lojas em geral: seg-sex 9h-20h, sáb 9h-17h/18h (grandes lojas até 20h); maioria fechada aos domingos, exceto as do saguão da Estação Central (ShopVille, 9h-21h).",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados (inyourpocket.com, shopping-in-the-city.ch) sobre horário comercial da Bahnhofstrasse e ShopVille",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "compras",

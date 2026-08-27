@@ -4,7 +4,11 @@
     "cidadeId": "fr_lisieux",
     "nome": "Basílica Santa Teresinha de Lisieux",
     "zona": "sanctuaire",
-    "cat": ["religiao", "arquitetura", "historia"],
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
     "prio": 95,
     "dur": 60,
     "interior": true,
@@ -35,7 +39,10 @@
     "cidadeId": "fr_lisieux",
     "nome": "Carmelo de Lisieux",
     "zona": "sanctuaire",
-    "cat": ["religiao", "historia"],
+    "cat": [
+      "religiao",
+      "historia"
+    ],
     "prio": 90,
     "dur": 45,
     "interior": true,
@@ -66,7 +73,10 @@
     "cidadeId": "fr_lisieux",
     "nome": "Les Buissonnets (casa de infância de Santa Teresinha)",
     "zona": "sanctuaire",
-    "cat": ["religiao", "historia"],
+    "cat": [
+      "religiao",
+      "historia"
+    ],
     "prio": 78,
     "dur": 40,
     "interior": true,
@@ -75,12 +85,14 @@
     "juvenil": false,
     "familia": true,
     "reserva": false,
-    "fechado": [0],
+    "fechado": [
+      0
+    ],
     "endereco": "Rue Chemin du Paradis (Les Buissonnets), 14100 Lisieux, França",
     "horario": {
-      "valor": "Todos os dias, exceto domingo de manhã, 15 de agosto, 25 de dezembro e 1º de janeiro.",
+      "valor": "Segunda a sábado, 10h às 12h30 e 13h30 às 17h. Fechado em 1º de janeiro e 25 de dezembro. Fontes divergem sobre o domingo — uma indica fechado, o registro anterior indicava aberto exceto na manhã; não confirmado em fonte única, verificar no local.",
       "tipo": "CADASTRADO",
-      "fonte": "therese-de-lisieux.catholique.fr — sítio oficial do Santuário de Lisieux",
+      "fonte": "therese-de-lisieux.catholique.fr, tourisme.lisieux-normandie.fr — consultado em 2026-08-27",
       "consultadoEm": "2026-08-27"
     },
     "custo": {
@@ -97,7 +109,11 @@
     "cidadeId": "fr_lisieux",
     "nome": "Catedral de São Pedro de Lisieux",
     "zona": "sanctuaire",
-    "cat": ["religiao", "arquitetura", "historia"],
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
     "prio": 60,
     "dur": 30,
     "interior": true,
@@ -109,9 +125,9 @@
     "fechado": [],
     "endereco": "Place François Mitterrand, 14100 Lisieux, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+      "valor": "Todos os dias, 9h30 às 19h. Visitas guiadas gratuitas em julho e agosto.",
+      "tipo": "CADASTRADO",
+      "fonte": "tourisme.lisieux-normandie.fr — consultado em 2026-08-27",
       "consultadoEm": "2026-08-27"
     },
     "custo": {

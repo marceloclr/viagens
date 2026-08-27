@@ -16,9 +16,9 @@
     "fechado": [],
     "endereco": "Piazza De Sanctis, 71121 Foggia, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+      "valor": "Segunda a sábado, 9h30 às 19h; domingos, 11h às 19h.",
+      "tipo": "CADASTRADO",
+      "fonte": "Página oficial da Catedral de Foggia nas redes sociais (@cattedralefoggia) — horário vigente desde junho de 2024, não publicado em sítio oficial próprio",
       "consultadoEm": "2026-08-27"
     },
     "custo": {

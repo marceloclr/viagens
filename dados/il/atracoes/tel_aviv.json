@@ -16,10 +16,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Cidade Velha de Jaffa é acessível 24h, sem bilheteria; lojas do bazar/mercado de pulgas funcionam domingo a quinta 8h–17h, meio período às sextas, fechado aos sábados.",
+      "tipo": "CADASTRADO",
+      "fonte": "touristisrael.com e mindtrip.ai — guias turísticos consolidados sobre acesso livre à cidade velha",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -122,10 +122,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Bulevar e logradouro público, acesso livre a qualquer hora — sem bilheteria; melhor luz para a arquitetura Bauhaus entre 16h e 19h.",
+      "tipo": "CADASTRADO",
+      "fonte": "visit-tel-aviv.com e beinharimtours.com — guias turísticos consolidados",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "arquitetura",

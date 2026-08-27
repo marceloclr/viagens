@@ -4,7 +4,10 @@
     "cidadeId": "fr_lourdes",
     "nome": "Grotte de Massabielle",
     "zona": "sanctuaire",
-    "cat": ["religiao", "historia"],
+    "cat": [
+      "religiao",
+      "historia"
+    ],
     "prio": 98,
     "dur": 45,
     "interior": false,
@@ -35,7 +38,11 @@
     "cidadeId": "fr_lourdes",
     "nome": "Basílica da Imaculada Conceição e Basílica do Rosário",
     "zona": "sanctuaire",
-    "cat": ["religiao", "arquitetura", "historia"],
+    "cat": [
+      "religiao",
+      "arquitetura",
+      "historia"
+    ],
     "prio": 88,
     "dur": 45,
     "interior": true,
@@ -66,7 +73,10 @@
     "cidadeId": "fr_lourdes",
     "nome": "Basílica Subterrânea São Pio X",
     "zona": "sanctuaire",
-    "cat": ["religiao", "arquitetura"],
+    "cat": [
+      "religiao",
+      "arquitetura"
+    ],
     "prio": 65,
     "dur": 30,
     "interior": true,
@@ -97,7 +107,11 @@
     "cidadeId": "fr_lourdes",
     "nome": "Château Fort e Museu Pirenaico",
     "zona": "sanctuaire",
-    "cat": ["historia", "cultura", "museus"],
+    "cat": [
+      "historia",
+      "cultura",
+      "museus"
+    ],
     "prio": 55,
     "dur": 75,
     "interior": true,
@@ -128,7 +142,10 @@
     "cidadeId": "fr_lourdes",
     "nome": "Moulin de Boly (casa natal de Santa Bernadette)",
     "zona": "sanctuaire",
-    "cat": ["religiao", "historia"],
+    "cat": [
+      "religiao",
+      "historia"
+    ],
     "prio": 60,
     "dur": 30,
     "interior": true,
@@ -140,9 +157,9 @@
     "fechado": [],
     "endereco": "12 Rue Bernadette Soubirous, 65100 Lourdes, França",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+      "valor": "Abril a outubro: todos os dias, 9h às 12h e 14h às 18h. Resto do ano: 14h30 às 17h (e 10h às 12h durante férias escolares). Visita mediante solicitação às irmãs responsáveis pela recepção.",
+      "tipo": "CADASTRADO",
+      "fonte": "lourdes-infotourisme.com — Office de Tourisme de Lourdes, consultado em 2026-08-27",
       "consultadoEm": "2026-08-27"
     },
     "custo": {

@@ -187,10 +187,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Bairro histórico de ruas públicas, acesso livre a qualquer hora — sem bilheteria; monumentos internos (catedral, basílicas) têm horário próprio.",
+      "tipo": "CADASTRADO",
+      "fonte": "barcelona.com e barcelona-tourist-guide.com — guias turísticos consolidados sobre acesso livre ao bairro",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",

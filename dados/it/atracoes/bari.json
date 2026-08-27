@@ -20,10 +20,10 @@
     "fechado": [],
     "endereco": "Largo Abate Elia, 13, 70122 Bari BA, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Segunda a sábado, 6h30 às 20h30; domingos, 6h30 às 22h.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial da Basílica (basilicasannicola.it/Orários)",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -55,10 +55,10 @@
     "fechado": [],
     "endereco": "Strada Vallisa, 70122 Bari BA, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Bairro histórico de acesso livre a qualquer hora. O passeio sobre a Muraglia (muralhas) tem horário à parte: terça a domingo, 9h às 19h; fechado às segundas-feiras.",
+      "tipo": "CADASTRADO",
+      "fonte": "discoverbari.it e barivibes.it — guias consolidados sobre Bari Vecchia",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,

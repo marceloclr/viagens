@@ -20,10 +20,10 @@
     "fechado": [],
     "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Horário sujeito à vida monástica — verificar no sítio da Abadia",
-      "consultadoEm": null
+      "valor": "Basílica: 1º de novembro a 31 de março, segunda a sábado 9h30–16h50 e domingo 9h30–17h15; 1º de abril a 31 de outubro, todos os dias 9h30–18h30. Visitas suspensas durante celebrações litúrgicas.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial da Abadia (abbaziamontecassino.it)",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -54,10 +54,10 @@
     "fechado": [],
     "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Cemitério de acesso livre e permanente. O pequeno museu do complexo (Museu Memorial do 2º Corpo Polonês) tem horário à parte: 1º de novembro a 31 de março, quarta, sexta, sábado e domingo, 10h às 16h; 1º de abril a 31 de outubro, todos os dias, 10h às 18h.",
+      "tipo": "CADASTRADO",
+      "fonte": "TracesOfWar.com e fondazionemm2c.org (Museu Memorial do 2º Corpo Polonês)",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -89,10 +89,10 @@
     "fechado": [],
     "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "1º de abril a 31 de outubro, todos os dias, 9h30 às 18h30; 1º de novembro a 31 de março, apenas domingos e feriados, 9h30 às 17h15.",
+      "tipo": "CADASTRADO",
+      "fonte": "Sítio oficial da Abadia (abbaziamontecassino.it)",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,

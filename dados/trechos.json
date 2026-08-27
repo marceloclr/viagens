@@ -4,13 +4,13 @@
     "para": "cassino",
     "modo": "trem",
     "icone": "🚆",
-    "duracao": 105,
+    "duracao": 118,
     "custoPP": [
-      11,
+      9,
       16
     ],
-    "obs": "Regional/Intercity a partir de Roma Termini.",
-    "fonte": "@ref:v12",
+    "obs": "Regional/Intercity a partir de Roma Termini, duração média (~1h58); serviços mais rápidos chegam a 1h11.",
+    "fonte": "thetrainline.com, romaperte.it — agregadores/cobertura de horários Trenitalia, consultado em 2026-08-27",
     "categoria": "regional"
   },
   {
@@ -18,13 +18,13 @@
     "para": "foggia",
     "modo": "trem",
     "icone": "🚆",
-    "duracao": 150,
+    "duracao": 193,
     "custoPP": [
-      15,
-      25
+      17,
+      26
     ],
-    "obs": "Trecho ferroviário até Foggia, onde se retira o automóvel.",
-    "fonte": "@ref:v12",
+    "obs": "Trecho ferroviário até Foggia, onde se retira o automóvel — sem ligação direta, exige ao menos 1 baldeação (~3h13 em média).",
+    "fonte": "omio.it, rome2rio.com — agregadores de bilhetes Trenitalia/Intercity, consultado em 2026-08-27",
     "categoria": "regional"
   },
   {
@@ -84,13 +84,13 @@
     "para": "napoli",
     "modo": "trem",
     "icone": "🚆",
-    "duracao": 80,
+    "duracao": 70,
     "custoPP": [
       20,
       45
     ],
-    "obs": "Alta velocidade Roma Termini → Napoli Centrale.",
-    "fonte": "@ref:v12",
+    "obs": "Alta velocidade Roma Termini → Napoli Centrale — Frecciarossa/Italo, duração média 1h10 (mais rápidos, 1h07).",
+    "fonte": "trenitalia.com, omio.it — sítio oficial Frecciarossa e agregador de bilhetes, consultado em 2026-08-27",
     "categoria": "alta_velocidade"
   },
   {
@@ -98,13 +98,13 @@
     "para": "cassino",
     "modo": "trem",
     "icone": "🚆",
-    "duracao": 95,
+    "duracao": 85,
     "custoPP": [
-      10,
+      6,
       15
     ],
-    "obs": "Regional a partir de Napoli Centrale.",
-    "fonte": "@ref:v12",
+    "obs": "Regional a partir de Napoli Centrale, ~1h22 em média.",
+    "fonte": "omio.it, thetrainline.com — agregadores de bilhetes Trenitalia regionale, consultado em 2026-08-27",
     "categoria": "regional"
   },
   {
@@ -132,13 +132,13 @@
     "para": "bari",
     "modo": "trem",
     "icone": "🚆",
-    "duracao": 245,
+    "duracao": 246,
     "custoPP": [
-      30,
+      13,
       60
     ],
-    "obs": "Intercity/Frecciarossa pelo eixo adriático.",
-    "fonte": "@ref:v12",
+    "obs": "Intercity/Frecciargento/Frecciarossa pelo eixo adriático — ex.: Frecciargento FA8302, Bari 07:17 → Roma 11:23 (4h06).",
+    "fonte": "omio.it, thetrainline.com — agregadores de bilhetes Frecciargento/Frecciarossa, consultado em 2026-08-27",
     "categoria": "alta_velocidade"
   },
   {
@@ -146,13 +146,13 @@
     "para": "bari",
     "modo": "trem",
     "icone": "🚆",
-    "duracao": 80,
+    "duracao": 82,
     "custoPP": [
-      10,
+      5,
       18
     ],
-    "obs": "Regional pelo eixo adriático.",
-    "fonte": "@ref:v12",
+    "obs": "Regional pelo eixo adriático, ~1h22 em média (54 trens/dia).",
+    "fonte": "omio.it, e656.net — agregador de bilhetes e cobertura de horários Trenitalia, consultado em 2026-08-27",
     "categoria": "regional"
   },
   {

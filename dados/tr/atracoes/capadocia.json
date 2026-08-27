@@ -52,10 +52,10 @@
       "nota": "Preço extremamente variável por operadora, temporada e câmbio (fontes indicam faixa aproximada de 70 a 280 euros por pessoa em 2026); não há tarifa oficial única, por isso não foi registrado um valor específico."
     },
     "horario": {
-      "valor": "Voos ao amanhecer, sujeitos a cancelamento por condições climáticas",
+      "valor": "Voo com ~1h de duração, decolagem 20-30 min antes do nascer do sol; busca no hotel entre 4h e 6h (varia por estação). Experiência completa, incluindo transfer e preparação, dura 2h30-3h. Sujeito a cancelamento por condições climáticas.",
       "tipo": "CADASTRADO",
-      "fonte": "Consenso de operadoras de turismo da região (kapadokyaturufiyatlari.com e afins)",
-      "consultadoEm": "2026-08-26"
+      "fonte": "hotairballooncappadocia.com, balloonscanner.com — operadoras e cobertura especializada da região, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "aventura",
@@ -122,10 +122,10 @@
       "nota": "Valor em euros para visitantes estrangeiros."
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Verão (1º abr–31 out): 8h às 19h (última entrada 18h30); inverno (1º nov–31 mar): 8h às 17h (última entrada 16h30).",
+      "tipo": "CADASTRADO",
+      "fonte": "shippedaway.com, istanbulclues.com — guias de visita consolidados, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",
@@ -156,10 +156,10 @@
       "nota": "Valor em euros para visitantes estrangeiros; bilhete combinado com outro sítio, conforme a fonte oficial."
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Verão (1º abr–31 out): 8h às 19h (última entrada 18h15); inverno (1º nov–31 mar): 8h às 17h (última entrada 16h15). O bilhete também dá acesso a Paşabağ (Vale dos Monges).",
+      "tipo": "CADASTRADO",
+      "fonte": "visitcappadocia.com, theturkeytraveler.com — guias de visita consolidados, consultado em 2026-08-27",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",

@@ -5371,13 +5371,13 @@ const DB = {
             "para": "cassino",
             "modo": "trem",
             "icone": "🚆",
-            "duracao": 105,
+            "duracao": 118,
             "custoPP": [
-                11,
+                9,
                 16
             ],
-            "obs": "Regional/Intercity a partir de Roma Termini.",
-            "fonte": "Roteiro de referência v12 — curadoria manual",
+            "obs": "Regional/Intercity a partir de Roma Termini, duração média (~1h58); serviços mais rápidos chegam a 1h11.",
+            "fonte": "thetrainline.com, romaperte.it — agregadores/cobertura de horários Trenitalia, consultado em 2026-08-27",
             "categoria": "regional"
         },
         {
@@ -5385,13 +5385,13 @@ const DB = {
             "para": "foggia",
             "modo": "trem",
             "icone": "🚆",
-            "duracao": 150,
+            "duracao": 193,
             "custoPP": [
-                15,
-                25
+                17,
+                26
             ],
-            "obs": "Trecho ferroviário até Foggia, onde se retira o automóvel.",
-            "fonte": "Roteiro de referência v12 — curadoria manual",
+            "obs": "Trecho ferroviário até Foggia, onde se retira o automóvel — sem ligação direta, exige ao menos 1 baldeação (~3h13 em média).",
+            "fonte": "omio.it, rome2rio.com — agregadores de bilhetes Trenitalia/Intercity, consultado em 2026-08-27",
             "categoria": "regional"
         },
         {
@@ -5451,13 +5451,13 @@ const DB = {
             "para": "napoli",
             "modo": "trem",
             "icone": "🚆",
-            "duracao": 80,
+            "duracao": 70,
             "custoPP": [
                 20,
                 45
             ],
-            "obs": "Alta velocidade Roma Termini → Napoli Centrale.",
-            "fonte": "Roteiro de referência v12 — curadoria manual",
+            "obs": "Alta velocidade Roma Termini → Napoli Centrale — Frecciarossa/Italo, duração média 1h10 (mais rápidos, 1h07).",
+            "fonte": "trenitalia.com, omio.it — sítio oficial Frecciarossa e agregador de bilhetes, consultado em 2026-08-27",
             "categoria": "alta_velocidade"
         },
         {
@@ -5465,13 +5465,13 @@ const DB = {
             "para": "cassino",
             "modo": "trem",
             "icone": "🚆",
-            "duracao": 95,
+            "duracao": 85,
             "custoPP": [
-                10,
+                6,
                 15
             ],
-            "obs": "Regional a partir de Napoli Centrale.",
-            "fonte": "Roteiro de referência v12 — curadoria manual",
+            "obs": "Regional a partir de Napoli Centrale, ~1h22 em média.",
+            "fonte": "omio.it, thetrainline.com — agregadores de bilhetes Trenitalia regionale, consultado em 2026-08-27",
             "categoria": "regional"
         },
         {
@@ -5499,13 +5499,13 @@ const DB = {
             "para": "bari",
             "modo": "trem",
             "icone": "🚆",
-            "duracao": 245,
+            "duracao": 246,
             "custoPP": [
-                30,
+                13,
                 60
             ],
-            "obs": "Intercity/Frecciarossa pelo eixo adriático.",
-            "fonte": "Roteiro de referência v12 — curadoria manual",
+            "obs": "Intercity/Frecciargento/Frecciarossa pelo eixo adriático — ex.: Frecciargento FA8302, Bari 07:17 → Roma 11:23 (4h06).",
+            "fonte": "omio.it, thetrainline.com — agregadores de bilhetes Frecciargento/Frecciarossa, consultado em 2026-08-27",
             "categoria": "alta_velocidade"
         },
         {
@@ -5513,13 +5513,13 @@ const DB = {
             "para": "bari",
             "modo": "trem",
             "icone": "🚆",
-            "duracao": 80,
+            "duracao": 82,
             "custoPP": [
-                10,
+                5,
                 18
             ],
-            "obs": "Regional pelo eixo adriático.",
-            "fonte": "Roteiro de referência v12 — curadoria manual",
+            "obs": "Regional pelo eixo adriático, ~1h22 em média (54 trens/dia).",
+            "fonte": "omio.it, e656.net — agregador de bilhetes e cobertura de horários Trenitalia, consultado em 2026-08-27",
             "categoria": "regional"
         },
         {
@@ -6154,10 +6154,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza San Pietro, 00120 Città del Vaticano",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horário sujeito a celebrações litúrgicas",
-                "consultadoEm": null
+                "valor": "Diariamente 7h às 20h (última entrada 19h15) no período de verão (a partir de 1º de junho de 2026); horário reduzido em outros períodos do ano. Fechada aos turistas nas quartas-feiras de manhã (aprox. 7h–12h30) por causa da Audiência Papal Geral, quando ocorre.",
+                "tipo": "CADASTRADO",
+                "fonte": "basilicasanpietro.va (Orari) e stpetersbasilica-guide.com — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6190,10 +6190,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza San Pietro, 00120 Città del Vaticano",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Abril a setembro: 7h30 às 18h; outubro a março: 7h30 às 17h. O acesso pode fechar até 30 minutos antes do horário programado quando a fila está longa.",
+                "tipo": "CADASTRADO",
+                "fonte": "romewise.com e rome.us (St Peter's Dome) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6314,10 +6314,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza del Colosseo, 1, 00184 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Abre às 8h30. Fechamento varia por temporada: 29/mar–30/set até 19h15 (última entrada 18h15); 1–24/out até 18h30; 25/out–28/fev até 16h30. Fechado apenas em 25 de dezembro e 1º de janeiro (com abertura especial reduzida no dia 1º).",
+                "tipo": "CADASTRADO",
+                "fonte": "colosseo.it e parcocolosseo.it (Orari e biglietti) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6349,10 +6349,10 @@ const DB = {
             "fechado": [],
             "endereco": "Via della Salara Vecchia, 5/6, 00186 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Abre às 9h. Fechamento varia por temporada: 29/mar–30/set até 19h15 (última entrada 18h15); 1–24/out até 18h30; 25/out–28/fev até 16h30. Fechado em 25 de dezembro e 1º de janeiro.",
+                "tipo": "CADASTRADO",
+                "fonte": "colosseo.it e parcocolosseo.it (Orari e biglietti) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6384,10 +6384,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza di Santa Maria Maggiore, 00100 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Basílica: diariamente, aproximadamente 7h às 19h (o horário de fechamento varia sazonalmente entre 18h30 e 20h), entrada gratuita. Museu e área arqueológica: 9h às 18h30 (última entrada 18h).",
+                "tipo": "CADASTRADO",
+                "fonte": "basilicasantamariamaggiore.com (Opening Hours) e radicalstorage.com — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6420,10 +6420,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza di San Giovanni in Laterano, 4, 00184 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Basílica: diariamente 7h às 18h30, entrada gratuita. Claustro: 9h às 17h (€5). Batistério: gratuito, 9h às 19h.",
+                "tipo": "CADASTRADO",
+                "fonte": "basilicasangiovanni.va (Info e orari) e thebettervacation.com — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6457,10 +6457,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza della Rotonda, 00186 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Diariamente 9h às 19h (última entrada 18h30; bilheteria fecha às 18h). Fechado em 1º de janeiro, 15 de agosto e 25 de dezembro.",
+                "tipo": "CADASTRADO",
+                "fonte": "pantheonroma.com (Orari e informazioni) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6529,10 +6529,10 @@ const DB = {
             ],
             "endereco": "Piazzale Scipione Borghese, 5, 00197 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Terça a domingo, 9h às 19h (última entrada 17h45; bilheteria abre às 8h30). Fechada às segundas-feiras, 25 de dezembro e 1º de janeiro. Visitas organizadas em turnos de 2 horas, com reserva obrigatória mesmo para ingressos gratuitos.",
+                "tipo": "CADASTRADO",
+                "fonte": "galleriaborghese.cultura.gov.it (Visita/Info e orari) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6565,10 +6565,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza di Santa Maria in Trastevere, 00153 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "O bairro é de acesso livre a qualquer hora. A igreja Santa Maria in Trastevere abre diariamente das 7h30 às 20h30 (fecha entre 13h e 15h30 em agosto), entrada gratuita.",
+                "tipo": "CADASTRADO",
+                "fonte": "romawonder.com e rome.us (Santa Maria in Trastevere) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6600,10 +6600,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazzale San Paolo, 1, 00146 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Basílica: diariamente 7h às 18h30, entrada gratuita. Claustro: diariamente 9h às 17h30 (€4, reduzido €3).",
+                "tipo": "CADASTRADO",
+                "fonte": "basilicasanpaolo.org (Orari) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6632,13 +6632,15 @@ const DB = {
             "juvenil": true,
             "familia": true,
             "reserva": false,
-            "fechado": [],
+            "fechado": [
+                3
+            ],
             "endereco": "Via Appia Antica, 110/126, 00179 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "9h às 12h e 14h às 17h (última visita guiada por volta do meio-dia pela manhã e às 17h à tarde; a visita dura cerca de 40 min e é sempre acompanhada por guia). Fechado às quartas-feiras, além de um período de manutenção anual de cerca de 4 semanas (datas variam a cada ano, geralmente em janeiro/fevereiro).",
+                "tipo": "CADASTRADO",
+                "fonte": "catacombesancallisto.it/catacombesancallisto.rome.it (Opening hours) — consultado em 2026-08-27; endereço corresponde às Catacombe di San Callisto",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6670,10 +6672,10 @@ const DB = {
             "fechado": [],
             "endereco": "Via dei Serpenti, 00184 Roma, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Bairro residencial e comercial de acesso livre, sem horário de funcionamento próprio — lojas, ateliês e trattorias seguem horário individual.",
+                "tipo": "CADASTRADO",
+                "fonte": "Natureza do local (bairro a céu aberto, sem bilheteria) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6705,10 +6707,10 @@ const DB = {
             "fechado": [],
             "endereco": "6 Parvis Notre-Dame, 75004 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Acesso sujeito a regulação de fluxo — verificar no sítio oficial",
-                "consultadoEm": null
+                "valor": "Segunda a sexta 7h50–19h (quinta até 22h); sábado e domingo 8h15–19h30. Última entrada 30 min antes do fechamento. Acesso sujeito a sistema de reserva de horário gratuita.",
+                "tipo": "CADASTRADO",
+                "fonte": "notredamedeparis.fr — sítio oficial da catedral, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6741,10 +6743,10 @@ const DB = {
             "fechado": [],
             "endereco": "8 Boulevard du Palais, 75001 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Abril a setembro: 9h às 19h. Outubro a março: 9h às 17h. Aberta todos os dias. Fechada em 1º de janeiro, 1º de maio e 25 de dezembro. Última entrada 30 min antes do fechamento.",
+                "tipo": "CADASTRADO",
+                "fonte": "sainte-chapelle-paris.com, paristickets.com — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6777,10 +6779,10 @@ const DB = {
             "fechado": [],
             "endereco": "35 Rue du Chevalier de la Barre, 75018 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Basílica: todos os dias, 6h30 às 22h30, entrada gratuita. Cúpula: 9h30 às 20h (maio a setembro) ou 9h30 às 17h (outubro a abril).",
+                "tipo": "CADASTRADO",
+                "fonte": "sortiraparis.com, offi.fr — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -6816,10 +6818,10 @@ const DB = {
             ],
             "endereco": "99 Rue de Rivoli, 75001 Paris, França",
             "horario": {
-                "valor": "Fechado às terças-feiras.",
+                "valor": "Todos os dias, 9h às 18h, exceto terça-feira (fechado). Quarta e sexta-feira até 21h. Última entrada 1h antes do fechamento. Fechado também em 1º de janeiro, 1º de maio e 25 de dezembro.",
                 "tipo": "CADASTRADO",
-                "fonte": "Roteiro de referência v12 — curadoria manual",
-                "consultadoEm": null
+                "fonte": "louvre.fr, museumticketsparis.com — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6853,10 +6855,10 @@ const DB = {
             ],
             "endereco": "1 Rue de la Légion d'Honneur, 75007 Paris, França",
             "horario": {
-                "valor": "Fechado às segundas-feiras.",
+                "valor": "Terça a domingo, 9h30 às 18h (quinta-feira até 21h45). Fechado às segundas-feiras, 1º de maio e 25 de dezembro. Reserva de horário obrigatória.",
                 "tipo": "CADASTRADO",
-                "fonte": "Roteiro de referência v12 — curadoria manual",
-                "consultadoEm": null
+                "fonte": "musee-orsay.fr — sítio oficial, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6889,10 +6891,10 @@ const DB = {
             "fechado": [],
             "endereco": "129 Rue de Grenelle, 75007 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Todos os dias, 10h às 18h (venda de bilhetes até 30 min antes do fechamento). Primeira sexta-feira do mês: nocturna até 22h. Fechado em 1º de janeiro, 1º de maio e 25 de dezembro.",
+                "tipo": "CADASTRADO",
+                "fonte": "musee-armee.fr — sítio oficial, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6925,10 +6927,10 @@ const DB = {
             "fechado": [],
             "endereco": "5 Avenue Anatole France, 75007 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Todos os dias do ano, abertura às 9h30. Fechamento às 23h (baixa temporada) ou 0h45 (alta temporada/verão). Última subida ao topo às 22h45.",
+                "tipo": "CADASTRADO",
+                "fonte": "toureiffel.paris — sítio oficial, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6960,10 +6962,10 @@ const DB = {
             "fechado": [],
             "endereco": "Place Charles de Gaulle, 75008 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Abril a setembro: 10h às 23h (terças a partir das 11h). Outubro a março: 10h às 22h30 (terças a partir das 11h). Fechado em 1º de maio, manhãs de 8 de maio, 14 de julho e 11 de novembro, e 25 de dezembro. Última entrada 45 min antes.",
+                "tipo": "CADASTRADO",
+                "fonte": "arc-de-triomphe.paris — sítio oficial, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -6995,10 +6997,10 @@ const DB = {
             "fechado": [],
             "endereco": "Place du Panthéon, 75005 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Abril a setembro: 10h às 18h30. Outubro a março: 10h às 18h. Abre ao meio-dia na primeira segunda-feira útil do mês. Fechado em 1º de janeiro, 1º de maio e 25 de dezembro.",
+                "tipo": "CADASTRADO",
+                "fonte": "pantheonparis.org, paristickets.com — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7032,10 +7034,10 @@ const DB = {
             ],
             "endereco": "30 Avenue Corentin Cariou, 75019 Paris, França",
             "horario": {
-                "valor": "Fechado às segundas-feiras.",
+                "valor": "Terça a sábado, 10h às 18h; domingo, 10h às 19h. Fechado às segundas-feiras, 1º de janeiro, 1º de maio e 25 de dezembro.",
                 "tipo": "CADASTRADO",
-                "fonte": "Roteiro de referência v12 — curadoria manual",
-                "consultadoEm": null
+                "fonte": "cite-sciences.fr — sítio oficial, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7069,10 +7071,10 @@ const DB = {
             ],
             "endereco": "3 Esplanade de l'Air et de l'Espace, 93350 Le Bourget, França",
             "horario": {
-                "valor": "Fechado às segundas-feiras.",
+                "valor": "Terça a domingo. Abril a setembro: 10h às 18h (última entrada 17h30). Outubro a março: 10h às 17h (última entrada 16h30). Fechado às segundas-feiras.",
                 "tipo": "CADASTRADO",
-                "fonte": "Roteiro de referência v12 — curadoria manual",
-                "consultadoEm": null
+                "fonte": "museeairespace.fr — sítio oficial, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7105,10 +7107,11 @@ const DB = {
             "fechado": [],
             "endereco": "Port de la Bourdonnais, 75007 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Varia por operador — referência (Bateaux-Mouches): alta temporada (abril a setembro) partidas a cada 30 min, 10h às 22h30; baixa temporada (outubro a março) a cada 45 min, 10h15 às 15h30, e a cada 30 min, 16h às 21h30. Duração aproximada de 1h10.",
+                "tipo": "CADASTRADO",
+                "fonte": "croisieresseineparis.com — consultado em 2026-08-27",
+                "nota": "Existem múltiplos operadores de cruzeiro pelo Sena com horários próprios; valor de referência de um operador específico.",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7141,10 +7144,10 @@ const DB = {
             "fechado": [],
             "endereco": "Place des Vosges, 75004 Paris, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Bairro e Place des Vosges (incluindo as arcadas): acesso livre 24h. O jardim central (square Louis XIII) fecha ao anoitecer — 17h de novembro a março, 21h de abril a outubro.",
+                "tipo": "CADASTRADO",
+                "fonte": "mairiepariscentre.paris.fr — sítio oficial da prefeitura do Paris Centre, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7176,10 +7179,10 @@ const DB = {
             "fechado": [],
             "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horário sujeito à vida monástica — verificar no sítio da Abadia",
-                "consultadoEm": null
+                "valor": "Basílica: 1º de novembro a 31 de março, segunda a sábado 9h30–16h50 e domingo 9h30–17h15; 1º de abril a 31 de outubro, todos os dias 9h30–18h30. Visitas suspensas durante celebrações litúrgicas.",
+                "tipo": "CADASTRADO",
+                "fonte": "Sítio oficial da Abadia (abbaziamontecassino.it)",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7210,10 +7213,10 @@ const DB = {
             "fechado": [],
             "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Cemitério de acesso livre e permanente. O pequeno museu do complexo (Museu Memorial do 2º Corpo Polonês) tem horário à parte: 1º de novembro a 31 de março, quarta, sexta, sábado e domingo, 10h às 16h; 1º de abril a 31 de outubro, todos os dias, 10h às 18h.",
+                "tipo": "CADASTRADO",
+                "fonte": "TracesOfWar.com e fondazionemm2c.org (Museu Memorial do 2º Corpo Polonês)",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7245,10 +7248,10 @@ const DB = {
             "fechado": [],
             "endereco": "Via Montecassino, 03043 Cassino FR, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "1º de abril a 31 de outubro, todos os dias, 9h30 às 18h30; 1º de novembro a 31 de março, apenas domingos e feriados, 9h30 às 17h15.",
+                "tipo": "CADASTRADO",
+                "fonte": "Sítio oficial da Abadia (abbaziamontecassino.it)",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7280,10 +7283,10 @@ const DB = {
             "fechado": [],
             "endereco": "Via Reale Basilica, 127, 71037 Monte Sant'Angelo FG, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Julho a setembro: domingos/feriados 7h–20h, dias úteis 7h30–19h30. Abril a junho e outubro: domingos/feriados 7h–13h e 14h30–20h, dias úteis 7h30–12h30 e 14h30–19h. Novembro a março: domingos/feriados 7h–13h e 14h30–19h, dias úteis 7h30–12h30 e 14h30–17h.",
+                "tipo": "CADASTRADO",
+                "fonte": "Guias consolidados sobre o Santuário (vaticano.com, longobardinitalia.it)",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7319,7 +7322,8 @@ const DB = {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": null,
-                "consultadoEm": null
+                "consultadoEm": null,
+                "nota": "Fontes turísticas divergem sobre o horário: algumas citam 9h às 19h diariamente, outras 10h–13h e 14h30–19h30 — sem confirmação em fonte oficial do município, mantido como indisponível."
             },
             "custo": {
                 "valor": null,
@@ -7351,10 +7355,10 @@ const DB = {
             "fechado": [],
             "endereco": "Largo Roberto il Guiscardo, 71037 Monte Sant'Angelo FG, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "9h30 às 13h e 14h30 às 19h.",
+                "tipo": "CADASTRADO",
+                "fonte": "jamaluca.com — guia consolidado sobre o Castelo de Monte Sant'Angelo",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7386,10 +7390,10 @@ const DB = {
             "fechado": [],
             "endereco": "Foresta Umbra, 71030 Provincia di Foggia, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Centro de visitantes/museu naturalístico aberto de domingo de Ramos a 4 de outubro, diariamente, 9h às 19h (fechado fora dessa temporada). As trilhas da floresta em si têm acesso livre, sujeito às condições da estrada e do tempo.",
+                "tipo": "CADASTRADO",
+                "fonte": "Ente Parco Nazionale del Gargano (parcogargano.it)",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": null,
@@ -7420,10 +7424,10 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza Santa Maria delle Grazie, 71013 San Giovanni Rotondo FG, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Portões do santuário: 6h às 22h. Cripta com o corpo de Padre Pio: 7h às 19h (no verão reabre das 20h às 21h15 para o terço).",
+                "tipo": "CADASTRADO",
+                "fonte": "Wikipedia (Sanctuary of Saint Pio of Pietrelcina) e conventosantuariopadrepio.it",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7455,10 +7459,10 @@ const DB = {
             "fechado": [],
             "endereco": "Viale Cappuccini, 71013 San Giovanni Rotondo FG, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Portões do complexo do santuário: 6h às 22h — a igreja superior (projeto de Renzo Piano) segue o mesmo horário de acesso.",
+                "tipo": "CADASTRADO",
+                "fonte": "conventosantuariopadrepio.it",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7490,10 +7494,10 @@ const DB = {
             "fechado": [],
             "endereco": "Viale Cappuccini, 71013 San Giovanni Rotondo FG, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Percurso ao ar livre, acesso junto ao horário dos portões do santuário: 6h às 22h.",
+                "tipo": "CADASTRADO",
+                "fonte": "conventosantuariopadrepio.it",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7525,10 +7529,10 @@ const DB = {
             "fechado": [],
             "endereco": "Largo Abate Elia, 13, 70122 Bari BA, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Segunda a sábado, 6h30 às 20h30; domingos, 6h30 às 22h.",
+                "tipo": "CADASTRADO",
+                "fonte": "Sítio oficial da Basílica (basilicasannicola.it/Orários)",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -7560,10 +7564,10 @@ const DB = {
             "fechado": [],
             "endereco": "Strada Vallisa, 70122 Bari BA, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Bairro histórico de acesso livre a qualquer hora. O passeio sobre a Muraglia (muralhas) tem horário à parte: terça a domingo, 9h às 19h; fechado às segundas-feiras.",
+                "tipo": "CADASTRADO",
+                "fonte": "discoverbari.it e barivibes.it — guias consolidados sobre Bari Vecchia",
+                "consultadoEm": "2026-08-27"
             },
             "custo": {
                 "valor": 0,
@@ -8588,10 +8592,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Praça pública, acesso livre a qualquer hora — sem bilheteria; o Centro de Turismo na praça funciona diariamente das 10h às 20h.",
+                "tipo": "CADASTRADO",
+                "fonte": "madrid.es — Ayuntamiento de Madrid, página do Centro de Turismo Plaza Mayor",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -8893,10 +8897,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Bairro histórico de ruas públicas, acesso livre a qualquer hora — sem bilheteria; monumentos internos (catedral, basílicas) têm horário próprio.",
+                "tipo": "CADASTRADO",
+                "fonte": "barcelona.com e barcelona-tourist-guide.com — guias turísticos consolidados sobre acesso livre ao bairro",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -8997,10 +9001,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Praça pública, acesso livre a qualquer hora — sem bilheteria; os edifícios ao redor (Catedral, Pazo de Raxoi) têm horário próprio.",
+                "tipo": "CADASTRADO",
+                "fonte": "turismo.gal e caminodesantiago.gal — portais oficiais de turismo da Galiza",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -9165,10 +9169,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Bairro histórico de ruas e praças públicas, acesso livre a qualquer hora — sem bilheteria.",
+                "tipo": "CADASTRADO",
+                "fonte": "andalucia.org — portal oficial de turismo da Andaluzia, seção Barrio de Santa Cruz",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -9199,10 +9203,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Funcionamento sujeito a condições climáticas (vento/frio); horários variam e devem ser confirmados no site da SIG",
-                "consultadoEm": null
+                "valor": "Verão: cerca de 9h até o pôr do sol; inverno: aproximadamente 10h às 16h. Desligado com ventos fortes e durante a manutenção anual (2 de novembro a 3 de dezembro de 2026).",
+                "tipo": "CADASTRADO",
+                "fonte": "SIG (Services Industriels de Genève, operadora do Jet d'Eau) — ww2.sig-ge.ch; guias consolidados (usnews.com, myswissalps.com)",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "fotografia",
@@ -9302,10 +9306,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Sítio oficial informa apenas que datas são liberadas mensalmente para reserva online, sem horário fixo publicado; visitas limitadas por obras de renovação",
-                "consultadoEm": null
+                "valor": "Visitas guiadas de segunda a sexta, 10h-12h e 14h-16h, o ano todo; também aos sábados nos mesmos horários de 1º de abril a 30 de setembro. Oferta de tours limitada por obras de renovação em curso.",
+                "tipo": "CADASTRADO",
+                "fonte": "ungeneva.org/en/visit — site oficial do Escritório das Nações Unidas em Genebra",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -9371,10 +9375,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Acesso livre 24 horas, todos os dias — monumento ao ar livre no Parc des Bastions",
+                "tipo": "CADASTRADO",
+                "fonte": "geneve.ch/promenade-bastions — site oficial da Ville de Genève",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -9407,10 +9411,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Terça a domingo, 11h às 18h; quinta-feira até 21h; fechado às segundas",
+                "tipo": "CADASTRADO",
+                "fonte": "mahmah.ch — site oficial do Musée d'art et d'histoire de Genève",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "arte",
@@ -9441,10 +9445,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Acesso livre 24 horas, todos os dias — parque público (Jardin Anglais)",
+                "tipo": "CADASTRADO",
+                "fonte": "geneve.ch/jardin-anglais — site oficial da Ville de Genève",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "fotografia",
@@ -9474,10 +9478,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Sítio oficial informa mudanças sazonais no horário das torres (a partir de agosto de 2026, fechado seg-qui); consultar grossmuenster.ch antes da visita",
-                "consultadoEm": null
+                "valor": "A partir de 3 de agosto de 2026: torre fechada de segunda a quinta, aberta de sexta a domingo. A igreja e o Karlsturm seguem acessíveis durante a reforma de 2026-2027.",
+                "tipo": "CADASTRADO",
+                "fonte": "grossmuenster.ch — site oficial (seção Information)",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "religiao",
@@ -9648,10 +9652,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Lojas fecham aos domingos, mas horário individual varia por estabelecimento",
-                "consultadoEm": null
+                "valor": "Rua pública sempre acessível. Lojas em geral: seg-sex 9h-20h, sáb 9h-17h/18h (grandes lojas até 20h); maioria fechada aos domingos, exceto as do saguão da Estação Central (ShopVille, 9h-21h).",
+                "tipo": "CADASTRADO",
+                "fonte": "Guias consolidados (inyourpocket.com, shopping-in-the-city.ch) sobre horário comercial da Bahnhofstrasse e ShopVille",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "compras",
@@ -9782,10 +9786,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Operação sazonal e sujeita a condições climáticas; horários variam por época do ano, consultar pilatus.ch",
-                "consultadoEm": null
+                "valor": "Ferrovia de cremalheira opera de 11 de maio a 29 de novembro de 2026 (suspensa 30-31 de março e de 19 de outubro a 27 de novembro para manutenção); os teleféricos operam o ano todo, salvo manutenção. Última subida de Kriens: 17h no verão, 16h no inverno.",
+                "tipo": "CADASTRADO",
+                "fonte": "pilatus.ch/en/railway-cableways/timetable — site oficial",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "natureza",
@@ -9816,10 +9820,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Diariamente das 7h às 19h",
+                "tipo": "CADASTRADO",
+                "fonte": "hofkirche.ch / luzern.com — site oficial de turismo de Lucerna",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "religiao",
@@ -9883,10 +9887,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horários de trem variam por estação; consultar rigi.ch",
-                "consultadoEm": null
+                "valor": "Trens partem de Vitznau e Arth-Goldau o ano todo, em horário sazonal, geralmente a cada 30-60 minutos; no verão, primeira partida de Vitznau por volta das 8h15 e última por volta das 22h05. Temporadas 2026: verão (23/mai-6/set), outono (7/set-11/out), outono-inverno (12/out-12/dez).",
+                "tipo": "CADASTRADO",
+                "fonte": "rigi.ch/en/inform/timetables — site oficial",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "natureza",
@@ -10053,10 +10057,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Disponibilidade de tours depende do calendário de sessões parlamentares; reserva obrigatória com 2 dias de antecedência pelo site oficial",
-                "consultadoEm": null
+                "valor": "Visitas guiadas gratuitas de terça a sábado, com no máximo 60 minutos; nenhuma visita ocorre quando o Parlamento está em sessão. Reserva online a partir de 3 dias antes da visita.",
+                "tipo": "CADASTRADO",
+                "fonte": "parlament.ch — site oficial do Parlamento Suíço (\"Guided tours of the Parliament Building\")",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -10260,10 +10264,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Rota de logradouros públicos pela Cidade Velha, sem horário nem bilheteria — acessível a qualquer hora. Procissão franciscana semanal às sextas-feiras, 15h, a partir da 1ª estação.",
+                "tipo": "CADASTRADO",
+                "fonte": "beinharimtours.com e jerusalemtourism.org — guias turísticos consolidados sobre acesso livre à rota",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "religiao",
@@ -10501,7 +10505,8 @@ const DB = {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": null,
-                "consultadoEm": null
+                "consultadoEm": null,
+                "nota": "Pesquisado (tripadvisor.com, trip.com, custodia.org, beitsahourchurch.ps) — nenhuma fonte confirma horário oficial de funcionamento da capela/santuário; recomendação recorrente nos guias é tocar a campainha se o portão estiver fechado. Mantido como indisponível."
             },
             "cat": [
                 "religiao",
@@ -10704,10 +10709,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Cidade Velha de Jaffa é acessível 24h, sem bilheteria; lojas do bazar/mercado de pulgas funcionam domingo a quinta 8h–17h, meio período às sextas, fechado aos sábados.",
+                "tipo": "CADASTRADO",
+                "fonte": "touristisrael.com e mindtrip.ai — guias turísticos consolidados sobre acesso livre à cidade velha",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -10810,10 +10815,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Bulevar e logradouro público, acesso livre a qualquer hora — sem bilheteria; melhor luz para a arquitetura Bauhaus entre 16h e 19h.",
+                "tipo": "CADASTRADO",
+                "fonte": "visit-tel-aviv.com e beinharimtours.com — guias turísticos consolidados",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "arquitetura",
@@ -10986,11 +10991,11 @@ const DB = {
                 "nota": "Fontes consultadas (yerebatan.com, basilica-cistern.com) divergem fortemente sobre o preço atual (valores entre 90 TL e cerca de 1950-3000 TL/38-58 EUR), não foi possível confirmar um valor confiável único."
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Fontes divergem entre 18h e 18h30 de fechamento; sessões noturnas adicionais também são anunciadas de forma inconsistente entre fontes."
+                "valor": "9h às 18h30, diariamente.",
+                "tipo": "CADASTRADO",
+                "fonte": "basilicacistern-guide.com, euronews.com — cobertura pós-reabertura, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27",
+                "nota": "A gestão do sítio passou da Prefeitura de Istambul para a Direção Geral de Fundações (Vakıflar) em junho de 2026, com fechamento temporário durante a transição; reaberto ao público com o horário regular acima."
             },
             "cat": [
                 "historia",
@@ -11165,11 +11170,11 @@ const DB = {
                 "nota": "Administrado pela Presidência de Palácios Nacionais (Milli Saraylar); não foi possível confirmar o preço vigente numa fonte oficial durante esta pesquisa."
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Dias de fechamento (segunda e quinta) amplamente citados por fontes turísticas, mas não confirmados em fonte primária oficial nesta pesquisa; por isso não registrado como CADASTRADO."
+                "valor": "Terça a domingo, 9h às 17h (bilheteria até 16h30). Fechado às segundas-feiras e em feriados religiosos específicos.",
+                "tipo": "CADASTRADO",
+                "fonte": "dolmabahcepalace.gen.tr, theistanbulinsider.com — guias de visita consolidados 2026, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27",
+                "nota": "Fontes convergem em fechamento às segundas-feiras; a menção anterior a um segundo dia de fechamento (quinta-feira) não se confirmou nesta nova pesquisa."
             },
             "cat": [
                 "historia",
@@ -11236,10 +11241,10 @@ const DB = {
                 "nota": "Valor em euros para visitantes estrangeiros."
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Verão (abril a outubro): 8h às 18h30; inverno (novembro a março): 8h30 às 17h30. Bilheteria fecha 30 min antes.",
+                "tipo": "CADASTRADO",
+                "fonte": "whichmuseum.com, turkeytravelplanner.com — guias de visita consolidados, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -11339,11 +11344,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Espaço aberto ao ar livre, sem controle formal de horário confirmado em fonte oficial."
+                "valor": "1º maio–1º out: 8h às 19h; 1º out–1º maio: 8h às 17h30. Sítio a céu aberto, entrada gratuita.",
+                "tipo": "CADASTRADO",
+                "fonte": "bestephesustours.com — guia de horários de Éfeso e sítios próximos, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -11373,11 +11377,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Vila aberta continuamente; lojas e restaurantes têm horários próprios não centralizados."
+                "valor": "Vila de acesso livre, aberta continuamente; lojas, vinícolas e restaurantes seguem horário comercial próprio, não centralizado.",
+                "tipo": "CADASTRADO",
+                "fonte": "Consenso de guias de viagem sobre a vila (turkeysforlife.com e afins), consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "cultura",
@@ -11444,10 +11447,10 @@ const DB = {
                 "nota": "Preço extremamente variável por operadora, temporada e câmbio (fontes indicam faixa aproximada de 70 a 280 euros por pessoa em 2026); não há tarifa oficial única, por isso não foi registrado um valor específico."
             },
             "horario": {
-                "valor": "Voos ao amanhecer, sujeitos a cancelamento por condições climáticas",
+                "valor": "Voo com ~1h de duração, decolagem 20-30 min antes do nascer do sol; busca no hotel entre 4h e 6h (varia por estação). Experiência completa, incluindo transfer e preparação, dura 2h30-3h. Sujeito a cancelamento por condições climáticas.",
                 "tipo": "CADASTRADO",
-                "fonte": "Consenso de operadoras de turismo da região (kapadokyaturufiyatlari.com e afins)",
-                "consultadoEm": "2026-08-26"
+                "fonte": "hotairballooncappadocia.com, balloonscanner.com — operadoras e cobertura especializada da região, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "aventura",
@@ -11514,10 +11517,10 @@ const DB = {
                 "nota": "Valor em euros para visitantes estrangeiros."
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Verão (1º abr–31 out): 8h às 19h (última entrada 18h30); inverno (1º nov–31 mar): 8h às 17h (última entrada 16h30).",
+                "tipo": "CADASTRADO",
+                "fonte": "shippedaway.com, istanbulclues.com — guias de visita consolidados, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -11548,10 +11551,10 @@ const DB = {
                 "nota": "Valor em euros para visitantes estrangeiros; bilhete combinado com outro sítio, conforme a fonte oficial."
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Verão (1º abr–31 out): 8h às 19h (última entrada 18h15); inverno (1º nov–31 mar): 8h às 17h (última entrada 16h15). O bilhete também dá acesso a Paşabağ (Vale dos Monges).",
+                "tipo": "CADASTRADO",
+                "fonte": "visitcappadocia.com, theturkeytraveler.com — guias de visita consolidados, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -11616,11 +11619,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Espaço aberto ao ar livre; não foi confirmado horário formal de fechamento em fonte oficial."
+                "valor": "8h30 às 17h30, diariamente.",
+                "tipo": "CADASTRADO",
+                "fonte": "travelsetu.com, rehlat.co — guias de visita consolidados, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27"
             },
             "cat": [
                 "historia",
@@ -11685,10 +11687,11 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": "Verão (1º abr–1º out): 8h30 às 17h30; inverno (1º out–1º abr): 8h às 17h.",
+                "tipo": "CADASTRADO",
+                "fonte": "izmir.bel.tr — página oficial de museus da Prefeitura de Izmir, consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27",
+                "nota": "O acervo foi incorporado ao complexo do Museu Arqueológico/Fábrica de Cultura e Arte de Izmir; horário pode ser unificado com o do museu arqueológico dependendo da fonte consultada."
             },
             "cat": [
                 "cultura",
@@ -11719,11 +11722,11 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Horário varia por loja; não há horário único centralizado confirmado em fonte oficial."
+                "valor": "Aproximadamente 9h às 20h, de segunda a sábado; aos domingos, parte das lojas permanece fechada.",
+                "tipo": "CADASTRADO",
+                "fonte": "kupi.com, tripadvisor.com (consenso de guias de visita) — consultado em 2026-08-27",
+                "consultadoEm": "2026-08-27",
+                "nota": "Horário varia por loja; a faixa reflete o padrão geral do bazar, não um horário único centralizado."
             },
             "cat": [
                 "compras",
@@ -11928,9 +11931,9 @@ const DB = {
             "fechado": [],
             "endereco": "Via Duomo, 147, 80138 Napoli, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horário de funcionamento da catedral não confirmado em fonte oficial no momento da consulta — consulte antes da visita.",
+                "valor": "Duomo: segunda a sábado 8h às 12h30 e 16h30 às 19h; domingos 8h às 13h30 e 17h às 19h30. Cappella e Museu do Tesouro de São Januário: manhãs 9h30 às 13h; tardes segunda e sábado 15h às 18h, terça a sexta 14h30 às 18h, domingos/feriados 16h30 às 18h.",
+                "tipo": "CADASTRADO",
+                "fonte": "livenapoli.com e guidaturisticacampania.it — guias consolidados sobre o Duomo di Napoli",
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
@@ -12107,9 +12110,9 @@ const DB = {
             "fechado": [],
             "endereco": "Piazza De Sanctis, 71121 Foggia, Itália",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+                "valor": "Segunda a sábado, 9h30 às 19h; domingos, 11h às 19h.",
+                "tipo": "CADASTRADO",
+                "fonte": "Página oficial da Catedral de Foggia nas redes sociais (@cattedralefoggia) — horário vigente desde junho de 2024, não publicado em sítio oficial próprio",
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
@@ -12348,9 +12351,9 @@ const DB = {
             "fechado": [],
             "endereco": "12 Rue Bernadette Soubirous, 65100 Lourdes, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+                "valor": "Abril a outubro: todos os dias, 9h às 12h e 14h às 18h. Resto do ano: 14h30 às 17h (e 10h às 12h durante férias escolares). Visita mediante solicitação às irmãs responsáveis pela recepção.",
+                "tipo": "CADASTRADO",
+                "fonte": "lourdes-infotourisme.com — Office de Tourisme de Lourdes, consultado em 2026-08-27",
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
@@ -12453,9 +12456,9 @@ const DB = {
             ],
             "endereco": "Rue Chemin du Paradis (Les Buissonnets), 14100 Lisieux, França",
             "horario": {
-                "valor": "Todos os dias, exceto domingo de manhã, 15 de agosto, 25 de dezembro e 1º de janeiro.",
+                "valor": "Segunda a sábado, 10h às 12h30 e 13h30 às 17h. Fechado em 1º de janeiro e 25 de dezembro. Fontes divergem sobre o domingo — uma indica fechado, o registro anterior indicava aberto exceto na manhã; não confirmado em fonte única, verificar no local.",
                 "tipo": "CADASTRADO",
-                "fonte": "therese-de-lisieux.catholique.fr — sítio oficial do Santuário de Lisieux",
+                "fonte": "therese-de-lisieux.catholique.fr, tourisme.lisieux-normandie.fr — consultado em 2026-08-27",
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
@@ -12488,9 +12491,9 @@ const DB = {
             "fechado": [],
             "endereco": "Place François Mitterrand, 14100 Lisieux, França",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Horário de funcionamento não confirmado em fonte oficial no momento da consulta.",
+                "valor": "Todos os dias, 9h30 às 19h. Visitas guiadas gratuitas em julho e agosto.",
+                "tipo": "CADASTRADO",
+                "fonte": "tourisme.lisieux-normandie.fr — consultado em 2026-08-27",
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
@@ -12558,9 +12561,9 @@ const DB = {
             "fechado": [],
             "endereco": "Carrer de la Llotja, 2, 46001 València, Espanha",
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Fontes turísticas divergem sobre o dia de fechamento semanal (algumas indicam segunda-feira fechada, outras aberto todos os dias) — não confirmado em fonte oficial no momento da consulta. Faixa geral relatada: segunda a sábado 10h–19h, domingos e feriados 10h–14h.",
+                "valor": "Segunda a sábado 10h–19h; domingos e feriados 10h–14h (entrada gratuita aos domingos e feriados).",
+                "tipo": "CADASTRADO",
+                "fonte": "visitvalencia.com — página oficial de turismo de Valência, seção Lonja de la Seda",
                 "consultadoEm": "2026-08-27"
             },
             "custo": {

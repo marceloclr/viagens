@@ -86,10 +86,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Praça pública, acesso livre a qualquer hora — sem bilheteria; os edifícios ao redor (Catedral, Pazo de Raxoi) têm horário próprio.",
+      "tipo": "CADASTRADO",
+      "fonte": "turismo.gal e caminodesantiago.gal — portais oficiais de turismo da Galiza",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "historia",

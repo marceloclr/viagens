@@ -20,10 +20,10 @@
     "fechado": [],
     "endereco": "Via Reale Basilica, 127, 71037 Monte Sant'Angelo FG, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Julho a setembro: domingos/feriados 7h–20h, dias úteis 7h30–19h30. Abril a junho e outubro: domingos/feriados 7h–13h e 14h30–20h, dias úteis 7h30–12h30 e 14h30–19h. Novembro a março: domingos/feriados 7h–13h e 14h30–19h, dias úteis 7h30–12h30 e 14h30–17h.",
+      "tipo": "CADASTRADO",
+      "fonte": "Guias consolidados sobre o Santuário (vaticano.com, longobardinitalia.it)",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": 0,
@@ -59,7 +59,8 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": null,
-      "consultadoEm": null
+      "consultadoEm": null,
+      "nota": "Fontes turísticas divergem sobre o horário: algumas citam 9h às 19h diariamente, outras 10h–13h e 14h30–19h30 — sem confirmação em fonte oficial do município, mantido como indisponível."
     },
     "custo": {
       "valor": null,
@@ -91,10 +92,10 @@
     "fechado": [],
     "endereco": "Largo Roberto il Guiscardo, 71037 Monte Sant'Angelo FG, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "9h30 às 13h e 14h30 às 19h.",
+      "tipo": "CADASTRADO",
+      "fonte": "jamaluca.com — guia consolidado sobre o Castelo de Monte Sant'Angelo",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,
@@ -126,10 +127,10 @@
     "fechado": [],
     "endereco": "Foresta Umbra, 71030 Provincia di Foggia, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Centro de visitantes/museu naturalístico aberto de domingo de Ramos a 4 de outubro, diariamente, 9h às 19h (fechado fora dessa temporada). As trilhas da floresta em si têm acesso livre, sujeito às condições da estrada e do tempo.",
+      "tipo": "CADASTRADO",
+      "fonte": "Ente Parco Nazionale del Gargano (parcogargano.it)",
+      "consultadoEm": "2026-08-27"
     },
     "custo": {
       "valor": null,

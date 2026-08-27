@@ -47,9 +47,9 @@
     "fechado": [],
     "endereco": "Carrer de la Llotja, 2, 46001 València, Espanha",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Fontes turísticas divergem sobre o dia de fechamento semanal (algumas indicam segunda-feira fechada, outras aberto todos os dias) — não confirmado em fonte oficial no momento da consulta. Faixa geral relatada: segunda a sábado 10h–19h, domingos e feriados 10h–14h.",
+      "valor": "Segunda a sábado 10h–19h; domingos e feriados 10h–14h (entrada gratuita aos domingos e feriados).",
+      "tipo": "CADASTRADO",
+      "fonte": "visitvalencia.com — página oficial de turismo de Valência, seção Lonja de la Seda",
       "consultadoEm": "2026-08-27"
     },
     "custo": {

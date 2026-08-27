@@ -120,10 +120,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Rota de logradouros públicos pela Cidade Velha, sem horário nem bilheteria — acessível a qualquer hora. Procissão franciscana semanal às sextas-feiras, 15h, a partir da 1ª estação.",
+      "tipo": "CADASTRADO",
+      "fonte": "beinharimtours.com e jerusalemtourism.org — guias turísticos consolidados sobre acesso livre à rota",
+      "consultadoEm": "2026-08-27"
     },
     "cat": [
       "religiao",
