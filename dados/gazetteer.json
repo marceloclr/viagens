@@ -16,5 +16,7 @@
   { "nome": "Istambul", "paisId": "tr", "lat": 41.0082, "lon": 28.9784 },
   { "nome": "Ancara", "paisId": "tr", "lat": 39.9334, "lon": 32.8597 },
   { "nome": "Cappadocia", "paisId": "tr", "lat": 38.6431, "lon": 34.8289 },
-  { "nome": "Esmirna", "paisId": "tr", "lat": 38.4237, "lon": 27.1428 }
+  { "nome": "Esmirna", "paisId": "tr", "lat": 38.4237, "lon": 27.1428 },
+  { "nome": "Wilmington", "paisId": "us", "lat": 34.2257, "lon": -77.9447 },
+  { "nome": "Raleigh", "paisId": "us", "lat": 35.7796, "lon": -78.6382 }
 ]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "jax_cummer_museum",
+    "cidadeId": "jacksonville",
+    "nome": "Cummer Museum of Art and Gardens",
+    "zona": "riverside",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [1],
+    "endereco": "829 Riverside Ave, Jacksonville, FL 32204, EUA",
+    "desc": "Museu de arte à beira do Rio St. Johns, com coleção que vai da arte europeia antiga à americana, cercado por jardins formais projetados no início do século XX.",
+    "custo": {
+      "valor": { "adulto": 20, "menor18": 0, "gratuitoAte": 6 },
+      "tipo": "CADASTRADO",
+      "fonte": "cummermuseum.org — cobertura consolidada da tabela oficial (sênior e 6–17 anos US$15; até 5 anos gratuito; entrada gratuita terças após 16h)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Terça 11h–21h; quarta a sábado 11h–16h; domingo 12h–16h; fechado às segundas", "tipo": "CADASTRADO", "fonte": "cummermuseum.org — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["arte", "museus", "natureza"],
+    "prio": 72,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "jax_moca",
+    "cidadeId": "jacksonville",
+    "nome": "MOCA Jacksonville",
+    "zona": "downtown",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [1],
+    "endereco": "333 N Laura St, Jacksonville, FL 32202, EUA",
+    "desc": "Museu de arte contemporânea da Universidade do Norte da Flórida, no centro de Jacksonville, com programação rotativa de artistas nacionais e regionais.",
+    "custo": {
+      "valor": { "adulto": 10, "menor18": 0, "gratuitoAte": 18 },
+      "tipo": "CADASTRADO",
+      "fonte": "mocajacksonville.unf.edu/visit/ — sítio oficial (sênior/estudante US$6; até 17 anos gratuito; entrada gratuita aos sábados a partir das 11h)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Terça a domingo 11h–17h; fechado às segundas", "tipo": "CADASTRADO", "fonte": "mocajacksonville.unf.edu/visit/ — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["arte", "museus"],
+    "prio": 55,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "jax_zoo",
+    "cidadeId": "jacksonville",
+    "nome": "Jacksonville Zoo and Gardens",
+    "zona": "zoo",
+    "dur": 210,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "370 Zoo Pkwy, Jacksonville, FL 32218, EUA",
+    "desc": "Zoológico à beira do Rio Trout, com trilha de savana africana, jardins botânicos e uma das maiores coleções de répteis dos EUA.",
+    "custo": {
+      "valor": { "adulto": 40.95, "menor18": 33.95, "gratuitoAte": 3 },
+      "tipo": "CADASTRADO",
+      "fonte": "jacksonvillezoo.org/plan-your-visit — sítio oficial; preço dinâmico por data e demanda, valor de referência para data comum",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Diariamente 9h–17h; fechado no Dia de Ação de Graças e no Natal", "tipo": "CADASTRADO", "fonte": "jacksonvillezoo.org/plan-your-visit — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["natureza", "familia"],
+    "prio": 68,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "jax_hanna_park",
+    "cidadeId": "jacksonville",
+    "nome": "Kathryn Abbey Hanna Park",
+    "zona": "praias",
+    "dur": 150,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "500 Wonderwood Dr, Jacksonville, FL 32233, EUA",
+    "desc": "Parque oceânico de 182 hectares com 2,4 km de praia preservada, trilhas de caminhada e mountain bike e boa reputação entre surfistas.",
+    "custo": {
+      "valor": { "adulto": 5 },
+      "tipo": "CADASTRADO",
+      "fonte": "jacksonville.gov/departments/parks-and-recreation/jaxparks/oceanfront-parks/kathryn-abbey-hanna-park — sítio oficial (US$5/veículo até 6 pessoas; US$3 pedestre/bicicleta)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Diariamente 8h–20h (horário de verão) ou 8h–18h (horário padrão)", "tipo": "CADASTRADO", "fonte": "jacksonville.gov/departments/parks-and-recreation/jaxparks/oceanfront-parks/kathryn-abbey-hanna-park — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["praias", "natureza", "aventura"],
+    "prio": 55,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

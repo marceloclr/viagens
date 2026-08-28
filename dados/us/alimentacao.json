@@ -1,0 +1,176 @@
+[
+  {
+    "cidadeId": "miami",
+    "titulo": "Miami — cubana em Little Havana e cardápios latinos por toda a cidade",
+    "texto": "A Calle Ocho, em Little Havana, concentra lanchonetes e restaurantes cubanos tradicionais — o Versailles (3555 SW 8th St, aberto desde 1971) é o ponto de referência da comunidade cubano-americana, com preços moderados para porções generosas. Fora desse eixo, a cena gastronômica de Miami é amplamente latino-americana (venezuelana, peruana, colombiana) e cara nos bairros turísticos como South Beach — vale reservar para Little Havana ou Wynwood as refeições mais econômicas.",
+    "tags": ["regional", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "orlando",
+    "titulo": "Orlando — comer dentro e fora dos parques",
+    "texto": "Dentro dos parques Disney e Universal, refeição completa facilmente passa de US$20–30 por pessoa em restaurantes de serviço rápido; vale reservar table-service com antecedência para os dias de parque inteiro. Fora dos portões, a região de International Drive e a área de Restaurant Row (Sand Lake Rd) concentram opções mais baratas e variadas, do buffet internacional à cozinha internacional de qualidade — cozinhar no próprio alojamento (comum em resorts com kitchenette na região) é a forma mais econômica de reduzir o custo de uma estadia longa.",
+    "tags": ["economica", "cozinha_propria"]
+  },
+  {
+    "cidadeId": "nova_york",
+    "titulo": "Nova York — clássicos de rua e food halls",
+    "texto": "A fatia de pizza dobrada no guardanapo (Joe's Pizza, Greenwich Village) e o pastrami do Katz's Delicatessen (Lower East Side, desde 1888) são referências obrigatórias de baixo custo relativo. Para variedade num só lugar, o Chelsea Market — antiga fábrica Nabisco, perto do acesso sul do High Line — reúne dezenas de bancas; food trucks halal e carrinhos de pretzel completam as opções de rua mais econômicas da cidade.",
+    "tags": ["street_food", "economica", "tradicional"]
+  },
+  {
+    "cidadeId": "boston",
+    "titulo": "Boston — clam chowder e a \"Little Italy\" do North End",
+    "texto": "O clam chowder (sopa cremosa de amêijoas) é o prato mais associado à cidade — bares de frutos do mar servem versões honestas por toda a orla. O North End, bairro de imigração italiana, concentra as melhores opções de massas e, sobretudo, cannoli: a fila entre o tradicional Mike's Pastry e o rival Modern Pastry, ambos na Hanover St, é um programa em si. Lobster roll é indulgência garantida, mas custa bem mais fora dos points locais do que em bancas de bairro.",
+    "tags": ["regional", "tradicional", "street_food"]
+  },
+  {
+    "cidadeId": "fort_lauderdale",
+    "titulo": "Fort Lauderdale — frutos do mar à beira do canal",
+    "texto": "A cena gastronômica gira em torno da água: restaurantes com acesso por barco ao longo do New River e do Intracoastal servem peixe fresco e stone crab (na temporada, de outubro a maio). Las Olas Boulevard concentra as opções mais turísticas e caras; um quarteirão fora do eixo principal, o preço cai sem perder qualidade.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "west_palm_beach",
+    "titulo": "West Palm Beach — Clematis Street e o contraste com Palm Beach",
+    "texto": "A Clematis Street e o CityPlace/Rosemary Square concentram a maior parte dos restaurantes de West Palm Beach, com preços moderados para o padrão da Flórida. Atravessando a ponte para a ilha de Palm Beach, a Worth Avenue eleva o preço médio consideravelmente — vale reservar essa travessia para um passeio, não para a refeição do dia.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "titusville",
+    "titulo": "Titusville — opções simples perto do Kennedy Space Center",
+    "texto": "A cidade vive do fluxo de visitantes do Kennedy Space Center: lanchonetes e restaurantes família ao longo da US-1 e perto do centro são práticos e de preço baixo, sem grande sofisticação. Quem busca mais variedade gastronômica faz melhor reservando isso para Orlando ou Daytona Beach.",
+    "tags": ["economica", "tradicional"]
+  },
+  {
+    "cidadeId": "daytona_beach",
+    "titulo": "Daytona Beach — frutos do mar de orla e a herança de Ponce Inlet",
+    "texto": "A orla concentra restaurantes de frutos do mar de preço médio a alto, voltados ao turista; a vila de pescadores de Ponce Inlet, mais ao sul, tem opções mais autênticas e baratas, geralmente ligadas à pesca local do dia.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "st_augustine",
+    "titulo": "Santo Agostinho — pimenta datil e a cozinha Minorcan",
+    "texto": "A pimenta datil, trazida por colonos de Minorca no século XVIII, é a marca registrada da cozinha local — aparece no clam chowder Minorcan (versão picante e com tomate, diferente da versão de Boston) e em molhos servidos por toda a St. George Street. Restaurantes dentro do centro histórico cobram pelo cenário; poucas quadras a oeste da praça central, o preço cai.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "jacksonville",
+    "titulo": "Jacksonville — herança Gullah-Geechee e cozinha à beira-rio",
+    "texto": "Jacksonville abriga a maior população de descendentes Gullah-Geechee dos EUA, herança que aparece em pratos como arroz Hoppin' John, sopa de caranguejo (she-crab soup) e ensopados de camarão. O bairro de Riverside, perto do Cummer Museum, concentra a cena gastronômica mais independente da cidade, com preços mais em conta que o centro.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "savannah",
+    "titulo": "Savannah — shrimp and grits e a cozinha Lowcountry",
+    "texto": "Camarão com grits (papa de milho) é o prato mais associado ao Lowcountry — a região costeira entre a Geórgia e a Carolina do Sul — e Savannah executa várias versões dele, do café da manhã ao jantar. O distrito histórico tem preços turísticos; a região de Starland District e Victory Drive oferece opções mais econômicas e populares entre moradores.",
+    "tags": ["regional", "tradicional", "gastronomica"]
+  },
+  {
+    "cidadeId": "charleston",
+    "titulo": "Charleston — capital do Lowcountry: shrimp and grits e she-crab soup",
+    "texto": "Charleston é considerada a referência máxima do shrimp and grits e da she-crab soup (sopa cremosa de caranguejo), com uma cena gastronômica reconhecida nacionalmente e preços em geral elevados no French Quarter e na King Street. Os mercados de produtores e as barracas de cestas de sweetgrass da cultura Gullah-Geechee, perto do City Market, são a porta de entrada mais econômica para a cultura alimentar local.",
+    "tags": ["regional", "tradicional", "gastronomica"]
+  },
+  {
+    "cidadeId": "richmond",
+    "titulo": "Richmond — cozinha sulista contemporânea em Church Hill e Carytown",
+    "texto": "Richmond vive um momento forte de cozinha sulista reinventada, com bairros como Church Hill e Carytown concentrando restaurantes de chefs independentes a preços mais acessíveis que o centro. O biscoito com presunto (ham biscuit) é o lanche de referência local, vendido em padarias e mercados por toda a cidade.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "washington_dc",
+    "titulo": "Washington, D.C. — a maior diversidade culinária per capita dos EUA",
+    "texto": "D.C. tem a maior comunidade etíope fora da África, concentrada no corredor da 9th/U Street — injera e wat são pratos de referência. O half-smoke (linguiça defumada em pão de cachorro-quente) do Ben's Chili Bowl, na U Street desde 1958, é o lanche mais associado à cidade. Fora do eixo turístico do National Mall, os preços caem bastante.",
+    "tags": ["regional", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "baltimore",
+    "titulo": "Baltimore — bolinho de caranguejo e o tempero Old Bay",
+    "texto": "O bolinho de caranguejo azul (crab cake), temperado com a mistura de especiarias Old Bay criada na cidade em 1939, é o prato mais associado a Baltimore — vendido tanto em restaurantes finos do Inner Harbor quanto em barracas de mercado por preço bem mais baixo, como no histórico Lexington Market.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "filadelfia",
+    "titulo": "Filadélfia — cheesesteak e o Reading Terminal Market",
+    "texto": "O cheesesteak (bife fatiado fino com queijo derretido em pão) é o sanduíche símbolo da cidade — a rivalidade entre Pat's King of Steaks e Geno's Steaks, frente a frente na South Philly desde os anos 1930, é folclore local. O Reading Terminal Market, mercado coberto de 1893 no Center City, reúne dezenas de bancas de comida a preços mais em conta que os restaurantes turísticos de Old City.",
+    "tags": ["street_food", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "new_haven",
+    "titulo": "New Haven — a apizza que rivaliza com Nova York",
+    "texto": "New Haven tem estilo próprio de pizza de massa fina e crosta carbonizada em forno a lenha, apelidada localmente de \"apizza\" — a disputa entre Frank Pepe Pizzeria Napoletana e Sally's Apizza, ambas na mesma quadra da Wooster Street desde a década de 1930, atrai fila em qualquer dia da semana.",
+    "tags": ["regional", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "providence",
+    "titulo": "Providence — Federal Hill italiana e o coffee milk estadual",
+    "texto": "O bairro de Federal Hill concentra a maior densidade de restaurantes italianos independentes da Nova Inglaterra, legado da imigração do início do século XX. O coffee milk (leite com xarope de café) é a bebida oficial do estado de Rhode Island, e os clam cakes (bolinhos fritos de amêijoa) com chowder são o lanche costeiro típico, mais barato fora do circuito turístico de Benefit Street.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "us_naples",
+    "titulo": "Nápoles — frutos do mar do Golfo a preço turístico",
+    "texto": "A cena gastronômica de Nápoles é voltada ao público de alto poder aquisitivo, sobretudo em Third Street South e Fifth Avenue South — camarão-rosa do Golfo e grouper (garoupa local) são os pratos mais pedidos. Preços caem consideravelmente a leste da US-41, fora do circuito turístico central.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "fort_myers",
+    "titulo": "Fort Myers — peixe fresco do estuário de Sanibel-Captiva",
+    "texto": "A cidade vive da pesca do estuário entre as ilhas de Sanibel e Captiva — camarão, ostra e peixes locais como o grouper e o snook aparecem em cardápios por toda a região a preços mais em conta que em Naples, sobretudo fora das ilhas.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "sarasota",
+    "titulo": "Sarasota — St. Armands Circle e a herança do circo",
+    "texto": "St. Armands Circle concentra a maior densidade de restaurantes de Sarasota, com preços turísticos; o bairro de Gillespie Park e a Main Street no centro têm opções mais em conta e menos badaladas, com boa cena de brunch.",
+    "tags": ["regional", "gastronomica"]
+  },
+  {
+    "cidadeId": "tampa",
+    "titulo": "Tampa — o Cuban sandwich e a herança de Ybor City",
+    "texto": "O Cuban sandwich (sanduíche cubano com presunto, lombo assado, queijo suíço e picles) tem em Tampa sua origem disputada com Miami, ligado à imigração cubana e espanhola do bairro histórico de Ybor City — restaurantes centenários como o Columbia Restaurant seguem servindo a receita clássica. Do lado de São Petersburgo, a Central Avenue reúne opções mais informais e em conta.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "ocala",
+    "titulo": "Ocala — cozinha de fazenda no coração do país dos cavalos",
+    "texto": "A economia equestre da região aparece na mesa por meio de churrascarias e restaurantes de cozinha caseira sulista, concentrados no centro histórico perto do Appleton Museum — opções práticas e de preço moderado, sem grande sofisticação.",
+    "tags": ["regional", "economica"]
+  },
+  {
+    "cidadeId": "gainesville",
+    "titulo": "Gainesville — cozinha de bairro universitário",
+    "texto": "Como cidade universitária, Gainesville tem forte oferta de restaurantes informais e de preço acessível ao redor do campus da UF e do centro (Midtown e Downtown) — cozinha sulista, food trucks e opções vegetarianas em maior variedade que em cidades menores da região.",
+    "tags": ["economica", "regional"]
+  },
+  {
+    "cidadeId": "valdosta",
+    "titulo": "Valdosta — cozinha caseira sulista de estrada",
+    "texto": "Valdosta vive do fluxo de viajantes da I-75 — churrascarias e restaurantes de cozinha caseira sulista ao longo da rodovia e no centro são práticos e de preço baixo, sem grande variedade gastronômica.",
+    "tags": ["economica", "tradicional"]
+  },
+  {
+    "cidadeId": "macon",
+    "titulo": "Macon — churrasco georgiano e tradição sulista",
+    "texto": "O churrasco (barbecue) ao estilo da Geórgia — carne de porco desfiada com molho à base de mostarda ou vinagre — é a referência gastronômica local, servido em casas tradicionais no centro e nos arredores, geralmente a preço moderado.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "atlanta",
+    "titulo": "Atlanta — soul food e uma cena gastronômica em ascensão",
+    "texto": "Atlanta é uma das capitais do soul food nos EUA, com casas tradicionais servindo frango frito, macarrão com queijo e collard greens especialmente no distrito histórico de Sweet Auburn. A cidade também tem uma das cenas gastronômicas mais dinâmicas do Sul, com preços que sobem consideravelmente em Midtown e Buckhead frente aos bairros mais afastados do centro.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "chattanooga",
+    "titulo": "Chattanooga — cozinha de montanha e a orla revitalizada",
+    "texto": "A orla do Rio Tennessee (North Shore e o entorno do Tennessee Aquarium) concentra a oferta gastronômica mais badalada da cidade; poucas quadras de distância, no bairro do Southside, os preços caem sem perder qualidade — moonshine (destilado caseiro) e pratos de cozinha apalachiana aparecem no cardápio local.",
+    "tags": ["regional", "tradicional"]
+  },
+  {
+    "cidadeId": "knoxville",
+    "titulo": "Knoxville — Market Square e a cozinha dos Apalaches",
+    "texto": "Market Square, no centro, concentra a maior densidade de restaurantes independentes da cidade — do café da manhã sulista a cozinha contemporânea. Pratos de influência apalachiana, como cornbread e biscuits, aparecem com frequência nos cardápios locais.",
+    "tags": ["regional", "tradicional"]
+  }
+]

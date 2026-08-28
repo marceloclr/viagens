@@ -1406,7 +1406,10 @@ const CONFIG = {
         premium:              { rotulo: 'Premium',               hotelNoite: [240, 450], comidaDia: [85, 160], transpDia: [22, 45], extrasDia: [30, 70] }
     },
     contingencia: 0.10,
-    pesosPontuacao: { interesses: 25, logistica: 20, perfil: 15, ritmo: 15, orcamento: 10, clima: 5, transporte: 5, hospedagem: 5 }
+    pesosPontuacao: { interesses: 25, logistica: 20, perfil: 15, ritmo: 15, orcamento: 10, clima: 5, transporte: 5, hospedagem: 5 },
+    // Símbolo exibido para cada moeda de país cadastrado em paises.json. Sem entrada aqui,
+    // o roteiro cai no padrão EUR — mesmo comportamento de antes desta tabela existir.
+    simbolosMoeda: { EUR: '€ ', USD: 'US$ ', CHF: 'CHF ', ILS: '₪ ', TRY: '₺ ', BRL: 'R$ ' }
 };
 
 /* =====================================================================================
@@ -1426,6 +1429,12 @@ function dado(valor, tipo, fonte, consultadoEm, extra) {
     return Object.assign({ valor: valor, tipo: tipo, fonte: fonte || null, consultadoEm: consultadoEm || null }, extra || {});
 }
 const naoDisponivel = (motivo) => dado(null, 'INDISPONIVEL', motivo || null, null);
+
+/* Moeda ativa do roteiro em construção — criarRoteiro() a define, a partir da moeda do(s)
+   país(es) da rota, antes de calcular qualquer custo (§ ingressos/custos leem este estado
+   ao formatar). Rota com mais de um país e moedas diferentes mantém EUR: o motor ainda não
+   soma nem converte valores de moedas distintas dentro do mesmo roteiro. */
+let MOEDA_ATUAL = { codigo: 'EUR', simbolo: CONFIG.simbolosMoeda.EUR };
 
 /* =====================================================================================
    [3] UTILITÁRIOS
@@ -1482,8 +1491,8 @@ const U = {
     diaSemana(iso) { return new Date(iso + 'T12:00:00').getDay(); },
     addDias(iso, n) { const d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + n); return U.dataISO(d); },
     diffDias(a, b) { return Math.round((new Date(b + 'T12:00:00') - new Date(a + 'T12:00:00')) / 86400000); },
-    eur(v) { return '€ ' + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 }); },
-    faixaEur(a, b) { return '€ ' + Math.round(a).toLocaleString('pt-BR') + '–' + Math.round(b).toLocaleString('pt-BR'); },
+    eur(v) { return MOEDA_ATUAL.simbolo + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 }); },
+    faixaEur(a, b) { return MOEDA_ATUAL.simbolo + Math.round(a).toLocaleString('pt-BR') + '–' + Math.round(b).toLocaleString('pt-BR'); },
     id() { return 'r_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7); },
     clamp(v, a, b) { return Math.max(a, Math.min(b, v)); },
     somaFaixa(f) { return (f[0] + f[1]) / 2; },
@@ -2645,6 +2654,17 @@ async function criarRoteiro(cfg) {
     calcularNoites(cfg, rota, roteiro);
     roteiro.cidades = rota;
 
+    // Moeda do roteiro: só troca do padrão EUR quando toda a rota pertence a um único
+    // país com moeda cadastrada — ver comentário de MOEDA_ATUAL. Precisa ser calculada
+    // antes de calcularIngressos()/calcularCustos(), que formatam valores com U.eur().
+    const moedasDaRota = Array.from(new Set(rota.map(c => {
+        const p = DB.paises[c.dados.paisId];
+        return p && p.moeda;
+    }).filter(Boolean)));
+    const codigoMoeda = (moedasDaRota.length === 1 && CONFIG.simbolosMoeda[moedasDaRota[0]]) ? moedasDaRota[0] : 'EUR';
+    MOEDA_ATUAL = { codigo: codigoMoeda, simbolo: CONFIG.simbolosMoeda[codigoMoeda] };
+    roteiro.moeda = codigoMoeda;
+
     // Deslocamentos entre cidades
     for (let i = 0; i < rota.length - 1; i++) {
         const t = IDX.trecho(rota[i].id, rota[i + 1].id);
@@ -2695,7 +2715,7 @@ async function criarRoteiro(cfg) {
     // Dados externos
     roteiro.clima = await avaliarClima(cfg, rota, roteiro);
     try {
-        roteiro.cambio = await Providers.ExchangeRateProvider.taxa('EUR', 'BRL');
+        roteiro.cambio = await Providers.ExchangeRateProvider.taxa(MOEDA_ATUAL.codigo, 'BRL');
     } catch (e) { roteiro.cambio = naoDisponivel('Serviço de câmbio indisponível no momento'); }
 
     repararRoteiro(roteiro);
@@ -2704,7 +2724,7 @@ async function criarRoteiro(cfg) {
     roteiro.fontes = [
         { nome: FONTE_REF, uso: 'Endereços, tarifas oficiais registradas, hospedagens concretas e climatologia de contingência' },
         { nome: Providers.WeatherProvider.nome + ' (' + Providers.WeatherProvider.site + ')', uso: 'Previsão meteorológica e reanálise climatológica' },
-        { nome: Providers.ExchangeRateProvider.nome, uso: 'Taxa de câmbio EUR/BRL' },
+        { nome: Providers.ExchangeRateProvider.nome, uso: 'Taxa de câmbio ' + MOEDA_ATUAL.codigo + '/BRL' },
         { nome: 'Ministério das Relações Exteriores — Portal Consular', uso: 'Identificação das representações brasileiras (dados de contato não verificáveis automaticamente)' }
     ];
     roteiro.atualizadoEm = new Date().toISOString();

@@ -17,6 +17,15 @@
       "endereco": "Rodovia Hélio Smidt, s/nº, Guarulhos - SP, 07190-100",
       "fonte": "https://www.gru.com.br/pt — sítio oficial do GRU Airport",
       "consultadoEm": "2026-08-26"
+    },
+    {
+      "id": "pty",
+      "codigo": "PTY",
+      "cidadeNome": "Cidade do Panamá",
+      "nome": "Aeropuerto Internacional de Tocumen",
+      "endereco": null,
+      "fonte": "tocumenpanama.aero — sítio oficial confirma o nome do aeroporto; endereço físico não exposto nesta consulta, confirmar antes de publicar",
+      "consultadoEm": "2026-08-28"
     }
   ],
   "estacoes": []

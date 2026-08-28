@@ -182,6 +182,58 @@
     "consultadoEm": "2026-08-27"
   },
   {
+    "id": "voo_for_mia",
+    "origemAeroporto": "for",
+    "destinoAeroporto": "mia",
+    "paisId": "us",
+    "companhias": ["LATAM Airlines"],
+    "duracaoMin": 430,
+    "frequencia": "Semanal (quintas-feiras) — voo LA 8188 na ida, LA 8189 na volta",
+    "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
+    "obs": "Ida: LA 8188, Fortaleza 19h00 → Miami 01h10 do dia seguinte (7h10 de voo). Volta: LA 8189, Miami 03h25 → Fortaleza 11h15. Equipamento Boeing 787-9 Dreamliner. Fortaleza está em UTC-3; Miami, em UTC-4 (horário de verão) ou UTC-5 — a mudança de dia na chegada é real e decorre do fuso, não é erro de cadastro.",
+    "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria (número de voo, horário e equipamento) — não verificado de forma independente pelo assistente contra o sítio oficial da LATAM ou um agregador de voos; confirmar vigência antes de publicar.",
+    "consultadoEm": "2026-08-28"
+  },
+  {
+    "id": "voo_for_mco",
+    "origemAeroporto": "for",
+    "destinoAeroporto": "mco",
+    "paisId": "us",
+    "companhias": ["GOL Linhas Aéreas"],
+    "duracaoMin": 475,
+    "frequencia": "Semanal (sábados) — voo G3 7654 na ida, G3 7655 na volta",
+    "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
+    "obs": "Ida: G3 7654, Fortaleza 04h30 → Orlando 11h25. Volta: G3 7655, Orlando 12h55 → Fortaleza 21h55. Equipamento Boeing 737 MAX 8. Fortaleza está em UTC-3; Orlando, em UTC-4 (horário de verão) ou UTC-5 — considerar a diferença de fuso ao ler os horários locais.",
+    "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria (número de voo, horário e equipamento) — não verificado de forma independente pelo assistente contra o sítio oficial da GOL ou um agregador de voos; confirmar vigência antes de publicar.",
+    "consultadoEm": "2026-08-28"
+  },
+  {
+    "id": "voo_for_pty",
+    "origemAeroporto": "for",
+    "destinoAeroporto": "pty",
+    "paisId": null,
+    "companhias": ["Copa Airlines"],
+    "duracaoMin": 400,
+    "frequencia": "Não informada pelo usuário nesta sessão — só a pernada de ida foi detalhada (ver obs)",
+    "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
+    "obs": "Pernada de ida informada pelo usuário: CM 343, Fortaleza 01h25 → Cidade do Panamá 06h05 (horário local do Panamá, UTC-5; Fortaleza está em UTC-3). Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA sem voo direto de Fortaleza — mas a pernada Panamá→destino final (2ª etapa da conexão) não foi informada nesta sessão e NÃO está cadastrada. A duração de 400 min é calculada a partir dos horários informados, considerando o fuso — não verificada de forma independente.",
+    "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria — não verificado de forma independente pelo assistente; confirmar vigência e a pernada de retorno antes de publicar.",
+    "consultadoEm": "2026-08-28"
+  },
+  {
+    "id": "voo_for_gru",
+    "origemAeroporto": "for",
+    "destinoAeroporto": "gru",
+    "paisId": "br",
+    "companhias": ["LATAM Airlines"],
+    "duracaoMin": 180,
+    "frequencia": "Não informada pelo usuário nesta sessão — várias frequências diárias são esperadas nesta rota doméstica de alta densidade, mas não foram confirmadas",
+    "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
+    "obs": "Usuário informou apenas o número do voo de ida (LA 3351), sem horário. Duração de 180 min é estimativa por conhecimento geral da distância Fortaleza–São Paulo (~2.200 km), não confirmada. GRU é hub da LATAM/Delta/American para conexões a destinos dos EUA sem voo direto de Fortaleza — a pernada GRU→destino final não foi informada nesta sessão e NÃO está cadastrada.",
+    "fonte": "Número do voo informado pelo usuário; horário e duração não informados, estimados pelo assistente e sinalizados como tal — confirmar tudo antes de publicar.",
+    "consultadoEm": "2026-08-28"
+  },
+  {
     "id": "voo_lis_ath",
     "origemAeroporto": "lis",
     "destinoAeroporto": "ath",

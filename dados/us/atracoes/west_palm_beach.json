@@ -1,0 +1,102 @@
+[
+  {
+    "id": "wpb_norton_museum",
+    "cidadeId": "west_palm_beach",
+    "nome": "Norton Museum of Art",
+    "zona": "downtown",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [2],
+    "endereco": "1450 S Dixie Hwy, West Palm Beach, FL 33401, EUA",
+    "desc": "Um dos principais museus de arte da Flórida, com coleções de arte americana, europeia, chinesa e fotografia contemporânea.",
+    "custo": {
+      "valor": { "adulto": 18, "menor18": 0, "gratuitoAte": 13 },
+      "tipo": "CADASTRADO",
+      "fonte": "norton.org/visit/hours-admission — sítio oficial (sênior US$15; estudante US$5; até 12 anos gratuito; entrada gratuita sextas e sábados)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Segunda, quarta, quinta e sábado 10h–17h; sexta 10h–22h; domingo 11h–17h; fechado às terças", "tipo": "CADASTRADO", "fonte": "norton.org/visit/hours-admission — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["arte", "museus"],
+    "prio": 80,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "wpb_flagler_museum",
+    "cidadeId": "west_palm_beach",
+    "nome": "Flagler Museum (Whitehall)",
+    "zona": "palm_beach",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [1],
+    "endereco": "1 Whitehall Way, Palm Beach, FL 33480, EUA",
+    "desc": "Mansão \"Whitehall\" (1902) de Henry Flagler, empresário que abriu a Flórida ao turismo ferroviário — hoje museu da Gilded Age do outro lado da ponte, na ilha de Palm Beach.",
+    "custo": {
+      "valor": { "adulto": 28, "menor18": 14, "gratuitoAte": 6 },
+      "tipo": "CADASTRADO",
+      "fonte": "flaglermuseum.org/general-admission — sítio oficial (6–12 anos US$14; até 5 anos gratuito)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Terça a sábado 10h–17h; domingo 12h–17h; fechado às segundas", "tipo": "CADASTRADO", "fonte": "flaglermuseum.org/general-admission — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["historia", "museus", "arquitetura"],
+    "prio": 78,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": true
+  },
+  {
+    "id": "wpb_ann_norton",
+    "cidadeId": "west_palm_beach",
+    "nome": "Ann Norton Sculpture Gardens",
+    "zona": "downtown",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [0, 1, 2],
+    "endereco": "253 Barcelona Rd, West Palm Beach, FL 33401, EUA",
+    "desc": "Jardim escultórico com obras monumentais em tijolo da artista Ann Weaver Norton, num terreno arborizado à beira do Intracoastal.",
+    "custo": {
+      "valor": { "adulto": 15, "menor18": 7 },
+      "tipo": "CADASTRADO",
+      "fonte": "ansg.org/visit/ — sítio oficial (sênior US$10; estudante US$7)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Quarta a sábado, 10h–16h (outubro a junho); fechado domingo, segunda e terça", "tipo": "CADASTRADO", "fonte": "ansg.org/visit/ — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["arte", "natureza"],
+    "prio": 55,
+    "interior": false,
+    "chuva": "medio",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "wpb_cox_science",
+    "cidadeId": "west_palm_beach",
+    "nome": "Cox Science Center and Aquarium",
+    "zona": "downtown",
+    "dur": 120,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "4801 Dreher Trail N, West Palm Beach, FL 33405, EUA",
+    "desc": "Museu de ciências com aquário de água doce e salgada, planetário digital e um minigolfe temático de conservação da Flórida.",
+    "custo": {
+      "valor": { "adulto": 26, "menor18": 22 },
+      "tipo": "CADASTRADO",
+      "fonte": "coxsciencecenter.org/plan-your-visit — sítio oficial (3–12 anos US$22)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Segunda a sexta 9h–17h; sábado e domingo 10h–18h", "tipo": "CADASTRADO", "fonte": "coxsciencecenter.org/plan-your-visit — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["museus", "familia"],
+    "prio": 58,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  }
+]

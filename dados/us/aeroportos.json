@@ -1,0 +1,34 @@
+[
+  {
+    "id": "mia",
+    "cidadeId": "miami",
+    "codigo": "MIA",
+    "nome": "Aeroporto Internacional de Miami",
+    "endereco": "2100 NW 42nd Ave, Miami, FL 33126, EUA",
+    "fonte": "miami-airport.com — sítio oficial do Miami International Airport (Miami-Dade Aviation Department), consultado em 2026-08-28"
+  },
+  {
+    "id": "mco",
+    "cidadeId": "orlando",
+    "codigo": "MCO",
+    "nome": "Aeroporto Internacional de Orlando",
+    "endereco": "1 Jeff Fuqua Blvd, Orlando, FL 32827, EUA",
+    "fonte": "orlandoairports.net — sítio oficial da Greater Orlando Aviation Authority, consultado em 2026-08-28"
+  },
+  {
+    "id": "jfk",
+    "cidadeId": "nova_york",
+    "codigo": "JFK",
+    "nome": "Aeroporto Internacional John F. Kennedy",
+    "endereco": "Queens, NY 11430, EUA",
+    "fonte": "jfkairport.com — sítio oficial do JFK Airport (Port Authority of NY & NJ), consultado em 2026-08-28"
+  },
+  {
+    "id": "bos",
+    "cidadeId": "boston",
+    "codigo": "BOS",
+    "nome": "Aeroporto Internacional Logan de Boston",
+    "endereco": "1 Harborside Dr, Boston, MA 02128, EUA",
+    "fonte": "massport.com/logan-airport — sítio oficial da Massachusetts Port Authority, consultado em 2026-08-28"
+  }
+]

@@ -1,0 +1,194 @@
+{
+  "rotulos": {
+    "miami": ["south_beach", "downtown", "coconut_grove", "coral_gables", "wynwood", "little_havana", "watson_island", "sul_dade"],
+    "orlando": ["lake_buena_vista", "universal", "international_drive", "sul_orlando", "downtown"],
+    "nova_york": ["midtown", "upper_east_side", "upper_west_side", "lower_manhattan", "chelsea"],
+    "boston": ["centro_historico", "charlestown", "back_bay", "waterfront", "west_end", "fenway", "cambridge"],
+    "fort_lauderdale": ["praia", "downtown"],
+    "west_palm_beach": ["downtown", "palm_beach"],
+    "titusville": ["merritt_island", "centro", "litoral"],
+    "daytona_beach": ["centro", "orla", "ponce_inlet"],
+    "st_augustine": ["centro_historico", "anastasia_island"],
+    "jacksonville": ["riverside", "downtown", "zoo", "praias"],
+    "savannah": ["distrito_historico", "thunderbolt"],
+    "charleston": ["porto", "mount_pleasant", "ashley_river", "french_quarter"],
+    "richmond": ["tredegar", "museum_district", "downtown", "maymont"],
+    "washington_dc": ["national_mall", "capitol_hill", "lenfant_plaza"],
+    "baltimore": ["inner_harbor", "locust_point", "charles_village", "federal_hill"],
+    "filadelfia": ["old_city", "fairmount"],
+    "new_haven": ["campus"],
+    "providence": ["college_hill", "roger_williams_park"],
+    "us_naples": ["centro", "bayshore", "old_naples", "north_naples"],
+    "fort_myers": ["river_district", "sanibel", "leste"],
+    "sarasota": ["bayshore", "downtown", "st_armands", "siesta_key"],
+    "tampa": ["busch_gardens", "channel_district", "downtown", "st_petersburg"],
+    "ocala": ["silver_springs", "centro", "sul", "norte"],
+    "gainesville": ["sudoeste", "norte", "campus_uf"],
+    "valdosta": ["sul", "centro", "campus_vsu"],
+    "macon": ["leste", "centro", "vineville"],
+    "atlanta": ["downtown", "sweet_auburn", "buckhead"],
+    "chattanooga": ["riverfront", "lookout_mountain", "north_shore", "bluff_view"],
+    "knoxville": ["downtown", "worlds_fair_park", "south_knoxville"]
+  },
+  "coordenadas": {
+    "miami": {
+      "south_beach": { "lat": 25.7907, "lon": -80.1300 },
+      "downtown": { "lat": 25.7743, "lon": -80.1937 },
+      "coconut_grove": { "lat": 25.7276, "lon": -80.2436 },
+      "coral_gables": { "lat": 25.7215, "lon": -80.2684 },
+      "wynwood": { "lat": 25.8010, "lon": -80.1990 },
+      "little_havana": { "lat": 25.7654, "lon": -80.2192 },
+      "watson_island": { "lat": 25.7826, "lon": -80.1706 },
+      "sul_dade": { "lat": 25.6099, "lon": -80.4067 }
+    },
+    "orlando": {
+      "lake_buena_vista": { "lat": 28.3852, "lon": -81.5639 },
+      "universal": { "lat": 28.4743, "lon": -81.4677 },
+      "international_drive": { "lat": 28.4115, "lon": -81.4666 },
+      "sul_orlando": { "lat": 28.3762, "lon": -81.3958 },
+      "downtown": { "lat": 28.5721, "lon": -81.3519 }
+    },
+    "nova_york": {
+      "midtown": { "lat": 40.7549, "lon": -73.9840 },
+      "upper_east_side": { "lat": 40.7794, "lon": -73.9632 },
+      "upper_west_side": { "lat": 40.7813, "lon": -73.9740 },
+      "lower_manhattan": { "lat": 40.7115, "lon": -74.0134 },
+      "chelsea": { "lat": 40.7480, "lon": -74.0048 }
+    },
+    "boston": {
+      "centro_historico": { "lat": 42.3612, "lon": -71.0570 },
+      "charlestown": { "lat": 42.3739, "lon": -71.0575 },
+      "back_bay": { "lat": 42.3394, "lon": -71.0947 },
+      "waterfront": { "lat": 42.3592, "lon": -71.0508 },
+      "west_end": { "lat": 42.3663, "lon": -71.0673 },
+      "fenway": { "lat": 42.3467, "lon": -71.0972 },
+      "cambridge": { "lat": 42.3770, "lon": -71.1167 }
+    },
+    "fort_lauderdale": {
+      "praia": { "lat": 26.1224, "lon": -80.1082 },
+      "downtown": { "lat": 26.1195, "lon": -80.1442 }
+    },
+    "west_palm_beach": {
+      "downtown": { "lat": 26.7153, "lon": -80.0534 },
+      "palm_beach": { "lat": 26.7000, "lon": -80.0364 }
+    },
+    "titusville": {
+      "merritt_island": { "lat": 28.5236, "lon": -80.6803 },
+      "centro": { "lat": 28.6122, "lon": -80.8076 },
+      "litoral": { "lat": 28.7500, "lon": -80.6500 }
+    },
+    "daytona_beach": {
+      "centro": { "lat": 29.1908, "lon": -81.0592 },
+      "orla": { "lat": 29.2108, "lon": -81.0011 },
+      "ponce_inlet": { "lat": 29.0836, "lon": -80.9251 }
+    },
+    "st_augustine": {
+      "centro_historico": { "lat": 29.8947, "lon": -81.3145 },
+      "anastasia_island": { "lat": 29.8858, "lon": -81.2881 }
+    },
+    "jacksonville": {
+      "riverside": { "lat": 30.3141, "lon": -81.6768 },
+      "downtown": { "lat": 30.3322, "lon": -81.6557 },
+      "zoo": { "lat": 30.4058, "lon": -81.6187 },
+      "praias": { "lat": 30.3086, "lon": -81.4056 }
+    },
+    "savannah": {
+      "distrito_historico": { "lat": 32.0809, "lon": -81.0912 },
+      "thunderbolt": { "lat": 32.0468, "lon": -81.0331 }
+    },
+    "charleston": {
+      "porto": { "lat": 32.7876, "lon": -79.9151 },
+      "mount_pleasant": { "lat": 32.7949, "lon": -79.9026 },
+      "ashley_river": { "lat": 32.8871, "lon": -80.0587 },
+      "french_quarter": { "lat": 32.7791, "lon": -79.9268 }
+    },
+    "richmond": {
+      "tredegar": { "lat": 37.5347, "lon": -77.4436 },
+      "museum_district": { "lat": 37.5556, "lon": -77.4747 },
+      "downtown": { "lat": 37.5407, "lon": -77.4360 },
+      "maymont": { "lat": 37.5372, "lon": -77.4694 }
+    },
+    "washington_dc": {
+      "national_mall": { "lat": 38.8895, "lon": -77.0353 },
+      "capitol_hill": { "lat": 38.8899, "lon": -77.0091 },
+      "lenfant_plaza": { "lat": 38.8853, "lon": -77.0224 }
+    },
+    "baltimore": {
+      "inner_harbor": { "lat": 39.2847, "lon": -76.6094 },
+      "locust_point": { "lat": 39.2653, "lon": -76.5852 },
+      "charles_village": { "lat": 39.3126, "lon": -76.6203 },
+      "federal_hill": { "lat": 39.2789, "lon": -76.6083 }
+    },
+    "filadelfia": {
+      "old_city": { "lat": 39.9496, "lon": -75.1503 },
+      "fairmount": { "lat": 39.9656, "lon": -75.1810 }
+    },
+    "new_haven": {
+      "campus": { "lat": 41.3111, "lon": -72.9264 }
+    },
+    "providence": {
+      "college_hill": { "lat": 41.8253, "lon": -71.4045 },
+      "roger_williams_park": { "lat": 41.7887, "lon": -71.4147 }
+    },
+    "us_naples": {
+      "centro": { "lat": 26.1420, "lon": -81.7948 },
+      "bayshore": { "lat": 26.1120, "lon": -81.7625 },
+      "old_naples": { "lat": 26.1305, "lon": -81.7973 },
+      "north_naples": { "lat": 26.2601, "lon": -81.8103 }
+    },
+    "fort_myers": {
+      "river_district": { "lat": 26.6431, "lon": -81.8723 },
+      "sanibel": { "lat": 26.4520, "lon": -82.1121 },
+      "leste": { "lat": 26.5595, "lon": -81.8168 }
+    },
+    "sarasota": {
+      "bayshore": { "lat": 27.3776, "lon": -82.5518 },
+      "downtown": { "lat": 27.3364, "lon": -82.5410 },
+      "st_armands": { "lat": 27.3323, "lon": -82.5651 },
+      "siesta_key": { "lat": 27.2661, "lon": -82.5451 }
+    },
+    "tampa": {
+      "busch_gardens": { "lat": 28.0378, "lon": -82.4199 },
+      "channel_district": { "lat": 27.9430, "lon": -82.4453 },
+      "downtown": { "lat": 27.9506, "lon": -82.4572 },
+      "st_petersburg": { "lat": 27.7676, "lon": -82.6403 }
+    },
+    "ocala": {
+      "silver_springs": { "lat": 29.2144, "lon": -82.0576 },
+      "centro": { "lat": 29.1872, "lon": -82.1401 },
+      "sul": { "lat": 29.0839, "lon": -82.2101 },
+      "norte": { "lat": 29.2929, "lon": -82.1673 }
+    },
+    "gainesville": {
+      "sudoeste": { "lat": 29.6045, "lon": -82.4109 },
+      "norte": { "lat": 29.7086, "lon": -82.3771 },
+      "campus_uf": { "lat": 29.6436, "lon": -82.3549 }
+    },
+    "valdosta": {
+      "sul": { "lat": 30.7857, "lon": -83.2985 },
+      "centro": { "lat": 30.8327, "lon": -83.2785 },
+      "campus_vsu": { "lat": 30.8480, "lon": -83.2879 }
+    },
+    "macon": {
+      "leste": { "lat": 32.8543, "lon": -83.6019 },
+      "centro": { "lat": 32.8365, "lon": -83.6324 },
+      "vineville": { "lat": 32.8511, "lon": -83.6577 }
+    },
+    "atlanta": {
+      "downtown": { "lat": 33.7627, "lon": -84.3927 },
+      "sweet_auburn": { "lat": 33.7554, "lon": -84.3742 },
+      "buckhead": { "lat": 33.8360, "lon": -84.3752 }
+    },
+    "chattanooga": {
+      "riverfront": { "lat": 35.0562, "lon": -85.3103 },
+      "lookout_mountain": { "lat": 34.9967, "lon": -85.3494 },
+      "north_shore": { "lat": 35.0554, "lon": -85.3128 },
+      "bluff_view": { "lat": 35.0523, "lon": -85.3053 }
+    },
+    "knoxville": {
+      "downtown": { "lat": 35.9657, "lon": -83.9198 },
+      "worlds_fair_park": { "lat": 35.9622, "lon": -83.9226 },
+      "south_knoxville": { "lat": 35.9448, "lon": -83.9053 }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "day_speedway",
+    "cidadeId": "daytona_beach",
+    "nome": "Daytona International Speedway — Tour",
+    "zona": "centro",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "1801 W International Speedway Blvd, Daytona Beach, FL 32114, EUA",
+    "desc": "Tour guiado de 60 minutos pelo autódromo lendário da Daytona 500, incluindo acesso a áreas dos boxes e ingresso ao museu do circuito.",
+    "custo": {
+      "valor": { "adulto": 29.97, "menor18": 24.42, "gratuitoAte": 5 },
+      "tipo": "CADASTRADO",
+      "fonte": "daytonainternationalspeedway.com/tours/ — sítio oficial (5–12 anos US$24,42; até 4 anos gratuito)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Tours diários 9h30–15h; bilheteria aberta 9h–17h", "tipo": "CADASTRADO", "fonte": "daytonainternationalspeedway.com/tours/ — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["esportes", "museus"],
+    "prio": 80,
+    "interior": false,
+    "chuva": "medio",
+    "juvenil": true,
+    "familia": true,
+    "reserva": true
+  },
+  {
+    "id": "day_beach_driving",
+    "cidadeId": "daytona_beach",
+    "nome": "Direção na praia de Daytona",
+    "zona": "orla",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "2422 S Atlantic Ave, Daytona Beach Shores, FL 32118, EUA (escritório ParkVolusia)",
+    "desc": "Um dos poucos lugares dos EUA onde ainda se dirige de carro sobre a areia — tradição que deu origem às corridas na praia que viraram a NASCAR.",
+    "custo": {
+      "valor": { "adulto": 30 },
+      "tipo": "CADASTRADO",
+      "fonte": "daytonabeach.com/things-to-do/beaches/driving-on-the-beach/ — portal oficial de turismo (US$30/veículo/dia para não residentes do Condado de Volusia)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "1º de novembro a 30 de abril: do amanhecer ao anoitecer; 1º de maio a 31 de outubro: 8h–19h", "tipo": "CADASTRADO", "fonte": "daytonabeach.com/things-to-do/beaches/driving-on-the-beach/ — portal oficial de turismo", "consultadoEm": "2026-08-28" },
+    "cat": ["praias", "aventura", "fotografia"],
+    "prio": 70,
+    "interior": false,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "day_ponce_lighthouse",
+    "cidadeId": "daytona_beach",
+    "nome": "Ponce de Leon Inlet Lighthouse & Museum",
+    "zona": "ponce_inlet",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "4931 S Peninsula Dr, Ponce Inlet, FL 32127, EUA",
+    "desc": "Farol mais alto da Flórida (53 m), ainda em operação, com museu marítimo aos pés da torre e vista de 360° a partir do topo.",
+    "custo": {
+      "valor": { "adulto": 6.95, "menor18": 1.95, "gratuitoAte": 3 },
+      "tipo": "CADASTRADO",
+      "fonte": "ponceinlet.org/plan-your-visit/admission-rates/ — sítio oficial (3–11 anos US$1,95; até 2 anos gratuito)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Diariamente a partir das 10h; fechamento varia por estação (18h no inverno, 21h no verão), venda de ingressos até 1h antes", "tipo": "CADASTRADO", "fonte": "ponceinlet.org/plan-your-visit/admission-rates/ — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["historia", "fotografia"],
+    "prio": 60,
+    "interior": false,
+    "chuva": "medio",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "day_marine_science",
+    "cidadeId": "daytona_beach",
+    "nome": "Marine Science Center (Ponce Inlet)",
+    "zona": "ponce_inlet",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [0],
+    "endereco": "100 Lighthouse Dr, Ponce Inlet, FL 32127, EUA",
+    "desc": "Centro de reabilitação de vida marinha com aquários, viveiro de aves e centro de reabilitação de tartarugas marinhas aberto à visitação.",
+    "custo": {
+      "valor": { "adulto": 8, "menor18": 5 },
+      "tipo": "CADASTRADO",
+      "fonte": "marinesciencecenter.com/visit/hours-admission.stml — sítio oficial (sênior US$7; até 2 anos gratuito com adulto pagante)",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": { "valor": "Terça a sábado 10h–16h; domingo 12h–16h; fechado às segundas", "tipo": "CADASTRADO", "fonte": "marinesciencecenter.com/visit/hours-admission.stml — sítio oficial", "consultadoEm": "2026-08-28" },
+    "cat": ["natureza", "familia"],
+    "prio": 50,
+    "interior": true,
+    "chuva": "alto",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  }
+]

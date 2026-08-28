@@ -61,5 +61,12 @@
     "bandeira": "🇬🇷",
     "moeda": "EUR",
     "idioma": "grego"
+  },
+  "us": {
+    "id": "us",
+    "nome": "Estados Unidos",
+    "bandeira": "🇺🇸",
+    "moeda": "USD",
+    "idioma": "inglês"
   }
 }
