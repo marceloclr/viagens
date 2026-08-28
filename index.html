@@ -47,12 +47,13 @@
 
         /* ===================== TOPBAR ===================== */
         .topbar {
-            height: var(--topbar-h);
+            min-height: var(--topbar-h);
+            height: auto;
             flex: 0 0 auto;
             display: flex;
             align-items: center;
             gap: 24px;
-            padding: 0 22px;
+            padding: 10px 22px;
             background: var(--bg-alt);
             border-bottom: 1px solid var(--line);
             position: sticky;
@@ -660,7 +661,7 @@
             --focus-ring: 0 0 0 2px rgba(79,209,197,.18), 0 0 0 4px rgba(79,209,197,.08);
         }
 
-        .topbar { min-height: var(--topbar-h); height: var(--topbar-h); gap: 16px; padding: 0 18px; }
+        .topbar { min-height: var(--topbar-h); height: auto; gap: 16px; padding: 10px 18px; }
         .topbar-brand { min-width: 0; font-size: 19px; }
         .topbar-brand small { font-size: 12px; }
         .topbar-route { flex: 0 0 auto; margin-left: 0; }
@@ -26960,7 +26961,21 @@ const Nav = {
 
     ehGrupo(el) { return el.classList && Nav.GRUPOS.some(g => el.classList.contains(g)); },
 
+    /* A topbar cresce em altura quando a lista de cidades quebra em 2 linhas (§ .brand-destinos).
+       Sidebar, conteúdo e setas de navegação usam --topbar-h para se alinhar logo abaixo dela;
+       sem este ajuste, esses elementos ficam presos na altura mínima original e o indicador de
+       módulo — por estar na base da pilha da identidade — acaba sobreposto à borda da barra. */
+    sincronizarTopbar() {
+        const tb = document.querySelector('.topbar');
+        if (!tb) return;
+        const raiz = document.documentElement;
+        raiz.style.setProperty('--topbar-h', '84px');
+        const altura = Math.max(84, Math.ceil(tb.getBoundingClientRect().height));
+        raiz.style.setProperty('--topbar-h', altura + 'px');
+    },
+
     reindexar() {
+        Nav.sincronizarTopbar();
         const secoes = Nav.secoes();
         secoes.forEach(sec => {
             let n = 0;
@@ -27048,6 +27063,12 @@ const Nav = {
             if (!pend) { pend = true; window.requestAnimationFrame(() => { Nav.progresso(); pend = false; }); }
         }, { passive: true });
         window.addEventListener('resize', Nav.progresso);
+
+        let pendTopbar = false;
+        window.addEventListener('resize', () => {
+            if (!pendTopbar) { pendTopbar = true; window.requestAnimationFrame(() => { Nav.sincronizarTopbar(); pendTopbar = false; }); }
+        });
+        Nav.sincronizarTopbar();
 
         /* Roda do mouse: rolagem vertical dentro do módulo, avanço horizontal nas bordas.
            O formulário é exceção — dentro dele a roda nunca troca de módulo. */
