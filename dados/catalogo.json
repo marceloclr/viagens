@@ -1,19 +1,9 @@
 {
   "objetivos": [
     {
-      "id": "religiao",
-      "rotulo": "Religião / peregrinação",
-      "icone": "⛪"
-    },
-    {
-      "id": "historia",
-      "rotulo": "História",
-      "icone": "🏛️"
-    },
-    {
-      "id": "cultura",
-      "rotulo": "Cultura",
-      "icone": "🎭"
+      "id": "arquitetura",
+      "rotulo": "Arquitetura",
+      "icone": "🏗️"
     },
     {
       "id": "arte",
@@ -21,19 +11,59 @@
       "icone": "🖼️"
     },
     {
-      "id": "museus",
-      "rotulo": "Museus",
-      "icone": "🏺"
+      "id": "aventura",
+      "rotulo": "Aventura",
+      "icone": "🧗"
     },
     {
-      "id": "arquitetura",
-      "rotulo": "Arquitetura",
-      "icone": "🏗️"
+      "id": "compras",
+      "rotulo": "Compras",
+      "icone": "🛍️"
+    },
+    {
+      "id": "cultura",
+      "rotulo": "Cultura",
+      "icone": "🎭"
+    },
+    {
+      "id": "descanso",
+      "rotulo": "Descanso",
+      "icone": "🌙"
+    },
+    {
+      "id": "esportes",
+      "rotulo": "Esportes",
+      "icone": "⚽"
+    },
+    {
+      "id": "familia",
+      "rotulo": "Família",
+      "icone": "👨‍👩‍👦"
+    },
+    {
+      "id": "juvenil",
+      "rotulo": "Foco juvenil",
+      "icone": "🎮"
+    },
+    {
+      "id": "fotografia",
+      "rotulo": "Fotografia",
+      "icone": "📷"
     },
     {
       "id": "gastronomia",
       "rotulo": "Gastronomia",
       "icone": "🍝"
+    },
+    {
+      "id": "historia",
+      "rotulo": "História",
+      "icone": "🏛️"
+    },
+    {
+      "id": "museus",
+      "rotulo": "Museus",
+      "icone": "🏺"
     },
     {
       "id": "natureza",
@@ -46,44 +76,14 @@
       "icone": "🏖️"
     },
     {
-      "id": "compras",
-      "rotulo": "Compras",
-      "icone": "🛍️"
-    },
-    {
-      "id": "familia",
-      "rotulo": "Família",
-      "icone": "👨‍👩‍👦"
+      "id": "religiao",
+      "rotulo": "Religião / peregrinação",
+      "icone": "⛪"
     },
     {
       "id": "romantico",
       "rotulo": "Romântico",
       "icone": "💞"
-    },
-    {
-      "id": "juvenil",
-      "rotulo": "Foco juvenil",
-      "icone": "🎮"
-    },
-    {
-      "id": "aventura",
-      "rotulo": "Aventura",
-      "icone": "🧗"
-    },
-    {
-      "id": "fotografia",
-      "rotulo": "Fotografia",
-      "icone": "📷"
-    },
-    {
-      "id": "esportes",
-      "rotulo": "Esportes",
-      "icone": "⚽"
-    },
-    {
-      "id": "descanso",
-      "rotulo": "Descanso",
-      "icone": "🌙"
     }
   ],
   "perfisGrupo": [
@@ -126,9 +126,9 @@
   ],
   "caminhada": [
     {
-      "id": "bastante",
-      "rotulo": "Caminhar bastante",
-      "fator": 1.25
+      "id": "minimizar",
+      "rotulo": "Minimizar caminhada",
+      "fator": 0.7
     },
     {
       "id": "moderada",
@@ -136,12 +136,27 @@
       "fator": 1
     },
     {
-      "id": "minimizar",
-      "rotulo": "Minimizar caminhada",
-      "fator": 0.7
+      "id": "bastante",
+      "rotulo": "Caminhar bastante",
+      "fator": 1.25
     }
   ],
   "transporteInterno": [
+    {
+      "id": "carro",
+      "rotulo": "Carro alugado",
+      "icone": "🚗"
+    },
+    {
+      "id": "combinado",
+      "rotulo": "Combinação",
+      "icone": "🔀"
+    },
+    {
+      "id": "taxi",
+      "rotulo": "Táxi / transfer",
+      "icone": "🚕"
+    },
     {
       "id": "publico",
       "rotulo": "Transporte público",
@@ -151,21 +166,6 @@
       "id": "trem",
       "rotulo": "Trem",
       "icone": "🚆"
-    },
-    {
-      "id": "carro",
-      "rotulo": "Carro alugado",
-      "icone": "🚗"
-    },
-    {
-      "id": "taxi",
-      "rotulo": "Táxi / transfer",
-      "icone": "🚕"
-    },
-    {
-      "id": "combinado",
-      "rotulo": "Combinação",
-      "icone": "🔀"
     }
   ],
   "hospedagemTipo": [
