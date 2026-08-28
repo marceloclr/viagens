@@ -10,13 +10,24 @@
     "endereco": "Battery Park, State St, New York, NY 10004, EUA (embarque da balsa)",
     "desc": "Balsa oficial Statue City Cruises até Liberty Island e Ellis Island, com o Museu da Imigração — inclui áudio-guia; acesso ao pedestal/coroa exige reserva à parte.",
     "custo": {
-      "valor": { "adulto": 25.50, "menor18": 16.50 },
+      "valor": {
+        "adulto": 25.5,
+        "menor18": 16.5
+      },
       "tipo": "CADASTRADO",
       "fonte": "statueticketing.com — cobertura consolidada da tabela oficial Statue City Cruises (sênior 62+ US$22,50)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Balsas a partir das 9h (8h30 na alta temporada, meados de março a meados de outubro), saídas de Battery Park a cada 20–30 min", "tipo": "CADASTRADO", "fonte": "statueticketing.com — cobertura consolidada da tabela oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["historia", "fotografia"],
+    "horario": {
+      "valor": "Balsas a partir das 9h (8h30 na alta temporada, meados de março a meados de outubro), saídas de Battery Park a cada 20–30 min",
+      "tipo": "CADASTRADO",
+      "fonte": "statueticketing.com — cobertura consolidada da tabela oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "historia",
+      "fotografia"
+    ],
     "prio": 95,
     "interior": false,
     "chuva": "medio",
@@ -35,13 +46,23 @@
     "endereco": "20 W 34th St, New York, NY 10001, EUA",
     "desc": "Mirante do 86º andar do arranha-céu Art Déco de 1931; subida ao 102º andar disponível como upgrade pago.",
     "custo": {
-      "valor": { "adulto": 44 },
+      "valor": {
+        "adulto": 44
+      },
       "tipo": "CADASTRADO",
       "fonte": "esbnyc.com — sítio oficial (mirante do 86º andar; acesso ao 102º andar soma mais US$20)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente 9h–23h59 (última entrada às 23h; último elevador 45 min antes do fechamento)", "tipo": "CADASTRADO", "fonte": "esbnyc.com/visit/hours-of-operation — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["arquitetura", "fotografia"],
+    "horario": {
+      "valor": "Diariamente 9h–23h59 (última entrada às 23h; último elevador 45 min antes do fechamento)",
+      "tipo": "CADASTRADO",
+      "fonte": "esbnyc.com/visit/hours-of-operation — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "arquitetura",
+      "fotografia"
+    ],
     "prio": 88,
     "interior": true,
     "chuva": "alto",
@@ -56,17 +77,32 @@
     "zona": "upper_east_side",
     "dur": 180,
     "idadeMin": 0,
-    "fechado": [3],
+    "fechado": [
+      3
+    ],
     "endereco": "1000 Fifth Ave, New York, NY 10028, EUA",
     "desc": "Um dos maiores museus de arte do mundo, com acervo que cobre 5 mil anos de história — da arte egípcia aos mestres europeus e à arte contemporânea.",
     "custo": {
-      "valor": { "adulto": 30, "menor18": 0, "gratuitoAte": 13 },
+      "valor": {
+        "adulto": 30,
+        "menor18": 0,
+        "gratuitoAte": 13
+      },
       "tipo": "CADASTRADO",
       "fonte": "metmuseum.org/plan-your-visit — sítio oficial (menores de 12 anos gratuito; sênior 65+ US$22; estudante US$17)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Domingo a terça e quinta 10h–17h; sexta e sábado 10h–21h; fechado às quartas", "tipo": "CADASTRADO", "fonte": "metmuseum.org/plan-your-visit — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["arte", "museus", "historia"],
+    "horario": {
+      "valor": "Domingo a terça e quinta 10h–17h; sexta e sábado 10h–21h; fechado às quartas",
+      "tipo": "CADASTRADO",
+      "fonte": "metmuseum.org/plan-your-visit — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "arte",
+      "museus",
+      "historia"
+    ],
     "prio": 92,
     "interior": true,
     "chuva": "alto",
@@ -85,13 +121,25 @@
     "endereco": "11 W 53rd St, New York, NY 10019, EUA",
     "desc": "Referência mundial em arte moderna e contemporânea — Van Gogh, Picasso, Warhol e a coleção de design industrial.",
     "custo": {
-      "valor": { "adulto": 30, "menor18": 0, "gratuitoAte": 17 },
+      "valor": {
+        "adulto": 30,
+        "menor18": 0,
+        "gratuitoAte": 17
+      },
       "tipo": "CADASTRADO",
       "fonte": "moma.org/visit/tips — sítio oficial (US$28 online; menores de 17 anos gratuito; sênior 65+ US$22; estudante US$17)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente 10h30–17h30; sexta até 20h30", "tipo": "CADASTRADO", "fonte": "moma.org/visit/tips — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["arte", "museus"],
+    "horario": {
+      "valor": "Diariamente 10h30–17h30; sexta até 20h30",
+      "tipo": "CADASTRADO",
+      "fonte": "moma.org/visit/tips — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "arte",
+      "museus"
+    ],
     "prio": 90,
     "interior": true,
     "chuva": "alto",
@@ -106,17 +154,31 @@
     "zona": "lower_manhattan",
     "dur": 150,
     "idadeMin": 7,
-    "fechado": [2],
+    "fechado": [
+      2
+    ],
     "endereco": "180 Greenwich St, New York, NY 10007, EUA",
     "desc": "Memorial (livre, ao ar livre) e museu subterrâneo sobre os ataques de 11 de setembro de 2001 — as duas piscinas-espelho ocupam a base das antigas torres.",
     "custo": {
-      "valor": { "adulto": 36, "menor18": 24, "gratuitoAte": 7 },
+      "valor": {
+        "adulto": 36,
+        "menor18": 24,
+        "gratuitoAte": 7
+      },
       "tipo": "CADASTRADO",
       "fonte": "911memorial.org/visit/tickets — sítio oficial (13–17 anos e estudante/sênior US$30; 7–12 anos US$24; até 6 anos gratuito; memorial ao ar livre é gratuito e sempre aberto)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Museu: quarta a segunda (e terças selecionadas) 9h–19h; memorial ao ar livre: diariamente 8h–20h, gratuito", "tipo": "CADASTRADO", "fonte": "911memorial.org/visit/visit-museum-1 — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["historia", "cultura"],
+    "horario": {
+      "valor": "Museu: quarta a segunda (e terças selecionadas) 9h–19h; memorial ao ar livre: diariamente 8h–20h, gratuito",
+      "tipo": "CADASTRADO",
+      "fonte": "911memorial.org/visit/visit-museum-1 — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "historia",
+      "cultura"
+    ],
     "prio": 85,
     "interior": true,
     "chuva": "alto",
@@ -135,13 +197,24 @@
     "endereco": "30 Rockefeller Plaza, New York, NY 10112, EUA",
     "desc": "Mirante nos andares 67–70 do Rockefeller Center, com vista aberta sobre o Central Park e o skyline com o Empire State ao fundo.",
     "custo": {
-      "valor": { "deUsd": 36, "ateUsd": 53 },
+      "valor": {
+        "deUsd": 36,
+        "ateUsd": 53
+      },
       "tipo": "ESTIMADO",
       "fonte": "rockefellercenter.com/buy-tickets/on-the-rocks/ e agregadores — preço varia por horário e data reservados",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, aproximadamente 8h–00h (confirmar horário exato no sítio oficial por data)", "tipo": "CADASTRADO", "fonte": "rockefellercenter.com — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["fotografia", "arquitetura"],
+    "horario": {
+      "valor": "Diariamente, aproximadamente 8h–00h (confirmar horário exato no sítio oficial por data)",
+      "tipo": "CADASTRADO",
+      "fonte": "rockefellercenter.com — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "fotografia",
+      "arquitetura"
+    ],
     "prio": 80,
     "interior": true,
     "chuva": "alto",
@@ -160,13 +233,25 @@
     "endereco": "200 Central Park West, New York, NY 10024, EUA",
     "desc": "Museu de história natural com o icônico esqueleto de dinossauro no saguão, o planetário Hayden e a sala de baleias — cenário de \"Uma Noite no Museu\".",
     "custo": {
-      "valor": { "adulto": 37, "menor18": 22, "gratuitoAte": 3 },
+      "valor": {
+        "adulto": 37,
+        "menor18": 22,
+        "gratuitoAte": 3
+      },
       "tipo": "CADASTRADO",
       "fonte": "amnh.org/plan-your-visit — sítio oficial (3–12 anos US$22; residentes de Nova York pagam o quanto quiserem)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente 10h–17h30 (última entrada 17h); fechado no Dia de Ação de Graças e no Natal", "tipo": "CADASTRADO", "fonte": "amnh.org/plan-your-visit — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["museus", "familia"],
+    "horario": {
+      "valor": "Diariamente 10h–17h30 (última entrada 17h); fechado no Dia de Ação de Graças e no Natal",
+      "tipo": "CADASTRADO",
+      "fonte": "amnh.org/plan-your-visit — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "museus",
+      "familia"
+    ],
     "prio": 82,
     "interior": true,
     "chuva": "alto",
@@ -185,13 +270,23 @@
     "endereco": "117 West St, New York, NY 10007, EUA",
     "desc": "Mirante no topo do One World Trade Center (541 m), o edifício mais alto do hemisfério ocidental, com vista de 360° sobre a cidade.",
     "custo": {
-      "valor": { "adulto": 44 },
+      "valor": {
+        "adulto": 44
+      },
       "tipo": "CADASTRADO",
       "fonte": "oneworldobservatory.com/buy-tickets/ — sítio oficial",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente 9h–21h", "tipo": "CADASTRADO", "fonte": "oneworldobservatory.com/plan-your-visit/ — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["arquitetura", "fotografia"],
+    "horario": {
+      "valor": "Diariamente 9h–21h",
+      "tipo": "CADASTRADO",
+      "fonte": "oneworldobservatory.com/plan-your-visit/ — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "arquitetura",
+      "fotografia"
+    ],
     "prio": 75,
     "interior": true,
     "chuva": "alto",
@@ -209,9 +304,23 @@
     "fechado": [],
     "endereco": "820 Washington St, New York, NY 10014, EUA (acesso pela Gansevoort St)",
     "desc": "Parque linear erguido sobre um antigo viaduto ferroviário elevado, do Meatpacking District até a 34th Street — jardins, arte pública e vista sobre o Hudson.",
-    "custo": { "valor": 0, "tipo": "CADASTRADO", "fonte": "thehighline.org/visit/ — sítio oficial, entrada gratuita", "consultadoEm": "2026-08-28" },
-    "horario": { "valor": "1º de abril a 30 de novembro: 7h–22h; 1º de dezembro a 31 de março: 7h–20h", "tipo": "CADASTRADO", "fonte": "thehighline.org/visit/ — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["natureza", "fotografia", "arte"],
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "thehighline.org/visit/ — sítio oficial, entrada gratuita",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": {
+      "valor": "1º de abril a 30 de novembro: 7h–22h; 1º de dezembro a 31 de março: 7h–20h",
+      "tipo": "CADASTRADO",
+      "fonte": "thehighline.org/visit/ — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "natureza",
+      "fotografia",
+      "arte"
+    ],
     "prio": 70,
     "interior": false,
     "chuva": "baixo",
@@ -229,11 +338,92 @@
     "fechado": [],
     "endereco": "New York, NY 10024, EUA (entrada Central Park West & 81st St, junto ao AMNH)",
     "desc": "Parque de 341 hectares no coração de Manhattan — Bethesda Terrace, Bow Bridge, Strawberry Fields e o Central Park Zoo (ingresso à parte).",
-    "custo": { "valor": 0, "tipo": "CADASTRADO", "fonte": "Parque público municipal (NYC Parks), sem cobrança de ingresso — nycgovparks.org", "consultadoEm": "2026-08-28" },
-    "horario": { "valor": "Diariamente, 6h–1h", "tipo": "CADASTRADO", "fonte": "nycgovparks.org/parks/central-park — sítio oficial do NYC Parks", "consultadoEm": "2026-08-28" },
-    "cat": ["natureza", "descanso", "fotografia"],
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Parque público municipal (NYC Parks), sem cobrança de ingresso — nycgovparks.org",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": {
+      "valor": "Diariamente, 6h–1h",
+      "tipo": "CADASTRADO",
+      "fonte": "nycgovparks.org/parks/central-park — sítio oficial do NYC Parks",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "natureza",
+      "descanso",
+      "fotografia"
+    ],
     "prio": 78,
     "interior": false,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "nyc_macys_herald_square",
+    "cidadeId": "nova_york",
+    "nome": "Macy's Herald Square",
+    "zona": "midtown",
+    "dur": 90,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "151 W 34th St, New York, NY 10001, EUA",
+    "desc": "A maior loja de departamento dos Estados Unidos, ocupando um quarteirão inteiro entre a Broadway e a Sétima Avenida — prédio tombado, palco do desfile de Ação de Graças da Macy's.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Loja de varejo, sem cobrança de entrada — macys.com/stores",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": {
+      "valor": "Segunda a quinta 10h–21h, sexta e sábado 10h–22h, domingo 11h–21h",
+      "tipo": "CADASTRADO",
+      "fonte": "macys.com/stores — sítio oficial da rede",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "compras",
+      "historia",
+      "fotografia"
+    ],
+    "prio": 75,
+    "interior": true,
+    "chuva": "baixo",
+    "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "nyc_orvis_fifth_ave",
+    "cidadeId": "nova_york",
+    "nome": "Orvis Fifth Avenue",
+    "zona": "midtown",
+    "dur": 30,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "489 Fifth Ave, New York, NY 10017, EUA",
+    "desc": "Loja da centenária marca americana de pesca com mosca e caça, com roupas e equipamentos outdoor — a alternativa mais próxima de uma Bass Pro Shops dentro de Manhattan; não há loja da rede Bass Pro na cidade.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Loja de varejo, sem cobrança de entrada — stores.orvis.com/us/new-york/new-york",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": {
+      "valor": "Segunda a quinta 11h–18h, sexta e sábado 10h–18h, domingo 11h–17h",
+      "tipo": "CADASTRADO",
+      "fonte": "stores.orvis.com/us/new-york/new-york — sítio oficial da rede",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "compras",
+      "aventura"
+    ],
+    "prio": 40,
+    "interior": true,
     "chuva": "baixo",
     "juvenil": false,
     "familia": true,

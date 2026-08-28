@@ -10,13 +10,24 @@
     "endereco": "1180 Seven Seas Dr, Lake Buena Vista, FL 32830, EUA",
     "desc": "O parque mais visitado do mundo — Cinderella Castle, Space Mountain e as atrações clássicas Disney; ocupa o dia inteiro.",
     "custo": {
-      "valor": { "deUsd": 119, "ateUsd": 209 },
+      "valor": {
+        "deUsd": 119,
+        "ateUsd": 209
+      },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data, entre os quatro parques Disney o Magic Kingdom costuma ficar na faixa mais alta",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, tipicamente 9h–22h (varia por data e temporada — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "aventura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 9h–22h (varia por data e temporada — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "aventura"
+    ],
     "prio": 95,
     "interior": false,
     "chuva": "medio",
@@ -35,13 +46,24 @@
     "endereco": "200 Epcot Center Dr, Lake Buena Vista, FL 32830, EUA",
     "desc": "Parque dividido entre o World Celebration/World Discovery (ciência e tecnologia) e o World Showcase, com pavilhões de 11 países.",
     "custo": {
-      "valor": { "deUsd": 119, "ateUsd": 209 },
+      "valor": {
+        "deUsd": 119,
+        "ateUsd": 209
+      },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "cultura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "cultura"
+    ],
     "prio": 88,
     "interior": false,
     "chuva": "medio",
@@ -60,13 +82,24 @@
     "endereco": "351 S Studio Dr, Lake Buena Vista, FL 32830, EUA",
     "desc": "Parque temático em torno do cinema, com as áreas de Star Wars: Galaxy's Edge e Toy Story Land.",
     "custo": {
-      "valor": { "deUsd": 119, "ateUsd": 209 },
+      "valor": {
+        "deUsd": 119,
+        "ateUsd": 209
+      },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "aventura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "aventura"
+    ],
     "prio": 85,
     "interior": false,
     "chuva": "medio",
@@ -85,13 +118,25 @@
     "endereco": "2901 Osceola Pkwy, Lake Buena Vista, FL 32830, EUA",
     "desc": "Parque temático de vida selvagem e conservação, com o safari de Kilimanjaro e a área de Pandora — The World of Avatar.",
     "custo": {
-      "valor": { "deUsd": 119, "ateUsd": 209 },
+      "valor": {
+        "deUsd": 119,
+        "ateUsd": 209
+      },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; entre os quatro parques Disney o Animal Kingdom costuma ficar na faixa mais baixa (ex.: US$119 fora de pico)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, tipicamente 8h–20h (varia por data e temporada — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "natureza", "aventura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 8h–20h (varia por data e temporada — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "disneyworld.disney.go.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "natureza",
+      "aventura"
+    ],
     "prio": 82,
     "interior": false,
     "chuva": "medio",
@@ -110,13 +155,24 @@
     "endereco": "6000 Universal Blvd, Orlando, FL 32819, EUA",
     "desc": "Parque temático de cinema e TV, com Wizarding World of Harry Potter — Diagon Alley e simuladores como Revenge of the Mummy.",
     "custo": {
-      "valor": { "deUsd": 130, "ateUsd": 190 },
+      "valor": {
+        "deUsd": 130,
+        "ateUsd": 190
+      },
       "tipo": "ESTIMADO",
       "fonte": "orlandoattractions.com/tickets/universal-orlando-1-day-tickets — cobertura da tabela oficial 2026 Universal Orlando; preço dinâmico por data",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "universalorlando.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "aventura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "universalorlando.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "aventura"
+    ],
     "prio": 90,
     "interior": false,
     "chuva": "medio",
@@ -135,13 +191,24 @@
     "endereco": "6000 Universal Blvd, Orlando, FL 32819, EUA",
     "desc": "Parque de aventura dividido em ilhas temáticas, com Wizarding World of Harry Potter — Hogsmeade e as montanhas-russas da Marvel Super Hero Island.",
     "custo": {
-      "valor": { "deUsd": 130, "ateUsd": 190 },
+      "valor": {
+        "deUsd": 130,
+        "ateUsd": 190
+      },
       "tipo": "ESTIMADO",
       "fonte": "orlandoattractions.com/tickets/universal-orlando-1-day-tickets — cobertura da tabela oficial 2026 Universal Orlando; preço dinâmico por data",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "universalorlando.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "aventura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "universalorlando.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "aventura"
+    ],
     "prio": 87,
     "interior": false,
     "chuva": "medio",
@@ -160,14 +227,25 @@
     "endereco": "1001 Epic Blvd, Orlando, FL 32819, EUA",
     "desc": "Quinto portão da Universal Orlando, inaugurado em 2025 — cinco mundos temáticos incluindo Super Nintendo World e How to Train Your Dragon — Isle of Berk.",
     "custo": {
-      "valor": { "deUsd": 139, "ateUsd": null },
+      "valor": {
+        "deUsd": 139,
+        "ateUsd": null
+      },
       "tipo": "ESTIMADO",
       "fonte": "disneytouristblog.com/2026-epic-universe-1-day-multi-day-park-hopper-discount-tickets-now-on-sale — cobertura de lançamento da tabela oficial; teto da faixa não confirmado nesta consulta",
       "consultadoEm": "2026-08-28",
       "nota": "Só o piso da faixa (US$139) foi confirmado nesta consulta; o teto de pico não foi localizado em fonte oficial — apurar antes de apresentar como faixa completa."
     },
-    "horario": { "valor": "Diariamente, tipicamente 9h–19h/22h conforme temporada (varia por data — consulte o app oficial antes da viagem)", "tipo": "CADASTRADO", "fonte": "universalorlando.com — calendário oficial de horários por data", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "aventura"],
+    "horario": {
+      "valor": "Diariamente, tipicamente 9h–19h/22h conforme temporada (varia por data — consulte o app oficial antes da viagem)",
+      "tipo": "CADASTRADO",
+      "fonte": "universalorlando.com — calendário oficial de horários por data",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "aventura"
+    ],
     "prio": 92,
     "interior": false,
     "chuva": "medio",
@@ -186,13 +264,24 @@
     "endereco": "7007 SeaWorld Dr, Orlando, FL 32821, EUA",
     "desc": "Parque marinho com montanhas-russas, exibições educativas de vida marinha e shows com golfinhos.",
     "custo": {
-      "valor": { "deUsd": 70, "ateUsd": 109 },
+      "valor": {
+        "deUsd": 70,
+        "ateUsd": 109
+      },
       "tipo": "ESTIMADO",
       "fonte": "seaworld.com/orlando/tickets — cobertura consolidada da tabela oficial (preço promocional online a partir de ~US$70; preço de bilheteria a partir de ~US$109); dinâmico por data",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente, horário varia por data — consulte o sítio oficial antes da viagem", "tipo": "CADASTRADO", "fonte": "seaworld.com/orlando — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["familia", "natureza"],
+    "horario": {
+      "valor": "Diariamente, horário varia por data — consulte o sítio oficial antes da viagem",
+      "tipo": "CADASTRADO",
+      "fonte": "seaworld.com/orlando — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "familia",
+      "natureza"
+    ],
     "prio": 65,
     "interior": false,
     "chuva": "medio",
@@ -211,13 +300,25 @@
     "endereco": "14501 S Orange Blossom Trail, Orlando, FL 32837, EUA",
     "desc": "Parque temático de jacarés e crocodilos desde 1949, com shows de arremesso e trilha suspensa sobre o pântano — a atração \"clássica\" e mais econômica da região.",
     "custo": {
-      "valor": { "adulto": 32, "menor18": 22 },
+      "valor": {
+        "adulto": 32,
+        "menor18": 22
+      },
       "tipo": "CADASTRADO",
       "fonte": "gatorland.com/plan-your-visit/hours-and-prices/ — sítio oficial (13+ anos US$32; 3–12 anos US$22)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente 10h–17h", "tipo": "CADASTRADO", "fonte": "gatorland.com/plan-your-visit/hours-and-prices/ — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["natureza", "familia", "aventura"],
+    "horario": {
+      "valor": "Diariamente 10h–17h",
+      "tipo": "CADASTRADO",
+      "fonte": "gatorland.com/plan-your-visit/hours-and-prices/ — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "natureza",
+      "familia",
+      "aventura"
+    ],
     "prio": 55,
     "interior": false,
     "chuva": "alto",
@@ -236,17 +337,95 @@
     "endereco": "777 E Princeton St, Orlando, FL 32803, EUA",
     "desc": "Museu de ciências no Loch Haven Park, no centro histórico de Orlando — exposições interativas, planetário e observatório, longe do eixo dos parques.",
     "custo": {
-      "valor": { "adulto": 24, "menor18": 18, "gratuitoAte": 2 },
+      "valor": {
+        "adulto": 24,
+        "menor18": 18,
+        "gratuitoAte": 2
+      },
       "tipo": "CADASTRADO",
       "fonte": "osc.org/tickets — sítio oficial (2–11 anos US$18; até 1 ano gratuito)",
       "consultadoEm": "2026-08-28"
     },
-    "horario": { "valor": "Diariamente 10h–17h", "tipo": "CADASTRADO", "fonte": "osc.org/tickets — sítio oficial", "consultadoEm": "2026-08-28" },
-    "cat": ["museus", "familia"],
+    "horario": {
+      "valor": "Diariamente 10h–17h",
+      "tipo": "CADASTRADO",
+      "fonte": "osc.org/tickets — sítio oficial",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "museus",
+      "familia"
+    ],
     "prio": 50,
     "interior": true,
     "chuva": "baixo",
     "juvenil": false,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "orl_bass_pro_shops",
+    "cidadeId": "orlando",
+    "nome": "Bass Pro Shops Outdoor World",
+    "zona": "international_drive",
+    "dur": 75,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "5156 International Dr, Orlando, FL 32819, EUA",
+    "desc": "Megaloja de caça, pesca e outdoor no Festival Bay Mall, com aquários de água doce, dioramas de vida selvagem taxidermizada e loja de barcos — parada clássica de quem já está em International Drive.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Rede de varejo, sem cobrança de entrada — stores.basspro.com/us/fl/orlando/5156-international-dr.html",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": {
+      "valor": "Segunda a sábado 9h–21h, domingo 10h–19h",
+      "tipo": "CADASTRADO",
+      "fonte": "stores.basspro.com/us/fl/orlando/5156-international-dr.html — sítio oficial da rede",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "compras",
+      "natureza",
+      "familia"
+    ],
+    "prio": 50,
+    "interior": true,
+    "chuva": "baixo",
+    "juvenil": true,
+    "familia": true,
+    "reserva": false
+  },
+  {
+    "id": "orl_vineland_outlets",
+    "cidadeId": "orlando",
+    "nome": "Orlando Vineland Premium Outlets",
+    "zona": "lake_buena_vista",
+    "dur": 150,
+    "idadeMin": 0,
+    "fechado": [],
+    "endereco": "8200 Vineland Ave, Orlando, FL 32821, EUA",
+    "desc": "Vilarejo outlet a céu aberto de inspiração mediterrânea a poucos minutos do Walt Disney World, com mais de 160 lojas de marca com desconto.",
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Centro comercial, sem cobrança de entrada — premiumoutlets.com/outlet/orlando-vineland",
+      "consultadoEm": "2026-08-28"
+    },
+    "horario": {
+      "valor": "Segunda a sábado 10h–21h, domingo 11h–19h",
+      "tipo": "CADASTRADO",
+      "fonte": "premiumoutlets.com/outlet/orlando-vineland — sítio oficial do centro",
+      "consultadoEm": "2026-08-28"
+    },
+    "cat": [
+      "compras"
+    ],
+    "prio": 65,
+    "interior": false,
+    "chuva": "medio",
+    "juvenil": true,
     "familia": true,
     "reserva": false
   }
