@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Roteiros — Motor v2.0</title>
+    <title>Minhas Viagens - Gerador de Roteiros de Viagens — v2.0</title>
     <style>
         :root {
             --radius: 10px;
@@ -26235,7 +26235,7 @@ function estadoFormPadrao() {
         declNome: '', declPais: 'it', declPaisNome: '',     // destino declarado pelo usuário
         declNoites: 2, declLat: '', declLon: '',
         dataInicio: '', dataFim: '',
-        adultos: 2, adolescentes: 0, criancas: 0, idades: [],
+        adultos: 2, adolescentes: 1, criancas: 0, idades: [51, 42, 13],
         objetivoPrincipal: 'religiao', objetivosSecundarios: [],
         perfilGrupo: 'familia', ritmo: 'moderado', caminhada: 'moderada',
         orcamento: 'intermediario', orcamentoTotal: null,
@@ -26276,7 +26276,7 @@ const Form = {
         h += Form.campoNumero('adultos', 'Adultos', e.adultos, 'Pessoas de 18 anos ou mais. Multiplicam alimentação, transporte urbano e ingresso inteiro.');
         h += Form.campoNumero('adolescentes', 'Adolescentes', e.adolescentes, 'De 12 a 17 anos. Ativam o peso de foco juvenil na seleção de atrações e a tarifa reduzida onde ela existe.');
         h += Form.campoNumero('criancas', 'Crianças', e.criancas, 'Até 11 anos. Ativam o peso de família e podem excluir atrações com idade mínima superior.');
-        h += Form.campoTexto('idades', 'Idades (separadas por vírgula)', e.idades.join(', '), 'A menor idade do grupo é comparada à idade mínima de cada atração. Atrações incompatíveis são descartadas com o motivo registrado. Cada tarifa é resolvida pessoa a pessoa, porque as faixas etárias diferem entre instituições.');
+        h += Form.campoTexto('idades', 'Idades (separe por ",")', e.idades.join(', '), 'A menor idade do grupo é comparada à idade mínima de cada atração. Atrações incompatíveis são descartadas com o motivo registrado. Cada tarifa é resolvida pessoa a pessoa, porque as faixas etárias diferem entre instituições.');
         h += '</div>';
 
         /* ---------------- DESTINOS ---------------- */
