@@ -990,15 +990,24 @@
         .form-wrap { max-width: 1000px; }
         .form-nivel {
             border: 1px solid var(--border); border-radius: 11px;
-            background: var(--surface-1); margin: 14px 0; overflow: hidden;
+            background: var(--surface-1); margin: 14px 0;
+            /* Era overflow:hidden (clipava o summary nos cantos arredondados do card).
+               Trocado por raio próprio no summary (ver logo abaixo) porque o painel
+               flutuante de "Outro destino" precisa poder ultrapassar a borda inferior
+               do card Nível 1 sem ser cortado — o mesmo vale, em tese, para o painel de
+               cidades, que só nunca esbarrou nisso por ser mais baixo. */
+            overflow: visible;
         }
         .form-nivel > summary {
             list-style: none; cursor: pointer; padding: 14px 18px;
             display: flex; align-items: center; gap: 12px;
             font-family: Consolas, monospace; font-weight: 800; font-size: 14px; color: var(--ink-strong);
             border-left: 5px solid var(--accent); background: color-mix(in srgb, var(--accent) 6%, transparent);
-            transition: background .2s var(--ease-soft);
+            border-radius: 10px; transition: background .2s var(--ease-soft);
         }
+        /* Fechado, o summary é o card inteiro (cantos arredondados nos 4 lados); aberto,
+           o corpo continua abaixo dele, então só os cantos de cima ficam arredondados. */
+        .form-nivel[open] > summary { border-radius: 10px 10px 0 0; }
         .form-nivel > summary:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
         .form-nivel > summary::-webkit-details-marker { display: none; }
         .form-nivel > summary::after { content: "▾"; margin-left: auto; color: var(--accent); transition: transform .25s var(--ease-soft); }
@@ -1015,9 +1024,37 @@
         }
         .form-body { padding: 16px 18px 20px; }
         .fgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
-        /* País e cidades disponíveis lado a lado: o país é o filtro (mais estreito), a
-           lista de cidades é onde a decisão acontece (mais larga). */
-        .fgrid-destino { grid-template-columns: minmax(200px, 1fr) minmax(260px, 1.7fr); align-items: start; }
+        /* País, cidades disponíveis e outro destino lado a lado: o país é o filtro (mais
+           estreito), a lista de cidades é onde a decisão acontece (mais larga), e outro
+           destino é a via de escape — só um pouco mais largo que o país, porque é um
+           toggle compacto, não uma lista. */
+        .fgrid-destino { grid-template-columns: minmax(170px, .85fr) minmax(230px, 1.55fr) minmax(190px, .95fr); align-items: start; }
+        /* Outro destino encaixado na linha: o <details> continua com as classes
+           form-nivel/n-decl (avisos e "ir para o campo" localizam por elas), mas aqui vira
+           um toggle do mesmo porte dos campos ao lado — o corpo abre como painel flutuante
+           para baixo, sem esticar a linha nem herdar o visual de card dos níveis do form. */
+        .fgrid-destino .form-nivel.n-decl {
+            margin: 0; border: none; border-radius: 0; background: none; position: relative;
+        }
+        .fgrid-destino .form-nivel.n-decl > summary {
+            display: block; list-style: none; cursor: pointer; position: relative;
+            padding: 9px 32px 9px 11px; border: 1px solid var(--line-forte); border-radius: 7px;
+            background: var(--field-bg); color: var(--ink); font-family: inherit; font-weight: 400;
+            font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+            transition: border-color .2s var(--ease-soft);
+        }
+        .fgrid-destino .form-nivel.n-decl > summary:hover { border-color: var(--muted); }
+        .fgrid-destino .form-nivel.n-decl > summary::after {
+            content: "▾"; color: var(--accent3); position: absolute; right: 12px; top: 50%;
+            transform: translateY(-50%); margin: 0; transition: transform .25s var(--ease-soft);
+        }
+        .fgrid-destino .form-nivel.n-decl[open] > summary::after { transform: translateY(-50%) rotate(180deg); }
+        .fgrid-destino .form-nivel.n-decl .form-body {
+            position: absolute; z-index: 30; top: calc(100% + 6px); right: 0;
+            width: min(420px, 92vw); padding: 14px 16px;
+            background: var(--surface-1); border: 1px solid var(--accent3); border-radius: 9px;
+            box-shadow: 0 14px 30px rgba(0,0,0,.45);
+        }
         .field { display: flex; flex-direction: column; gap: 5px; }
         .field > label {
             font-size: 11.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
@@ -5061,8 +5098,8 @@ const DB = {
             "noitesMax": 3,
             "perfil": {},
             "resumo": "Santuário de San Sebastián de Garabandal (Local das aparições marianas dos anos 1960)",
-            "lat": null,
-            "lon": null
+            "lat": 43.2008,
+            "lon": -4.4236
         },
         {
             "id": "es_torreciudad",
@@ -5076,8 +5113,8 @@ const DB = {
             "noitesMax": 3,
             "perfil": {},
             "resumo": "Santuário de Torreciudad (Promovido por São Josemaría Escrivá, dedicado à Virgem de Torreciudad)",
-            "lat": null,
-            "lon": null
+            "lat": 42.1701,
+            "lon": 0.2348
         },
         {
             "id": "es_salamanca",
@@ -5181,8 +5218,8 @@ const DB = {
             "noitesMax": 3,
             "perfil": {},
             "resumo": "Ermida de El Rocío (Santuário da Virgem de El Rocío, sede da maior romaria popular da Espanha)",
-            "lat": null,
-            "lon": null
+            "lat": 37.1306,
+            "lon": -6.485
         },
         {
             "id": "ch_einsiedeln",
@@ -22859,6 +22896,16 @@ const DB = {
             ]
         },
         {
+            "cidadeId": "tr_ancara",
+            "titulo": "Ancara — tava de Ulus e rua Sakarya",
+            "texto": "A Ankara tava (carne e macarrão orzo cozidos lentamente em panela de cobre) é o prato-símbolo da cidade, servida pelas lokantas de tradição familiar do bairro histórico de Ulus. Em Kızılay, a rua Sakarya reúne bancas de milho assado e kokoreç a preço de rua.",
+            "tags": [
+                "regional",
+                "tradicional",
+                "street_food"
+            ]
+        },
+        {
             "cidadeId": "atenas",
             "titulo": "Atenas — souvlaki de rua e tavernas de Plaka",
             "texto": "Souvlaki e gyros de banca são a referência de comida de rua barata por toda a cidade, especialmente ao redor de Monastiraki. Tavernas em Plaka cobram mais caro pela vista da Acrópole — subir uma ou duas ruas para o lado de Psyrri costuma manter a mesma comida a preço menor.",
@@ -28244,6 +28291,19 @@ const Form = {
             '<div class="city-dropdown-actions"><button type="button" class="btn-ghost" id="btnFecharPainelCidades">Concluir</button></div>' +
             '</div></div>';
         h += '<span class="hint">Nenhuma cidade é escolhida pelo sistema: a seleção é sua, e o motor apenas declara quando ela não cabe na duração.</span></div>';
+
+        /* ---------------- OUTRO DESTINO ----------------
+           Encaixado como 3º campo da linha país/cidades, não mais como faixa cheia abaixo
+           da lista de cidades selecionadas: mesmo <details> de sempre (avisos e "ir para o
+           campo" continuam localizando .form-nivel.n-decl), só que compacto — o corpo abre
+           como painel flutuante para baixo, do mesmo jeito que o dropdown de cidades ao
+           lado, sem esticar a linha nem competir em altura com ela. */
+        h += '<div class="field"><label>Outro destino ' +
+            Form.ajuda('Cidade fora da base curada. Entra no roteiro com noites e custo de estada — sem atrações, hospedagem, trechos ou plano B, que a base não tem e o sistema não inventa.') +
+            '</label>';
+        h += '<details class="form-nivel n-decl" id="outroDestinoDetails"><summary>✎ <span id="outroDestinoLabel">Declarar cidade</span></summary>' +
+            '<div class="form-body" id="outroDestinoBody"></div></details>';
+        h += '</div>';
         h += '</div>';
         h += '<div class="field-full" style="margin-top:16px;"><label>Cidades selecionadas — ordem, papel e prioridade ' +
             Form.ajuda('Arraste pela alça ☰ para reordenar a visita — isso muda automaticamente a ordem para manual. Papel define entrada/saída internacional (rotas abertas são suportadas). Prioridade multiplica o peso da cidade na distribuição de noites.') +
@@ -28251,9 +28311,6 @@ const Form = {
         h += '<div id="linhasCidades" style="margin-top:8px;"></div>';
 
         h += '<div id="blocoOrdemNoites"></div>';
-
-        /* ---------------- OUTRO DESTINO ---------------- */
-        h += '<details class="form-nivel n-decl" style="margin-top:14px;"><summary>Outro destino — declarar cidade fora da base <span class="n-tag">sem curadoria</span></summary><div class="form-body" id="outroDestinoBody"></div></details>';
 
         h += '<h3 style="margin-top:18px;">Objetivo e ritmo</h3><div class="fgrid">';
         h += Form.campoSelect('objetivoPrincipal', 'Objetivo principal', CATALOGO.objetivos.map(o => [o.id, o.icone + ' ' + o.rotulo]), e.objetivoPrincipal, 'Recebe peso 100 na pontuação das atrações. Os secundários recebem 70 e os demais temas, 15.');
@@ -28437,10 +28494,7 @@ const Form = {
         const body = document.getElementById('outroDestinoBody');
         if (!body) return;
         const e = Form.estado;
-        let h = '<p class="hint" style="margin-top:0;">A base curada não cobre o mundo, e recusar um destino por não estar cadastrado seria trocar a sua escolha pela conveniência do sistema. ' +
-            'Uma cidade declarada aqui <b>entra no roteiro</b> com noites, custo de estada, lugar na rota e no mapa da jornada. ' +
-            'O que ela <b>não</b> terá: atrações, cronograma, ingressos, hospedagem nominal, trechos de transporte e plano B — nada disso existe na base, e nada disso será inventado para preencher a lacuna. ' +
-            'O sistema declara essa ausência no roteiro em vez de disfarçá-la.</p>';
+        let h = '<p class="hint" style="margin-top:0;">Fora da base curada: entra com noites, custo de estada e lugar na rota — <b>sem</b> atrações, hospedagem, trechos ou plano B, que aqui não existem e não serão inventados.</p>';
         h += '<div class="fgrid">';
         h += Form.campoTexto('declNome', 'Nome da cidade', e.declNome, 'Como você quer vê-la escrita no roteiro. É o nome que aparecerá no mapa da jornada, no cronograma e na tabela de endereços.');
         h += Form.campoSelect('declPais', 'País',
@@ -28459,6 +28513,16 @@ const Form = {
         h += '<div id="listaDeclaradas" style="margin-top:10px;"></div>';
         body.innerHTML = h;
         Form.atualizarDeclaradas();
+        Form.atualizarBotaoOutroDestino();
+    },
+
+    /* Só o rótulo do botão de "Outro destino" — mesmo padrão de atualizarBotaoCidades():
+       reflete quantas cidades já foram declaradas nesta sessão sem redesenhar o painel. */
+    atualizarBotaoOutroDestino() {
+        const lbl = document.getElementById('outroDestinoLabel');
+        if (!lbl) return;
+        const n = DB.cidadesDeclaradas.length;
+        lbl.textContent = n ? n + ' declarada' + (n > 1 ? 's' : '') : 'Declarar cidade';
     },
 
     atualizarDeclaradas() {
@@ -28696,6 +28760,14 @@ const Form = {
             const painel = document.getElementById('cityDropdownPanel');
             if (!dd || !painel || painel.hidden) return;
             if (!dd.contains(ev.target)) Form.fecharPainelCidades();
+        });
+        // Mesmo comportamento para o painel de "Outro destino": <details> nativo não fecha
+        // sozinho ao clicar fora, e o painel flutuante ficaria aberto sobre o resto do
+        // formulário até um segundo clique manual no próprio resumo.
+        document.addEventListener('click', ev => {
+            const dd = document.getElementById('outroDestinoDetails');
+            if (!dd || !dd.open) return;
+            if (!dd.contains(ev.target)) dd.open = false;
         });
         body.addEventListener('change', ev => {
             const chk = ev.target.matches && ev.target.matches('input[type=checkbox][data-cidade]') ? ev.target : null;
@@ -31049,16 +31121,26 @@ const Testes = {
                 .every(d => (d.blocos || []).every(b => b.tipo !== 'atracao')));
         ok('Sugerida — Paris continua íntegra ao lado dela',
             rSug.atracoes.length > 0 && rSug.atracoes.every(a => a.cidadeId === 'paris'));
-        const torreciudad = IDX.cidade('es_torreciudad');
-        ok('Sugerida sem coordenadas — a planilha de origem não tinha um local preciso o bastante, e o dado fica ausente em vez de aproximado',
-            !!torreciudad && torreciudad.lat == null && torreciudad.lon == null);
+        // Antes fixado em es_torreciudad — a curadoria preencheu as coordenadas reais do
+        // santuário (era uma lacuna, não um traço permanente da base), então o caminho
+        // "sem coordenadas" passou a precisar de uma cidade sugerida sintética, criada só
+        // para este teste, em vez de depender de uma lacuna de dados que podia ser fechada.
+        const semCoordId = 'fr_sugerida_teste_sem_coord';
+        DB.cidadesSugeridas.push({
+            id: semCoordId, paisId: 'fr', nome: 'Sugerida de teste sem coordenadas', glifo: '◇',
+            curada: false, sugerida: true, noitesMin: 1, noitesIdeal: 1, noitesMax: 3, perfil: {},
+            resumo: 'Fixture de teste — sem coordenadas de propósito.', lat: null, lon: null
+        });
+        const semCoord = IDX.cidade(semCoordId);
+        ok('Sugerida sem coordenadas — quando a base não tem par lat/lon, o dado fica ausente em vez de aproximado',
+            !!semCoord && semCoord.lat == null && semCoord.lon == null);
         const cfgSugSemCoord = Testes.completar(Object.assign({}, Testes.cenarios[0].cfg, {
             cidades: [{ id: 'roma', papel: 'entrada', prioridade: 'alta' },
-                      { id: 'es_torreciudad', papel: 'saida', prioridade: 'normal' }]
+                      { id: semCoordId, papel: 'saida', prioridade: 'normal' }]
         }));
         const rSugSemCoord = await criarRoteiro(cfgSugSemCoord);
         ok('Sugerida sem coordenadas — o clima é declarado indisponível em vez de aproximado',
-            (rSugSemCoord.clima.find(c => c.cidadeId === 'es_torreciudad') || {}).tipo === 'INDISPONIVEL');
+            (rSugSemCoord.clima.find(c => c.cidadeId === semCoordId) || {}).tipo === 'INDISPONIVEL');
 
         /* ------------------------------------------------------------------------
            ORDEM DAS CIDADES / NOITES MANUAIS — só fazem sentido com 2+ destinos; com

@@ -22,5 +22,11 @@
     "titulo": "Esmirna (İzmir) — Kordon e mercado de Kemeraltı",
     "texto": "O kumru (sanduíche local com linguiça, queijo e tomate) é a referência de rua da cidade, vendido em bancas por toda a orla (Kordon). O mercado histórico de Kemeraltı reúne lokantas tradicionais a preço bem mais baixo que os restaurantes de frente para o mar.",
     "tags": ["street_food", "regional", "tradicional"]
+  },
+  {
+    "cidadeId": "tr_ancara",
+    "titulo": "Ancara — tava de Ulus e rua Sakarya",
+    "texto": "A Ankara tava (carne e macarrão orzo cozidos lentamente em panela de cobre) é o prato-símbolo da cidade, servida pelas lokantas de tradição familiar do bairro histórico de Ulus. Em Kızılay, a rua Sakarya reúne bancas de milho assado e kokoreç a preço de rua.",
+    "tags": ["regional", "tradicional", "street_food"]
   }
 ]

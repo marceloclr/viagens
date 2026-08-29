@@ -116,8 +116,8 @@
     "noitesMax": 3,
     "perfil": {},
     "resumo": "Santuário de San Sebastián de Garabandal (Local das aparições marianas dos anos 1960)",
-    "lat": null,
-    "lon": null
+    "lat": 43.2008,
+    "lon": -4.4236
   },
   {
     "id": "es_torreciudad",
@@ -131,8 +131,8 @@
     "noitesMax": 3,
     "perfil": {},
     "resumo": "Santuário de Torreciudad (Promovido por São Josemaría Escrivá, dedicado à Virgem de Torreciudad)",
-    "lat": null,
-    "lon": null
+    "lat": 42.1701,
+    "lon": 0.2348
   },
   {
     "id": "es_salamanca",
@@ -236,7 +236,7 @@
     "noitesMax": 3,
     "perfil": {},
     "resumo": "Ermida de El Rocío (Santuário da Virgem de El Rocío, sede da maior romaria popular da Espanha)",
-    "lat": null,
-    "lon": null
+    "lat": 37.1306,
+    "lon": -6.4850
   }
 ]
