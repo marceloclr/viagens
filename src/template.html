@@ -2352,6 +2352,13 @@ function trechoCompativel(cfg, t) {
    base. Isto NÃO é o voo do viajante: é a rota que existe e quem a opera. Número,
    horário e tarifa exatos continuam vindo só de "voo já emitido" (§13, §51) — uma rota
    cadastrada não vira previsão do voo que a pessoa vai pegar. */
+// Um voo "já emitido" (§13/§51) é considerado informado quando pelo menos um dos seus
+// campos foi preenchido — objeto sempre presente (vooVazio()), nunca null, então a
+// checagem é sobre o conteúdo, não sobre a existência do objeto.
+function vooTemDado(v) {
+    return !!(v && (v.companhia || v.numero || v.data || v.horaPartida || v.horaChegada || v.precoPago != null || v.obs));
+}
+
 function buscarVooCadastrado(apOrigem, apDestino) {
     if (!apOrigem || !apDestino || apOrigem.id === apDestino.id) return null;
     const direto = IDX.voosDe(apOrigem.id, apDestino.id)[0];
@@ -2376,7 +2383,7 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         data: cfg.dataInicio,
         status: 'ROTA SUGERIDA',
         obs: 'Rota aérea sugerida a partir da cidade de entrada escolhida. O sistema não dispõe de provedor aberto de tarifas: número de voo, horário e preço só aparecem se você os informar.',
-        manual: cfg.vooIda || null,
+        manual: cfg.vooIda || vooVazio(),
         cadastro: buscarVooCadastrado(apOrigemBR, apEntrada)
     });
     voos.push({
@@ -2388,7 +2395,7 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         obs: entrada.id !== saida.id
             ? 'Rota aberta: a saída ocorre por ' + saida.dados.nome + ', aeroporto distinto do de entrada. Emissão em multitrecho.'
             : 'Entrada e saída pela mesma cidade.',
-        manual: cfg.vooVolta || null,
+        manual: cfg.vooVolta || vooVazio(),
         cadastro: buscarVooCadastrado(apSaida, apOrigemBR)
     });
     registrar(roteiro, 'Voos', 'Rota aérea sugerida sem tarifa',
@@ -2495,10 +2502,23 @@ function calcularCustos(cfg, cidadesRota, dias, ingressos, roteiro) {
     const subMax = hosp[1] + comida[1] + transpLocal[1] + extras[1] + trechosMax + ing[1];
     const conting = [subMin * CONFIG.contingencia, subMax * CONFIG.contingencia];
 
+    // Preço pago por pessoa em "voo já emitido" (ida e/ou volta) — dado CONFIRMADO pelo
+    // viajante, não estimado, por isso fica fora do subtotal/contingência terrestre e
+    // vira uma linha própria (ver Render.custos — total terrestre continua sem voos).
+    const idaPP = cfg.vooIda && cfg.vooIda.precoPago != null ? Number(cfg.vooIda.precoPago) : null;
+    const voltaPP = cfg.vooVolta && cfg.vooVolta.precoPago != null ? Number(cfg.vooVolta.precoPago) : null;
+    const vooInformado = idaPP != null || voltaPP != null;
+    const vooValor = vooInformado ? ((idaPP || 0) + (voltaPP || 0)) * pessoas : null;
+    const vooPartes = [idaPP != null ? 'ida' : null, voltaPP != null ? 'volta' : null].filter(Boolean).join(' + ');
+
     return {
         pessoas, noites, dias: diasTotais, quartos, classe: faixa.rotulo,
         linhas: [
-            { id: 'voos', rotulo: 'Voos internacionais', faixa: null, tipo: 'INDISPONIVEL', nota: 'Sem provedor aberto de tarifas aéreas. Informe o valor emitido para que entre no total.' },
+            { id: 'voos', rotulo: 'Voos internacionais', faixa: null, valor: vooValor,
+              tipo: vooInformado ? 'CONFIRMADO' : 'INDISPONIVEL',
+              nota: vooInformado
+                ? 'Preço pago por pessoa informado em "voo já emitido" (' + vooPartes + '), × ' + pessoas + ' pessoa(s). Dado confirmado pelo viajante, não estimado.'
+                : 'Sem provedor aberto de tarifas aéreas. Informe o valor pago em "voo já emitido" para que entre no total.' },
             { id: 'hospedagem', rotulo: 'Hospedagem', faixa: hosp, tipo: 'ESTIMADO', nota: noites + ' noites × ' + quartos + ' quarto(s) × faixa de diária da classe ' + faixa.rotulo + '. Preço por quarto/noite, não por pessoa.' },
             { id: 'alimentacao', rotulo: 'Alimentação', faixa: comida, tipo: 'ESTIMADO', nota: diasTotais + ' dias × ' + pessoas + ' pessoa(s) × faixa diária da classe ' + faixa.rotulo + '.' },
             { id: 'transporte_local', rotulo: 'Transporte urbano', faixa: transpLocal, tipo: 'ESTIMADO', nota: diasTotais + ' dias × ' + pessoas + ' pessoa(s).' },
@@ -3098,8 +3118,15 @@ const Render = {
             h += '<div class="flight-box"><h3>' + U.esc(v.sentido) + ' — ' + U.dataExtenso(v.data) + '</h3><div class="flight-grid">';
             h += '<div class="flight-item"><span class="small">Origem</span><strong>' + U.esc(v.origem) + '</strong></div>';
             h += '<div class="flight-item"><span class="small">Destino</span><strong>' + U.esc(v.destino) + (v.codigo ? ' (' + v.codigo + ')' : '') + '</strong></div>';
-            if (v.manual && v.manual.trim()) {
-                h += '<div class="flight-item"><span class="small">Voo informado por você</span><strong>' + U.esc(v.manual) + '</strong>' + R.selo('CONFIRMADO', 'Entrada manual do viajante', null) + '</div>';
+            if (vooTemDado(v.manual)) {
+                const m = v.manual;
+                const resumo = [[m.companhia, m.numero].filter(Boolean).join(' '), m.data ? U.dataBR(m.data) : '',
+                    [m.horaPartida, m.horaChegada].filter(Boolean).join(' → ')].filter(Boolean).join(' · ');
+                h += '<div class="flight-item"><span class="small">Voo informado por você</span><strong>' + U.esc(resumo || '—') + '</strong>' + R.selo('CONFIRMADO', 'Entrada manual do viajante', null) + '</div>';
+                if (m.precoPago != null) {
+                    h += '<div class="flight-item"><span class="small">Preço pago por pessoa</span><strong>' + U.eur(m.precoPago) + '</strong>' + R.selo('CONFIRMADO', 'Entrada manual do viajante', null) + '</div>';
+                }
+                if (m.obs) h += '<div class="flight-item"><span class="small">Observação</span><strong>' + U.esc(m.obs) + '</strong></div>';
             } else {
                 h += '<div class="flight-item"><span class="small">Número, horário e tarifa</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Nenhum provedor aberto de tarifas', null) + '</div>';
                 if (v.cadastro) {
@@ -3285,7 +3312,9 @@ const Render = {
         h += '<div class="finance-grid">';
         c.linhas.forEach(l => {
             h += '<div class="finance-card"><div class="fl">' + U.esc(l.rotulo) + '</div>';
-            if (!l.faixa) {
+            if (l.valor != null) {
+                h += '<div class="fv">' + U.eur(l.valor) + '</div>';
+            } else if (!l.faixa) {
                 h += '<div class="fv indisponivel">não disponível</div>';
             } else {
                 h += '<div class="fv">' + U.faixaEur(l.faixa[0], l.faixa[1]) + '</div>';
@@ -3312,7 +3341,9 @@ const Render = {
         h += '<div class="ind-grid" style="margin-top:12px;">';
         h += '<div class="ind-card ind-gold"><div class="lbl">Por pessoa</div><div class="desc">' + U.faixaEur(c.porPessoa[0], c.porPessoa[1]) + '</div></div>';
         h += '<div class="ind-card ind-blue"><div class="lbl">Por dia (grupo)</div><div class="desc">' + U.faixaEur(c.porDia[0], c.porDia[1]) + '</div></div>';
-        h += '<div class="ind-card ind-coral"><div class="lbl">Voos internacionais</div><div class="desc indisponivel">não estimado</div></div>';
+        const vooLinha = c.linhas.find(l => l.id === 'voos');
+        h += '<div class="ind-card ind-coral"><div class="lbl">Voos internacionais</div><div class="desc' + (vooLinha.valor != null ? '' : ' indisponivel') + '">' +
+            (vooLinha.valor != null ? U.eur(vooLinha.valor) : 'não estimado') + '</div></div>';
         h += '</div>';
         return R.secao('sec-custos', 'Finanças', '💶 Sumarização financeira', h, '💶 Custos', 'Composição do orçamento por rubrica, com a metodologia de cada estimativa e conversão cambial.');
     },
@@ -3478,6 +3509,14 @@ function renderRoteiro(r) {
 /* =====================================================================================
    [17] FORMULÁRIO (§13) — vive como primeiro módulo do carrossel
    ===================================================================================== */
+/* Estado em branco de um voo "já emitido" (§13/§51) — companhia, número, data, horários
+   e o preço efetivamente pago, tratados como dado CONFIRMADO pelo viajante, nunca como
+   estimativa. Função, pela mesma razão de estadoFormPadrao(): cada leg (ida/volta)
+   precisa do seu próprio objeto, não de uma referência compartilhada. */
+function vooVazio() {
+    return { companhia: '', numero: '', data: '', horaPartida: '', horaChegada: '', precoPago: null, obs: '' };
+}
+
 /* Estado em branco do formulário — usado tanto para inicializar Form.estado quanto para
    devolvê-lo ao ponto de partida em "Limpar Roteiro" (§ App.limparRoteiro). Uma função,
    não um objeto compartilhado, para que cada chamada devolva arrays novos: reaproveitar
@@ -3500,7 +3539,7 @@ function estadoFormPadrao() {
         transporteInterno: 'combinado',
         obrigatorias: [],
         horaChegadaPrevista: '15:00', antecedenciaAeroporto: 180,
-        vooIda: '', vooVolta: ''
+        vooIda: vooVazio(), vooVolta: vooVazio()
     };
 }
 const Form = {
@@ -3606,9 +3645,10 @@ const Form = {
         h += '<div class="fgrid" style="margin-top:14px;">';
         h += Form.campoTexto('horaChegadaPrevista', 'Hora prevista de chegada no primeiro dia', e.horaChegadaPrevista, 'O dia de chegada começa neste horário e recebe 35% da capacidade normal, descontados imigração, bagagem, deslocamento e check-in.');
         h += Form.campoNumero('antecedenciaAeroporto', 'Antecedência no aeroporto (minutos)', e.antecedenciaAeroporto, 'Bloco reservado no dia de partida. O motor não preenche a manhã de partida com atrações que comprometam essa margem.');
-        h += Form.campoTexto('vooIda', 'Voo de ida já emitido (opcional)', e.vooIda, 'Ex.: TP 0016, 10/11, FOR 22:05 → LIS 09:35. O que você informar aqui é tratado como dado CONFIRMADO, não como estimativa.');
-        h += Form.campoTexto('vooVolta', 'Voo de retorno já emitido (opcional)', e.vooVolta, 'Mesma lógica do voo de ida: entra no roteiro com selo de dado confirmado.');
-        h += '</div></div></details>';
+        h += '</div>';
+        h += Form.campoVoo('vooIda', 'ida', e.vooIda);
+        h += Form.campoVoo('vooVolta', 'volta', e.vooVolta);
+        h += '</div></details>';
 
         h += '<div class="form-actions">';
         h += '<button type="button" class="btn-primary" id="btnGerar" title="Executa a cadeia completa: validação, seleção de cidades, distribuição de noites, seleção e ordenação de atrações, cronograma, custos, clima, plano B, validação final e pontuação.">⚙️ Gerar roteiro</button>';
@@ -3901,6 +3941,25 @@ const Form = {
         return h + '</select></div>';
     },
 
+    /* Voo "já emitido" (§13/§51): grupo de campos estruturados para a perna de ida ou
+       de volta, em vez do texto livre anterior. O preço pago passa a ter campo próprio
+       para que possa entrar na Finanças como dado CONFIRMADO — o resto (companhia,
+       número, horários) continua sem obrigatoriedade nenhuma. */
+    campoVoo(chave, sentido, v) {
+        let h = '<h4 style="margin:16px 0 4px;">Voo de ' + sentido + ' já emitido (opcional) ' +
+            Form.ajuda('Preencha só o que você já tem confirmado. Nada aqui é estimado: o que ficar em branco continua indisponível.') + '</h4>';
+        h += '<div class="fgrid">';
+        h += Form.campoTexto(chave + '.companhia', 'Companhia aérea', v.companhia, 'Ex.: TAP Portugal.');
+        h += Form.campoTexto(chave + '.numero', 'Número do voo', v.numero, 'Ex.: TP 0016.');
+        h += Form.campoData(chave + '.data', 'Data', v.data, 'Data deste voo.');
+        h += Form.campoTexto(chave + '.horaPartida', 'Horário de partida', v.horaPartida, 'Ex.: 22:05.');
+        h += Form.campoTexto(chave + '.horaChegada', 'Horário de chegada', v.horaChegada, 'Ex.: 09:35 — pode cair no dia seguinte por causa do fuso.');
+        h += Form.campoNumero(chave + '.precoPago', 'Preço pago por pessoa', v.precoPago, 'O que você efetivamente pagou. Entra na Finanças como dado confirmado pelo viajante, nunca como estimativa.');
+        h += '</div>';
+        h += Form.campoTexto(chave + '.obs', 'Observação (opcional)', v.obs, 'Qualquer detalhe adicional — conexão, bagagem, assento.');
+        return h;
+    },
+
     campoRadio(id, rot, opcoes, val, aj) {
         let h = '<div class="field field-full"><label>' + U.esc(rot) + ' ' + Form.ajuda(aj) + '</label><div style="display:flex;flex-direction:column;gap:6px;margin-top:4px;">';
         opcoes.forEach(o => {
@@ -3925,6 +3984,14 @@ const Form = {
             const c = ev.target.getAttribute && ev.target.getAttribute('data-campo');
             if (!c) return;
             let v = ev.target.value;
+            // Campos de voo estruturado ("vooIda.precoPago" etc.) endereçam um objeto
+            // aninhado em vez de uma chave direta de Form.estado — ver Form.campoVoo().
+            if (c.indexOf('.') >= 0) {
+                const [obj, chave] = c.split('.');
+                if (!Form.estado[obj]) Form.estado[obj] = vooVazio();
+                Form.estado[obj][chave] = chave === 'precoPago' ? (v === '' ? null : Number(v)) : v;
+                return;
+            }
             if (c === 'idades') v = v.split(',').map(x => parseInt(x, 10)).filter(x => !isNaN(x));
             else if (['adultos', 'adolescentes', 'criancas', 'orcamentoTotal', 'antecedenciaAeroporto'].indexOf(c) >= 0) v = v === '' ? null : Number(v);
             Form.estado[c] = v;
@@ -4065,7 +4132,11 @@ const Form = {
             alimentacao: (cfg.alimentacao || []).slice(), transporteInterno: cfg.transporteInterno,
             obrigatorias: (cfg.obrigatorias || []).slice(),
             horaChegadaPrevista: cfg.horaChegadaPrevista, antecedenciaAeroporto: cfg.antecedenciaAeroporto,
-            vooIda: cfg.vooIda || '', vooVolta: cfg.vooVolta || ''
+            // Um roteiro exportado antes desta versão trazia vooIda/vooVolta como texto
+            // livre — importar esse arquivo antigo não pode quebrar o formulário, então
+            // o texto vira a observação do voo estruturado, em vez de descartado.
+            vooIda: typeof cfg.vooIda === 'string' ? Object.assign(vooVazio(), { obs: cfg.vooIda }) : (cfg.vooIda || vooVazio()),
+            vooVolta: typeof cfg.vooVolta === 'string' ? Object.assign(vooVazio(), { obs: cfg.vooVolta }) : (cfg.vooVolta || vooVazio())
         });
     },
 
@@ -4180,7 +4251,7 @@ const Form = {
             transporteInterno: 'combinado',
             obrigatorias: ['cassino_montecassino', 'msa_santuario_sao_miguel', 'sgr_santuario_padre_pio'],
             alimentacao: ['regional', 'economica', 'tradicional'],
-            horaChegadaPrevista: '16:45', antecedenciaAeroporto: 180, vooIda: '', vooVolta: ''
+            horaChegadaPrevista: '16:45', antecedenciaAeroporto: 180, vooIda: vooVazio(), vooVolta: vooVazio()
         });
         Form.montar();
         document.getElementById('formStatus').textContent = 'Cenário de peregrinação carregado — revise e gere.';
@@ -4200,7 +4271,7 @@ const Form = {
             alimentacao: e.alimentacao.slice(), transporteInterno: e.transporteInterno,
             obrigatorias: e.obrigatorias.slice(),
             horaChegadaPrevista: e.horaChegadaPrevista, antecedenciaAeroporto: e.antecedenciaAeroporto,
-            vooIda: e.vooIda, vooVolta: e.vooVolta
+            vooIda: Object.assign({}, e.vooIda), vooVolta: Object.assign({}, e.vooVolta)
         };
     }
 };
@@ -5847,7 +5918,7 @@ const Testes = {
             origem: 'Fortaleza', adultos: 2, adolescentes: 0, criancas: 0, idades: [],
             objetivosSecundarios: [], perfilGrupo: 'familia', caminhada: 'moderada',
             orcamentoTotal: null, alimentacao: [], transporteInterno: 'combinado', obrigatorias: [],
-            horaChegadaPrevista: '15:00', antecedenciaAeroporto: 180, vooIda: '', vooVolta: ''
+            horaChegadaPrevista: '15:00', antecedenciaAeroporto: 180, vooIda: vooVazio(), vooVolta: vooVazio()
         }, c, { viajantes: { total: (c.adultos || 0) + (c.adolescentes || 0) + (c.criancas || 0), adultos: c.adultos || 0, adolescentes: c.adolescentes || 0, criancas: c.criancas || 0, idades: c.idades || [] } });
     },
     async executar() {

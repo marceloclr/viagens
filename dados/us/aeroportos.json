@@ -30,5 +30,21 @@
     "nome": "Aeroporto Internacional Logan de Boston",
     "endereco": "1 Harborside Dr, Boston, MA 02128, EUA",
     "fonte": "massport.com/logan-airport — sítio oficial da Massachusetts Port Authority, consultado em 2026-08-28"
+  },
+  {
+    "id": "atl",
+    "cidadeId": "atlanta",
+    "codigo": "ATL",
+    "nome": "Aeroporto Internacional Hartsfield-Jackson de Atlanta",
+    "endereco": "2600 Maynard H. Jackson Jr. Blvd, Atlanta, GA 30354, EUA",
+    "fonte": "atl.com — sítio oficial do Hartsfield-Jackson Atlanta International Airport (terminal internacional), consultado em 2026-08-28"
+  },
+  {
+    "id": "fll",
+    "cidadeId": "fort_lauderdale",
+    "codigo": "FLL",
+    "nome": "Aeroporto Internacional de Fort Lauderdale–Hollywood",
+    "endereco": "100 Terminal Dr, Fort Lauderdale, FL 33315, EUA",
+    "fonte": "Registros públicos consolidados (aa.com, Broward County Aviation Department), consultado em 2026-08-28"
   }
 ]

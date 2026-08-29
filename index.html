@@ -7272,6 +7272,22 @@ const DB = {
             "fonte": "athensairport.org — sítio oficial do Aeroporto Internacional de Atenas, consultado em 2026-08-27"
         },
         {
+            "id": "atl",
+            "cidadeId": "atlanta",
+            "codigo": "ATL",
+            "nome": "Aeroporto Internacional Hartsfield-Jackson de Atlanta",
+            "endereco": "2600 Maynard H. Jackson Jr. Blvd, Atlanta, GA 30354, EUA",
+            "fonte": "atl.com — sítio oficial do Hartsfield-Jackson Atlanta International Airport (terminal internacional), consultado em 2026-08-28"
+        },
+        {
+            "id": "fll",
+            "cidadeId": "fort_lauderdale",
+            "codigo": "FLL",
+            "nome": "Aeroporto Internacional de Fort Lauderdale–Hollywood",
+            "endereco": "100 Terminal Dr, Fort Lauderdale, FL 33315, EUA",
+            "fonte": "Registros públicos consolidados (aa.com, Broward County Aviation Department), consultado em 2026-08-28"
+        },
+        {
             "id": "for",
             "codigo": "FOR",
             "cidadeNome": "Fortaleza",
@@ -7296,6 +7312,87 @@ const DB = {
             "nome": "Aeropuerto Internacional de Tocumen",
             "endereco": null,
             "fonte": "tocumenpanama.aero — sítio oficial confirma o nome do aeroporto; endereço físico não exposto nesta consulta, confirmar antes de publicar",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "gig",
+            "codigo": "GIG",
+            "cidadeNome": "Rio de Janeiro",
+            "nome": "Aeroporto Internacional do Rio de Janeiro — Galeão / Antônio Carlos Jobim",
+            "endereco": "Av. Vinte de Janeiro, s/nº, Ilha do Governador, Rio de Janeiro - RJ, 21941-900",
+            "fonte": "Cobertura consolidada (fuiserviajante.com, aeroportogaleao.com) sobre o endereço do RIOgaleão — consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "vcp",
+            "codigo": "VCP",
+            "cidadeNome": "Campinas",
+            "nome": "Aeroporto Internacional de Viracopos",
+            "endereco": "Rodovia Santos Dumont, km 66, Campinas - SP, 13052-900",
+            "fonte": "aeroportoviracopos.com — sítio oficial, seção Localização, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "bsb",
+            "codigo": "BSB",
+            "cidadeNome": "Brasília",
+            "nome": "Aeroporto Internacional de Brasília — Presidente Juscelino Kubitschek",
+            "endereco": "Área Especial s/nº, Lago Sul, Brasília - DF, 71608-900",
+            "fonte": "bsb.aero — sítio oficial do Aeroporto Internacional de Brasília, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "cnf",
+            "codigo": "CNF",
+            "cidadeNome": "Belo Horizonte",
+            "nome": "Aeroporto Internacional de Belo Horizonte — Confins / Tancredo Neves",
+            "endereco": "Rodovia LMG-800, km 7,9, Confins - MG, 33500-900",
+            "fonte": "aeroportoconfins.com — sítio oficial (BH Airport), seção Localização, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "rec",
+            "codigo": "REC",
+            "cidadeNome": "Recife",
+            "nome": "Aeroporto Internacional do Recife — Guararapes / Gilberto Freyre",
+            "endereco": "Praça Ministro Salgado Filho, s/nº, Imbiribeira, Recife - PE, 51210-902",
+            "fonte": "aenabrasil.com.br — sítio oficial (Aena Brasil, operadora do aeroporto), consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "ewr",
+            "codigo": "EWR",
+            "cidadeNome": "Newark",
+            "nome": "Aeroporto Internacional de Newark Liberty",
+            "endereco": "3 Brewster Rd, Newark, NJ 07114, EUA",
+            "fonte": "Página oficial da American Airlines para o aeroporto (aa.com) e registros públicos consolidados, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "iah",
+            "codigo": "IAH",
+            "cidadeNome": "Houston",
+            "nome": "Aeroporto Internacional George Bush",
+            "endereco": "2800 N Terminal Rd, Houston, TX 77032, EUA",
+            "fonte": "fly2houston.com — sítio oficial do Houston Airport System, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "lax",
+            "codigo": "LAX",
+            "cidadeNome": "Los Angeles",
+            "nome": "Aeroporto Internacional de Los Angeles",
+            "endereco": "1 World Way, Los Angeles, CA 90045, EUA",
+            "fonte": "flylax.com — sítio oficial de Los Angeles World Airports, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "dfw",
+            "codigo": "DFW",
+            "cidadeNome": "Dallas–Fort Worth",
+            "nome": "Aeroporto Internacional de Dallas–Fort Worth",
+            "endereco": "2400 Aviation Dr, DFW Airport, TX 75261, EUA",
+            "fonte": "dfwairport.com — sítio oficial do Dallas Fort Worth International Airport, consultado em 2026-08-28",
             "consultadoEm": "2026-08-28"
         }
     ],
@@ -8551,15 +8648,15 @@ const DB = {
                 "LATAM Airlines"
             ],
             "duracaoMin": 430,
-            "frequencia": "Semanal (quintas-feiras) — voo LA 8188 na ida, LA 8189 na volta",
+            "frequencia": "Verificação independente (agregadores FlightAware/Flightera, ago/2026) encontra LA 8188/8189 operando 2x por semana, não 1x — e aponta a rota como SAZONAL, com pausa registrada entre 26/10/2025 e 28/03/2026 (baixa temporada no hemisfério norte). O usuário informou 1x/semana (quintas-feiras); a divergência de frequência não foi resolvida nesta sessão — confirme o dia e a quantidade de frequências diretamente com a LATAM antes de comprar.",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
                 "consultadoEm": "2026-08-28"
             },
-            "obs": "Ida: LA 8188, Fortaleza 19h00 → Miami 01h10 do dia seguinte (7h10 de voo). Volta: LA 8189, Miami 03h25 → Fortaleza 11h15. Equipamento Boeing 787-9 Dreamliner. Fortaleza está em UTC-3; Miami, em UTC-4 (horário de verão) ou UTC-5 — a mudança de dia na chegada é real e decorre do fuso, não é erro de cadastro.",
-            "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria (número de voo, horário e equipamento) — não verificado de forma independente pelo assistente contra o sítio oficial da LATAM ou um agregador de voos; confirmar vigência antes de publicar.",
+            "obs": "Ida: LA 8188, Fortaleza 19h00 → Miami 01h10 do dia seguinte (7h10 de voo). Volta: LA 8189, Miami 03h25 → Fortaleza 11h15. Equipamento Boeing 787-9 Dreamliner. Fortaleza está em UTC-3; Miami, em UTC-4 (horário de verão) ou UTC-5 — a mudança de dia na chegada é real e decorre do fuso, não é erro de cadastro. Verificação independente (FlightAware/Flightera) encontrou horário de partida ligeiramente diferente (19h00→01h15, 7h15 de voo) — dentro da margem normal de ajuste de malha, não alterado aqui.",
+            "fonte": "Horário/equipamento: informado pelo usuário nesta sessão de curadoria. Sazonalidade e frequência: verificação independente via FlightAware (flightaware.com/live/flight/LAN8188) e Flightera (flightera.net), consultado em 2026-08-28 — ainda não confirmado diretamente com a LATAM.",
             "consultadoEm": "2026-08-28"
         },
         {
@@ -8571,15 +8668,15 @@ const DB = {
                 "GOL Linhas Aéreas"
             ],
             "duracaoMin": 475,
-            "frequencia": "Semanal (sábados) — voo G3 7654 na ida, G3 7655 na volta",
+            "frequencia": "Semanal, conforme informado pelo usuário (sábados) — G3 7654 na ida, G3 7655 na volta. ATENÇÃO: a verificação independente desta sessão encontrou registros de imprensa de que a GOL já suspendeu esta rota (e a de Miami) fora de alta temporada, retomando-a depois — é uma rota historicamente sazonal/instável, não uma operação garantida o ano todo. Confirme a vigência diretamente com a GOL antes de comprar.",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
                 "consultadoEm": "2026-08-28"
             },
-            "obs": "Ida: G3 7654, Fortaleza 04h30 → Orlando 11h25. Volta: G3 7655, Orlando 12h55 → Fortaleza 21h55. Equipamento Boeing 737 MAX 8. Fortaleza está em UTC-3; Orlando, em UTC-4 (horário de verão) ou UTC-5 — considerar a diferença de fuso ao ler os horários locais.",
-            "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria (número de voo, horário e equipamento) — não verificado de forma independente pelo assistente contra o sítio oficial da GOL ou um agregador de voos; confirmar vigência antes de publicar.",
+            "obs": "Ida: G3 7654, Fortaleza 04h30 → Orlando 11h25. Volta: G3 7655, Orlando 12h55 → Fortaleza 21h55. Equipamento Boeing 737 MAX 8. Fortaleza está em UTC-3; Orlando, em UTC-4 (horário de verão) ou UTC-5 — considerar a diferença de fuso ao ler os horários locais. DIVERGÊNCIA ENCONTRADA: fontes de imprensa/agregadores consultadas nesta sessão registram G3 7654/7655 em horários bem diferentes dos informados aqui (partida diurna ~08h35 e voo noturno ~21h45) em períodos distintos — sinal de que a malha muda por temporada. Os horários informados pelo usuário foram mantidos sem alteração; não foi possível confirmar qual conjunto está vigente em 2026-08.",
+            "fonte": "Números de voo, horário e equipamento: informados pelo usuário nesta sessão de curadoria. Sazonalidade/histórico de suspensão: reportagens de imprensa especializada (passageirodeprimeira.com, falandodeviagem.com.br, nowboarding.com.br), consultado em 2026-08-28 — vigência exata não confirmada diretamente com a GOL.",
             "consultadoEm": "2026-08-28"
         },
         {
@@ -8643,6 +8740,390 @@ const DB = {
             "obs": null,
             "fonte": "Agregadores de voos (omio.com.br, kayak.com, flightconnections.com)",
             "consultadoEm": "2026-08-27"
+        },
+        {
+            "id": "voo_gru_mia",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "mia",
+            "paisId": "us",
+            "companhias": [
+                "American Airlines",
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 495,
+            "frequencia": "American: parte da malha de 42 voos semanais somados de Miami para o Brasil; LATAM: 14–16 voos semanais (aumentando ao longo de 2026) — entre as duas, várias partidas diárias.",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Uma das rotas Brasil–EUA mais densas — GRU e MIA são os dois principais hubs de conexão entre os dois países.",
+            "fonte": "Sítios oficiais American Airlines (aa.com) e LATAM (latamairlines.com), reportagem aeroin.net sobre ampliação LATAM em 2026 — consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_jfk",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "jfk",
+            "paisId": "us",
+            "companhias": [
+                "American Airlines",
+                "Delta Air Lines",
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 575,
+            "frequencia": "21 voos semanais somados das três companhias (~3 partidas diárias), ago/2026",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Operação todo o ano pelas três companhias.",
+            "fonte": "Agregadores de voos (flightconnections.com, kayak.com) e sítios oficiais das companhias, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_ewr",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "ewr",
+            "paisId": "us",
+            "companhias": [
+                "United Airlines"
+            ],
+            "duracaoMin": 580,
+            "frequencia": "7 voos semanais (diário)",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Chega ao Aeroporto de Newark (EWR), não ao JFK — é uma rota distinta, também servida por outras companhias (ver voo_gru_jfk).",
+            "fonte": "Sítio oficial United Airlines (united.com), consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_iah",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "iah",
+            "paisId": "us",
+            "companhias": [
+                "United Airlines"
+            ],
+            "duracaoMin": 590,
+            "frequencia": "7 voos semanais (diário), maio/2026",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "United é a única companhia nesta rota específica (Houston).",
+            "fonte": "Agregadores de voos (flightconnections.com), consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_atl",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "atl",
+            "paisId": "us",
+            "companhias": [
+                "Delta Air Lines"
+            ],
+            "duracaoMin": 570,
+            "frequencia": "Não confirmada com precisão — operação regular, Airbus A330",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "news.delta.com (Delta News Hub), flightsfrom.com, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_lax",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "lax",
+            "paisId": "us",
+            "companhias": [
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 690,
+            "frequencia": "5 voos semanais a partir de junho/2026 (subindo de 4)",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_bos",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "bos",
+            "paisId": "us",
+            "companhias": [
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 560,
+            "frequencia": "4 voos semanais a partir de maio/2026 (subindo de 3)",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gru_mco",
+            "origemAeroporto": "gru",
+            "destinoAeroporto": "mco",
+            "paisId": "us",
+            "companhias": [
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 520,
+            "frequencia": "14 voos semanais (2 por dia) a partir de junho/2026 (subindo de 9)",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Achados de Azul/GRU→Orlando em agregadores parecem ser itinerários com conexão via VCP, não voo direto próprio da Azul — não cadastrados aqui por falta de confirmação.",
+            "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gig_mia",
+            "origemAeroporto": "gig",
+            "destinoAeroporto": "mia",
+            "paisId": "us",
+            "companhias": [
+                "American Airlines"
+            ],
+            "duracaoMin": 555,
+            "frequencia": "9 voos semanais, maio/2026 — única companhia nesta rota",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Operado com Boeing 787 Dreamliner.",
+            "fonte": "Sítio oficial American Airlines (aa.com), flightsfrom.com, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gig_jfk",
+            "origemAeroporto": "gig",
+            "destinoAeroporto": "jfk",
+            "paisId": "us",
+            "companhias": [
+                "American Airlines",
+                "GOL Linhas Aéreas"
+            ],
+            "duracaoMin": 600,
+            "frequencia": "American: sazonal. GOL: 3 voos semanais (quarta, sexta, domingo) desde a inauguração em 08/07/2026 — voo inaugural de longo alcance da GOL, via contrato ACMI com a Wamos Air até a chegada da frota própria A330-900neo (2026–2027).",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "GOL: partida do Rio 21h55, chegada em Nova York 06h55 do dia seguinte; volta 23h00 → 09h55. Airbus A330-300, 280 assentos. GOL também anunciou Rio–Orlando (MCO) com mais 4 frequências semanais no mesmo equipamento, mas sem data de início definida até esta consulta — não cadastrado.",
+            "fonte": "mercadoeeventos.com.br, panrotas.com.br, melhoresdestinos.com.br — cobertura da inauguração do voo de longo alcance da GOL, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gig_dfw",
+            "origemAeroporto": "gig",
+            "destinoAeroporto": "dfw",
+            "paisId": "us",
+            "companhias": [
+                "American Airlines"
+            ],
+            "duracaoMin": 600,
+            "frequencia": "Sazonal — não confirmada com precisão nesta sessão",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "Sítio oficial American Airlines (aa.com), consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_gig_atl",
+            "origemAeroporto": "gig",
+            "destinoAeroporto": "atl",
+            "paisId": "us",
+            "companhias": [
+                "Delta Air Lines"
+            ],
+            "duracaoMin": 585,
+            "frequencia": "4 voos semanais (segunda, quarta, sexta, domingo)",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "news.delta.com (Delta News Hub) — cobertura da retomada dos voos Atlanta–Brasil, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_vcp_fll",
+            "origemAeroporto": "vcp",
+            "destinoAeroporto": "fll",
+            "paisId": "us",
+            "companhias": [
+                "Azul"
+            ],
+            "duracaoMin": 510,
+            "frequencia": "Operação o ano todo",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Primeiro destino internacional da Azul aos EUA a partir de Viracopos (hub da companhia).",
+            "fonte": "viracopos.com (notícia oficial do aeroporto), flightmapper.net, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_vcp_mco",
+            "origemAeroporto": "vcp",
+            "destinoAeroporto": "mco",
+            "paisId": "us",
+            "companhias": [
+                "Azul"
+            ],
+            "duracaoMin": 520,
+            "frequencia": "Operação o ano todo",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "passagens.voeazul.com.br (sítio oficial Azul), consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_vcp_jfk",
+            "origemAeroporto": "vcp",
+            "destinoAeroporto": "jfk",
+            "paisId": "us",
+            "companhias": [
+                "Azul"
+            ],
+            "duracaoMin": 555,
+            "frequencia": "Diário — rota lançada em 2026, a mais nova das três da Azul a partir de Viracopos",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Equipamento Airbus A330. Com esta rota, a Azul passa a operar 30 frequências semanais Brasil–EUA a partir de Viracopos, somando as três rotas (FLL, MCO, JFK).",
+            "fonte": "viracopos.com (notícia oficial do aeroporto) — inauguração da rota Viracopos–Nova York, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_bsb_mia",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "mia",
+            "paisId": "us",
+            "companhias": [
+                "GOL Linhas Aéreas"
+            ],
+            "duracaoMin": 475,
+            "frequencia": "9 voos semanais (cerca de 1 por dia) — única companhia nesta rota",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Equipamento Boeing 737 MAX 8 (176 assentos, econômica e executiva). Rota reaberta pela GOL após período de suspensão — consultar vigência antes de comprar.",
+            "fonte": "bsb.aero (sítio oficial do Aeroporto de Brasília), passageirodeprimeira.com, aeroflap.com.br, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_bsb_mco",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "mco",
+            "paisId": "us",
+            "companhias": [
+                "GOL Linhas Aéreas"
+            ],
+            "duracaoMin": 495,
+            "frequencia": "4 a 7 voos semanais, variando por temporada (mais frequências no verão do hemisfério norte) — única companhia nesta rota",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Equipamento Boeing 737 MAX 8, 176 assentos. Foi a rota mais longa já operada por um 737 MAX até a GOL anunciar Assunção–Miami em 2026.",
+            "fonte": "bsb.aero (sítio oficial do Aeroporto de Brasília), aeroin.net, exame.com, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_cnf_mco",
+            "origemAeroporto": "cnf",
+            "destinoAeroporto": "mco",
+            "paisId": "us",
+            "companhias": [
+                "Azul"
+            ],
+            "duracaoMin": 500,
+            "frequencia": "Operação o ano todo — único destino direto da Azul nos EUA a partir de Confins",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": null,
+            "fonte": "Sítio oficial Azul (passagens.voeazul.com.br), consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_rec_mco",
+            "origemAeroporto": "rec",
+            "destinoAeroporto": "mco",
+            "paisId": "us",
+            "companhias": [
+                "Azul"
+            ],
+            "duracaoMin": 490,
+            "frequencia": "SAZONAL — apenas dezembro e janeiro (alta temporada). Fora desse período, Recife não tem voo direto para os EUA.",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-08-28"
+            },
+            "obs": "Recife teve voo direto para Fort Lauderdale (FLL) inaugurado em 2023, mas essa rota foi descontinuada — reportagem de fevereiro de 2026 confirma que só resta a operação sazonal para Orlando em dez/jan. Fora da janela sazonal, conexão via GRU, VCP, CNF, Belém ou Manaus é necessária.",
+            "fonte": "diariodepernambuco.com.br (fevereiro de 2026) — situação vigente dos voos diretos de Recife para os EUA, consultado em 2026-08-28",
+            "consultadoEm": "2026-08-28"
         }
     ],
     "atracoes": [
@@ -23992,6 +24473,1080 @@ const DB = {
             "fonte": "Ministério das Relações Exteriores — Portal gov.br",
             "consultadoEm": "2026-08-27",
             "observacoes": "Fax institucional: +30 210 724 4731. Horário de atendimento presencial e telefone de plantão para emergências não constavam nas páginas oficiais consultadas — confirme no sítio oficial antes da viagem."
+        },
+        {
+            "id": "br_emb_washington",
+            "paisId": "us",
+            "cidade": "Washington, D.C.",
+            "tipo": "embaixada",
+            "nomeOficial": "Embaixada do Brasil em Washington, D.C.",
+            "endereco": {
+                "valor": "3006 Massachusetts Avenue, NW, Washington, D.C. 20008",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Embaixada do Brasil em Washington, D.C., contatos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (202) 238-2700",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Embaixada do Brasil em Washington, D.C., contatos (fax: +1 202 238-2827)",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "A Embaixada não tem setor consular — atendimento consular é prestado pelo Consulado-Geral do Brasil em Washington, D.C. (repartição distinta, ver br_cg_washington).",
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Página de contatos não expõe um e-mail geral da chancelaria diretamente — só formulário/redes sociais.",
+                "consultadoEm": null
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Sem setor consular na Embaixada — ver br_cg_washington.",
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não confirmado em fonte oficial nesta consulta.",
+                "consultadoEm": null
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Sem funções consulares — atua exclusivamente em assuntos político-diplomáticos. O atendimento consular ao público, para todo o território dos Estados Unidos conforme a jurisdição de cada posto, é prestado pelo Consulado-Geral do Brasil em Washington, D.C. e pelos demais Consulados-Gerais brasileiros no país.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — rede de repartições brasileiras nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-washington",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br (embaixada-washington/contatos), cruzado com embassypages.com para confirmação de endereço e telefone",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "Embaixada (chancelaria, assuntos político-diplomáticos) e Consulado-Geral do Brasil em Washington, D.C. (serviços consulares) são repartições distintas, com endereços diferentes — mesmo padrão adotado para Lisboa/Portugal nesta base. Confirme dados no sítio oficial antes de qualquer contato."
+        },
+        {
+            "id": "br_cg_washington",
+            "paisId": "us",
+            "cidade": "Washington, D.C.",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Washington, D.C.",
+            "endereco": {
+                "valor": "1030 15th Street, NW, Suite 280W, Washington, D.C. 20005",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (202) 461-3000",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.",
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "cons.cgwashington@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "E-mail do setor de assistência a brasileiros localizado (assist.cgwashington@itamaraty.gov.br) — ver observações; não confirmado como e-mail consular geral.",
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não confirmado em fonte oficial nesta consulta.",
+                "consultadoEm": null
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Distrito de Columbia, Delaware, Kentucky, Maryland, Carolina do Norte, Ohio, Virgínia e Virgínia Ocidental, além de bases militares norte-americanas.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-washington",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "E-mail do setor de assistência a brasileiros: assist.cgwashington@itamaraty.gov.br. Horário de atendimento e telefone de plantão não constavam nas páginas consultadas — confirme no sítio oficial ou via e-consular (ec-washington.itamaraty.gov.br) antes de qualquer deslocamento."
+        },
+        {
+            "id": "br_cg_atlanta",
+            "paisId": "us",
+            "cidade": "Atlanta",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Atlanta",
+            "endereco": {
+                "valor": "3500 Lenox Road, One Alliance Center, Suite 800, Atlanta, GA 30326",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre, cruzado com Yelp (avaliações atualizadas de 2026) para confirmar o endereço vigente",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (404) 949-2400",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (telefone adicional encontrado: (404) 949-1204)",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.",
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "cg.atlanta@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, das 8h às 12h e das 13h às 16h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de fontes secundárias (não confirmado diretamente na página oficial nesta consulta) — confirme antes de comparecer.",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-atlanta.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Alabama, Geórgia, Mississippi, Carolina do Sul e Tennessee.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-atlanta",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "Telefone de plantão para emergências não localizado nesta pesquisa — confirme no sítio oficial antes de qualquer deslocamento."
+        },
+        {
+            "id": "br_cg_boston",
+            "paisId": "us",
+            "cidade": "Boston",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Boston",
+            "endereco": {
+                "valor": "175 Purchase Street, Boston, MA 02110",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (617) 542-4000",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Informações gerais",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": "+1 (617) 816-6315",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Emergências",
+                "consultadoEm": "2026-08-28",
+                "nota": "Uso restrito a emergências comprovadas (óbito, acidente, hospitalização, desaparecimento, prisão, inadmissibilidade, deportação e casos similares). O plantonista não presta informação sobre serviços consulares de rotina."
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "contato.boston@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Informações gerais",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira (exceto feriados), das 8h30 às 12h30, exclusivamente com agendamento prévio",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Informações gerais",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": "Atendimento presencial somente mediante agendamento prévio pelo sistema e-consular (ec-boston.itamaraty.gov.br)",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Massachusetts, Maine, New Hampshire e Vermont.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-boston",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "É o posto consular relevante para roteiros com entrada/saída em Boston nesta base. O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina. Confirme dados no sítio oficial antes de qualquer deslocamento."
+        },
+        {
+            "id": "br_cg_chicago",
+            "paisId": "us",
+            "cidade": "Chicago",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Chicago",
+            "endereco": {
+                "valor": "401 North Michigan Avenue, Suite 825, Chicago, IL 60611",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de fontes secundárias (govserv.org, embassypages.com) que convergem no número da suíte atual — endereço-base confirmado também no Portal gov.br/mre",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (312) 464-0245",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (variante também encontrada: (312) 464-0244)",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.",
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "central.chicago@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, das 9h às 13h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de fontes secundárias (não confirmado diretamente na página oficial nesta consulta) — confirme antes de comparecer.",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-chicago.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Nebraska, Dakota do Norte, Dakota do Sul e Wisconsin.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-chicago",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "Telefone de plantão para emergências não localizado nesta pesquisa — confirme no sítio oficial antes de qualquer deslocamento."
+        },
+        {
+            "id": "br_cg_hartford",
+            "paisId": "us",
+            "cidade": "Hartford",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Hartford",
+            "endereco": {
+                "valor": "One Constitution Plaza, Hartford, CT 06103",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos, confirmado por Yelp (avaliações atualizadas de 2026)",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (860) 760-3100",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.",
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "cghartford@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não confirmado em fonte oficial nesta consulta.",
+                "consultadoEm": null
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-hartford.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Connecticut e Rhode Island.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-hartford",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "Jurisdição inclui Rhode Island (Providence), cidade cadastrada nesta base como nó logístico da rota Nova York–Boston. Telefone de plantão não localizado nesta pesquisa — confirme no sítio oficial."
+        },
+        {
+            "id": "br_cg_houston",
+            "paisId": "us",
+            "cidade": "Houston",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Houston",
+            "endereco": {
+                "valor": "5444 Westheimer Road, Suite 1900, Houston, TX",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada e convergente de fontes secundárias (Yelp, avaliações atualizadas de 2026) — endereço não confirmado por fetch direto da página oficial nesta consulta; CEP não encontrado, confirme antes de qualquer deslocamento",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (713) 961-3063",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de fontes secundárias, consistente com o endereço acima",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": "+1 (281) 384-4966",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Houston, Informações gerais",
+                "consultadoEm": "2026-08-28",
+                "nota": "Uso restrito a emergências comprovadas envolvendo brasileiros (acidentes graves, óbito e casos similares)."
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "consular.houston@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Houston (outros e-mails setoriais: cg.houston@itamaraty.gov.br, registros.houston@itamaraty.gov.br, passaporte.houston@itamaraty.gov.br, visa.houston@itamaraty.gov.br, assistencia.houston@itamaraty.gov.br)",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": "assistencia.houston@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Houston, e-mail do setor de assistência a brasileiros",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, exclusivamente com agendamento prévio",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de fontes secundárias (não confirmado diretamente na página oficial nesta consulta)",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Todos os serviços consulares são solicitados pelo sistema e-consular (ec-houston.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Arkansas, Colorado, Kansas, Luisiana, Novo México, Oklahoma e Texas.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-houston",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "O endereço físico não pôde ser lido por fetch direto da página oficial nesta sessão de curadoria — confirmado apenas por convergência de fontes secundárias (inclusive avaliações públicas recentes no mesmo endereço). O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina. Confirme no sítio oficial antes de qualquer deslocamento."
+        },
+        {
+            "id": "br_cg_los_angeles",
+            "paisId": "us",
+            "cidade": "Los Angeles",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Los Angeles",
+            "endereco": {
+                "valor": "6222 Wilshire Boulevard, Suite 600, Los Angeles, CA 90048-5100",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, Endereço e Contatos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (323) 651-2664",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, Endereço e Contatos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": "+1 (213) 453-1084",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, Endereço e Contatos",
+                "consultadoEm": "2026-08-28",
+                "nota": "Linha de emergência para fins de semana e feriados — uso restrito a emergências comprovadas."
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "cg.losangeles@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (e-mails setoriais também existem, ex.: passaporte.la@itamaraty.gov.br, visa.la@itamaraty.gov.br)",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, das 9h às 17h (exceto feriados) — atendimento presencial só com agendamento prévio",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, Endereço e Contatos",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-losangeles.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Arizona, Havaí, Idaho, Montana, Nevada, Utah e Wyoming, além de parte dos condados da Califórnia (a jurisdição da Califórnia é dividida com os Consulados-Gerais em San Francisco).",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-los-angeles",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "A divisão exata de condados californianos entre Los Angeles e San Francisco não foi detalhada nesta pesquisa — confirme no sítio oficial para casos de fronteira de jurisdição. O telefone de plantão de fim de semana/feriado é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
+        },
+        {
+            "id": "br_cg_miami",
+            "paisId": "us",
+            "cidade": "Miami",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Miami",
+            "endereco": {
+                "valor": "80 SW 8th Street, 26º andar, Miami, FL 33130",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (305) 285-6200",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": "+1 (305) 342-6727",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami, Emergência Consular",
+                "consultadoEm": "2026-08-28",
+                "nota": "Uso restrito a emergências comprovadas (óbito, hospitalização, prisão/detenção, desaparecimento, acidente grave, situação humanitária, catástrofe, crime, maus-tratos e violência, inclusive doméstica)."
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "consular.miami@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami, Informações Gerais",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": "assistencia.miami@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami, Assistência a Brasileiros",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, das 9h às 14h, exclusivamente com agendamento prévio",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami, Perguntas Frequentes",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": "Atendimento presencial somente mediante agendamento prévio pelo sistema e-consular (ec-miami.itamaraty.gov.br)",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Flórida (exceto os condados sob jurisdição do Consulado-Geral em Orlando), Porto Rico e Ilhas Virgens Americanas.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos, ajustada após a criação do posto em Orlando (2022)",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-miami",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "É o posto consular relevante para roteiros com entrada/saída em Miami, Fort Lauderdale ou West Palm Beach nesta base. A jurisdição sobre o sul e o centro-sul da Flórida foi redesenhada quando o Consulado-Geral em Orlando abriu em 2022 — confirme o condado exato no sítio oficial em caso de dúvida. O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
+        },
+        {
+            "id": "br_cg_nova_york",
+            "paisId": "us",
+            "cidade": "Nova York",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Nova York",
+            "endereco": {
+                "valor": "225 East 41st Street, New York, NY 10017-6927",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (212) 827-0976",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos; linha regular também confirmada de 9h às 16h em dias úteis",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": "+1 (646) 403-2676",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Nova York, Plantão Consular",
+                "consultadoEm": "2026-08-28",
+                "nota": "Uso restrito a emergências comprovadas que exijam orientação imediata fora do horário de expediente (segunda a sexta, 9h–16h). O plantonista não presta informação sobre serviços consulares ou vistos."
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "cg.novayork@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": "assistencia.novayork@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Nova York, Assistência a Brasileiros",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, das 9h às 16h",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Nova York, Plantão Consular",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": "Atendimento presencial somente mediante agendamento prévio pelo sistema e-consular (ec-novayork.itamaraty.gov.br)",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Nova York",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Nova York, Nova Jersey, Pensilvânia e as Ilhas Bermudas.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-nova-york",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "É o posto consular relevante para roteiros com entrada/saída em Nova York, Filadélfia ou New Haven nesta base. O telefone de plantão é de uso exclusivo para emergências comprovadas fora do expediente, não para trâmites consulares de rotina ou dúvidas sobre visto."
+        },
+        {
+            "id": "br_cg_orlando",
+            "paisId": "us",
+            "cidade": "Orlando",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em Orlando",
+            "endereco": {
+                "valor": "355 N Orange Avenue, Orlando, FL 32801",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada e convergente de fontes secundárias (Yelp, redes sociais oficiais do posto) — endereço não confirmado por fetch direto da página oficial nesta consulta",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.",
+                "consultadoEm": null
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Plantão de emergência divulgado apenas por WhatsApp — ver whatsappPlantao.",
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": "+1 (321) 387-9716",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando",
+                "consultadoEm": "2026-08-28",
+                "nota": "Uso restrito a emergências comprovadas (óbito, hospitalização, prisão) em fins de semana, feriados e fora do expediente."
+            },
+            "emailGeral": {
+                "valor": "consular.orlando@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": "assistencia.orlando@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando, Setor de Assistência a Brasileiros",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioAtendimento": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não confirmado em fonte oficial nesta consulta.",
+                "consultadoEm": null
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-orlando.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Flórida central e norte — inclui, entre outros, os condados de Orange, Osceola, Seminole, Volusia, Brevard, Duval, Hillsborough, Pinellas, Polk, Marion e Alachua. Lista completa de condados no sítio oficial.",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando, Informações Gerais",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-orlando",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "Posto inaugurado como Vice-Consulado em 11/06/2022 e elevado a Consulado-Geral em 2023 — algumas páginas e URLs do sítio oficial ainda usam a nomenclatura \"vice-consulado\" por herança. É o posto consular relevante para roteiros com entrada/saída em Orlando, Titusville/Cabo Canaveral, Daytona Beach, Santo Agostinho, Jacksonville, Tampa, Ocala ou Gainesville nesta base — a área de maior densidade de cidades cadastradas do sistema nos EUA. Telefone geral e horário de atendimento não confirmados por fetch direto nesta sessão — confirme no sítio oficial antes de qualquer deslocamento. O contato de plantão (WhatsApp) é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
+        },
+        {
+            "id": "br_cg_sao_francisco",
+            "paisId": "us",
+            "cidade": "São Francisco",
+            "tipo": "consulado_geral",
+            "nomeOficial": "Consulado-Geral do Brasil em São Francisco",
+            "endereco": {
+                "valor": "300 Montgomery Street, Suite 300, San Francisco, CA 94104",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco, Address and Contacts",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneGeral": {
+                "valor": "+1 (415) 981-8170",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco, Address and Contacts (fax: +1 415 598-7230)",
+                "consultadoEm": "2026-08-28"
+            },
+            "telefoneConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "telefonePlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.",
+                "consultadoEm": null
+            },
+            "whatsappGeral": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "whatsappPlantao": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "emailGeral": {
+                "valor": "cg.sfrancisco@itamaraty.gov.br",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (e-mails setoriais também existem, ex.: visa.sf@itamaraty.gov.br, passaporte.sf@itamaraty.gov.br, comunidade.sf@itamaraty.gov.br)",
+                "consultadoEm": "2026-08-28"
+            },
+            "emailConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "horarioAtendimento": {
+                "valor": "Segunda a sexta-feira, das 9h às 13h, exclusivamente com agendamento prévio pelo sistema e-consular",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco, Address and Contacts",
+                "consultadoEm": "2026-08-28"
+            },
+            "horarioConsular": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-saofrancisco.itamaraty.gov.br).",
+                "consultadoEm": null
+            },
+            "horarioTelefonico": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": null,
+                "consultadoEm": null
+            },
+            "jurisdicao": {
+                "valor": "Alasca, Oregon e Washington, além de parte dos condados da Califórnia (a jurisdição da Califórnia é dividida com o Consulado-Geral em Los Angeles).",
+                "tipo": "CADASTRADO",
+                "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
+                "consultadoEm": "2026-08-28"
+            },
+            "siteOficial": "https://www.gov.br/mre/pt-br/consulado-sao-francisco",
+            "fonte": "Ministério das Relações Exteriores — Portal gov.br",
+            "consultadoEm": "2026-08-28",
+            "observacoes": "A divisão exata de condados californianos entre San Francisco e Los Angeles não foi detalhada nesta pesquisa — confirme no sítio oficial para casos de fronteira de jurisdição."
         }
     ],
     "portalConsular": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
@@ -25446,6 +27001,13 @@ function trechoCompativel(cfg, t) {
    base. Isto NÃO é o voo do viajante: é a rota que existe e quem a opera. Número,
    horário e tarifa exatos continuam vindo só de "voo já emitido" (§13, §51) — uma rota
    cadastrada não vira previsão do voo que a pessoa vai pegar. */
+// Um voo "já emitido" (§13/§51) é considerado informado quando pelo menos um dos seus
+// campos foi preenchido — objeto sempre presente (vooVazio()), nunca null, então a
+// checagem é sobre o conteúdo, não sobre a existência do objeto.
+function vooTemDado(v) {
+    return !!(v && (v.companhia || v.numero || v.data || v.horaPartida || v.horaChegada || v.precoPago != null || v.obs));
+}
+
 function buscarVooCadastrado(apOrigem, apDestino) {
     if (!apOrigem || !apDestino || apOrigem.id === apDestino.id) return null;
     const direto = IDX.voosDe(apOrigem.id, apDestino.id)[0];
@@ -25470,7 +27032,7 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         data: cfg.dataInicio,
         status: 'ROTA SUGERIDA',
         obs: 'Rota aérea sugerida a partir da cidade de entrada escolhida. O sistema não dispõe de provedor aberto de tarifas: número de voo, horário e preço só aparecem se você os informar.',
-        manual: cfg.vooIda || null,
+        manual: cfg.vooIda || vooVazio(),
         cadastro: buscarVooCadastrado(apOrigemBR, apEntrada)
     });
     voos.push({
@@ -25482,7 +27044,7 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         obs: entrada.id !== saida.id
             ? 'Rota aberta: a saída ocorre por ' + saida.dados.nome + ', aeroporto distinto do de entrada. Emissão em multitrecho.'
             : 'Entrada e saída pela mesma cidade.',
-        manual: cfg.vooVolta || null,
+        manual: cfg.vooVolta || vooVazio(),
         cadastro: buscarVooCadastrado(apSaida, apOrigemBR)
     });
     registrar(roteiro, 'Voos', 'Rota aérea sugerida sem tarifa',
@@ -25589,10 +27151,23 @@ function calcularCustos(cfg, cidadesRota, dias, ingressos, roteiro) {
     const subMax = hosp[1] + comida[1] + transpLocal[1] + extras[1] + trechosMax + ing[1];
     const conting = [subMin * CONFIG.contingencia, subMax * CONFIG.contingencia];
 
+    // Preço pago por pessoa em "voo já emitido" (ida e/ou volta) — dado CONFIRMADO pelo
+    // viajante, não estimado, por isso fica fora do subtotal/contingência terrestre e
+    // vira uma linha própria (ver Render.custos — total terrestre continua sem voos).
+    const idaPP = cfg.vooIda && cfg.vooIda.precoPago != null ? Number(cfg.vooIda.precoPago) : null;
+    const voltaPP = cfg.vooVolta && cfg.vooVolta.precoPago != null ? Number(cfg.vooVolta.precoPago) : null;
+    const vooInformado = idaPP != null || voltaPP != null;
+    const vooValor = vooInformado ? ((idaPP || 0) + (voltaPP || 0)) * pessoas : null;
+    const vooPartes = [idaPP != null ? 'ida' : null, voltaPP != null ? 'volta' : null].filter(Boolean).join(' + ');
+
     return {
         pessoas, noites, dias: diasTotais, quartos, classe: faixa.rotulo,
         linhas: [
-            { id: 'voos', rotulo: 'Voos internacionais', faixa: null, tipo: 'INDISPONIVEL', nota: 'Sem provedor aberto de tarifas aéreas. Informe o valor emitido para que entre no total.' },
+            { id: 'voos', rotulo: 'Voos internacionais', faixa: null, valor: vooValor,
+              tipo: vooInformado ? 'CONFIRMADO' : 'INDISPONIVEL',
+              nota: vooInformado
+                ? 'Preço pago por pessoa informado em "voo já emitido" (' + vooPartes + '), × ' + pessoas + ' pessoa(s). Dado confirmado pelo viajante, não estimado.'
+                : 'Sem provedor aberto de tarifas aéreas. Informe o valor pago em "voo já emitido" para que entre no total.' },
             { id: 'hospedagem', rotulo: 'Hospedagem', faixa: hosp, tipo: 'ESTIMADO', nota: noites + ' noites × ' + quartos + ' quarto(s) × faixa de diária da classe ' + faixa.rotulo + '. Preço por quarto/noite, não por pessoa.' },
             { id: 'alimentacao', rotulo: 'Alimentação', faixa: comida, tipo: 'ESTIMADO', nota: diasTotais + ' dias × ' + pessoas + ' pessoa(s) × faixa diária da classe ' + faixa.rotulo + '.' },
             { id: 'transporte_local', rotulo: 'Transporte urbano', faixa: transpLocal, tipo: 'ESTIMADO', nota: diasTotais + ' dias × ' + pessoas + ' pessoa(s).' },
@@ -26192,8 +27767,15 @@ const Render = {
             h += '<div class="flight-box"><h3>' + U.esc(v.sentido) + ' — ' + U.dataExtenso(v.data) + '</h3><div class="flight-grid">';
             h += '<div class="flight-item"><span class="small">Origem</span><strong>' + U.esc(v.origem) + '</strong></div>';
             h += '<div class="flight-item"><span class="small">Destino</span><strong>' + U.esc(v.destino) + (v.codigo ? ' (' + v.codigo + ')' : '') + '</strong></div>';
-            if (v.manual && v.manual.trim()) {
-                h += '<div class="flight-item"><span class="small">Voo informado por você</span><strong>' + U.esc(v.manual) + '</strong>' + R.selo('CONFIRMADO', 'Entrada manual do viajante', null) + '</div>';
+            if (vooTemDado(v.manual)) {
+                const m = v.manual;
+                const resumo = [[m.companhia, m.numero].filter(Boolean).join(' '), m.data ? U.dataBR(m.data) : '',
+                    [m.horaPartida, m.horaChegada].filter(Boolean).join(' → ')].filter(Boolean).join(' · ');
+                h += '<div class="flight-item"><span class="small">Voo informado por você</span><strong>' + U.esc(resumo || '—') + '</strong>' + R.selo('CONFIRMADO', 'Entrada manual do viajante', null) + '</div>';
+                if (m.precoPago != null) {
+                    h += '<div class="flight-item"><span class="small">Preço pago por pessoa</span><strong>' + U.eur(m.precoPago) + '</strong>' + R.selo('CONFIRMADO', 'Entrada manual do viajante', null) + '</div>';
+                }
+                if (m.obs) h += '<div class="flight-item"><span class="small">Observação</span><strong>' + U.esc(m.obs) + '</strong></div>';
             } else {
                 h += '<div class="flight-item"><span class="small">Número, horário e tarifa</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Nenhum provedor aberto de tarifas', null) + '</div>';
                 if (v.cadastro) {
@@ -26379,7 +27961,9 @@ const Render = {
         h += '<div class="finance-grid">';
         c.linhas.forEach(l => {
             h += '<div class="finance-card"><div class="fl">' + U.esc(l.rotulo) + '</div>';
-            if (!l.faixa) {
+            if (l.valor != null) {
+                h += '<div class="fv">' + U.eur(l.valor) + '</div>';
+            } else if (!l.faixa) {
                 h += '<div class="fv indisponivel">não disponível</div>';
             } else {
                 h += '<div class="fv">' + U.faixaEur(l.faixa[0], l.faixa[1]) + '</div>';
@@ -26406,7 +27990,9 @@ const Render = {
         h += '<div class="ind-grid" style="margin-top:12px;">';
         h += '<div class="ind-card ind-gold"><div class="lbl">Por pessoa</div><div class="desc">' + U.faixaEur(c.porPessoa[0], c.porPessoa[1]) + '</div></div>';
         h += '<div class="ind-card ind-blue"><div class="lbl">Por dia (grupo)</div><div class="desc">' + U.faixaEur(c.porDia[0], c.porDia[1]) + '</div></div>';
-        h += '<div class="ind-card ind-coral"><div class="lbl">Voos internacionais</div><div class="desc indisponivel">não estimado</div></div>';
+        const vooLinha = c.linhas.find(l => l.id === 'voos');
+        h += '<div class="ind-card ind-coral"><div class="lbl">Voos internacionais</div><div class="desc' + (vooLinha.valor != null ? '' : ' indisponivel') + '">' +
+            (vooLinha.valor != null ? U.eur(vooLinha.valor) : 'não estimado') + '</div></div>';
         h += '</div>';
         return R.secao('sec-custos', 'Finanças', '💶 Sumarização financeira', h, '💶 Custos', 'Composição do orçamento por rubrica, com a metodologia de cada estimativa e conversão cambial.');
     },
@@ -26572,6 +28158,14 @@ function renderRoteiro(r) {
 /* =====================================================================================
    [17] FORMULÁRIO (§13) — vive como primeiro módulo do carrossel
    ===================================================================================== */
+/* Estado em branco de um voo "já emitido" (§13/§51) — companhia, número, data, horários
+   e o preço efetivamente pago, tratados como dado CONFIRMADO pelo viajante, nunca como
+   estimativa. Função, pela mesma razão de estadoFormPadrao(): cada leg (ida/volta)
+   precisa do seu próprio objeto, não de uma referência compartilhada. */
+function vooVazio() {
+    return { companhia: '', numero: '', data: '', horaPartida: '', horaChegada: '', precoPago: null, obs: '' };
+}
+
 /* Estado em branco do formulário — usado tanto para inicializar Form.estado quanto para
    devolvê-lo ao ponto de partida em "Limpar Roteiro" (§ App.limparRoteiro). Uma função,
    não um objeto compartilhado, para que cada chamada devolva arrays novos: reaproveitar
@@ -26594,7 +28188,7 @@ function estadoFormPadrao() {
         transporteInterno: 'combinado',
         obrigatorias: [],
         horaChegadaPrevista: '15:00', antecedenciaAeroporto: 180,
-        vooIda: '', vooVolta: ''
+        vooIda: vooVazio(), vooVolta: vooVazio()
     };
 }
 const Form = {
@@ -26700,9 +28294,10 @@ const Form = {
         h += '<div class="fgrid" style="margin-top:14px;">';
         h += Form.campoTexto('horaChegadaPrevista', 'Hora prevista de chegada no primeiro dia', e.horaChegadaPrevista, 'O dia de chegada começa neste horário e recebe 35% da capacidade normal, descontados imigração, bagagem, deslocamento e check-in.');
         h += Form.campoNumero('antecedenciaAeroporto', 'Antecedência no aeroporto (minutos)', e.antecedenciaAeroporto, 'Bloco reservado no dia de partida. O motor não preenche a manhã de partida com atrações que comprometam essa margem.');
-        h += Form.campoTexto('vooIda', 'Voo de ida já emitido (opcional)', e.vooIda, 'Ex.: TP 0016, 10/11, FOR 22:05 → LIS 09:35. O que você informar aqui é tratado como dado CONFIRMADO, não como estimativa.');
-        h += Form.campoTexto('vooVolta', 'Voo de retorno já emitido (opcional)', e.vooVolta, 'Mesma lógica do voo de ida: entra no roteiro com selo de dado confirmado.');
-        h += '</div></div></details>';
+        h += '</div>';
+        h += Form.campoVoo('vooIda', 'ida', e.vooIda);
+        h += Form.campoVoo('vooVolta', 'volta', e.vooVolta);
+        h += '</div></details>';
 
         h += '<div class="form-actions">';
         h += '<button type="button" class="btn-primary" id="btnGerar" title="Executa a cadeia completa: validação, seleção de cidades, distribuição de noites, seleção e ordenação de atrações, cronograma, custos, clima, plano B, validação final e pontuação.">⚙️ Gerar roteiro</button>';
@@ -26995,6 +28590,25 @@ const Form = {
         return h + '</select></div>';
     },
 
+    /* Voo "já emitido" (§13/§51): grupo de campos estruturados para a perna de ida ou
+       de volta, em vez do texto livre anterior. O preço pago passa a ter campo próprio
+       para que possa entrar na Finanças como dado CONFIRMADO — o resto (companhia,
+       número, horários) continua sem obrigatoriedade nenhuma. */
+    campoVoo(chave, sentido, v) {
+        let h = '<h4 style="margin:16px 0 4px;">Voo de ' + sentido + ' já emitido (opcional) ' +
+            Form.ajuda('Preencha só o que você já tem confirmado. Nada aqui é estimado: o que ficar em branco continua indisponível.') + '</h4>';
+        h += '<div class="fgrid">';
+        h += Form.campoTexto(chave + '.companhia', 'Companhia aérea', v.companhia, 'Ex.: TAP Portugal.');
+        h += Form.campoTexto(chave + '.numero', 'Número do voo', v.numero, 'Ex.: TP 0016.');
+        h += Form.campoData(chave + '.data', 'Data', v.data, 'Data deste voo.');
+        h += Form.campoTexto(chave + '.horaPartida', 'Horário de partida', v.horaPartida, 'Ex.: 22:05.');
+        h += Form.campoTexto(chave + '.horaChegada', 'Horário de chegada', v.horaChegada, 'Ex.: 09:35 — pode cair no dia seguinte por causa do fuso.');
+        h += Form.campoNumero(chave + '.precoPago', 'Preço pago por pessoa', v.precoPago, 'O que você efetivamente pagou. Entra na Finanças como dado confirmado pelo viajante, nunca como estimativa.');
+        h += '</div>';
+        h += Form.campoTexto(chave + '.obs', 'Observação (opcional)', v.obs, 'Qualquer detalhe adicional — conexão, bagagem, assento.');
+        return h;
+    },
+
     campoRadio(id, rot, opcoes, val, aj) {
         let h = '<div class="field field-full"><label>' + U.esc(rot) + ' ' + Form.ajuda(aj) + '</label><div style="display:flex;flex-direction:column;gap:6px;margin-top:4px;">';
         opcoes.forEach(o => {
@@ -27019,6 +28633,14 @@ const Form = {
             const c = ev.target.getAttribute && ev.target.getAttribute('data-campo');
             if (!c) return;
             let v = ev.target.value;
+            // Campos de voo estruturado ("vooIda.precoPago" etc.) endereçam um objeto
+            // aninhado em vez de uma chave direta de Form.estado — ver Form.campoVoo().
+            if (c.indexOf('.') >= 0) {
+                const [obj, chave] = c.split('.');
+                if (!Form.estado[obj]) Form.estado[obj] = vooVazio();
+                Form.estado[obj][chave] = chave === 'precoPago' ? (v === '' ? null : Number(v)) : v;
+                return;
+            }
             if (c === 'idades') v = v.split(',').map(x => parseInt(x, 10)).filter(x => !isNaN(x));
             else if (['adultos', 'adolescentes', 'criancas', 'orcamentoTotal', 'antecedenciaAeroporto'].indexOf(c) >= 0) v = v === '' ? null : Number(v);
             Form.estado[c] = v;
@@ -27159,7 +28781,11 @@ const Form = {
             alimentacao: (cfg.alimentacao || []).slice(), transporteInterno: cfg.transporteInterno,
             obrigatorias: (cfg.obrigatorias || []).slice(),
             horaChegadaPrevista: cfg.horaChegadaPrevista, antecedenciaAeroporto: cfg.antecedenciaAeroporto,
-            vooIda: cfg.vooIda || '', vooVolta: cfg.vooVolta || ''
+            // Um roteiro exportado antes desta versão trazia vooIda/vooVolta como texto
+            // livre — importar esse arquivo antigo não pode quebrar o formulário, então
+            // o texto vira a observação do voo estruturado, em vez de descartado.
+            vooIda: typeof cfg.vooIda === 'string' ? Object.assign(vooVazio(), { obs: cfg.vooIda }) : (cfg.vooIda || vooVazio()),
+            vooVolta: typeof cfg.vooVolta === 'string' ? Object.assign(vooVazio(), { obs: cfg.vooVolta }) : (cfg.vooVolta || vooVazio())
         });
     },
 
@@ -27274,7 +28900,7 @@ const Form = {
             transporteInterno: 'combinado',
             obrigatorias: ['cassino_montecassino', 'msa_santuario_sao_miguel', 'sgr_santuario_padre_pio'],
             alimentacao: ['regional', 'economica', 'tradicional'],
-            horaChegadaPrevista: '16:45', antecedenciaAeroporto: 180, vooIda: '', vooVolta: ''
+            horaChegadaPrevista: '16:45', antecedenciaAeroporto: 180, vooIda: vooVazio(), vooVolta: vooVazio()
         });
         Form.montar();
         document.getElementById('formStatus').textContent = 'Cenário de peregrinação carregado — revise e gere.';
@@ -27294,7 +28920,7 @@ const Form = {
             alimentacao: e.alimentacao.slice(), transporteInterno: e.transporteInterno,
             obrigatorias: e.obrigatorias.slice(),
             horaChegadaPrevista: e.horaChegadaPrevista, antecedenciaAeroporto: e.antecedenciaAeroporto,
-            vooIda: e.vooIda, vooVolta: e.vooVolta
+            vooIda: Object.assign({}, e.vooIda), vooVolta: Object.assign({}, e.vooVolta)
         };
     }
 };
@@ -28941,7 +30567,7 @@ const Testes = {
             origem: 'Fortaleza', adultos: 2, adolescentes: 0, criancas: 0, idades: [],
             objetivosSecundarios: [], perfilGrupo: 'familia', caminhada: 'moderada',
             orcamentoTotal: null, alimentacao: [], transporteInterno: 'combinado', obrigatorias: [],
-            horaChegadaPrevista: '15:00', antecedenciaAeroporto: 180, vooIda: '', vooVolta: ''
+            horaChegadaPrevista: '15:00', antecedenciaAeroporto: 180, vooIda: vooVazio(), vooVolta: vooVazio()
         }, c, { viajantes: { total: (c.adultos || 0) + (c.adolescentes || 0) + (c.criancas || 0), adultos: c.adultos || 0, adolescentes: c.adolescentes || 0, criancas: c.criancas || 0, idades: c.idades || [] } });
     },
     async executar() {

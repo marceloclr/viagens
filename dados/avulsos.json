@@ -26,6 +26,87 @@
       "endereco": null,
       "fonte": "tocumenpanama.aero — sítio oficial confirma o nome do aeroporto; endereço físico não exposto nesta consulta, confirmar antes de publicar",
       "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "gig",
+      "codigo": "GIG",
+      "cidadeNome": "Rio de Janeiro",
+      "nome": "Aeroporto Internacional do Rio de Janeiro — Galeão / Antônio Carlos Jobim",
+      "endereco": "Av. Vinte de Janeiro, s/nº, Ilha do Governador, Rio de Janeiro - RJ, 21941-900",
+      "fonte": "Cobertura consolidada (fuiserviajante.com, aeroportogaleao.com) sobre o endereço do RIOgaleão — consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "vcp",
+      "codigo": "VCP",
+      "cidadeNome": "Campinas",
+      "nome": "Aeroporto Internacional de Viracopos",
+      "endereco": "Rodovia Santos Dumont, km 66, Campinas - SP, 13052-900",
+      "fonte": "aeroportoviracopos.com — sítio oficial, seção Localização, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "bsb",
+      "codigo": "BSB",
+      "cidadeNome": "Brasília",
+      "nome": "Aeroporto Internacional de Brasília — Presidente Juscelino Kubitschek",
+      "endereco": "Área Especial s/nº, Lago Sul, Brasília - DF, 71608-900",
+      "fonte": "bsb.aero — sítio oficial do Aeroporto Internacional de Brasília, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "cnf",
+      "codigo": "CNF",
+      "cidadeNome": "Belo Horizonte",
+      "nome": "Aeroporto Internacional de Belo Horizonte — Confins / Tancredo Neves",
+      "endereco": "Rodovia LMG-800, km 7,9, Confins - MG, 33500-900",
+      "fonte": "aeroportoconfins.com — sítio oficial (BH Airport), seção Localização, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "rec",
+      "codigo": "REC",
+      "cidadeNome": "Recife",
+      "nome": "Aeroporto Internacional do Recife — Guararapes / Gilberto Freyre",
+      "endereco": "Praça Ministro Salgado Filho, s/nº, Imbiribeira, Recife - PE, 51210-902",
+      "fonte": "aenabrasil.com.br — sítio oficial (Aena Brasil, operadora do aeroporto), consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "ewr",
+      "codigo": "EWR",
+      "cidadeNome": "Newark",
+      "nome": "Aeroporto Internacional de Newark Liberty",
+      "endereco": "3 Brewster Rd, Newark, NJ 07114, EUA",
+      "fonte": "Página oficial da American Airlines para o aeroporto (aa.com) e registros públicos consolidados, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "iah",
+      "codigo": "IAH",
+      "cidadeNome": "Houston",
+      "nome": "Aeroporto Internacional George Bush",
+      "endereco": "2800 N Terminal Rd, Houston, TX 77032, EUA",
+      "fonte": "fly2houston.com — sítio oficial do Houston Airport System, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "lax",
+      "codigo": "LAX",
+      "cidadeNome": "Los Angeles",
+      "nome": "Aeroporto Internacional de Los Angeles",
+      "endereco": "1 World Way, Los Angeles, CA 90045, EUA",
+      "fonte": "flylax.com — sítio oficial de Los Angeles World Airports, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "dfw",
+      "codigo": "DFW",
+      "cidadeNome": "Dallas–Fort Worth",
+      "nome": "Aeroporto Internacional de Dallas–Fort Worth",
+      "endereco": "2400 Aviation Dr, DFW Airport, TX 75261, EUA",
+      "fonte": "dfwairport.com — sítio oficial do Dallas Fort Worth International Airport, consultado em 2026-08-28",
+      "consultadoEm": "2026-08-28"
     }
   ],
   "estacoes": []
