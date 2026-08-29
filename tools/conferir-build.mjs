@@ -21,7 +21,10 @@ const elFake = () => ({
 
 function carregar(arquivo) {
     const html = fs.readFileSync(arquivo, 'utf8');
-    const src = html.slice(html.indexOf('<script>') + 8, html.lastIndexOf('</script>'));
+    // lastIndexOf, não indexOf: se o arquivo tiver um <script> pequeno antes do
+    // bloco principal (caso de index.html, que aplica o tema no <head>), isto
+    // ainda pega só o motor. Em arquivos de um script só, dá o mesmo resultado.
+    const src = html.slice(html.lastIndexOf('<script>') + 8, html.lastIndexOf('</script>'));
     const ctx = {
         console: { log() {}, group() {}, groupEnd() {}, error() {} },
         Date, Math, JSON, Set, Map, Array, Object, String, Number, Boolean, RegExp, Error,

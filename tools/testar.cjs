@@ -44,7 +44,9 @@ global.fetch = () => Promise.reject(new Error('rede indisponível no arnês'));
 global.requestAnimationFrame = f => setTimeout(f, 0);
 
 const html = fs.readFileSync(process.argv[2] || 'index.html', 'utf8');
-const src = html.slice(html.indexOf('<script>') + 8, html.lastIndexOf('</script>'));
+// lastIndexOf, não indexOf: o <head> tem um <script> pequeno (aplica o tema
+// antes do primeiro paint) que vem antes do bloco principal do motor.
+const src = html.slice(html.lastIndexOf('<script>') + 8, html.lastIndexOf('</script>'));
 const vm = require('vm');
 vm.createContext(global);
 vm.runInThisContext(src, { filename: 'app.js' });
