@@ -28591,6 +28591,26 @@ const Form = {
         if (dica) dica.textContent = completo ? '' : 'Informe as duas datas da viagem para escolher o país.';
     },
 
+    /* Sugestão de data de término ao informar a data de início — só entra em campo ainda
+       em branco (mesmo princípio da sugestão de coordenadas do gazetteer, adiante: nunca
+       sobrescreve o que o usuário já escolheu). Existe só para poupar cliques de "próximo
+       mês" no seletor nativo do navegador, que abre mostrando o mês do valor já preenchido:
+       mesmo mês do início (fim = último dia do mês, sempre posterior ao início) ou o mês
+       seguinte quando o início cai nos últimos 10 dias do mês (fim = mesmo dia do mês
+       seguinte, clampado ao tamanho dele). A sugestão é só um ponto de partida editável. */
+    sugerirDataFim(iso) {
+        const d = new Date(iso + 'T12:00:00');
+        const dia = d.getDate();
+        const diasNoMes = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+        if (dia > diasNoMes - 10) {
+            const alvo = new Date(d.getFullYear(), d.getMonth() + 1, 1, 12);
+            const diasAlvo = new Date(alvo.getFullYear(), alvo.getMonth() + 1, 0).getDate();
+            alvo.setDate(Math.min(dia, diasAlvo));
+            return U.dataISO(alvo);
+        }
+        return U.dataISO(new Date(d.getFullYear(), d.getMonth(), diasNoMes, 12));
+    },
+
     /* Painel de seleção de cidades — dropdown fechado por padrão, escolher o país é
        pré-requisito para ver e marcar cidades, checkbox permite seleção múltipla. Cabe
        curadas + sugeridas + declaradas sem o espaço que um chipset de botões exigiria. */
@@ -28917,6 +28937,12 @@ const Form = {
                     Form.estado.declLon = String(g.lon);
                     Form.montarOutroDestino();
                 }
+            }
+            if (c === 'dataInicio' && ev.target.value && !Form.estado.dataFim) {
+                Form.estado.dataFim = Form.sugerirDataFim(ev.target.value);
+                const campoFim = document.getElementById('f_dataFim');
+                if (campoFim) campoFim.value = Form.estado.dataFim;
+                Form.atualizarBloqueioPais();
             }
         });
         body.addEventListener('click', ev => {
