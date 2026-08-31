@@ -1510,6 +1510,7 @@
             <button class="btn-ghost" id="btnNovo" title="Descarta o roteiro exibido e devolve o formulário inteiramente em branco — inclusive país, cidades e o que estava salvo para a próxima visita. Nenhum card, custo ou endereço do roteiro anterior sobrevive.">🧹 Limpar Roteiro</button>
             <button class="btn-exportar" onclick="ExportHtml.exportar(appState.roteiroAtual)" title="Baixa um arquivo .html autônomo com o roteiro (sem o formulário de criação nem a seção de pontuação, sem necessidade de internet) — abre com dois cliques em qualquer navegador do celular, mesmo sem sinal.">📱 Exportar HTML</button>
         </span>
+        <button class="btn-ghost" id="btnLimparCache" type="button" title="Apaga os dados de clima, voos e outras respostas de provedores guardados neste navegador (cache com validade, §70) e recarrega a página direto do servidor — ignora qualquer cópia antiga retida pelo navegador. Use se o sistema parecer travado, desatualizado ou apresentar um erro que uma atualização recente já corrigiu.">🧽 Limpar cache</button>
         <button class="btn-tema" id="btnTema" type="button" title="Alternar entre tema claro e escuro. Sua escolha fica salva neste navegador.">🌙</button>
         <button class="btn-exportar" onclick="window.print()" title="Abre a caixa de impressão do navegador com um RESUMO condensado do roteiro: voos, trechos entre cidades, hospedagem escolhida, endereços essenciais e contatos consulares de emergência. Selecione &quot;Salvar como PDF&quot;. Para o roteiro completo com justificativas, use a tela do aplicativo ou o Export HTML.">📄 Exportar PDF</button>
     </div>
@@ -4871,6 +4872,27 @@ const App = {
         }
     },
 
+    /* "Limpar cache" cobre dois problemas distintos que se confundem sob o mesmo nome:
+       (1) o cache interno com validade (§70, Cache.ler/gravar) que guarda respostas de
+       provedores (clima, voos etc.) em localStorage sob o prefixo 'rot2_cache_'; e
+       (2) a cópia do próprio index.html retida pelo navegador, que pode continuar
+       executando uma versão antiga do motor mesmo depois de o servidor já ter sido
+       atualizado — foi exatamente esse caso que produziu "Render.conflitos is not a
+       function" numa aba que não tinha sido recarregada desde antes da correção.
+       Uma query string nova (nunca vista antes) força o navegador a buscar o documento
+       de novo na rede em vez de servir uma cópia em cache, independente dos cabeçalhos
+       de Cache-Control do servidor — mais confiável do que location.reload(). */
+    limparCacheSistema() {
+        try {
+            Object.keys(localStorage)
+                .filter(k => k.indexOf('rot2_cache_') === 0)
+                .forEach(k => localStorage.removeItem(k));
+        } catch (e) {}
+        const url = new URL(location.href);
+        url.searchParams.set('_atualizado', Date.now());
+        location.href = url.toString();
+    },
+
     iniciar() {
         Tema.iniciar();
         Nav.iniciar();
@@ -4881,6 +4903,7 @@ const App = {
         Nav.reindexar();
         document.getElementById('btnRegenerar').addEventListener('click', App.regenerar);
         document.getElementById('btnNovo').addEventListener('click', App.limparRoteiro);
+        document.getElementById('btnLimparCache').addEventListener('click', App.limparCacheSistema);
         if (location.search.indexOf('debug=1') >= 0) Testes.executar();
     }
 };
