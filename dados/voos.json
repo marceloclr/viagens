@@ -6,7 +6,7 @@
     "paisId": "pt",
     "companhias": ["LATAM", "TAP Portugal"],
     "duracaoMin": 450,
-    "frequencia": "TAP Portugal: 9 voos semanais. LATAM: sazonal (confirmada de abril a outubro, com prorrogações sucessivas até pelo menos março de 2026) — total variável por temporada.",
+    "frequencia": "TAP Portugal: voo diário. LATAM: sazonal (confirmada de abril a outubro, com prorrogações sucessivas até pelo menos março de 2026) — total variável por temporada.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais (varia por antecedência de compra e temporada) para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-27" },
     "obs": "Único voo direto de Fortaleza para a Europa continental operado por duas companhias — LATAM (Boeing 787) e TAP Portugal. É a rota internacional mais frequente do Aeroporto de Fortaleza.",
     "fonte": "Reportagem consolidada de imprensa especializada (aeroportodefortaleza.com, ceara.gov.br, melhoresdestinos.com.br, diariodonordeste.verdesmares.com.br) sobre a malha internacional do Aeroporto de Fortaleza em 2026",

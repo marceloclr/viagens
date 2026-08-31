@@ -239,11 +239,12 @@
         /* Cards de destaque do resumo */
         .highlight-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 16px; }
         .highlight-card {
+            position: relative;
             background: var(--bg-alt); border: 1px solid var(--border); border-radius: 10px;
             padding: 13px 14px; text-align: center;
             transition: transform .26s var(--ease-soft), border-color .26s var(--ease-soft);
         }
-        .highlight-card:hover { transform: translateY(-3px); border-color: var(--accent); }
+        .highlight-card:hover { transform: translateY(-3px); border-color: var(--accent); z-index: 5; }
         .highlight-card .hg { font-size: 26px; display: block; margin-bottom: 6px; }
         .highlight-card .hn { font-size: 13px; font-weight: 800; color: var(--ink-strong); }
         .highlight-card .hd { font-size: 10.5px; color: var(--accent2); font-weight: 700; margin-top: 3px; letter-spacing: .03em; }
@@ -376,11 +377,12 @@
         /* ===================== CARDS & GRIDS ===================== */
         .ind-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 16px; }
         .ind-card {
+            position: relative;
             background: var(--bg-alt); border: 1px solid var(--border); border-left-width: 5px;
             border-radius: 8px; padding: 14px 16px;
             transition: transform .28s var(--ease-soft), box-shadow .28s var(--ease-soft), border-color .28s var(--ease-soft);
         }
-        .ind-card:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(0,0,0,.34); }
+        .ind-card:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(0,0,0,.34); z-index: 5; }
         .ind-card .lbl { font-size: 12px; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
         .ind-card .desc { font-size: 14px; font-weight: bold; margin-top: 4px; color: var(--ink-strong); }
 
@@ -432,11 +434,12 @@
         }
         .step:hover .step-num { transform: scale(1.08) rotate(-4deg); box-shadow: 0 6px 20px color-mix(in srgb, var(--accent) 55%, transparent); }
         .step-card {
+            position: relative;
             background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px;
             box-shadow: 0 2px 8px rgba(0,0,0,.18);
             transition: transform .28s var(--ease-soft), border-color .28s var(--ease-soft), box-shadow .28s var(--ease-soft);
         }
-        .step:hover .step-card { transform: translateX(4px); border-color: var(--accent-fill); box-shadow: 0 8px 22px rgba(0,0,0,.3); }
+        .step:hover .step-card { transform: translateX(4px); border-color: var(--accent-fill); box-shadow: 0 8px 22px rgba(0,0,0,.3); z-index: 5; }
         .step-card h3 { margin-top: 0; color: var(--accent); }
         .step-card ul { margin: 8px 0 0; padding-left: 20px; }
 
@@ -462,19 +465,21 @@
         .flight-box { border:1px solid var(--accent); background:color-mix(in srgb, var(--accent) 7%, transparent); border-radius:10px; padding:14px 16px; margin:16px 0; }
         .flight-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:10px; }
         .flight-item {
+            position: relative;
             background:color-mix(in srgb, var(--bg-alt) 75%, transparent); border:1px solid var(--border); border-radius:8px; padding:11px 13px;
             transition: transform .26s var(--ease-soft), border-color .26s var(--ease-soft);
         }
-        .flight-item:hover { transform: translateY(-3px); border-color: var(--accent); }
+        .flight-item:hover { transform: translateY(-3px); border-color: var(--accent); z-index: 5; }
         .flight-item .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
         .flight-item strong { display:block; color:var(--ink-strong); margin-top:4px; font-size:14px; }
         .source-note { font-size:11px; color:var(--muted); line-height:1.45; margin-top:10px; }
         .cost-total { font-size:22px; font-weight:800; color:var(--accent); }
         .food-card {
+            position: relative;
             background:var(--bg-alt); border:1px solid var(--border); border-radius:9px; padding:14px 16px; margin:10px 0;
             transition: transform .26s var(--ease-soft), border-color .26s var(--ease-soft);
         }
-        .food-card:hover { transform: translateX(4px); border-color: var(--accent2-fill); }
+        .food-card:hover { transform: translateX(4px); border-color: var(--accent2-fill); z-index: 5; }
         .food-card h3 { margin:0 0 7px; color:var(--accent2); }
         .food-card p { margin:5px 0; }
         .tag-local { color:var(--accent); font-weight:800; }
@@ -486,18 +491,21 @@
         /* ===================== HOSPEDAGEM ===================== */
         .hotel-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; margin-top: 16px; }
         .hotel-card {
-            position: relative; overflow: hidden;
+            /* Era overflow:hidden (cortava tooltips .tt que abrem para cima); trocado por
+               overflow:visible seguindo o mesmo ajuste já feito em .form-nivel — o brilho do
+               ::before ganha border-radius:inherit para não perder o recorte arredondado. */
+            position: relative; overflow: visible;
             background: linear-gradient(180deg, color-mix(in srgb, var(--bg-alt) 96%, transparent), color-mix(in srgb, var(--bg) 96%, transparent));
             border: 1px solid var(--border); border-top: 3px solid var(--muted);
             border-radius: 11px; padding: 15px 17px 14px;
             transition: transform .3s var(--ease-soft), box-shadow .3s var(--ease-soft), border-color .3s var(--ease-soft);
         }
         .hotel-card::before {
-            content: ""; position: absolute; inset: 0;
+            content: ""; position: absolute; inset: 0; border-radius: inherit;
             background: radial-gradient(120% 90% at 100% 0%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 55%);
             opacity: 0; transition: opacity .35s var(--ease-soft); pointer-events: none;
         }
-        .hotel-card:hover { transform: translateY(-4px); box-shadow: 0 16px 34px rgba(0,0,0,.42); }
+        .hotel-card:hover { transform: translateY(-4px); box-shadow: 0 16px 34px rgba(0,0,0,.42); z-index: 5; }
         .hotel-card:hover::before { opacity: 1; }
         .hotel-card.h-teal { border-top-color: var(--accent); }
         .hotel-card.h-gold { border-top-color: var(--accent2); }
@@ -815,13 +823,15 @@
         /* ===================== MÓDULO CLIMÁTICO ===================== */
         .climate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 13px; margin-top: 16px; }
         .climate-card {
-            position: relative; overflow: hidden;
+            /* Era overflow:hidden (cortava tooltips .tt que abrem para cima); trocado por
+               overflow:visible seguindo o mesmo ajuste já feito em .form-nivel. */
+            position: relative; overflow: visible;
             background: linear-gradient(165deg, color-mix(in srgb, var(--bg-alt) 96%, transparent), color-mix(in srgb, var(--bg) 96%, transparent));
             border: 1px solid var(--border); border-top: 3px solid var(--navy);
             border-radius: 11px; padding: 14px 16px 13px;
             transition: transform .3s var(--ease-soft), box-shadow .3s var(--ease-soft);
         }
-        .climate-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(0,0,0,.4); }
+        .climate-card:hover { transform: translateY(-3px); box-shadow: 0 14px 30px rgba(0,0,0,.4); z-index: 5; }
         .cc-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
         .cc-city { font-family: Consolas, monospace; font-size: 14px; font-weight: 800; color: var(--ink-strong); }
         .cc-days { font-size: 10px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
@@ -860,6 +870,10 @@
             .topbar, .toc, .nav-arrow, .scroll-hint, .progress-rail { display: none !important; }
             .shell { display: block !important; }
             main.content { display: block !important; overflow: visible !important; height: auto !important; background: #fff !important; }
+            /* "Exportar PDF" imprime só o resumo executivo condensado (Render.resumoExecutivo),
+               não as 15 seções completas do roteiro — evita um PDF de dezenas de páginas. */
+            section:not(.only-print) { display: none !important; }
+            .only-print { display: block !important; }
             section { display: block !important; width: auto !important; height: auto !important; border: none !important; border-bottom: 1px solid #ccc !important; background: #fff !important; padding: 14px 4px !important; break-inside: avoid; }
             h1, h2, h3 { color: #111 !important; }
             p, li, td { color: #222 !important; }
@@ -985,6 +999,9 @@
         .tt.is-open > .tt-body { opacity: 1; visibility: visible; transform: translateY(0); }
         .tt:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: 3px; }
         .tt-body b { color: var(--accent); }
+        /* Aplicadas em runtime (Tooltip.iniciar()) quando o balão estouraria a viewport. */
+        .tt > .tt-body.flip-right { left: auto; right: 0; }
+        .tt > .tt-body.flip-down { bottom: auto; top: calc(100% + 8px); }
 
         /* ---------- Formulário ---------- */
         .form-wrap { max-width: 1000px; }
@@ -1422,6 +1439,10 @@
         /* ---------- Apêndice de notas metodológicas (impressão) ---------- */
         .notas-print { display: none; }
 
+        /* Resumo executivo (Render.resumoExecutivo): só existe para a impressão —
+           ver section:not(.only-print) em @media print, acima. */
+        .only-print { display: none; }
+
         @media print {
             #sec-form, .form-nivel, .btn-primary, .btn-ghost, .chip-sel { display: none !important; }
             .ed-ctrl, .ed-console-acoes, .ed-decisao, .ed-hotel, .ed-btn { display: none !important; }
@@ -1487,9 +1508,10 @@
         <span id="acoesRoteiro" hidden style="display:inline-flex;gap:8px;">
             <button class="btn-ghost" id="btnRegenerar" title="Recalcula o roteiro inteiro a partir das respostas atuais do formulário. Não acrescenta nem remove dias superficialmente: refaz a distribuição de noites, a seleção de atrações, o cronograma, os custos e a pontuação.">↻ Recalcular Roteiro</button>
             <button class="btn-ghost" id="btnNovo" title="Descarta o roteiro exibido e devolve o formulário inteiramente em branco — inclusive país, cidades e o que estava salvo para a próxima visita. Nenhum card, custo ou endereço do roteiro anterior sobrevive.">🧹 Limpar Roteiro</button>
+            <button class="btn-exportar" onclick="ExportHtml.exportar(appState.roteiroAtual)" title="Baixa um arquivo .html autônomo com o roteiro completo (todas as seções, sem necessidade de internet) — abre com dois cliques em qualquer navegador do celular, mesmo sem sinal.">📱 Exportar HTML</button>
         </span>
         <button class="btn-tema" id="btnTema" type="button" title="Alternar entre tema claro e escuro. Sua escolha fica salva neste navegador.">🌙</button>
-        <button class="btn-exportar" onclick="window.print()" title="Abre a caixa de impressão do navegador com layout otimizado: fundo claro, módulos empilhados, animações suspensas, formulário oculto e apêndice de notas metodológicas ao final. Selecione &quot;Salvar como PDF&quot;.">📄 Exportar PDF</button>
+        <button class="btn-exportar" onclick="window.print()" title="Abre a caixa de impressão do navegador com um RESUMO condensado do roteiro: voos, trechos entre cidades, hospedagem escolhida, endereços essenciais e contatos consulares de emergência. Selecione &quot;Salvar como PDF&quot;. Para o roteiro completo com justificativas, use a tela do aplicativo ou o Export HTML.">📄 Exportar PDF</button>
     </div>
     <div class="progress-rail"><div class="progress-fill" id="progressFill"></div></div>
 </header>
@@ -8387,7 +8409,7 @@ const DB = {
                 "TAP Portugal"
             ],
             "duracaoMin": 450,
-            "frequencia": "TAP Portugal: 9 voos semanais. LATAM: sazonal (confirmada de abril a outubro, com prorrogações sucessivas até pelo menos março de 2026) — total variável por temporada.",
+            "frequencia": "TAP Portugal: voo diário. LATAM: sazonal (confirmada de abril a outubro, com prorrogações sucessivas até pelo menos março de 2026) — total variável por temporada.",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
@@ -27627,6 +27649,23 @@ const R = {
         if (!endereco) return '';
         return '<a class="map-link" target="_blank" rel="noopener" href="' + U.esc(U.mapsUrl(nome, endereco)) + '">Google Maps ↗</a>';
     },
+    /* Agrupamento de endereços por categoria (aeroportos, estações, hospedagens, atrações,
+       representações) — compartilhado por Render.enderecos e Render.resumoExecutivo para
+       não duplicar a lógica de agregação. */
+    gruposEndereco(r) {
+        const grupos = [];
+        const aeros = r.cidades.map(c => (c.dados.aeroportos || []).map(a => IDX.aeroporto(a))).flat().filter(Boolean);
+        if (aeros.length) grupos.push(['✈️ Aeroportos', aeros.map(a => ({ nome: a.nome, sub: a.codigo, end: a.endereco, fonte: a.fonte }))]);
+        const ests = r.cidades.map(c => (c.dados.estacoes || []).map(e => IDX.estacao(e))).flat().filter(Boolean);
+        if (ests.length) grupos.push(['🚆 Estações', ests.map(e => ({ nome: e.nome, sub: '', end: e.endereco, fonte: e.fonte }))]);
+        const hots = r.hospedagens.map(hp => hp.opcoes).flat();
+        if (hots.length) grupos.push(['🏨 Hospedagens', hots.map(o => ({ nome: o.nome, sub: o.categoria, end: o.endereco, fonte: o.fonte }))]);
+        const ats = Array.from(new Set(r.atracoes.map(a => a.id))).map(id => IDX.atracao(id));
+        if (ats.length) grupos.push(['📍 Atrações', ats.map(a => ({ nome: a.nome, sub: a.cat[0], end: a.endereco, fonte: FONTE_REF }))]);
+        const reps = r.representacoes.map(p => p.representacoes).flat().filter(x => x.endereco && x.endereco.valor);
+        grupos.push(['🇧🇷 Representações brasileiras', reps.length ? reps.map(x => ({ nome: x.nomeOficial, sub: x.cidade, end: x.endereco.valor, fonte: x.fonte })) : []]);
+        return grupos;
+    },
     porque(linhas, totalRotulo) {
         if (!linhas || !linhas.length) return '';
         let h = '<details class="porque"><summary>Por que esta decisão?</summary><table>';
@@ -27825,17 +27864,18 @@ const Render = {
                 if (m.obs) h += '<div class="flight-item"><span class="small">Observação</span><strong>' + U.esc(m.obs) + '</strong></div>';
             } else {
                 h += '<div class="flight-item"><span class="small">Número, horário e tarifa</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Nenhum provedor aberto de tarifas', null) + '</div>';
-                if (v.cadastro) {
-                    const cd = v.cadastro;
-                    const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
-                    const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
-                    const fontes = cd.pernas.map(p => p.fonte).filter(Boolean).join(' · ');
-                    h += '<div class="flight-item"><span class="small">' + (cd.tipo === 'direto' ? 'Rota direta pesquisada' : 'Conexão usual via ' + U.esc(cd.hub)) +
-                        '</span><strong>' + U.esc(companhias) + (duracao ? ' · ~' + U.dur(duracao) : '') + '</strong>' +
-                        R.selo('CADASTRADO', fontes, null, 'Rota pesquisada em fonte aberta — não é o horário nem o número do seu voo específico. A malha aérea muda por temporada; confirme na companhia antes de comprar.') + '</div>';
-                    const freqs = cd.pernas.map(p => p.frequencia).filter(Boolean);
-                    if (freqs.length) h += '<div class="flight-item"><span class="small">Frequência pesquisada</span><strong>' + U.esc(freqs.join(' + ')) + '</strong></div>';
-                }
+            }
+            if (v.cadastro) {
+                const cd = v.cadastro;
+                const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
+                const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
+                const fontes = cd.pernas.map(p => p.fonte).filter(Boolean).join(' · ');
+                h += '<div class="flight-item"><span class="small">' + (cd.tipo === 'direto' ? 'Rota direta pesquisada' : 'Conexão usual via ' + U.esc(cd.hub)) +
+                    '</span><strong>' + U.esc(companhias) + '</strong>' +
+                    R.selo('CADASTRADO', fontes, null, 'Rota pesquisada em fonte aberta — não é o horário nem o número do seu voo específico. A malha aérea muda por temporada; confirme na companhia antes de comprar.') + '</div>';
+                if (duracao) h += '<div class="flight-item"><span class="small">Duração estimada de voo</span><strong>~' + U.dur(duracao) + '</strong></div>';
+                const freqs = cd.pernas.map(p => p.frequencia).filter(Boolean);
+                if (freqs.length) h += '<div class="flight-item"><span class="small">Frequência pesquisada</span><strong>' + U.esc(freqs.join(' + ')) + '</strong></div>';
             }
             h += '</div><p class="source-note">' + U.esc(v.obs) + '</p></div>';
         });
@@ -28104,17 +28144,7 @@ const Render = {
     /* --------------------------------------------------------------- ENDEREÇOS */
     enderecos(r) {
         let h = '<p class="lede">Referência operacional consolidada. Cada item abre a busca direta no Google Maps — recurso complementar, jamais dependência do motor.</p>';
-        const grupos = [];
-        const aeros = r.cidades.map(c => (c.dados.aeroportos || []).map(a => IDX.aeroporto(a))).flat().filter(Boolean);
-        if (aeros.length) grupos.push(['✈️ Aeroportos', aeros.map(a => ({ nome: a.nome, sub: a.codigo, end: a.endereco, fonte: a.fonte }))]);
-        const ests = r.cidades.map(c => (c.dados.estacoes || []).map(e => IDX.estacao(e))).flat().filter(Boolean);
-        if (ests.length) grupos.push(['🚆 Estações', ests.map(e => ({ nome: e.nome, sub: '', end: e.endereco, fonte: e.fonte }))]);
-        const hots = r.hospedagens.map(hp => hp.opcoes).flat();
-        if (hots.length) grupos.push(['🏨 Hospedagens', hots.map(o => ({ nome: o.nome, sub: o.categoria, end: o.endereco, fonte: o.fonte }))]);
-        const ats = Array.from(new Set(r.atracoes.map(a => a.id))).map(id => IDX.atracao(id));
-        if (ats.length) grupos.push(['📍 Atrações', ats.map(a => ({ nome: a.nome, sub: a.cat[0], end: a.endereco, fonte: FONTE_REF }))]);
-        const reps = r.representacoes.map(p => p.representacoes).flat().filter(x => x.endereco && x.endereco.valor);
-        grupos.push(['🇧🇷 Representações brasileiras', reps.length ? reps.map(x => ({ nome: x.nomeOficial, sub: x.cidade, end: x.endereco.valor, fonte: x.fonte })) : []]);
+        const grupos = R.gruposEndereco(r);
 
         grupos.forEach(g => {
             h += '<h3>' + g[0] + '</h3>';
@@ -28129,6 +28159,79 @@ const Render = {
             h += '</div>';
         });
         return R.secao('sec-enderecos', 'Logística prática', '📍 Endereços e Google Maps', h, '📍 Endereços', 'Aeroportos, estações, hospedagens, atrações e representações consulares com endereço e link de mapa.');
+    },
+
+    /* --------------------------------------------------------------- RESUMO EXECUTIVO
+       Existe só para a impressão (§ .only-print) — "Exportar PDF" mostra isto no lugar
+       das 15 seções completas do roteiro. Não recalcula nada: só lê e condensa os mesmos
+       campos de r já usados por Render.voos/jornada/hospedagem/consular/enderecos. */
+    resumoExecutivo(r) {
+        let h = '<p class="lede">Resumo condensado para consulta rápida em viagem. O roteiro completo, com justificativas e detalhamento de cada escolha, fica disponível na tela do aplicativo.</p>';
+
+        h += '<h3>✈️ Voos</h3>';
+        r.voos.forEach(v => {
+            h += '<p><strong>' + U.esc(v.sentido) + '</strong> · ' + U.dataExtenso(v.data) + ' · ' +
+                U.esc(v.origem) + ' → ' + U.esc(v.destino) + (v.codigo ? ' (' + v.codigo + ')' : '') + '<br>';
+            if (vooTemDado(v.manual)) {
+                const m = v.manual;
+                const resumo = [[m.companhia, m.numero].filter(Boolean).join(' '), m.data ? U.dataBR(m.data) : '',
+                    [m.horaPartida, m.horaChegada].filter(Boolean).join(' → ')].filter(Boolean).join(' · ');
+                h += 'Voo informado: ' + U.esc(resumo || '—');
+            } else {
+                h += 'Número e horário: informação não disponível';
+            }
+            if (v.cadastro) {
+                const cd = v.cadastro;
+                const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
+                const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
+                h += ' · Rota pesquisada: ' + U.esc(companhias) + (duracao ? ' (~' + U.dur(duracao) + ')' : '');
+            }
+            h += '</p>';
+        });
+
+        if (r.deslocamentos.length) {
+            h += '<h3>🚆 Trechos entre cidades</h3><ul>';
+            r.deslocamentos.forEach(t => {
+                h += '<li>' + U.esc(t.deNome) + ' → ' + U.esc(t.paraNome) + ' — ' + t.icone + ' ' + U.esc(t.modo) +
+                    (t.duracao ? ' · ' + U.dur(t.duracao) : ' · duração não disponível') + '</li>';
+            });
+            h += '</ul>';
+        }
+
+        h += '<h3>🏨 Hospedagem</h3>';
+        r.hospedagens.forEach(hp => {
+            h += '<p><strong>' + U.esc(hp.cidadeNome) + '</strong> · ' + hp.noites + ' noite' + (hp.noites > 1 ? 's' : '') +
+                (hp.bairros ? ' · Bairros: ' + U.esc(hp.bairros) : '') + '<br>';
+            if (hp.semOpcoes) {
+                h += 'Nenhuma propriedade cadastrada para esta cidade.';
+            } else {
+                const escolhidoId = Edicao.hotelEscolhido(hp);
+                const escolhido = hp.opcoes.find(o => o.id === escolhidoId) || hp.opcoes[0];
+                if (escolhido) h += U.esc(escolhido.nome) + ' (' + U.esc(escolhido.categoria) + ') — ' + U.esc(escolhido.endereco);
+            }
+            h += '</p>';
+        });
+
+        h += '<h3>🇧🇷 Consulados — contato de emergência</h3>';
+        r.representacoes.forEach(p => {
+            if (p.semRegistro) return;
+            p.representacoes.forEach(rep => {
+                h += '<p><strong>' + U.esc(rep.nomeOficial) + '</strong> — ' + U.esc(rep.cidade) + '<br>' +
+                    'Endereço: ' + R.valorOuNada(rep.endereco) + '<br>' +
+                    'Plantão: ' + R.valorOuNada(rep.telefonePlantao) + ' · WhatsApp: ' + R.valorOuNada(rep.whatsappPlantao) + '</p>';
+            });
+        });
+
+        h += '<h3>📍 Endereços</h3>';
+        R.gruposEndereco(r).forEach(g => {
+            if (!g[1].length) return;
+            h += '<p><strong>' + g[0] + '</strong></p><ul>';
+            g[1].forEach(it => { h += '<li>' + U.esc(it.nome) + (it.sub ? ' (' + U.esc(it.sub) + ')' : '') + ' — ' + U.esc(it.end) + '</li>'; });
+            h += '</ul>';
+        });
+
+        return R.secao('sec-resumo-executivo', 'Resumo', '🖨️ Resumo executivo (impressão)', h,
+            '🖨️ Resumo executivo', 'Versão condensada para impressão: voos, trechos, hospedagem, endereços e contatos consulares de emergência.');
     },
 
     /* --------------------------------------------------------------- PONTUAÇÃO */
@@ -28176,7 +28279,7 @@ function renderRoteiro(r) {
         Render.resumo(r), Render.conflitos(r), Render.jornada(r), Render.clima(r),
         Render.voos(r), Render.cronograma(r), Render.atracoes(r), Render.hospedagem(r),
         Render.alimentacao(r), Render.ingressos(r), Render.custos(r), Render.consular(r),
-        Render.planoB(r), Render.enderecos(r), Render.pontuacao(r)
+        Render.planoB(r), Render.enderecos(r), Render.pontuacao(r), Render.resumoExecutivo(r)
     ].filter(Boolean);
 
     secoes.forEach(s => {
@@ -28184,6 +28287,9 @@ function renderRoteiro(r) {
         el.id = s.id;
         el.innerHTML = '<span class="eyebrow">' + U.esc(s.eyebrow) + '</span><h2>' + s.titulo + '</h2>' + s.corpo;
         main.appendChild(el);
+        // sec-resumo-executivo só existe para impressão (§ .only-print) — não entra no
+        // índice de navegação nem no carrossel de módulos em tela.
+        if (s.id === 'sec-resumo-executivo') { el.classList.add('only-print'); return; }
         const a = document.createElement('a');
         a.href = '#' + s.id;
         a.setAttribute('data-gerado', '1');
@@ -29005,7 +29111,10 @@ const Nav = {
     GRUPOS: ['ind-grid', 'hotel-grid', 'timeline', 'flight-box', 'climate-grid', 'score-grid', 'finance-grid', 'highlight-strip', 'location-grid'],
     observer: null,
 
-    secoes() { return Array.prototype.slice.call(document.querySelectorAll('main.content > section')); },
+    /* :not(.only-print) exclui o resumo executivo (Render.resumoExecutivo) — ele fica
+       escondido fora da impressão (§ .only-print) e não deve contar como módulo do
+       carrossel nem entrar na navegação por setas/scroll. */
+    secoes() { return Array.prototype.slice.call(document.querySelectorAll('main.content > section:not(.only-print)')); },
     links() { return Array.prototype.slice.call(document.querySelectorAll('.toc a')); },
 
     ehGrupo(el) { return el.classList && Nav.GRUPOS.some(g => el.classList.contains(g)); },
@@ -29181,6 +29290,44 @@ const Persist = {
     }
 };
 
+/* Reposiciona o balão .tt-body quando ele estouraria a viewport — delegado em document
+   porque os .tt são gerados dinamicamente via innerHTML (R.tt, R.selo, Form.ajuda etc.),
+   então um listener por elemento teria que ser religado a cada renderRoteiro()/Form.montar(). */
+const Tooltip = {
+    posicionar(gatilho) {
+        const corpo = gatilho.querySelector(':scope > .tt-body');
+        if (!corpo) return;
+        corpo.classList.remove('flip-right', 'flip-down');
+        const rg = gatilho.getBoundingClientRect();
+        const rc = corpo.getBoundingClientRect();
+        if (rg.left + rc.width > window.innerWidth) corpo.classList.add('flip-right');
+        if (rg.top - rc.height < 0) corpo.classList.add('flip-down');
+    },
+    limpar(gatilho) {
+        const corpo = gatilho.querySelector(':scope > .tt-body');
+        if (corpo) corpo.classList.remove('flip-right', 'flip-down');
+        gatilho.classList.remove('is-open');
+    },
+    iniciar() {
+        document.addEventListener('mouseover', ev => {
+            const t = ev.target.closest('.tt');
+            if (t && !t.contains(ev.relatedTarget)) Tooltip.posicionar(t);
+        });
+        document.addEventListener('mouseout', ev => {
+            const t = ev.target.closest('.tt');
+            if (t && !t.contains(ev.relatedTarget)) Tooltip.limpar(t);
+        });
+        document.addEventListener('focusin', ev => {
+            const t = ev.target.closest('.tt');
+            if (t) { t.classList.add('is-open'); Tooltip.posicionar(t); }
+        });
+        document.addEventListener('focusout', ev => {
+            const t = ev.target.closest('.tt');
+            if (t && !t.contains(ev.relatedTarget)) Tooltip.limpar(t);
+        });
+    }
+};
+
 /* =====================================================================================
    [20] APLICAÇÃO
    ===================================================================================== */
@@ -29283,6 +29430,7 @@ const App = {
     iniciar() {
         Tema.iniciar();
         Nav.iniciar();
+        Tooltip.iniciar();
         const salvo = Persist.lerConfig();
         if (salvo) Form.carregarConfig(salvo);
         Form.montar();
@@ -30621,6 +30769,62 @@ const Transferencia = {
             'title="Oculta este relatório. As divergências graves permanecem no módulo de conflitos e o registro da importação permanece no histórico de decisões — dispensar o aviso não apaga o que ele informou.">Dispensar relatório</button></div>';
         h += '</div>';
         return h;
+    }
+};
+
+/* =====================================================================================
+   [23b] EXPORT HTML STANDALONE — roteiro completo para leitura offline no celular
+
+   Diferente de Transferencia (JSON versionado, reimportável), este export é write-only:
+   um retrato do documento inteiro já renderizado, incluindo todo o CSS/JS inline — o
+   próprio index.html já é 100% autocontido (dados injetados em build, sem fetch/servidor,
+   ver tools/build.mjs), então o arquivo baixado abre com dois cliques, sem internet.
+   ===================================================================================== */
+const ExportHtml = {
+    nomeArquivo(r) {
+        const base = U.slug(r.cidades.map(c => c.dados.nome).join('_')) || 'roteiro';
+        return 'roteiro_' + base + '_' + r.config.dataInicio + '.html';
+    },
+
+    /* outerHTML só serializa o valor DEFAULT (atributo) de <input>/<select>/<textarea>,
+       não o que o usuário digitou/selecionou em runtime. Clona o documento e "achata" o
+       estado vivo nos atributos correspondentes antes de serializar, para que o arquivo
+       exportado abra já refletindo os controles como estavam na tela no momento do export. */
+    clonarComEstado() {
+        const clone = document.documentElement.cloneNode(true);
+        const vivos = document.querySelectorAll('input, select, textarea');
+        const clonados = clone.querySelectorAll('input, select, textarea');
+        vivos.forEach((el, i) => {
+            const c = clonados[i];
+            if (!c) return;
+            if (el.tagName === 'SELECT') {
+                Array.prototype.forEach.call(c.options, (o, oi) => {
+                    if (el.options[oi]) o.toggleAttribute('selected', el.options[oi].selected);
+                });
+            } else if (el.type === 'checkbox' || el.type === 'radio') {
+                c.toggleAttribute('checked', el.checked);
+            } else if (el.type !== 'file') {
+                c.setAttribute('value', el.value);
+            }
+        });
+        return clone;
+    },
+
+    exportar(r) {
+        if (!r) return { ok: false, msg: 'Nenhum roteiro gerado ainda.' };
+        try {
+            const clone = ExportHtml.clonarComEstado();
+            const texto = '<!doctype html>\n' + clone.outerHTML;
+            const blob = new Blob([texto], { type: 'text/html;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url; a.download = ExportHtml.nomeArquivo(r);
+            document.body.appendChild(a); a.click();
+            setTimeout(() => { URL.revokeObjectURL(url); a.remove(); }, 1500);
+            return { ok: true, nome: a.download, bytes: texto.length };
+        } catch (e) {
+            return { ok: false, msg: 'Não foi possível gravar o arquivo: ' + e.message };
+        }
     }
 };
 
