@@ -1508,7 +1508,7 @@
         <span id="acoesRoteiro" hidden style="display:inline-flex;gap:8px;">
             <button class="btn-ghost" id="btnRegenerar" title="Recalcula o roteiro inteiro a partir das respostas atuais do formulário. Não acrescenta nem remove dias superficialmente: refaz a distribuição de noites, a seleção de atrações, o cronograma, os custos e a pontuação.">↻ Recalcular Roteiro</button>
             <button class="btn-ghost" id="btnNovo" title="Descarta o roteiro exibido e devolve o formulário inteiramente em branco — inclusive país, cidades e o que estava salvo para a próxima visita. Nenhum card, custo ou endereço do roteiro anterior sobrevive.">🧹 Limpar Roteiro</button>
-            <button class="btn-exportar" onclick="ExportHtml.exportar(appState.roteiroAtual)" title="Baixa um arquivo .html autônomo com o roteiro completo (todas as seções, sem necessidade de internet) — abre com dois cliques em qualquer navegador do celular, mesmo sem sinal.">📱 Exportar HTML</button>
+            <button class="btn-exportar" onclick="ExportHtml.exportar(appState.roteiroAtual)" title="Baixa um arquivo .html autônomo com o roteiro (sem o formulário de criação nem a seção de pontuação, sem necessidade de internet) — abre com dois cliques em qualquer navegador do celular, mesmo sem sinal.">📱 Exportar HTML</button>
         </span>
         <button class="btn-tema" id="btnTema" type="button" title="Alternar entre tema claro e escuro. Sua escolha fica salva neste navegador.">🌙</button>
         <button class="btn-exportar" onclick="window.print()" title="Abre a caixa de impressão do navegador com um RESUMO condensado do roteiro: voos, trechos entre cidades, hospedagem escolhida, endereços essenciais e contatos consulares de emergência. Selecione &quot;Salvar como PDF&quot;. Para o roteiro completo com justificativas, use a tela do aplicativo ou o Export HTML.">📄 Exportar PDF</button>
@@ -3689,6 +3689,9 @@ const Form = {
     estado: estadoFormPadrao(),
 
     montar() {
+        // #formBody pode não existir — o export HTML (§ ExportHtml) remove #sec-form
+        // inteiro do roteiro exportado, e App.iniciar() chama Form.montar() incondicionalmente.
+        if (!document.getElementById('formBody')) return;
         const e = Form.estado;
         const hoje = U.dataISO(new Date());
         if (!e.dataInicio) { e.dataInicio = U.addDias(hoje, 60); e.dataFim = U.addDias(e.dataInicio, 9); }
@@ -6122,9 +6125,35 @@ const Transferencia = {
    ver tools/build.mjs), então o arquivo baixado abre com dois cliques, sem internet.
    ===================================================================================== */
 const ExportHtml = {
+    /* Data do momento da exportação (não a data de início da viagem) — em getters LOCAIS,
+       nunca via toISOString()/Date(string), que convertem para UTC e podem exibir o dia
+       anterior ou seguinte dependendo do fuso do viajante. */
+    dataHojeLocal() {
+        const d = new Date();
+        return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+    },
+
     nomeArquivo(r) {
         const base = U.slug(r.cidades.map(c => c.dados.nome).join('_')) || 'roteiro';
-        return 'roteiro_' + base + '_' + r.config.dataInicio + '.html';
+        return 'roteiro_' + base + '_' + ExportHtml.dataHojeLocal() + '.html';
+    },
+
+    /* Remove do clone o que só faz sentido dentro do aplicativo interativo — o export é
+       o ROTEIRO para leitura no celular, não o sistema inteiro. #sec-form some porque
+       Form.montar() já tolera #formBody ausente (ver guarda em Form.montar()); os demais
+       itens são só escondidos via CSS porque App.iniciar() referencia seus ids sem
+       checagem de nulo (btnRegenerar/btnNovo/btnTema) — remover o nó quebraria o script. */
+    limparParaLeitura(clone) {
+        const secForm = clone.querySelector('#sec-form');
+        if (secForm) secForm.remove();
+        const secPontuacao = clone.querySelector('#sec-pontuacao');
+        if (secPontuacao) secPontuacao.remove();
+        clone.querySelectorAll('#tocLista a[href="#sec-form"], #tocLista a[href="#sec-pontuacao"]').forEach(a => a.remove());
+        // Exportar/Importar roteiro (.json) do console de edição, na aba Cronograma —
+        // não fazem sentido numa cópia estática write-only já servida pronta.
+        clone.querySelectorAll('button[data-ed="exportar"], button[data-ed="importar"]').forEach(b => b.remove());
+        const acoes = clone.querySelector('.topbar-actions');
+        if (acoes) acoes.style.display = 'none';
     },
 
     /* outerHTML só serializa o valor DEFAULT (atributo) de <input>/<select>/<textarea>,
@@ -6148,6 +6177,7 @@ const ExportHtml = {
                 c.setAttribute('value', el.value);
             }
         });
+        ExportHtml.limparParaLeitura(clone);
         return clone;
     },
 
