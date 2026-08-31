@@ -27537,7 +27537,7 @@ function campoParaErroConfig(msg) {
     if (msg.indexOf('data de início') >= 0) return '#f_dataInicio';
     if (msg.indexOf('data de término') >= 0 || msg.indexOf('posterior à data de início') >= 0) return '#f_dataFim';
     if (msg.indexOf('viajante') >= 0) return '#f_adultos';
-    if (msg.indexOf('objetivo principal') >= 0) return '#f_objetivoPrincipal';
+    if (msg.indexOf('objetivo principal') >= 0) return '#chipsObjetivoPrincipal';
     return null;
 }
 
@@ -27701,6 +27701,33 @@ const R = {
     },
     secao(id, eyebrow, titulo, corpo, tocRotulo, tocAjuda) {
         return { id, eyebrow, titulo, corpo, tocRotulo, tocAjuda };
+    },
+    /* Lista "Trechos entre cidades" — vive em Voos & Conexões (transporte aéreo + terrestre
+       concentrados numa só aba), separada do mapa visual da jornada (Render.jornada). */
+    trechosEntreCidades(r) {
+        let h = '<h3>Trechos entre cidades</h3><div class="trecho-list">';
+        r.deslocamentos.forEach((t, idx) => {
+            const estimado = !!(t.estimadoPorDistancia || t.ajustadoPeloUsuario);
+            h += '<div class="trecho-row">';
+            h += '<div class="trecho-titulo">' + U.esc(t.deNome) + ' → ' + U.esc(t.paraNome) + '</div>';
+            h += '<div class="trecho-detalhes">';
+            h += '<span>' + t.icone + ' ' + U.esc(t.modo) +
+                (t.categoria ? ' <span class="chip chip-cat-' + U.esc(t.categoria) + '">' + U.esc({ alta_velocidade: 'alta velocidade', regional: 'regional' }[t.categoria] || t.categoria) + '</span>' : '') +
+                (t.compativel ? '' : ' <span class="risk risk-mid">difere da preferência</span>') + '</span>';
+            h += '<span>' + (t.duracao ? U.dur(t.duracao) + R.selo(estimado ? 'ESTIMADO' : 'CADASTRADO', t.fonte, null, estimado ? 'Estimativa por distância, não trecho pesquisado.' : 'Duração porta a porta estimada.') : '<span class="indisponivel">duração não disponível</span>') + '</span>';
+            h += '<span>' + (t.custoPP ? U.faixaEur(t.custoPP[0], t.custoPP[1]) + '/pessoa' + R.selo(estimado ? 'ESTIMADO' : 'CADASTRADO', t.fonte, null) : '<span class="indisponivel">custo não disponível</span>' + R.selo('INDISPONIVEL')) + '</span>';
+            if (t.obs) h += '<span class="td-obs">' + U.esc(t.obs) + '</span>';
+            if (estimado) {
+                h += '<span class="trecho-ajuste-inline" title="Trecho sem curadoria — a estimativa por distância pode ser corrigida livremente aqui.">' +
+                    '<label>Duração (min)</label><input type="number" min="1" value="' + t.duracao + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="duracao" title="Substitui a duração estimada pelo valor que você pesquisar ou souber para este trecho.">' +
+                    '<label>Custo mín. (' + MOEDA_ATUAL.simbolo.trim() + ')</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[0] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMin" title="Substitui o piso da faixa de custo por pessoa estimada.">' +
+                    '<label>Custo máx. (' + MOEDA_ATUAL.simbolo.trim() + ')</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[1] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMax" title="Substitui o teto da faixa de custo por pessoa estimada.">' +
+                    '</span>';
+            }
+            h += '</div></div>';
+        });
+        h += '</div>';
+        return h;
     }
 };
 
@@ -27752,10 +27779,11 @@ const Render = {
             h += '<div class="callout callout-nota"><strong>Notas da geração.</strong><ul style="margin:6px 0 0;padding-left:18px;">' +
                 r.avisos.map(a => '<li>' + U.esc(a) + '</li>').join('') + '</ul></div>';
         }
+        h += Render.corpoConflitos(r);
         h += '<p class="source-note">Versão do motor ' + CONFIG.versao + ' · roteiro ' + U.esc(r.id) +
             ' · gerado em ' + new Date(r.criadoEm).toLocaleString('pt-BR') + '.</p>';
         h += R.legendaProv();
-        return R.secao('sec-resumo', 'Visão geral', '📊 Resumo do roteiro', h, '📊 Resumo do roteiro', 'Perfil da viagem, parâmetros informados e indicadores gerais.');
+        return R.secao('sec-resumo', 'Visão geral', '📊 Resumo do roteiro', h, '📊 Resumo do roteiro', 'Perfil da viagem, parâmetros informados, conflitos e decisões pendentes.');
     },
 
     /* --------------------------------------------------------------- JORNADA */
@@ -27784,36 +27812,18 @@ const Render = {
             }
         });
         h += '</div>';
-
-        h += '<h3>Trechos entre cidades</h3><div class="trecho-list">';
-        r.deslocamentos.forEach((t, idx) => {
-            const estimado = !!(t.estimadoPorDistancia || t.ajustadoPeloUsuario);
-            h += '<div class="trecho-row">';
-            h += '<div class="trecho-titulo">' + U.esc(t.deNome) + ' → ' + U.esc(t.paraNome) + '</div>';
-            h += '<div class="trecho-detalhes">';
-            h += '<span>' + t.icone + ' ' + U.esc(t.modo) +
-                (t.categoria ? ' <span class="chip chip-cat-' + U.esc(t.categoria) + '">' + U.esc({ alta_velocidade: 'alta velocidade', regional: 'regional' }[t.categoria] || t.categoria) + '</span>' : '') +
-                (t.compativel ? '' : ' <span class="risk risk-mid">difere da preferência</span>') + '</span>';
-            h += '<span>' + (t.duracao ? U.dur(t.duracao) + R.selo(estimado ? 'ESTIMADO' : 'CADASTRADO', t.fonte, null, estimado ? 'Estimativa por distância, não trecho pesquisado.' : 'Duração porta a porta estimada.') : '<span class="indisponivel">duração não disponível</span>') + '</span>';
-            h += '<span>' + (t.custoPP ? U.faixaEur(t.custoPP[0], t.custoPP[1]) + '/pessoa' + R.selo(estimado ? 'ESTIMADO' : 'CADASTRADO', t.fonte, null) : '<span class="indisponivel">custo não disponível</span>' + R.selo('INDISPONIVEL')) + '</span>';
-            if (t.obs) h += '<span class="td-obs">' + U.esc(t.obs) + '</span>';
-            if (estimado) {
-                h += '<span class="trecho-ajuste-inline" title="Trecho sem curadoria — a estimativa por distância pode ser corrigida livremente aqui.">' +
-                    '<label>Duração (min)</label><input type="number" min="1" value="' + t.duracao + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="duracao" title="Substitui a duração estimada pelo valor que você pesquisar ou souber para este trecho.">' +
-                    '<label>Custo mín. (' + MOEDA_ATUAL.simbolo.trim() + ')</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[0] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMin" title="Substitui o piso da faixa de custo por pessoa estimada.">' +
-                    '<label>Custo máx. (' + MOEDA_ATUAL.simbolo.trim() + ')</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[1] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMax" title="Substitui o teto da faixa de custo por pessoa estimada.">' +
-                    '</span>';
-            }
-            h += '</div></div>';
-        });
-        h += '</div>';
-        return R.secao('sec-jornada', 'Logística', '🗺️ Mapa da jornada', h, '🗺️ Mapa da jornada', 'Sequência de cidades e trechos, com modo, duração e custo de cada deslocamento.');
+        return R.secao('sec-jornada', 'Logística', '🗺️ Mapa da jornada', h, '🗺️ Mapa da jornada', 'Sequência visual de cidades e trechos da viagem, com o meio de transporte e a duração de cada etapa.');
     },
 
-    /* --------------------------------------------------------------- CONFLITOS */
-    conflitos(r) {
-        if (!r.conflitos.length) return null;
-        let h = '<p class="lede">O sistema jamais altera em silêncio o que você escolheu. Quando a configuração e a realidade não cabem uma na outra, o conflito é exposto com as opções de resolução.</p>';
+    /* --------------------------------------------------------------- CONFLITOS
+       Absorvido dentro de "Resumo do roteiro" (não é mais seção própria) — devolve só o
+       corpo HTML, vazio quando não há conflito, preservando o comportamento de antes em
+       que a seção inteira sumia (callout de "validação aprovada" também não aparecia
+       isolado sem conflito nenhum para contextualizá-lo). */
+    corpoConflitos(r) {
+        if (!r.conflitos.length) return '';
+        let h = '<h3 style="margin-top:20px;">⚠️ Conflitos e decisões pendentes</h3>';
+        h += '<p class="lede">O sistema jamais altera em silêncio o que você escolheu. Quando a configuração e a realidade não cabem uma na outra, o conflito é exposto com as opções de resolução.</p>';
         r.conflitos.forEach(c => {
             h += '<div class="conflito' + (c.grave ? '' : ' aviso') + '">';
             h += '<h4>' + (c.grave ? '⚠️ CONFLITO DETECTADO' : '⚠️ ATENÇÃO') + ' — ' + U.esc(c.titulo) +
@@ -27833,7 +27843,7 @@ const Render = {
             h += '<div class="callout callout-dica"><strong>Validação final aprovada.</strong> Nenhuma sobreposição de horário, nenhuma visita em dia de fechamento e nenhuma duplicação de atração. ' +
                 (r.validacao && r.validacao.tentativas ? 'Foram necessárias ' + r.validacao.tentativas + ' rodada(s) de reparo automático.' : 'Nenhum reparo foi necessário.') + '</div>';
         }
-        return R.secao('sec-conflitos', 'Validação', '⚠️ Conflitos e decisões pendentes', h, '⚠️ Conflitos', 'Incompatibilidades detectadas entre a configuração escolhida e a realidade logística, com opções de resolução.');
+        return h;
     },
 
     /* --------------------------------------------------------------- CLIMA */
@@ -27906,7 +27916,8 @@ const Render = {
             h += '</div><p class="source-note">' + U.esc(v.obs) + '</p></div>';
         });
         h += '<div class="callout callout-nota"><strong>Rota aérea sugerida, não itinerário emitido.</strong> ' + U.esc(Providers.FlightProvider.motivo) + '</div>';
-        return R.secao('sec-voos', 'Transporte aéreo', '✈️ Voos e conexões', h, '✈️ Voos & Conexões', 'Rota aérea de entrada e saída. Preços e números de voo só aparecem quando informados por você.');
+        h += R.trechosEntreCidades(r);
+        return R.secao('sec-voos', 'Transporte', '✈️ Voos e conexões', h, '✈️ Voos & Conexões', 'Rota aérea de entrada e saída, mais os trechos terrestres entre cidades — modo, duração e custo de cada deslocamento.');
     },
 
     /* --------------------------------------------------------------- CRONOGRAMA */
@@ -28391,8 +28402,6 @@ const Form = {
         // inteiro do roteiro exportado, e App.iniciar() chama Form.montar() incondicionalmente.
         if (!document.getElementById('formBody')) return;
         const e = Form.estado;
-        const hoje = U.dataISO(new Date());
-        if (!e.dataInicio) { e.dataInicio = U.addDias(hoje, 60); e.dataFim = U.addDias(e.dataInicio, 9); }
 
         let h = '<p class="lede">Responda o essencial e o sistema montará o roteiro. Os níveis 2 e 3 refinam o resultado — e podem ficar como estão: cada campo tem um padrão declarado, nunca uma suposição silenciosa.</p>';
         h += '<div class="form-wrap">';
@@ -28421,7 +28430,7 @@ const Form = {
 
         /* ---------------- DESTINOS ---------------- */
         h += '<h3 style="margin-top:20px;">Destinos <span class="n-tag">obrigatório</span> ' +
-            Form.ajuda('Escolha o país e depois as cidades desse país no menu abaixo. Cada cidade selecionada recebe papel (entrada, saída) e prioridade — os dois influenciam a distribuição de noites. Se o destino não estiver na lista, declare-o em “Outro destino”.') +
+            Form.ajuda('Escolha o país e depois as cidades desse país no menu abaixo. Cada cidade selecionada recebe tipo de parada (entrada, saída) e prioridade — os dois influenciam a distribuição de noites. Se o destino não estiver na lista, declare-o em “Outro destino”.') +
             '</h3>';
         h += '<div class="fgrid fgrid-destino">';
         h += Form.campoSelect('filtroPais', 'País do destino',
@@ -28453,18 +28462,24 @@ const Form = {
             '<div class="form-body" id="outroDestinoBody"></div></details>';
         h += '</div>';
         h += '</div>';
-        h += '<div class="field-full" style="margin-top:16px;"><label>Cidades selecionadas — ordem, papel e prioridade ' +
-            Form.ajuda('Arraste pela alça ☰ para reordenar a visita — isso muda automaticamente a ordem para manual. Papel define entrada/saída internacional (rotas abertas são suportadas). Prioridade multiplica o peso da cidade na distribuição de noites.') +
+        h += '<div class="field-full" style="margin-top:16px;"><label>Cidades selecionadas — ordem, tipo de parada e prioridade ' +
+            Form.ajuda('Arraste pela alça ☰ para reordenar a visita — isso muda automaticamente a ordem para manual. Tipo de parada define entrada/saída internacional (rotas abertas são suportadas). Prioridade multiplica o peso da cidade na distribuição de noites.') +
             '</label></div>';
         h += '<div id="linhasCidades" style="margin-top:8px;"></div>';
 
         h += '<div id="blocoOrdemNoites"></div>';
 
         h += '<h3 style="margin-top:18px;">Objetivo e ritmo</h3><div class="fgrid">';
-        h += Form.campoSelect('objetivoPrincipal', 'Objetivo principal', CATALOGO.objetivos.map(o => [o.id, o.icone + ' ' + o.rotulo]), e.objetivoPrincipal, 'Recebe peso 100 na pontuação das atrações. Os secundários recebem 70 e os demais temas, 15.');
         h += Form.campoSelect('ritmo', 'Ritmo', Object.keys(CONFIG.ritmos).map(k => [k, CONFIG.ritmos[k].rotulo]), e.ritmo, 'Define a janela do dia e a taxa de ocupação. Do muito tranquilo ao muito intenso, a capacidade diária praticamente dobra.');
         h += Form.campoSelect('orcamento', 'Classe de orçamento', Object.keys(CONFIG.orcamento).map(k => [k, CONFIG.orcamento[k].rotulo]), e.orcamento, 'Determina as faixas de diária, alimentação, transporte e extras usadas em toda a sumarização financeira.');
         h += '</div>';
+        h += '<div class="field field-full" style="margin-top:14px;"><label>Objetivo principal ' +
+            Form.ajuda('Recebe peso 100 na pontuação das atrações. Os secundários recebem 70 e os demais temas, 15.') + '</label><div class="chipset" id="chipsObjetivoPrincipal">';
+        CATALOGO.objetivos.forEach(o => {
+            const on = e.objetivoPrincipal === o.id;
+            h += '<button type="button" class="chip-sel v-navy" data-obj-principal="' + o.id + '" aria-pressed="' + on + '">' + o.icone + ' ' + U.esc(o.rotulo) + '</button>';
+        });
+        h += '</div></div>';
         h += '<div class="field field-full" style="margin-top:14px;"><label>Objetivos secundários ' +
             Form.ajuda('Cada um recebe peso 70 na seleção de atrações e entra na nota de interesses.') + '</label><div class="chipset" id="chipsObjetivos">';
         CATALOGO.objetivos.forEach(o => {
@@ -28520,6 +28535,7 @@ const Form = {
         document.getElementById('formBody').innerHTML = h;
         Form.ligarEventos();
         Form.montarOutroDestino();
+        Form.atualizarBloqueioPais();
         Form.atualizarSeletorCidades();
         Form.atualizarCidades();
     },
@@ -28551,6 +28567,27 @@ const Form = {
         sel.innerHTML = [['', 'Selecione um país…']].concat(Form.paisesDisponiveis().map(p => [p.id, p.bandeira + ' ' + p.nome]))
             .map(o => '<option value="' + U.esc(o[0]) + '"' + (o[0] === e.filtroPais ? ' selected' : '') + '>' + U.esc(o[1]) + '</option>').join('');
         sel.value = e.filtroPais;
+    },
+
+    /* O país de destino só é liberado depois das duas datas: a duração da viagem é o que
+       torna a escolha de cidades/noites significativa, e evita montar uma rota que depois
+       precisa ser refeita porque a janela de dias mudou. Espelha o mesmo padrão de bloqueio
+       condicional já usado em atualizarSeletorCidades() (linhas acima) para o dropdown de
+       cidades quando nenhum país está escolhido ainda. */
+    atualizarBloqueioPais() {
+        const sel = document.getElementById('f_filtroPais');
+        if (!sel) return;
+        const completo = !!(Form.estado.dataInicio && Form.estado.dataFim);
+        sel.disabled = !completo;
+        const campo = sel.closest('.field');
+        let dica = document.getElementById('hintFiltroPais');
+        if (!dica && campo) {
+            dica = document.createElement('span');
+            dica.id = 'hintFiltroPais';
+            dica.className = 'hint';
+            campo.appendChild(dica);
+        }
+        if (dica) dica.textContent = completo ? '' : 'Informe as duas datas da viagem para escolher o país.';
     },
 
     /* Painel de seleção de cidades — dropdown fechado por padrão, escolher o país é
@@ -28861,6 +28898,7 @@ const Form = {
             // Muda o que a lista de cidades selecionadas precisa mostrar (setas de ordem,
             // campo de noites), sem remontar o formulário inteiro.
             if (c === 'modoRota' || c === 'modoDias') Form.atualizarCidades();
+            if (c === 'dataInicio' || c === 'dataFim') Form.atualizarBloqueioPais();
         });
         body.addEventListener('change', ev => {
             const c = ev.target.getAttribute && ev.target.getAttribute('data-campo');
@@ -28894,6 +28932,10 @@ const Form = {
             }
             const fecharCid = ev.target.closest ? ev.target.closest('#btnFecharPainelCidades') : null;
             if (fecharCid) { ev.preventDefault(); Form.fecharPainelCidades(); return; }
+            // Objetivo principal: seleção única, exclusiva — não é toggle como os demais
+            // chipsets (Form.alternar), por isso trocado à parte, antes do bloco genérico.
+            const bp = ev.target.closest ? ev.target.closest('button[data-obj-principal]') : null;
+            if (bp) { Form.selecionarObjetivoPrincipal(bp.dataset.objPrincipal); return; }
             const b = ev.target.closest('button[data-obj],button[data-alim],button[data-obrig]');
             if (!b) return;
             const on = b.getAttribute('aria-pressed') === 'true';
@@ -28982,6 +29024,14 @@ const Form = {
         });
     },
     alternar(arr, v) { const i = arr.indexOf(v); if (i >= 0) arr.splice(i, 1); else arr.push(v); },
+    /* Objetivo principal é seleção única e obrigatória (validarConfig exige o campo) —
+       ao contrário dos chipsets multi-seleção, marca só o clicado e desmarca os demais. */
+    selecionarObjetivoPrincipal(id) {
+        Form.estado.objetivoPrincipal = id;
+        document.querySelectorAll('#chipsObjetivoPrincipal button').forEach(btn => {
+            btn.setAttribute('aria-pressed', String(btn.dataset.objPrincipal === id));
+        });
+    },
 
     /* Espelha uma configuração no formulário. Vive aqui, e não dentro de App.iniciar(),
        porque duas entradas precisam dela: a preferência recuperada do localStorage e a
@@ -29033,7 +29083,7 @@ const Form = {
                     '<div class="cmeta">ideal ' + c.noitesIdeal + ' noites · mínimo ' + c.noitesMin + ' · máximo ' + c.noitesMax +
                     ' · ' + U.esc(proc) + '</div></div>' +
                     '<div class="city-controles">' +
-                    '<label class="city-controle"><span>Papel</span><select data-cidade-campo="papel" data-cidade-id="' + c.id + '" title="Entrada e saída internacionais podem ser cidades distintas: rotas abertas são plenamente suportadas.">' +
+                    '<label class="city-controle"><span>Tipo de parada</span><select data-cidade-campo="papel" data-cidade-id="' + c.id + '" title="Entrada e saída internacionais podem ser cidades distintas: rotas abertas são plenamente suportadas.">' +
                     ['intermediaria|Intermediária', 'entrada|Entrada internacional', 'saida|Saída internacional', 'entrada_saida|Entrada e saída'].map(o => {
                         const p = o.split('|'); return '<option value="' + p[0] + '"' + (s.papel === p[0] ? ' selected' : '') + '>' + p[1] + '</option>';
                     }).join('') + '</select></label>' +
@@ -30294,7 +30344,7 @@ const Edicao = {
         }
         if (acao === 'hora') op = { tipo: 'horario', dia: +el.getAttribute('data-dia'), bloco: +el.getAttribute('data-bloco'), valor: el.value };
         if (acao === 'hotel') { op = { tipo: 'hotel', cidadeId: el.getAttribute('data-cidade'), hotelId: el.value }; foco = 'sec-hospedagem'; }
-        if (acao === 'trecho') { op = { tipo: 'trecho', idx: +el.getAttribute('data-idx'), campo: el.getAttribute('data-tcampo'), valor: el.value }; foco = 'sec-jornada'; }
+        if (acao === 'trecho') { op = { tipo: 'trecho', idx: +el.getAttribute('data-idx'), campo: el.getAttribute('data-tcampo'), valor: el.value }; foco = 'sec-voos'; }
         if (!op) return;
 
         const resultado = Edicao.aplicar(r, op);
