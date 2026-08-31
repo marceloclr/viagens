@@ -26991,12 +26991,15 @@ function montarDiasDaCidade(cfg, cidade, pool, datas, tiposDia, roteiro) {
 /* Converte os dias em cronograma com horários reais e sem sobreposição (§28) */
 function montarCronograma(cfg, dias, roteiro) {
     const r = CONFIG.ritmos[cfg.ritmo] || CONFIG.ritmos.moderado;
+    const ALMOCO_INI = U.min('12:30');
+    const JANTAR_INI = U.min('19:30');
     dias.forEach(dia => {
         let t = U.min(r.inicio);
         if (dia.tipo === 'chegada') t = U.min(cfg.horaChegadaPrevista || '15:00');
         const blocos = [];
         let zonaAtual = null;
         let almocoFeito = false;
+        let jantarFeito = false;
 
         if (dia.tipo === 'chegada') {
             blocos.push({ ini: t, fim: t + 90, tipo: 'logistica', icone: '🛬', titulo: 'Chegada, imigração, bagagem e deslocamento',
@@ -27006,7 +27009,7 @@ function montarCronograma(cfg, dias, roteiro) {
             t += 45;
         }
 
-        dia.itens.forEach(item => {
+        dia.itens.forEach((item, idx) => {
             const a = item.a;
             if (zonaAtual && zonaAtual !== a.zona) {
                 const d = IDX.minutosZona(dia.cidadeId, zonaAtual, a.zona);
@@ -27014,12 +27017,32 @@ function montarCronograma(cfg, dias, roteiro) {
                     desc: U.dur(d) + ' entre ' + zonaAtual.replace(/_/g, ' ') + ' e ' + a.zona.replace(/_/g, ' ') + '. Tempo estimado.' });
                 t += d;
             }
-            if (!almocoFeito && t >= U.min('12:30')) {
+
+            /* Uma atração que avança sobre o horário de almoço/jantar (parques de Orlando,
+               por exemplo, onde o dia inteiro é passado dentro do parque) já contempla a
+               refeição por dentro — não insere bloco separado, só sinaliza na descrição.
+               Distinto do caso abaixo (t já passou do horário ao CHEGAR nesta atração),
+               em que a refeição precisa mesmo de um bloco próprio entre duas atrações. */
+            const cobreAlmoco = !almocoFeito && t <= ALMOCO_INI && t + a.dur > ALMOCO_INI;
+            const cobreJantar = !jantarFeito && t <= JANTAR_INI && t + a.dur > JANTAR_INI;
+            const notasRefeicao = [];
+
+            if (cobreAlmoco) {
+                almocoFeito = true;
+                notasRefeicao.push('Inclui o horário de almoço — refeição prevista dentro do local, como costuma ocorrer em parques temáticos.');
+                // idx > 0: nunca insere a refeição ANTES da primeira atração do dia — só depois
+                // que o roteiro já começou (ex.: chegada tardia empurrando "t" para depois das 12h30).
+            } else if (!almocoFeito && idx > 0 && t >= ALMOCO_INI) {
                 blocos.push({ ini: t, fim: t + 75, tipo: 'refeicao', icone: '🍽️', titulo: 'Almoço', desc: 'Ver a estratégia alimentar da cidade no módulo de alimentação.' });
                 t += 75; almocoFeito = true;
             }
+            if (cobreJantar) {
+                jantarFeito = true;
+                notasRefeicao.push('Inclui o horário de jantar — refeição prevista dentro do local, como costuma ocorrer em parques temáticos.');
+            }
+
             blocos.push({ ini: t, fim: t + a.dur, tipo: 'atracao', icone: '📍', titulo: a.nome, atracaoId: a.id,
-                desc: a.desc, porque: item.porque, score: Math.round(item.score) });
+                desc: a.desc + (notasRefeicao.length ? ' ' + notasRefeicao.join(' ') : ''), porque: item.porque, score: Math.round(item.score) });
             t += a.dur;
             zonaAtual = a.zona;
         });
@@ -27035,8 +27058,8 @@ function montarCronograma(cfg, dias, roteiro) {
             blocos.push({ ini: t, fim: t + ant, tipo: 'logistica', icone: '✈️', titulo: 'Deslocamento e antecedência no aeroporto',
                 desc: U.dur(ant) + ' de margem contra atrasos. O sistema não preenche a manhã de partida com atrações que comprometam o voo (§31).' });
             t += ant;
-        } else if (dia.itens.length) {
-            const jantar = Math.max(t + 30, U.min('19:30'));
+        } else if (dia.itens.length && !jantarFeito) {
+            const jantar = Math.max(t + 30, JANTAR_INI);
             blocos.push({ ini: jantar, fim: jantar + 90, tipo: 'refeicao', icone: '🍷', titulo: 'Jantar', desc: 'Sugestão de bairro no módulo de alimentação.' });
         }
         dia.blocos = blocos;
