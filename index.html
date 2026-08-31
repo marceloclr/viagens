@@ -1607,7 +1607,10 @@ const CONFIG = {
     pesosPontuacao: { interesses: 25, logistica: 20, perfil: 15, ritmo: 15, orcamento: 10, clima: 5, transporte: 5, hospedagem: 5 },
     // Símbolo exibido para cada moeda de país cadastrado em paises.json. Sem entrada aqui,
     // o roteiro cai no padrão EUR — mesmo comportamento de antes desta tabela existir.
-    simbolosMoeda: { EUR: '€ ', USD: 'US$ ', CHF: 'CHF ', ILS: '₪ ', TRY: '₺ ', BRL: 'R$ ' }
+    simbolosMoeda: { EUR: '€ ', USD: 'US$ ', CHF: 'CHF ', ILS: '₪ ', TRY: '₺ ', BRL: 'R$ ' },
+    // Nome por extenso, usado em rótulos de formulário (ex.: "Teto de orçamento em ...")
+    // antes de o roteiro existir — ver Form.moedaSelecionada().
+    nomesMoeda: { EUR: 'euros', USD: 'dólares', CHF: 'francos suíços', ILS: 'shekels', TRY: 'liras turcas', BRL: 'reais' }
 };
 
 /* =====================================================================================
@@ -27774,8 +27777,8 @@ const Render = {
             if (estimado) {
                 h += '<span class="trecho-ajuste-inline" title="Trecho sem curadoria — a estimativa por distância pode ser corrigida livremente aqui.">' +
                     '<label>Duração (min)</label><input type="number" min="1" value="' + t.duracao + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="duracao" title="Substitui a duração estimada pelo valor que você pesquisar ou souber para este trecho.">' +
-                    '<label>Custo mín. (€)</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[0] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMin" title="Substitui o piso da faixa de custo por pessoa estimada.">' +
-                    '<label>Custo máx. (€)</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[1] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMax" title="Substitui o teto da faixa de custo por pessoa estimada.">' +
+                    '<label>Custo mín. (' + MOEDA_ATUAL.simbolo.trim() + ')</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[0] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMin" title="Substitui o piso da faixa de custo por pessoa estimada.">' +
+                    '<label>Custo máx. (' + MOEDA_ATUAL.simbolo.trim() + ')</label><input type="number" min="0" value="' + (t.custoPP ? t.custoPP[1] : 0) + '" data-ed="trecho" data-idx="' + idx + '" data-tcampo="custoMax" title="Substitui o teto da faixa de custo por pessoa estimada.">' +
                     '</span>';
             }
             h += '</div></div>';
@@ -28347,6 +28350,19 @@ function estadoFormPadrao() {
 const Form = {
     estado: estadoFormPadrao(),
 
+    /* Moeda das cidades já escolhidas no Nível 1, antes de o roteiro existir — mesma regra
+       de gerarRoteiro() (só troca do padrão EUR quando toda a seleção pertence a um único
+       país com moeda cadastrada). Sem isto, o rótulo de "Teto de orçamento" (Nível 2) ficava
+       fixo em euros mesmo para destinos como Estados Unidos (USD). */
+    moedaSelecionada() {
+        const paises = Array.from(new Set((Form.estado.cidadesSelecionadas || []).map(s => {
+            const c = IDX.cidade(s.id);
+            return c && c.paisId;
+        }).filter(Boolean)));
+        const moedas = Array.from(new Set(paises.map(pid => (DB.paises[pid] || {}).moeda).filter(Boolean)));
+        return (moedas.length === 1 && CONFIG.simbolosMoeda[moedas[0]]) ? moedas[0] : 'EUR';
+    },
+
     montar() {
         // #formBody pode não existir — o export HTML (§ ExportHtml) remove #sec-form
         // inteiro do roteiro exportado, e App.iniciar() chama Form.montar() incondicionalmente.
@@ -28440,7 +28456,7 @@ const Form = {
         h += Form.campoSelect('perfilGrupo', 'Perfil do grupo', CATALOGO.perfisGrupo.map(p => [p.id, p.rotulo]), e.perfilGrupo, 'Registrado no resumo e usado como contexto das recomendações.');
         h += Form.campoSelect('caminhada', 'Disposição para caminhar', CATALOGO.caminhada.map(c => [c.id, c.rotulo]), e.caminhada, 'Minimizar caminhada penaliza atrações longas ao ar livre na pontuação e reduz a nota de perfil quando o roteiro fica exposto.');
         h += Form.campoSelect('transporteInterno', 'Transporte entre cidades', CATALOGO.transporteInterno.map(t => [t.id, t.icone + ' ' + t.rotulo]), e.transporteInterno, 'Trechos incompatíveis com a preferência são sinalizados e reduzem a nota de transporte.');
-        h += Form.campoNumero('orcamentoTotal', 'Teto de orçamento em euros (opcional)', e.orcamentoTotal || '', 'Quando informado, a nota de orçamento passa a comparar a estimativa terrestre com este teto. Sem ele, a nota adota valor neutro.');
+        h += Form.campoNumero('orcamentoTotal', 'Teto de orçamento em ' + (CONFIG.nomesMoeda[Form.moedaSelecionada()] || 'euros') + ' (opcional)', e.orcamentoTotal || '', 'Quando informado, a nota de orçamento passa a comparar a estimativa terrestre com este teto. Sem ele, a nota adota valor neutro.');
         h += '</div>';
         h += '<div class="field field-full" style="margin-top:14px;"><label>Preferência alimentar ' +
             Form.ajuda('Cruzada com as etiquetas de cada estratégia alimentar por cidade.') + '</label><div class="chipset" id="chipsAlim">';
@@ -29019,6 +29035,17 @@ const Form = {
                 : '<span class="hint">Selecione cidades no Nível 1.</span>';
         }
         Form.atualizarOrdemNoites();
+        Form.atualizarMoedaOrcamento();
+    },
+
+    /* Atualiza só o texto do rótulo de "Teto de orçamento" (Nível 2) para a moeda das
+       cidades selecionadas no momento — chamada por Form.atualizarCidades() em vez de um
+       Form.montar() completo, que perderia o estado de abertura dos <details> do formulário. */
+    atualizarMoedaOrcamento() {
+        const label = document.querySelector('label[for="f_orcamentoTotal"]');
+        if (!label || !label.firstChild) return;
+        const nome = CONFIG.nomesMoeda[Form.moedaSelecionada()] || 'euros';
+        label.firstChild.nodeValue = 'Teto de orçamento em ' + nome + ' (opcional) ';
     },
 
     /* Move a cidade "origemId" para a posição em que "destinoId" está — usada pelo
