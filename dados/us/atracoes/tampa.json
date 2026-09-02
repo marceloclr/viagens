@@ -11,10 +11,11 @@
     "endereco": "10165 N McKinley Dr, Tampa, FL 33612, EUA",
     "desc": "Parque temático de aventura de temática africana, com montanhas-russas premiadas e um dos maiores safáris de vida selvagem fora da África — ocupa o dia inteiro.",
     "custo": {
-      "valor": { "deUsd": 55, "ateUsd": 157 },
+      "valor": { "adulto": 55 },
       "tipo": "ESTIMADO",
       "fonte": "buschgardens.com/tampa/tickets/theme-park-tickets/ — sítio oficial; preço dinâmico por data (piso online antecipado ~US$55–97; teto na bilheteria ~US$157)",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso online antecipado. Faixa dinâmica completa: US$55 (piso) a US$157 (teto na bilheteria)."
     },
     "horario": { "valor": "Horário varia por data — consultar buschgardens.com/tampa/park-info/theme-park-hours/ antes da viagem", "tipo": "CADASTRADO", "fonte": "buschgardens.com/tampa/park-info/theme-park-hours/ — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["familia", "aventura", "natureza"],
@@ -36,10 +37,11 @@
     "endereco": "701 Channelside Dr, Tampa, FL 33602, EUA",
     "desc": "Aquário à beira do porto de Tampa, com recifes de corais da Flórida, manguezais e encontros com araraunas — reserva antecipada obrigatória.",
     "custo": {
-      "valor": { "deUsd": 30, "ateUsd": 40 },
+      "valor": { "adulto": 30 },
       "tipo": "ESTIMADO",
       "fonte": "flaquarium.org/visit/visitor-information/plan-your-visit/ — sítio oficial; preço dinâmico por data (3–11 anos até US$35)",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$30–40) consultada para o ingresso geral."
     },
     "horario": { "valor": "Diariamente 9h30–17h", "tipo": "CADASTRADO", "fonte": "flaquarium.org/visit/visitor-information/plan-your-visit/ — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["natureza", "familia"],

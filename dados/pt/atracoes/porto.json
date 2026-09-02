@@ -63,14 +63,13 @@
     },
     "custo": {
       "valor": {
-        "entradaGeral": 8,
-        "visitaGuiada": 9.5,
-        "passeNoturno": 5
+        "adulto": 8,
+        "gratuitoAte": 10
       },
       "tipo": "CADASTRADO",
       "fonte": "Agregado turístico consultado por indisponibilidade de tarifário detalhado na página inicial oficial (fernandolopes.pt), coerente com torredosclerigos.pt",
       "consultadoEm": "2026-08-26",
-      "nota": "Crianças até 10 anos costumam ter entrada gratuita; a igreja isoladamente tem acesso livre. Confirmar tarifário vigente no sítio oficial."
+      "nota": "Valor referente à entrada geral (subida à torre). Visita guiada custa 9,5 €; passe noturno (época de verão/Páscoa) custa 5 €. A igreja isoladamente tem acesso livre. Confirmar tarifário vigente no sítio oficial."
     },
     "oficial": "https://torredosclerigos.pt",
     "desc": "Torre barroca de 1763, com 75 metros e 225 degraus, símbolo da cidade e um dos melhores miradouros do Porto."
@@ -180,15 +179,11 @@
       "nota": "Fonte secundária por falta de página oficial estruturada da Diocese; confirmar horário no local."
     },
     "custo": {
-      "valor": {
-        "catedral": 0,
-        "claustroCasaCabidoTorre": 3,
-        "ate10anos": 0
-      },
+      "valor": 0,
       "tipo": "CADASTRADO",
       "fonte": "Agregado turístico (tudosobreporto.com / fernandolopes.pt), com contato citado da Diocese do Porto",
       "consultadoEm": "2026-08-26",
-      "nota": "Entrada na catedral é gratuita; bilhete de 3 € dá acesso ao claustro gótico, Casa do Cabido e subida à torre. Fonte secundária — confirmar tarifário vigente."
+      "nota": "Entrada na catedral é gratuita. Bilhete adicional de 3 € (crianças até 10 anos grátis) dá acesso ao claustro gótico, Casa do Cabido e subida à torre — não incluído no valor exibido. Fonte secundária — confirmar tarifário vigente."
     },
     "oficial": null,
     "desc": "Catedral fortificada dos séculos XII–XIII, no ponto mais alto do centro histórico, com claustro gótico revestido de azulejos."

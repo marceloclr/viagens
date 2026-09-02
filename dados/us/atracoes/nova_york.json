@@ -198,12 +198,12 @@
     "desc": "Mirante nos andares 67–70 do Rockefeller Center, com vista aberta sobre o Central Park e o skyline com o Empire State ao fundo.",
     "custo": {
       "valor": {
-        "deUsd": 36,
-        "ateUsd": 53
+        "adulto": 36
       },
       "tipo": "ESTIMADO",
       "fonte": "rockefellercenter.com/buy-tickets/on-the-rocks/ e agregadores — preço varia por horário e data reservados",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica consultada (US$36–53), que varia por horário e data reservados."
     },
     "horario": {
       "valor": "Diariamente, aproximadamente 8h–00h (confirmar horário exato no sítio oficial por data)",

@@ -35,10 +35,11 @@
     "endereco": "1400 Patten Rd, Lookout Mountain, GA 30750, EUA",
     "desc": "Jardim rochoso sobre o topo de Lookout Mountain, com trilha entre formações de pedra arenito e o mirante \"See Seven States\" — em dias claros, vista de sete estados.",
     "custo": {
-      "valor": { "deUsd": 33, "ateUsd": 45 },
+      "valor": { "adulto": 33 },
       "tipo": "ESTIMADO",
       "fonte": "seerockcity.com/buy-tickets/ — sítio oficial; preço varia por dia da semana (3–12 anos US$33 em dia útil, US$35 fim de semana)",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$33–45) consultada para o ingresso geral; varia por dia da semana e temporada. Confirmar tarifa vigente no sítio oficial antes da compra."
     },
     "horario": { "valor": "Diariamente, tipicamente 10h–22h30, varia por temporada", "tipo": "CADASTRADO", "fonte": "seerockcity.com — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["natureza", "fotografia"],

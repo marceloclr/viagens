@@ -539,10 +539,10 @@
     "paisId": null,
     "companhias": ["Copa Airlines"],
     "duracaoMin": 360,
-    "frequencia": "Diária (voo único por dia) — única companhia nesta rota",
+    "frequencia": "Diária (voo único por dia) — única companhia nesta rota. Aumento já anunciado: 8 voos semanais a partir de dezembro de 2026, e 11 voos semanais em janeiro–fevereiro de 2027 (alta temporada), conforme release da Copa Airlines de agosto de 2026.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe sem voo direto de Brasília — a pernada PTY→destino final não está cadastrada nesta base.",
-    "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá, consultado via busca em 2026-09-02",
+    "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br, panrotas.com.br, airway.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá e seu aumento de frequência anunciado em agosto de 2026, consultado via busca em 2026-09-02",
     "consultadoEm": "2026-09-02"
   },
   {
@@ -563,12 +563,12 @@
     "origemAeroporto": "bsb",
     "destinoAeroporto": "bog",
     "paisId": null,
-    "companhias": ["GOL Linhas Aéreas", "Avianca"],
-    "duracaoMin": 327,
-    "frequencia": "GOL: 3 voos semanais (segunda, quarta e domingo, desde 30/03/2025) — voo G3 8242 na ida, G3 8243 na volta. Avianca também opera a rota; frequência específica não confirmada nesta pesquisa. Cerca de 7 voos semanais somando as duas companhias (junho de 2026).",
+    "companhias": ["GOL Linhas Aéreas"],
+    "duracaoMin": 325,
+    "frequencia": "GOL: 3 voos semanais — segunda, sexta e domingo, desde 30/03/2025 (antes dessa data, a operação era às terças, quintas e sábados). Voo G3 8242 na ida, G3 8243 na volta. Única operadora confirmada nesta rota direta: a Avianca conecta Brasil↔Bogotá a partir de São Paulo, Rio de Janeiro, Manaus e Belém, mas não há confirmação de que opere o trecho direto BSB–BOG.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "GOL — ida (G3 8242): Brasília 08h50 → Bogotá 12h22, horário local. Volta (G3 8243): Bogotá 22h55 → Brasília 06h25 do dia seguinte, horário local. Duração média de 5h27.",
-    "fonte": "panrotas.com.br, melhoresdestinos.com.br, passageirodeprimeira.com, bsb.aero — cobertura consolidada sobre a rota Brasília–Bogotá, consultado via busca em 2026-09-02",
+    "obs": "GOL — ida (G3 8242): Brasília 08h55 → Bogotá 12h20, horário local (cerca de 5h25 de voo). Volta (G3 8243): Bogotá 23h33 → Brasília 06h30 do dia seguinte, horário local (cerca de 4h57, mais curta por causa dos ventos predominantes). Aeronave Boeing 737 MAX 8. Rota inaugurada em 04/02/2025.",
+    "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/gol-inicia-operacao-de-voo-direto-de-brasilia-para-bogota — release oficial do Aeroporto de Brasília; panrotas.com.br — cobertura sobre operações da Avianca no Brasil, consultado via busca em 2026-09-02",
     "consultadoEm": "2026-09-02"
   },
   {
@@ -578,10 +578,10 @@
     "paisId": null,
     "companhias": ["GOL Linhas Aéreas", "Aerolíneas Argentinas"],
     "duracaoMin": 240,
-    "frequencia": "GOL: diária, com voos também às terças, quartas, sextas, sábados e domingos citados especificamente em cobertura de maio de 2026. Aerolíneas Argentinas: 2 voos semanais (terças e domingos).",
+    "frequencia": "GOL: voos diários, confirmados pelo release oficial do Aeroporto de Brasília (expandido de 5 para 7 frequências semanais); a cobertura detalha especificamente terças, quartas, sextas, sábados e domingos. Aerolíneas Argentinas: 2 voos semanais (terças e domingos).",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "GOL — ida: Brasília 08h40 → Buenos Aires 12h30, horário local, cerca de 4h de voo. Aerolíneas Argentinas opera para o Aeroporto Jorge Newbery/Aeroparque (não Ezeiza) às terças (08h40) e domingos (21h30) — GOL também alterna entre Aeroparque e Ezeiza conforme o mês. Equipamento Boeing 737, configuração internacional de 176 lugares.",
-    "fonte": "passageirodeprimeira.com, dicasdacapital.com.br, bsb.aero — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02",
+    "obs": "GOL — ida: Brasília 08h40 → Buenos Aires 12h30, horário local. Volta: Buenos Aires 03h30 → Brasília 06h50, horário local. Cerca de 3h50 de voo em cada sentido. Aerolíneas Argentinas opera para o Aeroporto Jorge Newbery/Aeroparque (não Ezeiza) às terças (08h40) e domingos (21h30) — GOL também alterna entre Aeroparque e Ezeiza conforme o mês. Equipamento Boeing 737, configuração internacional de 176 lugares.",
+    "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/aeroporto-de-brasilia-passa-a-ter-voos-diarios-para-buenos-aires-na-argentina — release oficial do Aeroporto de Brasília; passageirodeprimeira.com, dicasdacapital.com.br — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02",
     "consultadoEm": "2026-09-02"
   },
   {

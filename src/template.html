@@ -1599,6 +1599,14 @@ const CONFIG = {
         intenso:         { unidades: 5.0, inicio: '08:30', fim: '20:30', pausas: 1, rotulo: 'Intenso' },
         muito_intenso:   { unidades: 6.5, inicio: '08:00', fim: '21:30', pausas: 0, rotulo: 'Muito intenso' }
     },
+    /* Cidades de origem com aeroporto cadastrado em dados/avulsos.json E cobertura real
+       em dados/voos.json (origemAeroporto) — só entram aqui as que de fato sugerem voo
+       internacional/doméstico cadastrado, para o menu nunca prometer rota que a base não
+       tem. Fortaleza é o padrão histórico do formulário; Brasília foi adicionada com toda
+       a malha BSB↔exterior pesquisada. */
+    origens: [
+        'Fortaleza', 'Brasília', 'São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Recife', 'Campinas'
+    ],
     // Faixas de diária/pessoa/dia por classe de orçamento, em EUR.
     // Origem: curadoria do documento de referência v12, generalizada por faixa.
     orcamento: {
@@ -2587,7 +2595,8 @@ function calcularIngressos(cfg, dias, roteiro) {
         const a = IDX.atracao(b.atracaoId);
         if (!a) return;
 
-        if (a.custo.tipo === 'CADASTRADO' && typeof a.custo.valor === 'object' && a.custo.valor) {
+        const custoValido = a.custo.tipo === 'CADASTRADO' || a.custo.tipo === 'ESTIMADO';
+        if (custoValido && typeof a.custo.valor === 'object' && a.custo.valor) {
             const v = a.custo.valor, tx = v.taxaReserva || 0;
             let total = 0, gratuitos = 0;
             const detalhe = [];
@@ -2609,12 +2618,12 @@ function calcularIngressos(cfg, dias, roteiro) {
                 : '—';
             linhas.push({
                 nome: a.nome, adulto: adPreco, menorTexto: meMostra, total: total,
-                tipo: 'CADASTRADO', fonte: a.custo.fonte, oficial: a.oficial, reserva: a.reserva,
+                tipo: a.custo.tipo, fonte: a.custo.fonte, oficial: a.oficial, reserva: a.reserva,
                 nota: (a.custo.nota || '') + (gratuitos ? ' Neste grupo, ' + gratuitos + ' pessoa(s) entram sem cobrança pela faixa etária.' : ''),
                 detalhe: detalhe.join(' · ')
             });
-        } else if (a.custo.tipo === 'CADASTRADO' && a.custo.valor === 0) {
-            linhas.push({ nome: a.nome, adulto: 0, menorTexto: 'sem cobrança', total: 0, tipo: 'CADASTRADO', fonte: a.custo.fonte, nota: a.custo.nota, oficial: a.oficial, reserva: a.reserva });
+        } else if (custoValido && a.custo.valor === 0) {
+            linhas.push({ nome: a.nome, adulto: 0, menorTexto: 'sem cobrança', total: 0, tipo: a.custo.tipo, fonte: a.custo.fonte, nota: a.custo.nota, oficial: a.oficial, reserva: a.reserva });
         } else {
             semTarifa++;
             linhas.push({ nome: a.nome, adulto: null, menorTexto: null, total: null, tipo: 'INDISPONIVEL', fonte: a.custo.fonte, oficial: a.oficial, reserva: a.reserva });
@@ -3495,7 +3504,7 @@ const Render = {
             if (l.tipo === 'INDISPONIVEL') {
                 h += '<td colspan="3"><span class="indisponivel">Tarifa não disponível na base</span>' + R.selo('INDISPONIVEL', l.fonte) + '</td><td style="text-align:right;">—</td>';
             } else {
-                h += '<td>' + (l.adulto ? U.eur(l.adulto) : 'sem cobrança') + '</td>' +
+                h += '<td>' + (l.adulto ? U.eur(l.adulto) : 'sem cobrança') + R.selo(l.tipo, l.fonte) + '</td>' +
                     '<td>' + U.esc(l.menorTexto == null ? '—' : l.menorTexto) + (l.detalhe ? '<div class="sched-d">' + U.esc(l.detalhe) + '</div>' : '') + '</td>' +
                     '<td>' + (l.reserva ? 'obrigatória' : '—') + '</td>' +
                     '<td style="text-align:right;font-weight:bold;color:var(--accent2);">' + (l.total ? U.eur(l.total) : '—') + '</td>';
@@ -3847,7 +3856,7 @@ const Form = {
         h += '<h3 style="margin-top:2px;">Viagem ' +
             Form.ajuda('Origem e janela de datas. A antecedência em relação à data de início decide o regime climático: até 16 dias há previsão meteorológica; além disso, apenas climatologia histórica, que o sistema jamais apresenta como previsão.') +
             '</h3><div class="fgrid">';
-        h += Form.campoTexto('origem', 'Origem da viagem', e.origem, 'Cidade de onde o grupo parte. Usada no mapa da jornada e na rota aérea sugerida.');
+        h += Form.campoSelect('origem', 'Origem da viagem', CONFIG.origens.map(o => [o, o]), e.origem, 'Cidade de onde o grupo parte. Usada no mapa da jornada e na rota aérea sugerida. Lista limitada às origens com aeroporto e voos cadastrados na base.');
         h += Form.campoData('dataInicio', 'Data de início', e.dataInicio, 'Primeira noite fora de casa. Define também o regime climático: até 16 dias de antecedência há previsão; além disso, climatologia histórica.');
         h += Form.campoData('dataFim', 'Data de término', e.dataFim, 'Dia do voo de retorno. O último dia recebe carga reduzida e reserva de antecedência para o aeroporto.');
         h += '</div>';

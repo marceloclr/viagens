@@ -90,10 +90,11 @@
     "endereco": "700 L'Enfant Plaza SW, Washington, DC 20024, EUA",
     "desc": "Museu privado sobre espionagem, com a maior coleção de artefatos de inteligência já aberta ao público — o único grande museu pago do National Mall.",
     "custo": {
-      "valor": { "deUsd": 25, "ateUsd": 36 },
+      "valor": { "adulto": 25 },
       "tipo": "ESTIMADO",
       "fonte": "spymuseum.org/visit — preço dinâmico por data; cobertura consolidada via agregadores, confirmar faixa vigente antes de publicar",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Faixa dinâmica consultada: US$25–36. Confirmar valor vigente no sítio oficial antes de publicar."
     },
     "horario": { "valor": "Diariamente 9h–18h", "tipo": "CADASTRADO", "fonte": "washington.org/find-dc-listings/international-spy-museum — portal oficial de turismo", "consultadoEm": "2026-08-28" },
     "cat": ["museus", "familia"],

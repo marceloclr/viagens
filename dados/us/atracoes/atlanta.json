@@ -10,10 +10,11 @@
     "endereco": "121 Baker St NW, Atlanta, GA 30313, EUA",
     "desc": "Museu-experiência da marca nascida em Atlanta em 1886, com a sala de degustação de mais de 100 bebidas do mundo todo e a cofre da fórmula secreta.",
     "custo": {
-      "valor": { "deUsd": 21, "ateUsd": 26 },
+      "valor": { "adulto": 21 },
       "tipo": "ESTIMADO",
       "fonte": "worldofcoca-cola.com/plan-your-visit/faq — sítio oficial; preço dinâmico por data (3–12 anos US$17–22)",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$21–26) consultada para o ingresso adulto."
     },
     "horario": { "valor": "Diariamente, tipicamente 10h–17h; fechado no Dia de Ação de Graças e no Natal", "tipo": "CADASTRADO", "fonte": "worldofcoca-cola.com/plan-your-visit/faq — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["museus", "familia"],

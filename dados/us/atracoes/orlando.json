@@ -12,12 +12,12 @@
     "desc": "O parque mais visitado do mundo — Cinderella Castle, Space Mountain e as atrações clássicas Disney; ocupa o dia inteiro.",
     "custo": {
       "valor": {
-        "deUsd": 119,
-        "ateUsd": 209
+        "adulto": 119
       },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data, entre os quatro parques Disney o Magic Kingdom costuma ficar na faixa mais alta",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
     },
     "horario": {
       "valor": "Diariamente, tipicamente 9h–22h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -49,12 +49,12 @@
     "desc": "Parque dividido entre o World Celebration/World Discovery (ciência e tecnologia) e o World Showcase, com pavilhões de 11 países.",
     "custo": {
       "valor": {
-        "deUsd": 119,
-        "ateUsd": 209
+        "adulto": 119
       },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
     },
     "horario": {
       "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -86,12 +86,12 @@
     "desc": "Parque temático em torno do cinema, com as áreas de Star Wars: Galaxy's Edge e Toy Story Land.",
     "custo": {
       "valor": {
-        "deUsd": 119,
-        "ateUsd": 209
+        "adulto": 119
       },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
     },
     "horario": {
       "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -123,12 +123,12 @@
     "desc": "Parque temático de vida selvagem e conservação, com o safari de Kilimanjaro e a área de Pandora — The World of Avatar.",
     "custo": {
       "valor": {
-        "deUsd": 119,
-        "ateUsd": 209
+        "adulto": 119
       },
       "tipo": "ESTIMADO",
       "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; entre os quatro parques Disney o Animal Kingdom costuma ficar na faixa mais baixa (ex.: US$119 fora de pico)",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
     },
     "horario": {
       "valor": "Diariamente, tipicamente 8h–20h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -161,12 +161,12 @@
     "desc": "Parque temático de cinema e TV, com Wizarding World of Harry Potter — Diagon Alley e simuladores como Revenge of the Mummy.",
     "custo": {
       "valor": {
-        "deUsd": 130,
-        "ateUsd": 190
+        "adulto": 130
       },
       "tipo": "ESTIMADO",
       "fonte": "orlandoattractions.com/tickets/universal-orlando-1-day-tickets — cobertura da tabela oficial 2026 Universal Orlando; preço dinâmico por data",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$130–190) consultada para ingresso de 1 dia/1 parque."
     },
     "horario": {
       "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)",
@@ -198,12 +198,12 @@
     "desc": "Parque de aventura dividido em ilhas temáticas, com Wizarding World of Harry Potter — Hogsmeade e as montanhas-russas da Marvel Super Hero Island.",
     "custo": {
       "valor": {
-        "deUsd": 130,
-        "ateUsd": 190
+        "adulto": 130
       },
       "tipo": "ESTIMADO",
       "fonte": "orlandoattractions.com/tickets/universal-orlando-1-day-tickets — cobertura da tabela oficial 2026 Universal Orlando; preço dinâmico por data",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$130–190) consultada para ingresso de 1 dia/1 parque."
     },
     "horario": {
       "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)",
@@ -235,8 +235,7 @@
     "desc": "Quinto portão da Universal Orlando, inaugurado em 2025 — cinco mundos temáticos incluindo Super Nintendo World e How to Train Your Dragon — Isle of Berk.",
     "custo": {
       "valor": {
-        "deUsd": 139,
-        "ateUsd": null
+        "adulto": 139
       },
       "tipo": "ESTIMADO",
       "fonte": "disneytouristblog.com/2026-epic-universe-1-day-multi-day-park-hopper-discount-tickets-now-on-sale — cobertura de lançamento da tabela oficial; teto da faixa não confirmado nesta consulta",
@@ -273,12 +272,12 @@
     "desc": "Parque marinho com montanhas-russas, exibições educativas de vida marinha e shows com golfinhos.",
     "custo": {
       "valor": {
-        "deUsd": 70,
-        "ateUsd": 109
+        "adulto": 70
       },
       "tipo": "ESTIMADO",
       "fonte": "seaworld.com/orlando/tickets — cobertura consolidada da tabela oficial (preço promocional online a partir de ~US$70; preço de bilheteria a partir de ~US$109); dinâmico por data",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso da faixa dinâmica (US$70–109) consultada, referente ao preço promocional online."
     },
     "horario": {
       "valor": "Diariamente, horário varia por data — consulte o sítio oficial antes da viagem",

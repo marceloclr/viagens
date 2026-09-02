@@ -10,11 +10,11 @@
     "endereco": "480 Tredegar St, Richmond, VA 23219, EUA",
     "desc": "Museu instalado nas antigas fundições de ferro de Tredegar, à beira do James River, contando a Guerra Civil por três perspectivas: da União, da Confederação e dos afro-americanos escravizados.",
     "custo": {
-      "valor": { "deUsd": 14, "ateUsd": 16 },
+      "valor": { "adulto": 14 },
       "tipo": "ESTIMADO",
       "fonte": "acwm.org/buy-tickets/ — sítio oficial não expõe o valor do ingresso avulso nesta consulta; faixa estimada a partir do combo de dois sítios (US$24) e três sítios (US$33)",
       "consultadoEm": "2026-08-28",
-      "nota": "Confirmar valor exato do ingresso avulso no sítio oficial antes de publicar."
+      "nota": "Faixa estimada consultada: US$14–16. Confirmar valor exato do ingresso avulso no sítio oficial antes de publicar."
     },
     "horario": { "valor": "Diariamente 10h–17h", "tipo": "CADASTRADO", "fonte": "acwm.org/buy-tickets/ — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["historia", "museus"],

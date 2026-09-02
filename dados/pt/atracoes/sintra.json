@@ -27,12 +27,12 @@
     },
     "custo": {
       "valor": {
-        "adulto18a64": 13
+        "adulto": 13
       },
       "tipo": "CADASTRADO",
       "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
       "consultadoEm": "2026-08-26",
-      "nota": "Valor referente à \"Visita Essencial\". Reserva de data e hora obrigatória, feita online em bilheteira.parquesdesintra.pt."
+      "nota": "Valor referente à \"Visita Essencial\", faixa 18–64 anos. Reserva de data e hora obrigatória, feita online em bilheteira.parquesdesintra.pt."
     },
     "oficial": "https://www.parquesdesintra.pt",
     "desc": "Palácio medieval e mourisco no centro histórico de Sintra, com suas icônicas chaminés cônicas, residência real usada até o século XX."
@@ -65,14 +65,13 @@
     },
     "custo": {
       "valor": {
-        "adulto18a64": 20,
-        "jovem6a17": 18,
-        "senior65mais": 18
+        "adulto": 20,
+        "menor18": 18
       },
       "tipo": "CADASTRADO",
       "fonte": "parquesdesintra.pt/pt/planear-a-visita/bilhetes-palacio-da-pena — Sítio oficial",
       "consultadoEm": "2026-08-26",
-      "nota": "Bilhete Parque + Palácio, com reserva obrigatória de data e hora para a entrada no palácio. Criança até 6 anos entra grátis, mas precisa de bilhete gratuito com hora marcada. Shuttle opcional do portão principal ao palácio custa 3 € ida e volta."
+      "nota": "Bilhete Parque + Palácio, com reserva obrigatória de data e hora para a entrada no palácio. Tarifa de 6 a 17 anos igual à de sênior (65+), 18 €. Criança até 6 anos entra grátis, mas precisa de bilhete gratuito com hora marcada. Shuttle opcional do portão principal ao palácio custa 3 € ida e volta."
     },
     "oficial": "https://www.parquesdesintra.pt",
     "desc": "Palácio romântico do século XIX em cores vivas no topo da Serra de Sintra, misturando estilos neomanuelino, neogótico e neomourisco. Ícone máximo da paisagem cultural de Sintra, Patrimônio Mundial da UNESCO."
@@ -105,11 +104,12 @@
     },
     "custo": {
       "valor": {
-        "adulto18a64": 12
+        "adulto": 12
       },
       "tipo": "CADASTRADO",
       "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
-      "consultadoEm": "2026-08-26"
+      "consultadoEm": "2026-08-26",
+      "nota": "Valor referente à faixa 18–64 anos."
     },
     "oficial": "https://www.parquesdesintra.pt",
     "desc": "Fortificação militar mourisca do século IX–X, com muralhas que serpenteiam pela crista da Serra de Sintra, oferecendo vistas amplas até o Atlântico."
@@ -142,13 +142,13 @@
     },
     "custo": {
       "valor": {
-        "adulto18a64": 20,
-        "ate5anos": 0
+        "adulto": 20,
+        "gratuitoAte": 6
       },
       "tipo": "CADASTRADO",
       "fonte": "regaleira.pt/pt/destaques/2025-tarifarios-2026 — Tarifário oficial 2026",
       "consultadoEm": "2026-08-26",
-      "nota": "Preço referente a visita livre. Áudioguia disponível por 5 € adicionais. Não há gratuidade de domingo/feriado aplicada em outros monumentos estatais."
+      "nota": "Preço referente à faixa 18–64 anos, visita livre. Gratuidade até 5 anos (inclusive). Áudioguia disponível por 5 € adicionais. Não há gratuidade de domingo/feriado aplicada em outros monumentos estatais."
     },
     "oficial": "https://www.regaleira.pt",
     "desc": "Palácio e jardins simbolistas do início do século XX, famosos pelo Poço Iniciático e por grutas e túneis que remetem a rituais maçônicos e templários."

@@ -11,10 +11,11 @@
     "endereco": "3766 Old Clyattville Rd, Valdosta, GA 31601, EUA",
     "desc": "Parque temático do sul da Geórgia, combinando montanhas-russas, o parque aquático Splash Island e um zoológico com mais de 30 espécies — ocupa o dia inteiro.",
     "custo": {
-      "valor": { "deUsd": 46, "ateUsd": 60 },
+      "valor": { "adulto": 46 },
       "tipo": "ESTIMADO",
       "fonte": "wildadventures.com/buy-tickets/daily-tickets/ — sítio oficial; preço dinâmico por antecedência de compra (US$45,99–50,99 online antecipado; US$59,99 na bilheteria)",
-      "consultadoEm": "2026-08-28"
+      "consultadoEm": "2026-08-28",
+      "nota": "Valor exibido é o piso online antecipado (US$45,99, arredondado). Na bilheteria, o valor sobe a até US$59,99."
     },
     "horario": { "valor": "Horário varia por data, tipicamente a partir das 10h–11h — consultar wildadventures.com/calendar/ antes da viagem", "tipo": "CADASTRADO", "fonte": "wildadventures.com/calendar/ — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["familia", "aventura"],

@@ -1599,6 +1599,14 @@ const CONFIG = {
         intenso:         { unidades: 5.0, inicio: '08:30', fim: '20:30', pausas: 1, rotulo: 'Intenso' },
         muito_intenso:   { unidades: 6.5, inicio: '08:00', fim: '21:30', pausas: 0, rotulo: 'Muito intenso' }
     },
+    /* Cidades de origem com aeroporto cadastrado em dados/avulsos.json E cobertura real
+       em dados/voos.json (origemAeroporto) — só entram aqui as que de fato sugerem voo
+       internacional/doméstico cadastrado, para o menu nunca prometer rota que a base não
+       tem. Fortaleza é o padrão histórico do formulário; Brasília foi adicionada com toda
+       a malha BSB↔exterior pesquisada. */
+    origens: [
+        'Fortaleza', 'Brasília', 'São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Recife', 'Campinas'
+    ],
     // Faixas de diária/pessoa/dia por classe de orçamento, em EUR.
     // Origem: curadoria do documento de referência v12, generalizada por faixa.
     orcamento: {
@@ -9775,7 +9783,7 @@ const DB = {
                 "Copa Airlines"
             ],
             "duracaoMin": 360,
-            "frequencia": "Diária (voo único por dia) — única companhia nesta rota",
+            "frequencia": "Diária (voo único por dia) — única companhia nesta rota. Aumento já anunciado: 8 voos semanais a partir de dezembro de 2026, e 11 voos semanais em janeiro–fevereiro de 2027 (alta temporada), conforme release da Copa Airlines de agosto de 2026.",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
@@ -9783,7 +9791,7 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe sem voo direto de Brasília — a pernada PTY→destino final não está cadastrada nesta base.",
-            "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá, consultado via busca em 2026-09-02",
+            "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br, panrotas.com.br, airway.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá e seu aumento de frequência anunciado em agosto de 2026, consultado via busca em 2026-09-02",
             "consultadoEm": "2026-09-02"
         },
         {
@@ -9812,19 +9820,18 @@ const DB = {
             "destinoAeroporto": "bog",
             "paisId": null,
             "companhias": [
-                "GOL Linhas Aéreas",
-                "Avianca"
+                "GOL Linhas Aéreas"
             ],
-            "duracaoMin": 327,
-            "frequencia": "GOL: 3 voos semanais (segunda, quarta e domingo, desde 30/03/2025) — voo G3 8242 na ida, G3 8243 na volta. Avianca também opera a rota; frequência específica não confirmada nesta pesquisa. Cerca de 7 voos semanais somando as duas companhias (junho de 2026).",
+            "duracaoMin": 325,
+            "frequencia": "GOL: 3 voos semanais — segunda, sexta e domingo, desde 30/03/2025 (antes dessa data, a operação era às terças, quintas e sábados). Voo G3 8242 na ida, G3 8243 na volta. Única operadora confirmada nesta rota direta: a Avianca conecta Brasil↔Bogotá a partir de São Paulo, Rio de Janeiro, Manaus e Belém, mas não há confirmação de que opere o trecho direto BSB–BOG.",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
                 "consultadoEm": "2026-09-02"
             },
-            "obs": "GOL — ida (G3 8242): Brasília 08h50 → Bogotá 12h22, horário local. Volta (G3 8243): Bogotá 22h55 → Brasília 06h25 do dia seguinte, horário local. Duração média de 5h27.",
-            "fonte": "panrotas.com.br, melhoresdestinos.com.br, passageirodeprimeira.com, bsb.aero — cobertura consolidada sobre a rota Brasília–Bogotá, consultado via busca em 2026-09-02",
+            "obs": "GOL — ida (G3 8242): Brasília 08h55 → Bogotá 12h20, horário local (cerca de 5h25 de voo). Volta (G3 8243): Bogotá 23h33 → Brasília 06h30 do dia seguinte, horário local (cerca de 4h57, mais curta por causa dos ventos predominantes). Aeronave Boeing 737 MAX 8. Rota inaugurada em 04/02/2025.",
+            "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/gol-inicia-operacao-de-voo-direto-de-brasilia-para-bogota — release oficial do Aeroporto de Brasília; panrotas.com.br — cobertura sobre operações da Avianca no Brasil, consultado via busca em 2026-09-02",
             "consultadoEm": "2026-09-02"
         },
         {
@@ -9837,15 +9844,15 @@ const DB = {
                 "Aerolíneas Argentinas"
             ],
             "duracaoMin": 240,
-            "frequencia": "GOL: diária, com voos também às terças, quartas, sextas, sábados e domingos citados especificamente em cobertura de maio de 2026. Aerolíneas Argentinas: 2 voos semanais (terças e domingos).",
+            "frequencia": "GOL: voos diários, confirmados pelo release oficial do Aeroporto de Brasília (expandido de 5 para 7 frequências semanais); a cobertura detalha especificamente terças, quartas, sextas, sábados e domingos. Aerolíneas Argentinas: 2 voos semanais (terças e domingos).",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
                 "consultadoEm": "2026-09-02"
             },
-            "obs": "GOL — ida: Brasília 08h40 → Buenos Aires 12h30, horário local, cerca de 4h de voo. Aerolíneas Argentinas opera para o Aeroporto Jorge Newbery/Aeroparque (não Ezeiza) às terças (08h40) e domingos (21h30) — GOL também alterna entre Aeroparque e Ezeiza conforme o mês. Equipamento Boeing 737, configuração internacional de 176 lugares.",
-            "fonte": "passageirodeprimeira.com, dicasdacapital.com.br, bsb.aero — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02",
+            "obs": "GOL — ida: Brasília 08h40 → Buenos Aires 12h30, horário local. Volta: Buenos Aires 03h30 → Brasília 06h50, horário local. Cerca de 3h50 de voo em cada sentido. Aerolíneas Argentinas opera para o Aeroporto Jorge Newbery/Aeroparque (não Ezeiza) às terças (08h40) e domingos (21h30) — GOL também alterna entre Aeroparque e Ezeiza conforme o mês. Equipamento Boeing 737, configuração internacional de 176 lugares.",
+            "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/aeroporto-de-brasilia-passa-a-ter-voos-diarios-para-buenos-aires-na-argentina — release oficial do Aeroporto de Brasília; passageirodeprimeira.com, dicasdacapital.com.br — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02",
             "consultadoEm": "2026-09-02"
         },
         {
@@ -12534,14 +12541,13 @@ const DB = {
             },
             "custo": {
                 "valor": {
-                    "entradaGeral": 8,
-                    "visitaGuiada": 9.5,
-                    "passeNoturno": 5
+                    "adulto": 8,
+                    "gratuitoAte": 10
                 },
                 "tipo": "CADASTRADO",
                 "fonte": "Agregado turístico consultado por indisponibilidade de tarifário detalhado na página inicial oficial (fernandolopes.pt), coerente com torredosclerigos.pt",
                 "consultadoEm": "2026-08-26",
-                "nota": "Crianças até 10 anos costumam ter entrada gratuita; a igreja isoladamente tem acesso livre. Confirmar tarifário vigente no sítio oficial."
+                "nota": "Valor referente à entrada geral (subida à torre). Visita guiada custa 9,5 €; passe noturno (época de verão/Páscoa) custa 5 €. A igreja isoladamente tem acesso livre. Confirmar tarifário vigente no sítio oficial."
             },
             "oficial": "https://torredosclerigos.pt",
             "desc": "Torre barroca de 1763, com 75 metros e 225 degraus, símbolo da cidade e um dos melhores miradouros do Porto."
@@ -12651,15 +12657,11 @@ const DB = {
                 "nota": "Fonte secundária por falta de página oficial estruturada da Diocese; confirmar horário no local."
             },
             "custo": {
-                "valor": {
-                    "catedral": 0,
-                    "claustroCasaCabidoTorre": 3,
-                    "ate10anos": 0
-                },
+                "valor": 0,
                 "tipo": "CADASTRADO",
                 "fonte": "Agregado turístico (tudosobreporto.com / fernandolopes.pt), com contato citado da Diocese do Porto",
                 "consultadoEm": "2026-08-26",
-                "nota": "Entrada na catedral é gratuita; bilhete de 3 € dá acesso ao claustro gótico, Casa do Cabido e subida à torre. Fonte secundária — confirmar tarifário vigente."
+                "nota": "Entrada na catedral é gratuita. Bilhete adicional de 3 € (crianças até 10 anos grátis) dá acesso ao claustro gótico, Casa do Cabido e subida à torre — não incluído no valor exibido. Fonte secundária — confirmar tarifário vigente."
             },
             "oficial": null,
             "desc": "Catedral fortificada dos séculos XII–XIII, no ponto mais alto do centro histórico, com claustro gótico revestido de azulejos."
@@ -12898,12 +12900,12 @@ const DB = {
             },
             "custo": {
                 "valor": {
-                    "adulto18a64": 13
+                    "adulto": 13
                 },
                 "tipo": "CADASTRADO",
                 "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
                 "consultadoEm": "2026-08-26",
-                "nota": "Valor referente à \"Visita Essencial\". Reserva de data e hora obrigatória, feita online em bilheteira.parquesdesintra.pt."
+                "nota": "Valor referente à \"Visita Essencial\", faixa 18–64 anos. Reserva de data e hora obrigatória, feita online em bilheteira.parquesdesintra.pt."
             },
             "oficial": "https://www.parquesdesintra.pt",
             "desc": "Palácio medieval e mourisco no centro histórico de Sintra, com suas icônicas chaminés cônicas, residência real usada até o século XX."
@@ -12936,14 +12938,13 @@ const DB = {
             },
             "custo": {
                 "valor": {
-                    "adulto18a64": 20,
-                    "jovem6a17": 18,
-                    "senior65mais": 18
+                    "adulto": 20,
+                    "menor18": 18
                 },
                 "tipo": "CADASTRADO",
                 "fonte": "parquesdesintra.pt/pt/planear-a-visita/bilhetes-palacio-da-pena — Sítio oficial",
                 "consultadoEm": "2026-08-26",
-                "nota": "Bilhete Parque + Palácio, com reserva obrigatória de data e hora para a entrada no palácio. Criança até 6 anos entra grátis, mas precisa de bilhete gratuito com hora marcada. Shuttle opcional do portão principal ao palácio custa 3 € ida e volta."
+                "nota": "Bilhete Parque + Palácio, com reserva obrigatória de data e hora para a entrada no palácio. Tarifa de 6 a 17 anos igual à de sênior (65+), 18 €. Criança até 6 anos entra grátis, mas precisa de bilhete gratuito com hora marcada. Shuttle opcional do portão principal ao palácio custa 3 € ida e volta."
             },
             "oficial": "https://www.parquesdesintra.pt",
             "desc": "Palácio romântico do século XIX em cores vivas no topo da Serra de Sintra, misturando estilos neomanuelino, neogótico e neomourisco. Ícone máximo da paisagem cultural de Sintra, Patrimônio Mundial da UNESCO."
@@ -12976,11 +12977,12 @@ const DB = {
             },
             "custo": {
                 "valor": {
-                    "adulto18a64": 12
+                    "adulto": 12
                 },
                 "tipo": "CADASTRADO",
                 "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos — Sítio oficial",
-                "consultadoEm": "2026-08-26"
+                "consultadoEm": "2026-08-26",
+                "nota": "Valor referente à faixa 18–64 anos."
             },
             "oficial": "https://www.parquesdesintra.pt",
             "desc": "Fortificação militar mourisca do século IX–X, com muralhas que serpenteiam pela crista da Serra de Sintra, oferecendo vistas amplas até o Atlântico."
@@ -13013,13 +13015,13 @@ const DB = {
             },
             "custo": {
                 "valor": {
-                    "adulto18a64": 20,
-                    "ate5anos": 0
+                    "adulto": 20,
+                    "gratuitoAte": 6
                 },
                 "tipo": "CADASTRADO",
                 "fonte": "regaleira.pt/pt/destaques/2025-tarifarios-2026 — Tarifário oficial 2026",
                 "consultadoEm": "2026-08-26",
-                "nota": "Preço referente a visita livre. Áudioguia disponível por 5 € adicionais. Não há gratuidade de domingo/feriado aplicada em outros monumentos estatais."
+                "nota": "Preço referente à faixa 18–64 anos, visita livre. Gratuidade até 5 anos (inclusive). Áudioguia disponível por 5 € adicionais. Não há gratuidade de domingo/feriado aplicada em outros monumentos estatais."
             },
             "oficial": "https://www.regaleira.pt",
             "desc": "Palácio e jardins simbolistas do início do século XX, famosos pelo Poço Iniciático e por grutas e túneis que remetem a rituais maçônicos e templários."
@@ -16999,12 +17001,12 @@ const DB = {
             "desc": "O parque mais visitado do mundo — Cinderella Castle, Space Mountain e as atrações clássicas Disney; ocupa o dia inteiro.",
             "custo": {
                 "valor": {
-                    "deUsd": 119,
-                    "ateUsd": 209
+                    "adulto": 119
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data, entre os quatro parques Disney o Magic Kingdom costuma ficar na faixa mais alta",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 9h–22h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -17036,12 +17038,12 @@ const DB = {
             "desc": "Parque dividido entre o World Celebration/World Discovery (ciência e tecnologia) e o World Showcase, com pavilhões de 11 países.",
             "custo": {
                 "valor": {
-                    "deUsd": 119,
-                    "ateUsd": 209
+                    "adulto": 119
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -17073,12 +17075,12 @@ const DB = {
             "desc": "Parque temático em torno do cinema, com as áreas de Star Wars: Galaxy's Edge e Toy Story Land.",
             "custo": {
                 "valor": {
-                    "deUsd": 119,
-                    "ateUsd": 209
+                    "adulto": 119
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; preço dinâmico por data",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 9h–21h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -17110,12 +17112,12 @@ const DB = {
             "desc": "Parque temático de vida selvagem e conservação, com o safari de Kilimanjaro e a área de Pandora — The World of Avatar.",
             "custo": {
                 "valor": {
-                    "deUsd": 119,
-                    "ateUsd": 209
+                    "adulto": 119
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "wdwmagic.com/other/magic-your-way-ticket — cobertura da tabela oficial 2026 de ingresso de 1 dia/1 parque da Walt Disney World; entre os quatro parques Disney o Animal Kingdom costuma ficar na faixa mais baixa (ex.: US$119 fora de pico)",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$119–209) consultada para ingresso de 1 dia/1 parque."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 8h–20h (varia por data e temporada — consulte o app oficial antes da viagem)",
@@ -17148,12 +17150,12 @@ const DB = {
             "desc": "Parque temático de cinema e TV, com Wizarding World of Harry Potter — Diagon Alley e simuladores como Revenge of the Mummy.",
             "custo": {
                 "valor": {
-                    "deUsd": 130,
-                    "ateUsd": 190
+                    "adulto": 130
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "orlandoattractions.com/tickets/universal-orlando-1-day-tickets — cobertura da tabela oficial 2026 Universal Orlando; preço dinâmico por data",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$130–190) consultada para ingresso de 1 dia/1 parque."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)",
@@ -17185,12 +17187,12 @@ const DB = {
             "desc": "Parque de aventura dividido em ilhas temáticas, com Wizarding World of Harry Potter — Hogsmeade e as montanhas-russas da Marvel Super Hero Island.",
             "custo": {
                 "valor": {
-                    "deUsd": 130,
-                    "ateUsd": 190
+                    "adulto": 130
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "orlandoattractions.com/tickets/universal-orlando-1-day-tickets — cobertura da tabela oficial 2026 Universal Orlando; preço dinâmico por data",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$130–190) consultada para ingresso de 1 dia/1 parque."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 9h–21h (varia por data — consulte o app oficial antes da viagem)",
@@ -17222,8 +17224,7 @@ const DB = {
             "desc": "Quinto portão da Universal Orlando, inaugurado em 2025 — cinco mundos temáticos incluindo Super Nintendo World e How to Train Your Dragon — Isle of Berk.",
             "custo": {
                 "valor": {
-                    "deUsd": 139,
-                    "ateUsd": null
+                    "adulto": 139
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "disneytouristblog.com/2026-epic-universe-1-day-multi-day-park-hopper-discount-tickets-now-on-sale — cobertura de lançamento da tabela oficial; teto da faixa não confirmado nesta consulta",
@@ -17260,12 +17261,12 @@ const DB = {
             "desc": "Parque marinho com montanhas-russas, exibições educativas de vida marinha e shows com golfinhos.",
             "custo": {
                 "valor": {
-                    "deUsd": 70,
-                    "ateUsd": 109
+                    "adulto": 70
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "seaworld.com/orlando/tickets — cobertura consolidada da tabela oficial (preço promocional online a partir de ~US$70; preço de bilheteria a partir de ~US$109); dinâmico por data",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$70–109) consultada, referente ao preço promocional online."
             },
             "horario": {
                 "valor": "Diariamente, horário varia por data — consulte o sítio oficial antes da viagem",
@@ -17557,12 +17558,12 @@ const DB = {
             "desc": "Mirante nos andares 67–70 do Rockefeller Center, com vista aberta sobre o Central Park e o skyline com o Empire State ao fundo.",
             "custo": {
                 "valor": {
-                    "deUsd": 36,
-                    "ateUsd": 53
+                    "adulto": 36
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "rockefellercenter.com/buy-tickets/on-the-rocks/ e agregadores — preço varia por horário e data reservados",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica consultada (US$36–53), que varia por horário e data reservados."
             },
             "horario": {
                 "valor": "Diariamente, aproximadamente 8h–00h (confirmar horário exato no sítio oficial por data)",
@@ -19373,13 +19374,12 @@ const DB = {
             "desc": "Museu instalado nas antigas fundições de ferro de Tredegar, à beira do James River, contando a Guerra Civil por três perspectivas: da União, da Confederação e dos afro-americanos escravizados.",
             "custo": {
                 "valor": {
-                    "deUsd": 14,
-                    "ateUsd": 16
+                    "adulto": 14
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "acwm.org/buy-tickets/ — sítio oficial não expõe o valor do ingresso avulso nesta consulta; faixa estimada a partir do combo de dois sítios (US$24) e três sítios (US$33)",
                 "consultadoEm": "2026-08-28",
-                "nota": "Confirmar valor exato do ingresso avulso no sítio oficial antes de publicar."
+                "nota": "Faixa estimada consultada: US$14–16. Confirmar valor exato do ingresso avulso no sítio oficial antes de publicar."
             },
             "horario": {
                 "valor": "Diariamente 10h–17h",
@@ -19678,12 +19678,12 @@ const DB = {
             "desc": "Museu privado sobre espionagem, com a maior coleção de artefatos de inteligência já aberta ao público — o único grande museu pago do National Mall.",
             "custo": {
                 "valor": {
-                    "deUsd": 25,
-                    "ateUsd": 36
+                    "adulto": 25
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "spymuseum.org/visit — preço dinâmico por data; cobertura consolidada via agregadores, confirmar faixa vigente antes de publicar",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Faixa dinâmica consultada: US$25–36. Confirmar valor vigente no sítio oficial antes de publicar."
             },
             "horario": {
                 "valor": "Diariamente 9h–18h",
@@ -20760,12 +20760,12 @@ const DB = {
             "desc": "Parque temático de aventura de temática africana, com montanhas-russas premiadas e um dos maiores safáris de vida selvagem fora da África — ocupa o dia inteiro.",
             "custo": {
                 "valor": {
-                    "deUsd": 55,
-                    "ateUsd": 157
+                    "adulto": 55
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "buschgardens.com/tampa/tickets/theme-park-tickets/ — sítio oficial; preço dinâmico por data (piso online antecipado ~US$55–97; teto na bilheteria ~US$157)",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso online antecipado. Faixa dinâmica completa: US$55 (piso) a US$157 (teto na bilheteria)."
             },
             "horario": {
                 "valor": "Horário varia por data — consultar buschgardens.com/tampa/park-info/theme-park-hours/ antes da viagem",
@@ -20797,12 +20797,12 @@ const DB = {
             "desc": "Aquário à beira do porto de Tampa, com recifes de corais da Flórida, manguezais e encontros com araraunas — reserva antecipada obrigatória.",
             "custo": {
                 "valor": {
-                    "deUsd": 30,
-                    "ateUsd": 40
+                    "adulto": 30
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "flaquarium.org/visit/visitor-information/plan-your-visit/ — sítio oficial; preço dinâmico por data (3–11 anos até US$35)",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$30–40) consultada para o ingresso geral."
             },
             "horario": {
                 "valor": "Diariamente 9h30–17h",
@@ -21225,12 +21225,12 @@ const DB = {
             "desc": "Parque temático do sul da Geórgia, combinando montanhas-russas, o parque aquático Splash Island e um zoológico com mais de 30 espécies — ocupa o dia inteiro.",
             "custo": {
                 "valor": {
-                    "deUsd": 46,
-                    "ateUsd": 60
+                    "adulto": 46
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "wildadventures.com/buy-tickets/daily-tickets/ — sítio oficial; preço dinâmico por antecedência de compra (US$45,99–50,99 online antecipado; US$59,99 na bilheteria)",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso online antecipado (US$45,99, arredondado). Na bilheteria, o valor sobe a até US$59,99."
             },
             "horario": {
                 "valor": "Horário varia por data, tipicamente a partir das 10h–11h — consultar wildadventures.com/calendar/ antes da viagem",
@@ -21527,12 +21527,12 @@ const DB = {
             "desc": "Museu-experiência da marca nascida em Atlanta em 1886, com a sala de degustação de mais de 100 bebidas do mundo todo e a cofre da fórmula secreta.",
             "custo": {
                 "valor": {
-                    "deUsd": 21,
-                    "ateUsd": 26
+                    "adulto": 21
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "worldofcoca-cola.com/plan-your-visit/faq — sítio oficial; preço dinâmico por data (3–12 anos US$17–22)",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$21–26) consultada para o ingresso adulto."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 10h–17h; fechado no Dia de Ação de Graças e no Natal",
@@ -21742,12 +21742,12 @@ const DB = {
             "desc": "Jardim rochoso sobre o topo de Lookout Mountain, com trilha entre formações de pedra arenito e o mirante \"See Seven States\" — em dias claros, vista de sete estados.",
             "custo": {
                 "valor": {
-                    "deUsd": 33,
-                    "ateUsd": 45
+                    "adulto": 33
                 },
                 "tipo": "ESTIMADO",
                 "fonte": "seerockcity.com/buy-tickets/ — sítio oficial; preço varia por dia da semana (3–12 anos US$33 em dia útil, US$35 fim de semana)",
-                "consultadoEm": "2026-08-28"
+                "consultadoEm": "2026-08-28",
+                "nota": "Valor exibido é o piso da faixa dinâmica (US$33–45) consultada para o ingresso geral; varia por dia da semana e temporada. Confirmar tarifa vigente no sítio oficial antes da compra."
             },
             "horario": {
                 "valor": "Diariamente, tipicamente 10h–22h30, varia por temporada",
@@ -31827,7 +31827,8 @@ function calcularIngressos(cfg, dias, roteiro) {
         const a = IDX.atracao(b.atracaoId);
         if (!a) return;
 
-        if (a.custo.tipo === 'CADASTRADO' && typeof a.custo.valor === 'object' && a.custo.valor) {
+        const custoValido = a.custo.tipo === 'CADASTRADO' || a.custo.tipo === 'ESTIMADO';
+        if (custoValido && typeof a.custo.valor === 'object' && a.custo.valor) {
             const v = a.custo.valor, tx = v.taxaReserva || 0;
             let total = 0, gratuitos = 0;
             const detalhe = [];
@@ -31849,12 +31850,12 @@ function calcularIngressos(cfg, dias, roteiro) {
                 : '—';
             linhas.push({
                 nome: a.nome, adulto: adPreco, menorTexto: meMostra, total: total,
-                tipo: 'CADASTRADO', fonte: a.custo.fonte, oficial: a.oficial, reserva: a.reserva,
+                tipo: a.custo.tipo, fonte: a.custo.fonte, oficial: a.oficial, reserva: a.reserva,
                 nota: (a.custo.nota || '') + (gratuitos ? ' Neste grupo, ' + gratuitos + ' pessoa(s) entram sem cobrança pela faixa etária.' : ''),
                 detalhe: detalhe.join(' · ')
             });
-        } else if (a.custo.tipo === 'CADASTRADO' && a.custo.valor === 0) {
-            linhas.push({ nome: a.nome, adulto: 0, menorTexto: 'sem cobrança', total: 0, tipo: 'CADASTRADO', fonte: a.custo.fonte, nota: a.custo.nota, oficial: a.oficial, reserva: a.reserva });
+        } else if (custoValido && a.custo.valor === 0) {
+            linhas.push({ nome: a.nome, adulto: 0, menorTexto: 'sem cobrança', total: 0, tipo: a.custo.tipo, fonte: a.custo.fonte, nota: a.custo.nota, oficial: a.oficial, reserva: a.reserva });
         } else {
             semTarifa++;
             linhas.push({ nome: a.nome, adulto: null, menorTexto: null, total: null, tipo: 'INDISPONIVEL', fonte: a.custo.fonte, oficial: a.oficial, reserva: a.reserva });
@@ -32735,7 +32736,7 @@ const Render = {
             if (l.tipo === 'INDISPONIVEL') {
                 h += '<td colspan="3"><span class="indisponivel">Tarifa não disponível na base</span>' + R.selo('INDISPONIVEL', l.fonte) + '</td><td style="text-align:right;">—</td>';
             } else {
-                h += '<td>' + (l.adulto ? U.eur(l.adulto) : 'sem cobrança') + '</td>' +
+                h += '<td>' + (l.adulto ? U.eur(l.adulto) : 'sem cobrança') + R.selo(l.tipo, l.fonte) + '</td>' +
                     '<td>' + U.esc(l.menorTexto == null ? '—' : l.menorTexto) + (l.detalhe ? '<div class="sched-d">' + U.esc(l.detalhe) + '</div>' : '') + '</td>' +
                     '<td>' + (l.reserva ? 'obrigatória' : '—') + '</td>' +
                     '<td style="text-align:right;font-weight:bold;color:var(--accent2);">' + (l.total ? U.eur(l.total) : '—') + '</td>';
@@ -33087,7 +33088,7 @@ const Form = {
         h += '<h3 style="margin-top:2px;">Viagem ' +
             Form.ajuda('Origem e janela de datas. A antecedência em relação à data de início decide o regime climático: até 16 dias há previsão meteorológica; além disso, apenas climatologia histórica, que o sistema jamais apresenta como previsão.') +
             '</h3><div class="fgrid">';
-        h += Form.campoTexto('origem', 'Origem da viagem', e.origem, 'Cidade de onde o grupo parte. Usada no mapa da jornada e na rota aérea sugerida.');
+        h += Form.campoSelect('origem', 'Origem da viagem', CONFIG.origens.map(o => [o, o]), e.origem, 'Cidade de onde o grupo parte. Usada no mapa da jornada e na rota aérea sugerida. Lista limitada às origens com aeroporto e voos cadastrados na base.');
         h += Form.campoData('dataInicio', 'Data de início', e.dataInicio, 'Primeira noite fora de casa. Define também o regime climático: até 16 dias de antecedência há previsão; além disso, climatologia histórica.');
         h += Form.campoData('dataFim', 'Data de término', e.dataFim, 'Dia do voo de retorno. O último dia recebe carga reduzida e reserva de antecedência para o aeroporto.');
         h += '</div>';
