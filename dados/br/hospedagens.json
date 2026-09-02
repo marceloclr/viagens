@@ -1,0 +1,123 @@
+[
+  {
+    "id": "h_bel_hilton",
+    "cidadeId": "belem_pa",
+    "nome": "Hilton Belém",
+    "categoria": "Hotel — Campina",
+    "zona": "comercio",
+    "endereco": "Av. Presidente Vargas, 882, Campina, Belém - PA, 66017-000",
+    "nota": "Torre alta no coração da Campina/Comércio, com vista para a Baía do Guajará a partir dos quartos altos e da piscina — a poucos minutos a pé do Ver-o-Peso e da Estação das Docas.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com, apontador.com.br), consultado via busca em 2026-09-02",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_bel_radisson",
+    "cidadeId": "belem_pa",
+    "nome": "Radisson Hotel Belém",
+    "categoria": "Hotel — Nazaré",
+    "zona": "nazare",
+    "endereco": "Av. Comandante Brás de Aguiar, 321, Nazaré, Belém - PA",
+    "nota": "Fica no bairro de Nazaré, área nobre e segura próxima à Basílica de Nossa Senhora de Nazaré, com boa concentração de lojas, bares e restaurantes.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com, temqueir.com.br), consultado via busca em 2026-09-02",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_bel_mercure_boulevard",
+    "cidadeId": "belem_pa",
+    "nome": "Mercure Belém Boulevard",
+    "categoria": "Hotel — Umarizal",
+    "zona": "umarizal",
+    "endereco": "Trav. Dom Romualdo de Seixas, 1560, Umarizal, Belém - PA",
+    "nota": "Base no Umarizal, a 200 metros da Av. Almirante Wandenkolk, uma das principais áreas boêmias e gastronômicas da cidade.",
+    "fonte": "Cobertura consolidada de guias de hospedagem, consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_bel_marajoara",
+    "cidadeId": "belem_pa",
+    "nome": "Hotel Marajoara",
+    "categoria": "Hotel — Nazaré",
+    "zona": "nazare",
+    "endereco": "Rua Joaquim Nabuco, 59, Nazaré, Belém - PA, 66055-300",
+    "nota": "Opção bem avaliada e de custo mais moderado no bairro de Nazaré, próxima à Basílica e ao circuito de restaurantes locais.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com), consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_bel_grao_para",
+    "cidadeId": "belem_pa",
+    "nome": "Hotel Grão Pará",
+    "categoria": "Hotel — Campina",
+    "zona": "comercio",
+    "endereco": "Av. Presidente Vargas, 718, Belém - PA, 66017-000",
+    "nota": "Opção econômica bem avaliada na Campina, a poucos passos do Ver-o-Peso e da Estação das Docas.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com), consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_bel_andrade_docas",
+    "cidadeId": "belem_pa",
+    "nome": "Rede Andrade Docas Hotel",
+    "categoria": "Hotel — Comércio",
+    "zona": "comercio",
+    "endereco": "Rua Senador Manoel Barata, 532, Belém - PA, 66015-020",
+    "nota": "Localização central no bairro do Comércio, próxima à Estação das Docas e ao Ver-o-Peso, com boa relação custo-benefício.",
+    "fonte": "Cobertura consolidada de guias de hospedagem, consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_mao_tropical_ecoresort",
+    "cidadeId": "manaus",
+    "nome": "Tropical Manaus Ecoresort",
+    "categoria": "Resort — Ponta Negra",
+    "zona": "ponta_negra",
+    "endereco": "Av. Coronel Teixeira, 1320, Ponta Negra, Manaus - AM, 69037-000",
+    "nota": "Resort de selva de 5 estrelas às margens do Rio Negro, com zoológico próprio, piscinas e área ampla — o maior hotel de Manaus e o mais associado ao turismo de natureza da cidade.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (aventuradobrasil.com, hurb.com), consultado via busca em 2026-09-02",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_mao_juma_opera",
+    "cidadeId": "manaus",
+    "nome": "Juma Ópera Boutique Hotel & Spa",
+    "categoria": "Hotel — Centro Histórico",
+    "zona": "centro_historico",
+    "endereco": "Rua 10 de Julho, 481, Centro, Manaus - AM, 69010-060",
+    "nota": "Hotel boutique em frente ao Teatro Amazonas, a melhor localização do Centro Histórico para explorar a pé.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (trivago.com, jumalodge.com.br), consultado via busca em 2026-09-02",
+    "flag": "flag-alt"
+  },
+  {
+    "id": "h_mao_villa_amazonia",
+    "cidadeId": "manaus",
+    "nome": "Hotel Villa Amazônia",
+    "categoria": "Hotel — Centro Histórico",
+    "zona": "centro_historico",
+    "endereco": "Rua 10 de Julho, 315, Centro, Manaus - AM, 69010-060",
+    "nota": "Hotel boutique de charme no Centro Histórico, próximo ao Teatro Amazonas e ao Mercado Adolpho Lisboa.",
+    "fonte": "Cobertura consolidada de guias de hospedagem, consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_mao_tryp_wyndham",
+    "cidadeId": "manaus",
+    "nome": "TRYP by Wyndham Manaus",
+    "categoria": "Hotel — próximo ao aeroporto",
+    "zona": "adrianopolis",
+    "endereco": "Av. Torquato Tapajós, 4503, Manaus - AM, 69039-125",
+    "nota": "Rede internacional com boa localização para quem prioriza proximidade do Aeroporto Eduardo Gomes ou chegadas/saídas em horários apertados.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (wyndhamhotels.com, hotelplanner.com), consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_mao_juma_lodge",
+    "cidadeId": "manaus",
+    "nome": "Juma Amazon Lodge",
+    "categoria": "Lodge de selva — Lago do Juma",
+    "zona": "novo_airao",
+    "endereco": "Lago do Juma, município de Autazes - AM, cerca de 100 km a sudeste de Manaus (acesso por estrada e barco)",
+    "nota": "Bangalôs sobre palafitas em área preservada de 7 mil hectares, com vista para a floresta ou o Lago do Juma — pacotes de 2 a 4 dias incluem trilhas, pesca de piranha, observação noturna de jacarés e visita a comunidades ribeirinhas.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (booking.com, tripadvisor.com, pisa.tur.br), consultado via busca em 2026-09-02",
+    "flag": "flag-alt"
+  }
+]

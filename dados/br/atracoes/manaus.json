@@ -1,0 +1,343 @@
+[
+  {
+    "id": "mao_teatro_amazonas",
+    "cidadeId": "manaus",
+    "nome": "Teatro Amazonas",
+    "zona": "centro_historico",
+    "cat": ["arquitetura", "arte", "historia", "cultura"],
+    "prio": 95,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Praça São Sebastião, s/n, Centro, Manaus - AM, 69010-170",
+    "horario": {
+      "valor": "Terça a sábado, das 9h às 17h; domingos e feriados, das 9h às 13h (visitas guiadas)",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (blablacar.com.br), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor do ingresso de visita guiada não confirmado com precisão nesta pesquisa — confirmar no local ou site oficial antes da viagem",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Casa de ópera erguida no auge do ciclo da borracha (inaugurada em 1896), com mármore de Carrara e ferro importados da Europa — Patrimônio Cultural do Brasil e símbolo máximo de Manaus. Sedia a Praça São Sebastião e o Festival Amazonas de Ópera."
+  },
+  {
+    "id": "mao_mercado_adolpho_lisboa",
+    "cidadeId": "manaus",
+    "nome": "Mercado Municipal Adolpho Lisboa",
+    "zona": "centro_historico",
+    "cat": ["cultura", "gastronomia"],
+    "prio": 85,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Rua dos Barés, 46, Centro, Manaus - AM, 69005-400",
+    "horario": {
+      "valor": "Diariamente, aproximadamente das 6h às 18h",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre — mercado público",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Mercado de ferro em estilo art nouveau à beira do Rio Negro, inspirado no antigo mercado parisiense Les Halles — peixe fresco de rio, frutas amazônicas, ervas medicinais indígenas e artesanato regional."
+  },
+  {
+    "id": "mao_encontro_aguas",
+    "cidadeId": "manaus",
+    "nome": "Encontro das Águas (Rio Negro e Rio Solimões)",
+    "zona": "centro_historico",
+    "cat": ["natureza", "aventura", "fotografia"],
+    "prio": 95,
+    "dur": 400,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Embarque em marinas e portos turísticos do Centro de Manaus (ex.: Porto de Manaus / Marina do Davi)",
+    "horario": {
+      "valor": "Passeio de barco de aproximadamente 6 a 7 horas, geralmente com saída pela manhã",
+      "tipo": "CADASTRADO",
+      "fonte": "viagensecaminhos.com, manausjungletours.com — cobertura consolidada de operadoras de passeio, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa varia por operadora, tamanho do grupo e itens inclusos (transporte, refeição) — verifique diretamente com o operador",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Fenômeno natural onde as águas escuras do Rio Negro correm lado a lado com as águas barrentas do Rio Solimões por quilômetros sem se misturar, por diferenças de temperatura, densidade e velocidade. Passeio clássico de barco a partir de Manaus, geralmente combinado com nado com botos cor-de-rosa, visita a comunidade ribeirinha e observação de vitórias-régias."
+  },
+  {
+    "id": "mao_bosque_ciencia",
+    "cidadeId": "manaus",
+    "nome": "Bosque da Ciência (INPA)",
+    "zona": "petropolis",
+    "cat": ["natureza", "familia"],
+    "prio": 85,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Rua Bem-te-vi, s/n, Petrópolis, Manaus - AM",
+    "horario": {
+      "valor": "Terça a sexta, das 9h às 12h e das 14h às 17h; sábados, domingos e feriados, das 9h às 17h",
+      "tipo": "CADASTRADO",
+      "fonte": "bosque.inpa.gov.br — sítio oficial do Bosque da Ciência (INPA), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "bosque.inpa.gov.br — entrada gratuita, mediante agendamento prévio",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": "https://bosque.inpa.gov.br",
+    "desc": "Fragmento de floresta amazônica preservado dentro do campus do INPA, com trilhas suspensas sobre área alagada onde vivem jacarés e sauins-de-coleira em semi-liberdade, além de um lago com botos e peixes-boi resgatados. Ótima introdução à fauna amazônica em meio urbano."
+  },
+  {
+    "id": "mao_musa",
+    "cidadeId": "manaus",
+    "nome": "Museu da Amazônia (MUSA) e Reserva Adolpho Ducke",
+    "zona": "petropolis",
+    "cat": ["natureza", "aventura", "museus", "fotografia"],
+    "prio": 88,
+    "dur": 180,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 6,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Av. Margarita, 6305, Cidade de Deus, Manaus - AM (dentro da Reserva Florestal Adolpho Ducke)",
+    "horario": {
+      "valor": "Aberto todos os dias, inclusive segunda-feira — o único museu de Manaus com esse horário; recomendado agendar com antecedência",
+      "tipo": "CADASTRADO",
+      "fonte": "museudaamazonia.org.br — sítio oficial do MUSA, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — reservas via agendamento@museudaamazonia.org.br",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": "https://museudaamazonia.org.br",
+    "desc": "Área de 100 hectares de mata de terra firme com cerca de 3 km de trilhas interpretativas, viveiros de orquídeas e bromélias, lago com vitórias-régias e uma torre de observação de 42 metros sobre o dossel da floresta — mirante especialmente recomendado ao amanhecer."
+  },
+  {
+    "id": "mao_praia_ponta_negra",
+    "cidadeId": "manaus",
+    "nome": "Praia da Ponta Negra",
+    "zona": "ponta_negra",
+    "cat": ["praias", "familia", "descanso", "fotografia"],
+    "prio": 75,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Av. Coronel Teixeira, Ponta Negra, Manaus - AM",
+    "horario": {
+      "valor": "Orla aberta o dia todo; a faixa de areia só fica exposta na vazante do Rio Negro (aprox. jul–nov)",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre a orla de Ponta Negra, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à orla pública",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Praia fluvial e calçadão à beira do Rio Negro, cartão-postal de lazer da cidade — quadras esportivas, anfiteatro ao ar livre e vista para o encontro das águas ao longe. A faixa de areia só aparece na estação seca, quando o rio baixa."
+  },
+  {
+    "id": "mao_palacio_rio_negro",
+    "cidadeId": "manaus",
+    "nome": "Palácio Rio Negro",
+    "zona": "centro_historico",
+    "cat": ["historia", "arte", "arquitetura"],
+    "prio": 60,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Av. Sete de Setembro, 1546, Centro, Manaus - AM",
+    "horario": {
+      "valor": "Terça a domingo, horário comercial — consultar programação de exposições",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre patrimônio histórico de Manaus, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada gratuita — centro cultural público",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Antiga residência de um barão da borracha e depois sede do governo estadual, hoje centro cultural com exposições de arte e história, salas de época preservadas e adega subterrânea aberta à visitação."
+  },
+  {
+    "id": "mao_largo_sao_sebastiao",
+    "cidadeId": "manaus",
+    "nome": "Igreja de São Sebastião e Praça da Saudade",
+    "zona": "centro_historico",
+    "cat": ["religiao", "arquitetura", "historia"],
+    "prio": 55,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Praça São Sebastião, s/n, Centro, Manaus - AM, em frente ao Teatro Amazonas",
+    "horario": {
+      "valor": "Diariamente, com missas ao longo do dia; recinto aberto à visitação",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de turismo religioso, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Igreja do século XIX na praça fronteira ao Teatro Amazonas, com calçamento em mosaico português que remete ao encontro das águas — um dos cartões-postais mais fotografados do Centro Histórico."
+  },
+  {
+    "id": "mao_porto_flutuante",
+    "cidadeId": "manaus",
+    "nome": "Porto Flutuante de Manaus e Escadaria dos Remédios",
+    "zona": "centro_historico",
+    "cat": ["historia", "fotografia"],
+    "prio": 58,
+    "dur": 40,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Rua Marquês de Santa Cruz, s/n, Centro, Manaus - AM, às margens do Rio Negro",
+    "horario": {
+      "valor": "Acesso livre à área pública do porto durante o dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre o Centro Histórico de Manaus, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à área pública",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Engenharia inglesa da era da borracha, com estrutura flutuante que acompanha a variação de até 14 metros do nível do Rio Negro entre seca e cheia — ponto de partida histórico para embarcações rumo ao interior do Amazonas."
+  },
+  {
+    "id": "mao_anavilhanas_novo_airao",
+    "cidadeId": "manaus",
+    "nome": "Arquipélago de Anavilhanas e Novo Airão — botos selvagens",
+    "zona": "novo_airao",
+    "cat": ["natureza", "aventura", "fotografia"],
+    "prio": 85,
+    "dur": 660,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Novo Airão, a cerca de 115 km (2h30–3h de estrada/balsa) a noroeste de Manaus, às margens do Rio Negro",
+    "horario": {
+      "valor": "Excursão de dia inteiro a partir de Manaus, com saída pela manhã e retorno à noite",
+      "tipo": "CADASTRADO",
+      "fonte": "planetaexo.com, finisterrae.com.br — cobertura consolidada de operadoras de turismo, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa varia por operadora e se o passeio é bate-volta ou combinado com pernoite/cruzeiro de vários dias",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Maior arquipélago fluvial do mundo, dentro do Parque Nacional de Anavilhanas — labirinto de ilhas de mata alagável no Rio Negro. Novo Airão é famosa pelo encontro com botos cor-de-rosa selvagens em ambiente relativamente controlado, além de passeios de canoa entre os igarapés e observação de aves."
+  },
+  {
+    "id": "mao_expedicao_selva",
+    "cidadeId": "manaus",
+    "nome": "Expedição em lodge de selva — trilha noturna, pesca de piranha e aldeia ribeirinha",
+    "zona": "novo_airao",
+    "cat": ["aventura", "natureza"],
+    "prio": 82,
+    "dur": 2880,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 8,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Lodges de selva a 1h30–3h de barco/estrada de Manaus (ex.: região do Lago do Juma, Rio Ariaú, Rio Urubu)",
+    "horario": {
+      "valor": "Pacotes de 2 a 4 dias e 1 a 3 noites, com atividades diárias fixas (manhã, tarde e noite)",
+      "tipo": "CADASTRADO",
+      "fonte": "pisa.tur.br, viverde.tur.br, oikostravel.com.br — cobertura consolidada de operadoras de expedição na Amazônia, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa por pacote (inclui hospedagem, refeições e passeios) varia muito por lodge e duração — verifique diretamente com o operador",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Vivência de imersão na floresta, geralmente hospedada em lodge de selva sobre palafitas: trilhas guiadas na mata (diurnas e noturnas, com lanterna, em busca de insetos e répteis), pesca de piranha ao entardecer, observação de jacarés à noite, canoagem por igarapés e visita a comunidades ribeirinhas. O formato mais imersivo de contato com a Amazônia a partir de Manaus."
+  }
+]

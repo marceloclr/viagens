@@ -1,0 +1,405 @@
+[
+  {
+    "id": "bel_ver_o_peso",
+    "cidadeId": "belem_pa",
+    "nome": "Mercado Ver-o-Peso",
+    "zona": "comercio",
+    "cat": ["cultura", "gastronomia"],
+    "prio": 95,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Av. Boulevard Castilhos França, s/n, Campina, Belém - PA",
+    "horario": {
+      "valor": "Diariamente, aproximadamente das 6h às 18h; o setor de pescado funciona desde a madrugada",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (blablacar.com.br, viciadaemviajar.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre — mercado público a céu aberto",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Maior mercado a céu aberto da América Latina, às margens da Baía do Guajará — peixes de rio, açaí, ervas e frutos amazônicos, artesanato e o icônico Mercado de Ferro. Patrimônio histórico e coração da vida comercial de Belém desde o século XVII."
+  },
+  {
+    "id": "bel_estacao_docas",
+    "cidadeId": "belem_pa",
+    "nome": "Estação das Docas",
+    "zona": "comercio",
+    "cat": ["gastronomia", "cultura", "fotografia"],
+    "prio": 85,
+    "dur": 120,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Blvd. Castilhos França, 20, Campina, Belém - PA, 66010-020",
+    "horario": {
+      "valor": "Diariamente, das 10h à 0h (praça de alimentação e área de eventos)",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (blablacar.com.br), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre ao complexo; restaurantes e lojas cobrados à parte",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Três antigos galpões portuários do século XIX revitalizados à beira do rio, hoje reunindo restaurantes, bares, lojas de artesanato e um farol convertido em mirante — ponto certo para o pôr do sol sobre a Baía do Guajará."
+  },
+  {
+    "id": "bel_basilica_nazare",
+    "cidadeId": "belem_pa",
+    "nome": "Basílica de Nossa Senhora de Nazaré",
+    "zona": "nazare",
+    "cat": ["religiao", "arquitetura", "historia"],
+    "prio": 95,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Praça Justo Chermont, s/n, Nazaré, Belém - PA, 66055-260",
+    "horario": {
+      "valor": "Diariamente, com missas ao longo do dia; recinto aberto à visitação na maior parte do dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de turismo religioso, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre à Basílica",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Santuário mariano em estilo neoclássico, réplica inspirada na Basílica de São Paulo Fora dos Muros (Roma), e ponto culminante do Círio de Nazaré — maior procissão católica do mundo, realizada no segundo domingo de outubro e que reúne milhões de fiéis."
+  },
+  {
+    "id": "bel_mangal_garcas",
+    "cidadeId": "belem_pa",
+    "nome": "Parque Mangal das Garças",
+    "zona": "cidade_velha",
+    "cat": ["natureza", "familia", "fotografia"],
+    "prio": 88,
+    "dur": 100,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Passagem Carneiro da Rocha, s/n, Cidade Velha, Belém - PA, 66023-710",
+    "horario": {
+      "valor": "Terça a domingo e feriados, das 8h às 18h",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (viciadaemviajar.com, escribadebordo.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 22,
+      "tipo": "CADASTRADO",
+      "fonte": "Guias de viagem consolidados — passaporte que dá acesso ao Farol/mirante, Reserva José Mário Alves (borboletário) e Memorial Amazônico da Navegação (cada atração isolada custa R$ 9; entrada no parque e jardins é gratuita)",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Parque às margens do Rio Guamá com jardins, lagos, viveiro de aves amazônicas, borboletário e a Torre Miriti — mirante de onde se avista o encontro do rio com a Baía do Guajará. Uma amostra compacta da fauna e flora amazônica dentro da cidade."
+  },
+  {
+    "id": "bel_theatro_paz",
+    "cidadeId": "belem_pa",
+    "nome": "Theatro da Paz",
+    "zona": "comercio",
+    "cat": ["arquitetura", "arte", "historia", "cultura"],
+    "prio": 80,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Praça da República, s/n, Campina, Belém - PA, 66017-000",
+    "horario": {
+      "valor": "Terça a sábado, visitas guiadas ao longo do dia; consultar programação de espetáculos",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de turismo cultural, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor da visita guiada não confirmado com precisão nesta pesquisa — costuma ter opção gratuita em horários definidos",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Teatro municipal neoclássico erguido durante o auge do ciclo da borracha, com interiores inspirados na Ópera de Paris — irmão mais discreto do Teatro Amazonas de Manaus e um dos símbolos da riqueza que o látex trouxe à região."
+  },
+  {
+    "id": "bel_museu_goeldi",
+    "cidadeId": "belem_pa",
+    "nome": "Museu Paraense Emílio Goeldi",
+    "zona": "nazare",
+    "cat": ["natureza", "museus", "familia"],
+    "prio": 85,
+    "dur": 120,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Av. Magalhães Barata, 376, São Braz, Belém - PA, 66040-170",
+    "horario": {
+      "valor": "Terça a domingo, horário reduzido no parque zoobotânico; consultar site oficial para faixas de horário por área",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no site oficial do museu antes da viagem",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Fundado em 1866, é a mais antiga instituição de pesquisa da Amazônia — parque zoobotânico de 5,2 hectares no meio urbano com onças, aves, répteis e jardins botânicos, ideal para uma introdução à biodiversidade amazônica sem sair da cidade."
+  },
+  {
+    "id": "bel_forte_presepio",
+    "cidadeId": "belem_pa",
+    "nome": "Forte do Presépio (Feliz Lusitânia)",
+    "zona": "cidade_velha",
+    "cat": ["historia", "arquitetura"],
+    "prio": 75,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Praça Frei Caetano Brandão, s/n, Cidade Velha, Belém - PA, 66015-160",
+    "horario": {
+      "valor": "Terça a sexta, das 10h às 17h; sábados, domingos e feriados, das 9h às 13h",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (turistaprofissional.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Primeira construção erguida em Belém, em 1616, marco fundador da cidade e da presença portuguesa na Amazônia — hoje museu histórico-arqueológico com achados do sítio original e vista sobre o rio Guamá."
+  },
+  {
+    "id": "bel_casa_onze_janelas",
+    "cidadeId": "belem_pa",
+    "nome": "Casa das Onze Janelas",
+    "zona": "cidade_velha",
+    "cat": ["arte", "historia", "museus"],
+    "prio": 70,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Praça Frei Caetano Brandão, s/n, Cidade Velha, Belém - PA, 66015-160",
+    "horario": {
+      "valor": "Terça a sexta, das 10h às 16h; sábados e domingos, das 9h às 13h",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Casarão do século XVIII vizinho ao Forte do Presépio, hoje espaço cultural e museu de arte contemporânea, com terraço voltado ao rio Guamá que é um dos melhores pontos da cidade para o pôr do sol."
+  },
+  {
+    "id": "bel_catedral_se",
+    "cidadeId": "belem_pa",
+    "nome": "Catedral Metropolitana de Belém (Igreja da Sé)",
+    "zona": "cidade_velha",
+    "cat": ["religiao", "arquitetura", "historia"],
+    "prio": 60,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Praça Dom Frei Caetano Brandão, s/n, Cidade Velha, Belém - PA, 66015-160",
+    "horario": {
+      "valor": "Diariamente, com missas ao longo do dia; recinto aberto à visitação",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de turismo religioso, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Catedral do século XVIII em estilo neoclássico, sede da Arquidiocese de Belém, no coração do bairro histórico da Cidade Velha, ao lado do Forte do Presépio e da Casa das Onze Janelas."
+  },
+  {
+    "id": "bel_ilha_combu",
+    "cidadeId": "belem_pa",
+    "nome": "Ilha do Combu — passeio fluvial e rota do chocolate",
+    "zona": "ilha_do_combu",
+    "cat": ["natureza", "aventura", "gastronomia", "fotografia"],
+    "prio": 92,
+    "dur": 240,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Travessia a partir do Terminal Hidroviário Ruy Barata, Av. Alcindo Cacela, 4570, Condor, Belém - PA (terminal aberto das 9h às 20h)",
+    "horario": {
+      "valor": "Passeio de dia inteiro ou meio período; travessia de lancha com cerca de 15 minutos a partir do terminal",
+      "tipo": "CADASTRADO",
+      "fonte": "essemundoenosso.com.br, oliberal.com, garfoemala.com.br — cobertura consolidada sobre a Ilha do Combu, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 24,
+      "tipo": "CADASTRADO",
+      "fonte": "oliberal.com — travessia de lancha ida e volta pelo terminal hidroviário; gratuidade para crianças até 5 anos, idosos acima de 60 e PCD com acompanhante. Restaurantes, trilhas guiadas e a Casa do Chocolate são cobrados à parte.",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Ilha fluvial de mata preservada a 15 minutos de barco do centro de Belém, conhecida pela produção artesanal de cacau e açaí. A 'rota do chocolate' leva à Casa do Chocolate, e trilhas guiadas por moradores atravessam a floresta da ilha — algumas com tirolesa em meio à mata, como no espaço Saldosa Maloca. Combina passeio fluvial, imersão na floresta e gastronomia ribeirinha em um único bate-volta."
+  },
+  {
+    "id": "bel_bosque_rodrigues_alves",
+    "cidadeId": "belem_pa",
+    "nome": "Bosque Rodrigues Alves (Refúgio de Vida Silvestre)",
+    "zona": "nazare",
+    "cat": ["natureza", "familia"],
+    "prio": 65,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Av. Almirante Barroso, 2453, Marco, Belém - PA, 66093-020",
+    "horario": {
+      "valor": "Terça a domingo, horário matutino e vespertino — confirmar no local, pois a operação varia por temporada",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre parques urbanos de Belém, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Reserva de mata nativa remanescente dentro do perímetro urbano, com trilhas arborizadas, lagos e viveiro de fauna amazônica — a mais antiga área verde protegida de Belém, criada ainda no início do século XX."
+  },
+  {
+    "id": "bel_icoaraci_ceramica",
+    "cidadeId": "belem_pa",
+    "nome": "Icoaraci — cerâmica marajoara e artesanato",
+    "zona": "icoaraci",
+    "cat": ["compras", "cultura"],
+    "prio": 55,
+    "dur": 120,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Distrito de Icoaraci, na orla norte de Belém, cerca de 20 km do Centro",
+    "horario": {
+      "valor": "Ateliês e feiras de artesanato funcionam principalmente durante o dia, de terça a domingo",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre o distrito ceramista de Icoaraci, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre às feiras e ateliês; peças de cerâmica cobradas à parte",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Distrito na orla norte de Belém, tradicional polo de produção da cerâmica marajoara e tapajônica — dezenas de ateliês de oleiros vendem peças inspiradas na arte indígena pré-colombiana da Ilha de Marajó."
+  },
+  {
+    "id": "bel_ilha_marajo",
+    "cidadeId": "belem_pa",
+    "nome": "Ilha de Marajó — búfalos e praias fluviais",
+    "zona": "ilha_do_combu",
+    "cat": ["natureza", "aventura", "praias", "fotografia"],
+    "prio": 78,
+    "dur": 720,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Acesso por balsa (cerca de 3h a partir do Terminal Hidroviário de Belém, até Camará/Salvaterra) ou voo doméstico curto (~25 min) até Soure",
+    "horario": {
+      "valor": "Melhor como excursão de dia inteiro com pernoite, ou bate-volta de dia inteiro na alta temporada seca (jun–nov)",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre acesso à Ilha de Marajó, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Tarifa de balsa/voo doméstico varia por operadora e temporada — confirmar antes da viagem",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "A maior ilha fluvio-marinha do mundo, na foz do Amazonas — fazendas de búfalos (inclusive passeios montados no animal), praias de água doce como Salvaterra e Joanes, e cultura ribeirinha marcada pela cerâmica marajoara. Excursão clássica a partir de Belém, ideal para quem busca natureza e aventura fora da capital."
+  }
+]

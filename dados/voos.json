@@ -492,5 +492,31 @@
     "obs": "Recife teve voo direto para Fort Lauderdale (FLL) inaugurado em 2023, mas essa rota foi descontinuada — reportagem de fevereiro de 2026 confirma que só resta a operação sazonal para Orlando em dez/jan. Fora da janela sazonal, conexão via GRU, VCP, CNF, Belém ou Manaus é necessária.",
     "fonte": "diariodepernambuco.com.br (fevereiro de 2026) — situação vigente dos voos diretos de Recife para os EUA, consultado em 2026-08-28",
     "consultadoEm": "2026-08-28"
+  },
+  {
+    "id": "voo_for_bel",
+    "origemAeroporto": "for",
+    "destinoAeroporto": "bel",
+    "paisId": "br",
+    "companhias": ["Azul", "LATAM Airlines", "GOL Linhas Aéreas"],
+    "duracaoMin": 115,
+    "frequencia": "Cerca de 114 voos/mês somando as três companhias (várias partidas diárias) — Azul responde pela maior parte da malha, seguida de LATAM e GOL",
+    "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa doméstica é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
+    "obs": "Rota direta e de alta frequência, sem necessidade de escala — ao contrário do que se costuma supor para o Norte do Brasil. Duração média de voo de cerca de 1h55.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Belém) e agregadores de passagens (momondo.com.br, kayak.com.br), consultado via busca em 2026-09-02",
+    "consultadoEm": "2026-09-02"
+  },
+  {
+    "id": "voo_for_mao",
+    "origemAeroporto": "for",
+    "destinoAeroporto": "mao",
+    "paisId": "br",
+    "companhias": ["LATAM Airlines", "GOL Linhas Aéreas"],
+    "duracaoMin": 205,
+    "frequencia": "Cerca de 46 voos/mês somando as duas companhias — LATAM é a mais utilizada nesta rota, seguida de GOL; Azul não opera trecho direto",
+    "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa doméstica é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
+    "obs": "Rota direta operada por GOL e LATAM, duração média de cerca de 3h25. Passageiros da Azul costumam fazer conexão via Belém (BEL), já que a companhia não opera este trecho sem escala — por isso é comum encontrar ofertas com escala nesta rota, mesmo havendo voo direto de outras companhias.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Manaus) e agregadores de passagens (momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
+    "consultadoEm": "2026-09-02"
   }
 ]

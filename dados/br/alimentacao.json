@@ -1,0 +1,14 @@
+[
+  {
+    "cidadeId": "belem_pa",
+    "titulo": "Belém — Ver-o-Peso, açaí e tacacá de rua",
+    "texto": "A gastronomia paraense é um dos maiores atrativos da cidade: tacacá servido em cuia nas bancas de rua ao entardecer, açaí batido na hora (aqui é acompanhamento salgado, não sobremesa doce) e peixes de rio como filhote e pirarucu. O Mercado Ver-o-Peso e a Estação das Docas concentram a maior variedade, mas restaurantes de bairro em Batista Campos e Nazaré costumam ter preço mais justo pela mesma qualidade.",
+    "tags": ["regional", "street_food", "tradicional"]
+  },
+  {
+    "cidadeId": "manaus",
+    "titulo": "Manaus — peixes amazônicos e Mercadão Adolpho Lisboa",
+    "texto": "Tambaqui na brasa (ou de costela), pirarucu de casaca e caldeiradas de peixe de rio são os pratos símbolo da cidade. O Mercado Municipal Adolpho Lisboa, às margens do Rio Negro, reúne peixe fresco, frutas regionais (cupuaçu, bacuri) e ervas amazônicas. Restaurantes voltados para o turismo se concentram em Adrianópolis e na orla da Ponta Negra, geralmente mais caros que as opções do Centro Histórico.",
+    "tags": ["regional", "tradicional"]
+  }
+]

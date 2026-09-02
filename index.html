@@ -2082,6 +2082,44 @@ const DB = {
             "resumo": "Cidade natal tradicional de Jesus Cristo, administrada pela Autoridade Palestina na Cisjordânia; visitada tipicamente em excursão de um dia a partir de Jerusalém, concentrada na Igreja da Natividade e arredores."
         },
         {
+            "id": "belem_pa",
+            "paisId": "br",
+            "nome": "Belém do Pará",
+            "glifo": "🥭",
+            "lat": -1.4558,
+            "lon": -48.4902,
+            "curada": true,
+            "noitesMin": 2,
+            "noitesIdeal": 3,
+            "noitesMax": 5,
+            "perfil": {
+                "religiao": 80,
+                "historia": 70,
+                "cultura": 85,
+                "arte": 55,
+                "arquitetura": 65,
+                "gastronomia": 90,
+                "museus": 60,
+                "familia": 65,
+                "juvenil": 50,
+                "compras": 55,
+                "natureza": 85,
+                "praias": 40,
+                "aventura": 60,
+                "fotografia": 75,
+                "descanso": 45,
+                "romantico": 40,
+                "esportes": 25
+            },
+            "transporteUrbano": "Ônibus, táxi/aplicativo e travessias de barco para as ilhas fluviais (Combu, Mosqueiro) e o distrito de Icoaraci",
+            "aeroportos": [
+                "bel"
+            ],
+            "estacoes": [],
+            "bairrosBase": "Cidade Velha (núcleo histórico), Comércio/Campina e Nazaré, com Umarizal como polo hoteleiro e gastronômico mais recente",
+            "resumo": "Capital do Pará às margens da Baía do Guajará, porta de entrada da Amazônia oriental — combina o núcleo colonial da Cidade Velha, o maior mercado a céu aberto da América Latina (Ver-o-Peso), forte devoção mariana (Círio de Nazaré) e acesso fácil a ilhas fluviais de mata preservada como a Ilha do Combu."
+        },
+        {
             "id": "berna",
             "paisId": "ch",
             "nome": "Berna",
@@ -3105,6 +3143,44 @@ const DB = {
             "estacoes": [],
             "bairrosBase": "Sol, Centro, Malasaña, Chueca e arredores da Gran Vía",
             "resumo": "Capital espanhola com o chamado 'triângulo do ouro' de museus (Prado, Reina Sofía, Thyssen), o Palácio Real e um centro histórico compacto entre Sol e Retiro."
+        },
+        {
+            "id": "manaus",
+            "paisId": "br",
+            "nome": "Manaus",
+            "glifo": "🐬",
+            "lat": -3.119,
+            "lon": -60.0217,
+            "curada": true,
+            "noitesMin": 3,
+            "noitesIdeal": 4,
+            "noitesMax": 7,
+            "perfil": {
+                "religiao": 40,
+                "historia": 60,
+                "cultura": 70,
+                "arte": 55,
+                "arquitetura": 60,
+                "gastronomia": 75,
+                "museus": 55,
+                "familia": 60,
+                "juvenil": 45,
+                "compras": 40,
+                "natureza": 98,
+                "praias": 55,
+                "aventura": 95,
+                "fotografia": 85,
+                "descanso": 45,
+                "romantico": 40,
+                "esportes": 25
+            },
+            "transporteUrbano": "Ônibus, táxi/aplicativo e embarcações de turismo para excursões fluviais; o Aeroporto Eduardo Gomes fica a cerca de 14 km do Centro Histórico",
+            "aeroportos": [
+                "mao"
+            ],
+            "estacoes": [],
+            "bairrosBase": "Centro Histórico (às margens do Rio Negro, entorno do Teatro Amazonas), Adrianópolis como polo executivo e Ponta Negra como orla de lazer e hotéis de selva",
+            "resumo": "Capital do Amazonas no coração da floresta tropical, erguida sobre a riqueza do ciclo da borracha — base obrigatória para o Encontro das Águas dos rios Negro e Solimões, passeios de barco entre botos cor-de-rosa, reservas de mata como o Bosque da Ciência e o Museu da Amazônia, e expedições de múltiplos dias em lodges de selva."
         },
         {
             "id": "miami",
@@ -5972,6 +6048,21 @@ const DB = {
         "fr_lisieux": [
             "sanctuaire"
         ],
+        "belem_pa": [
+            "cidade_velha",
+            "comercio",
+            "nazare",
+            "umarizal",
+            "ilha_do_combu",
+            "icoaraci"
+        ],
+        "manaus": [
+            "centro_historico",
+            "adrianopolis",
+            "ponta_negra",
+            "petropolis",
+            "novo_airao"
+        ],
         "lisboa": [
             "belem",
             "parque_das_nacoes",
@@ -6322,6 +6413,54 @@ const DB = {
         }
     },
     "zonasCoordenadas": {
+        "belem_pa": {
+            "cidade_velha": {
+                "lat": -1.4515,
+                "lon": -48.5039
+            },
+            "comercio": {
+                "lat": -1.4519,
+                "lon": -48.4877
+            },
+            "nazare": {
+                "lat": -1.4551,
+                "lon": -48.4773
+            },
+            "umarizal": {
+                "lat": -1.4477,
+                "lon": -48.4703
+            },
+            "ilha_do_combu": {
+                "lat": -1.4728,
+                "lon": -48.4413
+            },
+            "icoaraci": {
+                "lat": -1.2969,
+                "lon": -48.4783
+            }
+        },
+        "manaus": {
+            "centro_historico": {
+                "lat": -3.1301,
+                "lon": -60.0231
+            },
+            "adrianopolis": {
+                "lat": -3.1,
+                "lon": -60.01
+            },
+            "ponta_negra": {
+                "lat": -3.0781,
+                "lon": -60.0972
+            },
+            "petropolis": {
+                "lat": -3.0958,
+                "lon": -59.9868
+            },
+            "novo_airao": {
+                "lat": -2.6297,
+                "lon": -60.9414
+            }
+        },
         "lisboa": {
             "belem": {
                 "lat": 38.6979,
@@ -7110,6 +7249,22 @@ const DB = {
         }
     },
     "aeroportos": [
+        {
+            "id": "bel",
+            "cidadeId": "belem_pa",
+            "codigo": "BEL",
+            "nome": "Aeroporto Internacional de Belém — Val de Cans / Júlio Cezar Ribeiro",
+            "endereco": "Av. Júlio César, s/n, Val-de-Cans, Belém - PA, 66115-970",
+            "fonte": "aeroportodebelem.com.br — sítio oficial do Aeroporto Internacional de Belém, consultado via busca em 2026-09-02"
+        },
+        {
+            "id": "mao",
+            "cidadeId": "manaus",
+            "codigo": "MAO",
+            "nome": "Aeroporto Internacional de Manaus — Eduardo Gomes",
+            "endereco": "Av. Santos Dumont, 1350, Tarumã, Manaus - AM, 69041-030",
+            "fonte": "Cobertura consolidada (ABEAR, Wikipédia) sobre o Aeroporto Internacional Eduardo Gomes, consultado via busca em 2026-09-02"
+        },
         {
             "id": "fco",
             "cidadeId": "roma",
@@ -8400,6 +8555,17 @@ const DB = {
             "obs": "~180 km pela I-75; sem pedágio relevante no trajeto principal.",
             "fonte": "Estimativa por conhecimento rodoviário consolidado — consultado em 2026-08-28",
             "categoria": "regional"
+        },
+        {
+            "de": "belem_pa",
+            "para": "manaus",
+            "modo": "aviao",
+            "icone": "✈️",
+            "duracao": 129,
+            "custoPP": null,
+            "obs": "Trecho aéreo doméstico direto (Azul, GOL e LATAM), cerca de 17 voos semanais só pela Azul — a ligação natural para combinar as duas capitais amazônicas em um mesmo roteiro. Preço não disponível sem provedor de tarifas.",
+            "fonte": "flightconnections.com e agregadores de passagens (kayak.com.br, momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
+            "categoria": "regional"
         }
     ],
     "voos": [
@@ -9187,9 +9353,904 @@ const DB = {
             "obs": "Recife teve voo direto para Fort Lauderdale (FLL) inaugurado em 2023, mas essa rota foi descontinuada — reportagem de fevereiro de 2026 confirma que só resta a operação sazonal para Orlando em dez/jan. Fora da janela sazonal, conexão via GRU, VCP, CNF, Belém ou Manaus é necessária.",
             "fonte": "diariodepernambuco.com.br (fevereiro de 2026) — situação vigente dos voos diretos de Recife para os EUA, consultado em 2026-08-28",
             "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "voo_for_bel",
+            "origemAeroporto": "for",
+            "destinoAeroporto": "bel",
+            "paisId": "br",
+            "companhias": [
+                "Azul",
+                "LATAM Airlines",
+                "GOL Linhas Aéreas"
+            ],
+            "duracaoMin": 115,
+            "frequencia": "Cerca de 114 voos/mês somando as três companhias (várias partidas diárias) — Azul responde pela maior parte da malha, seguida de LATAM e GOL",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa doméstica é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Rota direta e de alta frequência, sem necessidade de escala — ao contrário do que se costuma supor para o Norte do Brasil. Duração média de voo de cerca de 1h55.",
+            "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Belém) e agregadores de passagens (momondo.com.br, kayak.com.br), consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_for_mao",
+            "origemAeroporto": "for",
+            "destinoAeroporto": "mao",
+            "paisId": "br",
+            "companhias": [
+                "LATAM Airlines",
+                "GOL Linhas Aéreas"
+            ],
+            "duracaoMin": 205,
+            "frequencia": "Cerca de 46 voos/mês somando as duas companhias — LATAM é a mais utilizada nesta rota, seguida de GOL; Azul não opera trecho direto",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa doméstica é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Rota direta operada por GOL e LATAM, duração média de cerca de 3h25. Passageiros da Azul costumam fazer conexão via Belém (BEL), já que a companhia não opera este trecho sem escala — por isso é comum encontrar ofertas com escala nesta rota, mesmo havendo voo direto de outras companhias.",
+            "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Manaus) e agregadores de passagens (momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
         }
     ],
     "atracoes": [
+        {
+            "id": "bel_ver_o_peso",
+            "cidadeId": "belem_pa",
+            "nome": "Mercado Ver-o-Peso",
+            "zona": "comercio",
+            "cat": [
+                "cultura",
+                "gastronomia"
+            ],
+            "prio": 95,
+            "dur": 90,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Av. Boulevard Castilhos França, s/n, Campina, Belém - PA",
+            "horario": {
+                "valor": "Diariamente, aproximadamente das 6h às 18h; o setor de pescado funciona desde a madrugada",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (blablacar.com.br, viciadaemviajar.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre — mercado público a céu aberto",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Maior mercado a céu aberto da América Latina, às margens da Baía do Guajará — peixes de rio, açaí, ervas e frutos amazônicos, artesanato e o icônico Mercado de Ferro. Patrimônio histórico e coração da vida comercial de Belém desde o século XVII."
+        },
+        {
+            "id": "bel_estacao_docas",
+            "cidadeId": "belem_pa",
+            "nome": "Estação das Docas",
+            "zona": "comercio",
+            "cat": [
+                "gastronomia",
+                "cultura",
+                "fotografia"
+            ],
+            "prio": 85,
+            "dur": 120,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Blvd. Castilhos França, 20, Campina, Belém - PA, 66010-020",
+            "horario": {
+                "valor": "Diariamente, das 10h à 0h (praça de alimentação e área de eventos)",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (blablacar.com.br), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre ao complexo; restaurantes e lojas cobrados à parte",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Três antigos galpões portuários do século XIX revitalizados à beira do rio, hoje reunindo restaurantes, bares, lojas de artesanato e um farol convertido em mirante — ponto certo para o pôr do sol sobre a Baía do Guajará."
+        },
+        {
+            "id": "bel_basilica_nazare",
+            "cidadeId": "belem_pa",
+            "nome": "Basílica de Nossa Senhora de Nazaré",
+            "zona": "nazare",
+            "cat": [
+                "religiao",
+                "arquitetura",
+                "historia"
+            ],
+            "prio": 95,
+            "dur": 45,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Praça Justo Chermont, s/n, Nazaré, Belém - PA, 66055-260",
+            "horario": {
+                "valor": "Diariamente, com missas ao longo do dia; recinto aberto à visitação na maior parte do dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de turismo religioso, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre à Basílica",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Santuário mariano em estilo neoclássico, réplica inspirada na Basílica de São Paulo Fora dos Muros (Roma), e ponto culminante do Círio de Nazaré — maior procissão católica do mundo, realizada no segundo domingo de outubro e que reúne milhões de fiéis."
+        },
+        {
+            "id": "bel_mangal_garcas",
+            "cidadeId": "belem_pa",
+            "nome": "Parque Mangal das Garças",
+            "zona": "cidade_velha",
+            "cat": [
+                "natureza",
+                "familia",
+                "fotografia"
+            ],
+            "prio": 88,
+            "dur": 100,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Passagem Carneiro da Rocha, s/n, Cidade Velha, Belém - PA, 66023-710",
+            "horario": {
+                "valor": "Terça a domingo e feriados, das 8h às 18h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (viciadaemviajar.com, escribadebordo.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 22,
+                "tipo": "CADASTRADO",
+                "fonte": "Guias de viagem consolidados — passaporte que dá acesso ao Farol/mirante, Reserva José Mário Alves (borboletário) e Memorial Amazônico da Navegação (cada atração isolada custa R$ 9; entrada no parque e jardins é gratuita)",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Parque às margens do Rio Guamá com jardins, lagos, viveiro de aves amazônicas, borboletário e a Torre Miriti — mirante de onde se avista o encontro do rio com a Baía do Guajará. Uma amostra compacta da fauna e flora amazônica dentro da cidade."
+        },
+        {
+            "id": "bel_theatro_paz",
+            "cidadeId": "belem_pa",
+            "nome": "Theatro da Paz",
+            "zona": "comercio",
+            "cat": [
+                "arquitetura",
+                "arte",
+                "historia",
+                "cultura"
+            ],
+            "prio": 80,
+            "dur": 60,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Praça da República, s/n, Campina, Belém - PA, 66017-000",
+            "horario": {
+                "valor": "Terça a sábado, visitas guiadas ao longo do dia; consultar programação de espetáculos",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de turismo cultural, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor da visita guiada não confirmado com precisão nesta pesquisa — costuma ter opção gratuita em horários definidos",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Teatro municipal neoclássico erguido durante o auge do ciclo da borracha, com interiores inspirados na Ópera de Paris — irmão mais discreto do Teatro Amazonas de Manaus e um dos símbolos da riqueza que o látex trouxe à região."
+        },
+        {
+            "id": "bel_museu_goeldi",
+            "cidadeId": "belem_pa",
+            "nome": "Museu Paraense Emílio Goeldi",
+            "zona": "nazare",
+            "cat": [
+                "natureza",
+                "museus",
+                "familia"
+            ],
+            "prio": 85,
+            "dur": 120,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Av. Magalhães Barata, 376, São Braz, Belém - PA, 66040-170",
+            "horario": {
+                "valor": "Terça a domingo, horário reduzido no parque zoobotânico; consultar site oficial para faixas de horário por área",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no site oficial do museu antes da viagem",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Fundado em 1866, é a mais antiga instituição de pesquisa da Amazônia — parque zoobotânico de 5,2 hectares no meio urbano com onças, aves, répteis e jardins botânicos, ideal para uma introdução à biodiversidade amazônica sem sair da cidade."
+        },
+        {
+            "id": "bel_forte_presepio",
+            "cidadeId": "belem_pa",
+            "nome": "Forte do Presépio (Feliz Lusitânia)",
+            "zona": "cidade_velha",
+            "cat": [
+                "historia",
+                "arquitetura"
+            ],
+            "prio": 75,
+            "dur": 60,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Praça Frei Caetano Brandão, s/n, Cidade Velha, Belém - PA, 66015-160",
+            "horario": {
+                "valor": "Terça a sexta, das 10h às 17h; sábados, domingos e feriados, das 9h às 13h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (turistaprofissional.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Primeira construção erguida em Belém, em 1616, marco fundador da cidade e da presença portuguesa na Amazônia — hoje museu histórico-arqueológico com achados do sítio original e vista sobre o rio Guamá."
+        },
+        {
+            "id": "bel_casa_onze_janelas",
+            "cidadeId": "belem_pa",
+            "nome": "Casa das Onze Janelas",
+            "zona": "cidade_velha",
+            "cat": [
+                "arte",
+                "historia",
+                "museus"
+            ],
+            "prio": 70,
+            "dur": 60,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Praça Frei Caetano Brandão, s/n, Cidade Velha, Belém - PA, 66015-160",
+            "horario": {
+                "valor": "Terça a sexta, das 10h às 16h; sábados e domingos, das 9h às 13h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Casarão do século XVIII vizinho ao Forte do Presépio, hoje espaço cultural e museu de arte contemporânea, com terraço voltado ao rio Guamá que é um dos melhores pontos da cidade para o pôr do sol."
+        },
+        {
+            "id": "bel_catedral_se",
+            "cidadeId": "belem_pa",
+            "nome": "Catedral Metropolitana de Belém (Igreja da Sé)",
+            "zona": "cidade_velha",
+            "cat": [
+                "religiao",
+                "arquitetura",
+                "historia"
+            ],
+            "prio": 60,
+            "dur": 30,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Praça Dom Frei Caetano Brandão, s/n, Cidade Velha, Belém - PA, 66015-160",
+            "horario": {
+                "valor": "Diariamente, com missas ao longo do dia; recinto aberto à visitação",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de turismo religioso, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Catedral do século XVIII em estilo neoclássico, sede da Arquidiocese de Belém, no coração do bairro histórico da Cidade Velha, ao lado do Forte do Presépio e da Casa das Onze Janelas."
+        },
+        {
+            "id": "bel_ilha_combu",
+            "cidadeId": "belem_pa",
+            "nome": "Ilha do Combu — passeio fluvial e rota do chocolate",
+            "zona": "ilha_do_combu",
+            "cat": [
+                "natureza",
+                "aventura",
+                "gastronomia",
+                "fotografia"
+            ],
+            "prio": 92,
+            "dur": 240,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Travessia a partir do Terminal Hidroviário Ruy Barata, Av. Alcindo Cacela, 4570, Condor, Belém - PA (terminal aberto das 9h às 20h)",
+            "horario": {
+                "valor": "Passeio de dia inteiro ou meio período; travessia de lancha com cerca de 15 minutos a partir do terminal",
+                "tipo": "CADASTRADO",
+                "fonte": "essemundoenosso.com.br, oliberal.com, garfoemala.com.br — cobertura consolidada sobre a Ilha do Combu, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 24,
+                "tipo": "CADASTRADO",
+                "fonte": "oliberal.com — travessia de lancha ida e volta pelo terminal hidroviário; gratuidade para crianças até 5 anos, idosos acima de 60 e PCD com acompanhante. Restaurantes, trilhas guiadas e a Casa do Chocolate são cobrados à parte.",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Ilha fluvial de mata preservada a 15 minutos de barco do centro de Belém, conhecida pela produção artesanal de cacau e açaí. A 'rota do chocolate' leva à Casa do Chocolate, e trilhas guiadas por moradores atravessam a floresta da ilha — algumas com tirolesa em meio à mata, como no espaço Saldosa Maloca. Combina passeio fluvial, imersão na floresta e gastronomia ribeirinha em um único bate-volta."
+        },
+        {
+            "id": "bel_bosque_rodrigues_alves",
+            "cidadeId": "belem_pa",
+            "nome": "Bosque Rodrigues Alves (Refúgio de Vida Silvestre)",
+            "zona": "nazare",
+            "cat": [
+                "natureza",
+                "familia"
+            ],
+            "prio": 65,
+            "dur": 90,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Av. Almirante Barroso, 2453, Marco, Belém - PA, 66093-020",
+            "horario": {
+                "valor": "Terça a domingo, horário matutino e vespertino — confirmar no local, pois a operação varia por temporada",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre parques urbanos de Belém, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Reserva de mata nativa remanescente dentro do perímetro urbano, com trilhas arborizadas, lagos e viveiro de fauna amazônica — a mais antiga área verde protegida de Belém, criada ainda no início do século XX."
+        },
+        {
+            "id": "bel_icoaraci_ceramica",
+            "cidadeId": "belem_pa",
+            "nome": "Icoaraci — cerâmica marajoara e artesanato",
+            "zona": "icoaraci",
+            "cat": [
+                "compras",
+                "cultura"
+            ],
+            "prio": 55,
+            "dur": 120,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Distrito de Icoaraci, na orla norte de Belém, cerca de 20 km do Centro",
+            "horario": {
+                "valor": "Ateliês e feiras de artesanato funcionam principalmente durante o dia, de terça a domingo",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre o distrito ceramista de Icoaraci, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre às feiras e ateliês; peças de cerâmica cobradas à parte",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Distrito na orla norte de Belém, tradicional polo de produção da cerâmica marajoara e tapajônica — dezenas de ateliês de oleiros vendem peças inspiradas na arte indígena pré-colombiana da Ilha de Marajó."
+        },
+        {
+            "id": "bel_ilha_marajo",
+            "cidadeId": "belem_pa",
+            "nome": "Ilha de Marajó — búfalos e praias fluviais",
+            "zona": "ilha_do_combu",
+            "cat": [
+                "natureza",
+                "aventura",
+                "praias",
+                "fotografia"
+            ],
+            "prio": 78,
+            "dur": 720,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Acesso por balsa (cerca de 3h a partir do Terminal Hidroviário de Belém, até Camará/Salvaterra) ou voo doméstico curto (~25 min) até Soure",
+            "horario": {
+                "valor": "Melhor como excursão de dia inteiro com pernoite, ou bate-volta de dia inteiro na alta temporada seca (jun–nov)",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre acesso à Ilha de Marajó, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa de balsa/voo doméstico varia por operadora e temporada — confirmar antes da viagem",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "A maior ilha fluvio-marinha do mundo, na foz do Amazonas — fazendas de búfalos (inclusive passeios montados no animal), praias de água doce como Salvaterra e Joanes, e cultura ribeirinha marcada pela cerâmica marajoara. Excursão clássica a partir de Belém, ideal para quem busca natureza e aventura fora da capital."
+        },
+        {
+            "id": "mao_teatro_amazonas",
+            "cidadeId": "manaus",
+            "nome": "Teatro Amazonas",
+            "zona": "centro_historico",
+            "cat": [
+                "arquitetura",
+                "arte",
+                "historia",
+                "cultura"
+            ],
+            "prio": 95,
+            "dur": 75,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Praça São Sebastião, s/n, Centro, Manaus - AM, 69010-170",
+            "horario": {
+                "valor": "Terça a sábado, das 9h às 17h; domingos e feriados, das 9h às 13h (visitas guiadas)",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (blablacar.com.br), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor do ingresso de visita guiada não confirmado com precisão nesta pesquisa — confirmar no local ou site oficial antes da viagem",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Casa de ópera erguida no auge do ciclo da borracha (inaugurada em 1896), com mármore de Carrara e ferro importados da Europa — Patrimônio Cultural do Brasil e símbolo máximo de Manaus. Sedia a Praça São Sebastião e o Festival Amazonas de Ópera."
+        },
+        {
+            "id": "mao_mercado_adolpho_lisboa",
+            "cidadeId": "manaus",
+            "nome": "Mercado Municipal Adolpho Lisboa",
+            "zona": "centro_historico",
+            "cat": [
+                "cultura",
+                "gastronomia"
+            ],
+            "prio": 85,
+            "dur": 75,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Rua dos Barés, 46, Centro, Manaus - AM, 69005-400",
+            "horario": {
+                "valor": "Diariamente, aproximadamente das 6h às 18h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre — mercado público",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Mercado de ferro em estilo art nouveau à beira do Rio Negro, inspirado no antigo mercado parisiense Les Halles — peixe fresco de rio, frutas amazônicas, ervas medicinais indígenas e artesanato regional."
+        },
+        {
+            "id": "mao_encontro_aguas",
+            "cidadeId": "manaus",
+            "nome": "Encontro das Águas (Rio Negro e Rio Solimões)",
+            "zona": "centro_historico",
+            "cat": [
+                "natureza",
+                "aventura",
+                "fotografia"
+            ],
+            "prio": 95,
+            "dur": 400,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Embarque em marinas e portos turísticos do Centro de Manaus (ex.: Porto de Manaus / Marina do Davi)",
+            "horario": {
+                "valor": "Passeio de barco de aproximadamente 6 a 7 horas, geralmente com saída pela manhã",
+                "tipo": "CADASTRADO",
+                "fonte": "viagensecaminhos.com, manausjungletours.com — cobertura consolidada de operadoras de passeio, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa varia por operadora, tamanho do grupo e itens inclusos (transporte, refeição) — verifique diretamente com o operador",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Fenômeno natural onde as águas escuras do Rio Negro correm lado a lado com as águas barrentas do Rio Solimões por quilômetros sem se misturar, por diferenças de temperatura, densidade e velocidade. Passeio clássico de barco a partir de Manaus, geralmente combinado com nado com botos cor-de-rosa, visita a comunidade ribeirinha e observação de vitórias-régias."
+        },
+        {
+            "id": "mao_bosque_ciencia",
+            "cidadeId": "manaus",
+            "nome": "Bosque da Ciência (INPA)",
+            "zona": "petropolis",
+            "cat": [
+                "natureza",
+                "familia"
+            ],
+            "prio": 85,
+            "dur": 90,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Rua Bem-te-vi, s/n, Petrópolis, Manaus - AM",
+            "horario": {
+                "valor": "Terça a sexta, das 9h às 12h e das 14h às 17h; sábados, domingos e feriados, das 9h às 17h",
+                "tipo": "CADASTRADO",
+                "fonte": "bosque.inpa.gov.br — sítio oficial do Bosque da Ciência (INPA), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "bosque.inpa.gov.br — entrada gratuita, mediante agendamento prévio",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": "https://bosque.inpa.gov.br",
+            "desc": "Fragmento de floresta amazônica preservado dentro do campus do INPA, com trilhas suspensas sobre área alagada onde vivem jacarés e sauins-de-coleira em semi-liberdade, além de um lago com botos e peixes-boi resgatados. Ótima introdução à fauna amazônica em meio urbano."
+        },
+        {
+            "id": "mao_musa",
+            "cidadeId": "manaus",
+            "nome": "Museu da Amazônia (MUSA) e Reserva Adolpho Ducke",
+            "zona": "petropolis",
+            "cat": [
+                "natureza",
+                "aventura",
+                "museus",
+                "fotografia"
+            ],
+            "prio": 88,
+            "dur": 180,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 6,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Av. Margarita, 6305, Cidade de Deus, Manaus - AM (dentro da Reserva Florestal Adolpho Ducke)",
+            "horario": {
+                "valor": "Aberto todos os dias, inclusive segunda-feira — o único museu de Manaus com esse horário; recomendado agendar com antecedência",
+                "tipo": "CADASTRADO",
+                "fonte": "museudaamazonia.org.br — sítio oficial do MUSA, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — reservas via agendamento@museudaamazonia.org.br",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": "https://museudaamazonia.org.br",
+            "desc": "Área de 100 hectares de mata de terra firme com cerca de 3 km de trilhas interpretativas, viveiros de orquídeas e bromélias, lago com vitórias-régias e uma torre de observação de 42 metros sobre o dossel da floresta — mirante especialmente recomendado ao amanhecer."
+        },
+        {
+            "id": "mao_praia_ponta_negra",
+            "cidadeId": "manaus",
+            "nome": "Praia da Ponta Negra",
+            "zona": "ponta_negra",
+            "cat": [
+                "praias",
+                "familia",
+                "descanso",
+                "fotografia"
+            ],
+            "prio": 75,
+            "dur": 120,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Av. Coronel Teixeira, Ponta Negra, Manaus - AM",
+            "horario": {
+                "valor": "Orla aberta o dia todo; a faixa de areia só fica exposta na vazante do Rio Negro (aprox. jul–nov)",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre a orla de Ponta Negra, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à orla pública",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Praia fluvial e calçadão à beira do Rio Negro, cartão-postal de lazer da cidade — quadras esportivas, anfiteatro ao ar livre e vista para o encontro das águas ao longe. A faixa de areia só aparece na estação seca, quando o rio baixa."
+        },
+        {
+            "id": "mao_palacio_rio_negro",
+            "cidadeId": "manaus",
+            "nome": "Palácio Rio Negro",
+            "zona": "centro_historico",
+            "cat": [
+                "historia",
+                "arte",
+                "arquitetura"
+            ],
+            "prio": 60,
+            "dur": 60,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Av. Sete de Setembro, 1546, Centro, Manaus - AM",
+            "horario": {
+                "valor": "Terça a domingo, horário comercial — consultar programação de exposições",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre patrimônio histórico de Manaus, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada gratuita — centro cultural público",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Antiga residência de um barão da borracha e depois sede do governo estadual, hoje centro cultural com exposições de arte e história, salas de época preservadas e adega subterrânea aberta à visitação."
+        },
+        {
+            "id": "mao_largo_sao_sebastiao",
+            "cidadeId": "manaus",
+            "nome": "Igreja de São Sebastião e Praça da Saudade",
+            "zona": "centro_historico",
+            "cat": [
+                "religiao",
+                "arquitetura",
+                "historia"
+            ],
+            "prio": 55,
+            "dur": 30,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Praça São Sebastião, s/n, Centro, Manaus - AM, em frente ao Teatro Amazonas",
+            "horario": {
+                "valor": "Diariamente, com missas ao longo do dia; recinto aberto à visitação",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de turismo religioso, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Igreja do século XIX na praça fronteira ao Teatro Amazonas, com calçamento em mosaico português que remete ao encontro das águas — um dos cartões-postais mais fotografados do Centro Histórico."
+        },
+        {
+            "id": "mao_porto_flutuante",
+            "cidadeId": "manaus",
+            "nome": "Porto Flutuante de Manaus e Escadaria dos Remédios",
+            "zona": "centro_historico",
+            "cat": [
+                "historia",
+                "fotografia"
+            ],
+            "prio": 58,
+            "dur": 40,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Rua Marquês de Santa Cruz, s/n, Centro, Manaus - AM, às margens do Rio Negro",
+            "horario": {
+                "valor": "Acesso livre à área pública do porto durante o dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre o Centro Histórico de Manaus, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à área pública",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Engenharia inglesa da era da borracha, com estrutura flutuante que acompanha a variação de até 14 metros do nível do Rio Negro entre seca e cheia — ponto de partida histórico para embarcações rumo ao interior do Amazonas."
+        },
+        {
+            "id": "mao_anavilhanas_novo_airao",
+            "cidadeId": "manaus",
+            "nome": "Arquipélago de Anavilhanas e Novo Airão — botos selvagens",
+            "zona": "novo_airao",
+            "cat": [
+                "natureza",
+                "aventura",
+                "fotografia"
+            ],
+            "prio": 85,
+            "dur": 660,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Novo Airão, a cerca de 115 km (2h30–3h de estrada/balsa) a noroeste de Manaus, às margens do Rio Negro",
+            "horario": {
+                "valor": "Excursão de dia inteiro a partir de Manaus, com saída pela manhã e retorno à noite",
+                "tipo": "CADASTRADO",
+                "fonte": "planetaexo.com, finisterrae.com.br — cobertura consolidada de operadoras de turismo, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa varia por operadora e se o passeio é bate-volta ou combinado com pernoite/cruzeiro de vários dias",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Maior arquipélago fluvial do mundo, dentro do Parque Nacional de Anavilhanas — labirinto de ilhas de mata alagável no Rio Negro. Novo Airão é famosa pelo encontro com botos cor-de-rosa selvagens em ambiente relativamente controlado, além de passeios de canoa entre os igarapés e observação de aves."
+        },
+        {
+            "id": "mao_expedicao_selva",
+            "cidadeId": "manaus",
+            "nome": "Expedição em lodge de selva — trilha noturna, pesca de piranha e aldeia ribeirinha",
+            "zona": "novo_airao",
+            "cat": [
+                "aventura",
+                "natureza"
+            ],
+            "prio": 82,
+            "dur": 2880,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 8,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Lodges de selva a 1h30–3h de barco/estrada de Manaus (ex.: região do Lago do Juma, Rio Ariaú, Rio Urubu)",
+            "horario": {
+                "valor": "Pacotes de 2 a 4 dias e 1 a 3 noites, com atividades diárias fixas (manhã, tarde e noite)",
+                "tipo": "CADASTRADO",
+                "fonte": "pisa.tur.br, viverde.tur.br, oikostravel.com.br — cobertura consolidada de operadoras de expedição na Amazônia, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa por pacote (inclui hospedagem, refeições e passeios) varia muito por lodge e duração — verifique diretamente com o operador",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Vivência de imersão na floresta, geralmente hospedada em lodge de selva sobre palafitas: trilhas guiadas na mata (diurnas e noturnas, com lanterna, em busca de insetos e répteis), pesca de piranha ao entardecer, observação de jacarés à noite, canoagem por igarapés e visita a comunidades ribeirinhas. O formato mais imersivo de contato com a Amazônia a partir de Manaus."
+        },
         {
             "id": "roma_sao_pedro",
             "cidadeId": "roma",
@@ -21510,6 +22571,127 @@ const DB = {
     ],
     "hospedagens": [
         {
+            "id": "h_bel_hilton",
+            "cidadeId": "belem_pa",
+            "nome": "Hilton Belém",
+            "categoria": "Hotel — Campina",
+            "zona": "comercio",
+            "endereco": "Av. Presidente Vargas, 882, Campina, Belém - PA, 66017-000",
+            "nota": "Torre alta no coração da Campina/Comércio, com vista para a Baía do Guajará a partir dos quartos altos e da piscina — a poucos minutos a pé do Ver-o-Peso e da Estação das Docas.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com, apontador.com.br), consultado via busca em 2026-09-02",
+            "flag": "flag-best"
+        },
+        {
+            "id": "h_bel_radisson",
+            "cidadeId": "belem_pa",
+            "nome": "Radisson Hotel Belém",
+            "categoria": "Hotel — Nazaré",
+            "zona": "nazare",
+            "endereco": "Av. Comandante Brás de Aguiar, 321, Nazaré, Belém - PA",
+            "nota": "Fica no bairro de Nazaré, área nobre e segura próxima à Basílica de Nossa Senhora de Nazaré, com boa concentração de lojas, bares e restaurantes.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com, temqueir.com.br), consultado via busca em 2026-09-02",
+            "flag": "flag-alt"
+        },
+        {
+            "id": "h_bel_mercure_boulevard",
+            "cidadeId": "belem_pa",
+            "nome": "Mercure Belém Boulevard",
+            "categoria": "Hotel — Umarizal",
+            "zona": "umarizal",
+            "endereco": "Trav. Dom Romualdo de Seixas, 1560, Umarizal, Belém - PA",
+            "nota": "Base no Umarizal, a 200 metros da Av. Almirante Wandenkolk, uma das principais áreas boêmias e gastronômicas da cidade.",
+            "fonte": "Cobertura consolidada de guias de hospedagem, consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_bel_marajoara",
+            "cidadeId": "belem_pa",
+            "nome": "Hotel Marajoara",
+            "categoria": "Hotel — Nazaré",
+            "zona": "nazare",
+            "endereco": "Rua Joaquim Nabuco, 59, Nazaré, Belém - PA, 66055-300",
+            "nota": "Opção bem avaliada e de custo mais moderado no bairro de Nazaré, próxima à Basílica e ao circuito de restaurantes locais.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com), consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_bel_grao_para",
+            "cidadeId": "belem_pa",
+            "nome": "Hotel Grão Pará",
+            "categoria": "Hotel — Campina",
+            "zona": "comercio",
+            "endereco": "Av. Presidente Vargas, 718, Belém - PA, 66017-000",
+            "nota": "Opção econômica bem avaliada na Campina, a poucos passos do Ver-o-Peso e da Estação das Docas.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (dicasdeviagem.com), consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_bel_andrade_docas",
+            "cidadeId": "belem_pa",
+            "nome": "Rede Andrade Docas Hotel",
+            "categoria": "Hotel — Comércio",
+            "zona": "comercio",
+            "endereco": "Rua Senador Manoel Barata, 532, Belém - PA, 66015-020",
+            "nota": "Localização central no bairro do Comércio, próxima à Estação das Docas e ao Ver-o-Peso, com boa relação custo-benefício.",
+            "fonte": "Cobertura consolidada de guias de hospedagem, consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_mao_tropical_ecoresort",
+            "cidadeId": "manaus",
+            "nome": "Tropical Manaus Ecoresort",
+            "categoria": "Resort — Ponta Negra",
+            "zona": "ponta_negra",
+            "endereco": "Av. Coronel Teixeira, 1320, Ponta Negra, Manaus - AM, 69037-000",
+            "nota": "Resort de selva de 5 estrelas às margens do Rio Negro, com zoológico próprio, piscinas e área ampla — o maior hotel de Manaus e o mais associado ao turismo de natureza da cidade.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (aventuradobrasil.com, hurb.com), consultado via busca em 2026-09-02",
+            "flag": "flag-best"
+        },
+        {
+            "id": "h_mao_juma_opera",
+            "cidadeId": "manaus",
+            "nome": "Juma Ópera Boutique Hotel & Spa",
+            "categoria": "Hotel — Centro Histórico",
+            "zona": "centro_historico",
+            "endereco": "Rua 10 de Julho, 481, Centro, Manaus - AM, 69010-060",
+            "nota": "Hotel boutique em frente ao Teatro Amazonas, a melhor localização do Centro Histórico para explorar a pé.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (trivago.com, jumalodge.com.br), consultado via busca em 2026-09-02",
+            "flag": "flag-alt"
+        },
+        {
+            "id": "h_mao_villa_amazonia",
+            "cidadeId": "manaus",
+            "nome": "Hotel Villa Amazônia",
+            "categoria": "Hotel — Centro Histórico",
+            "zona": "centro_historico",
+            "endereco": "Rua 10 de Julho, 315, Centro, Manaus - AM, 69010-060",
+            "nota": "Hotel boutique de charme no Centro Histórico, próximo ao Teatro Amazonas e ao Mercado Adolpho Lisboa.",
+            "fonte": "Cobertura consolidada de guias de hospedagem, consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_mao_tryp_wyndham",
+            "cidadeId": "manaus",
+            "nome": "TRYP by Wyndham Manaus",
+            "categoria": "Hotel — próximo ao aeroporto",
+            "zona": "adrianopolis",
+            "endereco": "Av. Torquato Tapajós, 4503, Manaus - AM, 69039-125",
+            "nota": "Rede internacional com boa localização para quem prioriza proximidade do Aeroporto Eduardo Gomes ou chegadas/saídas em horários apertados.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (wyndhamhotels.com, hotelplanner.com), consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_mao_juma_lodge",
+            "cidadeId": "manaus",
+            "nome": "Juma Amazon Lodge",
+            "categoria": "Lodge de selva — Lago do Juma",
+            "zona": "novo_airao",
+            "endereco": "Lago do Juma, município de Autazes - AM, cerca de 100 km a sudeste de Manaus (acesso por estrada e barco)",
+            "nota": "Bangalôs sobre palafitas em área preservada de 7 mil hectares, com vista para a floresta ou o Lago do Juma — pacotes de 2 a 4 dias incluem trilhas, pesca de piranha, observação noturna de jacarés e visita a comunidades ribeirinhas.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (booking.com, tripadvisor.com, pisa.tur.br), consultado via busca em 2026-09-02",
+            "flag": "flag-alt"
+        },
+        {
             "id": "h_roma_virgilio",
             "cidadeId": "roma",
             "nome": "Hotel Virgilio",
@@ -22347,6 +23529,25 @@ const DB = {
         }
     ],
     "alimentacao": [
+        {
+            "cidadeId": "belem_pa",
+            "titulo": "Belém — Ver-o-Peso, açaí e tacacá de rua",
+            "texto": "A gastronomia paraense é um dos maiores atrativos da cidade: tacacá servido em cuia nas bancas de rua ao entardecer, açaí batido na hora (aqui é acompanhamento salgado, não sobremesa doce) e peixes de rio como filhote e pirarucu. O Mercado Ver-o-Peso e a Estação das Docas concentram a maior variedade, mas restaurantes de bairro em Batista Campos e Nazaré costumam ter preço mais justo pela mesma qualidade.",
+            "tags": [
+                "regional",
+                "street_food",
+                "tradicional"
+            ]
+        },
+        {
+            "cidadeId": "manaus",
+            "titulo": "Manaus — peixes amazônicos e Mercadão Adolpho Lisboa",
+            "texto": "Tambaqui na brasa (ou de costela), pirarucu de casaca e caldeiradas de peixe de rio são os pratos símbolo da cidade. O Mercado Municipal Adolpho Lisboa, às margens do Rio Negro, reúne peixe fresco, frutas regionais (cupuaçu, bacuri) e ervas amazônicas. Restaurantes voltados para o turismo se concentram em Adrianópolis e na orla da Ponta Negra, geralmente mais caros que as opções do Centro Histórico.",
+            "tags": [
+                "regional",
+                "tradicional"
+            ]
+        },
         {
             "cidadeId": "roma",
             "titulo": "Roma — comer fora do eixo turístico",
@@ -25624,6 +26825,20 @@ const DB = {
     ],
     "portalConsular": "https://www.gov.br/mre/pt-br/assuntos/portal-consular",
     "climatologiaFallback": {
+        "belem_pa": {
+            "mes": 9,
+            "max": 31.5,
+            "min": 23,
+            "mm": 45,
+            "diasChuva": 9
+        },
+        "manaus": {
+            "mes": 9,
+            "max": 33,
+            "min": 23,
+            "mm": 120,
+            "diasChuva": 12
+        },
         "roma": {
             "mes": 11,
             "max": 16.3,
@@ -26025,6 +27240,18 @@ const DB = {
         }
     },
     "gazetteer": [
+        {
+            "nome": "Belém do Pará",
+            "paisId": "br",
+            "lat": -1.4558,
+            "lon": -48.4902
+        },
+        {
+            "nome": "Manaus",
+            "paisId": "br",
+            "lat": -3.119,
+            "lon": -60.0217
+        },
         {
             "nome": "Lisboa",
             "paisId": "pt",

@@ -1,0 +1,4 @@
+{
+  "belem_pa": { "mes": 9, "max": 31.5, "min": 23, "mm": 45, "diasChuva": 9 },
+  "manaus": { "mes": 9, "max": 33, "min": 23, "mm": 120, "diasChuva": 12 }
+}

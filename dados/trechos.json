@@ -769,5 +769,16 @@
     "obs": "~180 km pela I-75; sem pedágio relevante no trajeto principal.",
     "fonte": "Estimativa por conhecimento rodoviário consolidado — consultado em 2026-08-28",
     "categoria": "regional"
+  },
+  {
+    "de": "belem_pa",
+    "para": "manaus",
+    "modo": "aviao",
+    "icone": "✈️",
+    "duracao": 129,
+    "custoPP": null,
+    "obs": "Trecho aéreo doméstico direto (Azul, GOL e LATAM), cerca de 17 voos semanais só pela Azul — a ligação natural para combinar as duas capitais amazônicas em um mesmo roteiro. Preço não disponível sem provedor de tarifas.",
+    "fonte": "flightconnections.com e agregadores de passagens (kayak.com.br, momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
+    "categoria": "regional"
   }
 ]

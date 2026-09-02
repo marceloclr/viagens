@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bel",
+    "cidadeId": "belem_pa",
+    "codigo": "BEL",
+    "nome": "Aeroporto Internacional de Belém — Val de Cans / Júlio Cezar Ribeiro",
+    "endereco": "Av. Júlio César, s/n, Val-de-Cans, Belém - PA, 66115-970",
+    "fonte": "aeroportodebelem.com.br — sítio oficial do Aeroporto Internacional de Belém, consultado via busca em 2026-09-02"
+  },
+  {
+    "id": "mao",
+    "cidadeId": "manaus",
+    "codigo": "MAO",
+    "nome": "Aeroporto Internacional de Manaus — Eduardo Gomes",
+    "endereco": "Av. Santos Dumont, 1350, Tarumã, Manaus - AM, 69041-030",
+    "fonte": "Cobertura consolidada (ABEAR, Wikipédia) sobre o Aeroporto Internacional Eduardo Gomes, consultado via busca em 2026-09-02"
+  }
+]
