@@ -472,6 +472,8 @@
         .flight-item:hover { transform: translateY(-3px); border-color: var(--accent); z-index: 5; }
         .flight-item .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
         .flight-item strong { display:block; color:var(--ink-strong); margin-top:4px; font-size:14px; }
+        .flight-item-full { grid-column: 1 / -1; }
+        .flight-item-full strong { font-weight:400; font-size:13px; line-height:1.5; }
         .source-note { font-size:11px; color:var(--muted); line-height:1.45; margin-top:10px; }
         .cost-total { font-size:22px; font-weight:800; color:var(--accent); }
         .food-card {
@@ -3310,7 +3312,7 @@ const Render = {
                 }
                 if (m.obs) h += '<div class="flight-item"><span class="small">Observação</span><strong>' + U.esc(m.obs) + '</strong></div>';
             } else {
-                h += '<div class="flight-item"><span class="small">Número, horário e tarifa</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Nenhum provedor aberto de tarifas', null) + '</div>';
+                h += '<div class="flight-item"><span class="small">Número e horário</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Fica disponível quando você informa o voo já emitido', null) + '</div>';
             }
             if (v.cadastro) {
                 const cd = v.cadastro;
@@ -3323,6 +3325,19 @@ const Render = {
                 if (duracao) h += '<div class="flight-item"><span class="small">Duração estimada de voo</span><strong>~' + U.dur(duracao) + '</strong></div>';
                 const freqs = cd.pernas.map(p => p.frequencia).filter(Boolean);
                 if (freqs.length) h += '<div class="flight-item"><span class="small">Frequência pesquisada</span><strong>' + U.esc(freqs.join(' + ')) + '</strong></div>';
+                // Número de voo e horário de referência: pesquisados junto com a rota (§ obs de
+                // cada perna em dados/voos.json), mas nunca renderizados até aqui — ficavam
+                // enterrados no JSON. A data da consulta vai destacada porque malha e horário
+                // mudam por temporada; isto é referência, não o voo do bilhete do viajante.
+                const comObs = cd.pernas.filter(p => p.obs);
+                if (comObs.length) {
+                    const consultas = Array.from(new Set(comObs.map(p => p.consultadoEm).filter(Boolean)))
+                        .map(iso => iso.split('-').reverse().join('/'));
+                    h += '<div class="flight-item flight-item-full"><span class="small">Voo e horário de referência pesquisados' +
+                        (consultas.length ? ' — consultado em ' + U.esc(consultas.join(', ')) : '') + '</span><strong>' +
+                        U.esc(comObs.map(p => p.obs).join(' ')) + '</strong>' +
+                        R.selo('CADASTRADO', fontes, null, 'Exemplo de horário pesquisado em fonte aberta — não é o voo do seu bilhete. Confirme número, horário e disponibilidade direto com a companhia antes de comprar.') + '</div>';
+                }
             }
             h += '</div><p class="source-note">' + U.esc(v.obs) + '</p></div>';
         });
@@ -3667,6 +3682,14 @@ const Render = {
                 const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
                 const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
                 h += ' · Rota pesquisada: ' + U.esc(companhias) + (duracao ? ' (~' + U.dur(duracao) + ')' : '');
+                const comObs = cd.pernas.filter(p => p.obs);
+                if (comObs.length) {
+                    const consultas = Array.from(new Set(comObs.map(p => p.consultadoEm).filter(Boolean)))
+                        .map(iso => iso.split('-').reverse().join('/'));
+                    h += '<br><span style="font-size:12px;color:var(--muted);">Referência pesquisada' +
+                        (consultas.length ? ' (consultado em ' + U.esc(consultas.join(', ')) + ')' : '') + ': ' +
+                        U.esc(comObs.map(p => p.obs).join(' ')) + '</span>';
+                }
             }
             h += '</p>';
         });
