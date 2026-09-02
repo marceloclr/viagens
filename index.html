@@ -1884,6 +1884,120 @@ const DB = {
             "resumo": "Berço da democracia e da filosofia ocidental — Acrópole, Ágora Antiga e o Areópago onde Paulo pregou aos atenienses (Atos 17), tudo a poucos passos um do outro."
         },
         {
+            "id": "santorini",
+            "paisId": "gr",
+            "nome": "Santorini",
+            "glifo": "🌋",
+            "lat": 36.3932,
+            "lon": 25.4615,
+            "curada": true,
+            "noitesMin": 2,
+            "noitesIdeal": 3,
+            "noitesMax": 5,
+            "perfil": {
+                "religiao": 20,
+                "historia": 55,
+                "cultura": 60,
+                "arte": 55,
+                "museus": 40,
+                "arquitetura": 85,
+                "gastronomia": 75,
+                "familia": 45,
+                "juvenil": 60,
+                "compras": 45,
+                "natureza": 70,
+                "praias": 75,
+                "aventura": 55,
+                "fotografia": 100,
+                "descanso": 70,
+                "romantico": 95,
+                "esportes": 30
+            },
+            "transporteUrbano": "Ônibus locais entre Fira e as vilas, táxi/aplicativo e travessias de barco a partir do Porto Antigo de Fira",
+            "aeroportos": [
+                "jtr"
+            ],
+            "estacoes": [],
+            "bairrosBase": "Fira, capital movimentada à beira da caldeira, e Oia, a vila do pôr do sol mais fotografado da Grécia",
+            "resumo": "Ilha vulcânica das Cíclades, moldada por uma das maiores erupções da história — casas brancas de cúpula azul empilhadas sobre a caldeira, vinhedos plantados em cesto contra o vento e o sítio minoico soterrado de Akrotiri. A caldeira em si é uma cratera vulcânica inundada pelo mar, e boa parte da experiência da ilha — do pôr do sol de Oia aos passeios de barco até os vulcões ativos no centro da baía — só existe por causa dessa relação direta com o mar."
+        },
+        {
+            "id": "mykonos",
+            "paisId": "gr",
+            "nome": "Mykonos",
+            "glifo": "⛵",
+            "lat": 37.4467,
+            "lon": 25.3289,
+            "curada": true,
+            "noitesMin": 2,
+            "noitesIdeal": 3,
+            "noitesMax": 4,
+            "perfil": {
+                "religiao": 25,
+                "historia": 60,
+                "cultura": 65,
+                "arte": 55,
+                "museus": 45,
+                "arquitetura": 75,
+                "gastronomia": 75,
+                "familia": 40,
+                "juvenil": 90,
+                "compras": 60,
+                "natureza": 55,
+                "praias": 90,
+                "aventura": 50,
+                "fotografia": 90,
+                "descanso": 60,
+                "romantico": 70,
+                "esportes": 35
+            },
+            "transporteUrbano": "Ônibus locais entre Chora e as praias, táxi/aplicativo e barcos-táxi para as praias do sul e para a Ilha de Delos",
+            "aeroportos": [
+                "jmk"
+            ],
+            "estacoes": [],
+            "bairrosBase": "Chora (Mykonos Town), com a Pequena Veneza e os moinhos de vento à beira-mar",
+            "resumo": "A mais cosmopolita das Cíclades, com ruas brancas labirínticas, vida noturna intensa e praias badaladas no litoral sul — mas também porta de entrada para a Ilha de Delos, sítio arqueológico Patrimônio Mundial da UNESCO e um dos lugares mais sagrados da Grécia Antiga, acessível apenas de barco."
+        },
+        {
+            "id": "rodes",
+            "paisId": "gr",
+            "nome": "Rodes",
+            "glifo": "🏰",
+            "lat": 36.4423,
+            "lon": 28.2225,
+            "curada": true,
+            "noitesMin": 2,
+            "noitesIdeal": 3,
+            "noitesMax": 5,
+            "perfil": {
+                "religiao": 35,
+                "historia": 90,
+                "cultura": 80,
+                "arte": 60,
+                "museus": 55,
+                "arquitetura": 90,
+                "gastronomia": 70,
+                "familia": 65,
+                "juvenil": 55,
+                "compras": 55,
+                "natureza": 55,
+                "praias": 70,
+                "aventura": 60,
+                "fotografia": 85,
+                "descanso": 55,
+                "romantico": 60,
+                "esportes": 30
+            },
+            "transporteUrbano": "Ônibus locais, táxi/aplicativo e barcos de passeio a partir do Porto de Mandraki, dentro da Cidade Medieval a circulação é só a pé",
+            "aeroportos": [
+                "rho"
+            ],
+            "estacoes": [],
+            "bairrosBase": "Cidade Medieval de Rodes, Patrimônio Mundial da UNESCO, murada e fechada a carros",
+            "resumo": "A maior ilha do Dodecaneso, fortificada pelos Cavaleiros Hospitalários entre os séculos XIV e XVI — a Cidade Medieval murada é a mais bem preservada da Europa. Do Porto de Mandraki partem os passeios de barco para Lindos e para a vizinha Ilha de Symi, e a ilha inteira vive da sua posição estratégica no Mar Egeu."
+        },
+        {
             "id": "atlanta",
             "paisId": "us",
             "nome": "Atlanta",
@@ -6178,6 +6292,24 @@ const DB = {
         "atenas": [
             "acropole_plaka"
         ],
+        "santorini": [
+            "fira",
+            "oia",
+            "akrotiri",
+            "kamari_perissa"
+        ],
+        "mykonos": [
+            "chora",
+            "delos_ilha",
+            "praias_sul",
+            "ano_mera"
+        ],
+        "rodes": [
+            "cidade_medieval",
+            "lindos",
+            "mandraki_porto",
+            "faliraki"
+        ],
         "miami": [
             "south_beach",
             "downtown",
@@ -6788,6 +6920,60 @@ const DB = {
             "acropole_plaka": {
                 "lat": 37.9715,
                 "lon": 23.7257
+            }
+        },
+        "santorini": {
+            "fira": {
+                "lat": 36.4165,
+                "lon": 25.432
+            },
+            "oia": {
+                "lat": 36.4614,
+                "lon": 25.3753
+            },
+            "akrotiri": {
+                "lat": 36.3517,
+                "lon": 25.403
+            },
+            "kamari_perissa": {
+                "lat": 36.3766,
+                "lon": 25.487
+            }
+        },
+        "mykonos": {
+            "chora": {
+                "lat": 37.4467,
+                "lon": 25.3289
+            },
+            "delos_ilha": {
+                "lat": 37.3968,
+                "lon": 25.2714
+            },
+            "praias_sul": {
+                "lat": 37.4106,
+                "lon": 25.3684
+            },
+            "ano_mera": {
+                "lat": 37.4436,
+                "lon": 25.3814
+            }
+        },
+        "rodes": {
+            "cidade_medieval": {
+                "lat": 36.4423,
+                "lon": 28.2225
+            },
+            "lindos": {
+                "lat": 36.0917,
+                "lon": 28.0864
+            },
+            "mandraki_porto": {
+                "lat": 36.4467,
+                "lon": 28.2264
+            },
+            "faliraki": {
+                "lat": 36.3389,
+                "lon": 28.2003
             }
         },
         "miami": {
@@ -7439,6 +7625,38 @@ const DB = {
             "fonte": "Pesquisa de referência consolidada (en.wikipedia.org/wiki/Ankara_Esenboğa_Airport, world-airport-codes.com) — consultado em 2026-08-27"
         },
         {
+            "id": "ath",
+            "cidadeId": "atenas",
+            "codigo": "ATH",
+            "nome": "Aeroporto Internacional de Atenas — Eleftherios Venizelos",
+            "endereco": "Administration Building 17, GR-190 19 Spata, Atenas, Grécia",
+            "fonte": "athensairport.org — sítio oficial do Aeroporto Internacional de Atenas, consultado em 2026-08-27"
+        },
+        {
+            "id": "jtr",
+            "cidadeId": "santorini",
+            "codigo": "JTR",
+            "nome": "Aeroporto Internacional de Santorini",
+            "endereco": "Santorini Island, 84700, Monolithos, Grécia",
+            "fonte": "santoriniairport.com — sítio oficial do Aeroporto de Santorini, consultado via busca em 2026-09-02"
+        },
+        {
+            "id": "jmk",
+            "cidadeId": "mykonos",
+            "codigo": "JMK",
+            "nome": "Aeroporto de Mykonos",
+            "endereco": "Mykonos Island, 84600, Grécia",
+            "fonte": "Cobertura consolidada (en.wikipedia.org, aviontourism.com), consultado via busca em 2026-09-02"
+        },
+        {
+            "id": "rho",
+            "cidadeId": "rodes",
+            "codigo": "RHO",
+            "nome": "Aeroporto Internacional de Rodes — Diagoras",
+            "endereco": "Paradisi, 85106, Rodes, Grécia",
+            "fonte": "gtp.gr, aerodromio.com.gr — cobertura consolidada sobre o Aeroporto Diagoras, consultado via busca em 2026-09-02"
+        },
+        {
             "id": "mia",
             "cidadeId": "miami",
             "codigo": "MIA",
@@ -7485,14 +7703,6 @@ const DB = {
             "nome": "Aeroporto de Valência — Manises",
             "endereco": "Carretera del Aeropuerto, s/n, 46940 Manises, Valência, Espanha",
             "fonte": "Ficha de situação do aeroporto — Agencia Estatal de Seguridad Aérea (seguridadaerea.gob.es), consultado em 2026-08-27"
-        },
-        {
-            "id": "ath",
-            "cidadeId": "atenas",
-            "codigo": "ATH",
-            "nome": "Aeroporto Internacional de Atenas — Eleftherios Venizelos",
-            "endereco": "Administration Building 17, GR-190 19 Spata, Atenas, Grécia",
-            "fonte": "athensairport.org — sítio oficial do Aeroporto Internacional de Atenas, consultado em 2026-08-27"
         },
         {
             "id": "atl",
@@ -7617,6 +7827,51 @@ const DB = {
             "endereco": "2400 Aviation Dr, DFW Airport, TX 75261, EUA",
             "fonte": "dfwairport.com — sítio oficial do Dallas Fort Worth International Airport, consultado em 2026-08-28",
             "consultadoEm": "2026-08-28"
+        },
+        {
+            "id": "lim",
+            "codigo": "LIM",
+            "cidadeNome": "Lima",
+            "nome": "Aeroporto Internacional Jorge Chávez",
+            "endereco": "Av. Elmer Faucett, s/n, Callao, Peru",
+            "fonte": "lima-airport.com — sítio oficial do Aeroporto Jorge Chávez, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "bog",
+            "codigo": "BOG",
+            "cidadeNome": "Bogotá",
+            "nome": "Aeroporto Internacional El Dorado",
+            "endereco": "Avenida El Dorado, nº 103-09, Bogotá, Colômbia",
+            "fonte": "Cobertura consolidada (omio.com, thebogotaairport.com), consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "eze",
+            "codigo": "EZE",
+            "cidadeNome": "Buenos Aires",
+            "nome": "Aeroporto Internacional Ministro Pistarini (Ezeiza)",
+            "endereco": "Autopista Tte. Gral. Pablo Riccheri, km 33,5, B1802 Ezeiza, Buenos Aires, Argentina",
+            "fonte": "pt.wikipedia.org, ezeiza-airport.com — cobertura consolidada sobre o Aeroporto de Ezeiza, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "cun",
+            "codigo": "CUN",
+            "cidadeNome": "Cancún",
+            "nome": "Aeroporto Internacional de Cancún",
+            "endereco": "Carretera Mérida-Cancún km 22, 77565 Cancún, Quintana Roo, México",
+            "fonte": "en.wikipedia.org — cobertura consolidada sobre o Aeroporto Internacional de Cancún, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "scl",
+            "codigo": "SCL",
+            "cidadeNome": "Santiago (Chile)",
+            "nome": "Aeroporto Internacional Arturo Merino Benítez",
+            "endereco": "Armando Cortínez Ote. 1704, Pudahuel, Santiago, Chile",
+            "fonte": "pt.wikipedia.org, santiago-airport.com — cobertura consolidada sobre o Aeroporto Arturo Merino Benítez, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
         }
     ],
     "estacoes": [
@@ -8571,6 +8826,81 @@ const DB = {
             "obs": "Trecho aéreo doméstico direto (Azul, GOL e LATAM), cerca de 17 voos semanais só pela Azul — a ligação natural para combinar as duas capitais amazônicas em um mesmo roteiro. Preço não disponível sem provedor de tarifas.",
             "fonte": "flightconnections.com e agregadores de passagens (kayak.com.br, momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
             "categoria": "regional"
+        },
+        {
+            "de": "atenas",
+            "para": "santorini",
+            "modo": "barco",
+            "icone": "⛴️",
+            "duracao": 290,
+            "custoPP": [
+                60,
+                120
+            ],
+            "obs": "Ferry rápido (catamarã) a partir do Porto do Pireu (cerca de 40 min de Atenas central) — duração de referência de ~4h50 com a SeaJets; ferries convencionais (Blue Star Ferries, até 13 saídas semanais) levam cerca de 7h45. Alternativa mais rápida: voo Atenas–Santorini pela Aegean Airlines, ~50 min, múltiplas saídas diárias — mesmo preço aproximado do ferry em muitas datas.",
+            "fonte": "ferryhopper.com, santorinidave.com, directferries.com, blog.wego.com — cobertura consolidada sobre a rota Pireu–Santorini, consultado via busca em 2026-09-02",
+            "categoria": "ferry"
+        },
+        {
+            "de": "atenas",
+            "para": "mykonos",
+            "modo": "barco",
+            "icone": "⛴️",
+            "duracao": 165,
+            "custoPP": [
+                35,
+                90
+            ],
+            "obs": "Ferry rápido a partir do Porto do Pireu — cerca de 2h40 a 2h50 com a SeaJets (a mais rápida), até 3h20-4h em ferries mais lentos; 29 partidas semanais somando Blue Star Ferries e SeaJets. Alternativa: voo Atenas–Mykonos, ~45 min.",
+            "fonte": "ferryhopper.com, omio.com.br, grupodicas.com — cobertura consolidada sobre a rota Pireu–Mykonos, consultado via busca em 2026-09-02",
+            "categoria": "ferry"
+        },
+        {
+            "de": "atenas",
+            "para": "rodes",
+            "modo": "aviao",
+            "icone": "✈️",
+            "duracao": 65,
+            "custoPP": null,
+            "obs": "Voo direto pela Aegean Airlines ou Sky Express, cerca de 59 voos semanais somando as duas companhias — a opção prática, dada a distância. Alternativa por mar existe (Blue Star Ferries, 5x/semana a partir do Pireu), mas é uma travessia longa: 10h40 a 18h dependendo do navio, sem trecho de alta velocidade nesta rota.",
+            "fonte": "kayak.com, flightsfrom.com, ferryhopper.com, directferries.com — cobertura consolidada sobre as rotas Atenas–Rodes, consultado via busca em 2026-09-02",
+            "categoria": "regional"
+        },
+        {
+            "de": "santorini",
+            "para": "mykonos",
+            "modo": "barco",
+            "icone": "⛴️",
+            "duracao": 130,
+            "custoPP": [
+                43,
+                97
+            ],
+            "obs": "Ferry de alta velocidade (SeaJets), cerca de 2h10 no trajeto mais rápido; ferries mais lentos (Golden Star Ferries, com espaço para veículo) levam entre 1h50 e 3h20 dependendo da rota e escalas. Rota clássica de 'island hopping' pelas Cíclades, com conexões adicionais para Naxos, Paros, Milos e Tinos a partir de qualquer uma das duas ilhas.",
+            "fonte": "ferryhopper.com, ferryscanner.com, planetaeuropa.com — cobertura consolidada sobre a rota Santorini–Mykonos, consultado via busca em 2026-09-02",
+            "categoria": "ferry"
+        },
+        {
+            "de": "santorini",
+            "para": "rodes",
+            "modo": "aviao",
+            "icone": "✈️",
+            "duracao": 55,
+            "custoPP": null,
+            "obs": "Aegean Airlines opera apenas 1 voo direto por semana nesta rota — frequência baixa demais para depender dela num roteiro fechado; a alternativa prática e mais confiável é conectar via Atenas (voo Santorini–Atenas + Atenas–Rodes). Por mar, a travessia direta existe (Blue Star Ferries), mas é uma viagem longa, de 10h45 a 24h dependendo do navio — praticamente inviável como deslocamento único dentro de um roteiro de poucos dias.",
+            "fonte": "flightsfrom.com, ferryhopper.com, directferries.com, greecelogue.com — cobertura consolidada sobre as rotas Santorini–Rodes, consultado via busca em 2026-09-02",
+            "categoria": "regional"
+        },
+        {
+            "de": "mykonos",
+            "para": "rodes",
+            "modo": "aviao",
+            "icone": "✈️",
+            "duracao": 55,
+            "custoPP": null,
+            "obs": "AUSÊNCIA CONFIRMADA DE DADO CONFIÁVEL: fontes consultadas se contradizem sobre a existência de voo direto sem escala nesta rota — algumas indicam frequência direta pela Aegean, outras afirmam que só há voos com conexão (geralmente via Atenas) operados pela SKY express. A duração de 55 min é a de um eventual trecho direto, não confirmada com precisão. Antes de fechar um roteiro com este trecho, verifique diretamente no site da companhia — não há dado desta base em que confiar cegamente aqui.",
+            "fonte": "rome2rio.com, kiwi.com, skyexpress.gr — cobertura consolidada e contraditória sobre a rota Mykonos–Rodes, consultado via busca em 2026-09-02",
+            "categoria": "regional"
         }
     ],
     "voos": [
@@ -8964,16 +9294,16 @@ const DB = {
                 "Sky Express"
             ],
             "duracaoMin": 235,
-            "frequencia": "Aegean: 11 voos semanais; TAP: 5 voos semanais; Sky Express: 3 voos semanais — cerca de 1 voo direto por dia no total",
+            "frequencia": "14 voos semanais somando as três companhias (junho de 2026) — cerca de 2 voos diretos por dia no total. TAP: 5 voos semanais (quarta a domingo), com ligação direta entre as duas capitais retomada em 01/07/2026, disponível o ano todo.",
             "custoPP": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
                 "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.",
-                "consultadoEm": "2026-08-27"
+                "consultadoEm": "2026-09-02"
             },
-            "obs": null,
-            "fonte": "Agregadores de voos (omio.com.br, kayak.com, flightconnections.com)",
-            "consultadoEm": "2026-08-27"
+            "obs": "TAP — ida: Lisboa 21h30 (quarta a domingo) → Atenas 03h40 do dia seguinte, horário local; duração porta a porta de cerca de 3h55. Volta: Atenas 04h40 (segunda, quinta, sexta, sábado e domingo) → Lisboa 07h15, horário local; a volta é ligeiramente mais longa que a ida, cerca de 4h32, por causa dos ventos predominantes no Mediterrâneo. Aegean Airlines e Sky Express também operam a rota sem escala, com frequência combinada maior que a da TAP.",
+            "fonte": "deferias.pt (relançamento da rota TAP em 01/07/2026), flightconnections.com, kayak.com, skyscanner.com — cobertura consolidada sobre a rota Lisboa–Atenas, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
         },
         {
             "id": "voo_gru_mia",
@@ -9400,6 +9730,148 @@ const DB = {
             },
             "obs": "Rota direta operada por GOL e LATAM, duração média de cerca de 3h25. Passageiros da Azul costumam fazer conexão via Belém (BEL), já que a companhia não opera este trecho sem escala — por isso é comum encontrar ofertas com escala nesta rota, mesmo havendo voo direto de outras companhias.",
             "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Manaus) e agregadores de passagens (momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_lis",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "lis",
+            "paisId": "pt",
+            "companhias": [
+                "TAP Portugal"
+            ],
+            "duracaoMin": 550,
+            "frequencia": "7 voos semanais (praticamente diário) na ida, conforme malha de agosto de 2026 — TAP Portugal é a única companhia a operar este trecho sem escala; a LATAM vende a rota apenas com conexão (geralmente via São Paulo/GRU)",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Único voo direto de Brasília para a Europa continental. Ida (TP058): parte de Brasília (BSB) às 17h10, horário local (UTC-3), e chega a Lisboa (LIS) às 05h40–06h40 do dia seguinte, horário local (UTC+0/+1 conforme horário de verão europeu) — duração média de 9h10. Volta (TP057): parte de Lisboa às 09h50 e chega a Brasília às 15h53, horário local — duração ligeiramente menor que a ida por causa dos ventos de proa/cauda no Atlântico. Equipamento Airbus A330-900neo (298 lugares), o mesmo usado em ~95% das operações desta rota. Horários específicos de cada voo variam por data — confirme sempre no momento da compra.",
+            "fonte": "flytap.com (sítio oficial TAP), momondo.pt, flightconnections.com — malha e horários da rota BSB–LIS; trip.com, flightera.net, airportia.com, flightaware.com — rastreamento dos voos TP057/TP058; bsb.aero — nota oficial do Aeroporto de Brasília sobre o aumento de frequência da TAP, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_pty",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "pty",
+            "paisId": null,
+            "companhias": [
+                "Copa Airlines"
+            ],
+            "duracaoMin": 360,
+            "frequencia": "Diária (voo único por dia) — única companhia nesta rota",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe sem voo direto de Brasília — a pernada PTY→destino final não está cadastrada nesta base.",
+            "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_lim",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "lim",
+            "paisId": null,
+            "companhias": [
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 290,
+            "frequencia": "2 voos semanais (agosto de 2026) — única companhia nesta rota",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Partida de Brasília por volta das 9h, chegada a Lima por volta das 11h50, horário local — cerca de 4h50 de voo.",
+            "fonte": "eoob.com.br, emsampa.com.br, flightconnections.com — cobertura consolidada sobre a rota LATAM Brasília–Lima, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_bog",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "bog",
+            "paisId": null,
+            "companhias": [
+                "GOL Linhas Aéreas",
+                "Avianca"
+            ],
+            "duracaoMin": 327,
+            "frequencia": "GOL: 3 voos semanais (segunda, quarta e domingo, desde 30/03/2025) — voo G3 8242 na ida, G3 8243 na volta. Avianca também opera a rota; frequência específica não confirmada nesta pesquisa. Cerca de 7 voos semanais somando as duas companhias (junho de 2026).",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "GOL — ida (G3 8242): Brasília 08h50 → Bogotá 12h22, horário local. Volta (G3 8243): Bogotá 22h55 → Brasília 06h25 do dia seguinte, horário local. Duração média de 5h27.",
+            "fonte": "panrotas.com.br, melhoresdestinos.com.br, passageirodeprimeira.com, bsb.aero — cobertura consolidada sobre a rota Brasília–Bogotá, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_eze",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "eze",
+            "paisId": null,
+            "companhias": [
+                "GOL Linhas Aéreas",
+                "Aerolíneas Argentinas"
+            ],
+            "duracaoMin": 240,
+            "frequencia": "GOL: diária, com voos também às terças, quartas, sextas, sábados e domingos citados especificamente em cobertura de maio de 2026. Aerolíneas Argentinas: 2 voos semanais (terças e domingos).",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "GOL — ida: Brasília 08h40 → Buenos Aires 12h30, horário local, cerca de 4h de voo. Aerolíneas Argentinas opera para o Aeroporto Jorge Newbery/Aeroparque (não Ezeiza) às terças (08h40) e domingos (21h30) — GOL também alterna entre Aeroparque e Ezeiza conforme o mês. Equipamento Boeing 737, configuração internacional de 176 lugares.",
+            "fonte": "passageirodeprimeira.com, dicasdacapital.com.br, bsb.aero — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_cun",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "cun",
+            "paisId": null,
+            "companhias": [
+                "GOL Linhas Aéreas"
+            ],
+            "duracaoMin": 420,
+            "frequencia": "SAZONAL — 3 voos semanais, retomados a partir de 20/06/2026 após suspensão na baixa temporada do primeiro semestre de 2026. Única companhia nesta rota.",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Rota historicamente instável — já foi suspensa e retomada mais de uma vez. Equipamento Boeing 737 MAX, configuração de classe única (176–186 lugares). Confirme a vigência diretamente com a GOL antes de comprar, especialmente fora do período de alta temporada (dezembro a agosto).",
+            "fonte": "aeroin.net, catracalivre.com.br, bsb.aero, aerocopilot.ia.br — cobertura consolidada sobre a retomada da rota Brasília–Cancún, consultado via busca em 2026-09-02",
+            "consultadoEm": "2026-09-02"
+        },
+        {
+            "id": "voo_bsb_scl",
+            "origemAeroporto": "bsb",
+            "destinoAeroporto": "scl",
+            "paisId": null,
+            "companhias": [
+                "LATAM Airlines"
+            ],
+            "duracaoMin": 300,
+            "frequencia": "3 voos semanais o ano todo (terças, quintas e sábados); vira diária entre 15/06 e 16/08/2026 (alta temporada de inverno no Hemisfério Sul). Única companhia nesta rota.",
+            "custoPP": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.",
+                "consultadoEm": "2026-09-02"
+            },
+            "obs": "Ida: Brasília 08h50 → Santiago 13h50, horário local. Volta: Santiago 13h40 → Brasília 18h40, horário local. Equipamento Airbus A320/A321 (174–220 lugares). A LATAM sinalizou possibilidade de tornar a operação diária permanente a partir do verão 2027, condicionada à ocupação da alta temporada de 2026.",
+            "fonte": "mercadoeeventos.com.br, tribunadepoa.com.br, passageirodeprimeira.com, bsb.aero — cobertura consolidada sobre a rota LATAM Brasília–Santiago, consultado via busca em 2026-09-02",
             "consultadoEm": "2026-09-02"
         }
     ],
@@ -21445,6 +21917,1039 @@ const DB = {
             "reserva": false
         },
         {
+            "id": "atenas_acropole",
+            "cidadeId": "atenas",
+            "nome": "Acrópole e Partenon",
+            "zona": "acropole_plaka",
+            "cat": [
+                "historia",
+                "arquitetura",
+                "cultura",
+                "fotografia"
+            ],
+            "prio": 96,
+            "dur": 150,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Acropolis Hill, Atenas 105 58, Grécia",
+            "horario": {
+                "valor": "Verão (1/4–31/10): 8h–20h, última entrada 19h30. Inverno (1/11–31/3): 8h–17h, última entrada 16h30.",
+                "tipo": "CADASTRADO",
+                "fonte": "Bilheteria oficial da Acrópole (athensacropolis.gr / páginas de turismo oficiais de Atenas)",
+                "consultadoEm": "2026-08-27"
+            },
+            "custo": {
+                "valor": 20,
+                "tipo": "CADASTRADO",
+                "fonte": "Bilheteria oficial da Acrópole — tarifa cheia de abril a outubro (€ 10 de novembro a março)",
+                "consultadoEm": "2026-08-27"
+            },
+            "oficial": null,
+            "desc": "O Partenon e o platô da Acrópole, símbolo da Atenas clássica — reserve entrada com horário marcado, a fila cresce rápido no meio da manhã."
+        },
+        {
+            "id": "atenas_agora_antiga",
+            "cidadeId": "atenas",
+            "nome": "Ágora Antiga",
+            "zona": "acropole_plaka",
+            "cat": [
+                "historia",
+                "arquitetura",
+                "cultura"
+            ],
+            "prio": 80,
+            "dur": 90,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Entrada por Adrianou, próximo à estação de metrô Thissio, Atenas, Grécia",
+            "horario": {
+                "valor": "Verão (1/4–31/10): 8h–20h. Horário reduzido no inverno.",
+                "tipo": "CADASTRADO",
+                "fonte": "Páginas oficiais de turismo de Atenas / Ministério da Cultura da Grécia",
+                "consultadoEm": "2026-08-27"
+            },
+            "custo": {
+                "valor": 20,
+                "tipo": "CADASTRADO",
+                "fonte": "Bilheteria oficial — inclui o Museu da Ágora na Stoa de Átalos",
+                "consultadoEm": "2026-08-27"
+            },
+            "oficial": null,
+            "desc": "Praça pública da Atenas clássica, onde Sócrates ensinava — a Stoa de Átalos reconstruída abriga o museu do sítio."
+        },
+        {
+            "id": "atenas_areopago",
+            "cidadeId": "atenas",
+            "nome": "Areópago (Colina de Marte)",
+            "zona": "acropole_plaka",
+            "cat": [
+                "religiao",
+                "historia",
+                "fotografia"
+            ],
+            "prio": 85,
+            "dur": 30,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Areios Pagos, junto à entrada da Acrópole, Atenas, Grécia",
+            "horario": {
+                "valor": "Acesso livre, 24 horas, todos os dias — sítio ao ar livre sem bilheteria.",
+                "tipo": "CADASTRADO",
+                "fonte": "Guias oficiais de turismo de Atenas",
+                "consultadoEm": "2026-08-27"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso público gratuito",
+                "consultadoEm": "2026-08-27"
+            },
+            "oficial": null,
+            "desc": "Rocha onde o apóstolo Paulo pregou aos atenienses o \"Deus desconhecido\" (Atos 17) — pedra escorregadia, use calçado com boa aderência."
+        },
+        {
+            "id": "atenas_museu_arqueologico",
+            "cidadeId": "atenas",
+            "nome": "Museu Arqueológico Nacional",
+            "zona": "acropole_plaka",
+            "cat": [
+                "museus",
+                "historia",
+                "cultura"
+            ],
+            "prio": 75,
+            "dur": 120,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "44 Rua 28 de Outubro (Patission), Atenas 106 82, Grécia",
+            "horario": {
+                "valor": "Alta temporada (mai–nov): quarta a segunda 8h–20h, terça 13h–20h. Baixa temporada (nov–mar): segunda 13h–17h, terça a domingo 8h30–16h.",
+                "tipo": "CADASTRADO",
+                "fonte": "namuseum.gr — sítio oficial do Museu Arqueológico Nacional de Atenas",
+                "consultadoEm": "2026-08-27"
+            },
+            "custo": {
+                "valor": 12,
+                "tipo": "CADASTRADO",
+                "fonte": "namuseum.gr — tarifa cheia de abril a outubro (€ 6 de novembro a março; gratuito para cidadãos da UE até 25 anos)",
+                "consultadoEm": "2026-08-27"
+            },
+            "oficial": "https://www.namuseum.gr/en/",
+            "desc": "O maior acervo arqueológico da Grécia — máscara de Agamêmnon e o mecanismo de Antikythera entre as peças mais conhecidas."
+        },
+        {
+            "id": "atenas_plaka",
+            "cidadeId": "atenas",
+            "nome": "Bairro de Plaka",
+            "zona": "acropole_plaka",
+            "cat": [
+                "cultura",
+                "gastronomia",
+                "compras",
+                "fotografia"
+            ],
+            "prio": 70,
+            "dur": 90,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Plaka, aos pés da Acrópole, Atenas, Grécia",
+            "horario": {
+                "valor": "Bairro aberto 24 horas — ruas de pedestres, sem horário de funcionamento.",
+                "tipo": "CADASTRADO",
+                "fonte": "Guias oficiais de turismo de Atenas",
+                "consultadoEm": "2026-08-27"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Passeio de acesso livre pelas ruas históricas",
+                "consultadoEm": "2026-08-27"
+            },
+            "oficial": null,
+            "desc": "O bairro mais antigo de Atenas, com mais de 3 mil anos de ocupação contínua — ruas de pedestres, arquitetura neoclássica e vista para a Acrópole."
+        },
+        {
+            "id": "san_oia",
+            "cidadeId": "santorini",
+            "nome": "Oia",
+            "zona": "oia",
+            "cat": [
+                "fotografia",
+                "romantico",
+                "compras",
+                "arquitetura"
+            ],
+            "prio": 96,
+            "dur": 120,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Oia, 84702, Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo; o pôr do sol junto ao Castelo de Santo Nicolau é o horário mais concorrido",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (penaestrada.blog.br, queroviajarmais.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre — vila aberta, sem bilhete de entrada",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Vila mais fotografada da Grécia, com casas brancas cúbicas e igrejas de cúpula azul empilhadas sobre a caldeira — o pôr do sol visto do Castelo de Santo Nicolau atrai multidões diariamente na alta temporada."
+        },
+        {
+            "id": "san_fira",
+            "cidadeId": "santorini",
+            "nome": "Fira",
+            "zona": "fira",
+            "cat": [
+                "fotografia",
+                "compras",
+                "gastronomia",
+                "arquitetura"
+            ],
+            "prio": 85,
+            "dur": 90,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Fira, 84700, Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre — capital da ilha, sem bilhete de entrada",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Capital de Santorini, à beira da caldeira — ruas estreitas com lojas, restaurantes e hotéis debruçados sobre o penhasco, e o Porto Antigo de Fira logo abaixo, ponto de partida dos passeios de barco pela caldeira."
+        },
+        {
+            "id": "san_caldera_boat_cruise",
+            "cidadeId": "santorini",
+            "nome": "Passeio de barco pela Caldeira — vulcões Nea Kameni e Palea Kameni",
+            "zona": "fira",
+            "cat": [
+                "natureza",
+                "aventura",
+                "fotografia"
+            ],
+            "prio": 92,
+            "dur": 360,
+            "acessoMar": true,
+            "comidaLocal": true,
+            "interior": false,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Embarque no Porto Antigo de Fira (Fira Skala), acessível a pé, de teleférico ou a lombo de burro desde Fira",
+            "horario": {
+                "valor": "Alta temporada, duas saídas diárias do Porto Antigo de Fira: 11h e 14h30",
+                "tipo": "CADASTRADO",
+                "fonte": "santorinika.com — cobertura consolidada sobre o passeio de barco à caldeira, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Preço varia por operador e pacote (com ou sem almoço a bordo) — verifique diretamente com a operadora",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Passeio clássico pela caldeira vulcânica que forma a baía de Santorini: caminhada até a cratera ativa de Nea Kameni, banho nas águas alaranjadas das fontes termais sulfurosas de Palea Kameni e parada na ilha de Thirasia, geralmente com tempo livre para almoço. A própria geografia de Santorini — uma cratera afundada e inundada pelo mar — só se revela de verdade vista da água."
+        },
+        {
+            "id": "san_akrotiri",
+            "cidadeId": "santorini",
+            "nome": "Sítio Arqueológico de Akrotiri",
+            "zona": "akrotiri",
+            "cat": [
+                "historia",
+                "museus",
+                "cultura"
+            ],
+            "prio": 80,
+            "dur": 90,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Akrotiri, 84700, Santorini, Grécia",
+            "horario": {
+                "valor": "Novembro a março: terça a domingo, das 8h às 15h. Abril a outubro: sexta a quarta, das 8h às 20h; quintas, das 8h às 15h",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (penaestrada.blog.br), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no local ou site do Ministério da Cultura grego",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Cidade minoica soterrada pela erupção vulcânica de cerca de 1600 a.C. — preservada sob cinzas de forma comparável a Pompeia, com ruas, casas de dois andares e afrescos remanescentes cobertos por uma estrutura moderna."
+        },
+        {
+            "id": "san_red_beach",
+            "cidadeId": "santorini",
+            "nome": "Praia Vermelha (Red Beach)",
+            "zona": "akrotiri",
+            "cat": [
+                "praias",
+                "natureza",
+                "fotografia"
+            ],
+            "prio": 75,
+            "dur": 90,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Próximo ao sítio arqueológico de Akrotiri, Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre durante o dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à praia",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Praia cercada por falésias vermelhas e negras de origem vulcânica, uma das paisagens mais fotografadas da ilha — além do acesso por trilha curta a partir de Akrotiri, é parada comum de excursões de barco pela costa sul."
+        },
+        {
+            "id": "san_ammoudi_bay",
+            "cidadeId": "santorini",
+            "nome": "Baía de Ammoudi",
+            "zona": "oia",
+            "cat": [
+                "natureza",
+                "gastronomia",
+                "fotografia"
+            ],
+            "prio": 78,
+            "dur": 90,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Ammoudi, abaixo de Oia (acesso por escadaria de cerca de 220 degraus ou por estrada), Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre ao pequeno porto",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Pequeno porto de pescadores logo abaixo de Oia, com tavernas de peixe fresco à beira d'água e barcos coloridos ancorados junto às falésias vermelhas — ponto de partida de passeios de barco menores ao longo da costa da caldeira."
+        },
+        {
+            "id": "san_skaros_rock",
+            "cidadeId": "santorini",
+            "nome": "Rocha de Skaros (Imerovigli)",
+            "zona": "oia",
+            "cat": [
+                "natureza",
+                "fotografia",
+                "aventura"
+            ],
+            "prio": 65,
+            "dur": 60,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 6,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Imerovigli, entre Fira e Oia, Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre durante o dia — trilha sem iluminação, não recomendada à noite",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à trilha",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Antigo promontório fortificado em Imerovigli, entre Fira e Oia — restam apenas as fundações do castelo medieval, mas o mirante sobre a caldeira é considerado um dos melhores da ilha, com menos multidão que Oia."
+        },
+        {
+            "id": "san_caminho_fira_oia",
+            "cidadeId": "santorini",
+            "nome": "Trilha da Caldeira — Fira a Oia",
+            "zona": "fira",
+            "cat": [
+                "aventura",
+                "natureza",
+                "fotografia"
+            ],
+            "prio": 70,
+            "dur": 210,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 10,
+            "juvenil": true,
+            "familia": false,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Trilha entre Fira e Oia, passando por Imerovigli e Firostefani, Santorini, Grécia",
+            "horario": {
+                "valor": "Melhor percorrida pela manhã ou fim de tarde, para evitar o calor do meio-dia — cerca de 3 a 4 horas de caminhada",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Trilha pública, sem custo",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Caminho de cerca de 10 km à beira do penhasco, ligando Fira a Oia pela borda da caldeira — passa por Firostefani e Imerovigli, com vista contínua para o mar e os vulcões no centro da baía."
+        },
+        {
+            "id": "san_kamari_beach",
+            "cidadeId": "santorini",
+            "nome": "Praia de Kamari",
+            "zona": "kamari_perissa",
+            "cat": [
+                "praias",
+                "familia",
+                "descanso"
+            ],
+            "prio": 60,
+            "dur": 120,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Kamari, Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo; quiosques e bares de praia funcionam principalmente durante o dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à praia pública",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Praia de areia e seixos negros vulcânicos, a mais estruturada da ilha para banho — calçadão com bares, restaurantes e espreguiçadeiras, aos pés do Monte Mesa Vouno."
+        },
+        {
+            "id": "myk_delos",
+            "cidadeId": "mykonos",
+            "nome": "Ilha de Delos",
+            "zona": "delos_ilha",
+            "cat": [
+                "historia",
+                "cultura",
+                "museus"
+            ],
+            "prio": 95,
+            "dur": 240,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": true,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Ilha de Delos, acessível apenas de barco a partir do Porto Antigo de Mykonos (Chora)",
+            "horario": {
+                "valor": "Abril a outubro, diariamente das 8h às 20h; fecha às segundas o ano todo; fora dessa janela, funcionamento reduzido",
+                "tipo": "CADASTRADO",
+                "fonte": "archaeology-travel.com — cobertura consolidada sobre o sítio arqueológico de Delos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 20,
+                "tipo": "CADASTRADO",
+                "fonte": "getyourguide.com, archaeology-travel.com — ingresso ao sítio arqueológico, sem incluir a passagem de barco (cerca de €25 ida e volta, à parte)",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Segundo a mitologia, terra natal de Apolo e Ártemis — ilha sagrada da Grécia Antiga, hoje Patrimônio Mundial da UNESCO e um dos sítios arqueológicos mais importantes do Mediterrâneo, com o Terraço dos Leões, o Santuário de Apolo e um museu arqueológico. É inteiramente desabitada e só se chega de barco, partindo do Porto Antigo de Mykonos — não há aeroporto nem porto para grandes navios na própria ilha."
+        },
+        {
+            "id": "myk_little_venice",
+            "cidadeId": "mykonos",
+            "nome": "Pequena Veneza (Little Venice)",
+            "zona": "chora",
+            "cat": [
+                "fotografia",
+                "romantico",
+                "gastronomia"
+            ],
+            "prio": 88,
+            "dur": 60,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Bairro de Alefkandra, Chora, Mykonos, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo; bares e restaurantes funcionam sobretudo ao entardecer",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (360meridianos.com, penaestrada.blog.br), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre ao bairro",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Bairro de casas antigas erguidas literalmente sobre a água, com sacadas de madeira coloridas debruçadas sobre o mar — um dos ângulos mais fotografados da ilha, especialmente ao pôr do sol."
+        },
+        {
+            "id": "myk_moinhos",
+            "cidadeId": "mykonos",
+            "nome": "Moinhos de Kato Mili",
+            "zona": "chora",
+            "cat": [
+                "fotografia",
+                "historia",
+                "cultura"
+            ],
+            "prio": 82,
+            "dur": 45,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Kato Mili, Chora, Mykonos, Grécia",
+            "horario": {
+                "valor": "Vista externa livre o dia todo; os moinhos que abrigam museus têm horário próprio, variável por temporada",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (360meridianos.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Vista externa gratuita; museus internos, quando abertos, cobram entrada à parte",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Fileira de moinhos de vento do século XVI, erguidos para aproveitar os ventos fortes (meltemi) da ilha na moagem de trigo — o cartão-postal mais reconhecível de Mykonos, com vista para o mar e a Pequena Veneza."
+        },
+        {
+            "id": "myk_paraportiani",
+            "cidadeId": "mykonos",
+            "nome": "Igreja de Panagia Paraportiani",
+            "zona": "chora",
+            "cat": [
+                "religiao",
+                "arquitetura",
+                "fotografia"
+            ],
+            "prio": 65,
+            "dur": 30,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Chora, Mykonos, Grécia, próximo ao Kastro",
+            "horario": {
+                "valor": "Acesso livre ao exterior; horário de missas variável",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Conjunto de cinco capelas fundidas numa só estrutura branca e assimétrica, erguido ao longo de séculos no bairro do antigo Kastro veneziano — um dos monumentos religiosos mais fotografados das Cíclades."
+        },
+        {
+            "id": "myk_paradise_beach",
+            "cidadeId": "mykonos",
+            "nome": "Praia de Paradise e Super Paradise",
+            "zona": "praias_sul",
+            "cat": [
+                "praias",
+                "aventura",
+                "juvenil"
+            ],
+            "prio": 80,
+            "dur": 180,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Litoral sul de Mykonos, acessível por estrada ou por barco-táxi a partir de Platis Gialos",
+            "horario": {
+                "valor": "Acesso livre durante o dia; beach clubs funcionam sobretudo à tarde",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (dicasdeviagem.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à praia pública; espreguiçadeiras e beach clubs cobrados à parte",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "As praias mais badaladas do litoral sul, com beach clubs, música e vida noturna diurna — o trajeto clássico entre as praias do sul (Ornos, Platis Gialos, Paradise, Super Paradise) costuma ser feito de barco-táxi, ligando a orla pelo mar."
+        },
+        {
+            "id": "myk_rhenia",
+            "cidadeId": "mykonos",
+            "nome": "Ilha de Rhenia",
+            "zona": "delos_ilha",
+            "cat": [
+                "natureza",
+                "aventura",
+                "praias"
+            ],
+            "prio": 60,
+            "dur": 180,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Ilha de Rhenia, ao lado de Delos, acessível apenas de barco a partir de Mykonos",
+            "horario": {
+                "valor": "Depende do operador do passeio de barco — sem horário fixo de funcionamento, já que a ilha é desabitada",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre passeios de barco a partir de Mykonos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Preço do passeio de barco varia por operador — verifique diretamente",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Ilha desabitada bem em frente a Delos, com praias de areia branca e águas claras raramente cheias — muitos passeios de barco combinam Delos pela manhã com um banho de mar em Rhenia à tarde."
+        },
+        {
+            "id": "myk_ano_mera",
+            "cidadeId": "mykonos",
+            "nome": "Ano Mera e Mosteiro de Panagia Tourliani",
+            "zona": "ano_mera",
+            "cat": [
+                "religiao",
+                "cultura",
+                "historia"
+            ],
+            "prio": 55,
+            "dur": 90,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Ano Mera, Mykonos, Grécia",
+            "horario": {
+                "valor": "Acesso livre ao vilarejo; mosteiro aberto durante o dia, fora dos horários de culto",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem (360meridianos.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Entrada livre ao vilarejo e ao mosteiro",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Segundo maior povoado da ilha, no interior — mantém o ritmo de vida tradicional das Cíclades, longe do circuito turístico de Chora, em torno do Mosteiro de Panagia Tourliani, do século XVI."
+        },
+        {
+            "id": "rod_palacio_grao_mestre",
+            "cidadeId": "rodes",
+            "nome": "Palácio do Grão-Mestre dos Cavaleiros",
+            "zona": "cidade_medieval",
+            "cat": [
+                "historia",
+                "arquitetura",
+                "museus"
+            ],
+            "prio": 92,
+            "dur": 90,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "terca"
+            ],
+            "endereco": "Ippoton St, Cidade Medieval de Rodes, 85100, Grécia",
+            "horario": {
+                "valor": "Abril–agosto, diariamente das 8h às 20h (última entrada 19h30); setembro–outubro, fechamento gradual das 19h30 até 18h; novembro–março, quarta a segunda, das 8h30 às 15h30 (terça fechado)",
+                "tipo": "CADASTRADO",
+                "fonte": "grandmasterpalacerhodes.gr — cobertura consolidada sobre horários do Palácio do Grão-Mestre, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 20,
+                "tipo": "CADASTRADO",
+                "fonte": "grandmasterpalacerhodes.gr — tarifa em vigor desde a reforma de 01/04/2025; gratuito para menores de 6 anos e cidadãos da UE até 25 anos com identificação",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": "https://grandmasterpalacerhodes.gr/",
+            "desc": "Fortaleza retangular de 75 por 80 metros no topo da Cidade Medieval, sede dos Grão-Mestres da Ordem dos Cavaleiros Hospitalários entre os séculos XIV e XVI — o monumento mais significativo da história medieval de Rodes, com fossos, muralhas ameadas e torres."
+        },
+        {
+            "id": "rod_rua_cavaleiros",
+            "cidadeId": "rodes",
+            "nome": "Rua dos Cavaleiros (Ippoton)",
+            "zona": "cidade_medieval",
+            "cat": [
+                "historia",
+                "arquitetura",
+                "fotografia"
+            ],
+            "prio": 85,
+            "dur": 45,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Odos Ippoton, Cidade Medieval de Rodes, 85100, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo — rua pública",
+                "tipo": "CADASTRADO",
+                "fonte": "monitordomercado.com.br — cobertura consolidada sobre a Rua dos Cavaleiros, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Rua pública, sem bilhete de entrada",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Considerada a rua medieval mais bem preservada da Europa — liga o antigo porto (junto ao Hospital dos Cavaleiros, hoje Museu Arqueológico) ao Palácio do Grão-Mestre, com 600 metros de fachadas de pedra de 1309 praticamente intactas."
+        },
+        {
+            "id": "rod_lindos_barco",
+            "cidadeId": "rodes",
+            "nome": "Excursão de barco a Lindos e sua Acrópole",
+            "zona": "mandraki_porto",
+            "cat": [
+                "historia",
+                "aventura",
+                "fotografia"
+            ],
+            "prio": 90,
+            "dur": 450,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Embarque no Porto de Mandraki, Cidade de Rodes, Grécia",
+            "horario": {
+                "valor": "Check-in geralmente entre 8h10 e 8h20; cerca de 2h de navegação pela costa leste até Lindos, com 3h30 de estadia antes do retorno",
+                "tipo": "CADASTRADO",
+                "fonte": "hellotickets.com, sunbonoo.com — cobertura consolidada sobre o passeio de barco Rodes–Lindos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Preço da excursão varia por operador; o ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Cruzeiro pela costa leste de Rodes até a vila de Lindos, dominada por sua acrópole sobre um penhasco de 116 metros à beira-mar — tempo livre para subir à acrópole, passear pelas ruelas brancas ou nadar na praia de areia da vila. Alternativa mais cênica ao acesso por estrada."
+        },
+        {
+            "id": "rod_symi_barco",
+            "cidadeId": "rodes",
+            "nome": "Excursão de barco à Ilha de Symi",
+            "zona": "mandraki_porto",
+            "cat": [
+                "natureza",
+                "aventura",
+                "praias"
+            ],
+            "prio": 82,
+            "dur": 420,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": true,
+            "fechado": [],
+            "endereco": "Embarque no Porto de Mandraki, Cidade de Rodes, Grécia",
+            "horario": {
+                "valor": "Barcos rápidos partem por volta das 11h, com cerca de 1h de travessia; passeios regulares somam parada para banho na Baía de São Jorge antes de Symi, com cerca de 3h livres na ilha",
+                "tipo": "CADASTRADO",
+                "fonte": "hellotickets.com — cobertura consolidada sobre o passeio de barco Rodes–Symi, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": null,
+                "tipo": "INDISPONIVEL",
+                "fonte": "Preço da excursão varia por operador — verifique diretamente",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Ilha vizinha do Dodecaneso, a menos de duas horas de barco de Rodes, famosa pelas casas neoclássicas coloridas empilhadas ao redor do porto de Yialos — excursão de dia inteiro com parada para banho em baías desertas no caminho."
+        },
+        {
+            "id": "rod_anthony_quinn_bay",
+            "cidadeId": "rodes",
+            "nome": "Baía de Anthony Quinn (Vagia)",
+            "zona": "faliraki",
+            "cat": [
+                "praias",
+                "natureza",
+                "fotografia"
+            ],
+            "prio": 70,
+            "dur": 90,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Vagia, próximo a Faliraki, Rodes, Grécia",
+            "horario": {
+                "valor": "Acesso livre durante o dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre a costa leste de Rodes, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à enseada",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Pequena enseada de águas cristalinas cercada por rochas, batizada em homenagem ao ator Anthony Quinn, que comprou a área durante as filmagens de 'Os Canhões de Navarone' — águas calmas e profundas, populares para snorkel e mergulho de rochas."
+        },
+        {
+            "id": "rod_faliraki_beach",
+            "cidadeId": "rodes",
+            "nome": "Praia de Faliraki",
+            "zona": "faliraki",
+            "cat": [
+                "praias",
+                "familia",
+                "esportes"
+            ],
+            "prio": 60,
+            "dur": 150,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Faliraki, Rodes, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo; esportes aquáticos funcionam principalmente durante o dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à praia pública",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "A praia mais estruturada e movimentada de Rodes, com quilômetros de areia, ampla oferta de esportes aquáticos e infraestrutura para famílias — base turística mais badalada da ilha fora da Cidade Medieval."
+        },
+        {
+            "id": "rod_mandraki_porto",
+            "cidadeId": "rodes",
+            "nome": "Porto de Mandraki",
+            "zona": "mandraki_porto",
+            "cat": [
+                "historia",
+                "fotografia"
+            ],
+            "prio": 65,
+            "dur": 45,
+            "acessoMar": true,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Mandraki, Cidade de Rodes, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre ao porto",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Porto histórico da Cidade de Rodes, ladeado por três moinhos de vento e pela entrada guardada por estátuas de veados — tradicionalmente apontado como o local onde teria se erguido o Colosso de Rodes, uma das Sete Maravilhas do Mundo Antigo. Ponto de partida de todos os passeios de barco da ilha, incluindo Lindos e Symi."
+        },
+        {
+            "id": "rod_epta_piges",
+            "cidadeId": "rodes",
+            "nome": "Sete Nascentes (Epta Piges)",
+            "zona": "faliraki",
+            "cat": [
+                "natureza",
+                "aventura",
+                "familia"
+            ],
+            "prio": 58,
+            "dur": 90,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Epta Piges, Rodes, Grécia (interior da ilha, próximo a Kolymbia)",
+            "horario": {
+                "valor": "Acesso livre durante o dia",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à área natural",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Floresta com riacho e um pequeno lago artificial formado pela junção de sete nascentes — trilha sombreada até o túnel estreito (cerca de 186 metros, parcialmente na água) que leva à represa, contraste refrescante com as praias da ilha."
+        },
+        {
             "id": "napoli_duomo",
             "cidadeId": "napoli",
             "nome": "Duomo di Napoli (Catedral de São Januário)",
@@ -22215,183 +23720,6 @@ const DB = {
             },
             "oficial": null,
             "desc": "Antiga porta medieval da muralha da cidade, com terraços de onde se vê o Jardim do Turia e o centro histórico."
-        },
-        {
-            "id": "atenas_acropole",
-            "cidadeId": "atenas",
-            "nome": "Acrópole e Partenon",
-            "zona": "acropole_plaka",
-            "cat": [
-                "historia",
-                "arquitetura",
-                "cultura",
-                "fotografia"
-            ],
-            "prio": 96,
-            "dur": 150,
-            "interior": false,
-            "chuva": "baixo",
-            "idadeMin": 0,
-            "juvenil": true,
-            "familia": true,
-            "reserva": true,
-            "fechado": [],
-            "endereco": "Acropolis Hill, Atenas 105 58, Grécia",
-            "horario": {
-                "valor": "Verão (1/4–31/10): 8h–20h, última entrada 19h30. Inverno (1/11–31/3): 8h–17h, última entrada 16h30.",
-                "tipo": "CADASTRADO",
-                "fonte": "Bilheteria oficial da Acrópole (athensacropolis.gr / páginas de turismo oficiais de Atenas)",
-                "consultadoEm": "2026-08-27"
-            },
-            "custo": {
-                "valor": 20,
-                "tipo": "CADASTRADO",
-                "fonte": "Bilheteria oficial da Acrópole — tarifa cheia de abril a outubro (€ 10 de novembro a março)",
-                "consultadoEm": "2026-08-27"
-            },
-            "oficial": null,
-            "desc": "O Partenon e o platô da Acrópole, símbolo da Atenas clássica — reserve entrada com horário marcado, a fila cresce rápido no meio da manhã."
-        },
-        {
-            "id": "atenas_agora_antiga",
-            "cidadeId": "atenas",
-            "nome": "Ágora Antiga",
-            "zona": "acropole_plaka",
-            "cat": [
-                "historia",
-                "arquitetura",
-                "cultura"
-            ],
-            "prio": 80,
-            "dur": 90,
-            "interior": false,
-            "chuva": "baixo",
-            "idadeMin": 0,
-            "juvenil": true,
-            "familia": true,
-            "reserva": false,
-            "fechado": [],
-            "endereco": "Entrada por Adrianou, próximo à estação de metrô Thissio, Atenas, Grécia",
-            "horario": {
-                "valor": "Verão (1/4–31/10): 8h–20h. Horário reduzido no inverno.",
-                "tipo": "CADASTRADO",
-                "fonte": "Páginas oficiais de turismo de Atenas / Ministério da Cultura da Grécia",
-                "consultadoEm": "2026-08-27"
-            },
-            "custo": {
-                "valor": 20,
-                "tipo": "CADASTRADO",
-                "fonte": "Bilheteria oficial — inclui o Museu da Ágora na Stoa de Átalos",
-                "consultadoEm": "2026-08-27"
-            },
-            "oficial": null,
-            "desc": "Praça pública da Atenas clássica, onde Sócrates ensinava — a Stoa de Átalos reconstruída abriga o museu do sítio."
-        },
-        {
-            "id": "atenas_areopago",
-            "cidadeId": "atenas",
-            "nome": "Areópago (Colina de Marte)",
-            "zona": "acropole_plaka",
-            "cat": [
-                "religiao",
-                "historia",
-                "fotografia"
-            ],
-            "prio": 85,
-            "dur": 30,
-            "interior": false,
-            "chuva": "baixo",
-            "idadeMin": 0,
-            "juvenil": true,
-            "familia": true,
-            "reserva": false,
-            "fechado": [],
-            "endereco": "Areios Pagos, junto à entrada da Acrópole, Atenas, Grécia",
-            "horario": {
-                "valor": "Acesso livre, 24 horas, todos os dias — sítio ao ar livre sem bilheteria.",
-                "tipo": "CADASTRADO",
-                "fonte": "Guias oficiais de turismo de Atenas",
-                "consultadoEm": "2026-08-27"
-            },
-            "custo": {
-                "valor": 0,
-                "tipo": "CADASTRADO",
-                "fonte": "Acesso público gratuito",
-                "consultadoEm": "2026-08-27"
-            },
-            "oficial": null,
-            "desc": "Rocha onde o apóstolo Paulo pregou aos atenienses o \"Deus desconhecido\" (Atos 17) — pedra escorregadia, use calçado com boa aderência."
-        },
-        {
-            "id": "atenas_museu_arqueologico",
-            "cidadeId": "atenas",
-            "nome": "Museu Arqueológico Nacional",
-            "zona": "acropole_plaka",
-            "cat": [
-                "museus",
-                "historia",
-                "cultura"
-            ],
-            "prio": 75,
-            "dur": 120,
-            "interior": true,
-            "chuva": "alto",
-            "idadeMin": 0,
-            "juvenil": false,
-            "familia": true,
-            "reserva": false,
-            "fechado": [],
-            "endereco": "44 Rua 28 de Outubro (Patission), Atenas 106 82, Grécia",
-            "horario": {
-                "valor": "Alta temporada (mai–nov): quarta a segunda 8h–20h, terça 13h–20h. Baixa temporada (nov–mar): segunda 13h–17h, terça a domingo 8h30–16h.",
-                "tipo": "CADASTRADO",
-                "fonte": "namuseum.gr — sítio oficial do Museu Arqueológico Nacional de Atenas",
-                "consultadoEm": "2026-08-27"
-            },
-            "custo": {
-                "valor": 12,
-                "tipo": "CADASTRADO",
-                "fonte": "namuseum.gr — tarifa cheia de abril a outubro (€ 6 de novembro a março; gratuito para cidadãos da UE até 25 anos)",
-                "consultadoEm": "2026-08-27"
-            },
-            "oficial": "https://www.namuseum.gr/en/",
-            "desc": "O maior acervo arqueológico da Grécia — máscara de Agamêmnon e o mecanismo de Antikythera entre as peças mais conhecidas."
-        },
-        {
-            "id": "atenas_plaka",
-            "cidadeId": "atenas",
-            "nome": "Bairro de Plaka",
-            "zona": "acropole_plaka",
-            "cat": [
-                "cultura",
-                "gastronomia",
-                "compras",
-                "fotografia"
-            ],
-            "prio": 70,
-            "dur": 90,
-            "interior": false,
-            "chuva": "medio",
-            "idadeMin": 0,
-            "juvenil": true,
-            "familia": true,
-            "reserva": false,
-            "fechado": [],
-            "endereco": "Plaka, aos pés da Acrópole, Atenas, Grécia",
-            "horario": {
-                "valor": "Bairro aberto 24 horas — ruas de pedestres, sem horário de funcionamento.",
-                "tipo": "CADASTRADO",
-                "fonte": "Guias oficiais de turismo de Atenas",
-                "consultadoEm": "2026-08-27"
-            },
-            "custo": {
-                "valor": 0,
-                "tipo": "CADASTRADO",
-                "fonte": "Passeio de acesso livre pelas ruas históricas",
-                "consultadoEm": "2026-08-27"
-            },
-            "oficial": null,
-            "desc": "O bairro mais antigo de Atenas, com mais de 3 mil anos de ocupação contínua — ruas de pedestres, arquitetura neoclássica e vista para a Acrópole."
         },
         {
             "id": "mia_bass_pro_shops",
@@ -23552,6 +24880,83 @@ const DB = {
             "nota": "Boutique num prédio de 1876 direto na Market Square — endereço a confirmar antes de publicar.",
             "fonte": "http://theoliverhotel.com/",
             "flag": "flag-best"
+        },
+        {
+            "id": "h_ate_plaka",
+            "cidadeId": "atenas",
+            "nome": "Plaka Hotel Athens",
+            "categoria": "Hotel — Plaka",
+            "zona": "acropole_plaka",
+            "endereco": "7 Kapnikareas St (esquina com Mitropoleos St), Plaka, 10556 Atenas, Grécia",
+            "nota": "A 5 minutos a pé da Acrópole e da Rua Ermou, no coração de Plaka — base clássica para explorar o centro histórico a pé.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (queroviajarmais.com, hoteis.com), consultado via busca em 2026-09-02",
+            "flag": "flag-best"
+        },
+        {
+            "id": "h_san_fira_kalisti",
+            "cidadeId": "santorini",
+            "nome": "Kalisti Hotel & Suites",
+            "categoria": "Hotel — Fira",
+            "zona": "fira",
+            "endereco": "Dekigala Street, Fira Town, 84700 Santorini, Grécia",
+            "nota": "A poucos metros da borda da caldeira em Fira, em meio a bares, restaurantes e comércio — base central para quem prioriza estar perto do Porto Antigo e da vida noturna da capital.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (kalistihotel.com, trivago.com), consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_san_oia_canaves",
+            "cidadeId": "santorini",
+            "nome": "Canaves Oia Suites & Spa",
+            "categoria": "Hotel — Oia",
+            "zona": "oia",
+            "endereco": "Oia, 84702, Santorini, Grécia",
+            "nota": "Esculpido no penhasco da caldeira em Oia, com vistas de alto nível sobre o mar — referência de hospedagem de luxo na vila do pôr do sol mais famoso da ilha.",
+            "fonte": "canaves.com — sítio oficial, e cobertura consolidada (santorinidave.com, booking.com), consultado via busca em 2026-09-02",
+            "flag": "flag-best"
+        },
+        {
+            "id": "h_myk_chora_despotiko",
+            "cidadeId": "mykonos",
+            "nome": "Despotiko Hotel",
+            "categoria": "Hotel — Chora",
+            "zona": "chora",
+            "endereco": "Chora, 84600, Mykonos, Grécia",
+            "nota": "No coração de Chora (Mykonos Town), a poucos passos da Pequena Veneza e dos moinhos de vento — base a pé de distância das principais atrações da cidade.",
+            "fonte": "Cobertura consolidada de guias de hospedagem (greeka.com, trivago.com), consultado via busca em 2026-09-02",
+            "flag": "flag-best"
+        },
+        {
+            "id": "h_myk_chora_semeli",
+            "cidadeId": "mykonos",
+            "nome": "Semeli Hotel",
+            "categoria": "Hotel — Rochari (Chora)",
+            "zona": "chora",
+            "endereco": "Panachrantou 7, Rochari, 84600 Mykonos Town, Grécia",
+            "nota": "No bairro de Rochari, na saída de Chora, com vista para o Mar Egeu — alternativa um pouco mais afastada do centro, com mais sossego.",
+            "fonte": "semelihotel.gr — sítio oficial, consultado via busca em 2026-09-02",
+            "flag": null
+        },
+        {
+            "id": "h_rod_medieval_marco_polo",
+            "cidadeId": "rodes",
+            "nome": "Marco Polo Mansion",
+            "categoria": "Hotel — Cidade Medieval",
+            "zona": "cidade_medieval",
+            "endereco": "Agiou Fanouriou, 40-42, 85100 Rodes, Grécia",
+            "nota": "Mansão otomana do século XV restaurada, dentro das muralhas da Cidade Medieval — hotel boutique com restaurante próprio, a pé de distância de todo o centro histórico.",
+            "fonte": "marcopolomansion.com — sítio oficial, e cobertura consolidada (thehoteltrotter.com), consultado via busca em 2026-09-02",
+            "flag": "flag-best"
+        },
+        {
+            "id": "h_rod_medieval_avalon",
+            "cidadeId": "rodes",
+            "nome": "Avalon Boutique Hotel",
+            "categoria": "Hotel — Cidade Medieval",
+            "zona": "cidade_medieval",
+            "endereco": "Charitos St, 9, 85100 Rodes, Grécia",
+            "nota": "A poucos passos do Palácio do Grão-Mestre e da Rua dos Cavaleiros, dentro da Cidade Medieval — base tranquila e central para explorar a pé.",
+            "fonte": "avalonrhodes.gr — sítio oficial, consultado via busca em 2026-09-02",
+            "flag": null
         }
     ],
     "alimentacao": [
@@ -23756,6 +25161,46 @@ const DB = {
                     "consultadoEm": "2026-09-02",
                     "desc": "Peixaria de cozinha regional na orla de Ponta Negra, ao lado do Café Priscila — opção de almoço a poucos minutos da Praia da Ponta Negra e do Tropical Manaus Ecoresort."
                 }
+            ]
+        },
+        {
+            "cidadeId": "atenas",
+            "titulo": "Atenas — souvlaki de rua e tavernas de Plaka",
+            "texto": "Souvlaki e gyros de banca são a referência de comida de rua barata por toda a cidade, especialmente ao redor de Monastiraki. Tavernas em Plaka cobram mais caro pela vista da Acrópole — subir uma ou duas ruas para o lado de Psyrri costuma manter a mesma comida a preço menor.",
+            "tags": [
+                "street_food",
+                "tradicional",
+                "economica"
+            ]
+        },
+        {
+            "cidadeId": "santorini",
+            "titulo": "Santorini — cozinha vulcânica e vista para a caldeira",
+            "texto": "Fava santorínia (purê de ervilha amarela local), tomate-cereja da ilha e queijo chloro aparecem na maioria dos cardápios. Restaurantes com vista direta para a caldeira em Oia e Fira cobram bem mais caro pela mesma comida — subir uma rua ou ir a Firostefani/Imerovigli mantém a vista com preço mais justo.",
+            "tags": [
+                "regional",
+                "gastronomica",
+                "romantico"
+            ]
+        },
+        {
+            "cidadeId": "mykonos",
+            "titulo": "Mykonos — taverna de bairro versus beach club",
+            "texto": "Peixe grelhado e frutos do mar por preço justo se encontram nas tavernas afastadas do porto e da orla nobre; os beach clubs do litoral sul (Paradise, Super Paradise) cobram tarifa de consumo mínima alta. Ano Mera, no interior da ilha, é onde se come a cozinha cicladense mais tradicional e barata.",
+            "tags": [
+                "gastronomica",
+                "regional",
+                "economica"
+            ]
+        },
+        {
+            "cidadeId": "rodes",
+            "titulo": "Rodes — cozinha do Dodecaneso na Cidade Medieval",
+            "texto": "A Cidade Medieval concentra tavernas voltadas ao turismo; afastar-se da Rua dos Cavaleiros para as ruas menores do bairro turco melhora a relação preço-qualidade. Pitaroudia (bolinho de grão-de-bico e ervas) e melekouni (doce de gergelim e mel) são as referências locais mais citadas.",
+            "tags": [
+                "regional",
+                "tradicional",
+                "economica"
             ]
         },
         {
@@ -25396,16 +26841,6 @@ const DB = {
                 "regional",
                 "tradicional",
                 "street_food"
-            ]
-        },
-        {
-            "cidadeId": "atenas",
-            "titulo": "Atenas — souvlaki de rua e tavernas de Plaka",
-            "texto": "Souvlaki e gyros de banca são a referência de comida de rua barata por toda a cidade, especialmente ao redor de Monastiraki. Tavernas em Plaka cobram mais caro pela vista da Acrópole — subir uma ou duas ruas para o lado de Psyrri costuma manter a mesma comida a preço menor.",
-            "tags": [
-                "street_food",
-                "tradicional",
-                "economica"
             ]
         }
     ],
@@ -28105,6 +29540,34 @@ const DB = {
             "mm": 120,
             "diasChuva": 12
         },
+        "atenas": {
+            "mes": 9,
+            "max": 28,
+            "min": 19,
+            "mm": 8,
+            "diasChuva": 3
+        },
+        "santorini": {
+            "mes": 9,
+            "max": 25,
+            "min": 20,
+            "mm": 5,
+            "diasChuva": 2
+        },
+        "mykonos": {
+            "mes": 9,
+            "max": 25,
+            "min": 20,
+            "mm": 5,
+            "diasChuva": 2
+        },
+        "rodes": {
+            "mes": 9,
+            "max": 28,
+            "min": 21,
+            "mm": 5,
+            "diasChuva": 2
+        },
         "roma": {
             "mes": 11,
             "max": 16.3,
@@ -28517,6 +29980,24 @@ const DB = {
             "paisId": "br",
             "lat": -3.119,
             "lon": -60.0217
+        },
+        {
+            "nome": "Santorini",
+            "paisId": "gr",
+            "lat": 36.3932,
+            "lon": 25.4615
+        },
+        {
+            "nome": "Mykonos",
+            "paisId": "gr",
+            "lat": 37.4467,
+            "lon": 25.3289
+        },
+        {
+            "nome": "Rodes",
+            "paisId": "gr",
+            "lat": 36.4423,
+            "lon": 28.2225
         },
         {
             "nome": "Lisboa",
@@ -30515,7 +31996,8 @@ const Render = {
                 const a = IDX.atracao(b.atracaoId);
                 if (!a) return;
                 h += '<div class="hotel-card h-teal"><div class="hotel-head"><div>' +
-                    '<h4 class="hotel-name">' + U.esc(a.nome) + '</h4>' +
+                    '<h4 class="hotel-name">' + U.esc(a.nome) +
+                    (a.acessoMar ? ' ' + R.tt('⛴️', 'Atração comumente acessada por mar — barco, ferry ou travessia é parte usual da experiência, não só uma opção entre outras.') : '') + '</h4>' +
                     '<span class="hotel-cat">' + U.esc(a.cat.join(' · ')) + '</span></div>' +
                     '<span class="hotel-price">' + U.dur(a.dur) + '</span></div>';
                 h += '<p class="hotel-body">' + U.esc(a.desc) + '</p>';

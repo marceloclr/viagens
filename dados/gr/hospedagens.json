@@ -1,0 +1,79 @@
+[
+  {
+    "id": "h_ate_plaka",
+    "cidadeId": "atenas",
+    "nome": "Plaka Hotel Athens",
+    "categoria": "Hotel — Plaka",
+    "zona": "acropole_plaka",
+    "endereco": "7 Kapnikareas St (esquina com Mitropoleos St), Plaka, 10556 Atenas, Grécia",
+    "nota": "A 5 minutos a pé da Acrópole e da Rua Ermou, no coração de Plaka — base clássica para explorar o centro histórico a pé.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (queroviajarmais.com, hoteis.com), consultado via busca em 2026-09-02",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_san_fira_kalisti",
+    "cidadeId": "santorini",
+    "nome": "Kalisti Hotel & Suites",
+    "categoria": "Hotel — Fira",
+    "zona": "fira",
+    "endereco": "Dekigala Street, Fira Town, 84700 Santorini, Grécia",
+    "nota": "A poucos metros da borda da caldeira em Fira, em meio a bares, restaurantes e comércio — base central para quem prioriza estar perto do Porto Antigo e da vida noturna da capital.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (kalistihotel.com, trivago.com), consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_san_oia_canaves",
+    "cidadeId": "santorini",
+    "nome": "Canaves Oia Suites & Spa",
+    "categoria": "Hotel — Oia",
+    "zona": "oia",
+    "endereco": "Oia, 84702, Santorini, Grécia",
+    "nota": "Esculpido no penhasco da caldeira em Oia, com vistas de alto nível sobre o mar — referência de hospedagem de luxo na vila do pôr do sol mais famoso da ilha.",
+    "fonte": "canaves.com — sítio oficial, e cobertura consolidada (santorinidave.com, booking.com), consultado via busca em 2026-09-02",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_myk_chora_despotiko",
+    "cidadeId": "mykonos",
+    "nome": "Despotiko Hotel",
+    "categoria": "Hotel — Chora",
+    "zona": "chora",
+    "endereco": "Chora, 84600, Mykonos, Grécia",
+    "nota": "No coração de Chora (Mykonos Town), a poucos passos da Pequena Veneza e dos moinhos de vento — base a pé de distância das principais atrações da cidade.",
+    "fonte": "Cobertura consolidada de guias de hospedagem (greeka.com, trivago.com), consultado via busca em 2026-09-02",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_myk_chora_semeli",
+    "cidadeId": "mykonos",
+    "nome": "Semeli Hotel",
+    "categoria": "Hotel — Rochari (Chora)",
+    "zona": "chora",
+    "endereco": "Panachrantou 7, Rochari, 84600 Mykonos Town, Grécia",
+    "nota": "No bairro de Rochari, na saída de Chora, com vista para o Mar Egeu — alternativa um pouco mais afastada do centro, com mais sossego.",
+    "fonte": "semelihotel.gr — sítio oficial, consultado via busca em 2026-09-02",
+    "flag": null
+  },
+  {
+    "id": "h_rod_medieval_marco_polo",
+    "cidadeId": "rodes",
+    "nome": "Marco Polo Mansion",
+    "categoria": "Hotel — Cidade Medieval",
+    "zona": "cidade_medieval",
+    "endereco": "Agiou Fanouriou, 40-42, 85100 Rodes, Grécia",
+    "nota": "Mansão otomana do século XV restaurada, dentro das muralhas da Cidade Medieval — hotel boutique com restaurante próprio, a pé de distância de todo o centro histórico.",
+    "fonte": "marcopolomansion.com — sítio oficial, e cobertura consolidada (thehoteltrotter.com), consultado via busca em 2026-09-02",
+    "flag": "flag-best"
+  },
+  {
+    "id": "h_rod_medieval_avalon",
+    "cidadeId": "rodes",
+    "nome": "Avalon Boutique Hotel",
+    "categoria": "Hotel — Cidade Medieval",
+    "zona": "cidade_medieval",
+    "endereco": "Charitos St, 9, 85100 Rodes, Grécia",
+    "nota": "A poucos passos do Palácio do Grão-Mestre e da Rua dos Cavaleiros, dentro da Cidade Medieval — base tranquila e central para explorar a pé.",
+    "fonte": "avalonrhodes.gr — sítio oficial, consultado via busca em 2026-09-02",
+    "flag": null
+  }
+]

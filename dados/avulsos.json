@@ -107,6 +107,51 @@
       "endereco": "2400 Aviation Dr, DFW Airport, TX 75261, EUA",
       "fonte": "dfwairport.com — sítio oficial do Dallas Fort Worth International Airport, consultado em 2026-08-28",
       "consultadoEm": "2026-08-28"
+    },
+    {
+      "id": "lim",
+      "codigo": "LIM",
+      "cidadeNome": "Lima",
+      "nome": "Aeroporto Internacional Jorge Chávez",
+      "endereco": "Av. Elmer Faucett, s/n, Callao, Peru",
+      "fonte": "lima-airport.com — sítio oficial do Aeroporto Jorge Chávez, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    {
+      "id": "bog",
+      "codigo": "BOG",
+      "cidadeNome": "Bogotá",
+      "nome": "Aeroporto Internacional El Dorado",
+      "endereco": "Avenida El Dorado, nº 103-09, Bogotá, Colômbia",
+      "fonte": "Cobertura consolidada (omio.com, thebogotaairport.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    {
+      "id": "eze",
+      "codigo": "EZE",
+      "cidadeNome": "Buenos Aires",
+      "nome": "Aeroporto Internacional Ministro Pistarini (Ezeiza)",
+      "endereco": "Autopista Tte. Gral. Pablo Riccheri, km 33,5, B1802 Ezeiza, Buenos Aires, Argentina",
+      "fonte": "pt.wikipedia.org, ezeiza-airport.com — cobertura consolidada sobre o Aeroporto de Ezeiza, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    {
+      "id": "cun",
+      "codigo": "CUN",
+      "cidadeNome": "Cancún",
+      "nome": "Aeroporto Internacional de Cancún",
+      "endereco": "Carretera Mérida-Cancún km 22, 77565 Cancún, Quintana Roo, México",
+      "fonte": "en.wikipedia.org — cobertura consolidada sobre o Aeroporto Internacional de Cancún, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    {
+      "id": "scl",
+      "codigo": "SCL",
+      "cidadeNome": "Santiago (Chile)",
+      "nome": "Aeroporto Internacional Arturo Merino Benítez",
+      "endereco": "Armando Cortínez Ote. 1704, Pudahuel, Santiago, Chile",
+      "fonte": "pt.wikipedia.org, santiago-airport.com — cobertura consolidada sobre o Aeroporto Arturo Merino Benítez, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
     }
   ],
   "estacoes": []

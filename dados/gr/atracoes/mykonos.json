@@ -1,0 +1,222 @@
+[
+  {
+    "id": "myk_delos",
+    "cidadeId": "mykonos",
+    "nome": "Ilha de Delos",
+    "zona": "delos_ilha",
+    "cat": ["historia", "cultura", "museus"],
+    "prio": 95,
+    "dur": 240,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": true,
+    "fechado": ["segunda"],
+    "endereco": "Ilha de Delos, acessível apenas de barco a partir do Porto Antigo de Mykonos (Chora)",
+    "horario": {
+      "valor": "Abril a outubro, diariamente das 8h às 20h; fecha às segundas o ano todo; fora dessa janela, funcionamento reduzido",
+      "tipo": "CADASTRADO",
+      "fonte": "archaeology-travel.com — cobertura consolidada sobre o sítio arqueológico de Delos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 20,
+      "tipo": "CADASTRADO",
+      "fonte": "getyourguide.com, archaeology-travel.com — ingresso ao sítio arqueológico, sem incluir a passagem de barco (cerca de €25 ida e volta, à parte)",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Segundo a mitologia, terra natal de Apolo e Ártemis — ilha sagrada da Grécia Antiga, hoje Patrimônio Mundial da UNESCO e um dos sítios arqueológicos mais importantes do Mediterrâneo, com o Terraço dos Leões, o Santuário de Apolo e um museu arqueológico. É inteiramente desabitada e só se chega de barco, partindo do Porto Antigo de Mykonos — não há aeroporto nem porto para grandes navios na própria ilha."
+  },
+  {
+    "id": "myk_little_venice",
+    "cidadeId": "mykonos",
+    "nome": "Pequena Veneza (Little Venice)",
+    "zona": "chora",
+    "cat": ["fotografia", "romantico", "gastronomia"],
+    "prio": 88,
+    "dur": 60,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Bairro de Alefkandra, Chora, Mykonos, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo; bares e restaurantes funcionam sobretudo ao entardecer",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (360meridianos.com, penaestrada.blog.br), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre ao bairro",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Bairro de casas antigas erguidas literalmente sobre a água, com sacadas de madeira coloridas debruçadas sobre o mar — um dos ângulos mais fotografados da ilha, especialmente ao pôr do sol."
+  },
+  {
+    "id": "myk_moinhos",
+    "cidadeId": "mykonos",
+    "nome": "Moinhos de Kato Mili",
+    "zona": "chora",
+    "cat": ["fotografia", "historia", "cultura"],
+    "prio": 82,
+    "dur": 45,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Kato Mili, Chora, Mykonos, Grécia",
+    "horario": {
+      "valor": "Vista externa livre o dia todo; os moinhos que abrigam museus têm horário próprio, variável por temporada",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (360meridianos.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Vista externa gratuita; museus internos, quando abertos, cobram entrada à parte",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Fileira de moinhos de vento do século XVI, erguidos para aproveitar os ventos fortes (meltemi) da ilha na moagem de trigo — o cartão-postal mais reconhecível de Mykonos, com vista para o mar e a Pequena Veneza."
+  },
+  {
+    "id": "myk_paraportiani",
+    "cidadeId": "mykonos",
+    "nome": "Igreja de Panagia Paraportiani",
+    "zona": "chora",
+    "cat": ["religiao", "arquitetura", "fotografia"],
+    "prio": 65,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Chora, Mykonos, Grécia, próximo ao Kastro",
+    "horario": {
+      "valor": "Acesso livre ao exterior; horário de missas variável",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Conjunto de cinco capelas fundidas numa só estrutura branca e assimétrica, erguido ao longo de séculos no bairro do antigo Kastro veneziano — um dos monumentos religiosos mais fotografados das Cíclades."
+  },
+  {
+    "id": "myk_paradise_beach",
+    "cidadeId": "mykonos",
+    "nome": "Praia de Paradise e Super Paradise",
+    "zona": "praias_sul",
+    "cat": ["praias", "aventura", "juvenil"],
+    "prio": 80,
+    "dur": 180,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Litoral sul de Mykonos, acessível por estrada ou por barco-táxi a partir de Platis Gialos",
+    "horario": {
+      "valor": "Acesso livre durante o dia; beach clubs funcionam sobretudo à tarde",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (dicasdeviagem.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à praia pública; espreguiçadeiras e beach clubs cobrados à parte",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "As praias mais badaladas do litoral sul, com beach clubs, música e vida noturna diurna — o trajeto clássico entre as praias do sul (Ornos, Platis Gialos, Paradise, Super Paradise) costuma ser feito de barco-táxi, ligando a orla pelo mar."
+  },
+  {
+    "id": "myk_rhenia",
+    "cidadeId": "mykonos",
+    "nome": "Ilha de Rhenia",
+    "zona": "delos_ilha",
+    "cat": ["natureza", "aventura", "praias"],
+    "prio": 60,
+    "dur": 180,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Ilha de Rhenia, ao lado de Delos, acessível apenas de barco a partir de Mykonos",
+    "horario": {
+      "valor": "Depende do operador do passeio de barco — sem horário fixo de funcionamento, já que a ilha é desabitada",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre passeios de barco a partir de Mykonos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Preço do passeio de barco varia por operador — verifique diretamente",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Ilha desabitada bem em frente a Delos, com praias de areia branca e águas claras raramente cheias — muitos passeios de barco combinam Delos pela manhã com um banho de mar em Rhenia à tarde."
+  },
+  {
+    "id": "myk_ano_mera",
+    "cidadeId": "mykonos",
+    "nome": "Ano Mera e Mosteiro de Panagia Tourliani",
+    "zona": "ano_mera",
+    "cat": ["religiao", "cultura", "historia"],
+    "prio": 55,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Ano Mera, Mykonos, Grécia",
+    "horario": {
+      "valor": "Acesso livre ao vilarejo; mosteiro aberto durante o dia, fora dos horários de culto",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (360meridianos.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Entrada livre ao vilarejo e ao mosteiro",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Segundo maior povoado da ilha, no interior — mantém o ritmo de vida tradicional das Cíclades, longe do circuito turístico de Chora, em torno do Mosteiro de Panagia Tourliani, do século XVI."
+  }
+]

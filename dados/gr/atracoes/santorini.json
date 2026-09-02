@@ -1,0 +1,285 @@
+[
+  {
+    "id": "san_oia",
+    "cidadeId": "santorini",
+    "nome": "Oia",
+    "zona": "oia",
+    "cat": ["fotografia", "romantico", "compras", "arquitetura"],
+    "prio": 96,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Oia, 84702, Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo; o pôr do sol junto ao Castelo de Santo Nicolau é o horário mais concorrido",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (penaestrada.blog.br, queroviajarmais.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre — vila aberta, sem bilhete de entrada",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Vila mais fotografada da Grécia, com casas brancas cúbicas e igrejas de cúpula azul empilhadas sobre a caldeira — o pôr do sol visto do Castelo de Santo Nicolau atrai multidões diariamente na alta temporada."
+  },
+  {
+    "id": "san_fira",
+    "cidadeId": "santorini",
+    "nome": "Fira",
+    "zona": "fira",
+    "cat": ["fotografia", "compras", "gastronomia", "arquitetura"],
+    "prio": 85,
+    "dur": 90,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Fira, 84700, Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre — capital da ilha, sem bilhete de entrada",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Capital de Santorini, à beira da caldeira — ruas estreitas com lojas, restaurantes e hotéis debruçados sobre o penhasco, e o Porto Antigo de Fira logo abaixo, ponto de partida dos passeios de barco pela caldeira."
+  },
+  {
+    "id": "san_caldera_boat_cruise",
+    "cidadeId": "santorini",
+    "nome": "Passeio de barco pela Caldeira — vulcões Nea Kameni e Palea Kameni",
+    "zona": "fira",
+    "cat": ["natureza", "aventura", "fotografia"],
+    "prio": 92,
+    "dur": 360,
+    "acessoMar": true,
+    "comidaLocal": true,
+    "interior": false,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Embarque no Porto Antigo de Fira (Fira Skala), acessível a pé, de teleférico ou a lombo de burro desde Fira",
+    "horario": {
+      "valor": "Alta temporada, duas saídas diárias do Porto Antigo de Fira: 11h e 14h30",
+      "tipo": "CADASTRADO",
+      "fonte": "santorinika.com — cobertura consolidada sobre o passeio de barco à caldeira, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Preço varia por operador e pacote (com ou sem almoço a bordo) — verifique diretamente com a operadora",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Passeio clássico pela caldeira vulcânica que forma a baía de Santorini: caminhada até a cratera ativa de Nea Kameni, banho nas águas alaranjadas das fontes termais sulfurosas de Palea Kameni e parada na ilha de Thirasia, geralmente com tempo livre para almoço. A própria geografia de Santorini — uma cratera afundada e inundada pelo mar — só se revela de verdade vista da água."
+  },
+  {
+    "id": "san_akrotiri",
+    "cidadeId": "santorini",
+    "nome": "Sítio Arqueológico de Akrotiri",
+    "zona": "akrotiri",
+    "cat": ["historia", "museus", "cultura"],
+    "prio": 80,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Akrotiri, 84700, Santorini, Grécia",
+    "horario": {
+      "valor": "Novembro a março: terça a domingo, das 8h às 15h. Abril a outubro: sexta a quarta, das 8h às 20h; quintas, das 8h às 15h",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem (penaestrada.blog.br), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no local ou site do Ministério da Cultura grego",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Cidade minoica soterrada pela erupção vulcânica de cerca de 1600 a.C. — preservada sob cinzas de forma comparável a Pompeia, com ruas, casas de dois andares e afrescos remanescentes cobertos por uma estrutura moderna."
+  },
+  {
+    "id": "san_red_beach",
+    "cidadeId": "santorini",
+    "nome": "Praia Vermelha (Red Beach)",
+    "zona": "akrotiri",
+    "cat": ["praias", "natureza", "fotografia"],
+    "prio": 75,
+    "dur": 90,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Próximo ao sítio arqueológico de Akrotiri, Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre durante o dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à praia",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Praia cercada por falésias vermelhas e negras de origem vulcânica, uma das paisagens mais fotografadas da ilha — além do acesso por trilha curta a partir de Akrotiri, é parada comum de excursões de barco pela costa sul."
+  },
+  {
+    "id": "san_ammoudi_bay",
+    "cidadeId": "santorini",
+    "nome": "Baía de Ammoudi",
+    "zona": "oia",
+    "cat": ["natureza", "gastronomia", "fotografia"],
+    "prio": 78,
+    "dur": 90,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Ammoudi, abaixo de Oia (acesso por escadaria de cerca de 220 degraus ou por estrada), Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre ao pequeno porto",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Pequeno porto de pescadores logo abaixo de Oia, com tavernas de peixe fresco à beira d'água e barcos coloridos ancorados junto às falésias vermelhas — ponto de partida de passeios de barco menores ao longo da costa da caldeira."
+  },
+  {
+    "id": "san_skaros_rock",
+    "cidadeId": "santorini",
+    "nome": "Rocha de Skaros (Imerovigli)",
+    "zona": "oia",
+    "cat": ["natureza", "fotografia", "aventura"],
+    "prio": 65,
+    "dur": 60,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 6,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Imerovigli, entre Fira e Oia, Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre durante o dia — trilha sem iluminação, não recomendada à noite",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à trilha",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Antigo promontório fortificado em Imerovigli, entre Fira e Oia — restam apenas as fundações do castelo medieval, mas o mirante sobre a caldeira é considerado um dos melhores da ilha, com menos multidão que Oia."
+  },
+  {
+    "id": "san_caminho_fira_oia",
+    "cidadeId": "santorini",
+    "nome": "Trilha da Caldeira — Fira a Oia",
+    "zona": "fira",
+    "cat": ["aventura", "natureza", "fotografia"],
+    "prio": 70,
+    "dur": 210,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 10,
+    "juvenil": true,
+    "familia": false,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Trilha entre Fira e Oia, passando por Imerovigli e Firostefani, Santorini, Grécia",
+    "horario": {
+      "valor": "Melhor percorrida pela manhã ou fim de tarde, para evitar o calor do meio-dia — cerca de 3 a 4 horas de caminhada",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Trilha pública, sem custo",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Caminho de cerca de 10 km à beira do penhasco, ligando Fira a Oia pela borda da caldeira — passa por Firostefani e Imerovigli, com vista contínua para o mar e os vulcões no centro da baía."
+  },
+  {
+    "id": "san_kamari_beach",
+    "cidadeId": "santorini",
+    "nome": "Praia de Kamari",
+    "zona": "kamari_perissa",
+    "cat": ["praias", "familia", "descanso"],
+    "prio": 60,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Kamari, Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo; quiosques e bares de praia funcionam principalmente durante o dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à praia pública",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Praia de areia e seixos negros vulcânicos, a mais estruturada da ilha para banho — calçadão com bares, restaurantes e espreguiçadeiras, aos pés do Monte Mesa Vouno."
+  }
+]

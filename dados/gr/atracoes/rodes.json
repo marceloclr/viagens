@@ -1,0 +1,254 @@
+[
+  {
+    "id": "rod_palacio_grao_mestre",
+    "cidadeId": "rodes",
+    "nome": "Palácio do Grão-Mestre dos Cavaleiros",
+    "zona": "cidade_medieval",
+    "cat": ["historia", "arquitetura", "museus"],
+    "prio": 92,
+    "dur": 90,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["terca"],
+    "endereco": "Ippoton St, Cidade Medieval de Rodes, 85100, Grécia",
+    "horario": {
+      "valor": "Abril–agosto, diariamente das 8h às 20h (última entrada 19h30); setembro–outubro, fechamento gradual das 19h30 até 18h; novembro–março, quarta a segunda, das 8h30 às 15h30 (terça fechado)",
+      "tipo": "CADASTRADO",
+      "fonte": "grandmasterpalacerhodes.gr — cobertura consolidada sobre horários do Palácio do Grão-Mestre, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 20,
+      "tipo": "CADASTRADO",
+      "fonte": "grandmasterpalacerhodes.gr — tarifa em vigor desde a reforma de 01/04/2025; gratuito para menores de 6 anos e cidadãos da UE até 25 anos com identificação",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": "https://grandmasterpalacerhodes.gr/",
+    "desc": "Fortaleza retangular de 75 por 80 metros no topo da Cidade Medieval, sede dos Grão-Mestres da Ordem dos Cavaleiros Hospitalários entre os séculos XIV e XVI — o monumento mais significativo da história medieval de Rodes, com fossos, muralhas ameadas e torres."
+  },
+  {
+    "id": "rod_rua_cavaleiros",
+    "cidadeId": "rodes",
+    "nome": "Rua dos Cavaleiros (Ippoton)",
+    "zona": "cidade_medieval",
+    "cat": ["historia", "arquitetura", "fotografia"],
+    "prio": 85,
+    "dur": 45,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Odos Ippoton, Cidade Medieval de Rodes, 85100, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo — rua pública",
+      "tipo": "CADASTRADO",
+      "fonte": "monitordomercado.com.br — cobertura consolidada sobre a Rua dos Cavaleiros, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Rua pública, sem bilhete de entrada",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Considerada a rua medieval mais bem preservada da Europa — liga o antigo porto (junto ao Hospital dos Cavaleiros, hoje Museu Arqueológico) ao Palácio do Grão-Mestre, com 600 metros de fachadas de pedra de 1309 praticamente intactas."
+  },
+  {
+    "id": "rod_lindos_barco",
+    "cidadeId": "rodes",
+    "nome": "Excursão de barco a Lindos e sua Acrópole",
+    "zona": "mandraki_porto",
+    "cat": ["historia", "aventura", "fotografia"],
+    "prio": 90,
+    "dur": 450,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Embarque no Porto de Mandraki, Cidade de Rodes, Grécia",
+    "horario": {
+      "valor": "Check-in geralmente entre 8h10 e 8h20; cerca de 2h de navegação pela costa leste até Lindos, com 3h30 de estadia antes do retorno",
+      "tipo": "CADASTRADO",
+      "fonte": "hellotickets.com, sunbonoo.com — cobertura consolidada sobre o passeio de barco Rodes–Lindos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Preço da excursão varia por operador; o ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Cruzeiro pela costa leste de Rodes até a vila de Lindos, dominada por sua acrópole sobre um penhasco de 116 metros à beira-mar — tempo livre para subir à acrópole, passear pelas ruelas brancas ou nadar na praia de areia da vila. Alternativa mais cênica ao acesso por estrada."
+  },
+  {
+    "id": "rod_symi_barco",
+    "cidadeId": "rodes",
+    "nome": "Excursão de barco à Ilha de Symi",
+    "zona": "mandraki_porto",
+    "cat": ["natureza", "aventura", "praias"],
+    "prio": 82,
+    "dur": 420,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": true,
+    "fechado": [],
+    "endereco": "Embarque no Porto de Mandraki, Cidade de Rodes, Grécia",
+    "horario": {
+      "valor": "Barcos rápidos partem por volta das 11h, com cerca de 1h de travessia; passeios regulares somam parada para banho na Baía de São Jorge antes de Symi, com cerca de 3h livres na ilha",
+      "tipo": "CADASTRADO",
+      "fonte": "hellotickets.com — cobertura consolidada sobre o passeio de barco Rodes–Symi, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Preço da excursão varia por operador — verifique diretamente",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Ilha vizinha do Dodecaneso, a menos de duas horas de barco de Rodes, famosa pelas casas neoclássicas coloridas empilhadas ao redor do porto de Yialos — excursão de dia inteiro com parada para banho em baías desertas no caminho."
+  },
+  {
+    "id": "rod_anthony_quinn_bay",
+    "cidadeId": "rodes",
+    "nome": "Baía de Anthony Quinn (Vagia)",
+    "zona": "faliraki",
+    "cat": ["praias", "natureza", "fotografia"],
+    "prio": 70,
+    "dur": 90,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Vagia, próximo a Faliraki, Rodes, Grécia",
+    "horario": {
+      "valor": "Acesso livre durante o dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre a costa leste de Rodes, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à enseada",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Pequena enseada de águas cristalinas cercada por rochas, batizada em homenagem ao ator Anthony Quinn, que comprou a área durante as filmagens de 'Os Canhões de Navarone' — águas calmas e profundas, populares para snorkel e mergulho de rochas."
+  },
+  {
+    "id": "rod_faliraki_beach",
+    "cidadeId": "rodes",
+    "nome": "Praia de Faliraki",
+    "zona": "faliraki",
+    "cat": ["praias", "familia", "esportes"],
+    "prio": 60,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Faliraki, Rodes, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo; esportes aquáticos funcionam principalmente durante o dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à praia pública",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "A praia mais estruturada e movimentada de Rodes, com quilômetros de areia, ampla oferta de esportes aquáticos e infraestrutura para famílias — base turística mais badalada da ilha fora da Cidade Medieval."
+  },
+  {
+    "id": "rod_mandraki_porto",
+    "cidadeId": "rodes",
+    "nome": "Porto de Mandraki",
+    "zona": "mandraki_porto",
+    "cat": ["historia", "fotografia"],
+    "prio": 65,
+    "dur": 45,
+    "acessoMar": true,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Mandraki, Cidade de Rodes, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre ao porto",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Porto histórico da Cidade de Rodes, ladeado por três moinhos de vento e pela entrada guardada por estátuas de veados — tradicionalmente apontado como o local onde teria se erguido o Colosso de Rodes, uma das Sete Maravilhas do Mundo Antigo. Ponto de partida de todos os passeios de barco da ilha, incluindo Lindos e Symi."
+  },
+  {
+    "id": "rod_epta_piges",
+    "cidadeId": "rodes",
+    "nome": "Sete Nascentes (Epta Piges)",
+    "zona": "faliraki",
+    "cat": ["natureza", "aventura", "familia"],
+    "prio": 58,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Epta Piges, Rodes, Grécia (interior da ilha, próximo a Kolymbia)",
+    "horario": {
+      "valor": "Acesso livre durante o dia",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à área natural",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Floresta com riacho e um pequeno lago artificial formado pela junção de sete nascentes — trilha sombreada até o túnel estreito (cerca de 186 metros, parcialmente na água) que leva à represa, contraste refrescante com as praias da ilha."
+  }
+]

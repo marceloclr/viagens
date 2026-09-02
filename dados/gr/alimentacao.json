@@ -4,5 +4,23 @@
     "titulo": "Atenas — souvlaki de rua e tavernas de Plaka",
     "texto": "Souvlaki e gyros de banca são a referência de comida de rua barata por toda a cidade, especialmente ao redor de Monastiraki. Tavernas em Plaka cobram mais caro pela vista da Acrópole — subir uma ou duas ruas para o lado de Psyrri costuma manter a mesma comida a preço menor.",
     "tags": ["street_food", "tradicional", "economica"]
+  },
+  {
+    "cidadeId": "santorini",
+    "titulo": "Santorini — cozinha vulcânica e vista para a caldeira",
+    "texto": "Fava santorínia (purê de ervilha amarela local), tomate-cereja da ilha e queijo chloro aparecem na maioria dos cardápios. Restaurantes com vista direta para a caldeira em Oia e Fira cobram bem mais caro pela mesma comida — subir uma rua ou ir a Firostefani/Imerovigli mantém a vista com preço mais justo.",
+    "tags": ["regional", "gastronomica", "romantico"]
+  },
+  {
+    "cidadeId": "mykonos",
+    "titulo": "Mykonos — taverna de bairro versus beach club",
+    "texto": "Peixe grelhado e frutos do mar por preço justo se encontram nas tavernas afastadas do porto e da orla nobre; os beach clubs do litoral sul (Paradise, Super Paradise) cobram tarifa de consumo mínima alta. Ano Mera, no interior da ilha, é onde se come a cozinha cicladense mais tradicional e barata.",
+    "tags": ["gastronomica", "regional", "economica"]
+  },
+  {
+    "cidadeId": "rodes",
+    "titulo": "Rodes — cozinha do Dodecaneso na Cidade Medieval",
+    "texto": "A Cidade Medieval concentra tavernas voltadas ao turismo; afastar-se da Rua dos Cavaleiros para as ruas menores do bairro turco melhora a relação preço-qualidade. Pitaroudia (bolinho de grão-de-bico e ervas) e melekouni (doce de gergelim e mel) são as referências locais mais citadas.",
+    "tags": ["regional", "tradicional", "economica"]
   }
 ]

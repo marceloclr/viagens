@@ -6,5 +6,29 @@
     "nome": "Aeroporto Internacional de Atenas — Eleftherios Venizelos",
     "endereco": "Administration Building 17, GR-190 19 Spata, Atenas, Grécia",
     "fonte": "athensairport.org — sítio oficial do Aeroporto Internacional de Atenas, consultado em 2026-08-27"
+  },
+  {
+    "id": "jtr",
+    "cidadeId": "santorini",
+    "codigo": "JTR",
+    "nome": "Aeroporto Internacional de Santorini",
+    "endereco": "Santorini Island, 84700, Monolithos, Grécia",
+    "fonte": "santoriniairport.com — sítio oficial do Aeroporto de Santorini, consultado via busca em 2026-09-02"
+  },
+  {
+    "id": "jmk",
+    "cidadeId": "mykonos",
+    "codigo": "JMK",
+    "nome": "Aeroporto de Mykonos",
+    "endereco": "Mykonos Island, 84600, Grécia",
+    "fonte": "Cobertura consolidada (en.wikipedia.org, aviontourism.com), consultado via busca em 2026-09-02"
+  },
+  {
+    "id": "rho",
+    "cidadeId": "rodes",
+    "codigo": "RHO",
+    "nome": "Aeroporto Internacional de Rodes — Diagoras",
+    "endereco": "Paradisi, 85106, Rodes, Grécia",
+    "fonte": "gtp.gr, aerodromio.com.gr — cobertura consolidada sobre o Aeroporto Diagoras, consultado via busca em 2026-09-02"
   }
 ]

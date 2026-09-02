@@ -780,5 +780,71 @@
     "obs": "Trecho aéreo doméstico direto (Azul, GOL e LATAM), cerca de 17 voos semanais só pela Azul — a ligação natural para combinar as duas capitais amazônicas em um mesmo roteiro. Preço não disponível sem provedor de tarifas.",
     "fonte": "flightconnections.com e agregadores de passagens (kayak.com.br, momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
     "categoria": "regional"
+  },
+  {
+    "de": "atenas",
+    "para": "santorini",
+    "modo": "barco",
+    "icone": "⛴️",
+    "duracao": 290,
+    "custoPP": [60, 120],
+    "obs": "Ferry rápido (catamarã) a partir do Porto do Pireu (cerca de 40 min de Atenas central) — duração de referência de ~4h50 com a SeaJets; ferries convencionais (Blue Star Ferries, até 13 saídas semanais) levam cerca de 7h45. Alternativa mais rápida: voo Atenas–Santorini pela Aegean Airlines, ~50 min, múltiplas saídas diárias — mesmo preço aproximado do ferry em muitas datas.",
+    "fonte": "ferryhopper.com, santorinidave.com, directferries.com, blog.wego.com — cobertura consolidada sobre a rota Pireu–Santorini, consultado via busca em 2026-09-02",
+    "categoria": "ferry"
+  },
+  {
+    "de": "atenas",
+    "para": "mykonos",
+    "modo": "barco",
+    "icone": "⛴️",
+    "duracao": 165,
+    "custoPP": [35, 90],
+    "obs": "Ferry rápido a partir do Porto do Pireu — cerca de 2h40 a 2h50 com a SeaJets (a mais rápida), até 3h20-4h em ferries mais lentos; 29 partidas semanais somando Blue Star Ferries e SeaJets. Alternativa: voo Atenas–Mykonos, ~45 min.",
+    "fonte": "ferryhopper.com, omio.com.br, grupodicas.com — cobertura consolidada sobre a rota Pireu–Mykonos, consultado via busca em 2026-09-02",
+    "categoria": "ferry"
+  },
+  {
+    "de": "atenas",
+    "para": "rodes",
+    "modo": "aviao",
+    "icone": "✈️",
+    "duracao": 65,
+    "custoPP": null,
+    "obs": "Voo direto pela Aegean Airlines ou Sky Express, cerca de 59 voos semanais somando as duas companhias — a opção prática, dada a distância. Alternativa por mar existe (Blue Star Ferries, 5x/semana a partir do Pireu), mas é uma travessia longa: 10h40 a 18h dependendo do navio, sem trecho de alta velocidade nesta rota.",
+    "fonte": "kayak.com, flightsfrom.com, ferryhopper.com, directferries.com — cobertura consolidada sobre as rotas Atenas–Rodes, consultado via busca em 2026-09-02",
+    "categoria": "regional"
+  },
+  {
+    "de": "santorini",
+    "para": "mykonos",
+    "modo": "barco",
+    "icone": "⛴️",
+    "duracao": 130,
+    "custoPP": [43, 97],
+    "obs": "Ferry de alta velocidade (SeaJets), cerca de 2h10 no trajeto mais rápido; ferries mais lentos (Golden Star Ferries, com espaço para veículo) levam entre 1h50 e 3h20 dependendo da rota e escalas. Rota clássica de 'island hopping' pelas Cíclades, com conexões adicionais para Naxos, Paros, Milos e Tinos a partir de qualquer uma das duas ilhas.",
+    "fonte": "ferryhopper.com, ferryscanner.com, planetaeuropa.com — cobertura consolidada sobre a rota Santorini–Mykonos, consultado via busca em 2026-09-02",
+    "categoria": "ferry"
+  },
+  {
+    "de": "santorini",
+    "para": "rodes",
+    "modo": "aviao",
+    "icone": "✈️",
+    "duracao": 55,
+    "custoPP": null,
+    "obs": "Aegean Airlines opera apenas 1 voo direto por semana nesta rota — frequência baixa demais para depender dela num roteiro fechado; a alternativa prática e mais confiável é conectar via Atenas (voo Santorini–Atenas + Atenas–Rodes). Por mar, a travessia direta existe (Blue Star Ferries), mas é uma viagem longa, de 10h45 a 24h dependendo do navio — praticamente inviável como deslocamento único dentro de um roteiro de poucos dias.",
+    "fonte": "flightsfrom.com, ferryhopper.com, directferries.com, greecelogue.com — cobertura consolidada sobre as rotas Santorini–Rodes, consultado via busca em 2026-09-02",
+    "categoria": "regional"
+  },
+  {
+    "de": "mykonos",
+    "para": "rodes",
+    "modo": "aviao",
+    "icone": "✈️",
+    "duracao": 55,
+    "custoPP": null,
+    "obs": "AUSÊNCIA CONFIRMADA DE DADO CONFIÁVEL: fontes consultadas se contradizem sobre a existência de voo direto sem escala nesta rota — algumas indicam frequência direta pela Aegean, outras afirmam que só há voos com conexão (geralmente via Atenas) operados pela SKY express. A duração de 55 min é a de um eventual trecho direto, não confirmada com precisão. Antes de fechar um roteiro com este trecho, verifique diretamente no site da companhia — não há dado desta base em que confiar cegamente aqui.",
+    "fonte": "rome2rio.com, kiwi.com, skyexpress.gr — cobertura consolidada e contraditória sobre a rota Mykonos–Rodes, consultado via busca em 2026-09-02",
+    "categoria": "regional"
   }
 ]

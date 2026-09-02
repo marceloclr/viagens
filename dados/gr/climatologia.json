@@ -1,0 +1,6 @@
+{
+  "atenas": { "mes": 9, "max": 28, "min": 19, "mm": 8, "diasChuva": 3 },
+  "santorini": { "mes": 9, "max": 25, "min": 20, "mm": 5, "diasChuva": 2 },
+  "mykonos": { "mes": 9, "max": 25, "min": 20, "mm": 5, "diasChuva": 2 },
+  "rodes": { "mes": 9, "max": 28, "min": 21, "mm": 5, "diasChuva": 2 }
+}

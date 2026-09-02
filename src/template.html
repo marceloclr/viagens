@@ -3363,7 +3363,8 @@ const Render = {
                 const a = IDX.atracao(b.atracaoId);
                 if (!a) return;
                 h += '<div class="hotel-card h-teal"><div class="hotel-head"><div>' +
-                    '<h4 class="hotel-name">' + U.esc(a.nome) + '</h4>' +
+                    '<h4 class="hotel-name">' + U.esc(a.nome) +
+                    (a.acessoMar ? ' ' + R.tt('⛴️', 'Atração comumente acessada por mar — barco, ferry ou travessia é parte usual da experiência, não só uma opção entre outras.') : '') + '</h4>' +
                     '<span class="hotel-cat">' + U.esc(a.cat.join(' · ')) + '</span></div>' +
                     '<span class="hotel-price">' + U.dur(a.dur) + '</span></div>';
                 h += '<p class="hotel-body">' + U.esc(a.desc) + '</p>';
