@@ -1241,7 +1241,6 @@
         .sched-val { font-family: Consolas, monospace; font-size: 12px; color: var(--accent2); font-weight: 800; white-space: nowrap; }
         .sched-row.is-desloc { background: color-mix(in srgb, var(--bg) 50%, transparent); }
         .sched-row.is-desloc .sched-t { color: var(--muted); font-weight: 400; font-size: 12.5px; }
-        .sched-row.is-refeicao .sched-t { color: var(--accent2); }
 
         .dia-head {
             display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
@@ -31965,7 +31964,14 @@ const Render = {
                     '</b>, descontadas as refeições e multiplicada pela taxa de ocupação do ritmo. Dias de chegada e partida recebem fatores de 35% e 30%.') + '</span></div>';
             h += '<div class="sched">';
             (d.blocos || []).forEach((b, j) => {
-                const cls = b.tipo === 'desloc' ? ' is-desloc' : (b.tipo === 'refeicao' ? ' is-refeicao' : '');
+                // Almoço e jantar continuam existindo no modelo (ocupam tempo, evitam
+                // sobreposição, alimentam a disponibilidade do dia) — só não aparecem mais
+                // na lista visual do cronograma. O índice "j" tem que continuar sendo o
+                // índice real em d.blocos, por isso o corte é um "return" e não um filter()
+                // antes do forEach: Edicao.controles() depende desse índice para
+                // mover/remover o bloco certo.
+                if (b.tipo === 'refeicao') return;
+                const cls = b.tipo === 'desloc' ? ' is-desloc' : '';
                 h += '<div class="sched-row' + cls + '">';
                 h += '<div class="sched-hora">' + U.hhmm(b.ini) + '–' + U.hhmm(b.fim) + '</div>';
                 h += '<div class="sched-ico">' + b.icone + '</div>';
@@ -31979,7 +31985,7 @@ const Render = {
             h += '</div>';
             h += Edicao.acoesDia(r, i, d);
         });
-        return R.secao('sec-cronograma', 'Dia a dia', '📅 Cronograma detalhado', h, '📅 Cronograma', 'Programação hora a hora, com deslocamentos, refeições e justificativa de cada atração selecionada.');
+        return R.secao('sec-cronograma', 'Dia a dia', '📅 Cronograma detalhado', h, '📅 Cronograma', 'Programação hora a hora, com deslocamentos e justificativa de cada atração selecionada. Horários de almoço e jantar entram no cálculo de cada dia, mas ficam na aba Alimentação, não listados aqui.');
     },
 
     /* --------------------------------------------------------------- ATRAÇÕES */
