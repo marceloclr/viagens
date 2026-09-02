@@ -3,7 +3,81 @@
     "cidadeId": "jerusalem",
     "titulo": "Jerusalém — Mahane Yehuda e comida de rua",
     "texto": "O Mercado de Mahane Yehuda concentra bancas de falafel, hummus e pão recheado a preço acessível, virando point noturno de bares depois do expediente. Muitos estabelecimentos seguem regras de kashrut e fecham do pôr do sol de sexta ao pôr do sol de sábado — checar antes de planejar o Shabat.",
-    "tags": ["street_food", "tradicional", "economica"]
+    "tags": ["street_food", "tradicional", "economica"],
+    "locais": [
+      {
+        "id": "jer_rest_machneyuda",
+        "nome": "Machneyuda",
+        "zona": "cidade_nova",
+        "especialidade": "Cozinha israelense contemporânea, dentro do Mercado Mahane Yehuda",
+        "endereco": "10 Beit Yaakov St, Jerusalém, Israel",
+        "horario": {
+          "valor": "Domingo a quinta, das 12h30 às 16h e das 18h30 à meia-noite; sexta, das 11h30 às 13h; sábado, das 18h30 à meia-noite",
+          "tipo": "CADASTRADO",
+          "fonte": "en.machneyuda.co.il — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://en.machneyuda.co.il/",
+        "cardapio": null,
+        "fonte": "theworlds50best.com, itraveljerusalem.com, en.machneyuda.co.il — cobertura consolidada sobre o Machneyuda, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Batizado com o nome do mercado onde fica, é uma experiência tanto quanto uma refeição — cozinheiros batucam panelas e garçons dançam ao longo da noite, num dos restaurantes mais premiados de Israel."
+      },
+      {
+        "id": "jer_rest_abu_shukri",
+        "nome": "Abu Shukri",
+        "zona": "cidade_velha",
+        "especialidade": "Hummus tradicional, referência da Cidade Velha há mais de 70 anos",
+        "endereco": "63 Al-Wad Road (Via Dolorosa), Bairro Cristão, Cidade Velha, Jerusalém",
+        "horario": {
+          "valor": "Domingo e terça a sábado, das 8h às 16h; fecha às segundas",
+          "tipo": "CADASTRADO",
+          "fonte": "itraveljerusalem.com — cobertura consolidada sobre Abu Shukri, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "itraveljerusalem.com, easy.co.il — cobertura consolidada sobre Abu Shukri, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Casa de hummus simples junto à Via Dolorosa, próxima à 5ª estação — servindo a mesma receita de família há mais de 70 anos, é parada quase obrigatória para quem percorre a Cidade Velha."
+      },
+      {
+        "id": "jer_rest_ima",
+        "nome": "Ima Restaurant",
+        "zona": "givat_ram",
+        "especialidade": "Cozinha caseira judaico-iraquiana, certificada kosher",
+        "endereco": "Rechov Shmuel Baruch, 55, Jerusalém, Israel",
+        "horario": {
+          "valor": "Domingo a quinta, das 11h às 22h30; sexta, das 10h até uma hora antes do pôr do sol; fecha aos sábados (Shabat)",
+          "tipo": "CADASTRADO",
+          "fonte": "easy.co.il, itraveljerusalem.com — cobertura consolidada sobre o Ima Restaurant, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "itraveljerusalem.com, allaboutjerusalem.com, easy.co.il — cobertura consolidada sobre o Ima Restaurant, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Estabelecimento de 44 anos reconhecido como referência de cozinha caseira do Oriente Médio/iraquiana em Jerusalém, com kubeh e recheados — perto do Museu de Israel e de Yad Vashem, em Givat Ram."
+      },
+      {
+        "id": "jer_rest_burgersbar_german_colony",
+        "nome": "Burgersbar — German Colony",
+        "zona": "cidade_nova",
+        "especialidade": "Hambúrgueres kosher, carnes grelhadas",
+        "endereco": "Emek Refa'im St, 31, Jerusalém, 9090700, Israel",
+        "horario": {
+          "valor": "Segunda a quinta, das 11h à meia-noite; sexta, das 11h às 14h; sábado à noite, das 18h30 à meia-noite; domingo, das 11h à meia-noite",
+          "tipo": "CADASTRADO",
+          "fonte": "gokosher.com — cobertura consolidada sobre restaurantes kosher da German Colony, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "gokosher.com, itraveljerusalem.com — cobertura consolidada sobre restaurantes da German Colony, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Na animada Rua Emek Refa'im, coração do bairro German Colony (Colônia Alemã) — hambúrgueres kosher sob supervisão do Rabanato, com área externa."
+      }
+    ]
   },
   {
     "cidadeId": "belem",

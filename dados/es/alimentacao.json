@@ -3,7 +3,99 @@
     "cidadeId": "madrid",
     "titulo": "Madrid — menú del día e tapeo",
     "texto": "Almoço pelo menú del día em bar de bairro em La Latina ou Malasaña, com entrada, prato principal e sobremesa a preço fixo. À noite, tapeo de bar em bar é mais barato e mais típico que sentar num único restaurante turístico.",
-    "tags": ["economica", "tradicional", "street_food"]
+    "tags": ["economica", "tradicional", "street_food"],
+    "locais": [
+      {
+        "id": "mad_rest_botin",
+        "nome": "Casa Botín (Sobrino de Botín)",
+        "zona": "centro",
+        "especialidade": "O restaurante mais antigo do mundo (Guinness, desde 1725) — leitão e cordeiro assados",
+        "endereco": "Calle de Cuchilleros, 17, 28005 Madrid, Espanha",
+        "horario": {
+          "valor": "Diariamente, das 13h às 23h30",
+          "tipo": "CADASTRADO",
+          "fonte": "botin.es — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://botin.es/en/",
+        "cardapio": null,
+        "fonte": "botin.es, smithsonianmag.com, esmadrid.com — cobertura consolidada sobre o Restaurante Botín, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Fundado em 1725 no bairro histórico de Austrias, perto da Plaza Mayor — reconhecido pelo Guinness World Records como o restaurante mais antigo do mundo em funcionamento contínuo."
+      },
+      {
+        "id": "mad_rest_mercado_san_miguel",
+        "nome": "Mercado de San Miguel",
+        "zona": "centro",
+        "especialidade": "Mercado gastronômico histórico — tapas, vinhos e produtos frescos",
+        "endereco": "Plaza de San Miguel, s/n, 28005 Madrid, Espanha",
+        "horario": {
+          "valor": "Domingo a quinta, das 10h à 0h; sexta e sábado, das 10h à 1h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (localadventurer.com, visitspain.info), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "devourtours.com, en.wikipedia.org, visitspain.info — cobertura consolidada sobre o Mercado de San Miguel, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Último mercado de ferro remanescente de Madrid, no centro histórico — dezenas de bancas de tapas, vinhos e produtos ibéricos num só salão."
+      },
+      {
+        "id": "mad_rest_casa_lucio",
+        "nome": "Casa Lucio",
+        "zona": "centro",
+        "especialidade": "Cozinha castelhana tradicional, famosos huevos rotos",
+        "endereco": "Calle de la Cava Baja, 35, 28005 Madrid, Espanha",
+        "horario": {
+          "valor": "Diariamente, das 13h às 16h e das 20h30 à 0h — reserva praticamente obrigatória",
+          "tipo": "CADASTRADO",
+          "fonte": "devourtours.com — cobertura consolidada sobre tapas bars de La Latina, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "devourtours.com, ifema.es — cobertura consolidada sobre Casa Lucio e a rua Cava Baja, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Casa icônica da rua Cava Baja, coração do tapeio em La Latina — os huevos rotos con patatas y jamón são o prato mais pedido, com clientela que já incluiu a realeza espanhola."
+      },
+      {
+        "id": "mad_rest_cruz_blanca_murallas",
+        "nome": "Cruz Blanca Las Murallas",
+        "zona": "retiro",
+        "especialidade": "Cozinha tradicional madrilenha, cocido madrileño",
+        "endereco": "Av. Menéndez Pelayo, 47, 28009 Madrid, Espanha",
+        "horario": {
+          "valor": "Segunda a quinta e domingo, das 7h à 0h; sexta e sábado, das 7h às 0h30",
+          "tipo": "CADASTRADO",
+          "fonte": "cruzblancalasmurallas.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://cruzblancalasmurallas.com/",
+        "cardapio": null,
+        "fonte": "cruzblancalasmurallas.com — sítio oficial, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Em frente a um dos portões principais do Parque do Retiro, no bairro de Ibiza — referência de cocido madrileño e cozinha castiça tradicional."
+      },
+      {
+        "id": "mad_rest_casa_de_cristal",
+        "nome": "La Casa de Cristal",
+        "zona": "chamartin",
+        "especialidade": "Cocido madrileño servido em puchero individual de barro",
+        "endereco": "Calle Pedro Muguruza, 1, 28036 Madrid, Espanha",
+        "horario": {
+          "valor": "Terça a sábado, das 13h30 às 17h30 e das 20h à 1h; segunda e domingo, das 13h30 às 17h30",
+          "tipo": "CADASTRADO",
+          "fonte": "hitcooking.com, cocidomadrid.com — cobertura consolidada sobre La Casa de Cristal, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "hitcooking.com, cocidomadrid.com, teveoenmadrid.com — cobertura consolidada sobre La Casa de Cristal, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "No bairro nobre de Chamartín, perto do Estádio Santiago Bernabéu — prepara apenas 8 a 10 cocidos por dia, em puchero de barro individual, por isso reserva antecipada é recomendada."
+      }
+    ]
   },
   {
     "cidadeId": "barcelona",

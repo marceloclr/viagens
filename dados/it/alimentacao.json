@@ -7,6 +7,98 @@
       "economica",
       "tradicional",
       "regional"
+    ],
+    "locais": [
+      {
+        "id": "roma_rest_pizzarium_bonci",
+        "nome": "Pizzarium Bonci",
+        "zona": "vaticano",
+        "especialidade": "Pizza al taglio de fermentação longa, criada por Gabriele Bonci",
+        "endereco": "Via della Meloria, 43, 00136 Roma RM, Itália",
+        "horario": {
+          "valor": "Segunda a sábado, das 11h às 22h; domingo, das 12h às 16h e das 18h às 22h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias gastronômicos (romapravoce.com, timeout.com, afar.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "romapravoce.com, foodtourrome.com, timeout.com — cobertura consolidada sobre o Pizzarium, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "A 5 minutos a pé da saída dos Museus Vaticanos, é considerada a melhor pizza al taglio de Roma — pedaços vendidos por peso, para comer em pé ou levar."
+      },
+      {
+        "id": "roma_rest_da_enzo_al_29",
+        "nome": "Da Enzo al 29",
+        "zona": "trastevere",
+        "especialidade": "Trattoria romana clássica — carbonara e alcachofras fritas",
+        "endereco": "Via dei Vascellari, 29, 00153 Roma RM, Itália",
+        "horario": {
+          "valor": "Segunda a sábado, das 12h30 às 15h e das 19h30 às 23h; fecha aos domingos",
+          "tipo": "CADASTRADO",
+          "fonte": "daenzoal29.com — sítio oficial, e cobertura consolidada (turismoroma.it, theinfatuation.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.daenzoal29.com/en/",
+        "cardapio": null,
+        "fonte": "turismoroma.it, theinfatuation.com, eatingeurope.com — cobertura consolidada sobre Da Enzo al 29, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Trattoria minúscula de Trastevere, sem reservas, com fila garantida — uma das referências mais citadas de cozinha romana tradicional na cidade."
+      },
+      {
+        "id": "roma_rest_roscioli",
+        "nome": "Roscioli",
+        "zona": "centro_storico",
+        "especialidade": "Salumeria com cozinha — carbonara, charcutaria e vinhos",
+        "endereco": "Via dei Giubbonari, 21, 00186 Roma RM, Itália",
+        "horario": {
+          "valor": "Segunda a sexta, das 7h às 23h30; sábado, a partir das 7h",
+          "tipo": "CADASTRADO",
+          "fonte": "salumeriaroscioli.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://salumeriaroscioli.com/en",
+        "cardapio": null,
+        "fonte": "salumeriaroscioli.com, guide.michelin.com, theinfatuation.com — cobertura consolidada sobre o Roscioli, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Charcutaria e mercearia gourmet com cozinha própria perto de Campo de' Fiori — reserva com semanas de antecedência é rotineiramente recomendada, tamanha a procura."
+      },
+      {
+        "id": "roma_rest_flavio_velavevodetto",
+        "nome": "Flavio al Velavevodetto",
+        "zona": "ostiense",
+        "especialidade": "Cozinha romana tradicional em gruta escavada no Monte dei Cocci",
+        "endereco": "Via di Monte Testaccio, 97, 00153 Roma RM, Itália",
+        "horario": {
+          "valor": "Diariamente, das 12h30 às 15h e das 19h30 às 23h",
+          "tipo": "CADASTRADO",
+          "fonte": "ristorantevelavevodetto.it — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.ristorantevelavevodetto.it/en/restaurants/roma-testaccio/",
+        "cardapio": null,
+        "fonte": "ristorantevelavevodetto.it, katieparla.com — cobertura consolidada sobre o Flavio al Velavevodetto, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "No bairro de Testaccio, ao pé do Monte dei Cocci (colina formada por cacos de ânforas romanas), com parte da sala escavada na própria colina — referência de cozinha romana autêntica e pouco turística."
+      },
+      {
+        "id": "roma_rest_ai_tre_scalini",
+        "nome": "Ai Tre Scalini",
+        "zona": "monti_esquilino",
+        "especialidade": "Enoteca com cozinha desde 1895 — pratos romanos para acompanhar o vinho",
+        "endereco": "Via Panisperna, 251, 00184 Roma RM, Itália",
+        "horario": {
+          "valor": "Diariamente, das 12h às 22h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias gastronômicos (yelp.com, mesprestiges.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "Cobertura consolidada de guias gastronômicos (novacircle.com, mesprestiges.com, gayot.com), consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Bottiglieria de 1895 no coração do Rione Monti, entre a Estação Termini e o Fórum Romano — extensa carta de vinhos por taça combinada com cozinha romana de acompanhamento."
+      }
     ]
   },
   {

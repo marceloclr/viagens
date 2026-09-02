@@ -7,6 +7,98 @@
       "economica",
       "gastronomica",
       "tradicional"
+    ],
+    "locais": [
+      {
+        "id": "paris_rest_angelina",
+        "nome": "Angelina",
+        "zona": "louvre_rivoli",
+        "especialidade": "Salão de chá histórico — chocolat chaud l'Africain e Mont Blanc",
+        "endereco": "226 Rue de Rivoli, 75001 Paris, França",
+        "horario": {
+          "valor": "Segunda a quinta, das 8h às 19h30; sexta a domingo, das 8h às 20h",
+          "tipo": "CADASTRADO",
+          "fonte": "salon-de-the.angelina-paris.fr — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://salon-de-the.angelina-paris.fr/en/pastry-shop/rue-de-rivoli-paris-1/",
+        "cardapio": null,
+        "fonte": "salon-de-the.angelina-paris.fr, bonjourparis.com, afar.com — cobertura consolidada sobre o Angelina, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Salão de chá parisiense desde 1903, em frente ao Jardim das Tulherias — famoso pelo chocolate quente denso l'Africain, servido com chantilly à parte."
+      },
+      {
+        "id": "paris_rest_bistro_perigord",
+        "nome": "Le Bistro du Périgord",
+        "zona": "quartier_latin",
+        "especialidade": "Bistrô tradicional francês, cozinha do Périgord",
+        "endereco": "71 Rue Saint-Jacques, 75005 Paris, França",
+        "horario": {
+          "valor": "Segunda a sábado, das 7h às 22h30; fecha aos domingos",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias de viagem (dicaparis.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "dicaparis.com — cobertura consolidada sobre bistrôs do Quartier Latin, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Bistrô de bairro no coração do Quartier Latin, perto da Sorbonne — cardápio tradicional francês a preço mais justo que o entorno imediato de Notre-Dame."
+      },
+      {
+        "id": "paris_rest_le_consulat",
+        "nome": "Le Consulat",
+        "zona": "montmartre",
+        "especialidade": "Café histórico de Montmartre, cozinha de bistrô",
+        "endereco": "18 Rue Norvins, 75018 Paris, França",
+        "horario": {
+          "valor": "Diariamente, das 11h às 22h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (tripadvisor.com, yelp.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "girlwiththepassport.com, tripadvisor.com — cobertura consolidada sobre Le Consulat, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Fachada pitoresca do século XIX na Rue Norvins, a rua mais fotografada de Montmartre — ponto de parada clássico a caminho da Basílica de Sacré-Cœur."
+      },
+      {
+        "id": "paris_rest_berthillon",
+        "nome": "Berthillon",
+        "zona": "ile_cite",
+        "especialidade": "Sorveteria artesanal francesa, sem conservantes",
+        "endereco": "31 Rue Saint-Louis-en-l'Île, 75004 Paris, França",
+        "horario": {
+          "valor": "Quarta a domingo, das 10h às 20h; fecha às segundas e terças",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (tripadvisor.com, urbansider.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "en.wikipedia.org, parisbymouth.com, visitparisregion.com — cobertura consolidada sobre a Maison Berthillon, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Sorveteria parisiense de referência desde 1954, na Île Saint-Louis a poucos passos da Île de la Cité e de Notre-Dame — fila é normal em dias de sol."
+      },
+      {
+        "id": "paris_rest_cafe_de_lhomme",
+        "nome": "Le Café de l'Homme",
+        "zona": "eiffel_trocadero",
+        "especialidade": "Terraço com vista panorâmica para a Torre Eiffel",
+        "endereco": "17 Place du Trocadéro et du 11 Novembre, 75116 Paris, França",
+        "horario": {
+          "valor": "Diariamente, das 12h às 2h",
+          "tipo": "CADASTRADO",
+          "fonte": "sortiraparis.com — cobertura consolidada sobre restaurantes com vista para a Torre Eiffel, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "sortiraparis.com, obonparis.com — cobertura consolidada sobre Le Café de l'Homme, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "No terraço do Trocadéro, com uma das vistas mais fotografadas da Torre Eiffel — sala principal em estilo art déco, reserva recomendada para mesa na varanda."
+      }
     ]
   },
   {

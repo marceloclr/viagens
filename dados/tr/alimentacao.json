@@ -3,7 +3,99 @@
     "cidadeId": "istambul",
     "titulo": "Istambul — balık ekmek e mercado de Kadıköy",
     "texto": "O balık ekmek (sanduíche de peixe grelhado) vendido nos barcos de Eminönü é a referência de comida de rua barata à beira do Bósforo. Do lado asiático, o mercado de Kadıköy reúne lokantas tradicionais com preço mais justo que o lado europeu turístico.",
-    "tags": ["street_food", "tradicional", "economica"]
+    "tags": ["street_food", "tradicional", "economica"],
+    "locais": [
+      {
+        "id": "ist_rest_balikci_sabahattin",
+        "nome": "Balıkçı Sabahattin",
+        "zona": "sultanahmet",
+        "especialidade": "Peixaria tradicional em mansão otomana restaurada",
+        "endereco": "Cankurtaran Mh., Seyit Hasan Kuyu Sok. No:1, 34122 Istambul, Turquia",
+        "horario": {
+          "valor": "Diariamente, das 12h às 2h",
+          "tipo": "CADASTRADO",
+          "fonte": "balikcisabahattin.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.balikcisabahattin.com/?lang=en",
+        "cardapio": null,
+        "fonte": "balikcisabahattin.com, turkeytravelplanner.com, frommers.com — cobertura consolidada sobre o Balıkçı Sabahattin, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Instalado numa mansão otomana de 1927 numa rua tranquila atrás de Hagia Sophia e da Mesquita Azul — um dos restaurantes de peixe mais queridos de Istambul."
+      },
+      {
+        "id": "ist_rest_deraliye",
+        "nome": "Deraliye Ottoman Cuisine",
+        "zona": "sultanahmet",
+        "especialidade": "Cozinha otomana de palácio, receitas históricas recriadas",
+        "endereco": "Divanyolu Cad., Alemdar Mah., Ticarethane Sk. No:10, Sultanahmet, Istambul, Turquia",
+        "horario": {
+          "valor": "Diariamente, das 12h às 23h30",
+          "tipo": "CADASTRADO",
+          "fonte": "deraliyerestaurant.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://deraliyerestaurant.com/",
+        "cardapio": null,
+        "fonte": "deraliyerestaurant.com, guide.michelin.com — cobertura consolidada sobre o Deraliye, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "A poucos passos de Hagia Sophia, recria mais de 400 receitas de palácio otomano pesquisadas pelo chef Necati Yılmaz, em decoração inspirada no período imperial."
+      },
+      {
+        "id": "ist_rest_pandeli",
+        "nome": "Pandeli",
+        "zona": "beyazit",
+        "especialidade": "Restaurante histórico dentro do Bazar de Especiarias",
+        "endereco": "Mısır Çarşısı No.1 (2º andar, acima do portão principal), Eminönü/Fatih, Istambul, Turquia",
+        "horario": {
+          "valor": "Segunda a sábado, aproximadamente das 11h30 às 16h (almoço)",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias gastronômicos (theothertour.com, deliciousbaby.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "guide.michelin.com, theothertour.com, istanbultourstudio.com — cobertura consolidada sobre o Pandeli, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Instalado desde o início do século XX sobre o portão principal do Bazar de Especiarias, com azulejos azuis históricos — uma das casas mais antigas e citadas de Istambul."
+      },
+      {
+        "id": "ist_rest_park_fora",
+        "nome": "Park Fora",
+        "zona": "besiktas",
+        "especialidade": "Peixaria de alto padrão à beira do Bósforo",
+        "endereco": "Muallim Naci Cd. No:54/A, Kuruçeşme, Beşiktaş, Istambul, Turquia",
+        "horario": {
+          "valor": "Diariamente, das 12h às 0h",
+          "tipo": "CADASTRADO",
+          "fonte": "yummyistanbul.com — cobertura consolidada sobre restaurantes de Beşiktaş, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "yummyistanbul.com — cobertura consolidada sobre restaurantes de Beşiktaş, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Na orla de Kuruçeşme, dentro do distrito de Beşiktaş — décadas de tradição em peixe fresco do Bósforo, com terraço à beira d'água."
+      },
+      {
+        "id": "ist_rest_vefa_bozacisi",
+        "nome": "Vefa Bozacısı",
+        "zona": "vefa",
+        "especialidade": "Casa histórica de boza (bebida fermentada de trigo) desde 1876",
+        "endereco": "Molla Hüsrev, Vefa Cd. No:66, 34134 Fatih/Istambul, Turquia",
+        "horario": {
+          "valor": "Diariamente, das 8h à meia-noite",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (culinarybackstreets.com, cornucopia.net), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "culinarybackstreets.com, cornucopia.net, istanbulfood.com — cobertura consolidada sobre a Vefa Bozacısı, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Fundada em 1876, é a casa mais tradicional de boza da cidade — Atatürk foi cliente, e o copo que usou ainda está exposto na loja. Melhor entre outubro e março, quando a bebida está na temporada."
+      }
+    ]
   },
   {
     "cidadeId": "efeso",

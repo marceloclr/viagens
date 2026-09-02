@@ -3,7 +3,99 @@
     "cidadeId": "lisboa",
     "titulo": "Lisboa — tascas de bairro e pastéis de Belém",
     "texto": "Almoço de prato do dia em tasca de bairro na Mouraria ou em Alfama custa uma fração do mesmo prato perto do Terreiro do Paço. O pastel de nata é obrigatório — a versão original é da Fábrica dos Pastéis de Belém, mas boas padarias por toda a cidade servem versões honestas.",
-    "tags": ["tradicional", "economica", "street_food"]
+    "tags": ["tradicional", "economica", "street_food"],
+    "locais": [
+      {
+        "id": "lis_rest_pasteis_belem",
+        "nome": "Pastéis de Belém",
+        "zona": "belem",
+        "especialidade": "Pastel de nata original, receita secreta do Mosteiro dos Jerónimos",
+        "endereco": "Rua de Belém, 84-92, 1300-085 Lisboa, Portugal",
+        "horario": {
+          "valor": "Diariamente, das 8h às 23h (até meia-noite de julho a setembro)",
+          "tipo": "CADASTRADO",
+          "fonte": "pasteisdebelem.pt — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://pasteisdebelem.pt/en/",
+        "cardapio": null,
+        "fonte": "pasteisdebelem.pt, dedmundoafora.com.br, essemundoenosso.com.br — cobertura consolidada sobre a Fábrica dos Pastéis de Belém, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Casa original do pastel de nata desde 1837, com receita secreta herdada do Mosteiro dos Jerónimos — só aqui a versão pode levar o nome 'Pastel de Belém'. Fica a poucos passos do Mosteiro e da Torre de Belém."
+      },
+      {
+        "id": "lis_rest_cervejaria_ramiro",
+        "nome": "Cervejaria Ramiro",
+        "zona": "baixa_chiado",
+        "especialidade": "Marisqueira — camarão, lagosta e amêijoas",
+        "endereco": "Av. Almirante Reis, 1-H, 1150-007 Lisboa, Portugal",
+        "horario": {
+          "valor": "Terça a domingo, das 12h às 0h30; fecha às segundas",
+          "tipo": "CADASTRADO",
+          "fonte": "cervejariaramiro.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.cervejariaramiro.com/?lang=en",
+        "cardapio": null,
+        "fonte": "cervejariaramiro.com, migrationology.com, visitportugal.com — cobertura consolidada sobre a Cervejaria Ramiro, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Marisqueira aberta em 1956, a mais internacionalmente citada de Lisboa — fila é rotina, sem reservas. Fica na Avenida Almirante Reis, cerca de 15 minutos a pé da Baixa."
+      },
+      {
+        "id": "lis_rest_parreirinha_alfama",
+        "nome": "Parreirinha de Alfama",
+        "zona": "alfama",
+        "especialidade": "Casa de fado tradicional desde 1950 — cozinha portuguesa",
+        "endereco": "Rua de São Miguel, 20, 1100-542 Lisboa, Portugal",
+        "horario": {
+          "valor": "Jantar com fado a partir das 21h, de quinta a sábado — confirmar dias de funcionamento direto com a casa",
+          "tipo": "CADASTRADO",
+          "fonte": "portugaldenorteasul.pt, lisbonguru.com — cobertura consolidada sobre casas de fado em Alfama, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "portugaldenorteasul.pt, lisbonguru.com — cobertura consolidada sobre casas de fado em Alfama, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Uma das casas de fado mais antigas de Alfama, combinando jantar tradicional português com apresentações ao vivo de fado desde 1950, em interior de azulejos rústicos."
+      },
+      {
+        "id": "lis_rest_confeitaria_nacional",
+        "nome": "Confeitaria Nacional",
+        "zona": "baixa_chiado",
+        "especialidade": "Confeitaria portuguesa mais antiga de Lisboa, doces tradicionais",
+        "endereco": "Praça da Figueira, 18B, 1100-241 Lisboa, Portugal",
+        "horario": {
+          "valor": "Segunda a quinta, das 8h às 20h; sexta e sábado, das 8h às 21h; domingo, das 9h às 21h",
+          "tipo": "CADASTRADO",
+          "fonte": "confeitarianacional.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://confeitarianacional.com/en/confeitaria-nacional-lisbon/",
+        "cardapio": null,
+        "fonte": "confeitarianacional.com, quantocustaviajar.com — cobertura consolidada sobre a Confeitaria Nacional, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "De portas abertas desde 1829 na Praça da Figueira, é a confeitaria mais antiga de Lisboa ainda em funcionamento e sempre da mesma família."
+      },
+      {
+        "id": "lis_rest_dbacalhau",
+        "nome": "D'Bacalhau",
+        "zona": "parque_das_nacoes",
+        "especialidade": "Restaurante dedicado ao bacalhau, à beira do Tejo",
+        "endereco": "Rua da Pimenta, 43/45, 1990-254 Lisboa, Portugal",
+        "horario": {
+          "valor": "Segunda a quinta, das 11h às 23h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (visitlisboa.com, thefork.pt), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://restaurantebacalhau.com/",
+        "cardapio": null,
+        "fonte": "visitlisboa.com, maismagazine.pt, thefork.pt — cobertura consolidada sobre o D'Bacalhau, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Na zona ribeirinha do Parque das Nações, com vista para o Tejo — dedicado inteiramente às múltiplas formas de preparar o bacalhau, a poucos minutos do Oceanário."
+      }
+    ]
   },
   {
     "cidadeId": "porto",

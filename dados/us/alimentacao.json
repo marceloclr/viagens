@@ -3,19 +3,295 @@
     "cidadeId": "miami",
     "titulo": "Miami — cubana em Little Havana e cardápios latinos por toda a cidade",
     "texto": "A Calle Ocho, em Little Havana, concentra lanchonetes e restaurantes cubanos tradicionais — o Versailles (3555 SW 8th St, aberto desde 1971) é o ponto de referência da comunidade cubano-americana, com preços moderados para porções generosas. Fora desse eixo, a cena gastronômica de Miami é amplamente latino-americana (venezuelana, peruana, colombiana) e cara nos bairros turísticos como South Beach — vale reservar para Little Havana ou Wynwood as refeições mais econômicas.",
-    "tags": ["regional", "tradicional", "economica"]
+    "tags": ["regional", "tradicional", "economica"],
+    "locais": [
+      {
+        "id": "mia_rest_versailles",
+        "nome": "Versailles",
+        "zona": "little_havana",
+        "especialidade": "Cozinha cubana tradicional — referência da comunidade cubano-americana",
+        "endereco": "3555 SW 8th St, Miami, FL 33135, EUA",
+        "horario": {
+          "valor": "Segunda a quinta, das 8h à meia-noite; sexta e sábado, das 8h à 1h; domingo, das 9h à meia-noite",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (miamiandbeaches.com, 3guysfrommiami.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.versaillesrestaurant.com/",
+        "cardapio": null,
+        "fonte": "en.wikipedia.org, 3guysfrommiami.com, calleocho.com — cobertura consolidada sobre o Versailles, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Fundado em 1971 por Felipe A. Valls Sr., é o restaurante cubano mais famoso dos Estados Unidos — ponto de encontro histórico da comunidade cubano-americana no coração da Calle Ocho."
+      },
+      {
+        "id": "mia_rest_joes_stone_crab",
+        "nome": "Joe's Stone Crab",
+        "zona": "south_beach",
+        "especialidade": "Instituição de frutos do mar desde 1913 — caranguejo-de-pedra sazonal",
+        "endereco": "11 Washington Ave, Miami Beach, FL 33139, EUA",
+        "horario": {
+          "valor": "Quarta e quinta, das 17h às 22h; sexta a domingo, das 11h30 às 14h30 e das 17h às 22h; fecha segunda e terça",
+          "tipo": "CADASTRADO",
+          "fonte": "joesstonecrab.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.joesstonecrab.com/",
+        "cardapio": null,
+        "fonte": "joesstonecrab.com, visitflorida.com — cobertura consolidada sobre o Joe's Stone Crab, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Restaurante de quarta geração familiar desde 1913, lendário pelo caranguejo-de-pedra — a temporada vai de outubro a maio, quando a pesca é permitida na Flórida."
+      },
+      {
+        "id": "mia_rest_r_house_wynwood",
+        "nome": "R House Wynwood",
+        "zona": "wynwood",
+        "especialidade": "Cozinha americana contemporânea em galeria de arte",
+        "endereco": "2727 NW 2nd Ave, Miami, FL 33127, EUA",
+        "horario": {
+          "valor": "Quarta e quinta, das 15h às 22h; sexta, das 15h à meia-noite; sábado, das 12h à meia-noite; domingo, das 11h30 às 16h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (theinfatuation.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "theinfatuation.com — cobertura consolidada sobre restaurantes de Wynwood, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Restaurante-galeria no coração do distrito de arte de Wynwood, famoso pelo brunch com drag show aos fins de semana — cardápio americano contemporâneo cercado de arte urbana."
+      },
+      {
+        "id": "mia_rest_whip_n_dip",
+        "nome": "Whip 'n Dip Ice Cream Shoppe",
+        "zona": "coral_gables",
+        "especialidade": "Sorveteria artesanal familiar desde 1985",
+        "endereco": "1407 Sunset Dr, Coral Gables, FL 33143, EUA",
+        "horario": {
+          "valor": "Diariamente, das 11h às 22h30 (sexta e sábado até 23h30)",
+          "tipo": "CADASTRADO",
+          "fonte": "whipndip.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.whipndip.com/",
+        "cardapio": null,
+        "fonte": "whipndip.com, theinfatuation.com, miaminewtimes.com — cobertura consolidada sobre o Whip 'n Dip, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Sorveteria familiar de Coral Gables desde 1985, eleita a melhor sorveteria artesanal de Miami — sabores rotativos, feitos e servidos até acabar o lote do dia."
+      },
+      {
+        "id": "mia_rest_le_bouchon_du_grove",
+        "nome": "Le Bouchon du Grove",
+        "zona": "coconut_grove",
+        "especialidade": "Bistrô francês tradicional em Coconut Grove",
+        "endereco": "3430 Main Highway, Coconut Grove, Miami, FL 33133, EUA",
+        "horario": {
+          "valor": "Terça a quinta, das 9h30 às 15h e das 18h às 23h; sexta e sábado, das 8h30 às 15h e das 18h à meia-noite; domingo, das 8h30 às 15h e das 18h às 23h; fecha às segundas",
+          "tipo": "CADASTRADO",
+          "fonte": "theinfatuation.com — cobertura consolidada sobre restaurantes clássicos de Coconut Grove, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "theinfatuation.com — cobertura consolidada sobre restaurantes clássicos de Coconut Grove, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Bistrô francês de mesas próximas e clima aconchegante no coração de Coconut Grove — terrine de foie gras caseira e sopa de cebola entre os clássicos do cardápio."
+      }
+    ]
   },
   {
     "cidadeId": "orlando",
     "titulo": "Orlando — comer dentro e fora dos parques",
     "texto": "Dentro dos parques Disney e Universal, refeição completa facilmente passa de US$20–30 por pessoa em restaurantes de serviço rápido; vale reservar table-service com antecedência para os dias de parque inteiro. Fora dos portões, a região de International Drive e a área de Restaurant Row (Sand Lake Rd) concentram opções mais baratas e variadas, do buffet internacional à cozinha internacional de qualidade — cozinhar no próprio alojamento (comum em resorts com kitchenette na região) é a forma mais econômica de reduzir o custo de uma estadia longa.",
-    "tags": ["economica", "cozinha_propria"]
+    "tags": ["economica", "cozinha_propria"],
+    "locais": [
+      {
+        "id": "orl_rest_boathouse",
+        "nome": "The Boathouse",
+        "zona": "lake_buena_vista",
+        "especialidade": "Frutos do mar e carnes à beira do lago, em Disney Springs",
+        "endereco": "1620 E Buena Vista Dr, Lake Buena Vista, FL 32830, EUA",
+        "horario": {
+          "valor": "Segunda a quinta, das 11h às 23h; sexta, das 11h às 23h30; sábado, das 10h às 23h30; domingo, das 10h às 23h",
+          "tipo": "CADASTRADO",
+          "fonte": "theboathouseorlando.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://theboathouseorlando.com/",
+        "cardapio": null,
+        "fonte": "theboathouseorlando.com, wdwinfo.com — cobertura consolidada sobre o The Boathouse, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Eleito o restaurante nº1 de Disney Springs pelo USA Today — vista para o lago, com os icônicos 'anfíbicars' (barcos-carro) passando pela água."
+      },
+      {
+        "id": "orl_rest_toothsome",
+        "nome": "Toothsome Chocolate Emporium & Savory Feast Kitchen",
+        "zona": "universal",
+        "especialidade": "Restaurante temático steampunk, sobremesas de chocolate e milkshakes",
+        "endereco": "6000 Universal Blvd, Orlando, FL 32819, EUA",
+        "horario": {
+          "valor": "Segunda a quinta e domingo, das 10h30 às 22h; sexta e sábado, das 10h30 às 22h30",
+          "tipo": "CADASTRADO",
+          "fonte": "universalorlando.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.universalorlando.com/web/en/us/things-to-do/dining/toothsome-chocolate-emporium-and-savory-feast-kitchen",
+        "cardapio": null,
+        "fonte": "universalorlando.com, orlandoinformer.com — cobertura consolidada sobre o Toothsome Chocolate Emporium, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Na entrada do CityWalk da Universal, com decoração de ficção científica vitoriana — famoso pelos milkshakes temáticos e sobremesas de chocolate, além de cardápio salgado completo."
+      },
+      {
+        "id": "orl_rest_cedars",
+        "nome": "Cedar's Restaurant",
+        "zona": "international_drive",
+        "especialidade": "Cozinha libanesa/mediterrânea desde 1983, em Restaurant Row",
+        "endereco": "7732 W Sand Lake Rd, Orlando, FL 32819, EUA",
+        "horario": {
+          "valor": "Segunda a quinta, das 11h30 às 21h30; sexta, das 11h30 às 22h30; sábado, das 11h30 à meia-noite; domingo, das 12h às 21h30",
+          "tipo": "CADASTRADO",
+          "fonte": "cedarsorlando.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.cedarsorlando.com/",
+        "cardapio": null,
+        "fonte": "cedarsorlando.com, orlandogastronomie.com — cobertura consolidada sobre o Cedar's Restaurant, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Um dos restaurantes mais antigos de Restaurant Row (Sand Lake Road), perto de International Drive — homus, tabule e grelhados libaneses fora do circuito dos parques."
+      },
+      {
+        "id": "orl_rest_boheme",
+        "nome": "The Bohème",
+        "zona": "downtown",
+        "especialidade": "Cozinha americana contemporânea no Grand Bohemian Hotel",
+        "endereco": "325 S Orange Ave, Orlando, FL 32801, EUA",
+        "horario": {
+          "valor": "Segunda a sábado, das 7h às 22h; domingo, das 7h às 21h (brunch aos domingos, das 10h às 14h)",
+          "tipo": "CADASTRADO",
+          "fonte": "theboheme.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.theboheme.com/",
+        "cardapio": null,
+        "fonte": "theboheme.com, visitorlando.com — cobertura consolidada sobre o The Bohème, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Dentro do hotel-galeria Grand Bohemian, no centro de Orlando — opção de cozinha americana contemporânea fora do circuito dos parques, com coleção de arte espalhada pelo salão."
+      }
+    ]
   },
   {
     "cidadeId": "nova_york",
     "titulo": "Nova York — clássicos de rua e food halls",
     "texto": "A fatia de pizza dobrada no guardanapo (Joe's Pizza, Greenwich Village) e o pastrami do Katz's Delicatessen (Lower East Side, desde 1888) são referências obrigatórias de baixo custo relativo. Para variedade num só lugar, o Chelsea Market — antiga fábrica Nabisco, perto do acesso sul do High Line — reúne dezenas de bancas; food trucks halal e carrinhos de pretzel completam as opções de rua mais econômicas da cidade.",
-    "tags": ["street_food", "economica", "tradicional"]
+    "tags": ["street_food", "economica", "tradicional"],
+    "locais": [
+      {
+        "id": "nyc_rest_joes_pizza",
+        "nome": "Joe's Pizza",
+        "zona": "lower_manhattan",
+        "especialidade": "Fatia de pizza nova-iorquina clássica desde 1975",
+        "endereco": "7 Carmine St, New York, NY 10014, EUA",
+        "horario": {
+          "valor": "Domingo a quarta, das 10h às 3h; quinta, das 10h às 3h; sexta e sábado, das 10h às 4h",
+          "tipo": "CADASTRADO",
+          "fonte": "joespizzanyc.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.joespizzanyc.com/",
+        "cardapio": null,
+        "fonte": "en.wikipedia.org, joespizzanyc.com — cobertura consolidada sobre o Joe's Pizza, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Aberto em 1975 em Greenwich Village, é uma das referências mais citadas de fatia de pizza nova-iorquina clássica — comer em pé, dobrada ao meio, é o ritual local."
+      },
+      {
+        "id": "nyc_rest_katz_deli",
+        "nome": "Katz's Delicatessen",
+        "zona": "lower_manhattan",
+        "especialidade": "Delicatessen judaica desde 1888 — sanduíche de pastrami",
+        "endereco": "205 E Houston St, New York, NY 10002, EUA",
+        "horario": {
+          "valor": "Segunda a quinta, das 8h às 23h; sexta, das 8h às 23h30; sábado, 24 horas; domingo, das 0h às 23h",
+          "tipo": "CADASTRADO",
+          "fonte": "katzsdelicatessen.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://katzsdelicatessen.com/",
+        "cardapio": null,
+        "fonte": "en.wikipedia.org, katzsdelicatessen.com, nyctourism.com — cobertura consolidada sobre o Katz's Delicatessen, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Delicatessen mais antiga de Nova York, desde 1888, no Lower East Side — o sanduíche de pastrami fatiado à mão é considerado um dos melhores da cidade."
+      },
+      {
+        "id": "nyc_rest_chelsea_market",
+        "nome": "Chelsea Market",
+        "zona": "chelsea",
+        "especialidade": "Food hall histórico — dezenas de bancas de comida variada",
+        "endereco": "75 9th Ave, New York, NY 10011, EUA",
+        "horario": {
+          "valor": "Diariamente, das 7h às 22h (horário varia por banca)",
+          "tipo": "CADASTRADO",
+          "fonte": "chelseamarket.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.chelseamarket.com/",
+        "cardapio": null,
+        "fonte": "chelseamarket.com — sítio oficial, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Antiga fábrica de biscoitos Nabisco (onde o Oreo foi inventado), hoje um food hall com dezenas de bancas — perto do acesso sul do High Line."
+      },
+      {
+        "id": "nyc_rest_zabars",
+        "nome": "Zabar's",
+        "zona": "upper_west_side",
+        "especialidade": "Mercearia/delicatessen judaica-nova-iorquina desde 1934",
+        "endereco": "2245 Broadway, New York, NY 10024, EUA",
+        "horario": {
+          "valor": "Segunda a sábado, das 8h às 19h30; domingo, das 9h às 18h",
+          "tipo": "CADASTRADO",
+          "fonte": "zabars.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.zabars.com/",
+        "cardapio": null,
+        "fonte": "zabars.com — sítio oficial, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Sede da Upper West Side desde 1934 — balcão de peixe defumado é a grande atração, ao lado de pães, queijos e produtos judaico-nova-iorquinos clássicos."
+      },
+      {
+        "id": "nyc_rest_jg_melon",
+        "nome": "J.G. Melon",
+        "zona": "upper_east_side",
+        "especialidade": "Bar-restaurante americano desde 1972 — hambúrgueres icônicos",
+        "endereco": "1291 3rd Ave, New York, NY 10021, EUA",
+        "horario": {
+          "valor": "Segunda a sábado, das 11h30 às 3h; domingo, das 11h30 à 1h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (goop.com, manhattan-nyc.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "en.wikipedia.org, goop.com — cobertura consolidada sobre o J.G. Melon, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Bar-restaurante americano de 1972 na Upper East Side, com hambúrgueres considerados entre os melhores da cidade — decoração despretensiosa com tema de melão."
+      },
+      {
+        "id": "nyc_rest_juniors",
+        "nome": "Junior's Restaurant & Cheesecake",
+        "zona": "midtown",
+        "especialidade": "Cheesecake nova-iorquino clássico, no coração da Times Square",
+        "endereco": "1626 Broadway (49th St), New York, NY 10019, EUA",
+        "horario": {
+          "valor": "Segunda a quinta e domingo, das 7h à meia-noite; sexta e sábado, das 7h à 1h",
+          "tipo": "CADASTRADO",
+          "fonte": "juniorscheesecake.com — sítio oficial, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.juniorscheesecake.com/",
+        "cardapio": null,
+        "fonte": "juniorscheesecake.com, timessquarenyc.org — cobertura consolidada sobre o Junior's, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "No coração do distrito teatral, perto da Times Square — o cheesecake nova-iorquino da casa é considerado referência da cidade, aberto até tarde todos os dias."
+      }
+    ]
   },
   {
     "cidadeId": "boston",
