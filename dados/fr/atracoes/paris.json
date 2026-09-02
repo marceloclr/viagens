@@ -120,6 +120,7 @@
     ],
     "prio": 95,
     "dur": 210,
+    "comidaLocal": true,
     "interior": true,
     "chuva": "alto",
     "idadeMin": 0,

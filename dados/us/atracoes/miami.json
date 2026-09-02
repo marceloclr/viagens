@@ -159,6 +159,7 @@
     "nome": "Zoo Miami",
     "zona": "sul_dade",
     "dur": 240,
+    "comidaLocal": true,
     "idadeMin": 0,
     "fechado": [],
     "endereco": "12400 SW 152nd St, Miami, FL 33177, EUA",

@@ -5,6 +5,7 @@
     "nome": "Wild Adventures Theme Park",
     "zona": "sul",
     "dur": 480,
+    "comidaLocal": true,
     "idadeMin": 0,
     "fechado": [],
     "endereco": "3766 Old Clyattville Rd, Valdosta, GA 31601, EUA",

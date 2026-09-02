@@ -5,6 +5,7 @@
     "nome": "Busch Gardens Tampa Bay",
     "zona": "busch_gardens",
     "dur": 480,
+    "comidaLocal": true,
     "idadeMin": 0,
     "fechado": [],
     "endereco": "10165 N McKinley Dr, Tampa, FL 33612, EUA",

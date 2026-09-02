@@ -2394,18 +2394,22 @@ function montarCronograma(cfg, dias, roteiro) {
                 t += d;
             }
 
-            /* Uma atração que avança sobre o horário de almoço/jantar (parques de Orlando,
-               por exemplo, onde o dia inteiro é passado dentro do parque) já contempla a
-               refeição por dentro — não insere bloco separado, só sinaliza na descrição.
-               Distinto do caso abaixo (t já passou do horário ao CHEGAR nesta atração),
-               em que a refeição precisa mesmo de um bloco próprio entre duas atrações. */
-            const cobreAlmoco = !almocoFeito && t <= ALMOCO_INI && t + a.dur > ALMOCO_INI;
-            const cobreJantar = !jantarFeito && t <= JANTAR_INI && t + a.dur > JANTAR_INI;
+            /* Uma atração que avança sobre o horário de almoço/jantar só é tratada como
+               "refeição incluída" quando ela própria tem alimentação disponível no local
+               (a.comidaLocal — parques temáticos, grandes museus com cafeteria, excursões
+               de dia inteiro com parada para comer, pousadas de selva com pensão completa).
+               Sem essa disponibilidade, a visita pode muito bem avançar sobre o horário sem
+               que haja onde comer ali dentro — a refeição continua precisando de um bloco
+               próprio, só que agora ENCAIXADO LOGO DEPOIS da atração, não antes dela. */
+            const abrangeAlmoco = t <= ALMOCO_INI && t + a.dur > ALMOCO_INI;
+            const abrangeJantar = t <= JANTAR_INI && t + a.dur > JANTAR_INI;
+            const cobreAlmoco = !almocoFeito && abrangeAlmoco && a.comidaLocal;
+            const cobreJantar = !jantarFeito && abrangeJantar && a.comidaLocal;
             const notasRefeicao = [];
 
             if (cobreAlmoco) {
                 almocoFeito = true;
-                notasRefeicao.push('Inclui o horário de almoço — refeição prevista dentro do local, como costuma ocorrer em parques temáticos.');
+                notasRefeicao.push('Inclui o horário de almoço — alimentação disponível no próprio local, sem necessidade de bloco separado.');
                 // idx > 0: nunca insere a refeição ANTES da primeira atração do dia — só depois
                 // que o roteiro já começou (ex.: chegada tardia empurrando "t" para depois das 12h30).
             } else if (!almocoFeito && idx > 0 && t >= ALMOCO_INI) {
@@ -2415,13 +2419,26 @@ function montarCronograma(cfg, dias, roteiro) {
             }
             if (cobreJantar) {
                 jantarFeito = true;
-                notasRefeicao.push('Inclui o horário de jantar — refeição prevista dentro do local, como costuma ocorrer em parques temáticos.');
+                notasRefeicao.push('Inclui o horário de jantar — alimentação disponível no próprio local, sem necessidade de bloco separado.');
             }
 
             blocos.push({ ini: t, fim: t + a.dur, tipo: 'atracao', icone: '📍', titulo: a.nome, atracaoId: a.id,
                 desc: a.desc + (notasRefeicao.length ? ' ' + notasRefeicao.join(' ') : ''), porque: item.porque, score: Math.round(item.score) });
             t += a.dur;
             zonaAtual = a.zona;
+
+            // Atração comprida sem alimentação no local: a refeição que ela varreu não
+            // desaparece — entra logo na saída, porque não havia como comer no meio da visita.
+            if (!almocoFeito && abrangeAlmoco && !a.comidaLocal) {
+                blocos.push({ ini: t, fim: t + 75, tipo: 'refeicao', icone: '🍽️', titulo: 'Almoço',
+                    desc: sugerirRefeicao(dia.cidadeId, a.zona, 'Encaixado logo depois de ' + a.nome + ', que tomou o horário do almoço.') });
+                t += 75; almocoFeito = true;
+            }
+            if (!jantarFeito && abrangeJantar && !a.comidaLocal) {
+                blocos.push({ ini: t, fim: t + 90, tipo: 'refeicao', icone: '🍷', titulo: 'Jantar',
+                    desc: sugerirRefeicao(dia.cidadeId, a.zona, 'Encaixado logo depois de ' + a.nome + ', que tomou o horário do jantar.') });
+                t += 90; jantarFeito = true;
+            }
         });
 
         if (!almocoFeito && dia.itens.length) {

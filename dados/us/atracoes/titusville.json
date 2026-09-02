@@ -5,6 +5,7 @@
     "nome": "Kennedy Space Center Visitor Complex",
     "zona": "merritt_island",
     "dur": 480,
+    "comidaLocal": true,
     "idadeMin": 0,
     "fechado": [],
     "endereco": "Space Commerce Way, Merritt Island, FL 32953, EUA",
