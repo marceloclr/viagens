@@ -1,6 +1,6 @@
 {
   "rotulos": {
-    "belem_pa": ["cidade_velha", "comercio", "nazare", "umarizal", "ilha_do_combu", "icoaraci"],
+    "belem_pa": ["cidade_velha", "comercio", "nazare", "umarizal", "ilha_do_combu", "icoaraci", "marco"],
     "manaus": ["centro_historico", "adrianopolis", "ponta_negra", "petropolis", "novo_airao"]
   },
   "coordenadas": {
@@ -10,7 +10,8 @@
       "nazare": { "lat": -1.4551, "lon": -48.4773 },
       "umarizal": { "lat": -1.4477, "lon": -48.4703 },
       "ilha_do_combu": { "lat": -1.4728, "lon": -48.4413 },
-      "icoaraci": { "lat": -1.2969, "lon": -48.4783 }
+      "icoaraci": { "lat": -1.2969, "lon": -48.4783 },
+      "marco": { "lat": -1.4380, "lon": -48.4600 }
     },
     "manaus": {
       "centro_historico": { "lat": -3.1301, "lon": -60.0231 },

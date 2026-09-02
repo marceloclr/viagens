@@ -184,6 +184,17 @@ const idsComAlimentacao = new Set(alimentacao.map(a => a.cidadeId));
 cidades.forEach(c => { if (!idsComAlimentacao.has(c.id)) aviso(c.__arq, c.nome + ' — sem estratégia alimentar cadastrada (alimentacao.json do país); a seção "Alimentação por cidade" ficará vazia para ela.'); });
 alimentacao.forEach(a => { if (!idsCidade.has(a.cidadeId)) erro(a.__arq, 'Estratégia alimentar aponta para cidade inexistente: ' + a.cidadeId); });
 
+/* Referências gastronômicas nominais (locais[]) seguem a mesma disciplina de proveniência
+   das atrações: id único, horário com selo, endereço declarado — nada nomeado sem fonte. */
+const locaisComida = [];
+alimentacao.forEach(a => (a.locais || []).forEach(l => locaisComida.push({ ...l, __arq: a.__arq })));
+unicos(locaisComida, 'referência gastronômica');
+locaisComida.forEach(l => {
+    conferirProveniencia(l.__arq, l.nome, 'horario', l.horario);
+    if (!l.endereco) aviso(l.__arq, l.nome + ' sem endereço — o link de mapa não será gerado.');
+    if (!l.fonte) erro(l.__arq, l.nome + ' — referência gastronômica sem fonte declarada.');
+});
+
 /* ------------------------------------------------------------------ RELATÓRIO */
 console.log('\n  ' + cidades.length + ' cidades · ' + sugeridas.length + ' sugeridas · ' + atracoes.length + ' atrações · ' + hospedagens.length +
     ' hospedagens · ' + trechos.length + ' trechos · ' + reps.length + ' repartições · ' + portos.length + ' portos · ' + voos.length + ' voos · ' + alimentacao.length + ' estratégias alimentares\n');

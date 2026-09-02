@@ -3,12 +3,196 @@
     "cidadeId": "belem_pa",
     "titulo": "Belém — Ver-o-Peso, açaí e tacacá de rua",
     "texto": "A gastronomia paraense é um dos maiores atrativos da cidade: tacacá servido em cuia nas bancas de rua ao entardecer, açaí batido na hora (aqui é acompanhamento salgado, não sobremesa doce) e peixes de rio como filhote e pirarucu. O Mercado Ver-o-Peso e a Estação das Docas concentram a maior variedade, mas restaurantes de bairro em Batista Campos e Nazaré costumam ter preço mais justo pela mesma qualidade.",
-    "tags": ["regional", "street_food", "tradicional"]
+    "tags": ["regional", "street_food", "tradicional"],
+    "locais": [
+      {
+        "id": "bel_rest_la_em_casa",
+        "nome": "Lá em Casa",
+        "zona": "comercio",
+        "especialidade": "Buffet de cozinha paraense tradicional (pato no tucupi, maniçoba, arroz de jambu)",
+        "endereco": "Av. Boulevard Castilhos França, s/n, Estação das Docas, Galpão 2, Loja 4, Campina, Belém - PA, 66013-030",
+        "horario": {
+          "valor": "Diariamente, das 11h às 23h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias gastronômicos (topensandoemviajar.com, tripadvisor.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.facebook.com/laemcasaevento/",
+        "cardapio": "https://cardapio.menu/restaurants/belem/la-em-casa-20",
+        "fonte": "Cobertura consolidada de guias gastronômicos (topensandoemviajar.com, tripadvisor.com, cnnbrasil.com.br), consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Aberto em 1972 pela matriarca Anna Maria, é uma das casas mais citadas da cozinha paraense — buffet com degustação ampla dos pratos regionais, dentro do complexo da Estação das Docas."
+      },
+      {
+        "id": "bel_rest_point_acai_cidade_velha",
+        "nome": "Point do Açaí (Cidade Velha)",
+        "zona": "cidade_velha",
+        "especialidade": "Açaí batido na hora com charque, camarão seco e peixe frito",
+        "endereco": "Rua Veiga Cabral, 450, Cidade Velha, Belém - PA, 66023-630",
+        "horario": {
+          "valor": "Terça a domingo, das 11h às 15h",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada (guiadasemana.com.br, cidadevelha.com.br), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.cidadevelha.com.br/point-do-acai",
+        "cardapio": "https://cardapio.menu/restaurants/belem/point-do-acai-casarao",
+        "fonte": "Cobertura consolidada (guiadasemana.com.br, oliberal.com, cidadevelha.com.br), consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Referência da cidade para o açaí paraense na versão salgada, tradicionalmente acompanhado de peixe frito ou camarão seco — a unidade da Cidade Velha fica a poucos passos do Forte do Presépio."
+      },
+      {
+        "id": "bel_rest_manjar_das_gracas",
+        "nome": "Manjar das Garças",
+        "zona": "cidade_velha",
+        "especialidade": "Buffet de cozinha paraense em ambiente à beira-rio",
+        "endereco": "Rua Carneiro da Rocha, s/n, Parque Mangal das Garças, Cidade Velha, Belém - PA, 66020-160",
+        "horario": {
+          "valor": "Terça a sábado, das 12h às 15h e das 20h às 23h; domingo, das 12h às 16h; fecha às segundas",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias gastronômicos (ifood.com.br, cidadevelha.com.br, restaurantguru.com), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://mangaldasgarcas.com.br/",
+        "cardapio": "https://cardapio.menu/restaurants/belem/manjar-das-garcas",
+        "fonte": "Cobertura consolidada de guias gastronômicos (ifood.com.br, cidadevelha.com.br, tripadvisor.com), consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Dentro do parque Mangal das Garças, à beira do Rio Guamá — premiado por publicações de turismo pelo ambiente e pelo buffet regional, é opção de almoço ou jantar combinada com a própria visita ao parque."
+      },
+      {
+        "id": "bel_rest_remanso_do_peixe",
+        "nome": "Remanso do Peixe",
+        "zona": "marco",
+        "especialidade": "Peixe de rio, moquecas e caldeiradas paraenses",
+        "endereco": "Travessa Barão do Triunfo, 2590, casa 64, Marco, Belém - PA",
+        "horario": {
+          "valor": "Terça a sábado, das 11h30 às 15h30 e das 19h às 22h30; domingo, das 11h30 às 15h30; fecha às segundas",
+          "tipo": "CADASTRADO",
+          "fonte": "Cobertura consolidada de guias gastronômicos (partiuferiado.com.br, keepamazon.com.br), consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.facebook.com/RemansoDoPeixe/",
+        "cardapio": "https://cardapio.menu/restaurants/belem/remanso-do-peixe",
+        "fonte": "Cobertura consolidada de guias gastronômicos (partiuferiado.com.br, viajandocomamalarosa.com.br, keepamazon.com.br), consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Casa tradicional especializada em pirarucu fresco, filhote, camarões e arroz de jambu — um dos endereços mais citados por quem busca peixe de rio fora do circuito turístico central."
+      },
+      {
+        "id": "bel_rest_saldosa_maloca",
+        "nome": "Saldosa Maloca (Ilha do Combu)",
+        "zona": "ilha_do_combu",
+        "especialidade": "Tambaqui na brasa, tucupi e chocolate artesanal da floresta",
+        "endereco": "Ilha do Combu, Belém - PA — acesso por lancha a partir do Terminal Hidroviário Ruy Barata (Praça Princesa Isabel)",
+        "horario": {
+          "valor": "Sábados, domingos e feriados, das 10h às 17h30; durante a semana, só com reserva para grupos de 15 pessoas ou mais",
+          "tipo": "CADASTRADO",
+          "fonte": "essemundoenosso.com.br, panoramadeviagem.com.br — cobertura consolidada sobre o Saldosa Maloca, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "essemundoenosso.com.br, otempo.com.br, panoramadeviagem.com.br — cobertura consolidada sobre o Saldosa Maloca, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Restaurante à beira-rio na Ilha do Combu, com trilha na floresta da própria propriedade — carro-chefe é o tambaqui de brasa com arroz de jambu, e a casa vende os chocolates orgânicos Saudoso Cacau, ligados à Casa do Chocolate local."
+      }
+    ]
   },
   {
     "cidadeId": "manaus",
     "titulo": "Manaus — peixes amazônicos e Mercadão Adolpho Lisboa",
     "texto": "Tambaqui na brasa (ou de costela), pirarucu de casaca e caldeiradas de peixe de rio são os pratos símbolo da cidade. O Mercado Municipal Adolpho Lisboa, às margens do Rio Negro, reúne peixe fresco, frutas regionais (cupuaçu, bacuri) e ervas amazônicas. Restaurantes voltados para o turismo se concentram em Adrianópolis e na orla da Ponta Negra, geralmente mais caros que as opções do Centro Histórico.",
-    "tags": ["regional", "tradicional"]
+    "tags": ["regional", "tradicional"],
+    "locais": [
+      {
+        "id": "mao_rest_banzeiro",
+        "nome": "Banzeiro Cozinha Amazônica",
+        "zona": "adrianopolis",
+        "especialidade": "Alta cozinha amazônica autoral — costela de tambaqui, filé de pirarucu e tucunaré",
+        "endereco": "Rua Libertador, 102, Adrianópolis, Manaus - AM",
+        "horario": {
+          "valor": "Segunda a quinta, das 11h30 às 15h e das 18h30 às 22h; sexta e sábado, das 11h30 às 16h e das 18h30 às 23h; domingo e feriados, das 11h30 às 16h e das 19h às 22h",
+          "tipo": "CADASTRADO",
+          "fonte": "encontramanausam.com.br — cobertura consolidada sobre o Banzeiro, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://grupobanzeiro.com.br/banzeiro-manaus/",
+        "cardapio": "https://grupobanzeiro.com.br/banzeiro-manaus/",
+        "fonte": "grupobanzeiro.com.br, tasteandfly.com.br, essemundoenosso.com.br — cobertura consolidada sobre o Banzeiro, restaurante do chef Felipe Schaedler, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Comandado pelo premiado chef Felipe Schaedler, é o restaurante de cozinha amazônica mais premiado de Manaus — referência nacional citada por guias e pela crítica gastronômica, com peixes de rio como carro-chefe."
+      },
+      {
+        "id": "mao_rest_caxiri",
+        "nome": "Caxiri Amazônia",
+        "zona": "centro_historico",
+        "especialidade": "Cozinha autoral indígena-amazônica — menu sazonal com pirarucu, urari e tucupi",
+        "endereco": "Rua 10 de Julho, 495, Centro, Manaus - AM",
+        "horario": {
+          "valor": "Almoço de segunda a sábado, salão aberto das 11h às 15h — horário reportado em cobertura de 2021, recomendável confirmar vigência atual diretamente com a casa",
+          "tipo": "CADASTRADO",
+          "fonte": "leblog.com.br, viajento.com — cobertura consolidada sobre o Caxiri, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.theworlds50best.com/discovery/Establishments/Brazil/Manaus/Caxiri.html",
+        "cardapio": "https://cardapio.menu/restaurants/manaus/caxiri-manaus",
+        "fonte": "theworlds50best.com, familytripmagazine.com.br, leblog.com.br — cobertura consolidada sobre o Caxiri, restaurante da chef Débora Shornik, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Comandado pela chef Débora Shornik em casarão restaurado de frente para o Teatro Amazonas, celebra métodos de cozinha indígena e listado entre os restaurantes reconhecidos internacionalmente do 50 Best Discovery."
+      },
+      {
+        "id": "mao_rest_bar_do_armando",
+        "nome": "Bar do Armando",
+        "zona": "centro_historico",
+        "especialidade": "Bar tradicional — chope gelado, bolinho de bacalhau e petiscos",
+        "endereco": "Rua 10 de Julho, 593, Centro, Manaus - AM, 69010-060",
+        "horario": {
+          "valor": null,
+          "tipo": "INDISPONIVEL",
+          "fonte": "Horário de funcionamento não confirmado com precisão nesta pesquisa — verificar direto com o estabelecimento",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": "https://www.facebook.com/BarDoArmando/",
+        "cardapio": null,
+        "fonte": "tripadvisor.com, aca.org.br — cobertura consolidada sobre o Bar do Armando, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Tradição desde 1963 e Patrimônio Cultural Imaterial do Amazonas, em frente à Praça São Sebastião e ao lado do Teatro Amazonas — mesa na calçada, chope gelado e bolinho de bacalhau são a assinatura da casa."
+      },
+      {
+        "id": "mao_rest_tacaca_da_gisela",
+        "nome": "Tacacá da Gisela",
+        "zona": "centro_historico",
+        "especialidade": "Tacacá servido em cuia — banca tradicional de rua",
+        "endereco": "Rua José Clemente, Largo de São Sebastião, Centro, Manaus - AM, 69010-070",
+        "horario": {
+          "valor": "Diariamente, das 4h às 22h",
+          "tipo": "CADASTRADO",
+          "fonte": "tasteatlas.com, tripadvisor.com — cobertura consolidada sobre o Tacacá da Gisela, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "tasteatlas.com, yelp.com, tripadvisor.com — cobertura consolidada sobre o Tacacá da Gisela, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Banca de tacacá mais citada de Manaus, no Largo de São Sebastião — funciona em horário estendido, do início da manhã até a noite, servindo o prato típico amazônico em cuia."
+      },
+      {
+        "id": "mao_rest_cacique_peixaria",
+        "nome": "Cacique Peixaria",
+        "zona": "ponta_negra",
+        "especialidade": "Peixaria regional — tambaqui, pirarucu e tucunaré",
+        "endereco": "Av. do Turismo, 1313, Ponta Negra, Manaus - AM",
+        "horario": {
+          "valor": "Diariamente, das 11h às 16h",
+          "tipo": "CADASTRADO",
+          "fonte": "edilenemafra.com — cobertura consolidada sobre peixarias regionais de Manaus, consultado via busca em 2026-09-02",
+          "consultadoEm": "2026-09-02"
+        },
+        "link": null,
+        "cardapio": null,
+        "fonte": "edilenemafra.com, locaisdobrasil.com.br — cobertura consolidada sobre restaurantes de Ponta Negra, consultado via busca em 2026-09-02",
+        "consultadoEm": "2026-09-02",
+        "desc": "Peixaria de cozinha regional na orla de Ponta Negra, ao lado do Café Priscila — opção de almoço a poucos minutos da Praia da Ponta Negra e do Tropical Manaus Ecoresort."
+      }
+    ]
   }
 ]
