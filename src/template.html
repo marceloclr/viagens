@@ -1241,6 +1241,11 @@
         .sched-val { font-family: Consolas, monospace; font-size: 12px; color: var(--accent2); font-weight: 800; white-space: nowrap; }
         .sched-row.is-desloc { background: color-mix(in srgb, var(--bg) 50%, transparent); }
         .sched-row.is-desloc .sched-t { color: var(--muted); font-weight: 400; font-size: 12.5px; }
+        .sched-row[draggable="true"] { cursor: grab; }
+        .sched-row[draggable="true"]:active { cursor: grabbing; }
+        .sched-row.arrasto-fantasma { opacity: .4; }
+
+        .dia-wrap.arrasto-alvo { outline: 2px dashed var(--accent); outline-offset: 4px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 6%, transparent); }
 
         .dia-head {
             display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
@@ -3319,10 +3324,11 @@ const Render = {
 
     /* --------------------------------------------------------------- CRONOGRAMA */
     cronograma(r) {
-        let h = '<p class="lede">Cada dia é montado com horários reais, deslocamentos explícitos e sem sobreposição. O dia de chegada e o de partida recebem carga reduzida por construção. O cronograma abaixo é editável: acrescente, remova, mova ou reposicione blocos, feche intervalos quando quiser, e desfaça ou refaça o caminho. O sistema revalida e recalcula tudo a cada alteração.</p>';
+        let h = '<p class="lede">Cada dia é montado com horários reais, deslocamentos explícitos e sem sobreposição. O dia de chegada e o de partida recebem carga reduzida por construção. O cronograma abaixo é editável: acrescente, remova, mova ou reposicione blocos, feche intervalos quando quiser, e desfaça ou refaça o caminho. O sistema revalida e recalcula tudo a cada alteração. Atrações também podem ser arrastadas (☰) direto para outro dia da mesma cidade — o recálculo, a crítica de conflito e o botão de cancelar são os mesmos do menu “Mover para…”.</p>';
         h += Edicao.painel(r);
         r.dias.forEach((d, i) => {
             const rotuloTipo = { chegada: 'chegada', partida: 'partida', transferencia: 'transferência', normal: '' }[d.tipo];
+            h += '<div class="dia-wrap" data-dia="' + i + '" data-cidade="' + U.esc(d.cidadeId) + '">';
             h += '<div class="dia-head"><span class="dia-n">' + String(i + 1).padStart(2, '0') + '</span>' +
                 '<span class="dia-data">' + U.dataExtenso(d.data) + '</span>' +
                 '<span class="dia-cidade">' + U.esc(d.cidadeNome) + (rotuloTipo ? ' · ' + rotuloTipo : '') + '</span>' +
@@ -3338,9 +3344,11 @@ const Render = {
                 // antes do forEach: Edicao.controles() depende desse índice para
                 // mover/remover o bloco certo.
                 if (b.tipo === 'refeicao') return;
+                const arrastavel = b.tipo === 'atracao';
                 const cls = b.tipo === 'desloc' ? ' is-desloc' : '';
-                h += '<div class="sched-row' + cls + '">';
-                h += '<div class="sched-hora">' + U.hhmm(b.ini) + '–' + U.hhmm(b.fim) + '</div>';
+                h += '<div class="sched-row' + cls + '"' +
+                    (arrastavel ? ' draggable="true" data-dia="' + i + '" data-bloco="' + j + '" title="Arraste (☰) para outro dia desta cidade para mover esta atração."' : '') + '>';
+                h += '<div class="sched-hora">' + (arrastavel ? '☰ ' : '') + U.hhmm(b.ini) + '–' + U.hhmm(b.fim) + '</div>';
                 h += '<div class="sched-ico">' + b.icone + '</div>';
                 h += '<div><div class="sched-t">' + U.esc(b.titulo) + '</div>' +
                     (b.desc ? '<div class="sched-d">' + U.esc(b.desc) + '</div>' : '') +
@@ -3351,6 +3359,7 @@ const Render = {
             });
             h += '</div>';
             h += Edicao.acoesDia(r, i, d);
+            h += '</div>';
         });
         return R.secao('sec-cronograma', 'Dia a dia', '📅 Cronograma detalhado', h, '📅 Cronograma', 'Programação hora a hora, com deslocamentos e justificativa de cada atração selecionada. Horários de almoço e jantar entram no cálculo de cada dia, mas ficam na aba Alimentação, não listados aqui.');
     },
@@ -5050,6 +5059,11 @@ const Edicao = {
     refazerPilha: [],
     pendente: null,
     erro: null,
+    // Origem de um arrasto de bloco em andamento no Cronograma — { dia, bloco } — vive
+    // só entre 'dragstart' e 'drop'/'dragend'. Não guardamos no dataTransfer porque o
+    // conteúdo dele só é legível de forma confiável no 'drop' em alguns navegadores; sem
+    // isto não daria para destacar só os dias-alvo válidos durante o 'dragover'.
+    arrastoOrigem: null,
 
     /* --------------------------------------------------------- ESCOPO E ISOLAMENTO */
     garantir(r) {
@@ -5851,6 +5865,57 @@ const Edicao = {
             if (!el) return;
             ev.preventDefault();
             App.irParaCampo(el.getAttribute('data-campo-ir'));
+        });
+
+        /* Arrastar uma atração do Cronograma para outro dia da mesma cidade — mesmo
+           destino do menu "Mover para…" (Edicao.controles), só que pelo gesto de
+           arrastar. Reaproveita a operação 'mover' ponta a ponta: recálculo automático,
+           conflito declarado como proposta pendente (nunca aplicado em silêncio) e os
+           botões "Manter mesmo assim" / "Cancelar a alteração" já existentes no console
+           de edição. Drag-and-drop nativo do HTML5, sem biblioteca — funciona com mouse;
+           em telas de toque, o menu "Mover para…" continua sendo o caminho. */
+        document.addEventListener('dragstart', function (ev) {
+            const row = ev.target && ev.target.closest ? ev.target.closest('.sched-row[draggable="true"]') : null;
+            if (!row) return;
+            const dia = parseInt(row.getAttribute('data-dia'), 10);
+            const bloco = parseInt(row.getAttribute('data-bloco'), 10);
+            Edicao.arrastoOrigem = { dia, bloco };
+            ev.dataTransfer.effectAllowed = 'move';
+            ev.dataTransfer.setData('text/plain', dia + ':' + bloco);
+            row.classList.add('arrasto-fantasma');
+        });
+        document.addEventListener('dragover', function (ev) {
+            const origem = Edicao.arrastoOrigem, r = appState.roteiroAtual;
+            const alvo = ev.target && ev.target.closest ? ev.target.closest('.dia-wrap[data-dia]') : null;
+            if (!origem || !r || !alvo) return;
+            const diaDestino = parseInt(alvo.getAttribute('data-dia'), 10);
+            const diaOrigemObj = r.dias[origem.dia];
+            if (!diaOrigemObj || diaDestino === origem.dia || alvo.getAttribute('data-cidade') !== diaOrigemObj.cidadeId) return;
+            ev.preventDefault();
+            ev.dataTransfer.dropEffect = 'move';
+            alvo.classList.add('arrasto-alvo');
+        });
+        document.addEventListener('dragleave', function (ev) {
+            const alvo = ev.target && ev.target.closest ? ev.target.closest('.dia-wrap[data-dia]') : null;
+            if (alvo) alvo.classList.remove('arrasto-alvo');
+        });
+        document.addEventListener('drop', function (ev) {
+            const origem = Edicao.arrastoOrigem;
+            const alvo = ev.target && ev.target.closest ? ev.target.closest('.dia-wrap[data-dia]') : null;
+            if (!origem || !alvo) return;
+            ev.preventDefault();
+            alvo.classList.remove('arrasto-alvo');
+            const diaDestino = parseInt(alvo.getAttribute('data-dia'), 10);
+            Edicao.arrastoOrigem = null;
+            const r = appState.roteiroAtual;
+            if (!r || diaDestino === origem.dia) return;
+            const resultado = Edicao.aplicar(r, { tipo: 'mover', dia: origem.dia, bloco: origem.bloco, destino: diaDestino });
+            Edicao.recompor(r, resultado && resultado.status === 'conflito' ? 'sec-cronograma' : 'sec-cronograma');
+        });
+        document.addEventListener('dragend', function () {
+            Edicao.arrastoOrigem = null;
+            document.querySelectorAll('.sched-row.arrasto-fantasma').forEach(function (x) { x.classList.remove('arrasto-fantasma'); });
+            document.querySelectorAll('.dia-wrap.arrasto-alvo').forEach(function (x) { x.classList.remove('arrasto-alvo'); });
         });
     }
 };

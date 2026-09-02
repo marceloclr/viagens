@@ -23,7 +23,7 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": 20,
+      "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "getyourguide.com, archaeology-travel.com — ingresso ao sítio arqueológico, sem incluir a passagem de barco (cerca de €25 ida e volta, à parte)",
       "consultadoEm": "2026-09-02"
@@ -218,5 +218,129 @@
     },
     "oficial": null,
     "desc": "Segundo maior povoado da ilha, no interior — mantém o ritmo de vida tradicional das Cíclades, longe do circuito turístico de Chora, em torno do Mosteiro de Panagia Tourliani, do século XVI."
+  },
+  {
+    "id": "myk_aegean_maritime_museum",
+    "cidadeId": "mykonos",
+    "nome": "Museu Marítimo do Egeu (Aegean Maritime Museum)",
+    "zona": "chora",
+    "cat": ["historia", "museus", "cultura"],
+    "prio": 55,
+    "dur": 45,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Tria Pigadia, Chora, Mykonos, Grécia",
+    "horario": {
+      "valor": "Abril a outubro, diariamente, das 10h30 às 13h e das 18h30 às 21h",
+      "tipo": "CADASTRADO",
+      "fonte": "triphobo.com — cobertura consolidada sobre o Museu Marítimo do Egeu, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 4 },
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada (airial.travel, vacanzegreche.com), consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "No bairro de Tria Pigadia, ao lado da Casa da Lena — exposição cronológica da navegação nas Cíclades, com maquetes de embarcações que singraram o Egeu desde a Pré-História até hoje."
+  },
+  {
+    "id": "myk_lenas_house",
+    "cidadeId": "mykonos",
+    "nome": "Casa da Lena (Museu Folclórico)",
+    "zona": "chora",
+    "cat": ["historia", "museus", "cultura"],
+    "prio": 52,
+    "dur": 30,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Tria Pigadia, Chora, Mykonos, Grécia",
+    "horario": {
+      "valor": "Maio a meados de outubro, diariamente, das 10h30 às 13h e das 18h30 às 21h30",
+      "tipo": "CADASTRADO",
+      "fonte": "mykonosfolkloremuseum.gr — sítio oficial, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 2 },
+      "tipo": "CADASTRADO",
+      "fonte": "mykonosfolkloremuseum.gr — sítio oficial",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": "https://www.mykonosfolkloremuseum.gr/en/",
+    "desc": "Casa de família mykoniota do século XIX preservada com móveis e objetos originais, mostrando a organização interna de uma residência tradicional de classe média da ilha — ao lado do Museu Marítimo do Egeu, no bairro de Tria Pigadia."
+  },
+  {
+    "id": "myk_psarou_beach",
+    "cidadeId": "mykonos",
+    "nome": "Praia de Psarou",
+    "zona": "praias_sul",
+    "cat": ["praias", "gastronomia", "descanso"],
+    "prio": 62,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Psarou, Mykonos, Grécia",
+    "horario": {
+      "valor": "Acesso livre durante o dia; beach clubs funcionam sobretudo à tarde",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre as praias de Mykonos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à praia pública; espreguiçadeiras e beach clubs cobrados à parte",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Praia mais chique e discreta do litoral sul, protegida do vento meltemi por estar numa enseada fechada — reduto de beach clubs sofisticados e clientela vip, alternativa mais tranquila a Paradise e Super Paradise."
+  },
+  {
+    "id": "myk_kastro",
+    "cidadeId": "mykonos",
+    "nome": "Bairro do Kastro",
+    "zona": "chora",
+    "cat": ["historia", "fotografia", "arquitetura"],
+    "prio": 60,
+    "dur": 45,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Kastro, Chora, Mykonos, Grécia, próximo à Igreja de Panagia Paraportiani",
+    "horario": {
+      "valor": "Acesso livre o dia todo",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre o bairro do Kastro em Mykonos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Bairro público, sem bilhete de entrada",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Bairro mais antigo de Chora, erguido sobre as ruínas de um antigo castelo veneziano — casas construídas lado a lado formando uma muralha voltada para o mar, um dos melhores pontos da cidade para ver o pôr do sol fora de Little Venice."
   }
 ]

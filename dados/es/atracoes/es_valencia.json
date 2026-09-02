@@ -22,7 +22,7 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": 10,
+      "valor": { "adulto": 10 },
       "tipo": "CADASTRADO",
       "fonte": "visitvalencia.com — bilhete geral adulto; bilhete reduzido € 6",
       "consultadoEm": "2026-08-27"
@@ -53,7 +53,7 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": 2,
+      "valor": { "adulto": 2 },
       "tipo": "CADASTRADO",
       "fonte": "Consenso de guias oficiais de turismo de Valência — bilhete geral; gratuito aos domingos e feriados",
       "consultadoEm": "2026-08-27"
@@ -146,7 +146,7 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": 2,
+      "valor": { "adulto": 2 },
       "tipo": "CADASTRADO",
       "fonte": "valencia.es — bilhete geral; reduzido € 1; gratuito aos domingos e feriados",
       "consultadoEm": "2026-08-27"

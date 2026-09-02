@@ -1241,6 +1241,11 @@
         .sched-val { font-family: Consolas, monospace; font-size: 12px; color: var(--accent2); font-weight: 800; white-space: nowrap; }
         .sched-row.is-desloc { background: color-mix(in srgb, var(--bg) 50%, transparent); }
         .sched-row.is-desloc .sched-t { color: var(--muted); font-weight: 400; font-size: 12.5px; }
+        .sched-row[draggable="true"] { cursor: grab; }
+        .sched-row[draggable="true"]:active { cursor: grabbing; }
+        .sched-row.arrasto-fantasma { opacity: .4; }
+
+        .dia-wrap.arrasto-alvo { outline: 2px dashed var(--accent); outline-offset: 4px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 6%, transparent); }
 
         .dia-head {
             display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
@@ -6295,7 +6300,8 @@ const DB = {
             "fira",
             "oia",
             "akrotiri",
-            "kamari_perissa"
+            "kamari_perissa",
+            "pyrgos"
         ],
         "mykonos": [
             "chora",
@@ -6307,7 +6313,8 @@ const DB = {
             "cidade_medieval",
             "lindos",
             "mandraki_porto",
-            "faliraki"
+            "faliraki",
+            "oeste"
         ],
         "miami": [
             "south_beach",
@@ -6937,6 +6944,10 @@ const DB = {
             "kamari_perissa": {
                 "lat": 36.3766,
                 "lon": 25.487
+            },
+            "pyrgos": {
+                "lat": 36.3865,
+                "lon": 25.4436
             }
         },
         "mykonos": {
@@ -6973,6 +6984,10 @@ const DB = {
             "faliraki": {
                 "lat": 36.3389,
                 "lon": 28.2003
+            },
+            "oeste": {
+                "lat": 36.3833,
+                "lon": 28.1667
             }
         },
         "miami": {
@@ -10008,7 +10023,9 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": 22,
+                "valor": {
+                    "adulto": 22
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Guias de viagem consolidados — passaporte que dá acesso ao Farol/mirante, Reserva José Mário Alves (borboletário) e Memorial Amazônico da Navegação (cada atração isolada custa R$ 9; entrada no parque e jardins é gratuita)",
                 "consultadoEm": "2026-09-02"
@@ -10228,7 +10245,9 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": 24,
+                "valor": {
+                    "adulto": 24
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "oliberal.com — travessia de lancha ida e volta pelo terminal hidroviário; gratuidade para crianças até 5 anos, idosos acima de 60 e PCD com acompanhante. Restaurantes, trilhas guiadas e a Casa do Chocolate são cobrados à parte.",
                 "consultadoEm": "2026-09-02"
@@ -12440,7 +12459,9 @@ const DB = {
                 "nota": "Horário obtido em fonte secundária — recomendado confirmar no sítio da Carris antes da visita."
             },
             "custo": {
-                "valor": 5.15,
+                "valor": {
+                    "adulto": 5.15
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Agregado turístico consultado por falta de página oficial da Carris com tarifário publicado (fernandolopes.pt / lisboa.es)",
                 "consultadoEm": "2026-08-26",
@@ -13049,7 +13070,9 @@ const DB = {
             "endereco": "C. de Ruiz de Alarcón, 23, 28014 Madrid, Espanha",
             "desc": "Principal museu de belas artes da Espanha, com acervo de Velázquez, Goya, Ticiano e Bosch.",
             "custo": {
-                "valor": 15,
+                "valor": {
+                    "adulto": 15
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial de venda de entradas do Museu do Prado (entradas.museodelprado.es)",
                 "consultadoEm": "2026-08-26"
@@ -13083,7 +13106,9 @@ const DB = {
             "endereco": "Calle de Bailén, s/n, 28071 Madrid, Espanha",
             "desc": "Residência oficial da Coroa espanhola, usada apenas em cerimônias de Estado, com salões suntuosos abertos à visitação.",
             "custo": {
-                "valor": 18,
+                "valor": {
+                    "adulto": 18
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Patrimonio Nacional — tickets.patrimonionacional.es (tarifa básica)",
                 "consultadoEm": "2026-08-26"
@@ -13119,7 +13144,9 @@ const DB = {
             "endereco": "Calle de Santa Isabel, 52, 28012 Madrid, Espanha",
             "desc": "Museu de arte moderna e contemporânea espanhola, abriga o Guernica de Picasso.",
             "custo": {
-                "valor": 12,
+                "valor": {
+                    "adulto": 12
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial do Museu Reina Sofía (museoreinasofia.es/visita/horarios-tarifas)",
                 "consultadoEm": "2026-08-26"
@@ -13289,7 +13316,9 @@ const DB = {
             "endereco": "Av. de Concha Espina, 1, 28036 Madrid, Espanha",
             "desc": "Visita autoguiada ao estádio e museu do Real Madrid, incluindo os vestiários e o gramado.",
             "custo": {
-                "valor": 35,
+                "valor": {
+                    "adulto": 35
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial do Real Madrid — realmadrid.com/es-ES/tour-bernabeu (entrada Classic)",
                 "consultadoEm": "2026-08-26"
@@ -13322,7 +13351,9 @@ const DB = {
             "endereco": "Carrer de Mallorca, 401, 08013 Barcelona, Espanha",
             "desc": "Basílica inacabada de Antoni Gaudí, obra-prima do modernismo catalão e Patrimônio da Humanidade.",
             "custo": {
-                "valor": 26,
+                "valor": {
+                    "adulto": 26
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial sagradafamilia.org/en/tickets (entrada básica com audioguia)",
                 "consultadoEm": "2026-08-26"
@@ -13356,7 +13387,9 @@ const DB = {
             "endereco": "08024 Barcelona, Espanha",
             "desc": "Parque público projetado por Gaudí, com mosaicos de trencadís e vista panorâmica da cidade.",
             "custo": {
-                "valor": 18,
+                "valor": {
+                    "adulto": 18
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial parkguell.barcelona/en/planning-your-visit/prices-and-times",
                 "consultadoEm": "2026-08-26"
@@ -13390,7 +13423,9 @@ const DB = {
             "endereco": "Passeig de Gràcia, 43, 08007 Barcelona, Espanha",
             "desc": "Edifício modernista reformado por Gaudí, com fachada ondulada inspirada em formas orgânicas.",
             "custo": {
-                "valor": 25,
+                "valor": {
+                    "adulto": 25
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial casabatllo.es/en/online-tickets (entrada básica, valor variável por demanda)",
                 "consultadoEm": "2026-08-26"
@@ -13459,7 +13494,9 @@ const DB = {
             "endereco": "Carrer de Montcada, 15-23, 08003 Barcelona, Espanha",
             "desc": "Um dos maiores acervos do mundo dedicado à obra de Pablo Picasso, com foco em seus anos de formação.",
             "custo": {
-                "valor": 11,
+                "valor": {
+                    "adulto": 11
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours",
                 "consultadoEm": "2026-08-26"
@@ -13563,7 +13600,9 @@ const DB = {
             "endereco": "Praza das Praterías, s/n, 15704 Santiago de Compostela, Espanha",
             "desc": "Museu público (Xunta de Galicia) dedicado à história das peregrinações e do Caminho de Santiago.",
             "custo": {
-                "valor": 2.4,
+                "valor": {
+                    "adulto": 2.4
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial museoperegrinacions.xunta.gal/es/visita/informacion",
                 "consultadoEm": "2026-08-26"
@@ -13631,7 +13670,9 @@ const DB = {
             "endereco": "Praza da Inmaculada, 3, 15704 Santiago de Compostela, Espanha",
             "desc": "Grande mosteiro beneditino barroco, um dos maiores da Espanha, com igreja e museu visitáveis.",
             "custo": {
-                "valor": 4,
+                "valor": {
+                    "adulto": 4
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Turismo de Galicia (turismo.gal) — valor de referência para visita guiada",
                 "consultadoEm": "2026-08-26"
@@ -13664,7 +13705,9 @@ const DB = {
             "endereco": "Patio de Banderas, s/n, 41004 Sevilha, Espanha",
             "desc": "Palácio real em uso, maior exemplo de arquitetura mudéjar da Espanha, com jardins históricos.",
             "custo": {
-                "valor": 15.5,
+                "valor": {
+                    "adulto": 15.5
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial alcazarsevilla.org/prepara-la-visita",
                 "consultadoEm": "2026-08-26"
@@ -13698,7 +13741,9 @@ const DB = {
             "endereco": "Av. de la Constitución, s/n, 41004 Sevilha, Espanha",
             "desc": "Maior catedral gótica do mundo, erguida sobre a antiga mesquita almóada; a torre Giralda era seu antigo minarete.",
             "custo": {
-                "valor": 12,
+                "valor": {
+                    "adulto": 12
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Site oficial sevillacatedral.com/precios-y-horarios (entrada geral, tarifa 2026)",
                 "consultadoEm": "2026-08-26"
@@ -13832,7 +13877,9 @@ const DB = {
             "endereco": "Cour de Saint-Pierre 6, 1204 Genève, Suíça",
             "desc": "Catedral gótica que foi centro da Reforma Calvinista; a entrada na igreja é livre, mas a subida às torres e o sítio arqueológico são pagos.",
             "custo": {
-                "valor": 5,
+                "valor": {
+                    "adulto": 5
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Reportagem consolidada de guias turísticos (Rehlat/USNews) citando tarifa das torres em CHF; valor não confirmado no site oficial saintpierre-geneve.ch (indisponível no momento da consulta)",
                 "consultadoEm": "2026-08-26"
@@ -13868,7 +13915,9 @@ const DB = {
             "endereco": "Rue du Cloître 4, 1204 Genève, Suíça",
             "desc": "Museu dedicado à história da Reforma Protestante, com forte ligação a Calvino e à identidade religiosa de Genebra.",
             "custo": {
-                "valor": 8,
+                "valor": {
+                    "adulto": 8
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial do museu (musee-reforme.ch/informations-pratiques)",
                 "consultadoEm": "2026-08-26"
@@ -13902,7 +13951,9 @@ const DB = {
             "endereco": "Avenue de la Paix 14, 1211 Genève, Suíça",
             "desc": "Sede europeia da ONU; visitas guiadas de cerca de uma hora percorrem salas de conferência e o histórico complexo diplomático internacional de Genebra.",
             "custo": {
-                "valor": 25,
+                "valor": {
+                    "adulto": 25
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial ungeneva.org/en/visit",
                 "consultadoEm": "2026-08-26"
@@ -13938,7 +13989,9 @@ const DB = {
             "endereco": "Rue des Vieux-Grenadiers 7, 1205 Genève, Suíça",
             "desc": "Museu dedicado à relojoaria genebrina de alta precisão, com coleções históricas do fabricante Patek Philippe.",
             "custo": {
-                "valor": 10,
+                "valor": {
+                    "adulto": 10
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial patek.com/en/museum/plan-your-visit",
                 "consultadoEm": "2026-08-26"
@@ -14074,7 +14127,9 @@ const DB = {
             "endereco": "Grossmünsterplatz, 8001 Zürich, Suíça",
             "desc": "Igreja românica de torres gêmeas onde Zwinglio liderou a Reforma Protestante em Zurique; a subida pelas 187 escadas leva a um mirante panorâmico.",
             "custo": {
-                "valor": 5,
+                "valor": {
+                    "adulto": 5
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial grossmuenster.ch",
                 "consultadoEm": "2026-08-26"
@@ -14108,7 +14163,9 @@ const DB = {
             "endereco": "Münsterhof 2, 8001 Zürich, Suíça",
             "desc": "Igreja gótica com cinco vitrais coloridos criados por Marc Chagall em 1970, retratando cenas bíblicas.",
             "custo": {
-                "valor": 5,
+                "valor": {
+                    "adulto": 5
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Guias consolidados (Kupi/ZurichGuru); confirmar valor atualizado no site oficial fraumuenster.ch",
                 "consultadoEm": "2026-08-26"
@@ -14144,7 +14201,9 @@ const DB = {
             "endereco": "Heimplatz 1, 8001 Zürich, Suíça",
             "desc": "Principal museu de arte de Zurique, com coleção que vai de mestres antigos a arte moderna e contemporânea, incluindo Monet, Munch e Giacometti.",
             "custo": {
-                "valor": 24,
+                "valor": {
+                    "adulto": 24
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial kunsthaus.ch/en/besuch-planen",
                 "consultadoEm": "2026-08-26"
@@ -14180,7 +14239,9 @@ const DB = {
             "endereco": "Museumstrasse 2, 8001 Zürich, Suíça",
             "desc": "Maior museu de história e cultura da Suíça, com acervo que cobre da pré-história à atualidade, em edifício estilo castelo perto da estação central.",
             "custo": {
-                "valor": 10,
+                "valor": {
+                    "adulto": 10
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial landesmuseum.ch/en/your-visit/tickets",
                 "consultadoEm": "2026-08-26"
@@ -14383,7 +14444,9 @@ const DB = {
             "endereco": "Partida em Lucerna (barco até Alpnachstad, trem cremalheira até Pilatus Kulm), 6010 Kriens, Suíça",
             "desc": "Excursão clássica ao 'Monte Dragão' de Lucerna, combinando travessia de barco no Lago dos Quatro Cantões e a ferrovia de cremalheira mais íngreme do mundo até o topo, com vistas panorâmicas dos Alpes.",
             "custo": {
-                "valor": 119.8,
+                "valor": {
+                    "adulto": 119.8
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial pilatus.ch/en/railway-cableways/prices (Golden Round Trip, 2ª classe barco e ônibus, sazonal maio-outubro)",
                 "consultadoEm": "2026-08-26"
@@ -14450,7 +14513,9 @@ const DB = {
             "endereco": "Lidostrasse 5, 6006 Luzern, Suíça",
             "desc": "Maior museu de transportes da Suíça, com exposições interativas sobre trens, aviação, navegação e espaço, além de planetário e Aventura do Chocolate Suíço.",
             "custo": {
-                "valor": 37,
+                "valor": {
+                    "adulto": 37
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial verkehrshaus.ch/en/your-visit/besuch-planen/prices-and-tickets",
                 "consultadoEm": "2026-08-26"
@@ -14485,7 +14550,9 @@ const DB = {
             "endereco": "Partida em Vitznau ou Arth-Goldau via Rigi Bahnen, 6354 Vitznau, Suíça",
             "desc": "Montanha panorâmica apelidada 'Rainha das Montanhas', acessível pela mais antiga ferrovia de montanha da Europa, com vistas dos Alpes e de vários lagos suíços.",
             "custo": {
-                "valor": 84,
+                "valor": {
+                    "adulto": 84
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Sítio oficial rigi.ch/en/inform/prices (bilhete diário ida e volta)",
                 "consultadoEm": "2026-08-26"
@@ -14587,7 +14654,9 @@ const DB = {
             "endereco": "Münsterplatz 1, 3011 Bern, Suíça",
             "desc": "Maior e mais alta catedral gótica da Suíça, com torre de 100 metros e 344 degraus até o mirante; a entrada na igreja é gratuita.",
             "custo": {
-                "valor": 5,
+                "valor": {
+                    "adulto": 5
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Guias consolidados citando site oficial bernermuenster.ch (entrada da torre)",
                 "consultadoEm": "2026-08-26"
@@ -14690,7 +14759,9 @@ const DB = {
             "endereco": "Helvetiaplatz 5, 3005 Bern, Suíça",
             "desc": "Exposição dedicada à vida e obra de Albert Einstein, que viveu em Berna quando formulou a Teoria da Relatividade, integrada ao Museu Histórico da cidade.",
             "custo": {
-                "valor": 18,
+                "valor": {
+                    "adulto": 18
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Guias consolidados (Trip.com/Tripadvisor) citando ingresso combinado Einstein Museum + Museu Histórico de Berna",
                 "consultadoEm": "2026-08-26"
@@ -14963,7 +15034,9 @@ const DB = {
             "endereco": "Ruppin Blvd, Jerusalém",
             "desc": "Maior museu de Israel, com o Santuário do Livro (Manuscritos do Mar Morto) e vasto acervo de arqueologia e arte. Preço de referência para adultos e horários variam por dia da semana.",
             "custo": {
-                "valor": 54,
+                "valor": {
+                    "adulto": 54
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://www.imj.org.il/en/content/ticket-info (sítio oficial do Museu de Israel), valor em NIS para adulto",
                 "consultadoEm": "2026-08-26"
@@ -15450,7 +15523,9 @@ const DB = {
             "endereco": "27 Shaul HaMelech Blvd, Tel Aviv",
             "desc": "Principal museu de arte da cidade, com acervo de arte moderna, impressionista e israelense; fechado aos domingos e segundas-feiras. Entrada gratuita para menores de 18 anos.",
             "custo": {
-                "valor": 50,
+                "valor": {
+                    "adulto": 50
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Agregado de guias oficiais (tickets.tamuseum.org.il, tamuseum.org.il/en/visit); valor em NIS para ingresso adulto",
                 "consultadoEm": "2026-08-26"
@@ -15519,7 +15594,9 @@ const DB = {
             "endereco": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Turquia",
             "desc": "Antiga catedral bizantina, depois mesquita, museu e hoje mesquita novamente, com mosaicos e cúpula únicos de mais de 1.400 anos.",
             "custo": {
-                "valor": 25,
+                "valor": {
+                    "adulto": 25
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://muze.gov.tr/muze-detay?SectionId=YSM01&DistId=MRK (Ministério da Cultura e Turismo da Turquia)",
                 "consultadoEm": "2026-08-26",
@@ -15626,7 +15703,9 @@ const DB = {
             "endereco": "Cankurtaran, 34122 Fatih/İstanbul, Turquia",
             "desc": "Residência dos sultões otomanos por quase 400 anos, com o Harém, relíquias sagradas islâmicas e vista para o Corno de Ouro e o Bósforo.",
             "custo": {
-                "valor": 2750,
+                "valor": {
+                    "adulto": 2750
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://topkapisarayi.org/en/visiting-info",
                 "consultadoEm": "2026-08-26",
@@ -15661,7 +15740,9 @@ const DB = {
             "endereco": "Derviş Ali Mh., Kariye Cami Sk., 34087 Fatih/İstanbul, Turquia",
             "desc": "Antiga igreja bizantina, hoje mesquita ativa, com um dos conjuntos mais bem preservados de mosaicos e afrescos bizantinos do mundo.",
             "custo": {
-                "valor": 20,
+                "valor": {
+                    "adulto": 20
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Pesquisa de referência consolidada (istanbulclues.com / muze.gen.tr)",
                 "consultadoEm": "2026-08-26",
@@ -15803,7 +15884,9 @@ const DB = {
             "endereco": "Efes Örenyeri, Atatürk, 35920 Selçuk/İzmir, Turquia",
             "desc": "Uma das cidades greco-romanas mais bem preservadas do Mediterrâneo, com a Biblioteca de Celso, o Grande Teatro e a Rua dos Curetes; local onde o apóstolo Paulo pregou aos efésios.",
             "custo": {
-                "valor": 40,
+                "valor": {
+                    "adulto": 40
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
                 "consultadoEm": "2026-08-26",
@@ -15838,7 +15921,9 @@ const DB = {
             "endereco": "Uğur Mumcu Sevgi Yolu Caddesi, 35920 Selçuk/İzmir, Turquia",
             "desc": "Acervo com artefatos escavados em Éfeso, incluindo as estátuas de Ártemis e objetos do dia a dia da cidade antiga.",
             "custo": {
-                "valor": 10,
+                "valor": {
+                    "adulto": 10
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
                 "consultadoEm": "2026-08-26",
@@ -15908,7 +15993,9 @@ const DB = {
             "endereco": "Ayasuluk Tepesi, St. Jean Cd., 35920 Selçuk/İzmir, Turquia",
             "desc": "Ruínas de uma basílica bizantina do século VI erguida sobre o túmulo tradicional do apóstolo João Evangelista, no monte Ayasuluk ao lado do castelo de Selçuk.",
             "custo": {
-                "valor": 6,
+                "valor": {
+                    "adulto": 6
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Pesquisa de referência consolidada (getyourguide.com / travellingtrekker.com)",
                 "consultadoEm": "2026-08-26",
@@ -16009,7 +16096,9 @@ const DB = {
             "endereco": "Aydınlı, Müze Cd. No:1, 50180 Göreme/Nevşehir, Turquia",
             "desc": "Complexo monástico bizantino escavado na rocha, com igrejas e capelas rupestres decoradas com afrescos dos séculos X a XII, patrimônio da UNESCO.",
             "custo": {
-                "valor": 20,
+                "valor": {
+                    "adulto": 20
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
                 "consultadoEm": "2026-08-26",
@@ -16114,7 +16203,9 @@ const DB = {
             "endereco": "Derinkuyu, 50700 Nevşehir, Turquia",
             "desc": "Maior cidade subterrânea escavada da Capadócia, com até oito níveis de profundidade, usada como refúgio por comunidades cristãs bizantinas.",
             "custo": {
-                "valor": 13,
+                "valor": {
+                    "adulto": 13
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
                 "consultadoEm": "2026-08-26",
@@ -16148,7 +16239,9 @@ const DB = {
             "endereco": "Zelve Ören Yeri, 50240 Nevşehir, Turquia",
             "desc": "Antigo vilarejo rupestre habitado até a década de 1950, com igrejas, casas e pombais escavados diretamente na rocha vulcânica.",
             "custo": {
-                "valor": 12,
+                "valor": {
+                    "adulto": 12
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
                 "consultadoEm": "2026-08-26",
@@ -16183,7 +16276,9 @@ const DB = {
             "endereco": "Namazgah Mah., Tarık Sarı Sk. No:29, İzmir, Turquia",
             "desc": "Ruínas do fórum romano da antiga Smyrna, cidade citada entre as Sete Igrejas do Apocalipse (Ap 2:8-11), com colunatas e criptopórtico preservados.",
             "custo": {
-                "valor": 6,
+                "valor": {
+                    "adulto": 6
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
                 "consultadoEm": "2026-08-26",
@@ -16250,7 +16345,9 @@ const DB = {
             "endereco": "Bahribaba Parkı, Konak/İzmir, Turquia",
             "desc": "Acervo de artefatos da região do Egeu turco, incluindo achados de Esmirna, Éfeso e outras cidades antigas da Anatólia ocidental.",
             "custo": {
-                "valor": 32,
+                "valor": {
+                    "adulto": 32
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Pesquisa de referência consolidada (hurriyet.com.tr) — valor em liras turcas, dado sujeito a defasagem por inflação",
                 "consultadoEm": "2026-08-26",
@@ -16389,7 +16486,9 @@ const DB = {
             "endereco": "Gözcü Sokak No:2, 06240 Ulus, Ankara, Turquia",
             "desc": "Um dos acervos arqueológicos mais premiados da Turquia, instalado em dois edifícios otomanos restaurados aos pés do Castelo de Ancara, com achados hititas, frígios e urartianos.",
             "custo": {
-                "valor": 12,
+                "valor": {
+                    "adulto": 12
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Pesquisa de referência consolidada (whichmuseum.com, advantour.com) — consultado em 2026-08-27; valor em euros para visitantes estrangeiros, aceita o Museum Pass Türkiye",
                 "consultadoEm": "2026-08-27"
@@ -21943,7 +22042,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 20,
+                "valor": {
+                    "adulto": 20
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Bilheteria oficial da Acrópole — tarifa cheia de abril a outubro (€ 10 de novembro a março)",
                 "consultadoEm": "2026-08-27"
@@ -21978,7 +22079,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 20,
+                "valor": {
+                    "adulto": 20
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Bilheteria oficial — inclui o Museu da Ágora na Stoa de Átalos",
                 "consultadoEm": "2026-08-27"
@@ -22048,7 +22151,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 12,
+                "valor": {
+                    "adulto": 12
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "namuseum.gr — tarifa cheia de abril a outubro (€ 6 de novembro a março; gratuito para cidadãos da UE até 25 anos)",
                 "consultadoEm": "2026-08-27"
@@ -22193,10 +22298,13 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Preço varia por operador e pacote (com ou sem almoço a bordo) — verifique diretamente com a operadora",
-                "consultadoEm": "2026-09-02"
+                "valor": {
+                    "adulto": 25
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "viator.com, checkyeti.com, santorini-volcanotours.com — passeio simples de caíque a partir de €25; catamarã com refeição e bebidas incluídas a partir de €110. A entrada no vulcão de Nea Kameni (€5) e o teleférico de Fira (€10 ida) costumam ser cobrados à parte, fora do pacote do barco",
+                "consultadoEm": "2026-09-02",
+                "nota": "Valor cadastrado é o piso (caíque simples, €25); catamarã com refeição chega a €110, mais taxas de vulcão e teleférico à parte."
             },
             "oficial": null,
             "desc": "Passeio clássico pela caldeira vulcânica que forma a baía de Santorini: caminhada até a cratera ativa de Nea Kameni, banho nas águas alaranjadas das fontes termais sulfurosas de Palea Kameni e parada na ilha de Thirasia, geralmente com tempo livre para almoço. A própria geografia de Santorini — uma cratera afundada e inundada pelo mar — só se revela de verdade vista da água."
@@ -22222,15 +22330,17 @@ const DB = {
             "fechado": [],
             "endereco": "Akrotiri, 84700, Santorini, Grécia",
             "horario": {
-                "valor": "Novembro a março: terça a domingo, das 8h às 15h. Abril a outubro: sexta a quarta, das 8h às 20h; quintas, das 8h às 15h",
+                "valor": "Diariamente, das 8h às 20h; fecha mais cedo (8h30–15h30) em dois dias da semana que variam por fonte consultada (segunda e quinta, ou terça, conforme a temporada) — confirme o dia de fechamento vigente antes de ir, pois o sítio já teve fechamentos temporários para inspeção estrutural",
                 "tipo": "CADASTRADO",
-                "fonte": "Cobertura consolidada de guias de viagem (penaestrada.blog.br), consultado via busca em 2026-09-02",
+                "fonte": "archaeology-travel.com, santorini.net — cobertura consolidada sobre horários de Akrotiri, consultado via busca em 2026-09-02",
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no local ou site do Ministério da Cultura grego",
+                "valor": {
+                    "adulto": 20
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "getyourguide.com, theabroadguide.com, civitatis.com — ingresso individual; existe bilhete combinado com o Museu Pré-histórico de Thira e Ancient Thera. Gratuito para menores e cidadãos da UE até 25 anos com identificação",
                 "consultadoEm": "2026-09-02"
             },
             "oficial": null,
@@ -22414,6 +22524,191 @@ const DB = {
             "desc": "Praia de areia e seixos negros vulcânicos, a mais estruturada da ilha para banho — calçadão com bares, restaurantes e espreguiçadeiras, aos pés do Monte Mesa Vouno."
         },
         {
+            "id": "san_museu_pre_historico",
+            "cidadeId": "santorini",
+            "nome": "Museu Pré-histórico de Thira",
+            "zona": "fira",
+            "cat": [
+                "historia",
+                "museus",
+                "cultura"
+            ],
+            "prio": 62,
+            "dur": 60,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Próximo ao terminal rodoviário de Fira, Santorini, Grécia",
+            "horario": {
+                "valor": "Diariamente, das 8h30 às 15h; fecha às segundas",
+                "tipo": "CADASTRADO",
+                "fonte": "santorini.com — cobertura consolidada sobre o Museu Pré-histórico de Thira, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 6
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "santorinidave.com, archaeologicalmuseums.gr — ingresso avulso; também vendido em bilhete combinado de 3 dias por €15, junto com Akrotiri e Ancient Thera",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Reúne os principais achados das escavações da ilha — cerâmicas, estátuas de mármore, ferramentas e afrescos minoicos de Akrotiri que não ficaram expostos no próprio sítio arqueológico. Complementa a visita a Akrotiri, a poucos minutos de Fira."
+        },
+        {
+            "id": "san_ancient_thera",
+            "cidadeId": "santorini",
+            "nome": "Ancient Thera (Mesa Vouno)",
+            "zona": "kamari_perissa",
+            "cat": [
+                "historia",
+                "aventura",
+                "fotografia"
+            ],
+            "prio": 68,
+            "dur": 150,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 8,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Topo do Monte Mesa Vouno (365 m), entre Kamari e Perissa, Santorini, Grécia — acesso só de carro ou a pé",
+            "horario": {
+                "valor": "6 de novembro a 24 de março: diariamente, exceto terças, das 8h30 às 15h30. 24 de abril a 31 de outubro: diariamente, exceto quartas, das 8h30 às 15h30",
+                "tipo": "CADASTRADO",
+                "fonte": "santorinidave.com — cobertura consolidada sobre horários de Ancient Thera, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 10
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "santorinidave.com — ingresso de Ancient Thera, possivelmente só em dinheiro no local",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Cidade antiga fundada por colonos dórios de Esparta no século VIII a.C., no topo de uma crista rochosa de 365 metros entre Kamari e Perissa — foi o centro religioso e comercial de Santorini na Antiguidade, com vista panorâmica considerada a melhor da ilha. Acesso só por estrada íngreme ou trilha a pé (inclusive a partir do Mosteiro do Profeta Elias, em Pyrgos)."
+        },
+        {
+            "id": "san_pyrgos_kallistis",
+            "cidadeId": "santorini",
+            "nome": "Pyrgos Kallistis",
+            "zona": "pyrgos",
+            "cat": [
+                "historia",
+                "cultura",
+                "fotografia"
+            ],
+            "prio": 66,
+            "dur": 120,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Pyrgos, Santorini, Grécia, cerca de 7 km ao sul de Fira",
+            "horario": {
+                "valor": "Acesso livre ao vilarejo o dia todo; o castelo veneziano e o mirante do pôr do sol também são livres a qualquer hora",
+                "tipo": "CADASTRADO",
+                "fonte": "alongdustyroads.com, allovergreece.com — cobertura consolidada sobre Pyrgos Kallistis, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre ao vilarejo",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Vila medieval no ponto mais alto de Santorini, erguida em anfiteatro na colina do Profeta Elias — vielas estreitas, casas de pedra e ruínas de um castelo veneziano no topo, um dos cinco castelos históricos da ilha. Bem menos turística que Oia ou Fira, com vista de 360° sobre a ilha."
+        },
+        {
+            "id": "san_santo_wines",
+            "cidadeId": "santorini",
+            "nome": "Santo Wines — vinícola com vista para a caldeira",
+            "zona": "pyrgos",
+            "cat": [
+                "gastronomia",
+                "fotografia",
+                "romantico"
+            ],
+            "prio": 64,
+            "dur": 90,
+            "comidaLocal": true,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Pyrgos Kallistis 847 00, Santorini, Grécia",
+            "horario": {
+                "valor": "Diariamente, das 9h às 22h (até meia-noite nos meses de verão)",
+                "tipo": "CADASTRADO",
+                "fonte": "santowines.gr — sítio oficial, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 12
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "santorinisecrets.com, santowines.gr — degustação curta com 2 vinhos a partir de €12; degustações mais completas (flights) entre €18 e €55",
+                "nota": "Valor cadastrado é a degustação mais simples (2 vinhos, €12); flights maiores chegam a €55.",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": "https://santowines.gr/",
+            "desc": "Uma das vinícolas mais visitadas de Santorini, com terraço voltado para a caldeira e mais de 600 mil visitantes por ano — degustação dos vinhos vulcânicos da ilha, incluindo o Vinsanto, vinho doce histórico da região. Reserva não é obrigatória para degustação simples, mas recomendada para mesa ao pôr do sol em julho e agosto."
+        },
+        {
+            "id": "san_perissa_beach",
+            "cidadeId": "santorini",
+            "nome": "Praia de Perissa",
+            "zona": "kamari_perissa",
+            "cat": [
+                "praias",
+                "descanso",
+                "familia"
+            ],
+            "prio": 58,
+            "dur": 120,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Perissa, Santorini, Grécia",
+            "horario": {
+                "valor": "Acesso livre o dia todo",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre as praias do sul de Santorini, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à praia pública",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Praia de areia negra no lado oposto de Kamari em relação ao Monte Mesa Vouno — mais extensa e um pouco menos movimentada, com bares de praia ao longo de toda a orla."
+        },
+        {
             "id": "myk_delos",
             "cidadeId": "mykonos",
             "nome": "Ilha de Delos",
@@ -22443,7 +22738,9 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": 20,
+                "valor": {
+                    "adulto": 20
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "getyourguide.com, archaeology-travel.com — ingresso ao sítio arqueológico, sem incluir a passagem de barco (cerca de €25 ida e volta, à parte)",
                 "consultadoEm": "2026-09-02"
@@ -22664,6 +22961,150 @@ const DB = {
             "desc": "Segundo maior povoado da ilha, no interior — mantém o ritmo de vida tradicional das Cíclades, longe do circuito turístico de Chora, em torno do Mosteiro de Panagia Tourliani, do século XVI."
         },
         {
+            "id": "myk_aegean_maritime_museum",
+            "cidadeId": "mykonos",
+            "nome": "Museu Marítimo do Egeu (Aegean Maritime Museum)",
+            "zona": "chora",
+            "cat": [
+                "historia",
+                "museus",
+                "cultura"
+            ],
+            "prio": 55,
+            "dur": 45,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Tria Pigadia, Chora, Mykonos, Grécia",
+            "horario": {
+                "valor": "Abril a outubro, diariamente, das 10h30 às 13h e das 18h30 às 21h",
+                "tipo": "CADASTRADO",
+                "fonte": "triphobo.com — cobertura consolidada sobre o Museu Marítimo do Egeu, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 4
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada (airial.travel, vacanzegreche.com), consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "No bairro de Tria Pigadia, ao lado da Casa da Lena — exposição cronológica da navegação nas Cíclades, com maquetes de embarcações que singraram o Egeu desde a Pré-História até hoje."
+        },
+        {
+            "id": "myk_lenas_house",
+            "cidadeId": "mykonos",
+            "nome": "Casa da Lena (Museu Folclórico)",
+            "zona": "chora",
+            "cat": [
+                "historia",
+                "museus",
+                "cultura"
+            ],
+            "prio": 52,
+            "dur": 30,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Tria Pigadia, Chora, Mykonos, Grécia",
+            "horario": {
+                "valor": "Maio a meados de outubro, diariamente, das 10h30 às 13h e das 18h30 às 21h30",
+                "tipo": "CADASTRADO",
+                "fonte": "mykonosfolkloremuseum.gr — sítio oficial, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 2
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "mykonosfolkloremuseum.gr — sítio oficial",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": "https://www.mykonosfolkloremuseum.gr/en/",
+            "desc": "Casa de família mykoniota do século XIX preservada com móveis e objetos originais, mostrando a organização interna de uma residência tradicional de classe média da ilha — ao lado do Museu Marítimo do Egeu, no bairro de Tria Pigadia."
+        },
+        {
+            "id": "myk_psarou_beach",
+            "cidadeId": "mykonos",
+            "nome": "Praia de Psarou",
+            "zona": "praias_sul",
+            "cat": [
+                "praias",
+                "gastronomia",
+                "descanso"
+            ],
+            "prio": 62,
+            "dur": 120,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Psarou, Mykonos, Grécia",
+            "horario": {
+                "valor": "Acesso livre durante o dia; beach clubs funcionam sobretudo à tarde",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre as praias de Mykonos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso livre à praia pública; espreguiçadeiras e beach clubs cobrados à parte",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Praia mais chique e discreta do litoral sul, protegida do vento meltemi por estar numa enseada fechada — reduto de beach clubs sofisticados e clientela vip, alternativa mais tranquila a Paradise e Super Paradise."
+        },
+        {
+            "id": "myk_kastro",
+            "cidadeId": "mykonos",
+            "nome": "Bairro do Kastro",
+            "zona": "chora",
+            "cat": [
+                "historia",
+                "fotografia",
+                "arquitetura"
+            ],
+            "prio": 60,
+            "dur": 45,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Kastro, Chora, Mykonos, Grécia, próximo à Igreja de Panagia Paraportiani",
+            "horario": {
+                "valor": "Acesso livre o dia todo",
+                "tipo": "CADASTRADO",
+                "fonte": "Cobertura consolidada de guias de viagem sobre o bairro do Kastro em Mykonos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": 0,
+                "tipo": "CADASTRADO",
+                "fonte": "Bairro público, sem bilhete de entrada",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Bairro mais antigo de Chora, erguido sobre as ruínas de um antigo castelo veneziano — casas construídas lado a lado formando uma muralha voltada para o mar, um dos melhores pontos da cidade para ver o pôr do sol fora de Little Venice."
+        },
+        {
             "id": "rod_palacio_grao_mestre",
             "cidadeId": "rodes",
             "nome": "Palácio do Grão-Mestre dos Cavaleiros",
@@ -22692,7 +23133,9 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": 20,
+                "valor": {
+                    "adulto": 20
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "grandmasterpalacerhodes.gr — tarifa em vigor desde a reforma de 01/04/2025; gratuito para menores de 6 anos e cidadãos da UE até 25 anos com identificação",
                 "consultadoEm": "2026-09-02"
@@ -22763,10 +23206,13 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Preço da excursão varia por operador; o ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
-                "consultadoEm": "2026-09-02"
+                "valor": {
+                    "adulto": 20
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "checkyeti.com — passeio mais simples, a partir de €20; pacote com parada de natação em Anthony Quinn's Bay, a partir de €30. Operadores e inclusões variam bastante, confirme antes de reservar. O ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
+                "consultadoEm": "2026-09-02",
+                "nota": "Valor cadastrado é o piso do passeio mais simples (€20); pacotes com parada para natação chegam a €30."
             },
             "oficial": null,
             "desc": "Cruzeiro pela costa leste de Rodes até a vila de Lindos, dominada por sua acrópole sobre um penhasco de 116 metros à beira-mar — tempo livre para subir à acrópole, passear pelas ruelas brancas ou nadar na praia de areia da vila. Alternativa mais cênica ao acesso por estrada."
@@ -22801,7 +23247,7 @@ const DB = {
             "custo": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
-                "fonte": "Preço da excursão varia por operador — verifique diretamente",
+                "fonte": "checkyeti.com registra excursões de barco a Symi a partir de €25, mas o valor exato varia por operador e pacote (parada para natação, refeição incluída) — verifique diretamente antes de reservar",
                 "consultadoEm": "2026-09-02"
             },
             "oficial": null,
@@ -22949,6 +23395,162 @@ const DB = {
             "desc": "Floresta com riacho e um pequeno lago artificial formado pela junção de sete nascentes — trilha sombreada até o túnel estreito (cerca de 186 metros, parcialmente na água) que leva à represa, contraste refrescante com as praias da ilha."
         },
         {
+            "id": "rod_museu_arqueologico",
+            "cidadeId": "rodes",
+            "nome": "Museu Arqueológico de Rodes",
+            "zona": "cidade_medieval",
+            "cat": [
+                "historia",
+                "museus",
+                "arquitetura"
+            ],
+            "prio": 72,
+            "dur": 75,
+            "interior": true,
+            "chuva": "alto",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "terca"
+            ],
+            "endereco": "Praça Megalou Alexandrou, Cidade Medieval de Rodes, 85100, Grécia",
+            "horario": {
+                "valor": "Inverno (a partir de 1º de novembro): quarta a segunda, das 8h30 às 15h30, terça fechado. Verão (a partir de 1º de abril): diariamente, das 8h às 20h",
+                "tipo": "CADASTRADO",
+                "fonte": "archaeologicalmuseums.gr — sítio oficial, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 6
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "archaeologicalmuseums.gr — sítio oficial; entrada gratuita para crianças e estudantes",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Instalado no antigo Hospital dos Cavaleiros Hospitalários, do século XV, na Praça Megalou Alexandrou — reúne achados arqueológicos de toda a ilha, incluindo a célebre estátua de Afrodite de Rodes."
+        },
+        {
+            "id": "rod_filerimos",
+            "cidadeId": "rodes",
+            "nome": "Monte e Mosteiro de Filerimos",
+            "zona": "oeste",
+            "cat": [
+                "religiao",
+                "historia",
+                "natureza"
+            ],
+            "prio": 60,
+            "dur": 90,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "terca"
+            ],
+            "endereco": "Filerimos, acima de Ialyssos, cerca de 14 km da Cidade de Rodes, Grécia",
+            "horario": {
+                "valor": "Verão, diariamente, das 8h às 20h; inverno, das 8h30 às 15h30; fecha às terças",
+                "tipo": "CADASTRADO",
+                "fonte": "rhodesinfo.gr — cobertura consolidada sobre o Mosteiro de Filerimos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 10
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "greeka.com — cobertura consolidada sobre o Mosteiro de Filerimos, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Colina sagrada desde a Antiguidade, com ruínas de templos gregos, uma basílica bizantina e o mosteiro franciscano restaurado de Nossa Senhora de Filerimos — a subida até a colina passa por uma via-sacra com estações esculpidas em pedra, e o topo tem vista para as duas costas da ilha."
+        },
+        {
+            "id": "rod_valley_butterflies",
+            "cidadeId": "rodes",
+            "nome": "Vale das Borboletas (Petaloudes)",
+            "zona": "oeste",
+            "cat": [
+                "natureza",
+                "familia",
+                "aventura"
+            ],
+            "prio": 62,
+            "dur": 90,
+            "interior": false,
+            "chuva": "medio",
+            "idadeMin": 0,
+            "juvenil": true,
+            "familia": true,
+            "reserva": false,
+            "fechado": [],
+            "endereco": "Petaloudes, Rodes, Grécia",
+            "horario": {
+                "valor": "Junho a outubro, diariamente, das 8h às 18h — fora dessa janela as borboletas não estão presentes em número relevante",
+                "tipo": "CADASTRADO",
+                "fonte": "rhodesguide.com, visit-greece.info — cobertura consolidada sobre o Vale das Borboletas, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 6,
+                    "gratuitoAte": 12
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "visit-greece.info — tarifa de alta temporada; fora do pico pode cair para €3. Crianças até 12 anos entram grátis",
+                "consultadoEm": "2026-09-02",
+                "nota": "Valor cadastrado é o teto de alta temporada (€6); em baixa movimento pode cair para €3."
+            },
+            "oficial": null,
+            "desc": "Vale arborizado onde milhares de mariposas-tigre (não borboletas, apesar do nome popular) se reúnem entre junho e setembro, atraídas pela resina de storax das árvores — trilha de madeira ao longo de um riacho com pequenas cachoeiras."
+        },
+        {
+            "id": "rod_kamiros",
+            "cidadeId": "rodes",
+            "nome": "Sítio Arqueológico de Kamiros",
+            "zona": "oeste",
+            "cat": [
+                "historia",
+                "museus",
+                "fotografia"
+            ],
+            "prio": 58,
+            "dur": 75,
+            "interior": false,
+            "chuva": "baixo",
+            "idadeMin": 0,
+            "juvenil": false,
+            "familia": true,
+            "reserva": false,
+            "fechado": [
+                "segunda"
+            ],
+            "endereco": "Kamiros, costa oeste de Rodes, Grécia",
+            "horario": {
+                "valor": "Inverno, das 8h30 às 14h40; verão, terça a domingo, das 8h às 19h40; fecha às segundas",
+                "tipo": "CADASTRADO",
+                "fonte": "rhodespefkos.com — cobertura consolidada sobre Ancient Kamiros, consultado via busca em 2026-09-02",
+                "consultadoEm": "2026-09-02"
+            },
+            "custo": {
+                "valor": {
+                    "adulto": 6
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "rhodespefkos.com — entrada gratuita para menores de 16 anos",
+                "consultadoEm": "2026-09-02"
+            },
+            "oficial": null,
+            "desc": "Uma das três antigas cidades-estado da Rodes clássica (junto com Lindos e a própria Cidade de Rodes) — ruínas bem preservadas de um traçado urbano helenístico completo, com sistema de abastecimento de água, ágora, templos e casas, na costa oeste da ilha, voltada para o mar Egeu."
+        },
+        {
             "id": "napoli_duomo",
             "cidadeId": "napoli",
             "nome": "Duomo di Napoli (Catedral de São Januário)",
@@ -23046,7 +23648,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 15,
+                "valor": {
+                    "adulto": 15
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Bilhete adulto; reduzido € 10 (11–24 anos) e € 8 (5–10 anos)",
                 "consultadoEm": "2026-08-27"
@@ -23083,7 +23687,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 10,
+                "valor": {
+                    "adulto": 10
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Bilhete inteiro; reduzido € 7 (10–25 anos); gratuito até 9 anos",
                 "consultadoEm": "2026-08-27"
@@ -23570,7 +24176,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 10,
+                "valor": {
+                    "adulto": 10
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "visitvalencia.com — bilhete geral adulto; bilhete reduzido € 6",
                 "consultadoEm": "2026-08-27"
@@ -23605,7 +24213,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 2,
+                "valor": {
+                    "adulto": 2
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "Consenso de guias oficiais de turismo de Valência — bilhete geral; gratuito aos domingos e feriados",
                 "consultadoEm": "2026-08-27"
@@ -23712,7 +24322,9 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": 2,
+                "valor": {
+                    "adulto": 2
+                },
                 "tipo": "CADASTRADO",
                 "fonte": "valencia.es — bilhete geral; reduzido € 1; gratuito aos domingos e feriados",
                 "consultadoEm": "2026-08-27"
@@ -31952,10 +32564,11 @@ const Render = {
 
     /* --------------------------------------------------------------- CRONOGRAMA */
     cronograma(r) {
-        let h = '<p class="lede">Cada dia é montado com horários reais, deslocamentos explícitos e sem sobreposição. O dia de chegada e o de partida recebem carga reduzida por construção. O cronograma abaixo é editável: acrescente, remova, mova ou reposicione blocos, feche intervalos quando quiser, e desfaça ou refaça o caminho. O sistema revalida e recalcula tudo a cada alteração.</p>';
+        let h = '<p class="lede">Cada dia é montado com horários reais, deslocamentos explícitos e sem sobreposição. O dia de chegada e o de partida recebem carga reduzida por construção. O cronograma abaixo é editável: acrescente, remova, mova ou reposicione blocos, feche intervalos quando quiser, e desfaça ou refaça o caminho. O sistema revalida e recalcula tudo a cada alteração. Atrações também podem ser arrastadas (☰) direto para outro dia da mesma cidade — o recálculo, a crítica de conflito e o botão de cancelar são os mesmos do menu “Mover para…”.</p>';
         h += Edicao.painel(r);
         r.dias.forEach((d, i) => {
             const rotuloTipo = { chegada: 'chegada', partida: 'partida', transferencia: 'transferência', normal: '' }[d.tipo];
+            h += '<div class="dia-wrap" data-dia="' + i + '" data-cidade="' + U.esc(d.cidadeId) + '">';
             h += '<div class="dia-head"><span class="dia-n">' + String(i + 1).padStart(2, '0') + '</span>' +
                 '<span class="dia-data">' + U.dataExtenso(d.data) + '</span>' +
                 '<span class="dia-cidade">' + U.esc(d.cidadeNome) + (rotuloTipo ? ' · ' + rotuloTipo : '') + '</span>' +
@@ -31971,9 +32584,11 @@ const Render = {
                 // antes do forEach: Edicao.controles() depende desse índice para
                 // mover/remover o bloco certo.
                 if (b.tipo === 'refeicao') return;
+                const arrastavel = b.tipo === 'atracao';
                 const cls = b.tipo === 'desloc' ? ' is-desloc' : '';
-                h += '<div class="sched-row' + cls + '">';
-                h += '<div class="sched-hora">' + U.hhmm(b.ini) + '–' + U.hhmm(b.fim) + '</div>';
+                h += '<div class="sched-row' + cls + '"' +
+                    (arrastavel ? ' draggable="true" data-dia="' + i + '" data-bloco="' + j + '" title="Arraste (☰) para outro dia desta cidade para mover esta atração."' : '') + '>';
+                h += '<div class="sched-hora">' + (arrastavel ? '☰ ' : '') + U.hhmm(b.ini) + '–' + U.hhmm(b.fim) + '</div>';
                 h += '<div class="sched-ico">' + b.icone + '</div>';
                 h += '<div><div class="sched-t">' + U.esc(b.titulo) + '</div>' +
                     (b.desc ? '<div class="sched-d">' + U.esc(b.desc) + '</div>' : '') +
@@ -31984,6 +32599,7 @@ const Render = {
             });
             h += '</div>';
             h += Edicao.acoesDia(r, i, d);
+            h += '</div>';
         });
         return R.secao('sec-cronograma', 'Dia a dia', '📅 Cronograma detalhado', h, '📅 Cronograma', 'Programação hora a hora, com deslocamentos e justificativa de cada atração selecionada. Horários de almoço e jantar entram no cálculo de cada dia, mas ficam na aba Alimentação, não listados aqui.');
     },
@@ -33683,6 +34299,11 @@ const Edicao = {
     refazerPilha: [],
     pendente: null,
     erro: null,
+    // Origem de um arrasto de bloco em andamento no Cronograma — { dia, bloco } — vive
+    // só entre 'dragstart' e 'drop'/'dragend'. Não guardamos no dataTransfer porque o
+    // conteúdo dele só é legível de forma confiável no 'drop' em alguns navegadores; sem
+    // isto não daria para destacar só os dias-alvo válidos durante o 'dragover'.
+    arrastoOrigem: null,
 
     /* --------------------------------------------------------- ESCOPO E ISOLAMENTO */
     garantir(r) {
@@ -34484,6 +35105,57 @@ const Edicao = {
             if (!el) return;
             ev.preventDefault();
             App.irParaCampo(el.getAttribute('data-campo-ir'));
+        });
+
+        /* Arrastar uma atração do Cronograma para outro dia da mesma cidade — mesmo
+           destino do menu "Mover para…" (Edicao.controles), só que pelo gesto de
+           arrastar. Reaproveita a operação 'mover' ponta a ponta: recálculo automático,
+           conflito declarado como proposta pendente (nunca aplicado em silêncio) e os
+           botões "Manter mesmo assim" / "Cancelar a alteração" já existentes no console
+           de edição. Drag-and-drop nativo do HTML5, sem biblioteca — funciona com mouse;
+           em telas de toque, o menu "Mover para…" continua sendo o caminho. */
+        document.addEventListener('dragstart', function (ev) {
+            const row = ev.target && ev.target.closest ? ev.target.closest('.sched-row[draggable="true"]') : null;
+            if (!row) return;
+            const dia = parseInt(row.getAttribute('data-dia'), 10);
+            const bloco = parseInt(row.getAttribute('data-bloco'), 10);
+            Edicao.arrastoOrigem = { dia, bloco };
+            ev.dataTransfer.effectAllowed = 'move';
+            ev.dataTransfer.setData('text/plain', dia + ':' + bloco);
+            row.classList.add('arrasto-fantasma');
+        });
+        document.addEventListener('dragover', function (ev) {
+            const origem = Edicao.arrastoOrigem, r = appState.roteiroAtual;
+            const alvo = ev.target && ev.target.closest ? ev.target.closest('.dia-wrap[data-dia]') : null;
+            if (!origem || !r || !alvo) return;
+            const diaDestino = parseInt(alvo.getAttribute('data-dia'), 10);
+            const diaOrigemObj = r.dias[origem.dia];
+            if (!diaOrigemObj || diaDestino === origem.dia || alvo.getAttribute('data-cidade') !== diaOrigemObj.cidadeId) return;
+            ev.preventDefault();
+            ev.dataTransfer.dropEffect = 'move';
+            alvo.classList.add('arrasto-alvo');
+        });
+        document.addEventListener('dragleave', function (ev) {
+            const alvo = ev.target && ev.target.closest ? ev.target.closest('.dia-wrap[data-dia]') : null;
+            if (alvo) alvo.classList.remove('arrasto-alvo');
+        });
+        document.addEventListener('drop', function (ev) {
+            const origem = Edicao.arrastoOrigem;
+            const alvo = ev.target && ev.target.closest ? ev.target.closest('.dia-wrap[data-dia]') : null;
+            if (!origem || !alvo) return;
+            ev.preventDefault();
+            alvo.classList.remove('arrasto-alvo');
+            const diaDestino = parseInt(alvo.getAttribute('data-dia'), 10);
+            Edicao.arrastoOrigem = null;
+            const r = appState.roteiroAtual;
+            if (!r || diaDestino === origem.dia) return;
+            const resultado = Edicao.aplicar(r, { tipo: 'mover', dia: origem.dia, bloco: origem.bloco, destino: diaDestino });
+            Edicao.recompor(r, resultado && resultado.status === 'conflito' ? 'sec-cronograma' : 'sec-cronograma');
+        });
+        document.addEventListener('dragend', function () {
+            Edicao.arrastoOrigem = null;
+            document.querySelectorAll('.sched-row.arrasto-fantasma').forEach(function (x) { x.classList.remove('arrasto-fantasma'); });
+            document.querySelectorAll('.dia-wrap.arrasto-alvo').forEach(function (x) { x.classList.remove('arrasto-alvo'); });
         });
     }
 };

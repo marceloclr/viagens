@@ -44,7 +44,7 @@
     "endereco": "Gözcü Sokak No:2, 06240 Ulus, Ankara, Turquia",
     "desc": "Um dos acervos arqueológicos mais premiados da Turquia, instalado em dois edifícios otomanos restaurados aos pés do Castelo de Ancara, com achados hititas, frígios e urartianos.",
     "custo": {
-      "valor": 12,
+      "valor": { "adulto": 12 },
       "tipo": "CADASTRADO",
       "fonte": "Pesquisa de referência consolidada (whichmuseum.com, advantour.com) — consultado em 2026-08-27; valor em euros para visitantes estrangeiros, aceita o Museum Pass Türkiye",
       "consultadoEm": "2026-08-27"

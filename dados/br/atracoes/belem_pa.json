@@ -115,7 +115,7 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": 22,
+      "valor": { "adulto": 22 },
       "tipo": "CADASTRADO",
       "fonte": "Guias de viagem consolidados — passaporte que dá acesso ao Farol/mirante, Reserva José Mário Alves (borboletário) e Memorial Amazônico da Navegação (cada atração isolada custa R$ 9; entrada no parque e jardins é gratuita)",
       "consultadoEm": "2026-09-02"
@@ -302,7 +302,7 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": 24,
+      "valor": { "adulto": 24 },
       "tipo": "CADASTRADO",
       "fonte": "oliberal.com — travessia de lancha ida e volta pelo terminal hidroviário; gratuidade para crianças até 5 anos, idosos acima de 60 e PCD com acompanhante. Restaurantes, trilhas guiadas e a Casa do Chocolate são cobrados à parte.",
       "consultadoEm": "2026-09-02"

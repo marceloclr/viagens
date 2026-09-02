@@ -43,7 +43,7 @@
     "endereco": "Cour de Saint-Pierre 6, 1204 Genève, Suíça",
     "desc": "Catedral gótica que foi centro da Reforma Calvinista; a entrada na igreja é livre, mas a subida às torres e o sítio arqueológico são pagos.",
     "custo": {
-      "valor": 5,
+      "valor": { "adulto": 5 },
       "tipo": "CADASTRADO",
       "fonte": "Reportagem consolidada de guias turísticos (Rehlat/USNews) citando tarifa das torres em CHF; valor não confirmado no site oficial saintpierre-geneve.ch (indisponível no momento da consulta)",
       "consultadoEm": "2026-08-26"
@@ -79,7 +79,7 @@
     "endereco": "Rue du Cloître 4, 1204 Genève, Suíça",
     "desc": "Museu dedicado à história da Reforma Protestante, com forte ligação a Calvino e à identidade religiosa de Genebra.",
     "custo": {
-      "valor": 8,
+      "valor": { "adulto": 8 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial do museu (musee-reforme.ch/informations-pratiques)",
       "consultadoEm": "2026-08-26"
@@ -113,7 +113,7 @@
     "endereco": "Avenue de la Paix 14, 1211 Genève, Suíça",
     "desc": "Sede europeia da ONU; visitas guiadas de cerca de uma hora percorrem salas de conferência e o histórico complexo diplomático internacional de Genebra.",
     "custo": {
-      "valor": 25,
+      "valor": { "adulto": 25 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial ungeneva.org/en/visit",
       "consultadoEm": "2026-08-26"
@@ -149,7 +149,7 @@
     "endereco": "Rue des Vieux-Grenadiers 7, 1205 Genève, Suíça",
     "desc": "Museu dedicado à relojoaria genebrina de alta precisão, com coleções históricas do fabricante Patek Philippe.",
     "custo": {
-      "valor": 10,
+      "valor": { "adulto": 10 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial patek.com/en/museum/plan-your-visit",
       "consultadoEm": "2026-08-26"

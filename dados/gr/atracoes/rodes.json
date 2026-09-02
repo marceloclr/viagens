@@ -22,7 +22,7 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": 20,
+      "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "grandmasterpalacerhodes.gr — tarifa em vigor desde a reforma de 01/04/2025; gratuito para menores de 6 anos e cidadãos da UE até 25 anos com identificação",
       "consultadoEm": "2026-09-02"
@@ -85,10 +85,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Preço da excursão varia por operador; o ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 20 },
+      "tipo": "CADASTRADO",
+      "fonte": "checkyeti.com — passeio mais simples, a partir de €20; pacote com parada de natação em Anthony Quinn's Bay, a partir de €30. Operadores e inclusões variam bastante, confirme antes de reservar. O ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
+      "consultadoEm": "2026-09-02",
+      "nota": "Valor cadastrado é o piso do passeio mais simples (€20); pacotes com parada para natação chegam a €30."
     },
     "oficial": null,
     "desc": "Cruzeiro pela costa leste de Rodes até a vila de Lindos, dominada por sua acrópole sobre um penhasco de 116 metros à beira-mar — tempo livre para subir à acrópole, passear pelas ruelas brancas ou nadar na praia de areia da vila. Alternativa mais cênica ao acesso por estrada."
@@ -119,7 +120,7 @@
     "custo": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Preço da excursão varia por operador — verifique diretamente",
+      "fonte": "checkyeti.com registra excursões de barco a Symi a partir de €25, mas o valor exato varia por operador e pacote (parada para natação, refeição incluída) — verifique diretamente antes de reservar",
       "consultadoEm": "2026-09-02"
     },
     "oficial": null,
@@ -250,5 +251,130 @@
     },
     "oficial": null,
     "desc": "Floresta com riacho e um pequeno lago artificial formado pela junção de sete nascentes — trilha sombreada até o túnel estreito (cerca de 186 metros, parcialmente na água) que leva à represa, contraste refrescante com as praias da ilha."
+  },
+  {
+    "id": "rod_museu_arqueologico",
+    "cidadeId": "rodes",
+    "nome": "Museu Arqueológico de Rodes",
+    "zona": "cidade_medieval",
+    "cat": ["historia", "museus", "arquitetura"],
+    "prio": 72,
+    "dur": 75,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["terca"],
+    "endereco": "Praça Megalou Alexandrou, Cidade Medieval de Rodes, 85100, Grécia",
+    "horario": {
+      "valor": "Inverno (a partir de 1º de novembro): quarta a segunda, das 8h30 às 15h30, terça fechado. Verão (a partir de 1º de abril): diariamente, das 8h às 20h",
+      "tipo": "CADASTRADO",
+      "fonte": "archaeologicalmuseums.gr — sítio oficial, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 6 },
+      "tipo": "CADASTRADO",
+      "fonte": "archaeologicalmuseums.gr — sítio oficial; entrada gratuita para crianças e estudantes",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Instalado no antigo Hospital dos Cavaleiros Hospitalários, do século XV, na Praça Megalou Alexandrou — reúne achados arqueológicos de toda a ilha, incluindo a célebre estátua de Afrodite de Rodes."
+  },
+  {
+    "id": "rod_filerimos",
+    "cidadeId": "rodes",
+    "nome": "Monte e Mosteiro de Filerimos",
+    "zona": "oeste",
+    "cat": ["religiao", "historia", "natureza"],
+    "prio": 60,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["terca"],
+    "endereco": "Filerimos, acima de Ialyssos, cerca de 14 km da Cidade de Rodes, Grécia",
+    "horario": {
+      "valor": "Verão, diariamente, das 8h às 20h; inverno, das 8h30 às 15h30; fecha às terças",
+      "tipo": "CADASTRADO",
+      "fonte": "rhodesinfo.gr — cobertura consolidada sobre o Mosteiro de Filerimos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 10 },
+      "tipo": "CADASTRADO",
+      "fonte": "greeka.com — cobertura consolidada sobre o Mosteiro de Filerimos, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Colina sagrada desde a Antiguidade, com ruínas de templos gregos, uma basílica bizantina e o mosteiro franciscano restaurado de Nossa Senhora de Filerimos — a subida até a colina passa por uma via-sacra com estações esculpidas em pedra, e o topo tem vista para as duas costas da ilha."
+  },
+  {
+    "id": "rod_valley_butterflies",
+    "cidadeId": "rodes",
+    "nome": "Vale das Borboletas (Petaloudes)",
+    "zona": "oeste",
+    "cat": ["natureza", "familia", "aventura"],
+    "prio": 62,
+    "dur": 90,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Petaloudes, Rodes, Grécia",
+    "horario": {
+      "valor": "Junho a outubro, diariamente, das 8h às 18h — fora dessa janela as borboletas não estão presentes em número relevante",
+      "tipo": "CADASTRADO",
+      "fonte": "rhodesguide.com, visit-greece.info — cobertura consolidada sobre o Vale das Borboletas, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 6, "gratuitoAte": 12 },
+      "tipo": "CADASTRADO",
+      "fonte": "visit-greece.info — tarifa de alta temporada; fora do pico pode cair para €3. Crianças até 12 anos entram grátis",
+      "consultadoEm": "2026-09-02",
+      "nota": "Valor cadastrado é o teto de alta temporada (€6); em baixa movimento pode cair para €3."
+    },
+    "oficial": null,
+    "desc": "Vale arborizado onde milhares de mariposas-tigre (não borboletas, apesar do nome popular) se reúnem entre junho e setembro, atraídas pela resina de storax das árvores — trilha de madeira ao longo de um riacho com pequenas cachoeiras."
+  },
+  {
+    "id": "rod_kamiros",
+    "cidadeId": "rodes",
+    "nome": "Sítio Arqueológico de Kamiros",
+    "zona": "oeste",
+    "cat": ["historia", "museus", "fotografia"],
+    "prio": 58,
+    "dur": 75,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Kamiros, costa oeste de Rodes, Grécia",
+    "horario": {
+      "valor": "Inverno, das 8h30 às 14h40; verão, terça a domingo, das 8h às 19h40; fecha às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "rhodespefkos.com — cobertura consolidada sobre Ancient Kamiros, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 6 },
+      "tipo": "CADASTRADO",
+      "fonte": "rhodespefkos.com — entrada gratuita para menores de 16 anos",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Uma das três antigas cidades-estado da Rodes clássica (junto com Lindos e a própria Cidade de Rodes) — ruínas bem preservadas de um traçado urbano helenístico completo, com sistema de abastecimento de água, ágora, templos e casas, na costa oeste da ilha, voltada para o mar Egeu."
   }
 ]

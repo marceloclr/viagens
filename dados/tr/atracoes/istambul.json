@@ -10,7 +10,7 @@
     "endereco": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Turquia",
     "desc": "Antiga catedral bizantina, depois mesquita, museu e hoje mesquita novamente, com mosaicos e cúpula únicos de mais de 1.400 anos.",
     "custo": {
-      "valor": 25,
+      "valor": { "adulto": 25 },
       "tipo": "CADASTRADO",
       "fonte": "https://muze.gov.tr/muze-detay?SectionId=YSM01&DistId=MRK (Ministério da Cultura e Turismo da Turquia)",
       "consultadoEm": "2026-08-26",
@@ -117,7 +117,7 @@
     "endereco": "Cankurtaran, 34122 Fatih/İstanbul, Turquia",
     "desc": "Residência dos sultões otomanos por quase 400 anos, com o Harém, relíquias sagradas islâmicas e vista para o Corno de Ouro e o Bósforo.",
     "custo": {
-      "valor": 2750,
+      "valor": { "adulto": 2750 },
       "tipo": "CADASTRADO",
       "fonte": "https://topkapisarayi.org/en/visiting-info",
       "consultadoEm": "2026-08-26",
@@ -152,7 +152,7 @@
     "endereco": "Derviş Ali Mh., Kariye Cami Sk., 34087 Fatih/İstanbul, Turquia",
     "desc": "Antiga igreja bizantina, hoje mesquita ativa, com um dos conjuntos mais bem preservados de mosaicos e afrescos bizantinos do mundo.",
     "custo": {
-      "valor": 20,
+      "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "Pesquisa de referência consolidada (istanbulclues.com / muze.gen.tr)",
       "consultadoEm": "2026-08-26",

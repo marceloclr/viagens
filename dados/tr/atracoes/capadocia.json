@@ -10,7 +10,7 @@
     "endereco": "Aydınlı, Müze Cd. No:1, 50180 Göreme/Nevşehir, Turquia",
     "desc": "Complexo monástico bizantino escavado na rocha, com igrejas e capelas rupestres decoradas com afrescos dos séculos X a XII, patrimônio da UNESCO.",
     "custo": {
-      "valor": 20,
+      "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
       "consultadoEm": "2026-08-26",
@@ -115,7 +115,7 @@
     "endereco": "Derinkuyu, 50700 Nevşehir, Turquia",
     "desc": "Maior cidade subterrânea escavada da Capadócia, com até oito níveis de profundidade, usada como refúgio por comunidades cristãs bizantinas.",
     "custo": {
-      "valor": 13,
+      "valor": { "adulto": 13 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
       "consultadoEm": "2026-08-26",
@@ -149,7 +149,7 @@
     "endereco": "Zelve Ören Yeri, 50240 Nevşehir, Turquia",
     "desc": "Antigo vilarejo rupestre habitado até a década de 1950, com igrejas, casas e pombais escavados diretamente na rocha vulcânica.",
     "custo": {
-      "valor": 12,
+      "valor": { "adulto": 12 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
       "consultadoEm": "2026-08-26",

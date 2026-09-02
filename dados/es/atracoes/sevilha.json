@@ -10,7 +10,7 @@
     "endereco": "Patio de Banderas, s/n, 41004 Sevilha, Espanha",
     "desc": "Palácio real em uso, maior exemplo de arquitetura mudéjar da Espanha, com jardins históricos.",
     "custo": {
-      "valor": 15.5,
+      "valor": { "adulto": 15.5 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial alcazarsevilla.org/prepara-la-visita",
       "consultadoEm": "2026-08-26"
@@ -44,7 +44,7 @@
     "endereco": "Av. de la Constitución, s/n, 41004 Sevilha, Espanha",
     "desc": "Maior catedral gótica do mundo, erguida sobre a antiga mesquita almóada; a torre Giralda era seu antigo minarete.",
     "custo": {
-      "valor": 12,
+      "valor": { "adulto": 12 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial sevillacatedral.com/precios-y-horarios (entrada geral, tarifa 2026)",
       "consultadoEm": "2026-08-26"

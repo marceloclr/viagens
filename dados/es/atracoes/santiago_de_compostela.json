@@ -46,7 +46,7 @@
     "endereco": "Praza das Praterías, s/n, 15704 Santiago de Compostela, Espanha",
     "desc": "Museu público (Xunta de Galicia) dedicado à história das peregrinações e do Caminho de Santiago.",
     "custo": {
-      "valor": 2.4,
+      "valor": { "adulto": 2.4 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial museoperegrinacions.xunta.gal/es/visita/informacion",
       "consultadoEm": "2026-08-26"
@@ -114,7 +114,7 @@
     "endereco": "Praza da Inmaculada, 3, 15704 Santiago de Compostela, Espanha",
     "desc": "Grande mosteiro beneditino barroco, um dos maiores da Espanha, com igreja e museu visitáveis.",
     "custo": {
-      "valor": 4,
+      "valor": { "adulto": 4 },
       "tipo": "CADASTRADO",
       "fonte": "Turismo de Galicia (turismo.gal) — valor de referência para visita guiada",
       "consultadoEm": "2026-08-26"

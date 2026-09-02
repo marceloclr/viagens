@@ -1,9 +1,9 @@
 {
   "rotulos": {
     "atenas": ["acropole_plaka"],
-    "santorini": ["fira", "oia", "akrotiri", "kamari_perissa"],
+    "santorini": ["fira", "oia", "akrotiri", "kamari_perissa", "pyrgos"],
     "mykonos": ["chora", "delos_ilha", "praias_sul", "ano_mera"],
-    "rodes": ["cidade_medieval", "lindos", "mandraki_porto", "faliraki"]
+    "rodes": ["cidade_medieval", "lindos", "mandraki_porto", "faliraki", "oeste"]
   },
   "coordenadas": {
     "atenas": {
@@ -13,7 +13,8 @@
       "fira": { "lat": 36.4165, "lon": 25.4320 },
       "oia": { "lat": 36.4614, "lon": 25.3753 },
       "akrotiri": { "lat": 36.3517, "lon": 25.4030 },
-      "kamari_perissa": { "lat": 36.3766, "lon": 25.4870 }
+      "kamari_perissa": { "lat": 36.3766, "lon": 25.4870 },
+      "pyrgos": { "lat": 36.3865, "lon": 25.4436 }
     },
     "mykonos": {
       "chora": { "lat": 37.4467, "lon": 25.3289 },
@@ -25,7 +26,8 @@
       "cidade_medieval": { "lat": 36.4423, "lon": 28.2225 },
       "lindos": { "lat": 36.0917, "lon": 28.0864 },
       "mandraki_porto": { "lat": 36.4467, "lon": 28.2264 },
-      "faliraki": { "lat": 36.3389, "lon": 28.2003 }
+      "faliraki": { "lat": 36.3389, "lon": 28.2003 },
+      "oeste": { "lat": 36.3833, "lon": 28.1667 }
     }
   }
 }

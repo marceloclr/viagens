@@ -86,10 +86,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Preço varia por operador e pacote (com ou sem almoço a bordo) — verifique diretamente com a operadora",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 25 },
+      "tipo": "CADASTRADO",
+      "fonte": "viator.com, checkyeti.com, santorini-volcanotours.com — passeio simples de caíque a partir de €25; catamarã com refeição e bebidas incluídas a partir de €110. A entrada no vulcão de Nea Kameni (€5) e o teleférico de Fira (€10 ida) costumam ser cobrados à parte, fora do pacote do barco",
+      "consultadoEm": "2026-09-02",
+      "nota": "Valor cadastrado é o piso (caíque simples, €25); catamarã com refeição chega a €110, mais taxas de vulcão e teleférico à parte."
     },
     "oficial": null,
     "desc": "Passeio clássico pela caldeira vulcânica que forma a baía de Santorini: caminhada até a cratera ativa de Nea Kameni, banho nas águas alaranjadas das fontes termais sulfurosas de Palea Kameni e parada na ilha de Thirasia, geralmente com tempo livre para almoço. A própria geografia de Santorini — uma cratera afundada e inundada pelo mar — só se revela de verdade vista da água."
@@ -111,15 +112,15 @@
     "fechado": [],
     "endereco": "Akrotiri, 84700, Santorini, Grécia",
     "horario": {
-      "valor": "Novembro a março: terça a domingo, das 8h às 15h. Abril a outubro: sexta a quarta, das 8h às 20h; quintas, das 8h às 15h",
+      "valor": "Diariamente, das 8h às 20h; fecha mais cedo (8h30–15h30) em dois dias da semana que variam por fonte consultada (segunda e quinta, ou terça, conforme a temporada) — confirme o dia de fechamento vigente antes de ir, pois o sítio já teve fechamentos temporários para inspeção estrutural",
       "tipo": "CADASTRADO",
-      "fonte": "Cobertura consolidada de guias de viagem (penaestrada.blog.br), consultado via busca em 2026-09-02",
+      "fonte": "archaeology-travel.com, santorini.net — cobertura consolidada sobre horários de Akrotiri, consultado via busca em 2026-09-02",
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no local ou site do Ministério da Cultura grego",
+      "valor": { "adulto": 20 },
+      "tipo": "CADASTRADO",
+      "fonte": "getyourguide.com, theabroadguide.com, civitatis.com — ingresso individual; existe bilhete combinado com o Museu Pré-histórico de Thira e Ancient Thera. Gratuito para menores e cidadãos da UE até 25 anos com identificação",
       "consultadoEm": "2026-09-02"
     },
     "oficial": null,
@@ -281,5 +282,162 @@
     },
     "oficial": null,
     "desc": "Praia de areia e seixos negros vulcânicos, a mais estruturada da ilha para banho — calçadão com bares, restaurantes e espreguiçadeiras, aos pés do Monte Mesa Vouno."
+  },
+  {
+    "id": "san_museu_pre_historico",
+    "cidadeId": "santorini",
+    "nome": "Museu Pré-histórico de Thira",
+    "zona": "fira",
+    "cat": ["historia", "museus", "cultura"],
+    "prio": 62,
+    "dur": 60,
+    "interior": true,
+    "chuva": "alto",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": ["segunda"],
+    "endereco": "Próximo ao terminal rodoviário de Fira, Santorini, Grécia",
+    "horario": {
+      "valor": "Diariamente, das 8h30 às 15h; fecha às segundas",
+      "tipo": "CADASTRADO",
+      "fonte": "santorini.com — cobertura consolidada sobre o Museu Pré-histórico de Thira, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 6 },
+      "tipo": "CADASTRADO",
+      "fonte": "santorinidave.com, archaeologicalmuseums.gr — ingresso avulso; também vendido em bilhete combinado de 3 dias por €15, junto com Akrotiri e Ancient Thera",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Reúne os principais achados das escavações da ilha — cerâmicas, estátuas de mármore, ferramentas e afrescos minoicos de Akrotiri que não ficaram expostos no próprio sítio arqueológico. Complementa a visita a Akrotiri, a poucos minutos de Fira."
+  },
+  {
+    "id": "san_ancient_thera",
+    "cidadeId": "santorini",
+    "nome": "Ancient Thera (Mesa Vouno)",
+    "zona": "kamari_perissa",
+    "cat": ["historia", "aventura", "fotografia"],
+    "prio": 68,
+    "dur": 150,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 8,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Topo do Monte Mesa Vouno (365 m), entre Kamari e Perissa, Santorini, Grécia — acesso só de carro ou a pé",
+    "horario": {
+      "valor": "6 de novembro a 24 de março: diariamente, exceto terças, das 8h30 às 15h30. 24 de abril a 31 de outubro: diariamente, exceto quartas, das 8h30 às 15h30",
+      "tipo": "CADASTRADO",
+      "fonte": "santorinidave.com — cobertura consolidada sobre horários de Ancient Thera, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 10 },
+      "tipo": "CADASTRADO",
+      "fonte": "santorinidave.com — ingresso de Ancient Thera, possivelmente só em dinheiro no local",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Cidade antiga fundada por colonos dórios de Esparta no século VIII a.C., no topo de uma crista rochosa de 365 metros entre Kamari e Perissa — foi o centro religioso e comercial de Santorini na Antiguidade, com vista panorâmica considerada a melhor da ilha. Acesso só por estrada íngreme ou trilha a pé (inclusive a partir do Mosteiro do Profeta Elias, em Pyrgos)."
+  },
+  {
+    "id": "san_pyrgos_kallistis",
+    "cidadeId": "santorini",
+    "nome": "Pyrgos Kallistis",
+    "zona": "pyrgos",
+    "cat": ["historia", "cultura", "fotografia"],
+    "prio": 66,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Pyrgos, Santorini, Grécia, cerca de 7 km ao sul de Fira",
+    "horario": {
+      "valor": "Acesso livre ao vilarejo o dia todo; o castelo veneziano e o mirante do pôr do sol também são livres a qualquer hora",
+      "tipo": "CADASTRADO",
+      "fonte": "alongdustyroads.com, allovergreece.com — cobertura consolidada sobre Pyrgos Kallistis, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre ao vilarejo",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Vila medieval no ponto mais alto de Santorini, erguida em anfiteatro na colina do Profeta Elias — vielas estreitas, casas de pedra e ruínas de um castelo veneziano no topo, um dos cinco castelos históricos da ilha. Bem menos turística que Oia ou Fira, com vista de 360° sobre a ilha."
+  },
+  {
+    "id": "san_santo_wines",
+    "cidadeId": "santorini",
+    "nome": "Santo Wines — vinícola com vista para a caldeira",
+    "zona": "pyrgos",
+    "cat": ["gastronomia", "fotografia", "romantico"],
+    "prio": 64,
+    "dur": 90,
+    "comidaLocal": true,
+    "interior": false,
+    "chuva": "medio",
+    "idadeMin": 0,
+    "juvenil": false,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Pyrgos Kallistis 847 00, Santorini, Grécia",
+    "horario": {
+      "valor": "Diariamente, das 9h às 22h (até meia-noite nos meses de verão)",
+      "tipo": "CADASTRADO",
+      "fonte": "santowines.gr — sítio oficial, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": { "adulto": 12 },
+      "tipo": "CADASTRADO",
+      "fonte": "santorinisecrets.com, santowines.gr — degustação curta com 2 vinhos a partir de €12; degustações mais completas (flights) entre €18 e €55",
+      "nota": "Valor cadastrado é a degustação mais simples (2 vinhos, €12); flights maiores chegam a €55.",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": "https://santowines.gr/",
+    "desc": "Uma das vinícolas mais visitadas de Santorini, com terraço voltado para a caldeira e mais de 600 mil visitantes por ano — degustação dos vinhos vulcânicos da ilha, incluindo o Vinsanto, vinho doce histórico da região. Reserva não é obrigatória para degustação simples, mas recomendada para mesa ao pôr do sol em julho e agosto."
+  },
+  {
+    "id": "san_perissa_beach",
+    "cidadeId": "santorini",
+    "nome": "Praia de Perissa",
+    "zona": "kamari_perissa",
+    "cat": ["praias", "descanso", "familia"],
+    "prio": 58,
+    "dur": 120,
+    "interior": false,
+    "chuva": "baixo",
+    "idadeMin": 0,
+    "juvenil": true,
+    "familia": true,
+    "reserva": false,
+    "fechado": [],
+    "endereco": "Perissa, Santorini, Grécia",
+    "horario": {
+      "valor": "Acesso livre o dia todo",
+      "tipo": "CADASTRADO",
+      "fonte": "Cobertura consolidada de guias de viagem sobre as praias do sul de Santorini, consultado via busca em 2026-09-02",
+      "consultadoEm": "2026-09-02"
+    },
+    "custo": {
+      "valor": 0,
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso livre à praia pública",
+      "consultadoEm": "2026-09-02"
+    },
+    "oficial": null,
+    "desc": "Praia de areia negra no lado oposto de Kamari em relação ao Monte Mesa Vouno — mais extensa e um pouco menos movimentada, com bares de praia ao longo de toda a orla."
   }
 ]

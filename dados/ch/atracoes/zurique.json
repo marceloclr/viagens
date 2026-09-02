@@ -10,7 +10,7 @@
     "endereco": "Grossmünsterplatz, 8001 Zürich, Suíça",
     "desc": "Igreja românica de torres gêmeas onde Zwinglio liderou a Reforma Protestante em Zurique; a subida pelas 187 escadas leva a um mirante panorâmico.",
     "custo": {
-      "valor": 5,
+      "valor": { "adulto": 5 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial grossmuenster.ch",
       "consultadoEm": "2026-08-26"
@@ -44,7 +44,7 @@
     "endereco": "Münsterhof 2, 8001 Zürich, Suíça",
     "desc": "Igreja gótica com cinco vitrais coloridos criados por Marc Chagall em 1970, retratando cenas bíblicas.",
     "custo": {
-      "valor": 5,
+      "valor": { "adulto": 5 },
       "tipo": "CADASTRADO",
       "fonte": "Guias consolidados (Kupi/ZurichGuru); confirmar valor atualizado no site oficial fraumuenster.ch",
       "consultadoEm": "2026-08-26"
@@ -80,7 +80,7 @@
     "endereco": "Heimplatz 1, 8001 Zürich, Suíça",
     "desc": "Principal museu de arte de Zurique, com coleção que vai de mestres antigos a arte moderna e contemporânea, incluindo Monet, Munch e Giacometti.",
     "custo": {
-      "valor": 24,
+      "valor": { "adulto": 24 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial kunsthaus.ch/en/besuch-planen",
       "consultadoEm": "2026-08-26"
@@ -116,7 +116,7 @@
     "endereco": "Museumstrasse 2, 8001 Zürich, Suíça",
     "desc": "Maior museu de história e cultura da Suíça, com acervo que cobre da pré-história à atualidade, em edifício estilo castelo perto da estação central.",
     "custo": {
-      "valor": 10,
+      "valor": { "adulto": 10 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial landesmuseum.ch/en/your-visit/tickets",
       "consultadoEm": "2026-08-26"

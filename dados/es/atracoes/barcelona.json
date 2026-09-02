@@ -10,7 +10,7 @@
     "endereco": "Carrer de Mallorca, 401, 08013 Barcelona, Espanha",
     "desc": "Basílica inacabada de Antoni Gaudí, obra-prima do modernismo catalão e Patrimônio da Humanidade.",
     "custo": {
-      "valor": 26,
+      "valor": { "adulto": 26 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial sagradafamilia.org/en/tickets (entrada básica com audioguia)",
       "consultadoEm": "2026-08-26"
@@ -44,7 +44,7 @@
     "endereco": "08024 Barcelona, Espanha",
     "desc": "Parque público projetado por Gaudí, com mosaicos de trencadís e vista panorâmica da cidade.",
     "custo": {
-      "valor": 18,
+      "valor": { "adulto": 18 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial parkguell.barcelona/en/planning-your-visit/prices-and-times",
       "consultadoEm": "2026-08-26"
@@ -78,7 +78,7 @@
     "endereco": "Passeig de Gràcia, 43, 08007 Barcelona, Espanha",
     "desc": "Edifício modernista reformado por Gaudí, com fachada ondulada inspirada em formas orgânicas.",
     "custo": {
-      "valor": 25,
+      "valor": { "adulto": 25 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial casabatllo.es/en/online-tickets (entrada básica, valor variável por demanda)",
       "consultadoEm": "2026-08-26"
@@ -147,7 +147,7 @@
     "endereco": "Carrer de Montcada, 15-23, 08003 Barcelona, Espanha",
     "desc": "Um dos maiores acervos do mundo dedicado à obra de Pablo Picasso, com foco em seus anos de formação.",
     "custo": {
-      "valor": 11,
+      "valor": { "adulto": 11 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial museupicassobcn.cat/en/plan-your-visit/buy-tickets-and-opening-hours",
       "consultadoEm": "2026-08-26"

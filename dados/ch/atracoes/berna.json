@@ -44,7 +44,7 @@
     "endereco": "Münsterplatz 1, 3011 Bern, Suíça",
     "desc": "Maior e mais alta catedral gótica da Suíça, com torre de 100 metros e 344 degraus até o mirante; a entrada na igreja é gratuita.",
     "custo": {
-      "valor": 5,
+      "valor": { "adulto": 5 },
       "tipo": "CADASTRADO",
       "fonte": "Guias consolidados citando site oficial bernermuenster.ch (entrada da torre)",
       "consultadoEm": "2026-08-26"
@@ -147,7 +147,7 @@
     "endereco": "Helvetiaplatz 5, 3005 Bern, Suíça",
     "desc": "Exposição dedicada à vida e obra de Albert Einstein, que viveu em Berna quando formulou a Teoria da Relatividade, integrada ao Museu Histórico da cidade.",
     "custo": {
-      "valor": 18,
+      "valor": { "adulto": 18 },
       "tipo": "CADASTRADO",
       "fonte": "Guias consolidados (Trip.com/Tripadvisor) citando ingresso combinado Einstein Museum + Museu Histórico de Berna",
       "consultadoEm": "2026-08-26"

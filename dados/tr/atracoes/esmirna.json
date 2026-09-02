@@ -10,7 +10,7 @@
     "endereco": "Namazgah Mah., Tarık Sarı Sk. No:29, İzmir, Turquia",
     "desc": "Ruínas do fórum romano da antiga Smyrna, cidade citada entre as Sete Igrejas do Apocalipse (Ap 2:8-11), com colunatas e criptopórtico preservados.",
     "custo": {
-      "valor": 6,
+      "valor": { "adulto": 6 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
       "consultadoEm": "2026-08-26",
@@ -77,7 +77,7 @@
     "endereco": "Bahribaba Parkı, Konak/İzmir, Turquia",
     "desc": "Acervo de artefatos da região do Egeu turco, incluindo achados de Esmirna, Éfeso e outras cidades antigas da Anatólia ocidental.",
     "custo": {
-      "valor": 32,
+      "valor": { "adulto": 32 },
       "tipo": "CADASTRADO",
       "fonte": "Pesquisa de referência consolidada (hurriyet.com.tr) — valor em liras turcas, dado sujeito a defasagem por inflação",
       "consultadoEm": "2026-08-26",

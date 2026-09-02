@@ -78,7 +78,7 @@
     "endereco": "Partida em Lucerna (barco até Alpnachstad, trem cremalheira até Pilatus Kulm), 6010 Kriens, Suíça",
     "desc": "Excursão clássica ao 'Monte Dragão' de Lucerna, combinando travessia de barco no Lago dos Quatro Cantões e a ferrovia de cremalheira mais íngreme do mundo até o topo, com vistas panorâmicas dos Alpes.",
     "custo": {
-      "valor": 119.8,
+      "valor": { "adulto": 119.8 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial pilatus.ch/en/railway-cableways/prices (Golden Round Trip, 2ª classe barco e ônibus, sazonal maio-outubro)",
       "consultadoEm": "2026-08-26"
@@ -145,7 +145,7 @@
     "endereco": "Lidostrasse 5, 6006 Luzern, Suíça",
     "desc": "Maior museu de transportes da Suíça, com exposições interativas sobre trens, aviação, navegação e espaço, além de planetário e Aventura do Chocolate Suíço.",
     "custo": {
-      "valor": 37,
+      "valor": { "adulto": 37 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial verkehrshaus.ch/en/your-visit/besuch-planen/prices-and-tickets",
       "consultadoEm": "2026-08-26"
@@ -180,7 +180,7 @@
     "endereco": "Partida em Vitznau ou Arth-Goldau via Rigi Bahnen, 6354 Vitznau, Suíça",
     "desc": "Montanha panorâmica apelidada 'Rainha das Montanhas', acessível pela mais antiga ferrovia de montanha da Europa, com vistas dos Alpes e de vários lagos suíços.",
     "custo": {
-      "valor": 84,
+      "valor": { "adulto": 84 },
       "tipo": "CADASTRADO",
       "fonte": "Sítio oficial rigi.ch/en/inform/prices (bilhete diário ida e volta)",
       "consultadoEm": "2026-08-26"

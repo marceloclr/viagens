@@ -22,7 +22,7 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": 20,
+      "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "Bilheteria oficial da Acrópole — tarifa cheia de abril a outubro (€ 10 de novembro a março)",
       "consultadoEm": "2026-08-27"
@@ -53,7 +53,7 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": 20,
+      "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "Bilheteria oficial — inclui o Museu da Ágora na Stoa de Átalos",
       "consultadoEm": "2026-08-27"
@@ -115,7 +115,7 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": 12,
+      "valor": { "adulto": 12 },
       "tipo": "CADASTRADO",
       "fonte": "namuseum.gr — tarifa cheia de abril a outubro (€ 6 de novembro a março; gratuito para cidadãos da UE até 25 anos)",
       "consultadoEm": "2026-08-27"

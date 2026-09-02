@@ -215,7 +215,7 @@
     "endereco": "Ruppin Blvd, Jerusalém",
     "desc": "Maior museu de Israel, com o Santuário do Livro (Manuscritos do Mar Morto) e vasto acervo de arqueologia e arte. Preço de referência para adultos e horários variam por dia da semana.",
     "custo": {
-      "valor": 54,
+      "valor": { "adulto": 54 },
       "tipo": "CADASTRADO",
       "fonte": "https://www.imj.org.il/en/content/ticket-info (sítio oficial do Museu de Israel), valor em NIS para adulto",
       "consultadoEm": "2026-08-26"

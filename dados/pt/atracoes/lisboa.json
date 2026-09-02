@@ -259,7 +259,7 @@
       "nota": "Horário obtido em fonte secundária — recomendado confirmar no sítio da Carris antes da visita."
     },
     "custo": {
-      "valor": 5.15,
+      "valor": { "adulto": 5.15 },
       "tipo": "CADASTRADO",
       "fonte": "Agregado turístico consultado por falta de página oficial da Carris com tarifário publicado (fernandolopes.pt / lisboa.es)",
       "consultadoEm": "2026-08-26",

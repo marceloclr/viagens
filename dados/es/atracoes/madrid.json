@@ -10,7 +10,7 @@
     "endereco": "C. de Ruiz de Alarcón, 23, 28014 Madrid, Espanha",
     "desc": "Principal museu de belas artes da Espanha, com acervo de Velázquez, Goya, Ticiano e Bosch.",
     "custo": {
-      "valor": 15,
+      "valor": { "adulto": 15 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial de venda de entradas do Museu do Prado (entradas.museodelprado.es)",
       "consultadoEm": "2026-08-26"
@@ -44,7 +44,7 @@
     "endereco": "Calle de Bailén, s/n, 28071 Madrid, Espanha",
     "desc": "Residência oficial da Coroa espanhola, usada apenas em cerimônias de Estado, com salões suntuosos abertos à visitação.",
     "custo": {
-      "valor": 18,
+      "valor": { "adulto": 18 },
       "tipo": "CADASTRADO",
       "fonte": "Patrimonio Nacional — tickets.patrimonionacional.es (tarifa básica)",
       "consultadoEm": "2026-08-26"
@@ -80,7 +80,7 @@
     "endereco": "Calle de Santa Isabel, 52, 28012 Madrid, Espanha",
     "desc": "Museu de arte moderna e contemporânea espanhola, abriga o Guernica de Picasso.",
     "custo": {
-      "valor": 12,
+      "valor": { "adulto": 12 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial do Museu Reina Sofía (museoreinasofia.es/visita/horarios-tarifas)",
       "consultadoEm": "2026-08-26"
@@ -250,7 +250,7 @@
     "endereco": "Av. de Concha Espina, 1, 28036 Madrid, Espanha",
     "desc": "Visita autoguiada ao estádio e museu do Real Madrid, incluindo os vestiários e o gramado.",
     "custo": {
-      "valor": 35,
+      "valor": { "adulto": 35 },
       "tipo": "CADASTRADO",
       "fonte": "Site oficial do Real Madrid — realmadrid.com/es-ES/tour-bernabeu (entrada Classic)",
       "consultadoEm": "2026-08-26"

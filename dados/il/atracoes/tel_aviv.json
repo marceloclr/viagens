@@ -153,7 +153,7 @@
     "endereco": "27 Shaul HaMelech Blvd, Tel Aviv",
     "desc": "Principal museu de arte da cidade, com acervo de arte moderna, impressionista e israelense; fechado aos domingos e segundas-feiras. Entrada gratuita para menores de 18 anos.",
     "custo": {
-      "valor": 50,
+      "valor": { "adulto": 50 },
       "tipo": "CADASTRADO",
       "fonte": "Agregado de guias oficiais (tickets.tamuseum.org.il, tamuseum.org.il/en/visit); valor em NIS para ingresso adulto",
       "consultadoEm": "2026-08-26"

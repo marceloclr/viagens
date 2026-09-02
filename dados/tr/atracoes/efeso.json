@@ -10,7 +10,7 @@
     "endereco": "Efes Örenyeri, Atatürk, 35920 Selçuk/İzmir, Turquia",
     "desc": "Uma das cidades greco-romanas mais bem preservadas do Mediterrâneo, com a Biblioteca de Celso, o Grande Teatro e a Rua dos Curetes; local onde o apóstolo Paulo pregou aos efésios.",
     "custo": {
-      "valor": 40,
+      "valor": { "adulto": 40 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
       "consultadoEm": "2026-08-26",
@@ -45,7 +45,7 @@
     "endereco": "Uğur Mumcu Sevgi Yolu Caddesi, 35920 Selçuk/İzmir, Turquia",
     "desc": "Acervo com artefatos escavados em Éfeso, incluindo as estátuas de Ártemis e objetos do dia a dia da cidade antiga.",
     "custo": {
-      "valor": 10,
+      "valor": { "adulto": 10 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html",
       "consultadoEm": "2026-08-26",
@@ -115,7 +115,7 @@
     "endereco": "Ayasuluk Tepesi, St. Jean Cd., 35920 Selçuk/İzmir, Turquia",
     "desc": "Ruínas de uma basílica bizantina do século VI erguida sobre o túmulo tradicional do apóstolo João Evangelista, no monte Ayasuluk ao lado do castelo de Selçuk.",
     "custo": {
-      "valor": 6,
+      "valor": { "adulto": 6 },
       "tipo": "CADASTRADO",
       "fonte": "Pesquisa de referência consolidada (getyourguide.com / travellingtrekker.com)",
       "consultadoEm": "2026-08-26",
