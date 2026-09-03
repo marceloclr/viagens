@@ -9,8 +9,9 @@
     "frequencia": "TAP Portugal: voo diário. LATAM: sazonal (confirmada de abril a outubro, com prorrogações sucessivas até pelo menos março de 2026) — total variável por temporada.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais (varia por antecedência de compra e temporada) para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-27" },
     "obs": "Único voo direto de Fortaleza para a Europa continental operado por duas companhias — LATAM (Boeing 787) e TAP Portugal. É a rota internacional mais frequente do Aeroporto de Fortaleza.",
-    "fonte": "Reportagem consolidada de imprensa especializada (aeroportodefortaleza.com, ceara.gov.br, melhoresdestinos.com.br, diariodonordeste.verdesmares.com.br) sobre a malha internacional do Aeroporto de Fortaleza em 2026",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Duas companhias operam a rota. TAP Portugal (voo mais estabelecido): Ida TP036, Fortaleza 22h50 → Lisboa 10h10 do dia seguinte (7h20 de voo). Volta TP035, Lisboa 17h30 → Fortaleza 21h05 (7h35 de voo). Equipamento Airbus A330. LATAM (rota sazonal, 1x/semana, verificar vigência): Ida LA8150, Fortaleza 06h15 → Lisboa 17h00. Volta LA8151, Lisboa 19h20 → Fortaleza 23h20. Equipamento Boeing 787. Fortaleza está em UTC-3; Lisboa em UTC+0/+1 (horário de verão europeu).",
+    "fonte": "Reportagem consolidada de imprensa especializada (aeroportodefortaleza.com, ceara.gov.br, melhoresdestinos.com.br, diariodonordeste.verdesmares.com.br) sobre a malha internacional do Aeroporto de Fortaleza em 2026; horário/número de voo verificado via FlightAware, Aviability, Setur-CE, Flightmapper, Flightradar24, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_for_mad",
@@ -22,8 +23,9 @@
     "frequencia": "5 voos semanais (rota inaugurada em 19/01/2026, com aumento progressivo de 3 para 5 frequências semanais até abril de 2026)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-27" },
     "obs": "Rota nova (2026), operada com Airbus A321XLR. Fortaleza→Madri parte à noite e chega na manhã seguinte (hora local).",
-    "fonte": "Governo do Estado do Ceará (ceara.gov.br) e imprensa especializada (panrotas.com.br, aeroin.net) sobre a inauguração da rota Iberia Fortaleza–Madri",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Único voo direto, operado pela Iberia, 4x/semana. Ida (IB150): Fortaleza 17h00 → Madrid 05h50 do dia seguinte (7h50 de voo). Volta (IB149): Madrid 11h45 → Fortaleza 15h05 (8h20 de voo). Equipamento Airbus A321neo. Fortaleza em UTC-3; Madrid em UTC+0/+1. DIVERGÊNCIA ENCONTRADA: verificação cruzada (FlightAware, histórico) mostrou o IB150 partindo por volta de 18h20–18h30, cerca de 1h20 mais tarde que o horário informado por outra fonte — dentro da margem normal de ajuste de malha.",
+    "fonte": "Governo do Estado do Ceará (ceara.gov.br) e imprensa especializada (panrotas.com.br, aeroin.net) sobre a inauguração da rota Iberia Fortaleza–Madri; horário/número de voo verificado via FlightConnections, FlightAware, FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_for_cdg",
@@ -35,8 +37,9 @@
     "frequencia": "5 voos semanais (segunda, terça, quarta, sexta e sábado) — única companhia com voo direto nesta rota",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-27" },
     "obs": "Chega e parte do Aeroporto Charles de Gaulle (CDG), não de Orly.",
-    "fonte": "Sítio oficial da Air France (airfrance.com.br) e agregadores de voos (omio.com.br, kayak.com.br)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Único voo direto, operado pela Air France (SkyTeam), 4x/semana. Ida (AF415): Fortaleza 19h55 → Paris CDG 09h35 do dia seguinte (8h40 de voo). Volta (AF416): Paris CDG 13h40 → Fortaleza 17h45 (~9h05 de voo). Equipamento variável: Airbus A350-900, Boeing 777-200 ou 777-300ER. Fortaleza em UTC-3; Paris em UTC+1/+2.",
+    "fonte": "Sítio oficial da Air France (airfrance.com.br) e agregadores de voos (omio.com.br, kayak.com.br); horário/número de voo verificado via FlightConnections, Airportia, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_fco",
@@ -48,8 +51,9 @@
     "frequencia": "TAP: cerca de 30 voos diretos por semana (várias vezes ao dia)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": "Chega ao Aeroporto Fiumicino (FCO), o principal de Roma.",
-    "fonte": "Agregadores de voos (flytap.com, flightconnections.com) — rota curta e de alta frequência dentro da Europa",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "TAP Portugal opera a rota com maior frequência (4–5 voos/dia); Ryanair e ITA Airways também operam non-stop. Exemplo TAP: Ida TP832, Lisboa 07h20 → Roma Fiumicino 11h25 (4h05). Volta TP831, Roma Fiumicino 11h10 → Lisboa 13h20 (~4h10). Exemplo ITA Airways (Roma→Lisboa; volta não confirmada com igual confiança): AZ7526, Roma 15h45 → Lisboa (chegada não encontrada); AZ7760, Roma 22h10 → Lisboa.",
+    "fonte": "Agregadores de voos (flytap.com, flightconnections.com) — rota curta e de alta frequência dentro da Europa; horário/número de voo verificado via Trip.com, FlightAware, Airportia, FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_ory",
@@ -61,8 +65,9 @@
     "frequencia": "Cerca de 54 voos diretos por semana — a rota mais frequente da TAP para Paris",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": "Chega ao Aeroporto de Orly (ORY); a Air France opera a mesma rota para Charles de Gaulle (ver voo_lis_cdg).",
-    "fonte": "Agregadores de voos (flightconnections.com, omio.com)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "TAP Portugal opera com alta frequência (até 8 voos/dia). Exemplo: Ida TP428, Lisboa 05h55 → Paris Orly 09h20 (3h25). Volta TP441, Paris Orly 06h00–06h10 → Lisboa 07h35–07h50. Equipamento Airbus A320/A321neo ou Embraer. Como há muitas frequências diárias, os números acima são exemplo real, não a malha fixa.",
+    "fonte": "Agregadores de voos (flightconnections.com, omio.com); horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_cdg",
@@ -74,8 +79,9 @@
     "frequencia": "Cerca de 34 voos diretos por semana",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": "Chega ao Aeroporto Charles de Gaulle (CDG); a TAP opera a mesma rota para Orly (ver voo_lis_ory).",
-    "fonte": "Agregadores de voos (flightconnections.com, omio.com)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Air France opera a rota com ~2 voos/dia. Exemplo: Ida AF1025, Lisboa 12h15 → Paris CDG 15h20. Volta AF1024, Paris CDG 09h35 → Lisboa 11h15. Equipamento Airbus A220-300/A318/A319/A320/A321 conforme a data. Lisboa em UTC+0/+1; Paris em UTC+1/+2.",
+    "fonte": "Agregadores de voos (flightconnections.com, omio.com); horário/número de voo verificado via FlightConnections, Trip.com, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_gva",
@@ -87,8 +93,9 @@
     "frequencia": "Cerca de 25–27 voos diretos por semana (SWISS)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": null,
-    "fonte": "Sítio oficial SWISS (swiss.com) e agregadores de voos",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Três companhias operam non-stop: TAP Portugal (16 voos/semana), easyJet (17 voos/semana) e SWISS (6 voos/semana). Exemplo TAP: volta TP941, Genebra 13h00 → Lisboa. Exemplo SWISS: LX2092 (Genebra→Lisboa, 12h05 e 15h05). Exemplo easyJet: U2 7642 (Genebra→Lisboa, 10h10/10h25/20h30). Duração média 2h25–2h40. Pares ida/volta não confirmados como mesma rotação — use como faixa de horários reais, não par certo.",
+    "fonte": "Sítio oficial SWISS (swiss.com) e agregadores de voos; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_zrh",
@@ -100,8 +107,9 @@
     "frequencia": "5 a 6 voos diretos por dia, com várias companhias — a mais densa das rotas suíças pesquisadas",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": null,
-    "fonte": "Sítio oficial SWISS (swiss.com) e agregadores de voos",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Três companhias operam non-stop, ~6 voos/dia no total: TAP Portugal, SWISS e easyJet. Exemplo TAP: Ida TP930, Lisboa 08h35 → Zurique 12h25. Volta TP931, Zurique 13h15 → Lisboa 13h35. Exemplo SWISS: Ida LX2083, Lisboa 05h55 → Zurique 09h55. Volta LX2086 (múltiplas frequências: 06h55/09h20/15h30). Pares ida/volta não confirmados com certeza — números vêm de fonte agregadora, não verificados individualmente por segunda fonte.",
+    "fonte": "Sítio oficial SWISS (swiss.com) e agregadores de voos; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_mad",
@@ -113,8 +121,9 @@
     "frequencia": "Cerca de 17 voos diretos por dia — uma das rotas mais densas da Península Ibérica",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": "Duração real de porta a porta gira em torno de 1h20; agregadores às vezes mostram tempos diferentes por causa do fuso horário entre Portugal e Espanha.",
-    "fonte": "Agregadores de voos (flightconnections.com, kayak.com) — dados convergentes sobre alta frequência diária",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "TAP Portugal — ida: TP 1014, Lisboa 13h00 → Madrid 15h20 (~1h20, considerado o fuso de 1h). Volta: TP 1013, Madrid 13h40 → Lisboa 14h05 (~1h25). Rota de altíssima frequência (dezenas de voos diários somando TAP, Iberia, easyJet, Air Europa e Ryanair) — horários acima são apenas um par de referência TAP. Modelo de aeronave não confirmado.",
+    "fonte": "Agregadores de voos (flightconnections.com, kayak.com) — dados convergentes sobre alta frequência diária; horário/número de voo verificado via PlaneMapper, Flightera, Airportia, FlightAware, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_bcn",
@@ -126,8 +135,9 @@
     "frequencia": "TAP sozinha opera mais de 5 voos diretos por dia",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": null,
-    "fonte": "Agregadores de voos (flightconnections.com, omio.com)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Vueling — ida: VY 8461, Lisboa 09h10 → Barcelona 12h10 (~2h00, considerado o fuso de 1h). Volta: VY 8460, Barcelona 07h20 → Lisboa 08h30 (~2h10). TAP Portugal também cobre a rota (ex.: TP 1038, Lisboa 17h25 → Barcelona 20h20), mas o voo TAP de volta correspondente não foi localizado. Modelo de aeronave não confirmado.",
+    "fonte": "Agregadores de voos (flightconnections.com, omio.com); horário/número de voo verificado via Airportia, Flightera, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_svq",
@@ -139,8 +149,9 @@
     "frequencia": "Não confirmada com precisão na pesquisa — rota curta e de baixa distância",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": null,
-    "fonte": "Agregadores de voos (google.com/travel/flights, flytap.com)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Ryanair — ida: FR 3628, Lisboa 07h55 → Sevilha 10h00 (~1h05–1h10, Boeing 737-800; outra fonte registra 07h50→09h55 no mesmo voo). Volta: FR 3629, Sevilha 16h34 → Lisboa (~1h10; horário de chegada exato não veio explícito, estimado 16h40-17h45). ATENÇÃO: um rastreador ao vivo mostrou FR 3629, num dia específico, em horário bem diferente (23h39→23h49) — provável horário sazonal alternativo. Falta confirmar chegada exata da volta; não foi possível localizar dados de horário da TAP nesta rota.",
+    "fonte": "Agregadores de voos (google.com/travel/flights, flytap.com); horário/número de voo verificado via Airportia, Flightera, Aviability, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_vlc",
@@ -152,8 +163,9 @@
     "frequencia": "TAP: 15 voos diretos por semana; Ryanair: cerca de 2 por semana",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": null,
-    "fonte": "Agregadores de voos (flytap.com, flightconnections.com)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "Ryanair — ida: FR 1768, Lisboa 06h50 → Valência 08h57 (1h35). Volta: FR 1769, Valência 21h20 → Lisboa 22h05 (1h45). Aeronave Boeing 737-800, 4x/semana. TAP Portugal também opera a rota (voo TP 1092 identificado partindo de Lisboa 09h20, chegando 11h26), mas horário/número da volta TAP não confirmados.",
+    "fonte": "Agregadores de voos (flytap.com, flightconnections.com); horário/número de voo verificado via Airportia, Flightera, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_tlv",
@@ -165,8 +177,9 @@
     "frequencia": "Cerca de 20 voos diretos por semana no total",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": null,
-    "fonte": "Agregadores de voos (flightconnections.com, kayak.com), consultado em agosto de 2026",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "EL AL — ida: LY 376, Lisboa 22h15 → Tel Aviv 05h25 do dia seguinte (~5h10). Volta: LY 375, Tel Aviv 16h55 → Lisboa 20h55 (~6h00, considerado o fuso de 2h). Modelo de aeronave não confirmado; não foi possível localizar voos da Arkia ou horários específicos da TAP nesta rota.",
+    "fonte": "Agregadores de voos (flightconnections.com, kayak.com), consultado em agosto de 2026; horário/número de voo verificado via Airportia, PlaneMapper, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_ist",
@@ -178,8 +191,9 @@
     "frequencia": "Turkish Airlines: cerca de 21 voos diretos por semana (praticamente diário)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-08-27" },
     "obs": "Chega ao Aeroporto Istambul (IST); a rota para Sabiha Gökçen (SAW) não foi confirmada com voo direto na pesquisa.",
-    "fonte": "Agregadores de voos (google.com/travel/flights, kayak.pt)",
-    "consultadoEm": "2026-08-27"
+    "vooReferencia": "TAP Portugal (operado em codeshare pela Turkish Airlines) — ida: TP 6454, Lisboa 11h40 → Istambul 18h52 (~5h10, considerado o fuso de 2h). Volta: TP 6453 (operado fisicamente como TK 1759 pela Turkish Airlines), Istambul 12h45 → Lisboa 15h35 (~4h50) — outra fonte trouxe o mesmo voo com horário levemente diferente (13h00→15h05). Modelo de aeronave não confirmado.",
+    "fonte": "Agregadores de voos (google.com/travel/flights, kayak.pt); horário/número de voo verificado via Airportia, Flightstats, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_for_mia",
@@ -190,7 +204,7 @@
     "duracaoMin": 430,
     "frequencia": "Verificação independente (agregadores FlightAware/Flightera, ago/2026) encontra LA 8188/8189 operando 2x por semana, não 1x — e aponta a rota como SAZONAL, com pausa registrada entre 26/10/2025 e 28/03/2026 (baixa temporada no hemisfério norte). O usuário informou 1x/semana (quintas-feiras); a divergência de frequência não foi resolvida nesta sessão — confirme o dia e a quantidade de frequências diretamente com a LATAM antes de comprar.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
-    "obs": "Ida: LA 8188, Fortaleza 19h00 → Miami 01h10 do dia seguinte (7h10 de voo). Volta: LA 8189, Miami 03h25 → Fortaleza 11h15. Equipamento Boeing 787-9 Dreamliner. Fortaleza está em UTC-3; Miami, em UTC-4 (horário de verão) ou UTC-5 — a mudança de dia na chegada é real e decorre do fuso, não é erro de cadastro. Verificação independente (FlightAware/Flightera) encontrou horário de partida ligeiramente diferente (19h00→01h15, 7h15 de voo) — dentro da margem normal de ajuste de malha, não alterado aqui.",
+    "vooReferencia": "Ida: LA 8188, Fortaleza 19h00 → Miami 01h10 do dia seguinte (7h10 de voo). Volta: LA 8189, Miami 03h25 → Fortaleza 11h15. Equipamento Boeing 787-9 Dreamliner. Fortaleza está em UTC-3; Miami, em UTC-4 (horário de verão) ou UTC-5 — a mudança de dia na chegada é real e decorre do fuso, não é erro de cadastro. Verificação independente (FlightAware/Flightera) encontrou horário de partida ligeiramente diferente (19h00→01h15, 7h15 de voo) — dentro da margem normal de ajuste de malha, não alterado aqui.",
     "fonte": "Horário/equipamento: informado pelo usuário nesta sessão de curadoria. Sazonalidade e frequência: verificação independente via FlightAware (flightaware.com/live/flight/LAN8188) e Flightera (flightera.net), consultado em 2026-08-28 — ainda não confirmado diretamente com a LATAM.",
     "consultadoEm": "2026-08-28"
   },
@@ -203,7 +217,7 @@
     "duracaoMin": 475,
     "frequencia": "Semanal, conforme informado pelo usuário (sábados) — G3 7654 na ida, G3 7655 na volta. ATENÇÃO: a verificação independente desta sessão encontrou registros de imprensa de que a GOL já suspendeu esta rota (e a de Miami) fora de alta temporada, retomando-a depois — é uma rota historicamente sazonal/instável, não uma operação garantida o ano todo. Confirme a vigência diretamente com a GOL antes de comprar.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
-    "obs": "Ida: G3 7654, Fortaleza 04h30 → Orlando 11h25. Volta: G3 7655, Orlando 12h55 → Fortaleza 21h55. Equipamento Boeing 737 MAX 8. Fortaleza está em UTC-3; Orlando, em UTC-4 (horário de verão) ou UTC-5 — considerar a diferença de fuso ao ler os horários locais. DIVERGÊNCIA ENCONTRADA: fontes de imprensa/agregadores consultadas nesta sessão registram G3 7654/7655 em horários bem diferentes dos informados aqui (partida diurna ~08h35 e voo noturno ~21h45) em períodos distintos — sinal de que a malha muda por temporada. Os horários informados pelo usuário foram mantidos sem alteração; não foi possível confirmar qual conjunto está vigente em 2026-08.",
+    "vooReferencia": "Ida: G3 7654, Fortaleza 04h30 → Orlando 11h25. Volta: G3 7655, Orlando 12h55 → Fortaleza 21h55. Equipamento Boeing 737 MAX 8. Fortaleza está em UTC-3; Orlando, em UTC-4 (horário de verão) ou UTC-5 — considerar a diferença de fuso ao ler os horários locais. DIVERGÊNCIA ENCONTRADA: fontes de imprensa/agregadores consultadas nesta sessão registram G3 7654/7655 em horários bem diferentes dos informados aqui (partida diurna ~08h35 e voo noturno ~21h45) em períodos distintos — sinal de que a malha muda por temporada. Os horários informados pelo usuário foram mantidos sem alteração; não foi possível confirmar qual conjunto está vigente em 2026-08.",
     "fonte": "Números de voo, horário e equipamento: informados pelo usuário nesta sessão de curadoria. Sazonalidade/histórico de suspensão: reportagens de imprensa especializada (passageirodeprimeira.com, falandodeviagem.com.br, nowboarding.com.br), consultado em 2026-08-28 — vigência exata não confirmada diretamente com a GOL.",
     "consultadoEm": "2026-08-28"
   },
@@ -216,9 +230,9 @@
     "duracaoMin": 400,
     "frequencia": "Não informada pelo usuário nesta sessão — só a pernada de ida foi detalhada (ver obs)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
-    "obs": "Pernada de ida informada pelo usuário: CM 343, Fortaleza 01h25 → Cidade do Panamá 06h05 (horário local do Panamá, UTC-5; Fortaleza está em UTC-3). Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA sem voo direto de Fortaleza — mas a pernada Panamá→destino final (2ª etapa da conexão) não foi informada nesta sessão e NÃO está cadastrada. A duração de 400 min é calculada a partir dos horários informados, considerando o fuso — não verificada de forma independente.",
-    "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria — não verificado de forma independente pelo assistente; confirmar vigência e a pernada de retorno antes de publicar.",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: CM 343, Fortaleza 01h25 → Cidade do Panamá 06h05, horário local do Panamá (UTC-5; Fortaleza está em UTC-3). Volta: melhor referência encontrada é o voo CM342, partindo do Panamá por volta de 15h30 e chegando a Fortaleza por volta de 00h20 do dia seguinte, horário local — DIVERGÊNCIA ENCONTRADA entre fontes quanto ao número exato da volta (uma reportagem de 2018 atribui o trecho Panamá→Fortaleza ao próprio CM343, outra ao CM342); trate o CM342 como referência, não certeza, e confirme no momento da compra. Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA sem voo direto de Fortaleza; a pernada Panamá→destino final não está cadastrada nesta base.",
+    "fonte": "Informado diretamente pelo usuário nesta sessão de curadoria — não verificado de forma independente pelo assistente; confirmar vigência e a pernada de retorno antes de publicar.; horário/número de voo verificado via Mercado&Eventos, Flightera, FlightAware, Flightradar24, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_for_gru",
@@ -229,9 +243,9 @@
     "duracaoMin": 180,
     "frequencia": "Não informada pelo usuário nesta sessão — várias frequências diárias são esperadas nesta rota doméstica de alta densidade, mas não foram confirmadas",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
-    "obs": "Usuário informou apenas o número do voo de ida (LA 3351), sem horário. Duração de 180 min é estimativa por conhecimento geral da distância Fortaleza–São Paulo (~2.200 km), não confirmada. GRU é hub da LATAM/Delta/American para conexões a destinos dos EUA sem voo direto de Fortaleza — a pernada GRU→destino final não foi informada nesta sessão e NÃO está cadastrada.",
-    "fonte": "Número do voo informado pelo usuário; horário e duração não informados, estimados pelo assistente e sinalizados como tal — confirmar tudo antes de publicar.",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "ATENÇÃO — CORREÇÃO: o número anteriormente registrado (LA 3351) foi verificado e na verdade corresponde à rota Salvador (SSA) → Guarulhos, não Fortaleza → Guarulhos — provável erro de cadastro anterior. Como referência real e verificada para Fortaleza→Guarulhos (rota doméstica de altíssima frequência, dezenas de voos/dia, horários mudam com frequência — trate como exemplo, não malha fixa): Ida sugerida LA3315, Fortaleza 09h00 → Guarulhos 12h35 (diária). Volta sugerida LA3318, Guarulhos 09h45 → Fortaleza 13h10 (fonte diverge entre 12h39 e 13h10 de chegada). Equipamento tipicamente Airbus A320/A321. GRU é hub da LATAM/Delta/American para conexões aos EUA sem voo direto de Fortaleza — a pernada GRU→destino final não está cadastrada nesta base.",
+    "fonte": "Número do voo informado pelo usuário; horário e duração não informados, estimados pelo assistente e sinalizados como tal — confirmar tudo antes de publicar.; horário/número de voo verificado via FlightAware, Airportia, emsampa.com.br, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_lis_ath",
@@ -242,9 +256,9 @@
     "duracaoMin": 235,
     "frequencia": "14 voos semanais somando as três companhias (junho de 2026) — cerca de 2 voos diretos por dia no total. TAP: 5 voos semanais (quarta a domingo), com ligação direta entre as duas capitais retomada em 01/07/2026, disponível o ano todo.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa varia por antecedência e temporada — verifique com a companhia.", "consultadoEm": "2026-09-02" },
-    "obs": "TAP — ida: Lisboa 21h30 (quarta a domingo) → Atenas 03h40 do dia seguinte, horário local; duração porta a porta de cerca de 3h55. Volta: Atenas 04h40 (segunda, quinta, sexta, sábado e domingo) → Lisboa 07h15, horário local; a volta é ligeiramente mais longa que a ida, cerca de 4h32, por causa dos ventos predominantes no Mediterrâneo. Aegean Airlines e Sky Express também operam a rota sem escala, com frequência combinada maior que a da TAP.",
-    "fonte": "deferias.pt (relançamento da rota TAP em 01/07/2026), flightconnections.com, kayak.com, skyscanner.com — cobertura consolidada sobre a rota Lisboa–Atenas, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "TAP Portugal — ida: TP 900, Lisboa 21h30 → Atenas 03h40 do dia seguinte (~4h10). Volta: TP 901, Atenas 04h40 → Lisboa 07h15 (~4h35, considerado o fuso de 2h). Verão operado com Airbus A320neo (146 lugares); outono-inverno com Embraer E190 (até 106 lugares). Rota inaugurada em 1º de julho, cinco frequências semanais (quarta a domingo). Verificação independente (FlightConnections) encontrou o mesmo par com horários levemente diferentes na ida (21h25→03h20) — dentro da margem normal de ajuste de malha; o horário de volta bate exatamente. Aegean Airlines e Sky Express também operam a rota sem escala.",
+    "fonte": "deferias.pt (relançamento da rota TAP em 01/07/2026), flightconnections.com, kayak.com, skyscanner.com — cobertura consolidada sobre a rota Lisboa–Atenas, consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, Público, Kiosque da Aviação, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_mia",
@@ -256,8 +270,9 @@
     "frequencia": "American: parte da malha de 42 voos semanais somados de Miami para o Brasil; LATAM: 14–16 voos semanais (aumentando ao longo de 2026) — entre as duas, várias partidas diárias.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Uma das rotas Brasil–EUA mais densas — GRU e MIA são os dois principais hubs de conexão entre os dois países.",
-    "fonte": "Sítios oficiais American Airlines (aa.com) e LATAM (latamairlines.com), reportagem aeroin.net sobre ampliação LATAM em 2026 — consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: AA 930, São Paulo/Guarulhos 21h25 → Miami 04h50 (dia seguinte). Volta: AA 929, Miami 20h30 → São Paulo/Guarulhos 05h55 (dia seguinte). Equipamento Boeing 777-300ER. GRU está em UTC-3; Miami, em UTC-4 (horário de verão) ou UTC-5. Rota também operada pela LATAM (códigos LA8190/LA8194/LA8198), com American e LATAM somando cerca de 36 partidas semanais nesse par de cidades. DIVERGÊNCIA ENCONTRADA: registros históricos do FlightAware para o mesmo voo AA930 mostram, em datas distintas, partida às 23h30 e chegada 06h21 — sinal de variação sazonal de malha; o horário aqui informado (21h25/04h50) é o mais recorrentemente registrado nas fontes consultadas.",
+    "fonte": "Sítios oficiais American Airlines (aa.com) e LATAM (latamairlines.com), reportagem aeroin.net sobre ampliação LATAM em 2026 — consultado em 2026-08-28; voo de referência via FlightAware/Flightmapper/FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_jfk",
@@ -269,8 +284,9 @@
     "frequencia": "21 voos semanais somados das três companhias (~3 partidas diárias), ago/2026",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Operação todo o ano pelas três companhias.",
-    "fonte": "Agregadores de voos (flightconnections.com, kayak.com) e sítios oficiais das companhias, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: AA 950, São Paulo/Guarulhos 22h30 → Nova York/JFK 07h05. Volta: AA 951, Nova York/JFK 20h40 → São Paulo/Guarulhos 06h32 (dia seguinte). Equipamento Boeing 787-9 em ambas as pernas. GRU está em UTC-3; JFK, em UTC-4 (horário de verão) ou UTC-5. Rota também operada por Delta e LATAM; a American foi escolhida aqui por ter frequência própria diária (cerca de 21 partidas semanais somadas de todas as companhias).",
+    "fonte": "Agregadores de voos (flightconnections.com, kayak.com) e sítios oficiais das companhias, consultado em 2026-08-28; voo de referência via FlightAware/Flightera/Trip.com, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_ewr",
@@ -282,8 +298,9 @@
     "frequencia": "7 voos semanais (diário)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Chega ao Aeroporto de Newark (EWR), não ao JFK — é uma rota distinta, também servida por outras companhias (ver voo_gru_jfk).",
-    "fonte": "Sítio oficial United Airlines (united.com), consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: UA 148, São Paulo/Guarulhos 21h00 → Newark 05h40. Volta: UA 149, Newark 20h30 → São Paulo/Guarulhos 07h10 (dia seguinte). Equipamento Boeing 777. GRU está em UTC-3; Newark, em UTC-4 (horário de verão) ou UTC-5. United é a única companhia operando voo direto nesse par, diário em cada sentido.",
+    "fonte": "Sítio oficial United Airlines (united.com), consultado em 2026-08-28; voo de referência via FlightAware/Flightstats/FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_iah",
@@ -295,8 +312,9 @@
     "frequencia": "7 voos semanais (diário), maio/2026",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "United é a única companhia nesta rota específica (Houston).",
-    "fonte": "Agregadores de voos (flightconnections.com), consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: UA 63, São Paulo/Guarulhos 21h50 → Houston/IAH 05h45 (horário local). Volta: UA 62, Houston/IAH 20h45 → São Paulo/Guarulhos 09h30 (dia seguinte). GRU está em UTC-3; Houston, em UTC-5 (horário de verão) ou UTC-6. United é a única companhia com voo direto nessa rota, diária.",
+    "fonte": "Agregadores de voos (flightconnections.com), consultado em 2026-08-28; voo de referência via Flightstats/Flight.info/FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_atl",
@@ -308,8 +326,9 @@
     "frequencia": "Não confirmada com precisão — operação regular, Airbus A330",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "news.delta.com (Delta News Hub), flightsfrom.com, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: DL 104, São Paulo/Guarulhos → Atlanta. Volta: DL 105, Atlanta 19h05 → São Paulo/Guarulhos 05h11 (dia seguinte). Equipamento Airbus A330-300 na ida. GRU está em UTC-3; Atlanta, em UTC-4 (horário de verão) ou UTC-5. FALTA CONFIRMAR: o horário de partida do DL104 (São Paulo → Atlanta) diverge entre fontes — uma indica 22h50/06h51, outra 23h45/07h35 — sem como determinar qual está vigente em 2026. Uma fonte também cita DL269 para o sentido Atlanta→São Paulo em vez de DL105, possível mudança de numeração por temporada, não resolvida.",
+    "fonte": "news.delta.com (Delta News Hub), flightsfrom.com, consultado em 2026-08-28; voo de referência via FlightAware/Flightstats/Trip.com/Airportia, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_lax",
@@ -321,8 +340,9 @@
     "frequencia": "5 voos semanais a partir de junho/2026 (subindo de 4)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: LA 8086, São Paulo/Guarulhos 23h20 → Los Angeles 07h35 (dia seguinte) — opera terças, quintas e sábados. Volta: LA 8087, Los Angeles 13h15 → São Paulo/Guarulhos 05h15 (dia seguinte) — opera quartas, sextas e domingos. Equipamento Boeing 777-300ER (410 lugares). GRU está em UTC-3; Los Angeles, em UTC-7 (horário de verão) ou UTC-8. LATAM é a única companhia com voo direto nesta rota.",
+    "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28; voo de referência via OneMileAtATime/FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_bos",
@@ -334,8 +354,9 @@
     "frequencia": "4 voos semanais a partir de maio/2026 (subindo de 3)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: LA 8164, São Paulo/Guarulhos por volta de 22h40–22h50 (varia por data) → Boston 07h35. Volta: LA 8165, Boston, partida entre 08h55 e 09h55 (horário local) — horário de chegada em São Paulo não confirmado com fonte primária (duração aproximada de 10h projetaria por volta de 19h–20h de Brasília, mas isso é estimativa, não dado verificado). Equipamento Boeing 787 Dreamliner. GRU está em UTC-3; Boston, em UTC-4 (horário de verão) ou UTC-5. LATAM é a única companhia com voo direto nesta rota.",
+    "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28; voo de referência via FlightAware/FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_mco",
@@ -347,8 +368,9 @@
     "frequencia": "14 voos semanais (2 por dia) a partir de junho/2026 (subindo de 9)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Achados de Azul/GRU→Orlando em agregadores parecem ser itinerários com conexão via VCP, não voo direto próprio da Azul — não cadastrados aqui por falta de confirmação.",
-    "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: LA 8126, São Paulo/Guarulhos 08h30 → Orlando 16h20. Volta: LA 8127, Orlando 22h35 → São Paulo/Guarulhos 08h05 (dia seguinte). Equipamento Boeing 787-9 em ambas as pernas. GRU está em UTC-3; Orlando, em UTC-4 (horário de verão) ou UTC-5. LATAM é a única companhia com voo direto nesta rota, com 13 partidas semanais em cada sentido.",
+    "fonte": "aeroin.net — cobertura da ampliação de malha internacional da LATAM em 2026, consultado em 2026-08-28; voo de referência via FlightAware/Trip.com/FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_mia",
@@ -360,8 +382,9 @@
     "frequencia": "9 voos semanais, maio/2026 — única companhia nesta rota",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Operado com Boeing 787 Dreamliner.",
-    "fonte": "Sítio oficial American Airlines (aa.com), flightsfrom.com, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "American Airlines opera voo direto diário: partida do Rio (GIG) 22h10, chegada em Miami 05h45–05h50 do dia seguinte (voo AA904); volta partida de Miami 22h55–23h00, chegada no Rio 08h20 do dia seguinte (voo AA905). Boeing 777-200, cerca de 8h25–8h40. Única companhia operando essa rota sem escalas.",
+    "fonte": "Sítio oficial American Airlines (aa.com), flightsfrom.com, consultado em 2026-08-28; horário/número de voo verificado via FlightConnections, FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_jfk",
@@ -372,9 +395,9 @@
     "duracaoMin": 600,
     "frequencia": "American: sazonal. GOL: 3 voos semanais (quarta, sexta, domingo) desde a inauguração em 08/07/2026 — voo inaugural de longo alcance da GOL, via contrato ACMI com a Wamos Air até a chegada da frota própria A330-900neo (2026–2027).",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
-    "obs": "GOL: partida do Rio 21h55, chegada em Nova York 06h55 do dia seguinte; volta 23h00 → 09h55. Airbus A330-300, 280 assentos. GOL também anunciou Rio–Orlando (MCO) com mais 4 frequências semanais no mesmo equipamento, mas sem data de início definida até esta consulta — não cadastrado.",
-    "fonte": "mercadoeeventos.com.br, panrotas.com.br, melhoresdestinos.com.br — cobertura da inauguração do voo de longo alcance da GOL, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "GOL: partida do Rio 21h55, chegada em Nova York 06h55 do dia seguinte (voo G3 7000, domingos/quartas/sextas); volta 23h00 → 09h55 do dia seguinte (voo G3 7001, segundas/quintas/sábados). Airbus A330-200 (arrendado da Wamos Air), rota inaugurada em julho de 2026 — primeira operação de longo curso da GOL. American Airlines também opera a rota (AA974 ida/AA973 volta), horários variando entre 21h55–23h00 (Rio) e 22h00–23h45 (JFK), Boeing 787, sem par único fixado.",
+    "fonte": "mercadoeeventos.com.br, panrotas.com.br, melhoresdestinos.com.br — cobertura da inauguração do voo de longo alcance da GOL, consultado em 2026-08-28; horário/número de voo verificado via OneMileAtATime, AirwaysMag, FlightConnections, Airportia, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_dfw",
@@ -386,8 +409,9 @@
     "frequencia": "Sazonal — não confirmada com precisão nesta sessão",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "Sítio oficial American Airlines (aa.com), consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "American Airlines: partida do Rio (GIG) 22h30, chegada em Dallas (DFW) 06h00 do dia seguinte (voo AA936); volta partida de Dallas 19h10, chegada no Rio 08h20 do dia seguinte (voo AA937). Boeing 787, ~10h30, 3 frequências semanais, única companhia na rota.",
+    "fonte": "Sítio oficial American Airlines (aa.com), consultado em 2026-08-28; horário/número de voo verificado via FlightAware, Airportia, FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_atl",
@@ -399,8 +423,9 @@
     "frequencia": "4 voos semanais (segunda, quarta, sexta, domingo)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "news.delta.com (Delta News Hub) — cobertura da retomada dos voos Atlanta–Brasil, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Delta Air Lines: partida do Rio (GIG) 21h00, chegada em Atlanta 05h13, voo DL60; volta partida de Atlanta 23h45, chegada no Rio 10h15 do dia seguinte, voo DL61. Boeing 767-400, ~9h35–10h20, única companhia na rota sem escalas.",
+    "fonte": "news.delta.com (Delta News Hub) — cobertura da retomada dos voos Atlanta–Brasil, consultado em 2026-08-28; horário/número de voo verificado via FlightConnections, FlightsFrom, Airportia, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_vcp_fll",
@@ -412,8 +437,9 @@
     "frequencia": "Operação o ano todo",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Primeiro destino internacional da Azul aos EUA a partir de Viracopos (hub da companhia).",
-    "fonte": "viracopos.com (notícia oficial do aeroporto), flightmapper.net, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: voo Azul AD8704, Viracopos (VCP) 22h40 → Fort Lauderdale (FLL) 05h47 do dia seguinte (~8h40, Airbus A330-200). Volta: voo Azul AD8705, Fort Lauderdale (FLL) 09h35 → Viracopos (VCP) 18h21 (~8h35). Horários variam por dia da semana — agregadores mostram partidas de VCP entre 22h40 e 23h55 e de FLL entre 08h10 e 09h35. Há ainda segunda frequência, AD8702, partindo de VCP ~10h05 (seg/qua/sáb), chegada não confirmada. Confirme o horário exato do dia da viagem diretamente com a Azul.",
+    "fonte": "viracopos.com (notícia oficial do aeroporto), flightmapper.net, consultado em 2026-08-28; horário/número de voo verificado via Trip.com, emsampa.com.br, Flightmapper, FlightAware, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_vcp_mco",
@@ -425,8 +451,9 @@
     "frequencia": "Operação o ano todo",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "passagens.voeazul.com.br (sítio oficial Azul), consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: voo Azul AD8706, Viracopos (VCP) 09h55 → Orlando (MCO) 17h21 (~9h05). Volta: voo Azul AD8707, Orlando (MCO) 20h00 → Viracopos (VCP) 04h48 do dia seguinte (~9h; outra fonte registrou 20h00→05h40 para outra data). Aeronave Airbus A330, variante (A330-200 vs A330-900neo) não confirmada com certeza. Voo diário. Confirme horário exato diretamente com a Azul.",
+    "fonte": "passagens.voeazul.com.br (sítio oficial Azul), consultado em 2026-08-28; horário/número de voo verificado via Trip.com, emsampa.com.br, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_vcp_jfk",
@@ -437,9 +464,9 @@
     "duracaoMin": 555,
     "frequencia": "Diário — rota lançada em 2026, a mais nova das três da Azul a partir de Viracopos",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
-    "obs": "Equipamento Airbus A330. Com esta rota, a Azul passa a operar 30 frequências semanais Brasil–EUA a partir de Viracopos, somando as três rotas (FLL, MCO, JFK).",
-    "fonte": "viracopos.com (notícia oficial do aeroporto) — inauguração da rota Viracopos–Nova York, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "obs": "Equipamento Airbus A330. Com esta rota, a Azul passa a operar 30 frequências semanais Brasil–EUA a partir de Viracopos, somando as três rotas (FLL, MCO, JFK). ATENÇÃO — pesquisa adicional em 2026-09-03 não encontrou voo direto VCP–JFK atualmente em operação: fontes atuais (flightconnections.com, Wikipedia) listam apenas Fort Lauderdale, Orlando, Lisboa e Madri entre os destinos internacionais diretos vigentes a partir de Viracopos. Há reportagens de 2020/2021 sobre planos da Azul para esta rota, com adiamentos de estreia — pode nunca ter entrado em operação regular ou ter sido descontinuada. Nenhum número de voo ou horário de referência confiável foi encontrado. Confirme a existência da rota antes de contar com ela.",
+    "fonte": "viracopos.com (notícia oficial do aeroporto) — inauguração da rota Viracopos–Nova York, consultado em 2026-08-28; verificação de vigência via FlightConnections e Wikipedia, consultado em 2026-09-03 — rota não confirmada como ativa",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_mia",
@@ -451,8 +478,9 @@
     "frequencia": "9 voos semanais (cerca de 1 por dia) — única companhia nesta rota",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Equipamento Boeing 737 MAX 8 (176 assentos, econômica e executiva). Rota reaberta pela GOL após período de suspensão — consultar vigência antes de comprar.",
-    "fonte": "bsb.aero (sítio oficial do Aeroporto de Brasília), passageirodeprimeira.com, aeroflap.com.br, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "GOL — ida: voo G3 7748, Brasília 10h00 → Miami 16h50, horário local. Volta: voo G3 7749, Miami 22h35 → Brasília 06h45, horário local. Cerca de 7h50–8h em cada sentido.",
+    "fonte": "bsb.aero (sítio oficial do Aeroporto de Brasília), passageirodeprimeira.com, aeroflap.com.br, consultado em 2026-08-28; horário/número de voo verificado via voegol.com.br, FlightConnections, Trip.com, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_mco",
@@ -464,8 +492,9 @@
     "frequencia": "4 a 7 voos semanais, variando por temporada (mais frequências no verão do hemisfério norte) — única companhia nesta rota",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Equipamento Boeing 737 MAX 8, 176 assentos. Foi a rota mais longa já operada por um 737 MAX até a GOL anunciar Assunção–Miami em 2026.",
-    "fonte": "bsb.aero (sítio oficial do Aeroporto de Brasília), aeroin.net, exame.com, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "GOL — ida: voo G3 7634, Brasília 09h15 → Orlando por volta das 16h (fontes divergem entre 15h54 e 16h30), horário local. Volta: voo G3 7635, Orlando 22h00 → Brasília por volta das 06h30 (fontes divergem entre 06h22 e 07h05), horário local. Cerca de 8h em cada sentido. Números de voo e faixa horária confirmados; minuto exato de chegada varia conforme a fonte/dia da semana.",
+    "fonte": "bsb.aero (sítio oficial do Aeroporto de Brasília), aeroin.net, exame.com, consultado em 2026-08-28; horário/número de voo verificado via FlightConnections, Trip.com, MelhoresDestinos, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_cnf_mco",
@@ -477,8 +506,9 @@
     "frequencia": "Operação o ano todo — único destino direto da Azul nos EUA a partir de Confins",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": null,
-    "fonte": "Sítio oficial Azul (passagens.voeazul.com.br), consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: voo Azul AD8730, Confins 12h25 → Orlando 20h30, horário local. Volta: voo Azul AD8731, Orlando 22h30 → Confins 08h05 do dia seguinte, horário local. Frequência de 3 voos semanais, aeronave Boeing 767, ~8h35 (dados de setembro/2026 — confirme antes de comprar).",
+    "fonte": "Sítio oficial Azul (passagens.voeazul.com.br), consultado em 2026-08-28; horário/número de voo verificado via FlightConnections, FlightAware, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_rec_mco",
@@ -490,8 +520,9 @@
     "frequencia": "SAZONAL — apenas dezembro e janeiro (alta temporada). Fora desse período, Recife não tem voo direto para os EUA.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-08-28" },
     "obs": "Recife teve voo direto para Fort Lauderdale (FLL) inaugurado em 2023, mas essa rota foi descontinuada — reportagem de fevereiro de 2026 confirma que só resta a operação sazonal para Orlando em dez/jan. Fora da janela sazonal, conexão via GRU, VCP, CNF, Belém ou Manaus é necessária.",
-    "fonte": "diariodepernambuco.com.br (fevereiro de 2026) — situação vigente dos voos diretos de Recife para os EUA, consultado em 2026-08-28",
-    "consultadoEm": "2026-08-28"
+    "vooReferencia": "Ida: voo Azul AD8710, Recife 09h35 → Orlando 17h15, horário local. Volta: voo Azul AD8711, Orlando 20h15 → Recife 06h30 do dia seguinte, horário local. Opera aos sábados, domingos e quartas-feiras, aeronave Airbus A330.",
+    "fonte": "diariodepernambuco.com.br (fevereiro de 2026) — situação vigente dos voos diretos de Recife para os EUA, consultado em 2026-08-28; horário/número de voo verificado via PassageiroDePrimeira, Flightmapper, FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_for_bel",
@@ -503,8 +534,9 @@
     "frequencia": "Cerca de 114 voos/mês somando as três companhias (várias partidas diárias) — Azul responde pela maior parte da malha, seguida de LATAM e GOL",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa doméstica é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Rota direta e de alta frequência, sem necessidade de escala — ao contrário do que se costuma supor para o Norte do Brasil. Duração média de voo de cerca de 1h55.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Belém) e agregadores de passagens (momondo.com.br, kayak.com.br), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Rota doméstica de curta duração (~2h), muitas frequências diárias entre Azul e LATAM (GOL não confirmada operando nonstop). Exemplo Azul: Ida AD4100/AD4182, Fortaleza 09h25–09h30 → Belém 11h25–11h30. Volta AD4101, Belém 18h00 → Fortaleza 19h55. Exemplo LATAM: Ida LA3524, Fortaleza 14h30 → Belém 16h30. Volta LA3523, Belém 11h35 → Fortaleza 13h35. Números acima são exemplos reais, não a malha fixa — confirme no momento da compra.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Belém) e agregadores de passagens (momondo.com.br, kayak.com.br), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, FlightAware, Travelocity, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_for_mao",
@@ -516,8 +548,9 @@
     "frequencia": "Cerca de 46 voos/mês somando as duas companhias — LATAM é a mais utilizada nesta rota, seguida de GOL; Azul não opera trecho direto",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa doméstica é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Rota direta operada por GOL e LATAM, duração média de cerca de 3h25. Passageiros da Azul costumam fazer conexão via Belém (BEL), já que a companhia não opera este trecho sem escala — por isso é comum encontrar ofertas com escala nesta rota, mesmo havendo voo direto de outras companhias.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Manaus) e agregadores de passagens (momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Rota doméstica direta, operada por LATAM e GOL. Exemplo LATAM: Ida LA3525, Fortaleza 14h20 → Manaus 16h50 (2h30, ~8x/semana). Volta LA4510, Manaus 07h50–08h25 → Fortaleza 12h15–12h50. Exemplo GOL: Ida G32122, Fortaleza 18h40 → Manaus 21h10. Volta G32123, Manaus 04h20 → Fortaleza 08h45 (Boeing 737 MAX 8/737-800). Horários variam por data; use como referência.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Manaus) e agregadores de passagens (momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_lis",
@@ -528,7 +561,7 @@
     "duracaoMin": 550,
     "frequencia": "7 voos semanais (praticamente diário) na ida, conforme malha de agosto de 2026 — TAP Portugal é a única companhia a operar este trecho sem escala; a LATAM vende a rota apenas com conexão (geralmente via São Paulo/GRU)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "Único voo direto de Brasília para a Europa continental. Ida (TP058): parte de Brasília (BSB) às 17h10, horário local (UTC-3), e chega a Lisboa (LIS) às 05h40–06h40 do dia seguinte, horário local (UTC+0/+1 conforme horário de verão europeu) — duração média de 9h10. Volta (TP057): parte de Lisboa às 09h50 e chega a Brasília às 15h53, horário local — duração ligeiramente menor que a ida por causa dos ventos de proa/cauda no Atlântico. Equipamento Airbus A330-900neo (298 lugares), o mesmo usado em ~95% das operações desta rota. Horários específicos de cada voo variam por data — confirme sempre no momento da compra.",
+    "vooReferencia": "Único voo direto de Brasília para a Europa continental. Ida (TP058): parte de Brasília (BSB) às 17h10, horário local (UTC-3), e chega a Lisboa (LIS) às 05h40–06h40 do dia seguinte, horário local (UTC+0/+1 conforme horário de verão europeu) — duração média de 9h10. Volta (TP057): parte de Lisboa às 09h50 e chega a Brasília às 15h53, horário local — duração ligeiramente menor que a ida por causa dos ventos de proa/cauda no Atlântico. Equipamento Airbus A330-900neo (298 lugares), o mesmo usado em ~95% das operações desta rota. Horários específicos de cada voo variam por data — confirme sempre no momento da compra.",
     "fonte": "flytap.com (sítio oficial TAP), momondo.pt, flightconnections.com — malha e horários da rota BSB–LIS; trip.com, flightera.net, airportia.com, flightaware.com — rastreamento dos voos TP057/TP058; bsb.aero — nota oficial do Aeroporto de Brasília sobre o aumento de frequência da TAP, consultado via busca em 2026-09-02",
     "consultadoEm": "2026-09-02"
   },
@@ -542,8 +575,9 @@
     "frequencia": "Diária (voo único por dia) — única companhia nesta rota. Aumento já anunciado: 8 voos semanais a partir de dezembro de 2026, e 11 voos semanais em janeiro–fevereiro de 2027 (alta temporada), conforme release da Copa Airlines de agosto de 2026.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe sem voo direto de Brasília — a pernada PTY→destino final não está cadastrada nesta base.",
-    "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br, panrotas.com.br, airway.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá e seu aumento de frequência anunciado em agosto de 2026, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Copa Airlines — ida: voo CM204, Brasília 02h00 → Cidade do Panamá 06h04, horário local (confirmado em múltiplos históricos reais). Volta: voo CM205, Panamá → Brasília, duração aproximada de 6h18, mas horário local exato de partida/chegada dessa perna não confirmado com confiança.",
+    "fonte": "melhoresdestinos.com.br, copaair.com, kayak.com.br, panrotas.com.br, airway.com.br — cobertura consolidada sobre a rota Copa Airlines Brasília–Panamá e seu aumento de frequência anunciado em agosto de 2026, consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, Flightera, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_lim",
@@ -554,9 +588,9 @@
     "duracaoMin": 290,
     "frequencia": "2 voos semanais (agosto de 2026) — única companhia nesta rota",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "Partida de Brasília por volta das 9h, chegada a Lima por volta das 11h50, horário local — cerca de 4h50 de voo.",
-    "fonte": "eoob.com.br, emsampa.com.br, flightconnections.com — cobertura consolidada sobre a rota LATAM Brasília–Lima, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM — voo LA2403: Brasília 09h00 → Lima 11h50, horário local (voo diário, confirmado em históricos reais de várias datas). Cerca de 4h50 de voo.",
+    "fonte": "eoob.com.br, emsampa.com.br, flightconnections.com — cobertura consolidada sobre a rota LATAM Brasília–Lima, consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_bog",
@@ -567,7 +601,7 @@
     "duracaoMin": 325,
     "frequencia": "GOL: 3 voos semanais — segunda, sexta e domingo, desde 30/03/2025 (antes dessa data, a operação era às terças, quintas e sábados). Voo G3 8242 na ida, G3 8243 na volta. Única operadora confirmada nesta rota direta: a Avianca conecta Brasil↔Bogotá a partir de São Paulo, Rio de Janeiro, Manaus e Belém, mas não há confirmação de que opere o trecho direto BSB–BOG.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "GOL — ida (G3 8242): Brasília 08h55 → Bogotá 12h20, horário local (cerca de 5h25 de voo). Volta (G3 8243): Bogotá 23h33 → Brasília 06h30 do dia seguinte, horário local (cerca de 4h57, mais curta por causa dos ventos predominantes). Aeronave Boeing 737 MAX 8. Rota inaugurada em 04/02/2025.",
+    "vooReferencia": "GOL — ida (G3 8242): Brasília 08h55 → Bogotá 12h20, horário local (cerca de 5h25 de voo). Volta (G3 8243): Bogotá 23h33 → Brasília 06h30 do dia seguinte, horário local (cerca de 4h57, mais curta por causa dos ventos predominantes). Aeronave Boeing 737 MAX 8. Rota inaugurada em 04/02/2025.",
     "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/gol-inicia-operacao-de-voo-direto-de-brasilia-para-bogota — release oficial do Aeroporto de Brasília; panrotas.com.br — cobertura sobre operações da Avianca no Brasil, consultado via busca em 2026-09-02",
     "consultadoEm": "2026-09-02"
   },
@@ -580,9 +614,9 @@
     "duracaoMin": 240,
     "frequencia": "GOL: voos diários, confirmados pelo release oficial do Aeroporto de Brasília (expandido de 5 para 7 frequências semanais); a cobertura detalha especificamente terças, quartas, sextas, sábados e domingos. Aerolíneas Argentinas: 2 voos semanais (terças e domingos).",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "GOL — ida: Brasília 08h40 → Buenos Aires 12h30, horário local. Volta: Buenos Aires 03h30 → Brasília 06h50, horário local. Cerca de 3h50 de voo em cada sentido. Aerolíneas Argentinas opera para o Aeroporto Jorge Newbery/Aeroparque (não Ezeiza) às terças (08h40) e domingos (21h30) — GOL também alterna entre Aeroparque e Ezeiza conforme o mês. Equipamento Boeing 737, configuração internacional de 176 lugares.",
-    "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/aeroporto-de-brasilia-passa-a-ter-voos-diarios-para-buenos-aires-na-argentina — release oficial do Aeroporto de Brasília; passageirodeprimeira.com, dicasdacapital.com.br — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "GOL — ida: voo G3 7461, Brasília 08h40 → Buenos Aires 12h30, horário local. Volta: voo G3 7460, Buenos Aires 03h30 → Brasília 06h50, horário local. Cerca de 3h50 em cada sentido.",
+    "fonte": "bsb.aero/institucional/sala-de-imprensa/releases/aeroporto-de-brasilia-passa-a-ter-voos-diarios-para-buenos-aires-na-argentina — release oficial do Aeroporto de Brasília; passageirodeprimeira.com, dicasdacapital.com.br — cobertura consolidada sobre as rotas Brasília–Buenos Aires, consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_cun",
@@ -594,8 +628,9 @@
     "frequencia": "SAZONAL — 3 voos semanais, retomados a partir de 20/06/2026 após suspensão na baixa temporada do primeiro semestre de 2026. Única companhia nesta rota.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Rota historicamente instável — já foi suspensa e retomada mais de uma vez. Equipamento Boeing 737 MAX, configuração de classe única (176–186 lugares). Confirme a vigência diretamente com a GOL antes de comprar, especialmente fora do período de alta temporada (dezembro a agosto).",
-    "fonte": "aeroin.net, catracalivre.com.br, bsb.aero, aerocopilot.ia.br — cobertura consolidada sobre a retomada da rota Brasília–Cancún, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "GOL — ida: voo G3 7724, Brasília → Cancún; aos sábados parte 11h55 e chega 18h00, horário local (fontes divergem levemente; rota opera só 2 a 3x/semana, terça e/ou sábado). Volta: voo G3 7725, Cancún → Brasília, saída entre 19h30 e 20h00, chegada entre 05h35 e 06h40 em Brasília (fontes divergem no minuto exato). Cerca de 8h em cada sentido. Rota relativamente nova (retomada em 2026), malha de horários ainda varia entre fontes.",
+    "fonte": "aeroin.net, catracalivre.com.br, bsb.aero, aerocopilot.ia.br — cobertura consolidada sobre a retomada da rota Brasília–Cancún, consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, PlaneMapper, AeroRoutes, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_bsb_scl",
@@ -606,9 +641,9 @@
     "duracaoMin": 300,
     "frequencia": "3 voos semanais o ano todo (terças, quintas e sábados); vira diária entre 15/06 e 16/08/2026 (alta temporada de inverno no Hemisfério Sul). Única companhia nesta rota.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "Ida: Brasília 08h50 → Santiago 13h50, horário local. Volta: Santiago 13h40 → Brasília 18h40, horário local. Equipamento Airbus A320/A321 (174–220 lugares). A LATAM sinalizou possibilidade de tornar a operação diária permanente a partir do verão 2027, condicionada à ocupação da alta temporada de 2026.",
-    "fonte": "mercadoeeventos.com.br, tribunadepoa.com.br, passageirodeprimeira.com, bsb.aero — cobertura consolidada sobre a rota LATAM Brasília–Santiago, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM — ida: voo LA8108, Brasília 08h50 → Santiago 13h40/13h50 (fontes variam no minuto), horário local. Volta: voo LA8109, Santiago 13h40 → Brasília por volta das 18h40 (uma fonte indica 19h00), horário local. Equipamento Airbus A320/A321 (174–220 lugares). Cerca de 4h50.",
+    "fonte": "mercadoeeventos.com.br, tribunadepoa.com.br, passageirodeprimeira.com, bsb.aero — cobertura consolidada sobre a rota LATAM Brasília–Santiago, consultado via busca em 2026-09-02; horário/número de voo verificado via Flightmapper, bsb.aero, Aviability, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_lis",
@@ -620,8 +655,9 @@
     "frequencia": "31 voos semanais somando as duas companhias (cerca de 4 partidas diárias) — a rota mais movimentada de Guarulhos para a Europa",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A330-900neo, Boeing 777-300 e Boeing 787-9, conforme a companhia e o dia.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida (LATAM): LA 8146, São Paulo/Guarulhos 17h40 → Lisboa 06h20 (dia seguinte). Volta (LATAM): LA 8147, Lisboa 09h35 → São Paulo/Guarulhos 15h40 (mesmo dia, horário de Brasília). Equipamento Boeing 777-32WER. GRU está em UTC-3; Lisboa, em UTC+1 (horário de verão) ou UTC0. Alternativa: TAP Portugal opera TP 88 (São Paulo 20h45 → Lisboa 10h35 dia seguinte) e TP 87 (Lisboa 23h30 → São Paulo 05h50 dia seguinte).",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; voo de referência via Planefinder/Hopegoo/FlightAware/Aviability, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_mad",
@@ -633,8 +669,9 @@
     "frequencia": "38 voos semanais somando as três companhias (cerca de 5 partidas diárias). Air China também atende este trecho, mas como parte de um voo com origem em Pequim e escala técnica em Madri antes de seguir para Guarulhos — não contabilizado aqui como operação própria da rota.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": null,
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida (Iberia): IB 268, São Paulo/Guarulhos 14h10 → Madri 05h35 (dia seguinte). Volta (Iberia): IB 267, Madri 23h55 → São Paulo/Guarulhos 05h55 (dia seguinte). Equipamento Airbus A330. GRU está em UTC-3; Madri, em UTC+2 (horário de verão) ou UTC+1. Alternativas: Air Europa UX 58 (São Paulo 13h50 → Madri 05h00 dia seguinte) e LATAM LA 8066/LA 8075.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; voo de referência via FlightAware/Flightera/Flightmapper, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_bcn",
@@ -646,8 +683,9 @@
     "frequencia": "7 voos semanais (cerca de 1 por dia) — LATAM é a única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Boeing 777-300 e Boeing 787-9.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: LA 8114, São Paulo/Guarulhos → Barcelona. Volta: LA 8115, Barcelona 13h10 → São Paulo/Guarulhos 19h10 (mesmo dia, horário de Brasília). GRU está em UTC-3; Barcelona, em UTC+2 (horário de verão) ou UTC+1. DIVERGÊNCIA ENCONTRADA: o horário de partida do LA8114 (ida) diverge entre fontes — uma registra 21h35/11h22 (CET), outra 18h10/09h40 — sem confirmação de qual está vigente em 2026. LATAM é a única companhia com voo direto nesta rota.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; voo de referência via FlightAware/Planefinder/AirNav Radar, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_fco",
@@ -659,8 +697,9 @@
     "frequencia": "19 voos semanais somando as duas companhias (cerca de 3 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Chega ao Aeroporto Fiumicino (FCO), o principal de Roma.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "ITA Airways — ida: São Paulo 14h15 → Roma/Fiumicino 06h20 do dia seguinte, voo AZ675 (há também AZ678, manhã). Volta: Roma 21h50 → São Paulo 06h25 do dia seguinte, voo AZ674. Cerca de 11h05 (ida) a 12h05-13h00 (volta), variando por época do ano. Equipamento Airbus A330-900neo ou A350-900. LATAM também vende passagens nessa rota, mas não foi possível confirmar número de voo próprio da LATAM — provável codeshare em voo operado pela ITA, não confirmado.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, Airportia, Flightmapper, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_cdg",
@@ -672,8 +711,9 @@
     "frequencia": "21 voos semanais somando as duas companhias (cerca de 3 partidas diárias) — Air France opera múltiplos voos diários, LATAM ao menos um voo noturno",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Chega e parte do Aeroporto Charles de Gaulle (CDG), não de Orly — não há voo direto próprio de Guarulhos para Orly (ORY) confirmado na pesquisa.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Air France — ida: São Paulo 19h35 → Paris/CDG 11h16 do dia seguinte, voo AF459 (existe também AF457). Volta: Paris 23h35 → São Paulo 05h46 do dia seguinte, voo AF454. Cerca de 11h a 11h55. Equipamento Boeing 777-300ER. LATAM também opera com voo próprio: ida LA8068, São Paulo 18h20 → Paris 09h56 do dia seguinte, Boeing 787-9; volta LA8067, Paris 12h05/13h00 → São Paulo 19h50/20h00.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, Flightmapper, Travelocity, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_zrh",
@@ -685,8 +725,9 @@
     "frequencia": "7 voos semanais (diário) — única companhia nesta rota direta; Genebra (GVA) não tem voo direto confirmado a partir de Guarulhos",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Boeing 777-300ER.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "SWISS — ida: São Paulo 18h25 → Zurique 10h40/10h45 do dia seguinte, voo LX93. Volta: Zurique 22h40 → São Paulo 05h25 do dia seguinte, voo LX92. Cerca de 11h15-11h45 em cada sentido. SWISS é a única companhia operando voo direto nessa rota.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via swiss.com, FlightAware, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_ist",
@@ -698,8 +739,9 @@
     "frequencia": "14 voos semanais (cerca de 2 por dia) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A350-900.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Turkish Airlines — ida: São Paulo 04h10 → Istambul 22h45, voo TK16 (perna de um voo que começa em Buenos Aires/Ezeiza, escala em GRU, segue para IST com o mesmo número). Cerca de 12h35 nessa perna. Volta: Istambul 10h00 → São Paulo 17h45, voo TK15 (existe também TK215, noturno) — cerca de 13h, Airbus A350-900. Não foi possível confirmar com total segurança se TK15 é o número mais usado especificamente nessa rota (dados de tabelas agregadas com variação por período do ano).",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via Airportia, FlightsFrom, Flightmapper, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_pty",
@@ -711,8 +753,9 @@
     "frequencia": "39 voos semanais (cerca de 6 partidas diárias), setembro/2026 — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe — a pernada PTY→destino final não está cadastrada nesta base. Equipamento Boeing 737 MAX 9.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Copa Airlines — ida: São Paulo 01h30 → Cidade do Panamá 05h50, voo CM841. Volta: Cidade do Panamá 15h15/15h17 → São Paulo 00h10 do dia seguinte, voo CM725 (~6h55).",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via PlaneMapper, copaair.com, Airpaz, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_lim",
@@ -724,8 +767,9 @@
     "frequencia": "42 voos semanais somando as duas companhias (cerca de 6 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": null,
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM — ida: São Paulo 08h15 → Lima 11h25, voo LA2429. Volta: Lima 09h20 → São Paulo 16h15, voo LA2424. Cerca de 4h40-5h20, Airbus A320/A321. Sky Airline também opera essa rota (ex.: H2 5563/H2 5562), mas horário/número específico não confirmado com segurança suficiente.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_bog",
@@ -737,8 +781,9 @@
     "frequencia": "42 voos semanais somando as duas companhias (cerca de 6 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": null,
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Avianca — ida: São Paulo 01h20 → Bogotá 04h54, voo AV248. Volta: Bogotá 07h55/08h00 → São Paulo 15h14/16h15 (fontes divergem no horário exato), voo AV185, Airbus A320neo, ~6h15. LATAM também opera essa rota, mas número de voo específico não confirmado.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via Trip.com, FlightAware, Flightmapper, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_eze",
@@ -750,8 +795,9 @@
     "frequencia": "LATAM: 48 voos diretos semanais (soma Aeroparque/AEP e Ezeiza/EZE). GOL: 25 voos diretos semanais (idem). Aerolíneas Argentinas: 27 voos diretos semanais. Nem todos os voos somados aqui chegam a Ezeiza especificamente — parte opera para o Aeroparque Jorge Newbery (AEP), o outro aeroporto de Buenos Aires.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Uma das rotas internacionais mais frequentes de Guarulhos — dezenas de partidas diárias somando as três companhias.",
-    "fonte": "Busca via Google Flights/agregadores e flightconnections.com, consultado em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM — ida: São Paulo 12h45/12h50 → Buenos Aires/Ezeiza 15h45/15h50, voo LA8022. Volta: Ezeiza 16h45 → São Paulo 19h30, voo LA8023 (~2h45-3h, mesmo fuso). GOL Linhas Aéreas ainda NÃO opera essa rota — só a partir de outubro de 2026 segundo fonte consultada. Aerolíneas Argentinas voa para o Aeroporto Jorge Newbery/Aeroparque (AEP), não Ezeiza — ex.: voo AR1152, São Paulo 15h20 → Aeroparque 18h20.",
+    "fonte": "Busca via Google Flights/agregadores e flightconnections.com, consultado em 2026-09-02; horário/número de voo verificado via FlightConnections, Flightmapper, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_scl",
@@ -763,8 +809,9 @@
     "frequencia": "52 voos semanais somando as companhias, a partir de abril de 2026 (13 a 17 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Turkish Airlines também atende este trecho como parte de um voo com origem em Istambul e escala técnica em Guarulhos antes de seguir para Santiago — não contabilizado aqui como operação própria da rota.",
-    "fonte": "flightconnections.com e momondo.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM — ida: São Paulo 16h25/16h35 → Santiago 20h40/20h50, voo LA606. Volta: Santiago 21h40 → São Paulo 01h35 do dia seguinte, voo LA607 (~4h, Airbus A320/A321). JetSmart também opera essa rota, mas número/horário específico não confirmado. Sky Airline só começa a operar GRU-SCL a partir de outubro de 2026, segundo fonte consultada — ainda não está operando.",
+    "fonte": "flightconnections.com e momondo.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via Flightmapper, FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_dfw",
@@ -776,8 +823,9 @@
     "frequencia": "7 voos semanais (diário) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Boeing 787-9.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "American Airlines — ida: São Paulo 22h00-23h05 → Dallas/Fort Worth 05h20-07h25 do dia seguinte, voo AA962 (Boeing 787-9; existe também AA966, mesmo horário, até 09/fev/2026, seg/qui/sáb). Volta: Dallas 21h10 → São Paulo 09h00 do dia seguinte, voo AA963, Boeing 787-9. Cerca de 9h50-10h30.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Guarulhos), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightAware, Flightmapper, aa.com, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gru_tlv",
@@ -788,9 +836,9 @@
     "duracaoMin": 810,
     "frequencia": "3 voos semanais na ida (segunda, quarta e sábado); retorno terça, quinta e domingo — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "Ida com cerca de 13h30 de voo; volta cerca de 15h10, mais longa por causa dos ventos contrários. Equipamento Boeing 787-8 Dreamliner. Único voo direto do Brasil para Israel.",
-    "fonte": "melhoresdestinos.com.br e buenasdicas.com — cobertura sobre o voo direto LATAM Guarulhos–Tel Aviv, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "obs": "Ida com cerca de 13h30 de voo; volta cerca de 15h10, mais longa por causa dos ventos contrários. Equipamento Boeing 787-8 Dreamliner. Único voo direto do Brasil para Israel. ATENÇÃO — pesquisa adicional em 2026-09-03 não encontrou nenhuma fonte confirmando voo direto GRU–TLV atualmente ativo (nem número de voo, nem horário) — indício de que a rota pode não estar operando sem escala hoje, apesar do registro anterior. Confirme a existência da rota antes de contar com ela.",
+    "fonte": "melhoresdestinos.com.br e buenasdicas.com — cobertura sobre o voo direto LATAM Guarulhos–Tel Aviv, consultado via busca em 2026-09-02; verificação de vigência via FlightConnections e Wikipedia, consultado em 2026-09-03 — rota não confirmada como ativa",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_lis",
@@ -802,8 +850,9 @@
     "frequencia": "17 voos semanais somando as duas companhias (cerca de 2 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A330.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "GOL: partida do Rio 08h00, chegada em Lisboa 21h40, voo G3 7020; volta partida de Lisboa 23h30, chegada no Rio 05h30 do dia seguinte, voo G3 7021. Airbus A330 (Wamos Air, ~300 assentos), rota inaugurada em 16/set/2026, 4 frequências semanais. TAP Portugal também opera diariamente: ida confirmada como voo TP074, partida do Rio ~15h35, chegada em Lisboa entre 04h30–05h20 do dia seguinte; número/horário exato da volta TAP ficou inconsistente entre fontes (referências a TP073, TP071 e TP075 com horários bem diferentes) — sem confiança suficiente, recomenda-se checagem direta no site da TAP.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via MelhoresDestinos, PassageiroDePrimeira, FlightConnections, Trip.com, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_mad",
@@ -815,8 +864,9 @@
     "frequencia": "4 voos semanais — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A350.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Iberia: partida do Rio (GIG) 19h15, chegada em Madrid 10h05 do dia seguinte (voo IB270); volta partida de Madrid 12h25, chegada no Rio 17h35 (voo IB269). Airbus A350/A350-900, ~9h50–10h10, 4 frequências semanais, única companhia na rota. Em alguns canais de venda a ida aparece sob codeshare IB6024 — o número operacional é IB270.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, Aviability, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_fco",
@@ -828,8 +878,9 @@
     "frequencia": "7 voos semanais (cerca de 1 por dia) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Chega ao Aeroporto Fiumicino (FCO). Equipamento Airbus A330-900neo e A350-900.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "ITA Airways: partida do Rio (GIG) 18h35, chegada em Roma (FCO) 10h50 do dia seguinte (voo AZ673, diário); volta partida de Roma 22h15, chegada no Rio 05h10 do dia seguinte (voo AZ672, seg–sáb). Cerca de 11h15–11h55.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via ita-airways.com, Trip.com, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_cdg",
@@ -841,8 +892,9 @@
     "frequencia": "10 voos semanais (cerca de 1 por dia) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Chega ao Aeroporto Charles de Gaulle (CDG).",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Air France: partida do Rio (GIG) 18h55, chegada em Paris (CDG) 10h55 do dia seguinte (voo AF511, Airbus A350-900); volta partida de Paris 10h10, chegada no Rio 16h40 (voo AF512, A350-900). Cerca de 11h. A companhia também opera segunda frequência diária com Boeing 777 (AF443 ida/AF442 volta), horários mais variáveis (partida de Paris entre 13h10–13h30).",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_pty",
@@ -854,8 +906,9 @@
     "frequencia": "21 voos semanais (cerca de 3 partidas diárias) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe — a pernada PTY→destino final não está cadastrada nesta base.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Copa Airlines opera 3 frequências diárias em cada sentido. Par consistente: partida do Rio (GIG) 10h30, chegada na Cidade do Panamá 15h48 (voo CM215); volta partida do Panamá 22h48, chegada no Rio 07h55 do dia seguinte (voo CM216). Boeing 737 MAX 9, ~7h. Outras frequências do dia: CM872/CM873 (madrugada) e CM487/CM486 (manhã).",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, FlightAware, Flightera, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_eze",
@@ -867,8 +920,9 @@
     "frequencia": "36 voos semanais somando as companhias (cerca de 5 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": null,
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM: partida do Rio (GIG) 11h10, chegada em Buenos Aires (EZE) 14h40 (voo LA776); volta partida de Buenos Aires 15h35, chegada no Rio 18h35 (voo LA777), Airbus A320. GOL: partida do Rio 08h55, chegada em Buenos Aires 12h25 (voo G3 7652); volta partida de Buenos Aires 13h15, chegada no Rio 16h15 (voo G3 7653), Boeing 737 MAX 8 — há também segundo par próximo ao meio-dia (G3 7654/G3 7655). JetSmart: partida do Rio 12h10, chegada em Buenos Aires 15h31 (voo JA3713); volta partida de Buenos Aires 06h01, chegada no Rio 09h05 (voo JA3714). Aerolíneas Argentinas: sem dado confiável — a operação reinicia apenas em outubro de 2026.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_scl",
@@ -880,8 +934,9 @@
     "frequencia": "53 voos semanais somando as companhias (cerca de 8 partidas diárias)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": null,
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Três companhias operam a rota (LATAM, JetSmart, Sky Airline), ~7 frequências diárias somadas, ~4h50. Dados de confiança baixa/moderada: Sky Airline H2 620 parte do Rio 04h35 / H2 622 parte de Santiago 12h10; JetSmart JA 764 parte do Rio 04h37 / JA 762 parte de Santiago 15h42; LATAM aparece como LA776 partindo do Rio ~05h10 — mas esse mesmo número (LA776) também apareceu na rota GIG-EZE com horário totalmente diferente (11h10), indício de erro na fonte agregadora. Sem confiança suficiente para cravar o número exato do voo LATAM; confirme direto no site da LATAM.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_lim",
@@ -892,9 +947,9 @@
     "duracaoMin": 345,
     "frequencia": "14 voos semanais somando as duas companhias (cerca de 2 partidas diárias) — Sky Airline inicia operação em dezembro",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "LATAM opera dois horários diários: partida matinal (07h05, chegada 10h50) e vespertina (17h20–17h25, chegada 21h10), horário local.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "LATAM opera dois horários diários: partida matinal do Rio (GIG) 07h05, chegada em Lima 10h50 (voo LA2405); partida vespertina 17h20–17h25, chegada 21h10 (voo LA2415), Airbus A320/A319. Sky Airline anunciou a rota, mas com início previsto só para dezembro de 2026, sem dados de horário/número ainda.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_bog",
@@ -906,8 +961,9 @@
     "frequencia": "21 voos semanais (cerca de 3 partidas diárias) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A320neo. Apenas classe econômica disponível.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Avianca opera 3 frequências diárias em cada sentido (Airbus A320neo). Par consistente: partida do Rio (GIG) 16h40, chegada em Bogotá 21h05 (voo AV146); volta partida de Bogotá 07h15, chegada no Rio 15h35 (voo AV147). Cerca de 6h20–6h25 real (fuso de 2h). Outras frequências do dia: AV198 (madrugada) e AV260 (manhã) na ida; AV197 e AV261 na volta.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_gig_iah",
@@ -919,8 +975,9 @@
     "frequencia": "7 voos semanais (diário) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Boeing 767-300.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "United Airlines: partida do Rio (GIG) 21h05, chegada em Houston (IAH) 05h40 do dia seguinte (voo UA128); volta partida de Houston 19h55–20h00, chegada no Rio 08h15 do dia seguinte (voo UA129). Boeing 767-300, ~10h15, única companhia na rota sem escalas.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Galeão), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_cnf_lis",
@@ -932,8 +989,9 @@
     "frequencia": "7 voos semanais (diário) — única companhia nesta rota direta; único destino europeu direto a partir de Confins",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A330-200 e A330-900neo.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Confins), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo TAP TP104, Confins ~17h05-17h25 → Lisboa ~06h05-06h45 do dia seguinte, horário local. Volta: voo TAP TP103, Lisboa ~09h25-10h10 → Confins ~15h00-15h55, horário local. Voo diário, aeronave Airbus A330 (200 ou 900neo), ~9h20 (ida)/9h40 (volta). Horários exatos variam até ~1h entre fontes consultadas — confirme diretamente com a TAP.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Confins), consultado via busca em 2026-09-02; horário/número de voo verificado via aeroflap.com.br, FlightsFrom, FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_cnf_pty",
@@ -945,8 +1003,9 @@
     "frequencia": "10 voos semanais (cerca de 1 por dia) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Panamá (PTY) é hub da Copa Airlines para conexões a destinos dos EUA, América Central e Caribe — a pernada PTY→destino final não está cadastrada nesta base. Equipamento Boeing 737 MAX 8/9.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Confins), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo Copa Airlines CM734, Confins 01h25 → Cidade do Panamá 06h24, horário local (diário). Volta: voo Copa Airlines CM765, Panamá 15h29 → Confins 23h51, horário local (diário). Uma fonte de imprensa registra o número da ida como CM764 (partida 01h30) em vez de CM734 — pequena divergência quanto ao número exato; horários consistentes entre fontes.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Confins), consultado via busca em 2026-09-02; horário/número de voo verificado via PassageiroDePrimeira, emsampa.com.br, FlightAware, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_cnf_eze",
@@ -958,8 +1017,9 @@
     "frequencia": "1 voo semanal, setembro/2026 — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Frequência baixa (apenas 1x/semana) — confirme a vigência diretamente com a GOL antes de comprar.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Confins), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo GOL G3 7214, Confins 11h55 → Ezeiza 15h15, horário local (dado de tabela histórica). Voo de volta (número/horário) não confirmado com segurança. ATENÇÃO: em setembro/2026 esta rota aparece com 0 voos/semana em pelo menos uma fonte, sugerindo suspensão ou sazonalidade, e há notícia de que a GOL estaria transferindo voos de Confins para Buenos Aires do Ezeiza (EZE) para o Aeroparque (AEP) — não ficou claro se já se aplica a esta rota. Confirme vigência, aeroporto de destino e número do voo diretamente com a GOL.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Confins), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, PassageiroDePrimeira, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_cnf_fll",
@@ -970,9 +1030,9 @@
     "duracaoMin": 500,
     "frequencia": "SAZONAL — 3 voos semanais (quarta, quinta e domingo), de 2 de julho a dezembro de 2026 (158 voos no total, ida e volta). Fora dessa janela, Confins não tem voo direto para Fort Lauderdale.",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
-    "obs": "Ida: Confins 12h00 → Fort Lauderdale 19h20, horário local. Volta: Fort Lauderdale 21h40 → Confins 06h50 do dia seguinte, horário local. Rota historicamente sazonal, retomada e suspensa em anos anteriores — confirme a vigência diretamente com a Azul antes de comprar.",
-    "fonte": "aeroflap.com.br e otempo.com.br — cobertura sobre a retomada da rota sazonal Azul Confins–Fort Lauderdale em 2026, consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: Confins 12h00 → Fort Lauderdale 19h20, horário local. Volta: Fort Lauderdale 21h40 → Confins 06h50 do dia seguinte, horário local. Voos às quartas, quintas e domingos. Rota historicamente sazonal, retomada e suspensa em anos anteriores. Número do voo Azul não foi encontrado em nenhuma fonte consultada; em setembro/2026 a rota aparece sem operação direta ativa (0 voos/semana), consistente com o caráter sazonal já registrado — confirme a vigência diretamente com a Azul antes de comprar.",
+    "fonte": "aeroflap.com.br e otempo.com.br — cobertura sobre a retomada da rota sazonal Azul Confins–Fort Lauderdale em 2026, consultado via busca em 2026-09-02; horário/número de voo verificado via O Tempo, Brasil Turis, FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_rec_lis",
@@ -984,8 +1044,9 @@
     "frequencia": "9 voos semanais (cerca de 1 por dia) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A321neo, A330-200 e A330-900neo, conforme o dia.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo TAP TP012, Recife 23h20 → Lisboa 09h50 do dia seguinte, horário local (A330-200/900neo conforme o dia). Volta: voo TAP TP011, Lisboa 17h00 → Recife 21h50, horário local (registrado especificamente às quintas-feiras; outras fontes indicam partidas de Lisboa entre 16h50 e 23h20 conforme o dia). Duração aproximada de 7h30-7h45.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02; horário/número de voo verificado via Flightera, FlightsFrom, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_rec_mad",
@@ -997,8 +1058,9 @@
     "frequencia": "8 voos semanais somando as duas companhias (cerca de 1 por dia)",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": null,
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Rota operada por duas companhias. Azul: ida AD8000, Recife ~17h10-20h20 → Madri (chegada no dia seguinte, faixa 06h15-09h30); volta AD8001, Madri 10h55 → Recife 14h30. Iberia: ida IB140, Recife 17h10 → Madri 06h15 do dia seguinte; volta IB139, Madri 12h15 → Recife 15h40. Duração aproximada de 8h05-8h35. Horários de amostra — variam por data; confirme antes de comprar.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_rec_eze",
@@ -1010,8 +1072,9 @@
     "frequencia": "1 voo semanal, setembro/2026",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Frequência baixa (apenas 1x/semana) — confirme a vigência antes de comprar. Recife também tem voo direto para o Aeroparque (AEP), o outro aeroporto de Buenos Aires, operado por GOL e JetSmart — não cadastrado aqui por não ser Ezeiza.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Rota operada por LATAM e JetSmart, cerca de 1 voo semanal por companhia. LATAM: ida LA8160, Recife 20h15 → Ezeiza 01h45 (também noticiado como partida aos sábados 19h35, chegada domingo 02h00 — pequena divergência entre fontes); volta LA8161, Ezeiza 02h35 → Recife 07h45. JetSmart: ida JA3719, Recife 14h00 → Ezeiza 19h25; volta JA3720, Ezeiza 05h44 → Recife 11h00. Duração aproximada de 5h10-5h30.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, PanRotas, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_rec_scl",
@@ -1023,8 +1086,9 @@
     "frequencia": "1 voo semanal, setembro/2026 — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Frequência baixa (apenas 1x/semana) — confirme a vigência antes de comprar.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo LATAM LA8012, Recife 13h35 → Santiago 19h15, horário local. Volta: voo LATAM LA8013, Santiago 05h30-06h30 → Recife 12h40, horário local. Voo semanal, geralmente às sextas-feiras, aeronave Airbus A320, ~6h30-6h40. Rota inaugurada em dezembro de 2024 (primeira rota internacional da LATAM em Pernambuco).",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto do Recife), consultado via busca em 2026-09-02; horário/número de voo verificado via FlightConnections, PanRotas, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_vcp_lis",
@@ -1036,8 +1100,9 @@
     "frequencia": "12 voos semanais (cerca de 2 por dia) — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A330-200, A330-900neo e Boeing 777, conforme o dia.",
-    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Viracopos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo Azul AD8750, Viracopos (VCP) 17h55 → Lisboa (LIS) 08h00 do dia seguinte (~10h05). Volta: voo Azul AD8751, Lisboa (LIS) 11h07 → Viracopos (VCP) 16h43 (duração informada pela fonte como ~10h35, embora o cálculo simples pelo fuso sugira algo mais próximo de 9h30 — pequena inconsistência não resolvida). Horários de partida de VCP variam por dia da semana, entre 17h15 e 18h15 (tabela ANAC/Hotran). Confirme horário exato diretamente com a Azul.",
+    "fonte": "flightconnections.com (malha de voos diretos do Aeroporto de Viracopos), consultado via busca em 2026-09-02; horário/número de voo verificado via Trip.com, emsampa.com.br, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   },
   {
     "id": "voo_vcp_mad",
@@ -1049,7 +1114,8 @@
     "frequencia": "3 voos semanais — única companhia nesta rota direta",
     "custoPP": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Tarifa aérea internacional é volátil demais para ser apresentada como estimativa confiável — verifique diretamente com a companhia ou um agregador de passagens.", "consultadoEm": "2026-09-02" },
     "obs": "Equipamento Airbus A330-200 e A330-900neo. Rota lançada em 2026 como parte da expansão internacional da Azul a partir de Viracopos.",
-    "fonte": "flightconnections.com e viracopos.com (malha de voos diretos e notícia oficial do Aeroporto de Viracopos), consultado via busca em 2026-09-02",
-    "consultadoEm": "2026-09-02"
+    "vooReferencia": "Ida: voo Azul AD8754, Viracopos (VCP) 20h05 → Madri (MAD) 11h20 do dia seguinte (~10h15, Airbus A330neo). Volta: voo Azul AD8755, Madri (MAD) 13h50 → Viracopos (VCP) 19h12 (~11h05). Rota iniciada em junho de 2025, 4 a 5 frequências semanais dependendo da época do ano. ATENÇÃO: o número AD8754 também aparece em registros históricos de 2024 associado à rota VCP-Lisboa — a Azul pode realocar números de voo entre rotas ao longo do tempo; confirme o trecho exato (Lisboa x Madri) ao consultar a Azul.",
+    "fonte": "flightconnections.com e viracopos.com (malha de voos diretos e notícia oficial do Aeroporto de Viracopos), consultado via busca em 2026-09-02; horário/número de voo verificado via Trip.com, PassageiroDePrimeira, aeroin.net, consultado em 2026-09-03",
+    "consultadoEm": "2026-09-03"
   }
 ]

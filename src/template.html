@@ -1699,6 +1699,14 @@ const U = {
     },
     dataISO(d) { return d.toISOString().slice(0, 10); },
     dataBR(iso) { const p = iso.split('-'); return p[2] + '/' + p[1]; },
+    /* Link de busca, não de compra: aponta para um agregador (Google Flights) com origem,
+       destino e data já preenchidos, para o viajante conferir número, horário e tarifa
+       vigentes — nunca para simular que o sistema tem provedor de tarifas (§13/§51). */
+    linkBuscaVoo(origemIATA, destinoIATA, dataISO) {
+        if (!origemIATA || !destinoIATA) return null;
+        const q = 'Flights from ' + origemIATA + ' to ' + destinoIATA + (dataISO ? ' on ' + dataISO : '');
+        return 'https://www.google.com/travel/flights?q=' + encodeURIComponent(q);
+    },
     dataExtenso(iso) {
         const dias = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'];
         const d = new Date(iso + 'T12:00:00');
@@ -2534,6 +2542,8 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         sentido: 'Ida', origem: cfg.origem || 'Origem não informada',
         destino: apEntrada ? apEntrada.nome : entrada.dados.nome,
         codigo: apEntrada ? apEntrada.codigo : null,
+        buscaOrigem: apOrigemBR ? apOrigemBR.codigo : null,
+        buscaDestino: apEntrada ? apEntrada.codigo : null,
         data: cfg.dataInicio,
         status: 'ROTA SUGERIDA',
         obs: 'Rota aérea sugerida a partir da cidade de entrada escolhida. O sistema não dispõe de provedor aberto de tarifas: número de voo, horário e preço só aparecem se você os informar.',
@@ -2544,6 +2554,8 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         sentido: 'Retorno', origem: apSaida ? apSaida.nome : saida.dados.nome,
         destino: cfg.origem || 'Origem não informada',
         codigo: apSaida ? apSaida.codigo : null,
+        buscaOrigem: apSaida ? apSaida.codigo : null,
+        buscaDestino: apOrigemBR ? apOrigemBR.codigo : null,
         data: cfg.dataFim,
         status: 'ROTA SUGERIDA',
         obs: entrada.id !== saida.id
@@ -3325,19 +3337,35 @@ const Render = {
                 if (duracao) h += '<div class="flight-item"><span class="small">Duração estimada de voo</span><strong>~' + U.dur(duracao) + '</strong></div>';
                 const freqs = cd.pernas.map(p => p.frequencia).filter(Boolean);
                 if (freqs.length) h += '<div class="flight-item"><span class="small">Frequência pesquisada</span><strong>' + U.esc(freqs.join(' + ')) + '</strong></div>';
-                // Número de voo e horário de referência: pesquisados junto com a rota (§ obs de
-                // cada perna em dados/voos.json), mas nunca renderizados até aqui — ficavam
-                // enterrados no JSON. A data da consulta vai destacada porque malha e horário
-                // mudam por temporada; isto é referência, não o voo do bilhete do viajante.
-                const comObs = cd.pernas.filter(p => p.obs);
-                if (comObs.length) {
-                    const consultas = Array.from(new Set(comObs.map(p => p.consultadoEm).filter(Boolean)))
+                // Nota geral da rota (aeroporto de chegada, equipamento etc.) — não é horário
+                // nem número de voo, por isso fica num rótulo à parte do bloco abaixo.
+                const comNota = cd.pernas.filter(p => p.obs);
+                if (comNota.length) {
+                    h += '<div class="flight-item flight-item-full"><span class="small">Nota da rota pesquisada</span><strong>' +
+                        U.esc(comNota.map(p => p.obs).join(' ')) + '</strong></div>';
+                }
+                // Número de voo e horário de referência: só existe quando a pesquisa achou um
+                // voo específico (§ vooReferencia de cada perna em dados/voos.json) — nunca é
+                // o mesmo texto da nota geral acima, para não fingir que uma nota de aeroporto
+                // é um horário. A data da consulta vai destacada porque malha e horário mudam
+                // por temporada; isto é referência, não o voo do bilhete do viajante.
+                const comRef = cd.pernas.filter(p => p.vooReferencia);
+                if (comRef.length) {
+                    const consultas = Array.from(new Set(comRef.map(p => p.consultadoEm).filter(Boolean)))
                         .map(iso => iso.split('-').reverse().join('/'));
                     h += '<div class="flight-item flight-item-full"><span class="small">Voo e horário de referência pesquisados' +
                         (consultas.length ? ' — consultado em ' + U.esc(consultas.join(', ')) : '') + '</span><strong>' +
-                        U.esc(comObs.map(p => p.obs).join(' ')) + '</strong>' +
+                        U.esc(comRef.map(p => p.vooReferencia).join(' ')) + '</strong>' +
                         R.selo('CADASTRADO', fontes, null, 'Exemplo de horário pesquisado em fonte aberta — não é o voo do seu bilhete. Confirme número, horário e disponibilidade direto com a companhia antes de comprar.') + '</div>';
                 }
+            }
+            // Link de busca (não de compra): origem, destino e data já preenchidos num
+            // agregador, para o viajante conferir o que está voando de fato agora.
+            const linkBusca = U.linkBuscaVoo(v.buscaOrigem, v.buscaDestino, v.data);
+            if (linkBusca) {
+                h += '<div class="flight-item flight-item-full"><span class="small">Conferir voos vigentes</span><strong>' +
+                    '<a href="' + linkBusca + '" target="_blank" rel="noopener">🔎 Buscar ' + U.esc(v.buscaOrigem) + ' → ' + U.esc(v.buscaDestino) +
+                    ' em ' + U.dataBR(v.data) + '</a></strong></div>';
             }
             h += '</div><p class="source-note">' + U.esc(v.obs) + '</p></div>';
         });
@@ -3682,14 +3710,19 @@ const Render = {
                 const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
                 const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
                 h += ' · Rota pesquisada: ' + U.esc(companhias) + (duracao ? ' (~' + U.dur(duracao) + ')' : '');
-                const comObs = cd.pernas.filter(p => p.obs);
-                if (comObs.length) {
-                    const consultas = Array.from(new Set(comObs.map(p => p.consultadoEm).filter(Boolean)))
+                const comRef = cd.pernas.filter(p => p.vooReferencia);
+                if (comRef.length) {
+                    const consultas = Array.from(new Set(comRef.map(p => p.consultadoEm).filter(Boolean)))
                         .map(iso => iso.split('-').reverse().join('/'));
                     h += '<br><span style="font-size:12px;color:var(--muted);">Referência pesquisada' +
                         (consultas.length ? ' (consultado em ' + U.esc(consultas.join(', ')) + ')' : '') + ': ' +
-                        U.esc(comObs.map(p => p.obs).join(' ')) + '</span>';
+                        U.esc(comRef.map(p => p.vooReferencia).join(' ')) + '</span>';
                 }
+            }
+            const linkBuscaResumo = U.linkBuscaVoo(v.buscaOrigem, v.buscaDestino, v.data);
+            if (linkBuscaResumo) {
+                h += '<br><span style="font-size:12px;color:var(--muted);">Conferir voos vigentes: <a href="' + linkBuscaResumo + '" target="_blank" rel="noopener">' +
+                    U.esc(v.buscaOrigem) + ' → ' + U.esc(v.buscaDestino) + ' em ' + U.dataBR(v.data) + '</a></span>';
             }
             h += '</p>';
         });
