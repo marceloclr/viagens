@@ -472,8 +472,25 @@
         .flight-item:hover { transform: translateY(-3px); border-color: var(--accent); z-index: 5; }
         .flight-item .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
         .flight-item strong { display:block; color:var(--ink-strong); margin-top:4px; font-size:14px; }
-        .flight-item-full { grid-column: 1 / -1; }
-        .flight-item-full strong { font-weight:400; font-size:13px; line-height:1.5; }
+        .flight-note { margin-top:12px; padding:10px 13px; border:1px solid var(--border); border-radius:8px; background:color-mix(in srgb, var(--bg-alt) 75%, transparent); }
+        .flight-note .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
+        .flight-note p { margin:4px 0 0; font-size:13px; line-height:1.5; color:var(--ink-strong); }
+        /* Card de referência: fundo próprio (mesma linguagem de cor dos callout-atencao) pra
+           se destacar do grid de cards curtos acima — é o dado mais concreto desta seção. */
+        .flight-ref-card { margin-top:12px; padding:12px 15px; border-radius:9px; border-left:4px solid var(--accent2); background:color-mix(in srgb, var(--accent2) 12%, transparent); }
+        .flight-ref-head { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:6px; }
+        .flight-ref-head .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
+        .voo-ref-intro { margin:0 0 8px; font-size:13px; line-height:1.5; color:var(--ink-strong); }
+        .voo-ref-texto { margin:0; font-size:13px; line-height:1.5; color:var(--ink-strong); }
+        .voo-ref-tabela { width:100%; border-collapse:collapse; margin:4px 0 8px; }
+        .voo-ref-tabela:last-child { margin-bottom:0; }
+        .voo-ref-tabela th, .voo-ref-tabela td { text-align:left; padding:5px 10px 5px 0; font-size:13px; line-height:1.45; vertical-align:top; border-top:1px solid color-mix(in srgb, var(--accent2) 25%, transparent); }
+        .voo-ref-tabela tr:first-child th, .voo-ref-tabela tr:first-child td { border-top:0; }
+        .voo-ref-tabela th { width:72px; white-space:nowrap; color:var(--accent2); font-weight:700; }
+        .voo-ref-tabela td { color:var(--ink-strong); }
+        .flight-busca-link { margin-top:10px; font-size:13px; }
+        .flight-busca-link a { color:var(--accent); font-weight:600; text-decoration:none; }
+        .flight-busca-link a:hover { text-decoration:underline; }
         .source-note { font-size:11px; color:var(--muted); line-height:1.45; margin-top:10px; }
         .cost-total { font-size:22px; font-weight:800; color:var(--accent); }
         .food-card {
@@ -1706,6 +1723,33 @@ const U = {
         if (!origemIATA || !destinoIATA) return null;
         const q = 'Flights from ' + origemIATA + ' to ' + destinoIATA + (dataISO ? ' on ' + dataISO : '');
         return 'https://www.google.com/travel/flights?q=' + encodeURIComponent(q);
+    },
+    /* vooReferencia é texto corrido (curadoria manual, formato livre demais para um
+       schema fixo — cada rota tem um número diferente de companhias/pernas). Em vez de
+       forçar um schema, reconhece os marcadores "Ida"/"Volta" que a própria curadoria
+       usa como início de frase e tabula em torno deles. O lookbehind exige pontuação
+       (".;:—-") ou início de string logo antes do marcador — é o que distingue um
+       "Ida:"/"Volta:" real de dentro de uma frase como "chegou por volta das 22h",
+       onde "volta" não é marcador nenhum. Sem nenhum marcador reconhecido, cai para
+       parágrafo simples — nunca quebra o texto, só deixa de tabular. */
+    tabelaVooReferencia(texto) {
+        const re = /(?<=^|[.;:—-]\s?)([Ii]da|[Vv]olta)\b\s*(?:\(([^)]{1,60})\))?:?\s*/g;
+        const matches = [...texto.matchAll(re)];
+        if (!matches.length) return '<p class="voo-ref-texto">' + U.esc(texto) + '</p>';
+        let h = '';
+        const intro = texto.slice(0, matches[0].index).trim();
+        if (intro) h += '<p class="voo-ref-intro">' + U.esc(intro) + '</p>';
+        h += '<table class="voo-ref-tabela"><tbody>';
+        matches.forEach((m, i) => {
+            const label = m[1][0].toUpperCase() + m[1].slice(1).toLowerCase() + (m[2] ? ' (' + m[2] + ')' : '');
+            const start = m.index + m[0].length;
+            const end = i + 1 < matches.length ? matches[i + 1].index : texto.length;
+            const detalhe = texto.slice(start, end).trim().replace(/^[,;]\s*/, '');
+            if (!detalhe) return;
+            h += '<tr><th>' + U.esc(label) + '</th><td>' + U.esc(detalhe) + '</td></tr>';
+        });
+        h += '</tbody></table>';
+        return h;
     },
     dataExtenso(iso) {
         const dias = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'];
@@ -3311,6 +3355,11 @@ const Render = {
     voos(r) {
         let h = '<p class="lede">Sem provedor aberto de tarifas aéreas, o sistema apresenta a rota sugerida e deixa explicitamente em branco o que não pode confirmar. Informe abaixo o voo efetivamente emitido para que ele seja incorporado como dado confirmado.</p>';
         r.voos.forEach(v => {
+            // Os cards curtos (origem, destino, voo informado, rota pesquisada, duração,
+            // frequência) ficam juntos no grid — todos cabem numa linha de cards. O que é
+            // texto corrido (nota da rota, referência de voo, link de busca) sai do grid e
+            // vem depois, cada um no seu próprio bloco de largura cheia — misturar os dois
+            // no mesmo grid é o que fazia o card de referência sumir no meio da grade.
             h += '<div class="flight-box"><h3>' + U.esc(v.sentido) + ' — ' + U.dataExtenso(v.data) + '</h3><div class="flight-grid">';
             h += '<div class="flight-item"><span class="small">Origem</span><strong>' + U.esc(v.origem) + '</strong></div>';
             h += '<div class="flight-item"><span class="small">Destino</span><strong>' + U.esc(v.destino) + (v.codigo ? ' (' + v.codigo + ')' : '') + '</strong></div>';
@@ -3326,48 +3375,51 @@ const Render = {
             } else {
                 h += '<div class="flight-item"><span class="small">Número e horário</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Fica disponível quando você informa o voo já emitido', null) + '</div>';
             }
+            let companhias = null, fontes = null, comNota = [], comRef = [];
             if (v.cadastro) {
                 const cd = v.cadastro;
-                const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
+                companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
                 const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
-                const fontes = cd.pernas.map(p => p.fonte).filter(Boolean).join(' · ');
+                fontes = cd.pernas.map(p => p.fonte).filter(Boolean).join(' · ');
                 h += '<div class="flight-item"><span class="small">' + (cd.tipo === 'direto' ? 'Rota direta pesquisada' : 'Conexão usual via ' + U.esc(cd.hub)) +
                     '</span><strong>' + U.esc(companhias) + '</strong>' +
                     R.selo('CADASTRADO', fontes, null, 'Rota pesquisada em fonte aberta — não é o horário nem o número do seu voo específico. A malha aérea muda por temporada; confirme na companhia antes de comprar.') + '</div>';
                 if (duracao) h += '<div class="flight-item"><span class="small">Duração estimada de voo</span><strong>~' + U.dur(duracao) + '</strong></div>';
                 const freqs = cd.pernas.map(p => p.frequencia).filter(Boolean);
                 if (freqs.length) h += '<div class="flight-item"><span class="small">Frequência pesquisada</span><strong>' + U.esc(freqs.join(' + ')) + '</strong></div>';
-                // Nota geral da rota (aeroporto de chegada, equipamento etc.) — não é horário
-                // nem número de voo, por isso fica num rótulo à parte do bloco abaixo.
-                const comNota = cd.pernas.filter(p => p.obs);
-                if (comNota.length) {
-                    h += '<div class="flight-item flight-item-full"><span class="small">Nota da rota pesquisada</span><strong>' +
-                        U.esc(comNota.map(p => p.obs).join(' ')) + '</strong></div>';
-                }
-                // Número de voo e horário de referência: só existe quando a pesquisa achou um
-                // voo específico (§ vooReferencia de cada perna em dados/voos.json) — nunca é
-                // o mesmo texto da nota geral acima, para não fingir que uma nota de aeroporto
-                // é um horário. A data da consulta vai destacada porque malha e horário mudam
-                // por temporada; isto é referência, não o voo do bilhete do viajante.
-                const comRef = cd.pernas.filter(p => p.vooReferencia);
-                if (comRef.length) {
-                    const consultas = Array.from(new Set(comRef.map(p => p.consultadoEm).filter(Boolean)))
-                        .map(iso => iso.split('-').reverse().join('/'));
-                    h += '<div class="flight-item flight-item-full"><span class="small">Voo e horário de referência pesquisados' +
-                        (consultas.length ? ' — consultado em ' + U.esc(consultas.join(', ')) : '') + '</span><strong>' +
-                        U.esc(comRef.map(p => p.vooReferencia).join(' ')) + '</strong>' +
-                        R.selo('CADASTRADO', fontes, null, 'Exemplo de horário pesquisado em fonte aberta — não é o voo do seu bilhete. Confirme número, horário e disponibilidade direto com a companhia antes de comprar.') + '</div>';
-                }
+                comNota = cd.pernas.filter(p => p.obs);
+                comRef = cd.pernas.filter(p => p.vooReferencia);
+            }
+            h += '</div>'; // fecha .flight-grid — só cards curtos entram aqui
+
+            // Nota geral da rota (aeroporto de chegada, equipamento etc.) — não é horário
+            // nem número de voo, por isso fica separada do bloco de referência abaixo.
+            if (comNota.length) {
+                h += '<div class="flight-note"><span class="small">Nota da rota pesquisada</span><p>' +
+                    U.esc(comNota.map(p => p.obs).join(' ')) + '</p></div>';
+            }
+            // Número de voo e horário de referência: só existe quando a pesquisa achou um
+            // voo específico (§ vooReferencia de cada perna em dados/voos.json) — nunca é
+            // o mesmo texto da nota geral acima, para não fingir que uma nota de aeroporto
+            // é um horário. Card com fundo destacado porque é o dado mais concreto desta
+            // seção; texto corrido vira tabela Ida/Volta (R.tabelaVooReferencia) em vez de
+            // um parágrafo só, para ficar legível de relance.
+            if (comRef.length) {
+                const consultas = Array.from(new Set(comRef.map(p => p.consultadoEm).filter(Boolean)))
+                    .map(iso => iso.split('-').reverse().join('/'));
+                h += '<div class="flight-ref-card"><div class="flight-ref-head"><span class="small">Voo e horário de referência pesquisados' +
+                    (consultas.length ? ' — consultado em ' + U.esc(consultas.join(', ')) : '') + '</span>' +
+                    R.selo('CADASTRADO', fontes, null, 'Exemplo de horário pesquisado em fonte aberta — não é o voo do seu bilhete. Confirme número, horário e disponibilidade direto com a companhia antes de comprar.') + '</div>' +
+                    comRef.map(p => U.tabelaVooReferencia(p.vooReferencia)).join('') + '</div>';
             }
             // Link de busca (não de compra): origem, destino e data já preenchidos num
             // agregador, para o viajante conferir o que está voando de fato agora.
             const linkBusca = U.linkBuscaVoo(v.buscaOrigem, v.buscaDestino, v.data);
             if (linkBusca) {
-                h += '<div class="flight-item flight-item-full"><span class="small">Conferir voos vigentes</span><strong>' +
-                    '<a href="' + linkBusca + '" target="_blank" rel="noopener">🔎 Buscar ' + U.esc(v.buscaOrigem) + ' → ' + U.esc(v.buscaDestino) +
-                    ' em ' + U.dataBR(v.data) + '</a></strong></div>';
+                h += '<p class="flight-busca-link"><a href="' + linkBusca + '" target="_blank" rel="noopener">🔎 Buscar ' + U.esc(v.buscaOrigem) + ' → ' + U.esc(v.buscaDestino) +
+                    ' em ' + U.dataBR(v.data) + ' no Google Flights</a></p>';
             }
-            h += '</div><p class="source-note">' + U.esc(v.obs) + '</p></div>';
+            h += '<p class="source-note">' + U.esc(v.obs) + '</p></div>';
         });
         h += '<div class="callout callout-nota"><strong>Rota aérea sugerida, não itinerário emitido.</strong> ' + U.esc(Providers.FlightProvider.motivo) + '</div>';
         h += R.trechosEntreCidades(r);
