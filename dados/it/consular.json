@@ -48,10 +48,10 @@
       "consultadoEm": null
     },
     "emailGeral": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "brasemb.roma@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — planilha oficial de contatos dos postos no exterior (media/2-dados-de-contato-e-localizao-dos-postos-no-exterior.csv), convergente com busca sobre a página da Embaixada",
+      "consultadoEm": "2026-09-04"
     },
     "emailConsular": {
       "valor": null,
@@ -131,10 +131,10 @@
       "consultadoEm": null
     },
     "whatsappPlantao": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "+39 333 118 4682",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Roma, página de emergência consular (busca): mesmo número de telefone de plantão, também atende por WhatsApp",
+      "consultadoEm": "2026-09-04"
     },
     "emailGeral": {
       "valor": "consulado.cgroma@itamaraty.gov.br",
@@ -143,10 +143,10 @@
       "consultadoEm": "2026-08-27"
     },
     "emailConsular": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "assistencia.cgroma@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Roma, página Fale Conosco (e-mail para assistência a cidadãos brasileiros)",
+      "consultadoEm": "2026-09-04"
     },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 8h30 às 12h30",

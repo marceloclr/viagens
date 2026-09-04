@@ -137,10 +137,10 @@
       "consultadoEm": null
     },
     "emailGeral": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "cg.lisboa@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Lisboa, página Fale Conosco",
+      "consultadoEm": "2026-09-04"
     },
     "emailConsular": {
       "valor": null,
