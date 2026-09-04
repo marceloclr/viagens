@@ -101,7 +101,13 @@
       "consultadoEm": "2026-08-28"
     },
     "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
-    "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.", "consultadoEm": null },
+    "telefonePlantao": {
+      "valor": "+1 (404) 561-8354",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Atlanta, Emergências",
+      "consultadoEm": "2026-09-04",
+      "nota": "Uso restrito a emergências comprovadas (óbito, prisão, repatriação e casos similares), inclusive fora do expediente, fins de semana e feriados. O plantonista não presta informação sobre agendamentos ou serviços de rotina (passaportes, vistos, autorização de viagem de menores)."
+    },
     "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
@@ -111,7 +117,12 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
       "consultadoEm": "2026-08-28"
     },
-    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "emailConsular": {
+      "valor": "assistencia.atlanta@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Atlanta, Assistência a Brasileiros",
+      "consultadoEm": "2026-09-04"
+    },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 8h às 12h e das 13h às 16h",
       "tipo": "CADASTRADO",
@@ -166,7 +177,12 @@
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Informações gerais",
       "consultadoEm": "2026-08-28"
     },
-    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "emailConsular": {
+      "valor": "assistencia.boston@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Assistência a Brasileiros",
+      "consultadoEm": "2026-09-04"
+    },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira (exceto feriados), das 8h30 às 12h30, exclusivamente com agendamento prévio",
       "tipo": "CADASTRADO",
@@ -210,7 +226,13 @@
       "consultadoEm": "2026-08-28"
     },
     "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
-    "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.", "consultadoEm": null },
+    "telefonePlantao": {
+      "valor": "+1 (312) 213-0293",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Chicago, Emergências",
+      "consultadoEm": "2026-09-04",
+      "nota": "Uso exclusivo para casos de emergência comprovada (prisão, óbito, acidente grave, doença grave, desaparecimento, inadmissão migratória, emergência humanitária e catástrofe). O plantonista não presta informação sobre serviços consulares de rotina."
+    },
     "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
@@ -220,7 +242,12 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
       "consultadoEm": "2026-08-28"
     },
-    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "emailConsular": {
+      "valor": "assistencia.chicago@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Chicago, Assistência a Brasileiros",
+      "consultadoEm": "2026-09-04"
+    },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 9h às 13h",
       "tipo": "CADASTRADO",
@@ -259,10 +286,22 @@
       "consultadoEm": "2026-08-28"
     },
     "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
-    "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.", "consultadoEm": null },
+    "telefonePlantao": {
+      "valor": "+1 (959) 599-7952",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Hartford, Emergências",
+      "consultadoEm": "2026-09-04",
+      "nota": "Celular de plantão para emergências consulares comprovadas (óbito, prisão, acidente grave, violência doméstica, deportação) envolvendo brasileiros em Connecticut ou Rhode Island."
+    },
     "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "whatsappPlantao": {
+      "valor": "+1 (959) 599-7952",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Hartford, Emergências (mesmo número do plantão telefônico, também disponível via WhatsApp)",
+      "consultadoEm": "2026-09-04",
+      "nota": "Uso restrito a emergências consulares comprovadas."
+    },
     "emailGeral": {
       "valor": "cghartford@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -282,7 +321,7 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-hartford",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "Jurisdição inclui Rhode Island (Providence), cidade cadastrada nesta base como nó logístico da rota Nova York–Boston. Telefone de plantão não localizado nesta pesquisa — confirme no sítio oficial."
+    "observacoes": "Jurisdição inclui Rhode Island (Providence), cidade cadastrada nesta base como nó logístico da rota Nova York–Boston. O telefone/WhatsApp de plantão é de uso exclusivo para emergências consulares comprovadas, não para trâmites de rotina — confirme dados no sítio oficial antes de qualquer deslocamento."
   },
   {
     "id": "br_cg_houston",
@@ -374,7 +413,12 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (e-mails setoriais também existem, ex.: passaporte.la@itamaraty.gov.br, visa.la@itamaraty.gov.br)",
       "consultadoEm": "2026-08-28"
     },
-    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "emailConsular": {
+      "valor": "sab.la@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, Endereço e Contatos (e-mail do Setor de Assistência a Brasileiros)",
+      "consultadoEm": "2026-09-04"
+    },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 9h às 17h (exceto feriados) — atendimento presencial só com agendamento prévio",
       "tipo": "CADASTRADO",
@@ -539,7 +583,13 @@
     "telefoneGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.", "consultadoEm": null },
     "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Plantão de emergência divulgado apenas por WhatsApp — ver whatsappPlantao.", "consultadoEm": null },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "whatsappGeral": {
+      "valor": "+1 (407) 675-0604",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando, Informações Gerais",
+      "consultadoEm": "2026-09-04",
+      "nota": "Atendimento geral apenas por mensagens escritas (não há linha de voz geral divulgada)."
+    },
     "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappPlantao": {
       "valor": "+1 (321) 387-9716",
@@ -560,7 +610,12 @@
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando, Setor de Assistência a Brasileiros",
       "consultadoEm": "2026-08-28"
     },
-    "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não confirmado em fonte oficial nesta consulta.", "consultadoEm": null },
+    "horarioAtendimento": {
+      "valor": "Segunda a sexta-feira, das 9h30 às 13h (exceto feriados)",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando, Informações Gerais",
+      "consultadoEm": "2026-09-04"
+    },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-orlando.itamaraty.gov.br).", "consultadoEm": null },
     "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "jurisdicao": {
@@ -593,7 +648,13 @@
       "consultadoEm": "2026-08-28"
     },
     "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
-    "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.", "consultadoEm": null },
+    "telefonePlantao": {
+      "valor": "+1 (415) 596-6926",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco, Plantão e Urgências",
+      "consultadoEm": "2026-09-04",
+      "nota": "Uso restrito a emergências comprovadas (acidentes graves, óbitos, incêndios, prisão/detenção e casos similares); dúvidas sobre passaporte, visto e demais assuntos de rotina não são atendidas por este número."
+    },
     "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
@@ -621,6 +682,6 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-sao-francisco",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "A divisão exata de condados californianos entre San Francisco e Los Angeles não foi detalhada nesta pesquisa — confirme no sítio oficial para casos de fronteira de jurisdição."
+    "observacoes": "A divisão exata de condados californianos entre San Francisco e Los Angeles não foi detalhada nesta pesquisa — confirme no sítio oficial para casos de fronteira de jurisdição. O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
   }
 ]
