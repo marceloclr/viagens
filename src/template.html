@@ -3140,6 +3140,16 @@ const R = {
         const v = formatador ? formatador(d.valor) : U.esc(d.valor);
         return v + R.selo(d.tipo, d.fonte, d.consultadoEm, d.nota ? U.esc(d.nota) : null);
     },
+    /* Linha de <li> que só existe quando o dado tem valor confirmado — usada onde a
+       ausência deve ser omitida em vez de anunciada como "Informação não disponível"
+       (módulo consular, §36–47: menos ruído por posto quando um canal simplesmente não
+       é publicado, em vez de listar cada campo vazio da repartição). */
+    linhaSeHouver(rotulo, d, formatador) {
+        if (!d || d.tipo === 'INDISPONIVEL' || d.valor == null) return '';
+        const v = formatador ? formatador(d.valor) : U.esc(d.valor);
+        return '<li><span>' + rotulo + '</span><span>' + v +
+            R.selo(d.tipo, d.fonte, d.consultadoEm, d.nota ? U.esc(d.nota) : null) + '</span></li>';
+    },
     maps(nome, endereco) {
         if (!endereco) return '';
         return '<a class="map-link" target="_blank" rel="noopener" href="' + U.esc(U.mapsUrl(nome, endereco)) + '">Google Maps ↗</a>';
@@ -3676,22 +3686,28 @@ const Render = {
                 h += '<div class="consul-head"><span class="consul-nome">🇧🇷 ' + U.esc(rep.nomeOficial) + '</span><span class="consul-tipo">' + U.esc(tipoRot) + '</span></div>';
                 h += '<ul class="consul-linhas">';
                 h += '<li><span>Cidade</span><span>' + U.esc(rep.cidade) + '</span></li>';
-                h += '<li><span>Endereço</span><span>' + R.valorOuNada(rep.endereco) + '</span></li>';
-                h += '<li><span>Telefone geral</span><span>' + R.valorOuNada(rep.telefoneGeral) + '</span></li>';
-                h += '<li><span>Telefone consular</span><span>' + R.valorOuNada(rep.telefoneConsular) + '</span></li>';
-                h += '<li><span>WhatsApp</span><span>' + R.valorOuNada(rep.whatsappConsular) + '</span></li>';
-                h += '<li><span>Atendimento geral</span><span>' + R.valorOuNada(rep.horarioAtendimento) + '</span></li>';
-                h += '<li><span>Atendimento consular</span><span>' + R.valorOuNada(rep.horarioConsular) + '</span></li>';
-                h += '<li><span>Jurisdição consular</span><span>' + R.valorOuNada(rep.jurisdicao) + '</span></li>';
+                h += R.linhaSeHouver('Endereço', rep.endereco);
+                h += R.linhaSeHouver('Telefone geral', rep.telefoneGeral);
+                h += R.linhaSeHouver('Telefone consular', rep.telefoneConsular);
+                h += R.linhaSeHouver('WhatsApp', rep.whatsappConsular);
+                h += R.linhaSeHouver('Atendimento geral', rep.horarioAtendimento);
+                h += R.linhaSeHouver('Atendimento consular', rep.horarioConsular);
+                h += R.linhaSeHouver('Jurisdição consular', rep.jurisdicao);
                 h += '<li><span>Sítio oficial</span><span><a class="map-link" target="_blank" rel="noopener" href="' + U.esc(rep.siteOficial) + '">abrir ↗</a></span></li>';
                 if (rep.endereco && rep.endereco.valor) h += '<li><span>Localização</span><span>' + R.maps(rep.nomeOficial, rep.endereco.valor) + '</span></li>';
                 h += '</ul>';
                 if (rep.observacoes) h += '<p class="source-note">' + U.esc(rep.observacoes) + '</p>';
-                h += '<div class="plantao"><h4>🚨 EMERGÊNCIA CONSULAR</h4>' +
-                    '<p><strong>Plantão consular — uso exclusivo para emergências.</strong> O Ministério das Relações Exteriores considera emergência, entre outras hipóteses, risco à vida, acidentes graves, prisões e detenções, desaparecimentos, violência, hospitalização e tráfico de pessoas. Problemas correntes de documentação não são emergência.</p>' +
-                    '<p>Telefone de plantão: ' + R.valorOuNada(rep.telefonePlantao) + '</p>' +
-                    '<p>WhatsApp de plantão: ' + R.valorOuNada(rep.whatsappPlantao) + '</p>' +
-                    '<p class="source-note">O sistema jamais apresenta um telefone de plantão como telefone geral do posto, e só exibe WhatsApp quando a fonte oficial indicar expressamente essa funcionalidade.</p></div>';
+                const temPlantao = (rep.telefonePlantao && rep.telefonePlantao.valor != null) || (rep.whatsappPlantao && rep.whatsappPlantao.valor != null);
+                if (temPlantao) {
+                    h += '<div class="plantao"><h4>🚨 EMERGÊNCIA CONSULAR</h4>' +
+                        '<p><strong>Plantão consular — uso exclusivo para emergências.</strong> O Ministério das Relações Exteriores considera emergência, entre outras hipóteses, risco à vida, acidentes graves, prisões e detenções, desaparecimentos, violência, hospitalização e tráfico de pessoas. Problemas correntes de documentação não são emergência.</p>' +
+                        (rep.telefonePlantao && rep.telefonePlantao.valor != null ? '<p>Telefone de plantão: ' + R.valorOuNada(rep.telefonePlantao) + '</p>' : '') +
+                        (rep.whatsappPlantao && rep.whatsappPlantao.valor != null ? '<p>WhatsApp de plantão: ' + R.valorOuNada(rep.whatsappPlantao) + '</p>' : '') +
+                        '<p class="source-note">O sistema jamais apresenta um telefone de plantão como telefone geral do posto, e só exibe WhatsApp quando a fonte oficial indicar expressamente essa funcionalidade.</p></div>';
+                } else {
+                    h += '<div class="plantao"><h4>🚨 EMERGÊNCIA CONSULAR</h4>' +
+                        '<p class="indisponivel">Nenhum contato de plantão confirmado para este posto — em caso de emergência, use o sítio oficial ao lado ou o Portal Consular do MRE.</p></div>';
+                }
                 h += '<p class="source-note">' + R.selo(rep.consultadoEm ? 'EXTERNO' : 'INDISPONIVEL', rep.fonte, rep.consultadoEm) +
                     ' ⚠️ Informação consular pode estar desatualizada. Telefones, endereços e horários mudam sem aviso — verifique no sítio oficial antes de qualquer deslocamento.</p>';
                 h += '</div>';
