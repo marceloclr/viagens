@@ -3822,9 +3822,12 @@ const Render = {
         r.representacoes.forEach(p => {
             if (p.semRegistro) return;
             p.representacoes.forEach(rep => {
+                const linhas = [];
+                if (rep.endereco && rep.endereco.valor != null) linhas.push('Endereço: ' + R.valorOuNada(rep.endereco));
+                if (rep.telefonePlantao && rep.telefonePlantao.valor != null) linhas.push('Plantão: ' + R.valorOuNada(rep.telefonePlantao));
+                if (rep.whatsappPlantao && rep.whatsappPlantao.valor != null) linhas.push('WhatsApp: ' + R.valorOuNada(rep.whatsappPlantao));
                 h += '<p><strong>' + U.esc(rep.nomeOficial) + '</strong> — ' + U.esc(rep.cidade) + '<br>' +
-                    'Endereço: ' + R.valorOuNada(rep.endereco) + '<br>' +
-                    'Plantão: ' + R.valorOuNada(rep.telefonePlantao) + ' · WhatsApp: ' + R.valorOuNada(rep.whatsappPlantao) + '</p>';
+                    (linhas.length ? linhas.join('<br>') : '<span class="indisponivel">Nenhum contato confirmado — consulte o sítio oficial.</span>') + '</p>';
             });
         });
 
