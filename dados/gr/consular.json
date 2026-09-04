@@ -23,7 +23,12 @@
       "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, setor consular",
       "consultadoEm": "2026-08-27"
     },
-    "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "telefonePlantao": {
+      "valor": "+30 693 692 1673",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, Setor Consular (plantão exclusivo para emergências envolvendo brasileiros)",
+      "consultadoEm": "2026-09-04"
+    },
     "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
@@ -40,7 +45,12 @@
       "consultadoEm": "2026-08-27"
     },
     "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
-    "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
+    "horarioConsular": {
+      "valor": "Segunda, terça, quinta e sexta-feira, das 10h às 14h (quarta-feira é reservada a expediente interno)",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, Setor Consular",
+      "consultadoEm": "2026-09-04"
+    },
     "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": null, "consultadoEm": null },
     "jurisdicao": {
       "valor": "Toda a Grécia — único posto brasileiro no país; a Embaixada acumula a função de setor consular.",

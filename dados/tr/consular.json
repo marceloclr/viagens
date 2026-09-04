@@ -43,10 +43,10 @@
       "consultadoEm": null
     },
     "whatsappPlantao": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "+90 533 424 04 29",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Ancara, telefone de plantão consular (disponível também via WhatsApp, exclusivo para emergências envolvendo brasileiros)",
+      "consultadoEm": "2026-09-04"
     },
     "emailGeral": {
       "valor": "brasemb.ancara@itamaraty.gov.br",
@@ -114,10 +114,10 @@
       "consultadoEm": null
     },
     "telefonePlantao": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "+90 554 834 59 52",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Istambul, plantão consular 24h (exclusivo para emergências envolvendo brasileiros)",
+      "consultadoEm": "2026-09-04"
     },
     "whatsappGeral": {
       "valor": null,
@@ -132,10 +132,10 @@
       "consultadoEm": null
     },
     "whatsappPlantao": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "+90 554 834 59 52",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Istambul, plantão consular 24h (disponível também via WhatsApp fora do horário comercial)",
+      "consultadoEm": "2026-09-04"
     },
     "emailGeral": {
       "valor": null,
@@ -144,10 +144,10 @@
       "consultadoEm": null
     },
     "emailConsular": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "consular.istambul@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Istambul, página de contatos (assistência a brasileiros: orientação à comunidade, passaportes, registro civil, atos notariais)",
+      "consultadoEm": "2026-09-04"
     },
     "horarioAtendimento": {
       "valor": "Atendimento ao público somente com agendamento prévio, de segunda a sexta-feira, via Sistema e-Consular",
@@ -176,6 +176,6 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-istambul",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-26",
-    "observacoes": "Todos os serviços consulares exigem agendamento prévio pelo Sistema e-Consular (ec-istambul.itamaraty.gov.br). E-mail de contato não foi confirmado numa página oficial durante a pesquisa; blogs de terceiros citam cg.istambul@itamaraty.gov.br, mas isso não foi verificado na fonte primária, por isso foi deixado como INDISPONIVEL."
+    "observacoes": "Todos os serviços consulares exigem agendamento prévio pelo Sistema e-Consular (ec-istambul.itamaraty.gov.br). E-mail geral não foi confirmado numa página oficial durante a pesquisa; blogs de terceiros citam cg.istambul@itamaraty.gov.br, mas isso não foi verificado na fonte primária, por isso foi deixado como INDISPONIVEL (o e-mail consular.istambul@itamaraty.gov.br, esse sim confirmado, é destinado à assistência a brasileiros). O contato de plantão (+90 554 834 59 52, também por WhatsApp) é de uso exclusivo para emergências envolvendo brasileiros (acidente, óbito, prisão, hospitalização, desastre natural), não para trâmites consulares de rotina."
   }
 ]

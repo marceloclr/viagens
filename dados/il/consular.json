@@ -60,10 +60,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horarioAtendimento": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Segunda a sexta-feira, das 9h às 15h",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Embaixada do Brasil em Tel Aviv, horário de atendimento ao público",
+      "consultadoEm": "2026-09-04"
     },
     "horarioConsular": {
       "valor": null,

@@ -250,10 +250,10 @@
       "consultadoEm": null
     },
     "horarioTelefonico": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Segunda a sexta-feira, das 11h às 13h",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Zurique, horário de atendimento telefônico (linha geral +41 44 206 9020)",
+      "consultadoEm": "2026-09-04"
     },
     "jurisdicao": {
       "valor": "Cantões suíços de expressão alemã e italiana — Argóvia, Appenzell Exterior, Appenzell Interior, Basileia-Cidade, Basileia-Campo, Berna, Glarus, Grisões, Lucerna, Nidwalden, Obwalden, Sankt Gallen, Schaffhausen, Schwyz, Solothurn, Turgóvia, Ticino, Uri, Zurique e Zug — além do Principado de Liechtenstein.",
