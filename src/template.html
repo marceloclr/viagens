@@ -1671,7 +1671,7 @@ const naoDisponivel = (motivo) => dado(null, 'INDISPONIVEL', motivo || null, nul
    país(es) da rota, antes de calcular qualquer custo (§ ingressos/custos leem este estado
    ao formatar). Rota com mais de um país e moedas diferentes mantém EUR: o motor ainda não
    soma nem converte valores de moedas distintas dentro do mesmo roteiro. */
-let MOEDA_ATUAL = { codigo: 'EUR', simbolo: CONFIG.simbolosMoeda.EUR };
+let MOEDA_ATUAL = { codigo: 'EUR', simbolo: CONFIG.simbolosMoeda.EUR, fator: 1 };
 
 /* =====================================================================================
    [3] UTILITÁRIOS
@@ -1763,8 +1763,16 @@ const U = {
     diaSemana(iso) { return new Date(iso + 'T12:00:00').getDay(); },
     addDias(iso, n) { const d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + n); return U.dataISO(d); },
     diffDias(a, b) { return Math.round((new Date(b + 'T12:00:00') - new Date(a + 'T12:00:00')) / 86400000); },
-    eur(v) { return MOEDA_ATUAL.simbolo + Number(v).toLocaleString('pt-BR', { maximumFractionDigits: 0 }); },
-    faixaEur(a, b) { return MOEDA_ATUAL.simbolo + Math.round(a).toLocaleString('pt-BR') + '–' + Math.round(b).toLocaleString('pt-BR'); },
+    // O valor recebido está sempre na moeda NATIVA do destino (é como a base curada
+    // guarda cada preço — ver comentário de definirMoedaRoteiro). O fator converte para
+    // a moeda de EXIBIÇÃO (sempre real/euro/dólar) no momento de formatar, nunca antes —
+    // assim nenhum cálculo intermediário (ingressos, custos, faixas por classe) precisa
+    // saber que uma conversão está acontecendo.
+    eur(v) { return MOEDA_ATUAL.simbolo + Number(v * (MOEDA_ATUAL.fator || 1)).toLocaleString('pt-BR', { maximumFractionDigits: 0 }); },
+    faixaEur(a, b) {
+        const f = MOEDA_ATUAL.fator || 1;
+        return MOEDA_ATUAL.simbolo + Math.round(a * f).toLocaleString('pt-BR') + '–' + Math.round(b * f).toLocaleString('pt-BR');
+    },
     id() { return 'r_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7); },
     clamp(v, a, b) { return Math.max(a, Math.min(b, v)); },
     somaFaixa(f) { return (f[0] + f[1]) / 2; },
@@ -3014,6 +3022,45 @@ function campoParaErroConfig(msg) {
     return null;
 }
 
+/* Moeda em que o roteiro é exibido — nunca a moeda nativa do país sozinha, sempre uma
+   das três que o viajante brasileiro reconhece de cabeça (real, euro, dólar). A base
+   curada guarda cada preço na moeda do próprio destino (ILS em Israel, CHF na Suíça,
+   TRY na Turquia — ver fonte de dados/il/atracoes/*.json, "valor em NIS"): esta função só
+   decide COMO exibir, nunca recalcula o dado em si. Rota de um único país com moeda
+   cadastrada usa essa moeda nativa como ponto de partida; rota com mais de um país, ou
+   moedas diferentes entre eles, cai em EUR — como já era antes desta regra existir.
+   Nativa fora do trio BRL/EUR/USD é convertida por taxa de câmbio declarada (mesmo
+   provedor Frankfurter/BCE já usado para a equivalência em reais) — nunca reexibida com
+   o símbolo trocado. Sem taxa disponível (rede fora do ar), mantém a moeda nativa mesmo
+   assim: mostrar o valor certo na moeda "errada" de exibição é mais honesto que fingir
+   uma conversão que não aconteceu. */
+const MOEDAS_EXIBIVEIS = ['BRL', 'EUR', 'USD'];
+async function definirMoedaRoteiro(rota, roteiro) {
+    const moedasDaRota = Array.from(new Set(rota.map(c => {
+        const p = DB.paises[c.dados.paisId];
+        return p && p.moeda;
+    }).filter(Boolean)));
+    const moedaNativa = (moedasDaRota.length === 1 && CONFIG.simbolosMoeda[moedasDaRota[0]]) ? moedasDaRota[0] : 'EUR';
+    const moedaAlvo = MOEDAS_EXIBIVEIS.indexOf(moedaNativa) >= 0 ? moedaNativa : 'EUR';
+    roteiro.moedaNativa = moedaNativa;
+    roteiro.moedaAlvo = moedaAlvo;
+    roteiro.conversaoMoeda = null;
+    if (moedaNativa === moedaAlvo) {
+        MOEDA_ATUAL = { codigo: moedaAlvo, simbolo: CONFIG.simbolosMoeda[moedaAlvo], fator: 1 };
+        roteiro.moeda = moedaAlvo;
+        return;
+    }
+    try {
+        const conv = await Providers.ExchangeRateProvider.taxa(moedaNativa, moedaAlvo);
+        MOEDA_ATUAL = { codigo: moedaAlvo, simbolo: CONFIG.simbolosMoeda[moedaAlvo], fator: conv.valor };
+        roteiro.moeda = moedaAlvo;
+        roteiro.conversaoMoeda = conv;
+    } catch (e) {
+        MOEDA_ATUAL = { codigo: moedaNativa, simbolo: CONFIG.simbolosMoeda[moedaNativa], fator: 1 };
+        roteiro.moeda = moedaNativa;
+    }
+}
+
 /* =====================================================================================
    [14] ORQUESTRAÇÃO — criarRoteiro(config)
    ===================================================================================== */
@@ -3030,16 +3077,10 @@ async function criarRoteiro(cfg) {
     calcularNoites(cfg, rota, roteiro);
     roteiro.cidades = rota;
 
-    // Moeda do roteiro: só troca do padrão EUR quando toda a rota pertence a um único
-    // país com moeda cadastrada — ver comentário de MOEDA_ATUAL. Precisa ser calculada
-    // antes de calcularIngressos()/calcularCustos(), que formatam valores com U.eur().
-    const moedasDaRota = Array.from(new Set(rota.map(c => {
-        const p = DB.paises[c.dados.paisId];
-        return p && p.moeda;
-    }).filter(Boolean)));
-    const codigoMoeda = (moedasDaRota.length === 1 && CONFIG.simbolosMoeda[moedasDaRota[0]]) ? moedasDaRota[0] : 'EUR';
-    MOEDA_ATUAL = { codigo: codigoMoeda, simbolo: CONFIG.simbolosMoeda[codigoMoeda] };
-    roteiro.moeda = codigoMoeda;
+    // Moeda do roteiro — sempre real, euro ou dólar (definirMoedaRoteiro, §14). Precisa
+    // ser calculada antes de calcularIngressos()/calcularCustos(), que formatam valores
+    // com U.eur().
+    await definirMoedaRoteiro(rota, roteiro);
 
     // Deslocamentos entre cidades
     for (let i = 0; i < rota.length - 1; i++) {
@@ -3094,9 +3135,13 @@ async function criarRoteiro(cfg) {
 
     // Dados externos
     roteiro.clima = await avaliarClima(cfg, rota, roteiro);
-    try {
-        roteiro.cambio = await Providers.ExchangeRateProvider.taxa(MOEDA_ATUAL.codigo, 'BRL');
-    } catch (e) { roteiro.cambio = naoDisponivel('Serviço de câmbio indisponível no momento'); }
+    if (roteiro.moeda === 'BRL') {
+        roteiro.cambio = null; // já está em reais — não há equivalência para calcular
+    } else {
+        try {
+            roteiro.cambio = await Providers.ExchangeRateProvider.taxa(roteiro.moeda, 'BRL');
+        } catch (e) { roteiro.cambio = naoDisponivel('Serviço de câmbio indisponível no momento'); }
+    }
 
     repararRoteiro(roteiro);
     roteiro.pontuacao = calcularPontuacao(cfg, roteiro);
@@ -3104,9 +3149,11 @@ async function criarRoteiro(cfg) {
     roteiro.fontes = [
         { nome: FONTE_REF, uso: 'Endereços, tarifas oficiais registradas, hospedagens concretas e climatologia de contingência' },
         { nome: Providers.WeatherProvider.nome + ' (' + Providers.WeatherProvider.site + ')', uso: 'Previsão meteorológica e reanálise climatológica' },
-        { nome: Providers.ExchangeRateProvider.nome, uso: 'Taxa de câmbio ' + MOEDA_ATUAL.codigo + '/BRL' },
         { nome: 'Ministério das Relações Exteriores — Portal Consular', uso: 'Identificação das representações brasileiras (dados de contato não verificáveis automaticamente)' }
     ];
+    if (roteiro.moeda !== 'BRL') {
+        roteiro.fontes.splice(2, 0, { nome: Providers.ExchangeRateProvider.nome, uso: 'Taxa de câmbio ' + roteiro.moeda + '/BRL' + (roteiro.conversaoMoeda ? ', e ' + roteiro.moedaNativa + '/' + roteiro.moeda + ' para exibir os preços do destino em ' + roteiro.moeda : '') });
+    }
     roteiro.atualizadoEm = new Date().toISOString();
     return roteiro;
 }
@@ -3160,16 +3207,34 @@ const R = {
     },
     /* Toda seção com valor monetário precisa declarar em que moeda ele está — o símbolo
        sozinho na frente de cada número (ex.: "₪ 1.234", via U.eur) passa despercebido
-       para quem não reconhece o símbolo de cabeça, e o roteiro pode estar numa moeda que
-       não é a do próprio país de origem do viajante. Aparece uma vez, no topo da seção,
-       não em cada card — repetir o aviso por card seria ruído, não clareza. */
+       para quem não reconhece o símbolo de cabeça, e nem todo navegador/fonte sequer
+       desenha o símbolo do shekel ou da lira turca. Por isso o roteiro sempre exibe em
+       real, euro ou dólar (definirMoedaRoteiro, §14) — quando o destino cura preços numa
+       moeda fora desse trio, este aviso também é onde a conversão aplicada é declarada
+       com taxa e fonte, nunca escondida atrás de um número que troca de moeda em
+       silêncio. Aparece uma vez, no topo da seção, não em cada card. */
     notaMoeda(r) {
         const codigo = r.moeda || 'EUR';
         const nome = CONFIG.nomesMoeda[codigo] || codigo;
         const simbolo = (CONFIG.simbolosMoeda[codigo] || '').trim();
+        let extra;
+        if (r.moedaNativa && r.moedaAlvo && r.moedaNativa !== r.moedaAlvo) {
+            if (r.moeda === r.moedaAlvo && r.conversaoMoeda && r.conversaoMoeda.valor != null) {
+                const simboloNativo = (CONFIG.simbolosMoeda[r.moedaNativa] || '').trim();
+                const nomeNativo = CONFIG.nomesMoeda[r.moedaNativa] || r.moedaNativa;
+                extra = ' Convertido de ' + U.esc(simboloNativo) + ' — ' + U.esc(nomeNativo) + ' (' + U.esc(r.moedaNativa) +
+                    '), moeda em que o destino cura os próprios preços, pela taxa de ' +
+                    U.esc(Number(r.conversaoMoeda.valor).toFixed(4)) + ' (' + U.esc(r.moedaNativa) + '→' + U.esc(codigo) + '), consultada em ' +
+                    U.esc(r.conversaoMoeda.consultadoEm || '—') + ' — ' + U.esc(r.conversaoMoeda.fonte) + '.';
+            } else {
+                extra = ' A conversão para ' + U.esc(r.moedaAlvo) +
+                    ' está indisponível no momento (serviço de câmbio fora do ar) — os valores abaixo ficam na moeda nativa do destino em vez de arriscar uma conversão não verificada.';
+            }
+        } else {
+            extra = (codigo !== 'BRL' && r.cambio && r.cambio.valor ? ' Equivalência em reais informada onde houver total.' : '.');
+        }
         return '<p class="callout callout-nota" style="margin-top:0;">💱 Valores desta seção em <strong>' +
-            U.esc(simbolo) + ' — ' + U.esc(nome) + ' (' + U.esc(codigo) + ')</strong>' +
-            (codigo !== 'BRL' && r.cambio && r.cambio.valor ? ', com equivalência em reais informada onde houver total.' : '.') + '</p>';
+            U.esc(simbolo) + ' — ' + U.esc(nome) + ' (' + U.esc(codigo) + ')</strong>' + extra + '</p>';
     },
     maps(nome, endereco) {
         if (!endereco) return '';
@@ -3706,11 +3771,16 @@ const Render = {
                 'Soma de hospedagem, alimentação, transporte urbano, trechos entre cidades, ingressos conhecidos e extras, acrescida de <b>' +
                 Math.round(CONFIG.contingencia * 100) + '%</b> de contingência. <b>Não inclui voos internacionais.</b>') + '</div>';
         if (fx) {
+            // r.cambio converte a moeda de EXIBIÇÃO (r.moeda) para BRL — c.totalTerrestre
+            // está na moeda NATIVA do destino, então passa primeiro pelo mesmo fator de
+            // conversão que U.eur/U.faixaEur aplicam, senão a equivalência em reais sai
+            // errada por exatamente o fator nativa→exibição (ex.: ILS tratado como EUR).
+            const f = MOEDA_ATUAL.fator || 1;
             h += '<p style="font-size:12.5px;color:var(--muted);margin:6px 0 0;">Equivalente a ' +
-                'R$ ' + Math.round(c.totalTerrestre[0] * fx).toLocaleString('pt-BR') + '–' +
-                Math.round(c.totalTerrestre[1] * fx).toLocaleString('pt-BR') + ' pela taxa de ' +
-                U.esc(String(fx.toFixed ? fx.toFixed(3) : fx)) + ' ' + R.selo(r.cambio.tipo, r.cambio.fonte, r.cambio.consultadoEm) + '</p>';
-        } else {
+                'R$ ' + Math.round(c.totalTerrestre[0] * f * fx).toLocaleString('pt-BR') + '–' +
+                Math.round(c.totalTerrestre[1] * f * fx).toLocaleString('pt-BR') + ' pela taxa de ' +
+                U.esc(String(fx.toFixed ? fx.toFixed(3) : fx)) + ' (' + U.esc(r.moeda) + '→BRL) ' + R.selo(r.cambio.tipo, r.cambio.fonte, r.cambio.consultadoEm) + '</p>';
+        } else if (r.moeda !== 'BRL') {
             h += '<p class="indisponivel" style="font-size:12.5px;margin:6px 0 0;">Conversão para real indisponível no momento.</p>';
         }
         h += '</div>';
@@ -6370,6 +6440,10 @@ const Transferencia = {
             formatoVersao: p.formatoVersao, rotulo: p.rotulo || null
         };
         r.cidades = rota;
+        // Moeda reconsultada, não restaurada do arquivo — mesma regra de clima/câmbio do
+        // passo 8 abaixo: a base atual (ou a taxa de câmbio, se o destino cura preços
+        // fora de real/euro/dólar) pode ter mudado desde a exportação.
+        await definirMoedaRoteiro(rota, r);
         r.dias = JSON.parse(JSON.stringify(fonte.dias || []));
         r.avisos = (fonte.avisos || []).slice();
         r.conflitos = (fonte.conflitos || []).map(c => Object.assign({}, c));
@@ -6467,8 +6541,14 @@ const Transferencia = {
             anota('atencao', 'Clima não pôde ser reconsultado',
                 'O serviço meteorológico não respondeu durante a importação. O sistema prefere declarar a ausência a reapresentar a previsão gravada no arquivo como se fosse atual.');
         }
-        try { r.cambio = await Providers.ExchangeRateProvider.taxa('EUR', 'BRL'); }
-        catch (e) { r.cambio = naoDisponivel('Serviço de câmbio indisponível no momento'); }
+        // Moeda de exibição do roteiro (r.moeda), não 'EUR' fixo — um roteiro em dólar ou
+        // já reconvertido de outra moeda nativa precisa da taxa certa, não a europeia.
+        if (r.moeda === 'BRL') {
+            r.cambio = null;
+        } else {
+            try { r.cambio = await Providers.ExchangeRateProvider.taxa(r.moeda, 'BRL'); }
+            catch (e) { r.cambio = naoDisponivel('Serviço de câmbio indisponível no momento'); }
+        }
 
         /* 9. Recálculo integral — sem reparação automática, como na edição manual. */
         Edicao.recalcular(r, 'roteiro importado — recálculo integral, sem reparação automática');
