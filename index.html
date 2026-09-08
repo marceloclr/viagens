@@ -34990,6 +34990,19 @@ const R = {
         return '<li><span>' + rotulo + '</span><span>' + v +
             R.selo(d.tipo, d.fonte, d.consultadoEm, d.nota ? U.esc(d.nota) : null) + '</span></li>';
     },
+    /* Toda seção com valor monetário precisa declarar em que moeda ele está — o símbolo
+       sozinho na frente de cada número (ex.: "₪ 1.234", via U.eur) passa despercebido
+       para quem não reconhece o símbolo de cabeça, e o roteiro pode estar numa moeda que
+       não é a do próprio país de origem do viajante. Aparece uma vez, no topo da seção,
+       não em cada card — repetir o aviso por card seria ruído, não clareza. */
+    notaMoeda(r) {
+        const codigo = r.moeda || 'EUR';
+        const nome = CONFIG.nomesMoeda[codigo] || codigo;
+        const simbolo = (CONFIG.simbolosMoeda[codigo] || '').trim();
+        return '<p class="callout callout-nota" style="margin-top:0;">💱 Valores desta seção em <strong>' +
+            U.esc(simbolo) + ' — ' + U.esc(nome) + ' (' + U.esc(codigo) + ')</strong>' +
+            (codigo !== 'BRL' && r.cambio && r.cambio.valor ? ', com equivalência em reais informada onde houver total.' : '.') + '</p>';
+    },
     maps(nome, endereco) {
         if (!endereco) return '';
         return '<a class="map-link" target="_blank" rel="noopener" href="' + U.esc(U.mapsUrl(nome, endereco)) + '">Google Maps ↗</a>';
@@ -35203,7 +35216,8 @@ const Render = {
 
     /* --------------------------------------------------------------- VOOS */
     voos(r) {
-        let h = '<p class="lede">Sem provedor aberto de tarifas aéreas, o sistema apresenta a rota sugerida e deixa explicitamente em branco o que não pode confirmar. Informe abaixo o voo efetivamente emitido para que ele seja incorporado como dado confirmado.</p>';
+        let h = R.notaMoeda(r);
+        h += '<p class="lede">Sem provedor aberto de tarifas aéreas, o sistema apresenta a rota sugerida e deixa explicitamente em branco o que não pode confirmar. Informe abaixo o voo efetivamente emitido para que ele seja incorporado como dado confirmado.</p>';
         r.voos.forEach(v => {
             // Os cards curtos (origem, destino, voo informado, rota pesquisada, duração,
             // frequência) ficam juntos no grid — todos cabem numa linha de cards. O que é
@@ -35378,7 +35392,8 @@ const Render = {
 
     /* --------------------------------------------------------------- HOSPEDAGEM */
     hospedagem(r) {
-        let h = '<p class="lede">Sem provedor aberto de tarifas hoteleiras, o preço aparece apenas como faixa estimada da classe de orçamento escolhida — nunca como diária praticada. As propriedades nominais vêm da curadoria manual da base.</p>';
+        let h = R.notaMoeda(r);
+        h += '<p class="lede">Sem provedor aberto de tarifas hoteleiras, o preço aparece apenas como faixa estimada da classe de orçamento escolhida — nunca como diária praticada. As propriedades nominais vêm da curadoria manual da base.</p>';
         r.hospedagens.forEach(hp => {
             h += '<h3>' + U.esc(hp.cidadeNome) + ' — ' + hp.noites + ' noite' + (hp.noites > 1 ? 's' : '') + '</h3>';
             h += '<div class="ind-card ind-gold"><div class="lbl">Faixa de diária estimada · classe ' + U.esc(hp.classe) + '</div>' +
@@ -35474,7 +35489,8 @@ const Render = {
     /* --------------------------------------------------------------- INGRESSOS */
     ingressos(r) {
         const i = r.ingressos;
-        let h = '<p class="lede">Somente tarifas de fonte identificada entram no cálculo. Onde a tarifa não é conhecida, o campo permanece vazio, com o endereço oficial para verificação.</p>';
+        let h = R.notaMoeda(r);
+        h += '<p class="lede">Somente tarifas de fonte identificada entram no cálculo. Onde a tarifa não é conhecida, o campo permanece vazio, com o endereço oficial para verificação.</p>';
         h += '<table class="tbl-sejud"><thead><tr><th>Atração</th><th>Adulto</th><th>Menor de 18</th><th>Reserva</th><th style="text-align:right;">Total do grupo</th></tr></thead><tbody>';
         i.linhas.forEach(l => {
             h += '<tr><td><strong>' + U.esc(l.nome) + '</strong>' + (l.oficial ? ' <a class="map-link" target="_blank" rel="noopener" href="' + U.esc(l.oficial) + '">oficial ↗</a>' : '') +
@@ -35500,7 +35516,8 @@ const Render = {
     custos(r) {
         const c = r.custos;
         const fx = r.cambio && r.cambio.valor;
-        let h = '<p class="lede">Estimativa terrestre para ' + c.pessoas + ' pessoa(s), ' + c.noites + ' noites e ' + c.dias + ' dias, na classe ' + U.esc(c.classe) + '. Voos internacionais não entram: o sistema não estima passagem aérea.</p>';
+        let h = R.notaMoeda(r);
+        h += '<p class="lede">Estimativa terrestre para ' + c.pessoas + ' pessoa(s), ' + c.noites + ' noites e ' + c.dias + ' dias, na classe ' + U.esc(c.classe) + '. Voos internacionais não entram: o sistema não estima passagem aérea.</p>';
         h += '<div class="finance-grid">';
         c.linhas.forEach(l => {
             h += '<div class="finance-card"><div class="fl">' + U.esc(l.rotulo) + '</div>';
