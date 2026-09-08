@@ -28,7 +28,7 @@ const dirs = fs.readdirSync(D('.'), { withFileTypes: true })
     .filter(e => e.isDirectory() && e.name !== 'schema').map(e => e.name);
 
 /* ------------------------------------------------------------------ COLETA */
-const cidades = [], sugeridas = [], atracoes = [], hospedagens = [], aeroportos = [], estacoes = [], portos = [], reps = [], alimentacao = [];
+const cidades = [], sugeridas = [], atracoes = [], hospedagens = [], aeroportos = [], estacoes = [], portos = [], reps = [], alimentacao = [], sazonalidades = [];
 dirs.forEach(pid => {
     if (!paises[pid]) erro(pid + '/', 'Pasta de país sem entrada correspondente em paises.json.');
     const cs = ler(pid + '/cidades.json');
@@ -45,6 +45,12 @@ dirs.forEach(pid => {
     });
     if (existe(pid + '/consular.json')) ler(pid + '/consular.json').forEach(r => reps.push({ ...r, __arq: pid + '/consular.json' }));
     if (existe(pid + '/alimentacao.json')) ler(pid + '/alimentacao.json').forEach(r => alimentacao.push({ ...r, __arq: pid + '/alimentacao.json' }));
+    /* sazonalidade.json é objeto por cidade (mesmo formato de climatologia.json), não lista —
+       cada entrada vira um registro com cidadeId explícito para reaproveitar as checagens genéricas. */
+    if (existe(pid + '/sazonalidade.json')) {
+        const sz = ler(pid + '/sazonalidade.json');
+        Object.keys(sz).forEach(cidadeId => sazonalidades.push({ cidadeId, ...sz[cidadeId], __arq: pid + '/sazonalidade.json' }));
+    }
     cs.forEach(c => {
         const rel = pid + '/atracoes/' + c.id + '.json';
         if (existe(rel)) ler(rel).forEach(a => atracoes.push({ ...a, __arq: rel }));
@@ -159,6 +165,7 @@ voos.forEach(v => {
     if (!idsAeroporto.has(v.destinoAeroporto)) erro(v.__arq, 'Voo ' + v.id + ' chega a aeroporto inexistente: ' + v.destinoAeroporto);
     if (v.paisId && !paises[v.paisId]) erro(v.__arq, 'Voo ' + v.id + ' aponta para país inexistente: ' + v.paisId);
     conferirProveniencia(v.__arq, v.id, 'custoPP', v.custoPP);
+    conferirProveniencia(v.__arq, v.id, 'sazonalidade', v.sazonalidade);
     if (!v.consultadoEm) erro(v.__arq, 'Voo ' + v.id + ' sem data de consulta — horário de referência precisa declarar quando foi verificado.');
 });
 
@@ -170,7 +177,7 @@ const varrer = (v, arq, caminho) => {
     } else if (Array.isArray(v)) v.forEach((x, i) => varrer(x, arq, caminho + '[' + i + ']'));
     else if (v && typeof v === 'object') Object.keys(v).forEach(k => varrer(v[k], arq, caminho + '.' + k));
 };
-[...cidades, ...sugeridas, ...atracoes, ...hospedagens, ...aeroportos, ...estacoes, ...portos, ...reps, ...voos, ...alimentacao].forEach(r => varrer(r, r.__arq, r.id || r.cidadeId || r.nome));
+[...cidades, ...sugeridas, ...atracoes, ...hospedagens, ...aeroportos, ...estacoes, ...portos, ...reps, ...voos, ...alimentacao, ...sazonalidades].forEach(r => varrer(r, r.__arq, r.id || r.cidadeId || r.nome));
 varrer(trechos, 'trechos.json', 'trechos');
 
 cidades.forEach(c => { if (ordem.cidades.indexOf(c.id) < 0) erro('ordem.json', c.nome + ' ausente da ordem curada — o build a jogaria para o fim da lista.'); });
@@ -183,6 +190,18 @@ ordem.cidades.forEach(id => { if (!idsCidade.has(id)) aviso('ordem.json', 'Ordem
 const idsComAlimentacao = new Set(alimentacao.map(a => a.cidadeId));
 cidades.forEach(c => { if (!idsComAlimentacao.has(c.id)) aviso(c.__arq, c.nome + ' — sem estratégia alimentar cadastrada (alimentacao.json do país); a seção "Alimentação por cidade" ficará vazia para ela.'); });
 alimentacao.forEach(a => { if (!idsCidade.has(a.cidadeId)) erro(a.__arq, 'Estratégia alimentar aponta para cidade inexistente: ' + a.cidadeId); });
+
+/* sazonalidade.json — mesma disciplina de proveniência do resto da base (§11/§12): cada um
+   dos três campos (altaTemporada/baixaTemporada/melhorEpoca) é um "dado" com selo próprio,
+   podendo nascer INDISPONIVEL quando a cidade ainda não teve sazonalidade turística pesquisada.
+   Aviso (não erro) por cidade sem arquivo — sintoma silencioso igual ao de alimentacao.json:
+   nada quebra, a seção "Melhor época" só fica vazia para essa cidade. */
+sazonalidades.forEach(s => {
+    if (!idsCidade.has(s.cidadeId)) erro(s.__arq, 'Sazonalidade aponta para cidade inexistente: ' + s.cidadeId);
+    ['altaTemporada', 'baixaTemporada', 'melhorEpoca'].forEach(k => conferirProveniencia(s.__arq, s.cidadeId, k, s[k]));
+});
+const idsComSazonalidade = new Set(sazonalidades.map(s => s.cidadeId));
+cidades.forEach(c => { if (!idsComSazonalidade.has(c.id)) aviso(c.__arq, c.nome + ' — sem sazonalidade cadastrada (sazonalidade.json do país); a seção "Melhor época" ficará vazia para ela.'); });
 
 /* Referências gastronômicas nominais (locais[]) seguem a mesma disciplina de proveniência
    das atrações: id único, horário com selo, endereço declarado — nada nomeado sem fonte. */
@@ -197,7 +216,7 @@ locaisComida.forEach(l => {
 
 /* ------------------------------------------------------------------ RELATÓRIO */
 console.log('\n  ' + cidades.length + ' cidades · ' + sugeridas.length + ' sugeridas · ' + atracoes.length + ' atrações · ' + hospedagens.length +
-    ' hospedagens · ' + trechos.length + ' trechos · ' + reps.length + ' repartições · ' + portos.length + ' portos · ' + voos.length + ' voos · ' + alimentacao.length + ' estratégias alimentares\n');
+    ' hospedagens · ' + trechos.length + ' trechos · ' + reps.length + ' repartições · ' + portos.length + ' portos · ' + voos.length + ' voos · ' + alimentacao.length + ' estratégias alimentares · ' + sazonalidades.length + ' sazonalidades\n');
 avisos.forEach(a => console.log('  ⚠  ' + a.arq + ' — ' + a.msg));
 if (avisos.length) console.log('');
 erros.forEach(e => console.log('  ✘  ' + e.arq + ' — ' + e.msg));

@@ -62,6 +62,10 @@ const DB = {
     atracoes: [], hospedagens: [], alimentacao: [], representacoes: [],
     portalConsular: ler('fontes.json').portalConsular,
     climatologiaFallback: {},
+    // Melhor época / alta-baixa temporada turística por cidade — distinto de
+    // climatologiaFallback, que só guarda o mês da própria viagem. Mesmo formato de objeto
+    // por cidade (não lista), lido de dados/<pais>/sazonalidade.json.
+    sazonalidade: {},
     // Só nome, país e coordenadas — geografia de domínio público, usada para sugerir
     // latitude/longitude de destinos declarados e para estimar trechos por distância
     // quando não há trecho curado. Não é curadoria turística: não carrega atração,
@@ -93,6 +97,7 @@ dirs.forEach(pid => {
         arquivos++;
     }
     if (existe(pid + '/climatologia.json')) { Object.assign(DB.climatologiaFallback, ler(pid + '/climatologia.json')); arquivos++; }
+    if (existe(pid + '/sazonalidade.json')) { Object.assign(DB.sazonalidade, ler(pid + '/sazonalidade.json')); arquivos++; }
     // Atrações na ordem das cidades, não na ordem alfabética do sistema de arquivos.
     cidades.forEach(c => {
         const rel = pid + '/atracoes/' + c.id + '.json';
@@ -130,6 +135,7 @@ DB.cidades = ordenar(DB.cidades, ordem.cidades);
 DB.zonas = ordenarChaves(DB.zonas, ordem.zonas || ordem.cidades);
 DB.matrizZonas = ordenarChaves(DB.matrizZonas, ordem.zonas || ordem.cidades);
 DB.climatologiaFallback = ordenarChaves(DB.climatologiaFallback, ordem.climatologia || ordem.cidades);
+DB.sazonalidade = ordenarChaves(DB.sazonalidade, ordem.sazonalidade || ordem.cidades);
 
 const faltando = DB.cidades.map(c => c.id).filter(id => ordem.cidades.indexOf(id) < 0);
 if (faltando.length) throw new Error('Cidades ausentes de dados/ordem.json: ' + faltando.join(', '));

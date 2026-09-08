@@ -1,0 +1,82 @@
+{
+  "jerusalem": {
+    "altaTemporada": {
+      "valor": "abril–maio e outubro–novembro (primavera e outono) — temperaturas amenas (~20°C), maior movimento e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–março (inverno) e junho–agosto (verão, calor intenso — evitar em Jerusalém, onde passa dos 35°C) — menor movimento e preços mais baixos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e outubro–novembro — clima mais agradável para turismo; em Tel Aviv a umidade torna julho/agosto especialmente desconfortável",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "belem": {
+    "altaTemporada": {
+      "valor": "abril–maio e outubro–novembro (primavera e outono) — temperaturas amenas (~20°C), maior movimento e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–março (inverno) e junho–agosto (verão, calor intenso — evitar em Jerusalém, onde passa dos 35°C) — menor movimento e preços mais baixos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e outubro–novembro — clima mais agradável para turismo; em Tel Aviv a umidade torna julho/agosto especialmente desconfortável",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "nazare": {
+    "altaTemporada": {
+      "valor": "abril–maio e outubro–novembro (primavera e outono) — temperaturas amenas (~20°C), maior movimento e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–março (inverno) e junho–agosto (verão, calor intenso — evitar em Jerusalém, onde passa dos 35°C) — menor movimento e preços mais baixos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e outubro–novembro — clima mais agradável para turismo; em Tel Aviv a umidade torna julho/agosto especialmente desconfortável",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "tel_aviv": {
+    "altaTemporada": {
+      "valor": "abril–maio e outubro–novembro (primavera e outono) — temperaturas amenas (~20°C), maior movimento e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–março (inverno) e junho–agosto (verão, calor intenso — evitar em Jerusalém, onde passa dos 35°C) — menor movimento e preços mais baixos",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e outubro–novembro — clima mais agradável para turismo; em Tel Aviv a umidade torna julho/agosto especialmente desconfortável",
+      "tipo": "CADASTRADO",
+      "fonte": "sundaycooks.com, guia.melhoresdestinos.com.br, onde-e-quando.net — pesquisa sobre melhor época para visitar Israel/Jerusalém/Tel Aviv",
+      "consultadoEm": "2026-09-08"
+    }
+  }
+}

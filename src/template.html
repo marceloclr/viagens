@@ -3079,6 +3079,10 @@ async function criarRoteiro(cfg) {
     roteiro.voos = selecionarVoos(cfg, rota, roteiro);
     roteiro.hospedagens = selecionarHospedagens(cfg, rota, roteiro);
     roteiro.alimentacao = rota.map(c => DB.alimentacao.find(a => a.cidadeId === c.id)).filter(Boolean);
+    roteiro.sazonalidade = rota.map(c => {
+        const s = DB.sazonalidade[c.id];
+        return s ? Object.assign({ cidadeId: c.id, cidade: c.dados.nome, glifo: c.dados.glifo }, s) : null;
+    }).filter(Boolean);
     roteiro.ingressos = calcularIngressos(cfg, roteiro.dias, roteiro);
     roteiro.custos = calcularCustos(cfg, rota, roteiro.dias, roteiro.ingressos, roteiro);
     roteiro.planoB = gerarPlanoB(cfg, roteiro.dias, roteiro);
@@ -3408,6 +3412,14 @@ const Render = {
                 h += '<div class="flight-note"><span class="small">Nota da rota pesquisada</span><p>' +
                     U.esc(comNota.map(p => p.obs).join(' ')) + '</p></div>';
             }
+            // Sazonalidade operacional (§ sazonalidade de cada perna em dados/voos.json):
+            // a rota pode não voar o ano todo — card separado, omitido quando a pesquisa
+            // não determinou isso (INDISPONIVEL), igual ao resto da base (R.linhaSeHouver).
+            const comSazonalidade = cd.pernas.filter(p => p.sazonalidade && p.sazonalidade.tipo !== 'INDISPONIVEL' && p.sazonalidade.valor != null);
+            if (comSazonalidade.length) {
+                h += '<div class="flight-seasonal-note"><span class="small">⚠️ Sazonalidade da rota pesquisada</span><ul class="linhas">' +
+                    comSazonalidade.map(p => R.linhaSeHouver('Sazonalidade', p.sazonalidade)).join('') + '</ul></div>';
+            }
             // Número de voo e horário de referência: só existe quando a pesquisa achou um
             // voo específico (§ vooReferencia de cada perna em dados/voos.json) — nunca é
             // o mesmo texto da nota geral acima, para não fingir que uma nota de aeroporto
@@ -3598,6 +3610,31 @@ const Render = {
         return R.secao('sec-alimentacao', 'Mesa', '🍝 Alimentação por cidade', h, '🍝 Alimentação', 'Estratégia alimentar por cidade, cruzada com as preferências declaradas no formulário, mais as referências gastronômicas curadas nominalmente onde disponíveis.');
     },
 
+    /* --------------------------------------------------------------- SAZONALIDADE
+       Melhor época por cidade (dados/<pais>/sazonalidade.json) — distinto da climatologia
+       de dados/<pais>/climatologia.json, que só descreve um mês (o da viagem planejada). Aqui é
+       o padrão de alta/baixa temporada turística e a recomendação de melhor época, cada
+       campo com proveniência própria (§11/§12); cidade sem dado simplesmente não aparece
+       (R.linhaSeHouver), em vez de anunciar "informação não disponível" cidade a cidade. */
+    sazonalidade(r) {
+        if (!r.sazonalidade.length) {
+            return R.secao('sec-sazonalidade', 'Ambiente', '📅 Melhor época', '<p class="indisponivel">Nenhuma das cidades deste roteiro tem sazonalidade turística cadastrada ainda.</p>' + R.selo('INDISPONIVEL'), '📅 Melhor época', 'Alta e baixa temporada turística e recomendação de melhor época para visitar, por cidade.');
+        }
+        let h = '<p class="lede">Padrão de alta/baixa temporada turística e recomendação de melhor época por cidade — não confundir com o card de clima acima, que descreve apenas o mês da própria viagem.</p>';
+        h += '<div class="climate-grid">';
+        r.sazonalidade.forEach(s => {
+            h += '<div class="climate-card"><div class="cc-head"><span class="cc-city">' + (s.glifo || '') + ' ' + U.esc(s.cidade) + '</span></div>';
+            h += '<ul class="cc-meta linhas">' +
+                R.linhaSeHouver('Alta temporada', s.altaTemporada) +
+                R.linhaSeHouver('Baixa temporada', s.baixaTemporada) +
+                R.linhaSeHouver('Melhor época', s.melhorEpoca) +
+                '</ul>';
+            h += '</div>';
+        });
+        h += '</div>';
+        return R.secao('sec-sazonalidade', 'Ambiente', '📅 Melhor época', h, '📅 Melhor época', 'Alta e baixa temporada turística e recomendação de melhor época para visitar, por cidade.');
+    },
+
     /* --------------------------------------------------------------- INGRESSOS */
     ingressos(r) {
         const i = r.ingressos;
@@ -3778,6 +3815,11 @@ const Render = {
                 const companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
                 const duracao = cd.pernas.reduce((s, p) => s + (p.duracaoMin || 0), 0);
                 h += ' · Rota pesquisada: ' + U.esc(companhias) + (duracao ? ' (~' + U.dur(duracao) + ')' : '');
+                const comSaz = cd.pernas.filter(p => p.sazonalidade && p.sazonalidade.tipo !== 'INDISPONIVEL' && p.sazonalidade.valor != null);
+                if (comSaz.length) {
+                    h += '<br><span style="font-size:12px;color:var(--muted);">⚠️ Sazonalidade: ' +
+                        U.esc(comSaz.map(p => p.sazonalidade.valor).join(' ')) + '</span>';
+                }
                 const comRef = cd.pernas.filter(p => p.vooReferencia);
                 if (comRef.length) {
                     const consultas = Array.from(new Set(comRef.map(p => p.consultadoEm).filter(Boolean)))
@@ -3885,7 +3927,7 @@ function renderRoteiro(r) {
     const main = document.getElementById('mainContent');
     const toc = document.getElementById('tocLista');
     const secoes = [
-        Render.resumo(r), Render.jornada(r), Render.clima(r),
+        Render.resumo(r), Render.jornada(r), Render.clima(r), Render.sazonalidade(r),
         Render.voos(r), Render.cronograma(r), Render.atracoes(r), Render.hospedagem(r),
         Render.alimentacao(r), Render.ingressos(r), Render.custos(r), Render.consular(r),
         Render.planoB(r), Render.enderecos(r), Render.pontuacao(r), Render.resumoExecutivo(r)
@@ -6363,6 +6405,10 @@ const Transferencia = {
             }
         });
         r.alimentacao = rota.map(c => DB.alimentacao.find(a => a.cidadeId === c.id)).filter(Boolean);
+        r.sazonalidade = rota.map(c => {
+            const s = DB.sazonalidade[c.id];
+            return s ? Object.assign({ cidadeId: c.id, cidade: c.dados.nome, glifo: c.dados.glifo }, s) : null;
+        }).filter(Boolean);
         r.representacoes = selecionarRepresentacoesBrasileiras(cfg, rota, rascunho);
 
         /* 7. Trechos: reavaliados contra a base, inclusive a compatibilidade com a

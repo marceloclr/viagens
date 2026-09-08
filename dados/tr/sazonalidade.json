@@ -1,0 +1,102 @@
+{
+  "istambul": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "efeso": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "tr_ancara": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "esmirna": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "capadocia": {
+    "altaTemporada": {
+      "valor": "abril–junho e setembro–outubro (melhores condições de voo de balão); julho–agosto tem menor taxa de cancelamento por vento, mas calor mais intenso",
+      "tipo": "CADASTRADO",
+      "fonte": "magnificenttravel.com, hotairballooncappadocia.com, cappadocia-hot-air-balloon-tickets.com — pesquisa sobre melhor época para passeio de balão em 2026",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–abril — maior taxa de cancelamento de voos de balão por vento (30–40%, contra 10–15% na primavera/outono e 5–10% no verão), embora o inverno ofereça paisagem nevada e visibilidade às vezes melhor",
+      "tipo": "CADASTRADO",
+      "fonte": "magnificenttravel.com, hotairballooncappadocia.com, cappadocia-hot-air-balloon-tickets.com — pesquisa sobre melhor época para passeio de balão em 2026",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril a novembro é a janela mais favorável para o passeio de balão, com pico de condições ideais em abril–junho e setembro–outubro",
+      "tipo": "CADASTRADO",
+      "fonte": "magnificenttravel.com, hotairballooncappadocia.com, cappadocia-hot-air-balloon-tickets.com — pesquisa sobre melhor época para passeio de balão em 2026",
+      "consultadoEm": "2026-09-08"
+    }
+  }
+}

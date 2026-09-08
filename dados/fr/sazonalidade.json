@@ -1,0 +1,62 @@
+{
+  "paris": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "fr_lourdes": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "fr_lisieux": {
+    "altaTemporada": {
+      "valor": "junho–agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "novembro–março (exceto período de festas de fim de ano)",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão",
+      "tipo": "CADASTRADO",
+      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
+      "consultadoEm": "2026-09-08"
+    }
+  }
+}

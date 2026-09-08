@@ -1,0 +1,37 @@
+{
+  "roma": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno (18–24°C), menos lotado e mais barato que o pico do verão", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  },
+  "cassino": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  },
+  "monte_santangelo": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  },
+  "san_giovanni_rotondo": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  },
+  "bari": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  },
+  "foggia": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  },
+  "napoli": {
+    "altaTemporada": { "valor": "junho–agosto", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "baixaTemporada": { "valor": "novembro–março (exceto período de festas de fim de ano)", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" },
+    "melhorEpoca": { "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado", "tipo": "CADASTRADO", "fonte": "Padrão consolidado de sazonalidade turística na Europa — firebirdtours.com, expatexplore.com", "consultadoEm": "2026-09-08" }
+  }
+}

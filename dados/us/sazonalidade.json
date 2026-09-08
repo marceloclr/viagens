@@ -1,0 +1,582 @@
+{
+  "miami": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "orlando": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "nova_york": {
+    "altaTemporada": {
+      "valor": "junho–agosto (verão) e final de novembro–dezembro (temporada de festas) — maior lotação e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "janeiro–março (inverno) — frio intenso (-2°C a 8°C, neve em jan/fev), menor movimento",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril a meados de maio e meados de setembro a outubro — temperaturas agradáveis, menos filas, outubro ainda traz folhagem de outono e menor lotação/preço que o pico de verão",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "boston": {
+    "altaTemporada": {
+      "valor": "junho–agosto (verão) — auge dos eventos ao ar livre e vida à beira-mar de Boston",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "janeiro–março (inverno) — frio intenso, menor movimento",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–junho ou setembro–outubro — clima ameno; verão (jun–ago) é quando Boston está mais viva, mas com mais gente e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "fort_lauderdale": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "west_palm_beach": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "titusville": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "daytona_beach": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "st_augustine": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "jacksonville": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "savannah": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "charleston": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "richmond": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "washington_dc": {
+    "altaTemporada": {
+      "valor": "junho–agosto (verão, calor e umidade) e temporada de cerejeiras em março–abril — grande procura",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "janeiro–março (inverno) — clima frio, movimento mais baixo",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "abril–maio (primavera, paisagens floridas) e setembro–outubro (calor e umidade do verão já cederam, multidões mais escassas após a alta temporada)",
+      "tipo": "CADASTRADO",
+      "fonte": "headout.com, klook.com, thehotelwashington.com, lonelyplanet.com — pesquisa sobre melhor época para visitar Nova York, Boston e Washington D.C.",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "baltimore": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "filadelfia": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "new_haven": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "providence": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "us_naples": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "fort_myers": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "sarasota": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "tampa": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
+      "tipo": "CADASTRADO",
+      "fonte": "noaa.gov, foxweather.com — temporada oficial de furacões no Atlântico (National Hurricane Center)",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "ocala": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "gainesville": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "valdosta": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "macon": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "atlanta": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "chattanooga": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  },
+  "knoxville": {
+    "altaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "baixaTemporada": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    },
+    "melhorEpoca": {
+      "valor": null,
+      "tipo": "INDISPONIVEL",
+      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
+      "consultadoEm": null
+    }
+  }
+}

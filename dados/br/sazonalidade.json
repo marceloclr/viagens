@@ -1,0 +1,42 @@
+{
+  "belem_pa": {
+    "altaTemporada": {
+      "valor": "junho–novembro (estação seca) — rios mais baixos, revelando praias de água doce e facilitando trilhas; para cruzeiro ou hotel de selva, os meses ideais são junho, julho e agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "tesourosdobrasil.com.br, planetaexo.com/pt/blog/melhor-epoca-para-visitar-a-amazonia — pesquisa sobre estações seca/chuvosa na Amazônia",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–maio (estação chuvosa) — rios em nível alto, formando florestas alagadas (igapós); menos praticável para trilha, mas mais indicado para passeio de barco entre a mata alagada",
+      "tipo": "CADASTRADO",
+      "fonte": "tesourosdobrasil.com.br, planetaexo.com/pt/blog/melhor-epoca-para-visitar-a-amazonia — pesquisa sobre estações seca/chuvosa na Amazônia",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "junho–novembro para a maioria dos viajantes (trilhas e praias de rio); dezembro–maio é preferível especificamente para quem busca passeio de barco pelos igapós. Clima quente e úmido o ano todo (23–31°C).",
+      "tipo": "CADASTRADO",
+      "fonte": "tesourosdobrasil.com.br, planetaexo.com/pt/blog/melhor-epoca-para-visitar-a-amazonia — pesquisa sobre estações seca/chuvosa na Amazônia",
+      "consultadoEm": "2026-09-08"
+    }
+  },
+  "manaus": {
+    "altaTemporada": {
+      "valor": "junho–novembro (estação seca) — rios mais baixos, revelando praias de água doce e facilitando trilhas; para cruzeiro ou hotel de selva, os meses ideais são junho, julho e agosto",
+      "tipo": "CADASTRADO",
+      "fonte": "tesourosdobrasil.com.br, planetaexo.com/pt/blog/melhor-epoca-para-visitar-a-amazonia — pesquisa sobre estações seca/chuvosa na Amazônia",
+      "consultadoEm": "2026-09-08"
+    },
+    "baixaTemporada": {
+      "valor": "dezembro–maio (estação chuvosa) — rios em nível alto, formando florestas alagadas (igapós); menos praticável para trilha, mas mais indicado para passeio de barco entre a mata alagada",
+      "tipo": "CADASTRADO",
+      "fonte": "tesourosdobrasil.com.br, planetaexo.com/pt/blog/melhor-epoca-para-visitar-a-amazonia — pesquisa sobre estações seca/chuvosa na Amazônia",
+      "consultadoEm": "2026-09-08"
+    },
+    "melhorEpoca": {
+      "valor": "junho–novembro para a maioria dos viajantes (trilhas e praias de rio); dezembro–maio é preferível especificamente para quem busca passeio de barco pelos igapós. Clima quente e úmido o ano todo (23–31°C).",
+      "tipo": "CADASTRADO",
+      "fonte": "tesourosdobrasil.com.br, planetaexo.com/pt/blog/melhor-epoca-para-visitar-a-amazonia — pesquisa sobre estações seca/chuvosa na Amazônia",
+      "consultadoEm": "2026-09-08"
+    }
+  }
+}
