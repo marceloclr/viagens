@@ -475,6 +475,10 @@
         .flight-note { margin-top:12px; padding:10px 13px; border:1px solid var(--border); border-radius:8px; background:color-mix(in srgb, var(--bg-alt) 75%, transparent); }
         .flight-note .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
         .flight-note p { margin:4px 0 0; font-size:13px; line-height:1.5; color:var(--ink-strong); }
+        /* Sazonalidade da rota: mesma linguagem visual do flight-note, mas com destaque de
+           atenção (borda esquerda) — a rota pode simplesmente não voar no período escolhido. */
+        .flight-seasonal-note { margin-top:12px; padding:10px 13px; border-radius:8px; border-left:4px solid var(--accent3); background:color-mix(in srgb, var(--accent3) 10%, transparent); }
+        .flight-seasonal-note .small { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
         /* Card de referência: fundo próprio (mesma linguagem de cor dos callout-atencao) pra
            se destacar do grid de cards curtos acima — é o dado mais concreto desta seção. */
         .flight-ref-card { margin-top:12px; padding:12px 15px; border-radius:9px; border-left:4px solid var(--accent2); background:color-mix(in srgb, var(--accent2) 12%, transparent); }
@@ -35221,7 +35225,7 @@ const Render = {
             } else {
                 h += '<div class="flight-item"><span class="small">Número e horário</span><strong class="indisponivel">Informação não disponível</strong>' + R.selo('INDISPONIVEL', 'Fica disponível quando você informa o voo já emitido', null) + '</div>';
             }
-            let companhias = null, fontes = null, comNota = [], comRef = [];
+            let companhias = null, fontes = null, comNota = [], comRef = [], comSazonalidade = [];
             if (v.cadastro) {
                 const cd = v.cadastro;
                 companhias = Array.from(new Set(cd.pernas.flatMap(p => p.companhias || []))).join(' · ') || 'companhia não confirmada';
@@ -35235,6 +35239,7 @@ const Render = {
                 if (freqs.length) h += '<div class="flight-item"><span class="small">Frequência pesquisada</span><strong>' + U.esc(freqs.join(' + ')) + '</strong></div>';
                 comNota = cd.pernas.filter(p => p.obs);
                 comRef = cd.pernas.filter(p => p.vooReferencia);
+                comSazonalidade = cd.pernas.filter(p => p.sazonalidade && p.sazonalidade.tipo !== 'INDISPONIVEL' && p.sazonalidade.valor != null);
             }
             h += '</div>'; // fecha .flight-grid — só cards curtos entram aqui
 
@@ -35247,9 +35252,8 @@ const Render = {
             // Sazonalidade operacional (§ sazonalidade de cada perna em dados/voos.json):
             // a rota pode não voar o ano todo — card separado, omitido quando a pesquisa
             // não determinou isso (INDISPONIVEL), igual ao resto da base (R.linhaSeHouver).
-            const comSazonalidade = cd.pernas.filter(p => p.sazonalidade && p.sazonalidade.tipo !== 'INDISPONIVEL' && p.sazonalidade.valor != null);
             if (comSazonalidade.length) {
-                h += '<div class="flight-seasonal-note"><span class="small">⚠️ Sazonalidade da rota pesquisada</span><ul class="linhas">' +
+                h += '<div class="flight-seasonal-note"><span class="small">⚠️ Sazonalidade da rota pesquisada</span><ul class="consul-linhas" style="margin-top:6px;">' +
                     comSazonalidade.map(p => R.linhaSeHouver('Sazonalidade', p.sazonalidade)).join('') + '</ul></div>';
             }
             // Número de voo e horário de referência: só existe quando a pesquisa achou um
@@ -35456,7 +35460,7 @@ const Render = {
         h += '<div class="climate-grid">';
         r.sazonalidade.forEach(s => {
             h += '<div class="climate-card"><div class="cc-head"><span class="cc-city">' + (s.glifo || '') + ' ' + U.esc(s.cidade) + '</span></div>';
-            h += '<ul class="cc-meta linhas">' +
+            h += '<ul class="consul-linhas" style="margin-top:10px;">' +
                 R.linhaSeHouver('Alta temporada', s.altaTemporada) +
                 R.linhaSeHouver('Baixa temporada', s.baixaTemporada) +
                 R.linhaSeHouver('Melhor época', s.melhorEpoca) +
