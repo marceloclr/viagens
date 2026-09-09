@@ -2108,7 +2108,7 @@ const Providers = {
     /* Provedores ainda sem fornecedor aberto disponível. Declarados para que a
        arquitetura esteja pronta e para que a ausência seja explícita, nunca suprida
        por invenção. */
-    FlightProvider:     { nome: null, disponivel: false, motivo: 'Nenhum provedor aberto e gratuito de tarifas aéreas. Use a entrada manual do voo contratado.' },
+    FlightProvider:     { nome: null, disponivel: false, motivo: 'Nenhum provedor aberto e gratuito de tarifas aéreas em tempo real. A faixa estimada exibida, quando houver, vem de pesquisa periódica em fonte aberta — use a entrada manual do voo contratado quando já emitido.' },
     HotelProvider:      { nome: null, disponivel: false, motivo: 'Nenhum provedor aberto de tarifas hoteleiras. Preços aparecem apenas como faixa estimada.' },
     RestaurantProvider: { nome: null, disponivel: false, motivo: 'Sem provedor aberto de estabelecimentos; a orientação alimentar é por bairro e tipo, exceto nas cidades em que casas específicas foram pesquisadas e curadas manualmente com fonte — aí o sistema nomeia o estabelecimento.' },
     ConsularProvider:   { nome: 'Portal Consular / MRE', disponivel: false, motivo: 'O Portal Consular exige verificação anti-robô e não expõe interface programática. Os dados consulares são curados manualmente e sinalizados quando ausentes.' }
@@ -2602,7 +2602,7 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         buscaDestino: apEntrada ? apEntrada.codigo : null,
         data: cfg.dataInicio,
         status: 'ROTA SUGERIDA',
-        obs: 'Rota aérea sugerida a partir da cidade de entrada escolhida. O sistema não dispõe de provedor aberto de tarifas: número de voo, horário e preço só aparecem se você os informar.',
+        obs: 'Rota aérea sugerida a partir da cidade de entrada escolhida. O sistema não dispõe de provedor aberto de tarifas em tempo real: número de voo e horário exatos só aparecem se você os informar; o preço mostrado, quando houver, é faixa estimada de pesquisa periódica.',
         manual: cfg.vooIda || vooVazio(),
         cadastro: buscarVooCadastrado(apOrigemBR, apEntrada)
     });
@@ -2620,9 +2620,9 @@ function selecionarVoos(cfg, cidadesRota, roteiro) {
         manual: cfg.vooVolta || vooVazio(),
         cadastro: buscarVooCadastrado(apSaida, apOrigemBR)
     });
-    registrar(roteiro, 'Voos', 'Rota aérea sugerida sem tarifa',
-        [['Provedor de tarifas disponível', 'Nenhum'],
-         ['Política adotada', 'Apresentar a rota e deixar o preço em branco, em vez de estimar valor de passagem'],
+    registrar(roteiro, 'Voos', 'Rota aérea sugerida com tarifa estimada quando pesquisada',
+        [['Provedor de tarifas em tempo real', 'Nenhum'],
+         ['Política adotada', 'Apresentar a rota e, quando a pesquisa periódica de fonte aberta encontrou faixa de preço para todas as pernas do trecho, uma tarifa estimada com selo ESTIMADO — nunca cotação em tempo real'],
          ['Rota cadastrada encontrada (ida)', voos[0].cadastro ? (voos[0].cadastro.tipo === 'direto' ? 'Direta' : 'Conexão via ' + voos[0].cadastro.hub) : 'Nenhuma — origem não reconhecida ou sem rota pesquisada'],
          ['Rota cadastrada encontrada (retorno)', voos[1].cadastro ? (voos[1].cadastro.tipo === 'direto' ? 'Direta' : 'Conexão via ' + voos[1].cadastro.hub) : 'Nenhuma — origem não reconhecida ou sem rota pesquisada']]);
     return voos;
@@ -3450,7 +3450,7 @@ const Render = {
     /* --------------------------------------------------------------- VOOS */
     voos(r) {
         let h = R.notaMoeda(r);
-        h += '<p class="lede">Sem provedor aberto de tarifas aéreas, o sistema apresenta a rota sugerida e deixa explicitamente em branco o que não pode confirmar. Informe abaixo o voo efetivamente emitido para que ele seja incorporado como dado confirmado.</p>';
+        h += '<p class="lede">Sem provedor aberto de tarifas aéreas em tempo real, o sistema apresenta a rota sugerida e, quando a pesquisa encontrou uma faixa de preço para o trecho, uma tarifa estimada — pesquisada periodicamente, não cotação. Informe abaixo o voo efetivamente emitido para que ele seja incorporado como dado confirmado.</p>';
         r.voos.forEach(v => {
             // Os cards curtos (origem, destino, voo informado, rota pesquisada, duração,
             // frequência) ficam juntos no grid — todos cabem numa linha de cards. O que é
@@ -3502,6 +3502,28 @@ const Render = {
             if (comSazonalidade.length) {
                 h += '<div class="flight-seasonal-note"><span class="small">⚠️ Sazonalidade da rota pesquisada</span><ul class="consul-linhas" style="margin-top:6px;">' +
                     comSazonalidade.map(p => R.linhaSeHouver('Sazonalidade', p.sazonalidade)).join('') + '</ul></div>';
+            }
+            // Tarifa estimada (§ custoPP de cada perna em dados/voos.json): faixa
+            // pesquisada em fonte aberta, por pessoa, ida OU volta — nunca a cotação em
+            // tempo real do bilhete do viajante (o sistema não tem provedor para isso,
+            // ver Providers.FlightProvider). Só soma e mostra quando TODAS as pernas da
+            // rota (inclusive conexão) trazem tarifa — uma faixa parcial fingiria cobrir
+            // o preço da viagem inteira, exatamente o que a proveniência existe pra evitar.
+            if (v.cadastro) {
+                const cd2 = v.cadastro;
+                const comCusto = cd2.pernas.filter(p => p.custoPP && p.custoPP.tipo !== 'INDISPONIVEL' && p.custoPP.valor != null);
+                if (comCusto.length && comCusto.length === cd2.pernas.length) {
+                    const custoMin = comCusto.reduce((s, p) => s + p.custoPP.valor[0], 0);
+                    const custoMax = comCusto.reduce((s, p) => s + p.custoPP.valor[1], 0);
+                    const fontesCusto = Array.from(new Set(comCusto.map(p => p.custoPP.fonte).filter(Boolean))).join(' · ');
+                    const consultasCusto = Array.from(new Set(comCusto.map(p => p.custoPP.consultadoEm).filter(Boolean)))
+                        .map(iso => iso.split('-').reverse().join('/'));
+                    h += '<div class="flight-item"><span class="small">Tarifa estimada por pessoa' +
+                        (consultasCusto.length ? ' — pesquisada em ' + U.esc(consultasCusto.join(', ')) : '') + '</span><strong>' +
+                        U.faixaEur(custoMin, custoMax) + '</strong>' +
+                        R.selo('ESTIMADO', fontesCusto, null, 'Faixa pesquisada em fonte aberta para o trecho ' + (cd2.tipo === 'direto' ? 'direto' : 'com conexão') +
+                            ', classe econômica, ida OU volta — varia por antecedência de compra, temporada e disponibilidade. Não é cotação: confira o preço real no link de busca abaixo antes de comprar.') + '</div>';
+                }
             }
             // Número de voo e horário de referência: só existe quando a pesquisa achou um
             // voo específico (§ vooReferencia de cada perna em dados/voos.json) — nunca é
