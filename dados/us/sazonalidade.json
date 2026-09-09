@@ -1,16 +1,16 @@
 {
   "miami": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro a fevereiro (inverno, fuga do frio de quem vem do norte) e março (spring break e festivais) — período mais caro e lotado, hotéis no pico de preço",
+      "tipo": "CADASTRADO",
+      "fonte": "bobbysbikehike.com, jetsetteralerts.com, roami.com — guias sobre melhor época para visitar Miami",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a setembro (verão) — menor preço de hospedagem, calor intenso, umidade alta e maior risco de furacão; setembro costuma ser o mês mais barato do ano",
+      "tipo": "CADASTRADO",
+      "fonte": "bobbysbikehike.com, jetsetteralerts.com, roami.com — guias sobre melhor época para visitar Miami",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -21,16 +21,16 @@
   },
   "orlando": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto (férias escolares de verão), meados de março a meados de abril (spring break) e feriados de fim de ano — parques temáticos com lotação máxima e preços mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "undercovertourist.com, avantstay.com, ocean-florida.co.uk — guias de sazonalidade dos parques temáticos de Orlando",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Setembro a novembro (após volta às aulas) e fevereiro — filas mais curtas e menor lotação nos parques temáticos, com preços mais baixos de hospedagem",
+      "tipo": "CADASTRADO",
+      "fonte": "undercovertourist.com, avantstay.com, ocean-florida.co.uk — guias de sazonalidade dos parques temáticos de Orlando",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -81,16 +81,16 @@
   },
   "fort_lauderdale": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro a abril (inverno/início de primavera) — snowbirds e spring break elevam preços de hotéis e resorts, com eventos como convenções náuticas e festivais de arte",
+      "tipo": "CADASTRADO",
+      "fonte": "avantstay.com, casiola.com, travel.usnews.com (U.S. News Travel) — guias sobre melhor época para visitar Fort Lauderdale",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Agosto a outubro (fim do verão/início do outono, temporada de furacões) — tarifas mais baixas do ano, cerca de 40% mais baratas que em dezembro; menor movimento",
+      "tipo": "CADASTRADO",
+      "fonte": "avantstay.com, casiola.com, travel.usnews.com (U.S. News Travel) — guias sobre melhor época para visitar Fort Lauderdale",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -101,16 +101,16 @@
   },
   "west_palm_beach": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Novembro a abril (inverno), com pico em dezembro–março — maior fluxo de turistas, calendário cultural cheio e preços de hospedagem mais altos",
+      "tipo": "CADASTRADO",
+      "fonte": "championtraveler.com, travel.usnews.com (U.S. News Travel), valuestoreit.com — guias sobre melhor época para visitar West Palm Beach",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a setembro (verão, temporada de furacões) — tarifas de hospedagem mais baixas do ano, menor movimento turístico, calor e umidade intensos",
+      "tipo": "CADASTRADO",
+      "fonte": "championtraveler.com, travel.usnews.com (U.S. News Travel), valuestoreit.com — guias sobre melhor época para visitar West Palm Beach",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -121,16 +121,16 @@
   },
   "titusville": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Novembro a abril — clima mais ameno e maior concentração de lançamentos de foguetes do Kennedy Space Center, atraindo mais visitantes e turistas de eventos espaciais",
+      "tipo": "CADASTRADO",
+      "fonte": "visitflorida.com, discovertitusville.com — guias sobre Titusville e Kennedy Space Center Visitor Complex",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Maio a outubro — calor e umidade intensos, temporada de furacões, menor movimento turístico na região",
+      "tipo": "CADASTRADO",
+      "fonte": "visitflorida.com, discovertitusville.com — guias sobre Titusville e Kennedy Space Center Visitor Complex",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -141,16 +141,16 @@
   },
   "daytona_beach": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Fevereiro a maio — Speed Weeks/Daytona 500 (fevereiro), Bike Week (início de março) e spring break; março é o mês de maior volume de visitantes do ano",
+      "tipo": "CADASTRADO",
+      "fonte": "goatsontheroad.com, floridabeachlife.com, travel.usnews.com (U.S. News Travel) — guias sobre eventos e sazonalidade de Daytona Beach",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Setembro a novembro (temporada mais tranquila, sem grandes eventos) — menor lotação e preços mais baixos; o verão também é de baixo movimento turístico, mas com calor intenso e risco de furacão",
+      "tipo": "CADASTRADO",
+      "fonte": "goatsontheroad.com, floridabeachlife.com, travel.usnews.com (U.S. News Travel) — guias sobre eventos e sazonalidade de Daytona Beach",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -161,16 +161,16 @@
   },
   "st_augustine": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro (Nights of Lights natalino), julho e março a maio são os meses de maior visitação; hotéis cobram tarifas premium de março a maio e de outubro a dezembro por clima agradável e alta demanda.",
+      "tipo": "CADASTRADO",
+      "fonte": "avantstay.com, travellersworldwide.com, U.S. News Travel",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro e fevereiro (inverno, menos lotado) e final de agosto/setembro, que têm as menores tarifas de hotel do ano — cerca de 29% abaixo do pico.",
+      "tipo": "CADASTRADO",
+      "fonte": "avantstay.com, travellersworldwide.com, U.S. News Travel",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -181,16 +181,16 @@
   },
   "jacksonville": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Março a maio e outubro (clima ameno, eventos) e junho a agosto (verão, praias lotadas) — meses de maior procura por hospedagem e tarifas mais altas.",
+      "tipo": "CADASTRADO",
+      "fonte": "championtraveler.com, U.S. News Travel, thingstodoinjacksonville.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro a fevereiro — baixa temporada, praias praticamente vazias e tarifas mais baixas; agosto e setembro também oferecem bons descontos.",
+      "tipo": "CADASTRADO",
+      "fonte": "championtraveler.com, U.S. News Travel, thingstodoinjacksonville.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -201,16 +201,16 @@
   },
   "savannah": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Março (St. Patrick's Day e Savannah Music Festival) e abril, além de julho — meses de maior lotação, com tarifas de hotel no pico do ano (cerca de US$305–470/noite em março).",
+      "tipo": "CADASTRADO",
+      "fonte": "travellersworldwide.com, aaa.com (Trip Canvas), U.S. News Travel",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro, fevereiro, agosto, setembro e dezembro — menor lotação, com tarifas de hotel cerca de 31% mais baixas que nos meses de pico.",
+      "tipo": "CADASTRADO",
+      "fonte": "travellersworldwide.com, aaa.com (Trip Canvas), U.S. News Travel",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -221,16 +221,16 @@
   },
   "charleston": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Março a maio (primavera, jardins floridos) e outubro — temporada mais movimentada do ano, com tarifas de hotel no auge e reservas de jantar exigindo semanas de antecedência.",
+      "tipo": "CADASTRADO",
+      "fonte": "avantstay.com, charleston.com, U.S. News Travel",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro e fevereiro — inverno com tarifas de hotel 40–50% mais baratas que na primavera e menos turistas.",
+      "tipo": "CADASTRADO",
+      "fonte": "avantstay.com, charleston.com, U.S. News Travel",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -241,16 +241,16 @@
   },
   "richmond": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Maio a setembro (final da primavera ao verão) — período mais movimentado, com calor e umidade e maior fluxo de turistas.",
+      "tipo": "CADASTRADO",
+      "fonte": "championtraveler.com, U.S. News Travel, thingstodoinrichmond.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro e fevereiro — tarifas de hotel mais baixas e movimento mais fraco do ano; abril a junho também tem poucos turistas (universidades em recesso) apesar de bom clima.",
+      "tipo": "CADASTRADO",
+      "fonte": "championtraveler.com, U.S. News Travel, thingstodoinrichmond.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -281,16 +281,16 @@
   },
   "baltimore": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto — pico turístico de verão, com tarifas de hotel mais altas e mais visitantes apesar do calor; a cidade também tem grande agenda de eventos nesse período.",
+      "tipo": "CADASTRADO",
+      "fonte": "myroost.com, U.S. News Travel, getdirecto.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Outono/inverno fora dos feriados (aproximadamente novembro a março) — menor movimento e tarifas mais baixas; abril–maio e setembro–outubro são temporada intermediária com bom equilíbrio entre clima e preço.",
+      "tipo": "CADASTRADO",
+      "fonte": "myroost.com, U.S. News Travel, getdirecto.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -301,16 +301,16 @@
   },
   "filadelfia": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Abril a junho e setembro a novembro (primavera e outono) — maior procura por hospedagem, tarifas mais altas por clima agradável e agenda de eventos; o verão (junho a agosto) também é pico turístico apesar do calor.",
+      "tipo": "CADASTRADO",
+      "fonte": "tripadvisor.com, U.S. News Travel, machupicchu.org",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro e fevereiro — meses mais tranquilos, com tarifas de hotel e passagens significativamente mais baixas (exceto no período de feriados de fim de ano).",
+      "tipo": "CADASTRADO",
+      "fonte": "tripadvisor.com, U.S. News Travel, machupicchu.org",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -321,16 +321,16 @@
   },
   "new_haven": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Final de maio a início de junho (temporada de formaturas em Yale) e de meados de setembro a meados de outubro (folhagem de outono) — maior procura por hospedagem, clima agradável e agenda de eventos (ex.: festival Arts & Ideas).",
+      "tipo": "CADASTRADO",
+      "fonte": "thingstodoinnewhaven.com, shortform.com (Best Time to Visit Connecticut), worldatlas.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Inverno, de janeiro a março — janeiro é o mês mais parado para o turismo na região, e março costuma trazer as melhores tarifas de hotel e o menor movimento de visitantes.",
+      "tipo": "CADASTRADO",
+      "fonte": "thingstodoinnewhaven.com, shortform.com (Best Time to Visit Connecticut), worldatlas.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -341,16 +341,16 @@
   },
   "providence": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto, com pico em julho — verão é a temporada turística mais movimentada, com mais eventos, maiores multidões e preços de hospedagem mais altos; setembro/outubro (foliage) também aquece a demanda antes de esvaziar após o Labor Day.",
+      "tipo": "CADASTRADO",
+      "fonte": "thingstodoinprovidence.com, U.S. News Travel (travel.usnews.com), championtraveler.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro a fevereiro — período mais parado do turismo na cidade, com as tarifas de hospedagem e passagens mais baixas do ano, especialmente em janeiro e fevereiro.",
+      "tipo": "CADASTRADO",
+      "fonte": "thingstodoinprovidence.com, U.S. News Travel (travel.usnews.com), championtraveler.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -361,16 +361,16 @@
   },
   "us_naples": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro a março, com pico em fevereiro/março — temporada de \"snowbirds\" do inverno, maior volume de visitantes e tarifas de hospedagem que podem chegar ao dobro do normal, principalmente perto de Natal, Ano Novo e Páscoa.",
+      "tipo": "CADASTRADO",
+      "fonte": "staywithstay.com, U.S. News Travel (travel.usnews.com), naplesfloridavacationhomes.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Maio a setembro — baixa temporada por causa do calor, umidade e maior chance de chuva/furacões; tarifas de hospedagem podem cair pela metade em relação ao pico.",
+      "tipo": "CADASTRADO",
+      "fonte": "staywithstay.com, U.S. News Travel (travel.usnews.com), naplesfloridavacationhomes.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -381,16 +381,16 @@
   },
   "fort_myers": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro a abril e dezembro, com pico em fevereiro/março (inclui a temporada de spring training de beisebol) — maior procura, hotéis mais caros e praias mais cheias.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel (travel.usnews.com), stealthmanage.com, whereandwhen.net",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a outubro (maio e novembro também fracos) — baixa temporada com tarifas mais baixas e promoções em hotéis, porém calor intenso e temporada de furacões (pico entre agosto e outubro).",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel (travel.usnews.com), stealthmanage.com, whereandwhen.net",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -401,16 +401,16 @@
   },
   "sarasota": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Meados de novembro a meados de abril, com pico entre dezembro e fevereiro — temporada de \"snowbirds\" do inverno, ruas e atrações mais cheias e preços de hospedagem no auge.",
+      "tipo": "CADASTRADO",
+      "fonte": "wander.com, U.S. News Travel (travel.usnews.com), flvacationconnection.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto — tarifas de hotel e passagem mais baixas do ano, porém com calor intenso (médias acima de 32°C), umidade alta e mais chuva.",
+      "tipo": "CADASTRADO",
+      "fonte": "wander.com, U.S. News Travel (travel.usnews.com), flvacationconnection.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -421,16 +421,16 @@
   },
   "tampa": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Outubro/novembro a maio, com pico em março — temperaturas amenas, baixa umidade, maior procura turística e preços mais altos, especialmente no inverno e início da primavera.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel (travel.usnews.com), aaa.com Trip Canvas, milehacker.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Sazonalidade turística específica (lotação/preço) não pesquisada nesta sessão para esta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto/setembro — período mais barato do ano para hospedagem, porém com calor intenso, chuvas diárias à tarde e o pico da temporada de furacões.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel (travel.usnews.com), aaa.com Trip Canvas, milehacker.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": "Temporada oficial de furacões no Atlântico: 1º de junho a 30 de novembro, com pico estatístico entre meados de agosto e meados de outubro (~10 de setembro). Não significa que o destino \"fecha\" nesse período — parques temáticos de Orlando, por exemplo, seguem cheios no verão — mas voos e passeios ao ar livre podem sofrer atrasos/cancelamentos por tempestade tropical.",
@@ -441,16 +441,16 @@
   },
   "ocala": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Outubro a abril, com picos em março/abril e dezembro — clima ameno, baixa umidade e temporada do World Equestrian Center em pleno funcionamento, o que aumenta a procura turística.",
+      "tipo": "CADASTRADO",
+      "fonte": "onlyinocala.com, championtraveler.com, motoworldexplorer.com",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a setembro — baixa temporada por causa do calor intenso (em torno de 34°C), umidade elevada e maior volume de chuvas, o que reduz o fluxo de visitantes.",
+      "tipo": "CADASTRADO",
+      "fonte": "onlyinocala.com, championtraveler.com, motoworldexplorer.com",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -461,16 +461,16 @@
   },
   "gainesville": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto — mês mais movimentado do ano é julho, seguido de agosto e junho, com hotéis e passagens mais caros; procura adicional em fins de semana de jogos de futebol americano dos Florida Gators no outono (The Swamp).",
+      "tipo": "CADASTRADO",
+      "fonte": "Champion Traveler, On The Eve, Visit Florida",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Março a maio e setembro a novembro (fora dos fins de semana de jogos) — temporada de tarifas mais baixas em hotéis e passagens, com clima ameno e menos lotação.",
+      "tipo": "CADASTRADO",
+      "fonte": "Champion Traveler, On The Eve, Visit Florida",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -481,16 +481,16 @@
   },
   "valdosta": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Meados de março a meados de maio (florada e Azalea Festival) e outubro a meados de novembro (festivais de outono e eventos no parque Wild Adventures) — maior procura turística ligada a eventos sazonais e clima mais ameno.",
+      "tipo": "CADASTRADO",
+      "fonte": "Visit Valdosta, Explore Georgia, Champion Traveler",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto — verão quente e úmido, com junho sendo o mês mais chuvoso do ano; menor procura turística voltada a lazer ao ar livre.",
+      "tipo": "CADASTRADO",
+      "fonte": "Visit Valdosta, Explore Georgia, Champion Traveler",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -501,16 +501,16 @@
   },
   "macon": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Março e abril (florada das 170 mil cerejeiras e International Cherry Blossom Festival) e junho–julho (turismo mais movimentado, com destaque para o festival musical Bragg Jam em julho) — diárias de hotel mais altas.",
+      "tipo": "CADASTRADO",
+      "fonte": "Explore Georgia, Champion Traveler, TripHobo",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Inverno (dezembro a fevereiro) — temporada mais fraca de turismo devido ao clima frio, com menor procura e preços mais baixos.",
+      "tipo": "CADASTRADO",
+      "fonte": "Explore Georgia, Champion Traveler, TripHobo",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -521,16 +521,16 @@
   },
   "atlanta": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Maio a setembro — verão americano, com calor e umidade coincidindo com maior lotação turística e diárias de hotel mais altas; feriados de fim de ano também elevam a procura.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel, CityPASS Blog, AAA Trip Canvas",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Janeiro a abril — baixa temporada, com tarifas aéreas e hoteleiras mais baixas, especialmente em janeiro, logo após o fim da temporada de festas.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel, CityPASS Blog, AAA Trip Canvas",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -541,16 +541,16 @@
   },
   "chattanooga": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Junho a agosto (verão) e outubro (pico de turismo, folhagem de outono) — maior procura e diárias de hotel mais altas; outubro é o mês mais caro do ano (~US$179/noite em média).",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel, NoogaFinder, GetCostIdea, Champion Traveler",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Dezembro a fevereiro (especialmente janeiro) — temporada mais fraca do ano, com hotéis mais baratos (~US$122/noite em média) e menos fila nas atrações.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel, NoogaFinder, GetCostIdea, Champion Traveler",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
@@ -561,16 +561,16 @@
   },
   "knoxville": {
     "altaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Verão (junho a agosto) e outubro — meses mais movimentados do turismo, com destaque para outubro (folhagem de outono) e fins de semana de jogos de futebol americano da Universidade do Tennessee, quando os hotéis ficam mais caros.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel, Champion Traveler, Visit Knoxville",
+      "consultadoEm": "2026-09-09"
     },
     "baixaTemporada": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Pesquisa desta sessão não cobriu sazonalidade turística específica desta cidade.",
-      "consultadoEm": null
+      "valor": "Inverno (dezembro a fevereiro) — período mais ameno porém menos procurado, com tarifas de hotel mais baixas.",
+      "tipo": "CADASTRADO",
+      "fonte": "U.S. News Travel, Champion Traveler, Visit Knoxville",
+      "consultadoEm": "2026-09-09"
     },
     "melhorEpoca": {
       "valor": null,
