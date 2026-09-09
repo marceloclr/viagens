@@ -26,26 +26,26 @@
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — a página de contatos da Embaixada não lista telefone de plantão próprio; emergências consulares são atendidas pelo Consulado-Geral do Brasil em Madri (registro separado). Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não divulga número de WhatsApp próprio em sua página de contatos. Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "gov.br/mre — Embaixada do Brasil em Madri, página de contatos: assuntos e canais consulares (incluindo WhatsApp) são atendidos pelo Consulado-Geral do Brasil em Madri, registro separado nesta lista.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "gov.br/mre — Embaixada do Brasil em Madri, página de contatos: atendimento de plantão/emergência é feito pelo Consulado-Geral do Brasil em Madri, registro separado nesta lista.",
+      "consultadoEm": "2026-09-09"
     },
     "emailGeral": {
       "valor": "brasemb.madrid@itamaraty.gov.br",
@@ -68,14 +68,14 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "gov.br/mre — Embaixada do Brasil em Madri, página de contatos: atendimento consular ao público é feito pelo Consulado-Geral do Brasil em Madri, registro separado nesta lista, com horário próprio.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado horário telefônico específico em fonte oficial — o telefone geral (+34 91 700 46 50) é atendido no mesmo horário de atendimento da Embaixada (9h-13h e 14h-17h); não há linha telefônica consular própria da Embaixada. Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre toda a Espanha; o atendimento consular ao público é dividido entre os Consulados-Gerais em Madri e Barcelona.",
@@ -210,14 +210,14 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos: não há WhatsApp geral para consultas de rotina; o único número de WhatsApp divulgado é a linha de emergência (registrada em whatsappPlantao). Contato de rotina é feito por e-mail ou sistema e-consular.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "gov.br/mre — Consulado-Geral do Brasil em Barcelona, página Endereço e Contatos: não há WhatsApp para atendimento consular de rotina; o Consulado informa que não possui atendimento telefônico/WhatsApp para consultas consulares, apenas por e-mail ou e-consular.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": "+34 659 078 057",
