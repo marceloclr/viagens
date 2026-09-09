@@ -20,32 +20,32 @@
     "telefoneConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular ao público (função exercida pelo Consulado-Geral em Paris); verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o plantão consular de emergência é atendido pelo Consulado-Geral em Paris (+33 6 80 80 96 78), não pela Embaixada; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular ao público; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "emailGeral": {
       "valor": "brasemb.paris@itamaraty.gov.br",
@@ -56,26 +56,26 @@
     "emailConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular ao público (função exercida pelo Consulado-Geral em Paris, assistencia.cgparis@itamaraty.gov.br); verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioAtendimento": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o sítio oficial indica apenas atendimento de segunda a sexta-feira mediante agendamento prévio, sem horário específico publicado; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular ao público; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre toda a França; o atendimento consular ao público é prestado pelo Consulado-Geral em Paris.",
@@ -101,16 +101,16 @@
       "consultadoEm": "2026-08-27"
     },
     "telefoneGeral": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "+33 1 45 61 85 50",
+      "tipo": "CADASTRADO",
+      "fonte": "France Diplomatie (diplomatie.gouv.fr) — Consulat Général du Brésil à Paris; cross-checado com cidade-brasil.com.br",
+      "consultadoEm": "2026-09-09"
     },
     "telefoneConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — não há linha específica do setor consular distinta do telefone geral (+33 1 45 61 85 50); verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "telefonePlantao": {
       "valor": "+33 6 80 80 96 78",
@@ -121,20 +121,20 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o telefone de plantão (+33 6 80 80 96 78) não está confirmado como número de WhatsApp em fonte oficial; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "emailGeral": {
       "valor": "consulat.cgparis@itamaraty.gov.br",
@@ -157,14 +157,14 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — atendimento presencial é somente mediante agendamento prévio via plataforma e-consular (ec-paris.itamaraty.gov.br), sem horário fixo publicado; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Île-de-France, Grand Est, Bourgogne-Franche-Comté, Centre-Val de Loire, Pays de la Loire, Bretanha, Normandia e Hauts-de-France.",
