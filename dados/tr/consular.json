@@ -20,8 +20,8 @@
     "telefoneConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. A Embaixada não divulga um telefone de setor consular distinto do telefone geral (+90 312 448-1840), que também atende assuntos consulares no horário de atendimento.",
+      "consultadoEm": "2026-09-09"
     },
     "telefonePlantao": {
       "valor": "+90 533 424 04 29",
@@ -33,14 +33,14 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. A Embaixada não divulga um WhatsApp de atendimento geral, apenas o número de plantão consular emergencial.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. A Embaixada não divulga um WhatsApp específico do setor consular distinto do número de plantão emergencial.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": "+90 533 424 04 29",
@@ -69,14 +69,14 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. Não há indicação de um horário de setor consular distinto do horário geral de atendimento.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Todo o território da Turquia, exceto as províncias sob jurisdição do Consulado-Geral em Istambul.",
@@ -110,8 +110,8 @@
     "telefoneConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. O Consulado-Geral não divulga um telefone de setor consular distinto do telefone geral (+90 212 252 00 13).",
+      "consultadoEm": "2026-09-09"
     },
     "telefonePlantao": {
       "valor": "+90 554 834 59 52",
@@ -122,14 +122,14 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. O Consulado-Geral não divulga um WhatsApp de atendimento geral, apenas o número de plantão consular emergencial.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. Não há WhatsApp específico do setor consular distinto do número de plantão emergencial.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": "+90 554 834 59 52",
@@ -138,10 +138,10 @@
       "consultadoEm": "2026-09-04"
     },
     "emailGeral": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "cg.istambul@itamaraty.gov.br",
+      "tipo": "CADASTRADO",
+      "fonte": "https://www.gov.br/mre/pt-br/consulado-istambul/english/contact-us — listado como contato de Protocolo/Chancelaria (\"Protocol Affairs\") do Consulado-Geral, distinto do e-mail consular.istambul@itamaraty.gov.br voltado à assistência a brasileiros",
+      "consultadoEm": "2026-09-09"
     },
     "emailConsular": {
       "valor": "consular.istambul@itamaraty.gov.br",
@@ -158,14 +158,14 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto. Não há indicação de um horário de setor consular distinto do horário geral de atendimento (por agendamento via e-Consular).",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Regiões de Mármara e do Egeu — províncias de Aydın, Bilecik, Bursa, Çanakkale, Denizli, Edirne, Istambul, İzmir, Kırklareli, Kocaeli, Kütahya, Manisa, Muğla, Sakarya, Tekirdağ, Uşak e Yalova. Cobre Esmirna e Éfeso (Selçuk, província de İzmir); a Capadócia (Nevşehir) fica sob a jurisdição da Embaixada em Ancara.",
@@ -176,6 +176,6 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-istambul",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-26",
-    "observacoes": "Todos os serviços consulares exigem agendamento prévio pelo Sistema e-Consular (ec-istambul.itamaraty.gov.br). E-mail geral não foi confirmado numa página oficial durante a pesquisa; blogs de terceiros citam cg.istambul@itamaraty.gov.br, mas isso não foi verificado na fonte primária, por isso foi deixado como INDISPONIVEL (o e-mail consular.istambul@itamaraty.gov.br, esse sim confirmado, é destinado à assistência a brasileiros). O contato de plantão (+90 554 834 59 52, também por WhatsApp) é de uso exclusivo para emergências envolvendo brasileiros (acidente, óbito, prisão, hospitalização, desastre natural), não para trâmites consulares de rotina."
+    "observacoes": "Todos os serviços consulares exigem agendamento prévio pelo Sistema e-Consular (ec-istambul.itamaraty.gov.br). O e-mail cg.istambul@itamaraty.gov.br foi confirmado em 2026-09-09 na página oficial de contatos em inglês do Consulado-Geral (gov.br/mre/pt-br/consulado-istambul/english/contact-us), listado para assuntos de Protocolo/Chancelaria; o e-mail consular.istambul@itamaraty.gov.br é o destinado especificamente à assistência a brasileiros. O contato de plantão (+90 554 834 59 52, também por WhatsApp) é de uso exclusivo para emergências envolvendo brasileiros (acidente, óbito, prisão, hospitalização, desastre natural), não para trâmites consulares de rotina."
   }
 ]

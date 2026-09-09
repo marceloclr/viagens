@@ -20,32 +20,32 @@
     "telefoneConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre — a Embaixada em Berna não possui setor consular; atendimento consular é feito pelos Consulados-Gerais em Genebra ou Zurique.",
+      "consultadoEm": "2026-09-09"
     },
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre — a Embaixada em Berna não possui setor consular nem linha de plantão própria; emergências são atendidas pelos plantões dos Consulados-Gerais em Genebra (+41 79 830 3556) ou Zurique (+41 79 742 5300).",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre — a Embaixada em Berna não possui setor consular; atendimento consular é feito pelos Consulados-Gerais em Genebra ou Zurique.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre — a Embaixada em Berna não possui setor consular nem linha de plantão própria; emergências são atendidas pelos plantões dos Consulados-Gerais em Genebra ou Zurique.",
+      "consultadoEm": "2026-09-09"
     },
     "emailGeral": {
       "valor": "brasemb.berna@itamaraty.gov.br",
@@ -56,26 +56,26 @@
     "emailConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre — a Embaixada em Berna não possui setor consular; e-mails consulares devem ser dirigidos aos Consulados-Gerais em Genebra (cg.genebra@itamaraty.gov.br) ou Zurique (vistos.cgzurique@itamaraty.gov.br).",
+      "consultadoEm": "2026-09-09"
     },
     "horarioAtendimento": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre — a Embaixada em Berna não possui setor consular; atendimento consular é feito pelos Consulados-Gerais em Genebra ou Zurique.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre toda a Suíça e o Liechtenstein; o atendimento consular ao público é dividido entre os Consulados-Gerais em Genebra e Zurique.",
@@ -113,10 +113,10 @@
       "consultadoEm": "2026-08-26"
     },
     "telefonePlantao": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "+41 79 830 3556 (Genebra) / +55 61 98260 0610 (Brasília)",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Genebra (linha de plantão exclusiva para casos excepcionais de urgência comprovada: falecimento, prisão, violência, acidentes graves, hospitalização de emergência ou catástrofe natural; não presta informações sobre andamento de processos consulares). Observação: este mesmo número já constava cadastrado no campo telefoneConsular deste posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappGeral": {
       "valor": "+41 22 906 9420",
@@ -127,14 +127,14 @@
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o WhatsApp oficial (+41 22 906 9420) é de uso geral (já cadastrado em whatsappGeral); não há linha de WhatsApp consular distinta divulgada.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o plantão de emergência é atendido apenas por telefone (+41 79 830 3556), sem WhatsApp confirmado.",
+      "consultadoEm": "2026-09-09"
     },
     "emailGeral": {
       "valor": "cg.genebra@itamaraty.gov.br",
@@ -145,8 +145,8 @@
     "emailConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o e-mail geral (cg.genebra@itamaraty.gov.br, resposta em até 48h úteis) também atende questões consulares; não há e-mail consular específico divulgado.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 9h às 12h, mediante agendamento eletrônico",
@@ -157,14 +157,14 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado horário consular distinto do horário de atendimento geral (segunda a sexta-feira, 9h às 12h, mediante agendamento eletrônico).",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — o Consulado não opera atendimento telefônico direto ao público; contato é feito via WhatsApp (+41 22 906 9420, resposta em até 24h úteis) ou e-mail (resposta em até 48h úteis).",
+      "consultadoEm": "2026-09-09"
     },
     "jurisdicao": {
       "valor": "Cantões de Genebra, Friburgo, Jura, Neuchâtel, Valais e Vaud.",
@@ -175,7 +175,7 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-genebra",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-26",
-    "observacoes": "Agendamento eletrônico obrigatório via https://ec-genebra.itamaraty.gov.br"
+    "observacoes": "Agendamento eletrônico obrigatório via https://ec-genebra.itamaraty.gov.br. O telefone de plantão é o mesmo já cadastrado como telefoneConsular (+41 79 830 3556) — uso exclusivo para emergências comprovadas (óbito, prisão, violência, acidente grave, hospitalização de emergência ou catástrofe natural), não para trâmites de rotina."
   },
   {
     "id": "br_cg_zurique",
@@ -198,8 +198,8 @@
     "telefoneConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em gov.br/mre (Fale com o Consulado / Assistência Consular) — o Consulado não possui atendimento telefônico para consultas sobre serviços consulares; existe apenas a linha de plantão para emergências (já cadastrada em telefonePlantao) e o atendimento é feito via sistema e-Consular.",
+      "consultadoEm": "2026-09-09"
     },
     "telefonePlantao": {
       "valor": "+41 79 742 5300",
@@ -210,20 +210,20 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-09"
     },
     "emailGeral": {
       "valor": "geral.cgzurique@itamaraty.gov.br",
@@ -238,16 +238,16 @@
       "consultadoEm": "2026-08-26"
     },
     "horarioAtendimento": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": "Segunda a sexta-feira, das 9h às 13h; e, no período da tarde, de segunda a quinta-feira, das 14h às 16h",
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/mre - Consulado-Geral do Brasil em Zurique (Informações Gerais)",
+      "consultadoEm": "2026-09-09"
     },
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Não localizado horário consular distinto do horário de atendimento geral — o atendimento consular é feito exclusivamente mediante agendamento prévio pelo sistema e-Consular.",
+      "consultadoEm": "2026-09-09"
     },
     "horarioTelefonico": {
       "valor": "Segunda a sexta-feira, das 11h às 13h",
