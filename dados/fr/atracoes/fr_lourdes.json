@@ -129,10 +129,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Tarifa vigente não confirmada em fonte oficial no momento da consulta — crianças até 6 anos entram gratuitamente.",
-      "consultadoEm": "2026-08-27"
+      "valor": { "adulto": 8 },
+      "tipo": "CADASTRADO",
+      "fonte": "chateaufort-lourdes.fr/presentation/informations-pratiques.html — sítio oficial",
+      "consultadoEm": "2026-09-14",
+      "nota": "Crianças até 6 anos entram gratuitamente; tarifa infantil a partir de 4 €."
     },
     "oficial": "https://www.chateaufort-lourdes.fr/",
     "desc": "Fortaleza medieval no alto da cidade, hoje sede do Museu Pirenaico — a opção não religiosa de Lourdes, com panorama sobre o santuário e os Pirenéus."

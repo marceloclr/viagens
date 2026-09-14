@@ -21,31 +21,31 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada trata de assuntos político-diplomáticos; o atendimento consular é prestado pelo Consulado-Geral do Brasil em Lisboa, que possui telefone próprio.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o plantão emergencial para brasileiros é operado pelo Consulado-Geral do Brasil em Lisboa (+351 962 520 581), não pela Embaixada.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — página de contatos da Embaixada (gov.br/mre) não lista WhatsApp.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": "brasemb.lisboa@itamaraty.gov.br",
@@ -57,7 +57,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular; assuntos de passaporte/visto são tratados pelo Consulado-Geral do Brasil em Lisboa (cg.lisboa@itamaraty.gov.br).",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioAtendimento": {
       "valor": null,
@@ -69,13 +69,13 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular ao público.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre todo Portugal; o atendimento consular ao público é dividido entre os Consulados-Gerais em Lisboa e no Porto.",
@@ -110,7 +110,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o telefone geral (+351 211 358 587) atende também questões consulares.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "telefonePlantao": {
       "valor": "+351 962 520 581",
@@ -123,19 +123,19 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — página de contatos do Consulado-Geral (gov.br/mre) não lista WhatsApp.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": "cg.lisboa@itamaraty.gov.br",
@@ -147,7 +147,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o e-mail geral (cg.lisboa@itamaraty.gov.br) é o canal oficial também para assuntos consulares.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira (exceto feriados), das 9h às 13h e das 14h às 17h",
@@ -165,7 +165,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — atendimento é feito exclusivamente por agendamento no sistema e-consular, sem horário telefônico dedicado divulgado.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Distritos de Castelo Branco, Leiria, Lisboa, Portalegre, Santarém e Setúbal (exceto os municípios de Alcácer do Sal, Grândola, Santiago do Cacém e Sines), além das regiões autônomas dos arquipélagos dos Açores e da Madeira",
@@ -200,7 +200,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o telefone geral (+351 22 608 4070) atende também questões consulares.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "telefonePlantao": {
       "valor": "+351 962 073 793",
@@ -213,25 +213,25 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — página de contatos do Consulado-Geral (gov.br/mre) não lista WhatsApp.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a página de contatos lista apenas e-mails setoriais (consular.porto, ascons.porto, eleitoral.porto), sem e-mail geral divulgado.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "emailConsular": {
       "valor": "consular.porto@itamaraty.gov.br",
@@ -255,7 +255,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — atendimento é feito exclusivamente por agendamento no sistema e-consular, sem horário telefônico dedicado divulgado.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Distritos do Porto, Aveiro, Braga, Bragança, Coimbra, Guarda, Viana do Castelo, Vila Real e Viseu.",

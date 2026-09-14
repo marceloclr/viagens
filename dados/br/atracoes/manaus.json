@@ -22,10 +22,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor do ingresso de visita guiada não confirmado com precisão nesta pesquisa — confirmar no local ou site oficial antes da viagem",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 20, "meia": 10 },
+      "tipo": "CADASTRADO",
+      "fonte": "teatroamazonas.com.br/visitacao-2/ — sítio oficial",
+      "consultadoEm": "2026-09-14",
+      "nota": "Meia-entrada para estudantes, professores, idosos 60+, crianças até 10 anos, doadores de sangue, militares e acompanhante de PCD. Amazonenses não pagam, mediante comprovação."
     },
     "oficial": null,
     "desc": "Casa de ópera erguida no auge do ciclo da borracha (inaugurada em 1896), com mármore de Carrara e ferro importados da Europa — Patrimônio Cultural do Brasil e símbolo máximo de Manaus. Sedia a Praça São Sebastião e o Festival Amazonas de Ópera."
@@ -147,10 +148,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — reservas via agendamento@museudaamazonia.org.br",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 50, "meia": 25 },
+      "tipo": "CADASTRADO",
+      "fonte": "museudaamazonia.org.br/en/visit-musa/ — sítio oficial",
+      "consultadoEm": "2026-09-14",
+      "nota": "Meia-entrada para moradores de Manaus, idosos 60+, estudantes, professores e acompanhante de PCD. Visita guiada + trilha, nascer/pôr do sol na torre ou observação de aves custam R$ 70 cada; trilha noturna R$ 140. Gratuito até 5 anos."
     },
     "oficial": "https://museudaamazonia.org.br",
     "desc": "Área de 100 hectares de mata de terra firme com cerca de 3 km de trilhas interpretativas, viveiros de orquídeas e bromélias, lago com vitórias-régias e uma torre de observação de 42 metros sobre o dossel da floresta — mirante especialmente recomendado ao amanhecer."

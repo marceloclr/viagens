@@ -43,10 +43,11 @@
     "endereco": "Cour de Saint-Pierre 6, 1204 Genève, Suíça",
     "desc": "Catedral gótica que foi centro da Reforma Calvinista; a entrada na igreja é livre, mas a subida às torres e o sítio arqueológico são pagos.",
     "custo": {
-      "valor": { "adulto": 5 },
+      "valor": { "adulto": 7, "avs": 5, "jovem": 4 },
       "tipo": "CADASTRADO",
-      "fonte": "Reportagem consolidada de guias turísticos (Rehlat/USNews) citando tarifa das torres em CHF; valor não confirmado no site oficial saintpierre-geneve.ch (indisponível no momento da consulta)",
-      "consultadoEm": "2026-08-26"
+      "fonte": "geneve.com — Genève Tourisme, sítio oficial de turismo da cidade (site institucional da catedral, saintpierre-geneve.ch, permanece instável)",
+      "consultadoEm": "2026-09-14",
+      "nota": "Bilhete combinado torres + sítio arqueológico: CHF 12. Gratuito com o City Pass de Genebra."
     },
     "horario": {
       "valor": "Igreja: seg-sáb 10h-17h30, dom 12h-17h30 (verão até 18h); horário das torres pode variar por estação",

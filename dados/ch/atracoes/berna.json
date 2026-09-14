@@ -10,10 +10,11 @@
     "endereco": "Kramgasse/Zytglogge, 3011 Bern, Suíça",
     "desc": "Torre medieval do relógio astronômico, um dos símbolos mais fotografados de Berna; visitas guiadas mostram o mecanismo interno e o autômato de bonecos.",
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Vista externa é gratuita; valor exato do tour guiado ao interior varia por operador (aprox. equivalente a USD 22, sem confirmação oficial em CHF)",
-      "consultadoEm": null
+      "valor": { "adulto": 25 },
+      "tipo": "CADASTRADO",
+      "fonte": "madeinbern.com — parceiro oficial de bilheteria do tour guiado da Zytglogge (operado com Bern Welcome)",
+      "consultadoEm": "2026-09-14",
+      "nota": "Vista externa da torre é gratuita. Tarifa reduzida (pensionistas/PCD) CHF 20; criança CHF 12."
     },
     "horario": {
       "valor": "Tour guiado diário às 14h30, de abril a outubro; de novembro a março, sob consulta",

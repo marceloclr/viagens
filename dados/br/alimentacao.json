@@ -128,10 +128,10 @@
         "especialidade": "Cozinha autoral indígena-amazônica — menu sazonal com pirarucu, urari e tucupi",
         "endereco": "Rua 10 de Julho, 495, Centro, Manaus - AM",
         "horario": {
-          "valor": "Almoço de segunda a sábado, salão aberto das 11h às 15h — horário reportado em cobertura de 2021, recomendável confirmar vigência atual diretamente com a casa",
+          "valor": "Terça a domingo, das 11h30 às 15h e das 19h às 22h; fecha às segundas",
           "tipo": "CADASTRADO",
-          "fonte": "leblog.com.br, viajento.com — cobertura consolidada sobre o Caxiri, consultado via busca em 2026-09-02",
-          "consultadoEm": "2026-09-02"
+          "fonte": "wanderboat.ai, airial.travel — cobertura consolidada mais recente sobre o Caxiri (atualiza o horário de 2021, que registrava apenas almoço de segunda a sábado), consultado via busca em 2026-09-14",
+          "consultadoEm": "2026-09-14"
         },
         "link": "https://www.theworlds50best.com/discovery/Establishments/Brazil/Manaus/Caxiri.html",
         "cardapio": "https://cardapio.menu/restaurants/manaus/caxiri-manaus",
@@ -148,8 +148,8 @@
         "horario": {
           "valor": null,
           "tipo": "INDISPONIVEL",
-          "fonte": "Horário de funcionamento não confirmado com precisão nesta pesquisa — verificar direto com o estabelecimento",
-          "consultadoEm": "2026-09-02"
+          "fonte": "Fontes divergem: barembar.com.br indica terça a domingo a partir das 14h (segunda a partir das 19h); outro agregado (Yelp) indica abertura já às 10h em vários dias — sem confirmação em site oficial ou perfil oficial verificado, verificar direto com o estabelecimento",
+          "consultadoEm": "2026-09-14"
         },
         "link": "https://www.facebook.com/BarDoArmando/",
         "cardapio": null,

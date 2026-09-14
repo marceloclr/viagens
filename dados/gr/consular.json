@@ -29,9 +29,9 @@
       "fonte": "gov.br/mre — Embaixada do Brasil em Atenas, Setor Consular (plantão exclusivo para emergências envolvendo brasileiros)",
       "consultadoEm": "2026-09-04"
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não divulga número de WhatsApp geral; a página consular apenas orienta o cidadão a informar seu próprio telefone/WhatsApp para contato de retorno. Verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — o Setor Consular não divulga WhatsApp próprio; atendimento é por telefone e e-mail (consular.atenas@itamaraty.gov.br). Verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — não foi possível confirmar se o telefone de plantão (+30 693 692 1673) também atende por WhatsApp. Verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão — a Embaixada não divulga número de WhatsApp geral; a página consular apenas orienta o cidadão a informar seu próprio telefone/WhatsApp para contato de retorno. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão — o Setor Consular não divulga WhatsApp próprio; atendimento é por telefone (+30 210 721 3039, ramal 1) e e-mail (consular.atenas@itamaraty.gov.br). Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão — não foi possível confirmar se o telefone de plantão (+30 693 692 1673) também atende por WhatsApp. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "emailGeral": {
       "valor": "brasemb.atenas@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -71,6 +71,6 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/embaixada-atenas",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-27",
-    "observacoes": "Fax institucional: +30 210 724 4731. Horário de atendimento presencial e telefone de plantão para emergências não constavam nas páginas oficiais consultadas — confirme no sítio oficial antes da viagem."
+    "observacoes": "Fax institucional: +30 210 724 4731. Horário de atendimento presencial (9h às 15h) e telefone de plantão para emergências (+30 693 692 1673) já constam nos campos acima; não há WhatsApp divulgado em fonte oficial para nenhuma dessas linhas (reverificado em 2026-09-14) — confirme no sítio oficial antes da viagem."
   }
 ]

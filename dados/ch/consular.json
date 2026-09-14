@@ -32,8 +32,8 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14 (gov.br/mre e busca adicional) — a Embaixada em Berna não possui setor consular e não há WhatsApp de atendimento geral divulgado em fonte oficial (apenas telefone +41 31 371 85 15 e e-mail); verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
@@ -62,8 +62,8 @@
     "horarioAtendimento": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14 — a página oficial da Embaixada em Berna (gov.br/mre) não publica horário de atendimento presencial específico; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "horarioConsular": {
       "valor": null,
@@ -74,8 +74,8 @@
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14 — não localizado horário telefônico específico para a Embaixada em Berna em fonte oficial; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre toda a Suíça e o Liechtenstein; o atendimento consular ao público é dividido entre os Consulados-Gerais em Genebra e Zurique.",
@@ -127,14 +127,14 @@
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — o WhatsApp oficial (+41 22 906 9420) é de uso geral (já cadastrado em whatsappGeral); não há linha de WhatsApp consular distinta divulgada.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — o WhatsApp oficial (+41 22 906 9420) é de uso geral (já cadastrado em whatsappGeral); não há linha de WhatsApp consular distinta divulgada em fonte oficial.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — o plantão de emergência é atendido apenas por telefone (+41 79 830 3556), sem WhatsApp confirmado.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — o plantão de emergência é atendido apenas por telefone (+41 79 830 3556 / +55 61 98260 0610), sem WhatsApp confirmado em fonte oficial.",
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": "cg.genebra@itamaraty.gov.br",
@@ -145,8 +145,8 @@
     "emailConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — o e-mail geral (cg.genebra@itamaraty.gov.br, resposta em até 48h úteis) também atende questões consulares; não há e-mail consular específico divulgado.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — o e-mail geral (cg.genebra@itamaraty.gov.br, resposta em até 48h úteis) também atende questões consulares; não há e-mail consular específico divulgado em fonte oficial.",
+      "consultadoEm": "2026-09-14"
     },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 9h às 12h, mediante agendamento eletrônico",
@@ -157,14 +157,14 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado horário consular distinto do horário de atendimento geral (segunda a sexta-feira, 9h às 12h, mediante agendamento eletrônico).",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — não localizado horário consular distinto do horário de atendimento geral (segunda a sexta-feira, 9h às 12h, mediante agendamento eletrônico).",
+      "consultadoEm": "2026-09-14"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — o Consulado não opera atendimento telefônico direto ao público; contato é feito via WhatsApp (+41 22 906 9420, resposta em até 24h úteis) ou e-mail (resposta em até 48h úteis).",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — o Consulado não opera atendimento telefônico direto ao público; contato é feito via WhatsApp (+41 22 906 9420, resposta em até 24h úteis) ou e-mail (resposta em até 48h úteis).",
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Cantões de Genebra, Friburgo, Jura, Neuchâtel, Valais e Vaud.",
@@ -210,20 +210,20 @@
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14 — busca adicional (gov.br/mre e fontes de terceiros) confirma que o Consulado-Geral em Zurique não oferece atendimento geral por WhatsApp; contato de rotina é por telefone (+41 44 206 9020) ou e-mail; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — não localizado WhatsApp consular distinto do WhatsApp geral (que também não foi localizado) para o Consulado-Geral em Zurique; verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — o plantão de emergência do Consulado-Geral em Zurique (+41 79 742 5300) é divulgado apenas como linha telefônica, sem WhatsApp confirmado em fonte oficial.",
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": "geral.cgzurique@itamaraty.gov.br",
@@ -246,8 +246,8 @@
     "horarioConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado horário consular distinto do horário de atendimento geral — o atendimento consular é feito exclusivamente mediante agendamento prévio pelo sistema e-Consular.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — não localizado horário consular distinto do horário de atendimento geral; o atendimento consular é feito exclusivamente mediante agendamento prévio pelo sistema e-Consular.",
+      "consultadoEm": "2026-09-14"
     },
     "horarioTelefonico": {
       "valor": "Segunda a sexta-feira, das 11h às 13h",

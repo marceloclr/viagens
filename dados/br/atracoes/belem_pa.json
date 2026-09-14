@@ -146,10 +146,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor da visita guiada não confirmado com precisão nesta pesquisa — costuma ter opção gratuita em horários definidos",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 10, "meia": 5 },
+      "tipo": "CADASTRADO",
+      "fonte": "theatrodapaz.com.br/visitação — sítio oficial",
+      "consultadoEm": "2026-09-14",
+      "nota": "Às quartas-feiras as visitas espontâneas são gratuitas. Grupos acima de 6 pessoas exigem agendamento prévio."
     },
     "oficial": null,
     "desc": "Teatro municipal neoclássico erguido durante o auge do ciclo da borracha, com interiores inspirados na Ópera de Paris — irmão mais discreto do Teatro Amazonas de Manaus e um dos símbolos da riqueza que o látex trouxe à região."
@@ -177,10 +178,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa — confirmar no site oficial do museu antes da viagem",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 3 },
+      "tipo": "CADASTRADO",
+      "fonte": "gov.br/museugoeldi/pt-br/a-instituicao/visitacao/informacoes-sobre-ingressos-e-horarios — sítio oficial",
+      "consultadoEm": "2026-09-14",
+      "nota": "Meia-entrada para estudantes; gratuidade para crianças até 12 anos, maiores de 60 e PCD."
     },
     "oficial": null,
     "desc": "Fundado em 1866, é a mais antiga instituição de pesquisa da Amazônia — parque zoobotânico de 5,2 hectares no meio urbano com onças, aves, répteis e jardins botânicos, ideal para uma introdução à biodiversidade amazônica sem sair da cidade."
@@ -208,10 +210,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 4 },
+      "tipo": "ESTIMADO",
+      "fonte": "Cobertura consolidada (tripadvisor.com, triphobo.com) sobre o Museu do Encontro dentro do Forte do Presépio; sem confirmação em sítio oficial da Fundação Cultural do Pará — entrada gratuita às terças",
+      "consultadoEm": "2026-09-14",
+      "nota": "Valor referente ao Museu do Encontro, que dá acesso às muralhas do forte."
     },
     "oficial": null,
     "desc": "Primeira construção erguida em Belém, em 1616, marco fundador da cidade e da presença portuguesa na Amazônia — hoje museu histórico-arqueológico com achados do sítio original e vista sobre o rio Guamá."
@@ -241,8 +244,8 @@
     "custo": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
-      "consultadoEm": "2026-09-02"
+      "fonte": "Buscas (belemtur.belem.pa.gov.br) confirmam apenas gratuidades (terças, agendados, idosos, crianças até 7 anos, PCD, militares) — valor da entrada padrão não confirmado em fonte oficial",
+      "consultadoEm": "2026-09-14"
     },
     "oficial": null,
     "desc": "Casarão do século XVIII vizinho ao Forte do Presépio, hoje espaço cultural e museu de arte contemporânea, com terraço voltado ao rio Guamá que é um dos melhores pontos da cidade para o pôr do sol."
@@ -333,10 +336,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Valor de ingresso não confirmado com precisão nesta pesquisa",
-      "consultadoEm": "2026-09-02"
+      "valor": { "adulto": 2 },
+      "tipo": "CADASTRADO",
+      "fonte": "meioambiente.belem.pa.gov.br/bosque/visitacao-horarios — sítio oficial da Secretaria de Meio Ambiente de Belém; oliberal.com",
+      "consultadoEm": "2026-09-14",
+      "nota": "Meia-entrada para estudantes; gratuidade até 6 anos e a partir de 60 anos. Entrada gratuita para todos no último fim de semana de cada mês."
     },
     "oficial": null,
     "desc": "Reserva de mata nativa remanescente dentro do perímetro urbano, com trilhas arborizadas, lagos e viveiro de fauna amazônica — a mais antiga área verde protegida de Belém, criada ainda no início do século XX."

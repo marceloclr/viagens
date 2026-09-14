@@ -843,8 +843,8 @@
     "icone": "✈️",
     "duracao": 55,
     "custoPP": null,
-    "obs": "AUSÊNCIA CONFIRMADA DE DADO CONFIÁVEL: fontes consultadas se contradizem sobre a existência de voo direto sem escala nesta rota — algumas indicam frequência direta pela Aegean, outras afirmam que só há voos com conexão (geralmente via Atenas) operados pela SKY express. A duração de 55 min é a de um eventual trecho direto, não confirmada com precisão. Antes de fechar um roteiro com este trecho, verifique diretamente no site da companhia — não há dado desta base em que confiar cegamente aqui.",
-    "fonte": "rome2rio.com, kiwi.com, skyexpress.gr — cobertura consolidada e contraditória sobre a rota Mykonos–Rodes, consultado via busca em 2026-09-02",
+    "obs": "Resolvido: a Aegean Airlines opera voo direto sem escala nesta rota, mas com frequência muito baixa — 2 voos por semana (segunda e sexta), 55 min de duração, confirmado por disponibilidade de tarifas reais no motor de busca oficial aegeanair.com para vários meses de 2026 e por flightsfrom.com. A SKY Express, por sua vez, não opera voo direto nesta rota — apenas conexões (geralmente via Atenas). Dada a baixíssima frequência do voo direto da Aegean, a conexão via Atenas continua sendo a alternativa mais prática para a maioria dos roteiros.",
+    "fonte": "flightsfrom.com, aegeanair.com (motor de busca oficial, tarifas reais consultadas para abr/mai/jun/ago/set de 2026), rome2rio.com, kiwi.com, skyexpress.gr — consultado via busca em 2026-09-14",
     "categoria": "regional"
   }
 ]

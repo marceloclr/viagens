@@ -13,8 +13,8 @@
       "valor": { "adulto": 20 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
-      "consultadoEm": "2026-08-26",
-      "nota": "Valor em euros para visitantes estrangeiros; algumas capelas (como a Igreja das Sandálias/Karanlık Kilise) têm bilhete adicional não confirmado nesta pesquisa."
+      "consultadoEm": "2026-09-14",
+      "nota": "Valor em euros para visitantes estrangeiros. A Karanlık Kilise (Igreja Escura/das Sandálias) tem bilhete adicional de € 6, confirmado em dosim.ktb.gov.tr (sítio oficial do Ministério da Cultura e Turismo da Turquia); Museum Pass/Müzekart não é válido lá."
     },
     "horario": {
       "valor": "Verão: 8h às 19h (última entrada 18h); inverno: 8h às 17h (última entrada 16h)",
@@ -83,8 +83,8 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": null,
-      "consultadoEm": null,
-      "nota": "Administrado pela Prefeitura de Uçhisar (não pelo Ministério da Cultura); fontes divergem muito sobre o valor atual (de 10 a 400 TL conforme o ano da fonte), não foi possível confirmar preço confiável e atual."
+      "consultadoEm": "2026-09-14",
+      "nota": "Administrado pela Prefeitura de Uçhisar (não pelo Ministério da Cultura, por isso não consta em dosim.ktb.gov.tr e o Müzekart/Museum Pass não é aceito). Fontes de 2025–2026 ainda divergem bastante mesmo em período recente (200 TL citado para janeiro/2026, 320 TL citado como vigente em 2025) — sem site oficial da prefeitura com tarifário publicado, valor real seguirá volátil por causa da inflação turca; consultar no local."
     },
     "horario": {
       "valor": "Aproximadamente 7h às 20h no verão; 8h às 17h no inverno",

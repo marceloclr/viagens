@@ -87,8 +87,8 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": null,
-      "consultadoEm": null,
-      "nota": "Espaço aberto, integrado ao bairro de Ulus; fontes turísticas divergem sobre um horário formal de fechamento (algumas citam 9h–19h no verão e 9h–17h no inverno, outras afirmam acesso livre a qualquer hora) — sem confirmação em fonte oficial, mantido como indisponível."
+      "consultadoEm": "2026-09-14",
+      "nota": "A divergência entre fontes provavelmente reflete duas áreas distintas: as ruas e o bairro histórico dentro das muralhas (Ulus/Hisar) têm acesso livre 24h, enquanto o trecho da fortificação murada em si (İç Kale) costuma ter horário controlado por segurança, aproximadamente 8h–19h no verão e 8h–17h no inverno segundo fontes turísticas consolidadas (nenhum sítio oficial do município ou do Ministério da Cultura foi localizado com horário formal) — sem confirmação oficial única, mantido como indisponível."
     },
     "cat": [
       "historia",

@@ -22,10 +22,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Entrada da catedral é gratuita; a Capela e o Tesouro de São Januário têm bilhete à parte (relatado entre € 8 e € 12) — valor não confirmado em fonte oficial.",
-      "consultadoEm": "2026-08-27"
+      "valor": { "adulto": 15, "reduzido": 11 },
+      "tipo": "CADASTRADO",
+      "fonte": "tesorosangennaro.it/en/home-en/ — sítio oficial do Museo del Tesoro di San Gennaro",
+      "consultadoEm": "2026-09-14",
+      "nota": "Entrada da catedral, Basílica de Santa Restituta e batistério de San Giovanni in Fonte é gratuita. O bilhete de € 15 (reduzido € 11 para maiores de 65, acompanhantes de PCD e frequentadores cadastrados) dá acesso ao Museu do Tesouro e sacristias, com audioguia incluso. Visita apenas à Capela Real (gratuita) com audioguia avulso custa € 5."
     },
     "oficial": null,
     "desc": "Sé de Nápoles, dedicada a São Januário — guarda a relíquia do sangue do santo, exibida duas vezes ao ano em cerimônia que atrai multidões."

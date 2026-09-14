@@ -33,10 +33,10 @@
       "consultadoEm": "2026-09-08"
     },
     "melhorEpoca": {
-      "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado que o pico do verão. Sazonalidade de ferries entre ilhas não confirmada nesta sessão — confirme conectividade marítima fora da alta temporada antes de fechar o roteiro.",
+      "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado que o pico do verão. Ferries inter-ilhas nas Cíclades (Blue Star Ferries, SeaJets, Golden Star Ferries) operam com frequência bem reduzida fora de março–novembro; no inverno (dezembro–fevereiro), muitas ligações ilha-a-ilha somem do quadro ou caem para poucas saídas por semana — confirme a malha exata em ferryhopper.com/directferries.com antes de fechar o roteiro na baixa temporada.",
       "tipo": "CADASTRADO",
-      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
-      "consultadoEm": "2026-09-08"
+      "fonte": "ferryhopper.com, go-ferry.com, santorinisecrets.com — cobertura consolidada sobre sazonalidade de ferries nas Cíclades, consultado via busca em 2026-09-14",
+      "consultadoEm": "2026-09-14"
     }
   },
   "mykonos": {
@@ -53,10 +53,10 @@
       "consultadoEm": "2026-09-08"
     },
     "melhorEpoca": {
-      "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado que o pico do verão. Sazonalidade de ferries entre ilhas não confirmada nesta sessão — confirme conectividade marítima fora da alta temporada antes de fechar o roteiro.",
+      "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado que o pico do verão. A rota de ferry Mykonos–Santorini (Golden Star Ferries, SeaJets) opera essencialmente de março a novembro, com até 8 partidas diárias no verão; fora dessa janela (dezembro–fevereiro) a frequência cai muito ou a rota pode não operar — confirme a malha vigente em ferryhopper.com/directferries.com antes de fechar o roteiro na baixa temporada.",
       "tipo": "CADASTRADO",
-      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
-      "consultadoEm": "2026-09-08"
+      "fonte": "ferryhopper.com, go-ferry.com, greeka.com — cobertura consolidada sobre sazonalidade de ferries nas Cíclades, consultado via busca em 2026-09-14",
+      "consultadoEm": "2026-09-14"
     }
   },
   "rodes": {
@@ -73,10 +73,10 @@
       "consultadoEm": "2026-09-08"
     },
     "melhorEpoca": {
-      "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado que o pico do verão. Sazonalidade de ferries entre ilhas não confirmada nesta sessão — confirme conectividade marítima fora da alta temporada antes de fechar o roteiro.",
+      "valor": "abril–maio e setembro–outubro — clima ameno, menos lotado que o pico do verão. Rodes fica no Dodecaneso, fora do eixo principal das Cíclades: a travessia direta de ferry a Santorini/Mykonos (Blue Star Ferries) existe o ano todo, mas é longa (10h45–24h) e com frequência reduzida fora do verão; na prática, quem sai da baixa temporada tende a depender de voos via Atenas para conectar Rodes às demais ilhas do roteiro — confirme a malha vigente em ferryhopper.com/directferries.com.",
       "tipo": "CADASTRADO",
-      "fonte": "Padrão consolidado de sazonalidade turística na Europa (não é pesquisa específica desta cidade) — firebirdtours.com, expatexplore.com",
-      "consultadoEm": "2026-09-08"
+      "fonte": "ferryhopper.com, directferries.com — cobertura consolidada sobre a rota Rodes–Cíclades, consultado via busca em 2026-09-14",
+      "consultadoEm": "2026-09-14"
     }
   }
 }

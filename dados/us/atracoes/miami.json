@@ -54,12 +54,15 @@
     "desc": "Museu de arte moderna e contemporânea à beira da baía, projetado por Herzog & de Meuron, com jardins suspensos e vista para Biscayne Bay.",
     "custo": {
       "valor": {
-        "adulto": 18
+        "adulto": 16,
+        "estudante": 12,
+        "idoso": 12,
+        "gratuitoAte": 6
       },
       "tipo": "CADASTRADO",
-      "fonte": "pamm.org/visit — sítio oficial",
-      "consultadoEm": "2026-08-28",
-      "nota": "Tarifa reduzida para estudantes e menores não confirmada na fonte consultada; usar apenas o valor adulto até apuração."
+      "fonte": "pamm.org/en/membership/, whichmuseum.com (cobertura consolidada da tabela oficial) — pamm.org/tickets redireciona para plataforma de bilheteria (blackbaudhosting.com) inacessível nesta consulta",
+      "consultadoEm": "2026-09-14",
+      "nota": "Entrada gratuita todo segundo sábado do mês e às quintas-feiras das 17h às 21h."
     },
     "horario": {
       "valor": "Segunda 11h–18h; quinta 11h–21h; sexta a domingo 11h–18h; fechado terças e quartas",

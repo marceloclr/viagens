@@ -56,11 +56,11 @@
     "fechado": [],
     "endereco": "Largo Tomba di Rotari, 71037 Monte Sant'Angelo FG, Itália",
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Fontes turísticas divergem sobre o horário: algumas citam 9h às 19h diariamente, outras 10h–13h e 14h30–19h30 — sem confirmação em fonte oficial do município, mantido como indisponível."
+      "valor": "9h30 às 13h e 14h30 às 19h",
+      "tipo": "CADASTRADO",
+      "fonte": "montesantangelo.it/en/luoghi/310985 — sítio oficial do Comune di Monte Sant'Angelo",
+      "consultadoEm": "2026-09-14",
+      "nota": "Resolve a divergência anterior entre fontes turísticas de terceiros; horário oficial do município confirmado."
     },
     "custo": {
       "valor": null,

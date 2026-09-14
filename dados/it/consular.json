@@ -21,31 +21,31 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada (missão diplomática) não presta atendimento consular direto ao público; os serviços consulares são prestados pelo Consulado-Geral em Roma. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não opera plantão consular próprio; emergências são atendidas pelo plantão do Consulado-Geral em Roma. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial da Embaixada não lista número de WhatsApp. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular direto (serviço do Consulado-Geral em Roma), e nenhum WhatsApp consular foi encontrado. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não opera plantão próprio; o WhatsApp de emergência divulgado é o do Consulado-Geral em Roma (+39 333 118 4682). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": "brasemb.roma@itamaraty.gov.br",
@@ -57,7 +57,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular direto; o e-mail consular oficial é o do Consulado-Geral em Roma (assistencia.cgroma@itamaraty.gov.br). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 9h às 18h",
@@ -69,13 +69,13 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não presta atendimento consular direto ao público (serviço do Consulado-Geral em Roma). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial não distingue horário telefônico do horário geral de expediente (9h às 18h). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre toda a Itália; o atendimento consular ao público é prestado pelo Consulado-Geral em Roma (Itália central e meridional) e pelo Consulado-Geral em Milão.",
@@ -110,7 +110,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o Consulado-Geral divulga apenas o telefone geral (+39 06 688 9661); não há linha consular distinta. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "telefonePlantao": {
       "valor": "+39 333 118 4682",
@@ -122,13 +122,13 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — apenas o WhatsApp de plantão de emergência (+39 333 118 4682) é divulgado publicamente. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o único WhatsApp divulgado é o de plantão de emergência (+39 333 118 4682); não há linha consular distinta para trâmites de rotina. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": "+39 333 118 4682",
@@ -163,8 +163,8 @@
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — as páginas oficiais não especificam horário telefônico distinto do horário geral (8h30 às 12h30). Uma fonte secundária não oficial mencionou atendimento telefônico das 13h às 15h, mas não foi possível confirmar em fonte primária; recomenda-se atenção especial e verificação direta com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — as páginas oficiais não especificam horário telefônico distinto do horário geral (8h30 às 12h30). Uma fonte secundária não oficial (site do Consulado Honorário do Brasil em Palermo, chbrasilpa.it, reproduzindo aviso do CG Roma) menciona atendimento telefônico das 13h às 15h ao número +39 06 688 966 270 — mas essa mesma fonte se contradiz entre duas páginas próprias sobre os dias (uma diz \"terças e quintas\", outra diz \"segunda a sexta\"), o que reforça a falta de confiabilidade; não foi possível confirmar em fonte primária (gov.br/mre). Recomenda-se atenção especial e verificação direta com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Além de regiões da Itália central, o Consulado-Geral em Roma exerce jurisdição consular sobre a República de San Marino e a República de Malta. A lista exata de regiões e províncias deve ser consultada na página oficial de jurisdição.",
@@ -199,31 +199,31 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — posto honorário com um único telefone geral (+39 340 5776919); não há linha consular distinta divulgada. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — posto honorário sem plantão de emergência próprio; emergências fora do horário de atendimento (quartas e sextas, 10h-12h) devem ser dirigidas ao plantão do Consulado-Geral em Roma (+39 333 118 4682). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — nenhum número de WhatsApp foi encontrado para o posto honorário. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Não localizado em fonte oficial nesta pesquisa — nenhum número de WhatsApp foi encontrado para o posto honorário (verificado também no sítio consbrabari.com, páginas Contato, O Consulado e Consulados Honorários). Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — posto honorário sem WhatsApp consular divulgado. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "whatsappPlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — posto honorário sem WhatsApp de plantão próprio; em emergências, usar o WhatsApp de plantão do Consulado-Geral em Roma (+39 333 118 4682). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "emailGeral": {
       "valor": "consbrabari@hotmail.com",
@@ -235,7 +235,7 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — posto honorário utiliza um único e-mail (consbrabari@hotmail.com) para todos os assuntos, sem endereço consular específico. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioAtendimento": {
       "valor": "Quartas e sextas-feiras, das 10h às 12h — posto honorário, sem expediente diário",
@@ -247,13 +247,13 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — o único horário divulgado é o de atendimento geral (quartas e sextas, 10h-12h), que já corresponde ao atendimento consular deste posto honorário. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": "Não localizado em fonte oficial nesta pesquisa — não há horário telefônico distinto divulgado além do horário geral de atendimento (quartas e sextas, 10h-12h). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Região da Puglia — cobre Bari, Monte Sant'Angelo, San Giovanni Rotondo e Foggia, todas no roteiro do Gargano.",

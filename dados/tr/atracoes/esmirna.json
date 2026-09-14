@@ -77,11 +77,11 @@
     "endereco": "Bahribaba Parkı, Konak/İzmir, Turquia",
     "desc": "Acervo de artefatos da região do Egeu turco, incluindo achados de Esmirna, Éfeso e outras cidades antigas da Anatólia ocidental.",
     "custo": {
-      "valor": { "adulto": 32 },
+      "valor": { "adulto": 4 },
       "tipo": "CADASTRADO",
-      "fonte": "Pesquisa de referência consolidada (hurriyet.com.tr) — valor em liras turcas, dado sujeito a defasagem por inflação",
-      "consultadoEm": "2026-08-26",
-      "nota": "Preço em TL desatualizado com frequência; consulte izmir.ktb.gov.tr para o valor vigente."
+      "fonte": "dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html — sítio oficial do Ministério da Cultura e Turismo da Turquia",
+      "consultadoEm": "2026-09-14",
+      "nota": "Valor em euros para visitantes estrangeiros; substitui o valor anterior em TL (sujeito a defasagem por inflação) pelo valor oficial em euros."
     },
     "horario": {
       "valor": "Verão (1º de abril a 1º de outubro): 10h às 17h; inverno (1º de outubro a 1º de abril): 8h30 às 17h",

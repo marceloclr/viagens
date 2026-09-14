@@ -186,8 +186,8 @@
         "horario": {
           "valor": null,
           "tipo": "INDISPONIVEL",
-          "fonte": "Horário do restaurante não confirmado com precisão nesta pesquisa — funcionamento reportado como flexível; recomenda-se reserva prévia",
-          "consultadoEm": "2026-09-02"
+          "fonte": "Horário do restaurante não confirmado com precisão nesta pesquisa — sítio oficial rifugiosfilzi.com não publica horário de funcionamento, apenas contato para reserva (telefone 338 33 455 44); funcionamento reportado como flexível, recomenda-se reserva prévia",
+          "consultadoEm": "2026-09-14"
         },
         "link": "https://rifugiosfilzi.com/",
         "cardapio": null,
@@ -263,8 +263,8 @@
         "horario": {
           "valor": null,
           "tipo": "INDISPONIVEL",
-          "fonte": "Horário de funcionamento não confirmado com precisão nesta pesquisa — confirmar diretamente com a casa",
-          "consultadoEm": "2026-09-02"
+          "fonte": "Fontes agregadas divergem sobre o dia de fechamento (oraridiapertura24.it indica terça fechada, 12h-15h e 20h-22h30 nos demais dias; outro agregado indica quarta fechada) — sem confirmação no site oficial (osterialearpie.com, indisponível para consulta) ou no perfil oficial; confirmar diretamente com a casa",
+          "consultadoEm": "2026-09-14"
         },
         "link": null,
         "cardapio": null,

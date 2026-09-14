@@ -13,8 +13,8 @@
       "valor": { "adulto": 40 },
       "tipo": "CADASTRADO",
       "fonte": "https://dosim.ktb.gov.tr/TR-218202/muze-ve-oren-yeri-ucretleri.html (Ministério da Cultura e Turismo da Turquia)",
-      "consultadoEm": "2026-08-26",
-      "nota": "Valor em euros para visitantes estrangeiros (Efes Ören Yeri). Válido com Müzekart. As Casas em Terraço (Terrace Houses) têm ingresso separado, não confirmado nesta pesquisa."
+      "consultadoEm": "2026-09-14",
+      "nota": "Valor em euros para visitantes estrangeiros (Efes Ören Yeri). Válido com Müzekart. As Casas em Terraço (Terrace Houses/Yamaç Evler) têm ingresso separado de € 15, confirmado em dosim.ktb.gov.tr (sítio oficial do Ministério da Cultura e Turismo da Turquia)."
     },
     "horario": {
       "valor": "Verão (abril a outubro): 8h às 18h30; inverno (outubro a abril): 8h30 às 17h30",
@@ -83,14 +83,14 @@
       "valor": null,
       "tipo": "INDISPONIVEL",
       "fonte": null,
-      "consultadoEm": null,
-      "nota": "Fontes indicam histórico de 50 TL para adultos (dado de 2021, desatualizado por inflação); não foi possível confirmar valor atual em fonte confiável."
+      "consultadoEm": "2026-09-14",
+      "nota": "Sítio administrado por associação/paróquia local, não pelo Ministério da Cultura — não consta em dosim.ktb.gov.tr, nem o sítio oficial hzmeryemanaevi.com publica tarifário. Fontes secundárias de 2026 divergem enormemente (de 60 TL a 500–700 TL relatados), sem confiabilidade suficiente para registrar um valor; verificar no local."
     },
     "horario": {
       "valor": "Aproximadamente 8h às 18h (varia por fonte, do nascer ao pôr do sol)",
       "tipo": "CADASTRADO",
-      "fonte": "Pesquisa de referência consolidada (ephesustravelguide.com, viator.com)",
-      "consultadoEm": "2026-08-26",
+      "fonte": "Pesquisa de referência consolidada (ephesustravelguide.com, viator.com); sítio oficial hzmeryemanaevi.com não publica horário de visita, apenas horários de missa (7h15 em dias normais, 10h30 em feriados)",
+      "consultadoEm": "2026-09-14",
       "nota": "Horário aproximado; recomenda-se confirmação local, pois fontes divergem entre 17h e 18h para o fechamento."
     },
     "cat": [

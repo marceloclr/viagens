@@ -86,10 +86,10 @@
     },
     "custo": {
       "valor": { "adulto": 20 },
-      "tipo": "CADASTRADO",
-      "fonte": "checkyeti.com — passeio mais simples, a partir de €20; pacote com parada de natação em Anthony Quinn's Bay, a partir de €30. Operadores e inclusões variam bastante, confirme antes de reservar. O ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
-      "consultadoEm": "2026-09-02",
-      "nota": "Valor cadastrado é o piso do passeio mais simples (€20); pacotes com parada para natação chegam a €30."
+      "tipo": "ESTIMADO",
+      "fonte": "checkyeti.com — agregador de passeios (não há operadora única/oficial para este passeio); passeio mais simples a partir de €20, pacote com parada de natação em Anthony Quinn's Bay a partir de €30. Operadores e inclusões variam bastante, confirme antes de reservar. O ingresso da Acrópole de Lindos é cobrado à parte, não incluído na passagem de barco",
+      "consultadoEm": "2026-09-14",
+      "nota": "Valor cadastrado é o piso do passeio mais simples (€20); pacotes com parada para natação chegam a €30. Marcado como ESTIMADO por não existir tarifa oficial única — múltiplas empresas de barco operam o mesmo trajeto."
     },
     "oficial": null,
     "desc": "Cruzeiro pela costa leste de Rodes até a vila de Lindos, dominada por sua acrópole sobre um penhasco de 116 metros à beira-mar — tempo livre para subir à acrópole, passear pelas ruelas brancas ou nadar na praia de areia da vila. Alternativa mais cênica ao acesso por estrada."

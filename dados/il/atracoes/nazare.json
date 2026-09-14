@@ -18,8 +18,8 @@
     "horario": {
       "valor": "Gruta 05:45-21:00; Basílica Superior 08:00-18:00 (referência do Centro de Informação Cristã de Jerusalém)",
       "tipo": "CADASTRADO",
-      "fonte": "Agregado de guias de peregrinação citando o Christian Information Center; não confirmado diretamente no sítio oficial custodia.org",
-      "consultadoEm": "2026-08-26"
+      "fonte": "Agregado de guias de peregrinação citando o Christian Information Center; reverificado em custodia.org/en/sanctuaries/nazareth/ (sítio oficial da Custódia da Terra Santa), que traz informação histórica e teológica do santuário mas não publica horários de visita",
+      "consultadoEm": "2026-09-14"
     },
     "cat": [
       "religiao",

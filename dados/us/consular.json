@@ -24,9 +24,9 @@
     "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "A Embaixada não tem setor consular; emergências consulares são atendidas pelo Consulado-Geral em Washington, D.C. por telefone, sem opção de WhatsApp (ver br_cg_washington).", "consultadoEm": "2026-09-09" },
     "emailGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Página de contatos não expõe um e-mail geral da chancelaria diretamente — só formulário/redes sociais.", "consultadoEm": null },
     "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Sem setor consular na Embaixada — ver br_cg_washington.", "consultadoEm": null },
-    "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não confirmado em fonte oficial nesta consulta.", "consultadoEm": null },
+    "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — página de contatos da Embaixada (embaixada-washington/contatos) não publica horário de expediente da chancelaria; site bloqueia fetch automatizado por CAPTCHA e buscas direcionadas não retornaram o dado. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "A Embaixada não tem setor consular — ver br_cg_washington.", "consultadoEm": "2026-09-09" },
-    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa (site bloqueia fetch automatizado por CAPTCHA; buscas direcionadas não retornaram horário telefônico específico) — verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "jurisdicao": {
       "valor": "Sem funções consulares — atua exclusivamente em assuntos político-diplomáticos. O atendimento consular ao público, para todo o território dos Estados Unidos conforme a jurisdição de cada posto, é prestado pelo Consulado-Geral do Brasil em Washington, D.C. e pelos demais Consulados-Gerais brasileiros no país.",
       "tipo": "CADASTRADO",
@@ -67,10 +67,10 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
       "consultadoEm": "2026-08-28"
     },
-    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "E-mail do setor de assistência a brasileiros localizado (assist.cgwashington@itamaraty.gov.br) — ver observações; não confirmado como e-mail consular geral.", "consultadoEm": null },
-    "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não confirmado em fonte oficial nesta consulta.", "consultadoEm": null },
+    "emailConsular": { "valor": "assist.cgwashington@itamaraty.gov.br", "tipo": "CADASTRADO", "fonte": "Página oficial itamaraty.gov.br do posto (subdomínio cgwashington.itamaraty.gov.br, hoje redirecionado ao portal gov.br/mre) rotula este endereço como 'Brazilian Assistance Sector email'; consistente com a observação já registrada neste cadastro.", "consultadoEm": "2026-09-14" },
+    "horarioAtendimento": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não confirmado em fonte oficial nesta consulta — site gov.br/mre bloqueia fetch automatizado por CAPTCHA e buscas direcionadas não retornaram horário de expediente distinto do horário de atendimento presencial por agendamento.", "consultadoEm": "2026-09-14" },
     "horarioConsular": { "valor": "Atendimento presencial somente mediante agendamento prévio pelo sistema e-consular (ec-washington.itamaraty.gov.br)", "tipo": "CADASTRADO", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Washington, D.C., Contatos e Endereço: 'O Consulado-Geral do Brasil em Washington atende ao público apenas com hora marcada.'", "consultadoEm": "2026-09-09" },
-    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa (buscas confirmam apenas que solicitações consulares são feitas por e-consular ou e-mail, sem linha telefônica dedicada) — verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "jurisdicao": {
       "valor": "Distrito de Columbia, Delaware, Kentucky, Maryland, Carolina do Norte, Ohio, Virgínia e Virgínia Ocidental, além de bases militares norte-americanas.",
       "tipo": "CADASTRADO",
@@ -100,7 +100,7 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (telefone adicional encontrado: (404) 949-1204)",
       "consultadoEm": "2026-08-28"
     },
-    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Atlanta informa que não há linha telefônica consular distinta da geral (+1 404 949-2400); esse número não presta informações sobre andamento de serviços consulares (uso apenas e-mail).", "consultadoEm": "2026-09-09" },
+    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Atlanta informa que não há linha telefônica consular distinta da geral (+1 404 949-2400); esse número não presta informações sobre andamento de serviços consulares (uso apenas e-mail).", "consultadoEm": "2026-09-14" },
     "telefonePlantao": {
       "valor": "+1 (404) 561-8354",
       "tipo": "CADASTRADO",
@@ -124,10 +124,10 @@
       "consultadoEm": "2026-09-04"
     },
     "horarioAtendimento": {
-      "valor": "Segunda a sexta-feira, das 8h às 12h e das 13h às 16h",
+      "valor": "Segunda a sexta-feira, das 8h às 12h para atendimento agendado; retirada de documentos das 13h às 15h",
       "tipo": "CADASTRADO",
-      "fonte": "Cobertura consolidada de fontes secundárias (não confirmado diretamente na página oficial nesta consulta) — confirme antes de comparecer.",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Atlanta, página 'Horário de atendimento e feriados'.",
+      "consultadoEm": "2026-09-14"
     },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-atlanta.itamaraty.gov.br).", "consultadoEm": null },
     "horarioTelefonico": { "valor": "Segunda a sexta-feira, das 8h às 12h e das 13h às 15h (atendimento telefônico para informações gerais; o Consulado não presta informações sobre andamento de serviços consulares por telefone — apenas por e-mail)", "tipo": "CADASTRADO", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Atlanta, Fale com o Consulado / E-mails de Contato", "consultadoEm": "2026-09-09" },
@@ -140,7 +140,7 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-atlanta",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "Telefone de plantão para emergências não localizado nesta pesquisa — confirme no sítio oficial antes de qualquer deslocamento."
+    "observacoes": "Telefone de plantão para emergências: +1 (404) 561-8354 (ver telefonePlantao), de uso exclusivo para emergências comprovadas — confirme no sítio oficial antes de qualquer deslocamento."
   },
   {
     "id": "br_cg_boston",
@@ -160,7 +160,7 @@
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston, Informações gerais",
       "consultadoEm": "2026-08-28"
     },
-    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston informa que não presta atendimento de dúvidas por telefone, apenas por e-mail (contato.boston@itamaraty.gov.br); não há linha telefônica consular distinta.", "consultadoEm": "2026-09-09" },
+    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Boston informa que não presta atendimento de dúvidas por telefone, apenas por e-mail (contato.boston@itamaraty.gov.br); não há linha telefônica consular distinta. Reverificado: página 'Informações gerais' confirma que o Consulado não oferece suporte por telefone ou WhatsApp para dúvidas, e-mail respondido no horário de expediente.", "consultadoEm": "2026-09-14" },
     "telefonePlantao": {
       "valor": "+1 (617) 816-6315",
       "tipo": "CADASTRADO",
@@ -225,7 +225,7 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos (variante também encontrada: (312) 464-0244)",
       "consultadoEm": "2026-08-28"
     },
-    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Chicago informa que a linha geral não presta informações sobre andamento de serviços consulares; não há linha telefônica consular distinta (serviços solicitados por e-mail/e-consular).", "consultadoEm": "2026-09-09" },
+    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Chicago informa que a linha geral não presta informações sobre andamento de serviços consulares; não há linha telefônica consular distinta (serviços solicitados por e-mail/e-consular).", "consultadoEm": "2026-09-14" },
     "telefonePlantao": {
       "valor": "+1 (312) 213-0293",
       "tipo": "CADASTRADO",
@@ -233,8 +233,14 @@
       "consultadoEm": "2026-09-04",
       "nota": "Uso exclusivo para casos de emergência comprovada (prisão, óbito, acidente grave, doença grave, desaparecimento, inadmissão migratória, emergência humanitária e catástrofe). O plantonista não presta informação sobre serviços consulares de rotina."
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": {
+      "valor": "+1 (312) 806-0886",
+      "tipo": "CADASTRADO",
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Chicago, página de Contato: WhatsApp para esclarecer dúvidas sobre serviços consulares, em dias úteis das 9h às 16h, atendimento exclusivamente por mensagem de texto (sem áudio, vídeo ou chamada).",
+      "consultadoEm": "2026-09-14",
+      "nota": "Atendimento somente por mensagem escrita, dias úteis 9h–16h; não atende áudio, vídeo ou chamada."
+    },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não há linha de WhatsApp consular distinta da geral — o WhatsApp geral do posto (+1 312 806-0886) já é usado para esclarecer dúvidas sobre serviços consulares, conforme página de Contato do Consulado-Geral do Brasil em Chicago (gov.br/mre).", "consultadoEm": "2026-09-14" },
     "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — emergências atendidas por telefone (+1 312-213-0293); não há WhatsApp de plantão listado.", "consultadoEm": "2026-09-09" },
     "emailGeral": {
       "valor": "central.chicago@itamaraty.gov.br",
@@ -251,8 +257,8 @@
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, das 9h às 13h",
       "tipo": "CADASTRADO",
-      "fonte": "Cobertura consolidada de fontes secundárias (não confirmado diretamente na página oficial nesta consulta) — confirme antes de comparecer.",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Cobertura consolidada de fontes secundárias, reconfirmada em 2026-09-14 por busca direcionada à página oficial gov.br/mre/consulado-chicago (agendamento presencial) — confirme antes de comparecer.",
+      "consultadoEm": "2026-09-14"
     },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-chicago.itamaraty.gov.br).", "consultadoEm": null },
     "horarioTelefonico": { "valor": "Segunda a sexta-feira, das 9h às 13h (linha para informações gerais; o Consulado não presta informações sobre andamento de serviços consulares por telefone)", "tipo": "CADASTRADO", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Chicago, Contato", "consultadoEm": "2026-09-09" },
@@ -265,7 +271,7 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-chicago",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "Telefone de plantão para emergências não localizado nesta pesquisa — confirme no sítio oficial antes de qualquer deslocamento."
+    "observacoes": "Telefone de plantão para emergências: +1 (312) 213-0293 (ver telefonePlantao); WhatsApp geral do posto: +1 (312) 806-0886, somente mensagens de texto, dias úteis 9h–16h (ver whatsappGeral). Ambos de uso restrito — plantão apenas para emergências comprovadas, WhatsApp para dúvidas sobre serviços consulares. Confirme no sítio oficial antes de qualquer deslocamento."
   },
   {
     "id": "br_cg_hartford",
@@ -308,7 +314,7 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
       "consultadoEm": "2026-08-28"
     },
-    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Hartford utiliza um único e-mail (cghartford@itamaraty.gov.br) para todos os assuntos, inclusive consulares e assistência a brasileiros; não há e-mail consular específico distinto do geral.", "consultadoEm": "2026-09-09" },
+    "emailConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Hartford utiliza um único e-mail (cghartford@itamaraty.gov.br) para todos os assuntos, inclusive consulares e assistência a brasileiros; não há e-mail consular específico distinto do geral. Reconfirmado por busca direcionada em 2026-09-14, mesma conclusão.", "consultadoEm": "2026-09-14" },
     "horarioAtendimento": { "valor": "Segunda a quinta-feira: 8h30 às 14h30; sexta-feira: 8h30 às 14h", "tipo": "CADASTRADO", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Hartford, página de horário de atendimento", "consultadoEm": "2026-09-09" },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-hartford.itamaraty.gov.br).", "consultadoEm": null },
     "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Hartford, Fale com o Consulado: 'Não há atendimento telefônico.'", "consultadoEm": "2026-09-09" },
@@ -330,10 +336,10 @@
     "tipo": "consulado_geral",
     "nomeOficial": "Consulado-Geral do Brasil em Houston",
     "endereco": {
-      "valor": "5444 Westheimer Road, Suite 1900, Houston, TX",
+      "valor": "5444 Westheimer Road, Suite 1900, Houston, TX 77056",
       "tipo": "CADASTRADO",
-      "fonte": "Cobertura consolidada e convergente de fontes secundárias (Yelp, avaliações atualizadas de 2026) — endereço não confirmado por fetch direto da página oficial nesta consulta; CEP não encontrado, confirme antes de qualquer deslocamento",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Houston, página 'Endereço e mapa' (gov.br/mre/pt-br/consulado-houston/informacoes-gerais-do-consulado/endereco-e-mapa), com CEP 77056 confirmado por essa página e por convergência de fontes secundárias (Yelp). Site gov.br/mre bloqueia fetch automatizado por CAPTCHA, impedindo confirmação por leitura direta; dado obtido via indexação de busca da própria página oficial.",
+      "consultadoEm": "2026-09-14"
     },
     "telefoneGeral": {
       "valor": "+1 (713) 961-3063",
@@ -349,9 +355,9 @@
       "consultadoEm": "2026-08-28",
       "nota": "Uso restrito a emergências comprovadas envolvendo brasileiros (acidentes graves, óbito e casos similares)."
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — busca direcionada à página oficial de contato do Consulado-Geral do Brasil em Houston (gov.br/mre) lista apenas telefones e e-mails setoriais (consular.houston, cg.houston, registros.houston, passaporte.houston, visa.houston, assistencia.houston@itamaraty.gov.br), sem menção a WhatsApp. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão do whatsappGeral — nenhuma fonte oficial encontrada lista WhatsApp para o posto. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — o contato de emergência divulgado é exclusivamente o telefone de plantão (+1 281-384-4966, ver telefonePlantao); nenhuma fonte oficial menciona WhatsApp de plantão. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "emailGeral": {
       "valor": "consular.houston@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -362,8 +368,8 @@
     "horarioAtendimento": {
       "valor": "Segunda a sexta-feira, exclusivamente com agendamento prévio",
       "tipo": "CADASTRADO",
-      "fonte": "Cobertura consolidada de fontes secundárias (não confirmado diretamente na página oficial nesta consulta)",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Cobertura consolidada de fontes secundárias, reconfirmada em 2026-09-14 por busca direcionada (site oficial não indica horário específico além de 'atendimento por agendamento')",
+      "consultadoEm": "2026-09-14"
     },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Todos os serviços consulares são solicitados pelo sistema e-consular (ec-houston.itamaraty.gov.br).", "consultadoEm": null },
     "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Houston não presta atendimento telefônico para esclarecimento de dúvidas; atendimento é exclusivamente pelo sistema e-consular (ec-houston.itamaraty.gov.br) e por e-mail.", "consultadoEm": "2026-09-09" },
@@ -376,7 +382,7 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-houston",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "O endereço físico não pôde ser lido por fetch direto da página oficial nesta sessão de curadoria — confirmado apenas por convergência de fontes secundárias (inclusive avaliações públicas recentes no mesmo endereço). O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina. Confirme no sítio oficial antes de qualquer deslocamento."
+    "observacoes": "O endereço (incluindo CEP 77056) foi localizado na página oficial 'Endereço e mapa' do posto, indexada por buscador — o site gov.br/mre continua bloqueando fetch automatizado direto por CAPTCHA nesta sessão, então a leitura completa da página não pôde ser feita linha a linha; confirmado por convergência com fontes secundárias (avaliações públicas recentes no mesmo endereço). O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina. Confirme no sítio oficial antes de qualquer deslocamento."
   },
   {
     "id": "br_cg_los_angeles",
@@ -396,7 +402,7 @@
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, Endereço e Contatos",
       "consultadoEm": "2026-08-28"
     },
-    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial de contatos não lista telefone consular distinto do telefone geral e da linha de emergência; verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, página 'Endereço e Contatos' (gov.br/mre/pt-br/consulado-los-angeles/sobre-o-consulado/endereco-e-contatos): não há telefone consular distinto do geral; página orienta que dúvidas sejam enviadas exclusivamente por e-mail ao setor responsável (ex.: sab.la@itamaraty.gov.br). Reconfirmado em 2026-09-14.", "consultadoEm": "2026-09-14" },
     "telefonePlantao": {
       "valor": "+1 (213) 453-1084",
       "tipo": "CADASTRADO",
@@ -404,9 +410,9 @@
       "consultadoEm": "2026-08-28",
       "nota": "Linha de emergência para fins de semana e feriados — uso restrito a emergências comprovadas."
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — a página oficial 'Endereço e Contatos' (gov.br/mre/consulado-los-angeles) não menciona WhatsApp; contato é feito por telefone geral ou e-mail. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão do whatsappGeral — nenhum WhatsApp consular divulgado na página oficial. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — o contato de fim de semana/feriado divulgado é exclusivamente o telefone de plantão (+1 213-453-1084, ver telefonePlantao); nenhuma fonte oficial menciona WhatsApp de plantão. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "emailGeral": {
       "valor": "cg.losangeles@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -426,17 +432,17 @@
       "consultadoEm": "2026-08-28"
     },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-losangeles.itamaraty.gov.br).", "consultadoEm": null },
-    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial não especifica horário telefônico distinto do horário de atendimento ao público (ver horarioAtendimento); verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — página oficial 'Endereço e Contatos' orienta que dúvidas sejam enviadas por e-mail, sem horário telefônico distinto do horário de atendimento ao público (ver horarioAtendimento); verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "jurisdicao": {
-      "valor": "Arizona, Havaí, Idaho, Montana, Nevada, Utah e Wyoming, além de parte dos condados da Califórnia (a jurisdição da Califórnia é dividida com os Consulados-Gerais em San Francisco).",
+      "valor": "Arizona, Havaí, Idaho, Montana, Nevada, Utah e Wyoming; no Pacífico, as ilhas Johnston, Midway, Wake, Howland, Jarvis, Baker, Palmira e Kingman; e, na Califórnia, os condados de Imperial, Kern, Los Angeles, Orange, Riverside, San Bernardino, San Diego, San Luis Obispo, Santa Bárbara e Ventura (o restante da Califórnia é jurisdição do Consulado-Geral em São Francisco).",
       "tipo": "CADASTRADO",
-      "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Los Angeles, página 'Jurisdição' (gov.br/mre/pt-br/consulado-los-angeles/sobre-o-consulado/jurisdicao)",
+      "consultadoEm": "2026-09-14"
     },
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-los-angeles",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "A divisão exata de condados californianos entre Los Angeles e San Francisco não foi detalhada nesta pesquisa — confirme no sítio oficial para casos de fronteira de jurisdição. O telefone de plantão de fim de semana/feriado é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
+    "observacoes": "A divisão exata de condados californianos entre Los Angeles e San Francisco foi localizada e detalhada no campo jurisdicao (página oficial 'Jurisdição' do posto) em 2026-09-14. O telefone de plantão de fim de semana/feriado é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
   },
   {
     "id": "br_cg_miami",
@@ -456,7 +462,7 @@
       "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
       "consultadoEm": "2026-08-28"
     },
-    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial de contatos não lista telefone consular distinto do telefone geral e da linha de emergência; verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami, página 'Perguntas Frequentes': o telefone geral (+1 305 285-6200) é usado tanto para informações gerais quanto para dúvidas sobre serviços consulares, sem linha consular distinta divulgada. Reconfirmado em 2026-09-14.", "consultadoEm": "2026-09-14" },
     "telefonePlantao": {
       "valor": "+1 (305) 342-6727",
       "tipo": "CADASTRADO",
@@ -464,9 +470,9 @@
       "consultadoEm": "2026-08-28",
       "nota": "Uso restrito a emergências comprovadas (óbito, hospitalização, prisão/detenção, desaparecimento, acidente grave, situação humanitária, catástrofe, crime, maus-tratos e violência, inclusive doméstica)."
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — páginas oficiais 'Perguntas Frequentes' e 'Contato (Endereço, Telefones, E-mails)' do Consulado-Geral do Brasil em Miami não mencionam WhatsApp; canais divulgados são telefone e e-mails setoriais. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão do whatsappGeral — nenhum WhatsApp consular divulgado nas páginas oficiais consultadas. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — o plantão de emergência é divulgado exclusivamente por telefone (ver telefonePlantao); nenhuma fonte oficial menciona WhatsApp de plantão. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "emailGeral": {
       "valor": "consular.miami@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -491,7 +497,7 @@
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Miami",
       "consultadoEm": "2026-08-28"
     },
-    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial não especifica horário telefônico distinto do horário de atendimento ao público (ver horarioAtendimento); verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — páginas oficiais consultadas não especificam horário telefônico distinto do horário de atendimento ao público (ver horarioAtendimento); verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "jurisdicao": {
       "valor": "Flórida (exceto os condados sob jurisdição do Consulado-Geral em Orlando), Porto Rico e Ilhas Virgens Americanas.",
       "tipo": "CADASTRADO",
@@ -529,9 +535,9 @@
       "consultadoEm": "2026-08-28",
       "nota": "Uso restrito a emergências comprovadas que exijam orientação imediata fora do horário de expediente (segunda a sexta, 9h–16h). O plantonista não presta informação sobre serviços consulares ou vistos."
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — página oficial 'Fale conosco' do Consulado-Geral do Brasil em Nova York confirma que não há atendimento telefônico ou por WhatsApp para dúvidas consulares, apenas por e-mail. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão do whatsappGeral — página 'Fale conosco' indica e-mail como canal de esclarecimento de dúvidas, sem WhatsApp consular divulgado. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — o plantão consular de emergência é divulgado exclusivamente por telefone (+1 646-403-2676, ver telefonePlantao); nenhuma fonte oficial menciona WhatsApp de plantão. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "emailGeral": {
       "valor": "cg.novayork@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -577,20 +583,20 @@
     "endereco": {
       "valor": "355 N Orange Avenue, Orlando, FL 32801",
       "tipo": "CADASTRADO",
-      "fonte": "Cobertura consolidada e convergente de fontes secundárias (Yelp, redes sociais oficiais do posto) — endereço não confirmado por fetch direto da página oficial nesta consulta",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Cobertura consolidada e convergente de fontes secundárias (Yelp) e da página oficial 'Informações gerais (endereço, contatos, feriados etc.)' do posto (gov.br/mre/pt-br/consulado-orlando/informacoes-gerais-do-vice-consulado/informacoes-gerais), indexada por buscador — endereço ainda não confirmado por leitura direta da página nesta sessão (site gov.br/mre bloqueia fetch automatizado por CAPTCHA).",
+      "consultadoEm": "2026-09-14"
     },
-    "telefoneGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado nesta pesquisa — confirme no sítio oficial.", "consultadoEm": null },
+    "telefoneGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando não disponibiliza número de telefone de voz para atendimento geral; o único canal de contato direto divulgado é o WhatsApp (+1 407-675-0604, mensagens escritas — ver whatsappGeral). Reconfirmado em 2026-09-14.", "consultadoEm": "2026-09-14" },
     "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando não disponibiliza telefone de voz para atendimento consular de rotina; contato é feito por WhatsApp (mensagem escrita, ver whatsappGeral) ou e-mail.", "consultadoEm": "2026-09-09" },
     "telefonePlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Plantão de emergência divulgado apenas por WhatsApp — ver whatsappPlantao.", "consultadoEm": null },
     "whatsappGeral": {
       "valor": "+1 (407) 675-0604",
       "tipo": "CADASTRADO",
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando, Informações Gerais",
-      "consultadoEm": "2026-09-04",
-      "nota": "Atendimento geral apenas por mensagens escritas (não há linha de voz geral divulgada)."
+      "consultadoEm": "2026-09-14",
+      "nota": "Atendimento geral apenas por mensagens escritas (não há linha de voz geral divulgada). Reconfirmado por busca direcionada em 2026-09-14: o WhatsApp é descrito como canal para enviar a dúvida por escrito e aguardar resposta, sem suporte a chamada de voz."
     },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado como canal distinto do WhatsApp geral nesta pesquisa — o WhatsApp geral (+1 407-675-0604) parece atender também dúvidas consulares por mensagem escrita; verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em Orlando não distingue WhatsApp consular do geral; o único WhatsApp divulgado (+1 407-675-0604) atende toda a comunicação escrita do posto, incluindo dúvidas consulares. Reconfirmado em 2026-09-14.", "consultadoEm": "2026-09-14" },
     "whatsappPlantao": {
       "valor": "+1 (321) 387-9716",
       "tipo": "CADASTRADO",
@@ -627,7 +633,7 @@
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-orlando",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "Posto inaugurado como Vice-Consulado em 11/06/2022 e elevado a Consulado-Geral em 2023 — algumas páginas e URLs do sítio oficial ainda usam a nomenclatura \"vice-consulado\" por herança. É o posto consular relevante para roteiros com entrada/saída em Orlando, Titusville/Cabo Canaveral, Daytona Beach, Santo Agostinho, Jacksonville, Tampa, Ocala ou Gainesville nesta base — a área de maior densidade de cidades cadastradas do sistema nos EUA. Telefone geral e horário de atendimento não confirmados por fetch direto nesta sessão — confirme no sítio oficial antes de qualquer deslocamento. O contato de plantão (WhatsApp) é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
+    "observacoes": "Posto inaugurado como Vice-Consulado em 11/06/2022 (Decreto nº 11.500, de 25/04/2023, elevou-o a Consulado-Geral) — algumas páginas e URLs do sítio oficial ainda usam a nomenclatura \"vice-consulado\" por herança, confirmado nesta pesquisa: existem tanto o caminho gov.br/mre/pt-br/vice-consulado-orlando quanto gov.br/mre/pt-br/consulado-orlando/informacoes-gerais-do-vice-consulado apontando para o mesmo posto. É o posto consular relevante para roteiros com entrada/saída em Orlando, Titusville/Cabo Canaveral, Daytona Beach, Santo Agostinho, Jacksonville, Tampa, Ocala ou Gainesville nesta base — a área de maior densidade de cidades cadastradas do sistema nos EUA. Reconfirmado em 2026-09-14: o posto não disponibiliza telefone de voz (geral ou consular), apenas WhatsApp por mensagem escrita e e-mail — confirme no sítio oficial antes de qualquer deslocamento. O contato de plantão (WhatsApp) é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
   },
   {
     "id": "br_cg_sao_francisco",
@@ -647,7 +653,7 @@
       "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco, Address and Contacts (fax: +1 415 598-7230)",
       "consultadoEm": "2026-08-28"
     },
-    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial de contatos não lista telefone consular distinto do telefone geral e da linha de plantão; verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "telefoneConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco pede que dúvidas sejam enviadas preferencialmente por e-mail aos setores especializados, e que as linhas telefônicas sejam usadas, na medida do possível, apenas em casos de emergência; não há telefone consular distinto do geral. Reconfirmado em 2026-09-14.", "consultadoEm": "2026-09-14" },
     "telefonePlantao": {
       "valor": "+1 (415) 596-6926",
       "tipo": "CADASTRADO",
@@ -655,9 +661,9 @@
       "consultadoEm": "2026-09-04",
       "nota": "Uso restrito a emergências comprovadas (acidentes graves, óbitos, incêndios, prisão/detenção e casos similares); dúvidas sobre passaporte, visto e demais assuntos de rotina não são atendidas por este número."
     },
-    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
-    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "whatsappGeral": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — páginas oficiais 'Address and Contacts' e 'Plantão e Urgências' do Consulado-Geral do Brasil em São Francisco não mencionam WhatsApp; canais divulgados são telefone e e-mails setoriais. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14, mesma conclusão do whatsappGeral — nenhum WhatsApp consular divulgado nas páginas oficiais consultadas. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
+    "whatsappPlantao": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — a página oficial 'Plantão e Urgências' divulga exclusivamente o telefone +1 (415) 596-6926 para emergências, sem WhatsApp; o plantonista não presta informação sobre serviços consulares de rotina. Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "emailGeral": {
       "valor": "cg.sfrancisco@itamaraty.gov.br",
       "tipo": "CADASTRADO",
@@ -672,16 +678,16 @@
       "consultadoEm": "2026-08-28"
     },
     "horarioConsular": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Atendimento presencial só mediante agendamento pelo sistema e-consular (ec-saofrancisco.itamaraty.gov.br).", "consultadoEm": null },
-    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Não localizado em fonte oficial nesta pesquisa — a página oficial não especifica horário telefônico distinto do horário de atendimento ao público (ver horarioAtendimento); verificar diretamente com o posto.", "consultadoEm": "2026-09-09" },
+    "horarioTelefonico": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "Reverificado em 2026-09-14 — a página oficial pede que o telefone seja reservado a emergências e as dúvidas de rotina sejam enviadas por e-mail; não há horário telefônico distinto do horário de atendimento ao público (ver horarioAtendimento). Verificar diretamente com o posto.", "consultadoEm": "2026-09-14" },
     "jurisdicao": {
-      "valor": "Alasca, Oregon e Washington, além de parte dos condados da Califórnia (a jurisdição da Califórnia é dividida com o Consulado-Geral em Los Angeles).",
+      "valor": "Alasca, Oregon e Washington, além dos condados do Norte da Califórnia: Alameda, Alpine, Amador, Butte, Calaveras, Colusa, Contra Costa, Del Norte, El Dorado, Fresno, Glenn, Humboldt, Inyo, Kings, Lake, Lassen, Madera, Marin, Mariposa, Mendocino, Merced, Modoc, Mono, Monterey, Napa, Nevada, Placer, Plumas, Sacramento, San Benito, San Francisco, San Joaquin, San Mateo, Santa Clara, Santa Cruz, Shasta, Sierra, Siskiyou, Solano, Sonoma, Stanislaus, Sutter, Tehama, Trinity, Tulare, Tuolumne, Yolo e Yuba (o restante da Califórnia é jurisdição do Consulado-Geral em Los Angeles).",
       "tipo": "CADASTRADO",
-      "fonte": "Portal gov.br/mre — página consolidada de Consulados-Gerais do Brasil nos Estados Unidos",
-      "consultadoEm": "2026-08-28"
+      "fonte": "Portal gov.br/mre — Consulado-Geral do Brasil em São Francisco, página 'Jurisdição' (gov.br/mre/pt-br/consulado-sao-francisco/informacoes-gerais-do-consulado/jurisdicao)",
+      "consultadoEm": "2026-09-14"
     },
     "siteOficial": "https://www.gov.br/mre/pt-br/consulado-sao-francisco",
     "fonte": "Ministério das Relações Exteriores — Portal gov.br",
     "consultadoEm": "2026-08-28",
-    "observacoes": "A divisão exata de condados californianos entre San Francisco e Los Angeles não foi detalhada nesta pesquisa — confirme no sítio oficial para casos de fronteira de jurisdição. O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
+    "observacoes": "A divisão exata de condados californianos entre San Francisco e Los Angeles foi localizada e detalhada no campo jurisdicao (página oficial 'Jurisdição' do posto) em 2026-09-14. O telefone de plantão é de uso exclusivo para emergências comprovadas, não para trâmites consulares de rotina."
   }
 ]

@@ -20,10 +20,10 @@
     "fechado": [],
     "endereco": "Avenue Jean-Paul II, 14100 Lisieux, França",
     "horario": {
-      "valor": "Todos os dias, aproximadamente 8h30 às 19h30 — confirme antes da visita, o horário pode variar por celebração.",
+      "valor": "Todos os dias, 9h30 às 18h (novembro–março); 9h30 às 19h (abril–junho, julho e setembro–outubro); 9h30 às 20h (agosto)",
       "tipo": "CADASTRADO",
-      "fonte": "therese-de-lisieux.catholique.fr — sítio oficial do Santuário de Lisieux",
-      "consultadoEm": "2026-08-27"
+      "fonte": "therese-de-lisieux.catholique.fr/pratique/horaires/ — sítio oficial do Santuário de Lisieux",
+      "consultadoEm": "2026-09-14"
     },
     "custo": {
       "valor": 0,
@@ -54,10 +54,10 @@
     "fechado": [],
     "endereco": "21 Rue du Carmel, 14100 Lisieux, França",
     "horario": {
-      "valor": "Missas às 8h (segunda a sábado) e 11h15 (todos os dias) — capela aberta à visitação nos demais horários; confirme no sítio oficial.",
+      "valor": "Domingo, segunda e feriados, 7h45 às 19h (18h30 de 1º/11 a 15/3); terça a sábado, 7h20 às 19h (18h30 de 1º/11 a 15/3) — capela aberta à visitação nesses horários, à parte dos horários de missas",
       "tipo": "CADASTRADO",
-      "fonte": "carmeldelisieux.fr — sítio oficial do Carmelo de Lisieux",
-      "consultadoEm": "2026-08-27"
+      "fonte": "carmeldelisieux.fr/horarios — sítio oficial do Carmelo de Lisieux",
+      "consultadoEm": "2026-09-14"
     },
     "custo": {
       "valor": 0,
@@ -90,10 +90,10 @@
     ],
     "endereco": "Rue Chemin du Paradis (Les Buissonnets), 14100 Lisieux, França",
     "horario": {
-      "valor": "Segunda a sábado, 10h às 12h30 e 13h30 às 17h. Fechado em 1º de janeiro e 25 de dezembro. Fontes divergem sobre o domingo — uma indica fechado, o registro anterior indicava aberto exceto na manhã; não confirmado em fonte única, verificar no local.",
+      "valor": "Aberto diariamente, exceto domingo de manhã; horário varia por estação, aproximadamente entre 10h e 18h. Fechado em 1º de janeiro e 25 de dezembro.",
       "tipo": "CADASTRADO",
-      "fonte": "therese-de-lisieux.catholique.fr, tourisme.lisieux-normandie.fr — consultado em 2026-08-27",
-      "consultadoEm": "2026-08-27"
+      "fonte": "therese-de-lisieux.catholique.fr/decouvrir-le-sanctuaire/les-buissonnets/ — sítio oficial do Santuário de Lisieux (resolve a divergência anterior sobre o domingo: fechado apenas de manhã)",
+      "consultadoEm": "2026-09-14"
     },
     "custo": {
       "valor": 0,

@@ -104,8 +104,8 @@
     "custo": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Buscas retornaram apenas a gratuidade para crianças até 12 anos; valor do bilhete adulto não confirmado em fonte oficial",
-      "consultadoEm": "2026-08-26"
+      "fonte": "Sítio oficial (palaciodabolsa.com) direciona para plataforma de reserva externa (booking.visitportoandnorth.travel) com preço carregado dinamicamente, não exposto em texto estático; agregadores de terceiros divergem bastante (€10, €12 e €14 relatados para o bilhete adulto) — sem valor único confiável, apenas gratuidade para crianças até 12 anos confirmada",
+      "consultadoEm": "2026-09-14"
     },
     "oficial": "https://www.palaciodabolsa.com",
     "desc": "Sede histórica da Associação Comercial do Porto, em estilo neoclássico, famosa pelo Salão Árabe. Visita apenas com guia, em grupos com horário marcado."

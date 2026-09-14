@@ -26,14 +26,14 @@
     "telefonePlantao": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — a página de contatos da Embaixada não lista telefone de plantão próprio; emergências consulares são atendidas pelo Consulado-Geral do Brasil em Madri (registro separado). Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — a página de contatos da Embaixada não lista telefone de plantão próprio; emergências consulares são atendidas pelo Consulado-Geral do Brasil em Madri (+34 677 547 004, registro separado). Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappGeral": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado em fonte oficial nesta pesquisa — a Embaixada não divulga número de WhatsApp próprio em sua página de contatos. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — a Embaixada não divulga número de WhatsApp próprio em sua página de contatos; o único WhatsApp encontrado nas buscas pertence ao Consulado-Geral do Brasil em Madri (+34 663 676 193, registro separado). Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "whatsappConsular": {
       "valor": null,
@@ -74,8 +74,8 @@
     "horarioTelefonico": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": "Não localizado horário telefônico específico em fonte oficial — o telefone geral (+34 91 700 46 50) é atendido no mesmo horário de atendimento da Embaixada (9h-13h e 14h-17h); não há linha telefônica consular própria da Embaixada. Verificar diretamente com o posto.",
-      "consultadoEm": "2026-09-09"
+      "fonte": "Reverificado em 2026-09-14, mesma conclusão — não localizado horário telefônico específico em fonte oficial; o telefone geral (+34 91 700 46 50) é atendido no mesmo horário de atendimento da Embaixada (9h-13h e 14h-17h); não há linha telefônica consular própria da Embaixada. Verificar diretamente com o posto.",
+      "consultadoEm": "2026-09-14"
     },
     "jurisdicao": {
       "valor": "Jurisdição diplomática sobre toda a Espanha; o atendimento consular ao público é dividido entre os Consulados-Gerais em Madri e Barcelona.",
