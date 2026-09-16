@@ -26,10 +26,12 @@
       "consultadoEm": "2026-08-26"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "O sítio oficial informa que a entrada é um Ticket-Voucher descontável em compra de livros, mas não expõe o valor numérico fixo na página consultada",
-      "consultadoEm": "2026-08-26"
+      "valor": {
+        "adulto": 15.95
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "tickets.livrarialello.pt (venda oficial online) — Ticket-Voucher Livraria Lello €15,95, valor integralmente descontável em compra de livros na loja. Existem vouchers separados para exposições especiais (ex.: Ai Weiwei, €8,00) e para a Sala Gema (€100,00), não incluídos aqui.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://livrarialello.pt",
     "desc": "Livraria neogótica de 1906, com escadaria vermelha emblemática, considerada uma das mais bonitas do mundo. Entrada por bilhete-voucher com hora marcada."

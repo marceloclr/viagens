@@ -26,10 +26,12 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Basílica e museu com regimes distintos",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "abbaziamontecassino.org — entrada na Basílica é gratuita (local de culto ativo); o Museu Abbaziale, anexo, é bilhetado separadamente (ver item \"Museu Histórico de Montecassino\", intero €6,00).",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://www.abbaziamontecassino.org",
     "desc": "Túmulos de São Bento e Santa Escolástica, berço do monaquismo ocidental, reconstruída após a destruição de 1944. Subida de carro ou táxi."

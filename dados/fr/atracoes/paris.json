@@ -62,10 +62,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa e bilhete combinado com a Conciergerie",
-      "consultadoEm": null
+      "valor": { "adulto": 22, "combinadoConciergerie": 30 },
+      "tipo": "CADASTRADO",
+      "fonte": "sainte-chapelle.fr/en/visit/practical-information (Centre des monuments nationaux) — grade 2026 (vigente desde 12/01/2026): bilhete individual €22 para visitantes não residentes/nacionais do EEE; bilhete combinado Sainte-Chapelle + Conciergerie €30 para não residentes do EEE",
+      "consultadoEm": "2026-09-16",
+      "nota": "Residentes/nacionais do EEE (4+ meses) pagam tarifa reduzida: €16 individual e €23 no combinado com a Conciergerie. Gratuito para menores de 18 anos."
     },
     "oficial": "https://www.sainte-chapelle.fr",
     "desc": "Os vitrais do século XIII mostram de forma imediata a arte sacra medieval. Visitar sob luz do dia, nunca ao entardecer."
@@ -138,10 +139,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa vigente e política de gratuidade para menores",
-      "consultadoEm": null
+      "valor": { "adulto": 32 },
+      "tipo": "CADASTRADO",
+      "fonte": "louvre.fr — grille tarifaire oficial (Grille_Tarifaire_EPML_FR.pdf), vigente desde 14/01/2026: bilhete plein tarif €32 para visitantes fora do Espaço Econômico Europeu (caso dos viajantes brasileiros)",
+      "consultadoEm": "2026-09-16",
+      "nota": "Residentes/nacionais do EEE pagam tarifa reduzida de €22. Entrada gratuita para menores de 18 anos, qualquer nacionalidade (exigido documento com foto)."
     },
     "oficial": "https://www.louvre.fr",
     "desc": "História da arte em escala monumental. Com adolescentes, fazer percurso curto e dirigido — não tentar \"ver tudo\"."
@@ -175,10 +177,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa vigente",
-      "consultadoEm": null
+      "valor": { "adulto": 16 },
+      "tipo": "CADASTRADO",
+      "fonte": "billetterie.musee-orsay.fr — billetteria oficial do museu, 2026: bilhete plein tarif comprado online (com reserva de horário) €16",
+      "consultadoEm": "2026-09-16",
+      "nota": "Bilhete comprado na hora na bilheteria física custa €14, mas só é vendido se restarem vagas no horário do dia (raro em alta temporada) — reserva de horário é obrigatória desde 10/03/2026 durante as obras 'Orsay Grand Ouvert'. Nocturne de quinta-feira a partir das 18h: €12."
     },
     "oficial": "https://www.musee-orsay.fr",
     "desc": "Impressionismo e pós-impressionismo numa antiga estação ferroviária — complementa o Louvre sem repeti-lo."
@@ -211,10 +214,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa vigente",
-      "consultadoEm": null
+      "valor": { "adulto": 17 },
+      "tipo": "CADASTRADO",
+      "fonte": "musee-armee.fr/votre-visite/horaires-et-tarifs.html — sítio oficial, 2026: bilhete plein tarif €17",
+      "consultadoEm": "2026-09-16",
+      "nota": "Bilhete dá acesso à Église du Dôme, túmulo de Napoleão, coleções permanentes do Musée de l'Armée, exposição temporária em curso, Musée de l'Ordre de la Libération e Musée des Plans-Reliefs."
     },
     "oficial": "https://www.musee-armee.fr",
     "desc": "Conecta França, Napoleão, estratégia militar e tecnologia; o Dôme abriga o túmulo de Napoleão. Escolha forte para adolescentes."
@@ -283,10 +287,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa do terraço",
-      "consultadoEm": null
+      "valor": { "adulto": 22 },
+      "tipo": "CADASTRADO",
+      "fonte": "paris-arc-de-triomphe.fr/en/visit/practical-information (Centre des monuments nationaux) — sítio oficial, 2026: bilhete plein tarif de abril a setembro €22, dá acesso ao monumento inteiro e à terraço panorâmico",
+      "consultadoEm": "2026-09-16",
+      "nota": "De outubro a março o tarif plein cai para €16. Todas as quartas-feiras da alta temporada (abril–setembro) o bilhete também custa €16. Gratuito para menores de 18 anos, residentes da UE de 18–25 anos, pessoas com deficiência e acompanhante, e desempregados."
     },
     "oficial": "https://www.paris-arc-de-triomphe.fr",
     "desc": "Excelente para explicar Revolução, Império e o urbanismo haussmanniano, com panorama sobre os doze eixos."
@@ -318,10 +323,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa vigente",
-      "consultadoEm": null
+      "valor": { "adulto": 13 },
+      "tipo": "CADASTRADO",
+      "fonte": "paris-pantheon.fr/en/visit/practical-information (Centre des monuments nationaux) — sítio oficial, 2026: bilhete individual plein tarif €13",
+      "consultadoEm": "2026-09-16",
+      "nota": "Tarifa reduzida de €11,50 às quartas-feiras (abril–setembro de 2026). Gratuito nas Journées européennes du patrimoine (19–20 de setembro de 2026) e no primeiro domingo do mês de novembro a março."
     },
     "oficial": "https://www.paris-pantheon.fr",
     "desc": "Victor Hugo, Voltaire, Rousseau, Marie Curie e Simone Veil — complemento escolar de alto rendimento."
@@ -355,10 +361,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Verificar tarifa por exposição",
-      "consultadoEm": null
+      "valor": { "adulto": 15 },
+      "tipo": "CADASTRADO",
+      "fonte": "cite-sciences.fr/fr/infos-pratiques/nos-tarifs — sítio oficial, 2026: 'Billet Expositions' plein tarif €15, único bilhete unificado que dá acesso a Explora (exposição permanente), exposições temporárias, planetário e submarino Argonaute (sujeito a disponibilidade)",
+      "consultadoEm": "2026-09-16",
+      "nota": "Não há tarifa por exposição/módulo separada para adultos — o bilhete 'Expositions' é único. A Cité des Enfants (não recomendada para o perfil juvenil deste roteiro) tem bilhete próprio e separado. Argonaute fechado de 1 a 30 de setembro de 2026."
     },
     "oficial": "https://www.cite-sciences.fr",
     "desc": "Ciência, tecnologia e imagem. Para 13 anos ou mais, priorizar as exposições gerais — a Cité des Enfants é para faixas menores."

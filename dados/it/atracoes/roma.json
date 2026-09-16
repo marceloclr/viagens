@@ -63,10 +63,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Tarifa cobrada na bilheteria — não publicada na base",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 17,
+        "adultoElevador": 22
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "basilicasanpietro.va / booking.basilicasanpietro.va (seção \"La Cupola\") — bilheteira oficial online: subida integral a pé (551 degraus) €17; com elevador parcial (poupa 231 degraus, restam 320 a pé) €22. Inclui audioguia digital da Basílica. Bilheteira física no local cobra tarifa menor (~€10/€15), mas a compra antecipada oficial é pelos valores acima.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://www.vatican.va",
     "desc": "Cerca de 550 degraus (ou elevador parcial) até a vista mais alta sobre a praça e a cidade."
@@ -226,10 +229,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Bilhete conjunto com o Coliseu",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 18,
+        "reduzido": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "colosseo.it/parcocolosseo.it (Biglietti) — mesmo bilhete combinado Coliseu + Fórum Romano + Palatino, intero €18,00, válido 24h; reduzido para cidadãos UE de 18 a 24 anos €2,00 (ver também item \"Coliseu\") — não há entrada isolada para o Fórum/Palatino.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://parcocolosseo.it",
     "desc": "Centro político da República e do Império, encadeando naturalmente com o Coliseu na mesma jornada."

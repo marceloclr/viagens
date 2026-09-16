@@ -76,7 +76,7 @@
     "fechado": [5, 6, 0],
     "endereco": "Thaxton Hall, VSU North Campus, Valdosta, GA 31698, EUA",
     "desc": "Museu da Valdosta State University dedicado à história afro-americana, com acervo que cobre mais de 150 anos, da escravidão aos dias atuais.",
-    "custo": { "valor": null, "tipo": "INDISPONIVEL", "fonte": "copelandaam.org/visit/ — sítio oficial não expôs tabela de preços nesta consulta; museu universitário, presumivelmente gratuito, confirmar antes de publicar", "consultadoEm": "2026-08-28" },
+    "custo": { "valor": 0, "tipo": "CADASTRADO", "fonte": "valdostadailytimes.com (11/fev/2026, matéria sobre o museu) e valdosta.edu (comunicado oficial de abertura do museu) — confirmam admissão gratuita; copelandaam.org não expõe tabela de preços mas não há venda de bilhetes no fluxo de visita descrito", "consultadoEm": "2026-09-16" },
     "horario": { "valor": "Segunda a quinta 10h–17h; sexta 10h–15h", "tipo": "CADASTRADO", "fonte": "copelandaam.org/visit/ — sítio oficial", "consultadoEm": "2026-08-28" },
     "cat": ["historia", "cultura", "museus"],
     "prio": 40,

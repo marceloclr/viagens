@@ -107,10 +107,12 @@
       "consultadoEm": "2026-08-26"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Bilheteira oficial lista categorias de desconto (residentes, estudantes, Lisboa Card) mas não expôs o valor cheio do adulto na busca realizada",
-      "consultadoEm": "2026-08-26"
+      "valor": {
+        "adulto": 10
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "padraodosdescobrimentos.pt/bilheteira — bilheteira oficial: bilhete adulto padrão (mirante + exposição + filme) €10,00. Outras categorias com desconto: jovem 13–25 anos não residente €5, estudante ensino superior (Corredor Cultural) €5, sénior 65+ não residente €8,50.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://padraodosdescobrimentos.pt",
     "desc": "Monumento erguido em 1960 à margem do Tejo em homenagem aos navegadores portugueses, com mirante panorâmico no topo."
