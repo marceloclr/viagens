@@ -8157,9 +8157,12 @@ const DB = {
             "modo": "aviao",
             "icone": "✈️",
             "duracao": 165,
-            "custoPP": null,
-            "obs": "Trecho aéreo intraeuropeu. Preço não disponível sem provedor de tarifas.",
-            "fonte": "Roteiro de referência v12 — curadoria manual"
+            "custoPP": [
+                40,
+                100
+            ],
+            "obs": "Trecho aéreo intraeuropeu, sem voo direto de trem competitivo pela distância. Low-cost (EasyJet, Ryanair, Transavia) a partir de ~€40 saindo de Paris (CDG/Orly/Beauvais), com média de tarifa em torno de €90-93 e picos de ~€100 em alta demanda/temporada alta.",
+            "fonte": "skyscanner.com, kayak.com, momondo.com, govoyages.com — agregadores de passagens aéreas, consultado via busca em 2026-09-16"
         },
         {
             "de": "paris",
@@ -8167,9 +8170,12 @@ const DB = {
             "modo": "aviao",
             "icone": "✈️",
             "duracao": 140,
-            "custoPP": null,
-            "obs": "Trecho aéreo intraeuropeu. Preço não disponível sem provedor de tarifas. Existe alternativa terrestre por trem de alta velocidade (Frecciarossa Roma–Milão + TGV/Frecciarossa Milão–Paris, 1 troca em Milão, cerca de 10h40) — mantido como avião aqui porque é a opção prática para esta distância; ajuste manualmente na Jornada se preferir a rota terrestre.",
-            "fonte": "Roteiro de referência v12 — curadoria manual"
+            "custoPP": [
+                35,
+                100
+            ],
+            "obs": "Trecho aéreo intraeuropeu. Tarifas de baixo custo (Wizz Air, Vueling, Ryanair) a partir de ~€30-35 em baixa temporada, com média de ~€70 em baixa e ~€100 por pessoa em alta temporada. Existe alternativa terrestre por trem de alta velocidade (Frecciarossa Roma–Milão + TGV/Frecciarossa Milão–Paris, 1 troca em Milão, cerca de 10h40) — mantido como avião aqui porque é a opção prática para esta distância; ajuste manualmente na Jornada se preferir a rota terrestre.",
+            "fonte": "kayak.com, momondo.com, google.com/travel/flights — agregadores de passagens aéreas, consultado via busca em 2026-09-16"
         },
         {
             "de": "roma",
@@ -8247,9 +8253,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "regional",
             "duracao": 140,
-            "custoPP": null,
-            "obs": "TER ou Intercités a partir de Paris Saint-Lazare, ~16 trens por dia — sem trecho de alta velocidade nesta linha normanda.",
-            "fonte": "thetrainline.com — agregador de bilhetes SNCF, consultado em 2026-08-27"
+            "custoPP": [
+                12,
+                30
+            ],
+            "obs": "TER ou Intercités a partir de Paris Saint-Lazare, ~16-17 trens por dia — sem trecho de alta velocidade nesta linha normanda. Tarifa TER fixa pela SNCF, com preço médio em torno de €30.",
+            "fonte": "thetrainline.com, sncf-connect.com, omio.fr — sítio oficial SNCF e agregadores de bilhetes, consultado via busca em 2026-09-16"
         },
         {
             "de": "genebra",
@@ -8258,9 +8267,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "regional",
             "duracao": 111,
-            "custoPP": null,
-            "obs": "InterCity SBB direto, saídas horárias. A rede suíça não opera trem de alta velocidade dedicado — o InterCity é o serviço mais rápido do país.",
-            "fonte": "network.sbb.ch, sbb.ch — sítio oficial SBB/CFF/FFS, consultado em 2026-08-27"
+            "custoPP": [
+                23,
+                45
+            ],
+            "obs": "InterCity SBB direto, saídas horárias. A rede suíça não opera trem de alta velocidade dedicado — o InterCity é o serviço mais rápido do país. Tarifa 2ª classe varia de bilhetes com desconto (Supersaver) a partir de ~CHF23/€23 até tarifa padrão em torno de €44-45.",
+            "fonte": "omio.fr, omio.com, network.sbb.ch, sbb.ch — sítio oficial SBB/CFF/FFS e agregador de bilhetes, consultado via busca em 2026-09-16"
         },
         {
             "de": "zurique",
@@ -8269,9 +8281,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "regional",
             "duracao": 65,
-            "custoPP": null,
-            "obs": "InterCity SBB direto, alta frequência (linha IC1). Sem trem de alta velocidade dedicado na Suíça.",
-            "fonte": "sbb.ch — sítio oficial SBB/CFF/FFS, consultado em 2026-08-27"
+            "custoPP": [
+                20,
+                59
+            ],
+            "obs": "InterCity SBB direto, alta frequência (linha IC1). Sem trem de alta velocidade dedicado na Suíça. Bilhete Supersaver com reserva antecipada a partir de CHF20/€20; tarifa padrão (point-to-point) 2ª classe em torno de CHF59/€59.",
+            "fonte": "sbb.ch, rome2rio.com, omio.com — sítio oficial SBB/CFF/FFS e agregadores de bilhetes, consultado via busca em 2026-09-16"
         },
         {
             "de": "lucerna",
@@ -8280,9 +8295,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "regional",
             "duracao": 60,
-            "custoPP": null,
-            "obs": "InterRegio SBB direto (linha IR15). Sem trem de alta velocidade dedicado na Suíça.",
-            "fonte": "sbb.ch — sítio oficial SBB/CFF/FFS, consultado em 2026-08-27"
+            "custoPP": [
+                19,
+                45
+            ],
+            "obs": "InterRegio SBB direto (linha IR15). Sem trem de alta velocidade dedicado na Suíça. Tarifa varia de bilhetes com desconto (~CHF19-25/€19-25) até tarifa padrão em torno de €45.",
+            "fonte": "omio.com, rome2rio.com, sbb.ch — agregadores de bilhetes e sítio oficial SBB/CFF/FFS, consultado via busca em 2026-09-16"
         },
         {
             "de": "madrid",
@@ -8428,9 +8446,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "alta_velocidade",
             "duracao": 275,
-            "custoPP": null,
-            "obs": "YHT (Yüksek Hızlı Tren) direto, até 300 km/h — a linha de alta velocidade mais movimentada da Turquia. Tarifa em lira turca, sujeita a forte variação cambial; consulte a TCDD antes de comprar.",
-            "fonte": "tr.railturkey.org, tr.wikipedia.org — cobertura da linha YHT Ancara-Istambul, consultado em 2026-08-27"
+            "custoPP": [
+                18,
+                25
+            ],
+            "obs": "YHT (Yüksek Hızlı Tren) direto, até 300 km/h — a linha de alta velocidade mais movimentada da Turquia. Tarifa em lira turca, sujeita a forte variação cambial; consulte a TCDD antes de comprar. Bilhete econômico ≈990 TL, business ≈1.395 TL (reajuste de ago/2026); convertido a ~56,2 TRY/EUR (set/2026).",
+            "fonte": "tr.railturkey.org, tr.wikipedia.org — cobertura da linha YHT Ancara-Istambul, consultado em 2026-08-27; hurriyet.com.tr, cnnturk.com — tarifas YHT 2026 (econômica 990 TL, business ~1.395 TL) e wise.com/alanchand.com — câmbio EUR/TRY ~56,2, consultado via busca em 2026-09-16"
         },
         {
             "de": "esmirna",
@@ -8438,9 +8459,12 @@ const DB = {
             "modo": "onibus",
             "icone": "🚌",
             "duracao": 480,
-            "custoPP": null,
-            "obs": "Metro Turizm, Kamil Koç e outras operam ligação direta. Sem trem direto entre as duas cidades. Tarifa em lira turca, sujeita a forte variação cambial.",
-            "fonte": "enuygun.com — agregador de bilhetes de ônibus turcos, consultado em 2026-08-27"
+            "custoPP": [
+                12,
+                20
+            ],
+            "obs": "Metro Turizm, Kamil Koç e outras operam ligação direta. Sem trem direto entre as duas cidades. Tarifa em lira turca, sujeita a forte variação cambial. Tarifa a partir de EUR 12,67 (Ancara→Esmirna) / EUR 12,47 (Esmirna→Ancara) observada diretamente em EUR no obilet.com; faixa superior cobre assentos/classes mais caras.",
+            "fonte": "enuygun.com — agregador de bilhetes de ônibus turcos, consultado em 2026-08-27; obilet.com, checkmybus.com — tarifas em EUR e TL do trecho Esmirna-Ancara, consultado via busca em 2026-09-16 (câmbio referência ~56,2 TRY/EUR)"
         },
         {
             "de": "efeso",
@@ -8448,9 +8472,12 @@ const DB = {
             "modo": "onibus",
             "icone": "🚌",
             "duracao": 510,
-            "custoPP": null,
-            "obs": "Pamukkale Turizm e outras operam ligação direta a partir de Selçuk. Sem trem direto. Tarifa em lira turca, sujeita a forte variação cambial.",
-            "fonte": "enuygun.com, pamukkale.com.tr — agregadores de bilhetes de ônibus turcos, consultado em 2026-08-27"
+            "custoPP": [
+                13,
+                24
+            ],
+            "obs": "Pamukkale Turizm e outras operam ligação direta a partir de Selçuk. Sem trem direto. Tarifa em lira turca, sujeita a forte variação cambial. Pamukkale Turizm ~1.320 TL (~23,5 EUR) de tarifa média; Rome2Rio lista alternativas mais baratas a partir de ~US$12 (~10-14 EUR).",
+            "fonte": "enuygun.com, pamukkale.com.tr — agregadores de bilhetes de ônibus turcos, consultado em 2026-08-27; rome2rio.com, pamukkale.com.tr — tarifas Selçuk-Ancara, consultado via busca em 2026-09-16 (câmbio referência ~56,2 TRY/EUR e ~0,867 EUR/USD)"
         },
         {
             "de": "capadocia",
@@ -8458,9 +8485,12 @@ const DB = {
             "modo": "onibus",
             "icone": "🚌",
             "duracao": 270,
-            "custoPP": null,
-            "obs": "Ligação direta via Aksaray, operada por diversas companhias (Metro Turizm, Süha Turizm, Nevtur). Sem trem direto. Tarifa em lira turca, sujeita a forte variação cambial.",
-            "fonte": "gezire.com, kapadokyalist.com — guias de acesso à Capadócia, consultado em 2026-08-27"
+            "custoPP": [
+                10,
+                14
+            ],
+            "obs": "Ligação direta via Aksaray, operada por diversas companhias (Metro Turizm, Süha Turizm, Nevtur). Sem trem direto. Tarifa em lira turca, sujeita a forte variação cambial. Kamil Koç US$11-16 e Metro Turizm US$12-15 (Rome2Rio, set/2026); dados de Nevtur/Süha Turizm em TL encontrados online estavam desatualizados e não foram usados no cálculo.",
+            "fonte": "gezire.com, kapadokyalist.com — guias de acesso à Capadócia, consultado em 2026-08-27; rome2rio.com — tarifas Ancara-Capadócia (Kamil Koç, Metro Turizm), consultado via busca em 2026-09-16 (câmbio referência ~0,867 EUR/USD)"
         },
         {
             "de": "paris",
@@ -8469,9 +8499,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "alta_velocidade",
             "duracao": 650,
-            "custoPP": null,
-            "obs": "TGV + AVE, com 1 troca (normalmente em Barcelona) — sem trem direto sem troca nesta ligação. Tarifa dinâmica, combinando dois sistemas de bilhetagem (SNCF + Renfe).",
-            "fonte": "thetrainline.com, rome2rio.com — agregadores de bilhetes ferroviários, consultado em 2026-08-27"
+            "custoPP": [
+                95,
+                280
+            ],
+            "obs": "TGV + AVE, com 1 troca (normalmente em Barcelona) — sem trem direto sem troca nesta ligação. Tarifa dinâmica, combinando dois sistemas de bilhetagem (SNCF + Renfe), sujeita a grande variação conforme antecedência da compra: bilhetes combinados a partir de ~€95-100 com reserva antecipada, podendo superar €280-300 em compras de última hora.",
+            "fonte": "thetrainline.com, omio.com, rome2rio.com, raileurope.com — agregadores de bilhetes ferroviários, consultado via busca em 2026-09-16"
         },
         {
             "de": "paris",
@@ -8480,9 +8513,12 @@ const DB = {
             "icone": "🚆",
             "categoria": "alta_velocidade",
             "duracao": 270,
-            "custoPP": null,
-            "obs": "TGV Lyria até Basileia (alta velocidade) + trem regional Basileia–Berna, ~1 troca. Vendido pela TGV Lyria como um único itinerário. Tarifa dinâmica.",
-            "fonte": "tgv-lyria.com — sítio oficial TGV Lyria, consultado em 2026-08-27"
+            "custoPP": [
+                29,
+                90
+            ],
+            "obs": "TGV Lyria até Basileia (alta velocidade) + trem regional/SBB Basileia–Berna, ~1 troca. Vendido pela TGV Lyria como um único itinerário. Tarifa dinâmica: bilhetes promocionais a partir de ~€29 (rede TGV Lyria para a Suíça), tarifa padrão do trecho Paris–Basileia em torno de €49 (fixa o ano todo), mais o complemento Basileia–Berna — total prático de ~€29 a €90 dependendo da antecedência.",
+            "fonte": "seat61.com, tgv-lyria.com, omio.com, raileurope.com, thetrainline.com — sítio oficial TGV Lyria e agregadores de bilhetes, consultado via busca em 2026-09-16"
         },
         {
             "de": "miami",
@@ -8910,9 +8946,12 @@ const DB = {
             "modo": "aviao",
             "icone": "✈️",
             "duracao": 129,
-            "custoPP": null,
-            "obs": "Trecho aéreo doméstico direto (Azul, GOL e LATAM), cerca de 17 voos semanais só pela Azul — a ligação natural para combinar as duas capitais amazônicas em um mesmo roteiro. Preço não disponível sem provedor de tarifas.",
-            "fonte": "flightconnections.com e agregadores de passagens (kayak.com.br, momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02",
+            "custoPP": [
+                300,
+                700
+            ],
+            "obs": "Trecho aéreo doméstico direto (Azul, GOL e LATAM), cerca de 17 voos semanais só pela Azul — a ligação natural para combinar as duas capitais amazônicas em um mesmo roteiro. Faixa em BRL (trecho 100% doméstico no Brasil).",
+            "fonte": "flightconnections.com e agregadores de passagens (kayak.com.br, momondo.com.br, skyscanner.com), consultado via busca em 2026-09-02; faixa de preço (custoPP) complementada em 2026-09-16 via kayak.com.br, momondo.com.br, decolar.com, mundi.com.br — tarifa econômica de ida (Azul/GOL/LATAM) observada entre ~R$298-380 (promocional, reserva antecipada) e ~R$700 (tarifa mais cheia), com reserva de 1-2 meses de antecedência",
             "categoria": "regional"
         },
         {
@@ -8949,9 +8988,12 @@ const DB = {
             "modo": "aviao",
             "icone": "✈️",
             "duracao": 65,
-            "custoPP": null,
+            "custoPP": [
+                45,
+                100
+            ],
             "obs": "Voo direto pela Aegean Airlines ou Sky Express, cerca de 59 voos semanais somando as duas companhias — a opção prática, dada a distância. Alternativa por mar existe (Blue Star Ferries, 5x/semana a partir do Pireu), mas é uma travessia longa: 10h40 a 18h dependendo do navio, sem trecho de alta velocidade nesta rota.",
-            "fonte": "kayak.com, flightsfrom.com, ferryhopper.com, directferries.com — cobertura consolidada sobre as rotas Atenas–Rodes, consultado via busca em 2026-09-02",
+            "fonte": "kayak.com, flightsfrom.com, ferryhopper.com, directferries.com, omio.com, expedia.com — cobertura consolidada sobre as rotas Atenas–Rodes; tarifas econômicas de ida observadas entre ~€45 (Aegean/Sky Express, promocional) e ~€90-100 (Sky Express, tarifa cheia), consultado via busca em 2026-09-16",
             "categoria": "regional"
         },
         {
@@ -8974,9 +9016,12 @@ const DB = {
             "modo": "aviao",
             "icone": "✈️",
             "duracao": 55,
-            "custoPP": null,
+            "custoPP": [
+                75,
+                150
+            ],
             "obs": "Aegean Airlines opera apenas 1 voo direto por semana nesta rota — frequência baixa demais para depender dela num roteiro fechado; a alternativa prática e mais confiável é conectar via Atenas (voo Santorini–Atenas + Atenas–Rodes). Por mar, a travessia direta existe (Blue Star Ferries), mas é uma viagem longa, de 10h45 a 24h dependendo do navio — praticamente inviável como deslocamento único dentro de um roteiro de poucos dias.",
-            "fonte": "flightsfrom.com, ferryhopper.com, directferries.com, greecelogue.com — cobertura consolidada sobre as rotas Santorini–Rodes, consultado via busca em 2026-09-02",
+            "fonte": "flightsfrom.com, ferryhopper.com, directferries.com, greecelogue.com, kiwi.com, flights.aegeanair.com — cobertura consolidada sobre a rota Santorini–Rodes; tarifa observada em torno de ~€75-150 ida, faixa mais alta que rotas concorridas por causa da frequência semanal única (menor competição de assentos), consultado via busca em 2026-09-16",
             "categoria": "regional"
         },
         {
@@ -8985,9 +9030,12 @@ const DB = {
             "modo": "aviao",
             "icone": "✈️",
             "duracao": 55,
-            "custoPP": null,
+            "custoPP": [
+                50,
+                120
+            ],
             "obs": "Resolvido: a Aegean Airlines opera voo direto sem escala nesta rota, mas com frequência muito baixa — 2 voos por semana (segunda e sexta), 55 min de duração, confirmado por disponibilidade de tarifas reais no motor de busca oficial aegeanair.com para vários meses de 2026 e por flightsfrom.com. A SKY Express, por sua vez, não opera voo direto nesta rota — apenas conexões (geralmente via Atenas). Dada a baixíssima frequência do voo direto da Aegean, a conexão via Atenas continua sendo a alternativa mais prática para a maioria dos roteiros.",
-            "fonte": "flightsfrom.com, aegeanair.com (motor de busca oficial, tarifas reais consultadas para abr/mai/jun/ago/set de 2026), rome2rio.com, kiwi.com, skyexpress.gr — consultado via busca em 2026-09-14",
+            "fonte": "flightsfrom.com, aegeanair.com (motor de busca oficial, tarifas reais consultadas para abr/mai/jun/ago/set de 2026), rome2rio.com, kiwi.com, skyexpress.gr, expedia.com, travelocity.com — tarifas de ida observadas entre ~€50 e ~€120 dependendo da direção e antecedência, consultado via busca em 2026-09-16 (frequência confirmada em busca anterior de 2026-09-14)",
             "categoria": "regional"
         }
     ],
