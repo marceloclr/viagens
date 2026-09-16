@@ -86,9 +86,9 @@
     "horario": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": "2026-09-14",
-      "nota": "A divergência entre fontes provavelmente reflete duas áreas distintas: as ruas e o bairro histórico dentro das muralhas (Ulus/Hisar) têm acesso livre 24h, enquanto o trecho da fortificação murada em si (İç Kale) costuma ter horário controlado por segurança, aproximadamente 8h–19h no verão e 8h–17h no inverno segundo fontes turísticas consolidadas (nenhum sítio oficial do município ou do Ministério da Cultura foi localizado com horário formal) — sem confirmação oficial única, mantido como indisponível."
+      "fonte": "Nova pesquisa em 2026-09-16 (kupi.com, turkeytravelplanner.com, advantour.com, tripadvisor.com) não localizou site oficial da Prefeitura Metropolitana de Ancara (Ankara Büyükşehir Belediyesi) nem do Ministério da Cultura e Turismo com horário formal publicado para a cidadela; fontes turísticas seguem divergentes, algumas descrevendo acesso livre 24h ao bairro/muralhas externas (Ankara Kalesi como bairro vivo, sem portão), outras citando algo em torno de 8h–17h ou fechamento após o anoitecer para o trecho interno murado",
+      "consultadoEm": "2026-09-16",
+      "nota": "A divergência entre fontes provavelmente reflete duas áreas distintas: as ruas e o bairro histórico dentro das muralhas (Ulus/Hisar) têm acesso livre 24h, enquanto o trecho da fortificação murada em si (İç Kale) costuma ter horário controlado por segurança, aproximadamente 8h–19h no verão e 8h–17h no inverno segundo fontes turísticas consolidadas (nenhum sítio oficial do município ou do Ministério da Cultura foi localizado com horário formal) — sem confirmação oficial única, mantido como indisponível. Pesquisa de acompanhamento em 2026-09-16 chegou à mesma conclusão: nenhuma fonte oficial única com horário formal foi encontrada."
     },
     "cat": [
       "historia",

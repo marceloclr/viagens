@@ -180,10 +180,10 @@
       "nota": "Em obras de restauro do telhado até o primeiro trimestre de 2027, com andaimes e cobertura provisória sobre o monumento, segundo o sítio oficial."
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Preço do bilhete adulto não foi exposto na página consultada — verificar em parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos",
-      "consultadoEm": "2026-08-26"
+      "valor": { "adulto": 12 },
+      "tipo": "CADASTRADO",
+      "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos/ — sítio oficial: bilhete adulto (18 a 64 anos) €12",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://www.parquesdesintra.pt",
     "desc": "Palácio romântico do século XIX de influência mourisca e indiana, cercado por um dos jardins botânicos mais ricos de Portugal, com árvores exóticas trazidas de todo o mundo."

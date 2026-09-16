@@ -83,11 +83,10 @@
       "consultadoEm": "2026-08-26"
     },
     "horario": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Pesquisado (tripadvisor.com, trip.com, custodia.org, beitsahourchurch.ps) — nenhuma fonte confirma horário oficial de funcionamento da capela/santuário; recomendação recorrente nos guias é tocar a campainha se o portão estiver fechado. Mantido como indisponível."
+      "valor": "Diariamente, aproximadamente 8h-12h e 14h-18h (sítio franciscano)",
+      "tipo": "CADASTRADO",
+      "fonte": "seetheholyland.net/shepherds-field (horário informado: diário, 8h às 12h e 14h às 18h); recomendação recorrente em guias (tripadvisor.com, dannythedigger.com) de tocar a campainha se o portão estiver fechado, pois pode variar",
+      "consultadoEm": "2026-09-16"
     },
     "cat": [
       "religiao",
@@ -112,10 +111,12 @@
     "endereco": "182 Caritas Street, Bethlehem, ao lado do muro de separação da Cisjordânia",
     "desc": "Hotel-instalação de arte criado pelo artista Banksy em 2017, com museu e galeria voltados ao contexto do muro de separação; reabriu em dezembro de 2025 após dois anos fechado por conta do conflito Israel-Gaza. Tema sensível; recomenda-se abordagem informativa e não-panfletária no roteiro.",
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": {
+        "adulto": 20
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "Fachada, bar, galeria de arte e loja do Walled Off Hotel são de acesso público e gratuito para observar; o pequeno museu/exposição histórica (walk-through) dentro do hotel cobra taxa nominal de 20 NIS (shekels) para não-hóspedes, hóspedes entram grátis. Agregado de guias (tripadvisor.com - Walled Off Hotel History Exhibition, enjoybethlehem.com); não confirmado diretamente em walledoffhotel.com no momento da pesquisa",
+      "consultadoEm": "2026-09-16"
     },
     "horario": {
       "valor": "Museu e galeria abertos diariamente das 11:00 às 19:30 para não-hóspedes",

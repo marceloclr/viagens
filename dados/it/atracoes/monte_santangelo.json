@@ -65,8 +65,9 @@
     "custo": {
       "valor": null,
       "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "fonte": "Pesquisado em 2026-09-16: fontes turísticas de terceiros (ex.: touringclub.it) confirmam que a entrada é paga ('ingresso a pagamento'), mas divergem no valor exato (€1,00 segundo algumas fontes, €2,00 segundo outras) e o site oficial do Comune (montesantangelo.it/en/luoghi/310985) não publica o preço na página consultada. Sem fonte oficial com valor único confiável.",
+      "consultadoEm": "2026-09-16",
+      "nota": "Entrada é paga (não gratuita/só doação), mas o valor exato não pôde ser confirmado por fonte oficial."
     },
     "oficial": null,
     "desc": "O bairro Junno, de casas brancas escalonadas, e o batistério longobardo do século XII."
@@ -98,10 +99,12 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": {
+        "adulto": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "montesantangelo.it/it/vivere/703337 — sítio oficial do Comune di Monte Sant'Angelo: biglietto €2,00.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": null,
     "desc": "Fortificação sobre o promontório, com vista para o golfo — atrativo forte para público juvenil."
@@ -133,10 +136,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": {
+        "adulto": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "As trilhas e o acesso à floresta em si são livres/gratuitos (Ente Parco Nazionale del Gargano, parcogargano.it, não cobra ingresso à mata). O Museo Naturalistico, no centro de visitantes, cobra bilhete de €2,00 (fonte: jamaluca.com, corroborado por outras fontes turísticas; o site oficial parcogargano.it não publica esse valor explicitamente na página consultada).",
+      "consultadoEm": "2026-09-16",
+      "nota": "Valor refere-se apenas à entrada no Museo Naturalistico; as trilhas da floresta são de acesso livre."
     },
     "oficial": null,
     "desc": "Faial milenar no coração do Parque Nacional do Gargano. Depende de tempo firme e de automóvel."

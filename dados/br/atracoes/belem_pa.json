@@ -242,10 +242,11 @@
       "consultadoEm": "2026-09-02"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Buscas (belemtur.belem.pa.gov.br) confirmam apenas gratuidades (terças, agendados, idosos, crianças até 7 anos, PCD, militares) — valor da entrada padrão não confirmado em fonte oficial",
-      "consultadoEm": "2026-09-14"
+      "valor": { "adulto": 4 },
+      "tipo": "CADASTRADO",
+      "fonte": "cadastro.museus.gov.br (Instituto Brasileiro de Museus, cadastro oficial de museus) — entrada padrão R$ 4,00 para o público geral, dado coerente com o agregado em belemtur.belem.pa.gov.br",
+      "consultadoEm": "2026-09-16",
+      "nota": "Gratuidade para idosos, PCD, crianças até 12 anos, estudantes e professores em todos os dias da semana; entrada franca para todos os públicos às terças-feiras e no primeiro domingo de cada mês."
     },
     "oficial": null,
     "desc": "Casarão do século XVIII vizinho ao Forte do Presépio, hoje espaço cultural e museu de arte contemporânea, com terraço voltado ao rio Guamá que é um dos melhores pontos da cidade para o pôr do sol."

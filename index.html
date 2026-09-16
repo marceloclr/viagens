@@ -11745,10 +11745,13 @@ const DB = {
                 "consultadoEm": "2026-09-02"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Buscas (belemtur.belem.pa.gov.br) confirmam apenas gratuidades (terças, agendados, idosos, crianças até 7 anos, PCD, militares) — valor da entrada padrão não confirmado em fonte oficial",
-                "consultadoEm": "2026-09-14"
+                "valor": {
+                    "adulto": 4
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "cadastro.museus.gov.br (Instituto Brasileiro de Museus, cadastro oficial de museus) — entrada padrão R$ 4,00 para o público geral, dado coerente com o agregado em belemtur.belem.pa.gov.br",
+                "consultadoEm": "2026-09-16",
+                "nota": "Gratuidade para idosos, PCD, crianças até 12 anos, estudantes e professores em todos os dias da semana; entrada franca para todos os públicos às terças-feiras e no primeiro domingo de cada mês."
             },
             "oficial": null,
             "desc": "Casarão do século XVIII vizinho ao Forte do Presépio, hoje espaço cultural e museu de arte contemporânea, com terraço voltado ao rio Guamá que é um dos melhores pontos da cidade para o pôr do sol."
@@ -12523,10 +12526,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Bilhete conjunto com Fórum e Palatino — verificar tarifa vigente",
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 18,
+                    "reduzido": 2
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "colosseo.it/parcocolosseo.it (Biglietti) — bilhete combinado Coliseu + Fórum Romano + Palatino, intero €18,00, válido 24h (permanência máxima de 75 min no Coliseu); reduzido para cidadãos UE de 18 a 24 anos €2,00; desconto RAP (Amici del Parco) €14,00.",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": "https://parcocolosseo.it",
             "desc": "Principal conexão do roteiro com a Roma imperial. Reserva com hora marcada é obrigatória; o bilhete costuma ser conjunto com Fórum e Palatino."
@@ -12666,10 +12672,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Passou a ser bilhetado — verificar tarifa vigente",
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 7,
+                    "reduzido": 2
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "Novo convênio Ministero della Cultura–Diocesi di Roma, em vigor desde 1º/jul/2026 (ilpost.it, ansa.it, romatoday.it): bilhete intero €7,00 (antes €5,00); reduzido para residentes UE de 18 a 25 anos €2,00; gratuito para residentes do município de Roma e menores.",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": "https://www.pantheonroma.com",
             "desc": "A maior cúpula de concreto não armado já construída, íntegra desde o século II — abrigo natural em dia de chuva."
@@ -12738,10 +12747,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Entrada por faixa horária — verificar tarifa vigente",
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 16,
+                    "taxaReserva": 2
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "galleriaborghese.cultura.gov.it (Info) — intero €16,00 + taxa de reserva obrigatória €2,00 (total €18,00 por turno de 2h); último turno do dia (17h45, visita reduzida) €11,00 + reserva.",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": "https://galleriaborghese.beniculturali.it",
             "desc": "Bernini e Caravaggio em concentração rara. Entrada por faixa horária estrita, com reserva obrigatória."
@@ -12846,10 +12858,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Tarifa por complexo — verificar no sítio de cada catacumba",
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 10,
+                    "reduzido": 7
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "Tarifa por complexo (bilheteria própria de cada catacumba, sem preço único). Valor registrado refere-se às Catacombe di San Callisto (catacombesancallisto.it), mesmo complexo já usado para o horário cadastrado: intero €10,00, ridotto (7–16 anos) €7,00, gratuito até 6 anos. As demais principais (Domitilla via omniavaticanrome.org: €10,00 + €2,00 taxa de reserva online; San Sebastiano: tarifa própria não confirmada nesta pesquisa) praticam valores semelhantes, na faixa de €8 a €12.",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": "https://www.catacombe.roma.it",
             "desc": "Visita guiada aos cemitérios cristãos primitivos. Interessa particularmente a roteiros de peregrinação."
@@ -13137,10 +13152,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Tarifa varia por nível de acesso — verificar no sítio oficial",
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 14.8
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "toureiffel.paris/fr/tarifs-horaires — sítio oficial: bilhete adulto (25 anos+) varia por nível de acesso e modo de subida, de €14,80 a €36,70",
+                "consultadoEm": "2026-09-16",
+                "nota": "Valor cadastrado é o piso (2º andar por escada, €14,80). 2º andar por elevador: €23,50. Topo por escada+elevador: €28,00. Topo por elevador (tarifa máxima): €36,70."
             },
             "oficial": "https://www.toureiffel.paris",
             "desc": "Grande experiência visual do roteiro. Reservar com antecedência e combinar com o Trocadéro no fim da tarde."
@@ -13281,10 +13299,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Coleção permanente e bilhetes específicos — verificar no sítio oficial",
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 17
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "museeairespace.fr/visiteurs/visiteurs-individuels/tarifs-individuels/ — sítio oficial: bilhete 'Check In & Boarding Pass' (Grande Galerie, coleção permanente, exposições temporárias e acesso ao Boeing 747, ao Douglas C-47 Dakota e aos dois Concorde) custa €17 tarifa cheia",
+                "consultadoEm": "2026-09-16",
+                "nota": "Tarifa reduzida de €14 existe, mas só é vendida na bilheteria presencial, não online."
             },
             "oficial": "https://www.museeairespace.fr",
             "desc": "História da aviação e da exploração espacial em Le Bourget. Deslocamento longo: reservar meio período inteiro."
@@ -13458,10 +13479,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 6,
+                    "reduzido": 4
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "abbaziamontecassino.it (Visita il Museo) — bilhete do Museo Abbaziale: intero €6,00; crianças em idade escolar e grupos de 10+ pessoas €4,00 por pessoa; entrada gratuita no primeiro domingo de cada mês.",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": "https://www.abbaziamontecassino.org",
             "desc": "Acervo do mosteiro e da destruição de 1944, no próprio conjunto da Abadia."
@@ -13532,8 +13556,9 @@ const DB = {
             "custo": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "fonte": "Pesquisado em 2026-09-16: fontes turísticas de terceiros (ex.: touringclub.it) confirmam que a entrada é paga ('ingresso a pagamento'), mas divergem no valor exato (€1,00 segundo algumas fontes, €2,00 segundo outras) e o site oficial do Comune (montesantangelo.it/en/luoghi/310985) não publica o preço na página consultada. Sem fonte oficial com valor único confiável.",
+                "consultadoEm": "2026-09-16",
+                "nota": "Entrada é paga (não gratuita/só doação), mas o valor exato não pôde ser confirmado por fonte oficial."
             },
             "oficial": null,
             "desc": "O bairro Junno, de casas brancas escalonadas, e o batistério longobardo do século XII."
@@ -13565,10 +13590,12 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 2
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "montesantangelo.it/it/vivere/703337 — sítio oficial do Comune di Monte Sant'Angelo: biglietto €2,00.",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": null,
             "desc": "Fortificação sobre o promontório, com vista para o golfo — atrativo forte para público juvenil."
@@ -13600,10 +13627,13 @@ const DB = {
                 "consultadoEm": "2026-08-27"
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 2
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "As trilhas e o acesso à floresta em si são livres/gratuitos (Ente Parco Nazionale del Gargano, parcogargano.it, não cobra ingresso à mata). O Museo Naturalistico, no centro de visitantes, cobra bilhete de €2,00 (fonte: jamaluca.com, corroborado por outras fontes turísticas; o site oficial parcogargano.it não publica esse valor explicitamente na página consultada).",
+                "consultadoEm": "2026-09-16",
+                "nota": "Valor refere-se apenas à entrada no Museo Naturalistico; as trilhas da floresta são de acesso livre."
             },
             "oficial": null,
             "desc": "Faial milenar no coração do Parque Nacional do Gargano. Depende de tempo firme e de automóvel."
@@ -14629,10 +14659,12 @@ const DB = {
                 "nota": "Em obras de restauro do telhado até o primeiro trimestre de 2027, com andaimes e cobertura provisória sobre o monumento, segundo o sítio oficial."
             },
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": "Preço do bilhete adulto não foi exposto na página consultada — verificar em parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos",
-                "consultadoEm": "2026-08-26"
+                "valor": {
+                    "adulto": 12
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "parquesdesintra.pt/pt/planear-a-visita/horarios-e-precos/ — sítio oficial: bilhete adulto (18 a 64 anos) €12",
+                "consultadoEm": "2026-09-16"
             },
             "oficial": "https://www.parquesdesintra.pt",
             "desc": "Palácio romântico do século XIX de influência mourisca e indiana, cercado por um dos jardins botânicos mais ricos de Portugal, com árvores exóticas trazidas de todo o mundo."
@@ -15923,10 +15955,12 @@ const DB = {
             "endereco": "Uetliberg, 8143 Uitikon/Zürich, Suíça (acesso pela estação Zürich HB via trem S10)",
             "desc": "Montanha de 871m conhecida como o 'telhado de Zurique', acessível de trem em cerca de 25 minutos, com torre-mirante e trilhas panorâmicas sobre a cidade, o lago e os Alpes.",
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 0
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "Acesso à montanha em si (cume, trilhas) é gratuito; o custo real é a tarifa do transporte público ZVV para subir de trem (S10/Uetlibergbahn a partir de Zürich HB, zonas 110/154/155). A torre-mirante Aussichtsturm no cume cobra separadamente uma taxa simbólica de administração privada (historicamente entre CHF 2 e 5, variável ao longo dos anos). Fontes: szu.ch (bilhetes/travelcards), de.wikipedia.org/wiki/Aussichtsturm_Uetliberg, derbund.ch e limmattalerzeitung.ch (preço da torre)",
+                "consultadoEm": "2026-09-16"
             },
             "horario": {
                 "valor": "Trens partem da Estação Central de Zurique a cada 30 minutos",
@@ -16763,11 +16797,10 @@ const DB = {
                 "consultadoEm": "2026-08-26"
             },
             "horario": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Pesquisado (tripadvisor.com, trip.com, custodia.org, beitsahourchurch.ps) — nenhuma fonte confirma horário oficial de funcionamento da capela/santuário; recomendação recorrente nos guias é tocar a campainha se o portão estiver fechado. Mantido como indisponível."
+                "valor": "Diariamente, aproximadamente 8h-12h e 14h-18h (sítio franciscano)",
+                "tipo": "CADASTRADO",
+                "fonte": "seetheholyland.net/shepherds-field (horário informado: diário, 8h às 12h e 14h às 18h); recomendação recorrente em guias (tripadvisor.com, dannythedigger.com) de tocar a campainha se o portão estiver fechado, pois pode variar",
+                "consultadoEm": "2026-09-16"
             },
             "cat": [
                 "religiao",
@@ -16792,10 +16825,12 @@ const DB = {
             "endereco": "182 Caritas Street, Bethlehem, ao lado do muro de separação da Cisjordânia",
             "desc": "Hotel-instalação de arte criado pelo artista Banksy em 2017, com museu e galeria voltados ao contexto do muro de separação; reabriu em dezembro de 2025 após dois anos fechado por conta do conflito Israel-Gaza. Tema sensível; recomenda-se abordagem informativa e não-panfletária no roteiro.",
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null
+                "valor": {
+                    "adulto": 20
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "Fachada, bar, galeria de arte e loja do Walled Off Hotel são de acesso público e gratuito para observar; o pequeno museu/exposição histórica (walk-through) dentro do hotel cobra taxa nominal de 20 NIS (shekels) para não-hóspedes, hóspedes entram grátis. Agregado de guias (tripadvisor.com - Walled Off Hotel History Exhibition, enjoybethlehem.com); não confirmado diretamente em walledoffhotel.com no momento da pesquisa",
+                "consultadoEm": "2026-09-16"
             },
             "horario": {
                 "valor": "Museu e galeria abertos diariamente das 11:00 às 19:30 para não-hóspedes",
@@ -17249,11 +17284,13 @@ const DB = {
             "endereco": "Alemdar, Yerebatan Cd. 1/3, 34110 Fatih/İstanbul, Turquia",
             "desc": "Antiga cisterna subterrânea bizantina do século VI, com colunas reaproveitadas e as famosas cabeças de Medusa.",
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Fontes consultadas (yerebatan.com, basilica-cistern.com) divergem fortemente sobre o preço atual (valores entre 90 TL e cerca de 1950-3000 TL/38-58 EUR), não foi possível confirmar um valor confiável único."
+                "valor": {
+                    "adulto": 1950
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "kultur.istanbul (portal oficial da İBB Kültür A.Ş., administradora do sítio) e comunicado oficial repassado via TÜRSAB em 2026-02-03, ambos coincidindo com yerebatan.com — valor em liras turcas (TRY) para visitante adulto estrangeiro, sessão diurna (9h-18h30)",
+                "consultadoEm": "2026-09-16",
+                "nota": "Divergência anterior resolvida: os ~90 TL eram a tarifa com desconto (estudantes/professores), não o valor cheio para estrangeiros. Tarifa turca integral: 450 TL diurno / 750 TL sessão noturna; estrangeiro: 1950 TL diurno / 3000 TL sessão noturna (19h30-22h, ~38-58 EUR ao câmbio de referência da pesquisa anterior). Crianças até 7 anos entram gratuitamente. Não foi possível confirmar diretamente no domínio yerebatansarnici.istanbul (site oficial atual não expôs tarifário estático nesta pesquisa), mas as três fontes independentes citadas convergem no mesmo valor."
             },
             "horario": {
                 "valor": "9h às 18h30, diariamente.",
@@ -17432,11 +17469,13 @@ const DB = {
             "endereco": "Vişnezade, Dolmabahçe Cd., 34357 Beşiktaş/İstanbul, Turquia",
             "desc": "Palácio do século XIX às margens do Bósforo, residência final dos sultões otomanos e local de morte de Atatürk, com decoração em estilo europeu barroco e neoclássico.",
             "custo": {
-                "valor": null,
-                "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": null,
-                "nota": "Administrado pela Presidência de Palácios Nacionais (Milli Saraylar); não foi possível confirmar o preço vigente numa fonte oficial durante esta pesquisa."
+                "valor": {
+                    "adulto": 2000
+                },
+                "tipo": "CADASTRADO",
+                "fonte": "turizmdays.com, gezipass.com e serhatengul.com (convergentes) citando reajuste da Milli Saraylar/Presidência de Palácios Nacionais vigente desde 2026-01-01; tentativa de acesso direto à página de venda em millisaraylar.gov.tr/Bilet/BiletAl não retornou tarifa estática (página dinâmica de compra sem preço exposto ao robô de busca)",
+                "consultadoEm": "2026-09-16",
+                "nota": "Valor em liras turcas (TRY) para bilhete combinado (Selamlık + Harém + Museu de Pintura dos Palácios Nacionais), visitante adulto estrangeiro. Cidadãos turcos pagam 250 TL (com desconto de 150 TL); opção de acesso rápido (Hızlı Geçiş) custa 3000 TL para estrangeiros. Substitui tarifa anterior de 1200 TL para estrangeiros, vigente até o reajuste de 2024/2025 segundo iro.org.tr (Câmara de Guias de Istambul). Sujeito a variação frequente por inflação/câmbio, como já registrado para outros sítios administrados por órgãos turcos."
             },
             "horario": {
                 "valor": "Terça a domingo, 9h às 17h (bilheteria até 16h30). Fechado às segundas-feiras e em feriados religiosos específicos.",
@@ -18114,9 +18153,9 @@ const DB = {
             "horario": {
                 "valor": null,
                 "tipo": "INDISPONIVEL",
-                "fonte": null,
-                "consultadoEm": "2026-09-14",
-                "nota": "A divergência entre fontes provavelmente reflete duas áreas distintas: as ruas e o bairro histórico dentro das muralhas (Ulus/Hisar) têm acesso livre 24h, enquanto o trecho da fortificação murada em si (İç Kale) costuma ter horário controlado por segurança, aproximadamente 8h–19h no verão e 8h–17h no inverno segundo fontes turísticas consolidadas (nenhum sítio oficial do município ou do Ministério da Cultura foi localizado com horário formal) — sem confirmação oficial única, mantido como indisponível."
+                "fonte": "Nova pesquisa em 2026-09-16 (kupi.com, turkeytravelplanner.com, advantour.com, tripadvisor.com) não localizou site oficial da Prefeitura Metropolitana de Ancara (Ankara Büyükşehir Belediyesi) nem do Ministério da Cultura e Turismo com horário formal publicado para a cidadela; fontes turísticas seguem divergentes, algumas descrevendo acesso livre 24h ao bairro/muralhas externas (Ankara Kalesi como bairro vivo, sem portão), outras citando algo em torno de 8h–17h ou fechamento após o anoitecer para o trecho interno murado",
+                "consultadoEm": "2026-09-16",
+                "nota": "A divergência entre fontes provavelmente reflete duas áreas distintas: as ruas e o bairro histórico dentro das muralhas (Ulus/Hisar) têm acesso livre 24h, enquanto o trecho da fortificação murada em si (İç Kale) costuma ter horário controlado por segurança, aproximadamente 8h–19h no verão e 8h–17h no inverno segundo fontes turísticas consolidadas (nenhum sítio oficial do município ou do Ministério da Cultura foi localizado com horário formal) — sem confirmação oficial única, mantido como indisponível. Pesquisa de acompanhamento em 2026-09-16 chegou à mesma conclusão: nenhuma fonte oficial única com horário formal foi encontrada."
             },
             "cat": [
                 "historia",
@@ -27319,8 +27358,8 @@ const DB = {
                     "horario": {
                         "valor": null,
                         "tipo": "INDISPONIVEL",
-                        "fonte": "Fontes divergem: barembar.com.br indica terça a domingo a partir das 14h (segunda a partir das 19h); outro agregado (Yelp) indica abertura já às 10h em vários dias — sem confirmação em site oficial ou perfil oficial verificado, verificar direto com o estabelecimento",
-                        "consultadoEm": "2026-09-14"
+                        "fonte": "Fontes divergem: barembar.com.br indica terça a domingo a partir das 14h (segunda a partir das 19h); Yelp indica abertura já às 10h em vários dias; um terceiro agregador turístico ainda diverge desses dois. Perfis oficiais (Instagram @bardoarmando1963 e Facebook /BarDoArmando) foram consultados na tentativa de resolver a divergência, mas o horário publicado no perfil não pôde ser lido no conteúdo acessível — divergência não resolvida, verificar direto com o estabelecimento ou no Google Meu Negócio",
+                        "consultadoEm": "2026-09-16"
                     },
                     "link": "https://www.facebook.com/BarDoArmando/",
                     "cardapio": null,

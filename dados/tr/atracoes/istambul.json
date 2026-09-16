@@ -79,11 +79,11 @@
     "endereco": "Alemdar, Yerebatan Cd. 1/3, 34110 Fatih/İstanbul, Turquia",
     "desc": "Antiga cisterna subterrânea bizantina do século VI, com colunas reaproveitadas e as famosas cabeças de Medusa.",
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Fontes consultadas (yerebatan.com, basilica-cistern.com) divergem fortemente sobre o preço atual (valores entre 90 TL e cerca de 1950-3000 TL/38-58 EUR), não foi possível confirmar um valor confiável único."
+      "valor": { "adulto": 1950 },
+      "tipo": "CADASTRADO",
+      "fonte": "kultur.istanbul (portal oficial da İBB Kültür A.Ş., administradora do sítio) e comunicado oficial repassado via TÜRSAB em 2026-02-03, ambos coincidindo com yerebatan.com — valor em liras turcas (TRY) para visitante adulto estrangeiro, sessão diurna (9h-18h30)",
+      "consultadoEm": "2026-09-16",
+      "nota": "Divergência anterior resolvida: os ~90 TL eram a tarifa com desconto (estudantes/professores), não o valor cheio para estrangeiros. Tarifa turca integral: 450 TL diurno / 750 TL sessão noturna; estrangeiro: 1950 TL diurno / 3000 TL sessão noturna (19h30-22h, ~38-58 EUR ao câmbio de referência da pesquisa anterior). Crianças até 7 anos entram gratuitamente. Não foi possível confirmar diretamente no domínio yerebatansarnici.istanbul (site oficial atual não expôs tarifário estático nesta pesquisa), mas as três fontes independentes citadas convergem no mesmo valor."
     },
     "horario": {
       "valor": "9h às 18h30, diariamente.",
@@ -258,11 +258,11 @@
     "endereco": "Vişnezade, Dolmabahçe Cd., 34357 Beşiktaş/İstanbul, Turquia",
     "desc": "Palácio do século XIX às margens do Bósforo, residência final dos sultões otomanos e local de morte de Atatürk, com decoração em estilo europeu barroco e neoclássico.",
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null,
-      "nota": "Administrado pela Presidência de Palácios Nacionais (Milli Saraylar); não foi possível confirmar o preço vigente numa fonte oficial durante esta pesquisa."
+      "valor": { "adulto": 2000 },
+      "tipo": "CADASTRADO",
+      "fonte": "turizmdays.com, gezipass.com e serhatengul.com (convergentes) citando reajuste da Milli Saraylar/Presidência de Palácios Nacionais vigente desde 2026-01-01; tentativa de acesso direto à página de venda em millisaraylar.gov.tr/Bilet/BiletAl não retornou tarifa estática (página dinâmica de compra sem preço exposto ao robô de busca)",
+      "consultadoEm": "2026-09-16",
+      "nota": "Valor em liras turcas (TRY) para bilhete combinado (Selamlık + Harém + Museu de Pintura dos Palácios Nacionais), visitante adulto estrangeiro. Cidadãos turcos pagam 250 TL (com desconto de 150 TL); opção de acesso rápido (Hızlı Geçiş) custa 3000 TL para estrangeiros. Substitui tarifa anterior de 1200 TL para estrangeiros, vigente até o reajuste de 2024/2025 segundo iro.org.tr (Câmara de Guias de Istambul). Sujeito a variação frequente por inflação/câmbio, como já registrado para outros sítios administrados por órgãos turcos."
     },
     "horario": {
       "valor": "Terça a domingo, 9h às 17h (bilheteria até 16h30). Fechado às segundas-feiras e em feriados religiosos específicos.",

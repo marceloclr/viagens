@@ -188,10 +188,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Bilhete conjunto com Fórum e Palatino — verificar tarifa vigente",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 18,
+        "reduzido": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "colosseo.it/parcocolosseo.it (Biglietti) — bilhete combinado Coliseu + Fórum Romano + Palatino, intero €18,00, válido 24h (permanência máxima de 75 min no Coliseu); reduzido para cidadãos UE de 18 a 24 anos €2,00; desconto RAP (Amici del Parco) €14,00.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://parcocolosseo.it",
     "desc": "Principal conexão do roteiro com a Roma imperial. Reserva com hora marcada é obrigatória; o bilhete costuma ser conjunto com Fórum e Palatino."
@@ -331,10 +334,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Passou a ser bilhetado — verificar tarifa vigente",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 7,
+        "reduzido": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "Novo convênio Ministero della Cultura–Diocesi di Roma, em vigor desde 1º/jul/2026 (ilpost.it, ansa.it, romatoday.it): bilhete intero €7,00 (antes €5,00); reduzido para residentes UE de 18 a 25 anos €2,00; gratuito para residentes do município de Roma e menores.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://www.pantheonroma.com",
     "desc": "A maior cúpula de concreto não armado já construída, íntegra desde o século II — abrigo natural em dia de chuva."
@@ -403,10 +409,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Entrada por faixa horária — verificar tarifa vigente",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 16,
+        "taxaReserva": 2
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "galleriaborghese.cultura.gov.it (Info) — intero €16,00 + taxa de reserva obrigatória €2,00 (total €18,00 por turno de 2h); último turno do dia (17h45, visita reduzida) €11,00 + reserva.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://galleriaborghese.beniculturali.it",
     "desc": "Bernini e Caravaggio em concentração rara. Entrada por faixa horária estrita, com reserva obrigatória."
@@ -511,10 +520,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Tarifa por complexo — verificar no sítio de cada catacumba",
-      "consultadoEm": null
+      "valor": {
+        "adulto": 10,
+        "reduzido": 7
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "Tarifa por complexo (bilheteria própria de cada catacumba, sem preço único). Valor registrado refere-se às Catacombe di San Callisto (catacombesancallisto.it), mesmo complexo já usado para o horário cadastrado: intero €10,00, ridotto (7–16 anos) €7,00, gratuito até 6 anos. As demais principais (Domitilla via omniavaticanrome.org: €10,00 + €2,00 taxa de reserva online; San Sebastiano: tarifa própria não confirmada nesta pesquisa) praticam valores semelhantes, na faixa de €8 a €12.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://www.catacombe.roma.it",
     "desc": "Visita guiada aos cemitérios cristãos primitivos. Interessa particularmente a roteiros de peregrinação."

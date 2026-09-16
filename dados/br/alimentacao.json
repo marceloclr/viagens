@@ -148,8 +148,8 @@
         "horario": {
           "valor": null,
           "tipo": "INDISPONIVEL",
-          "fonte": "Fontes divergem: barembar.com.br indica terça a domingo a partir das 14h (segunda a partir das 19h); outro agregado (Yelp) indica abertura já às 10h em vários dias — sem confirmação em site oficial ou perfil oficial verificado, verificar direto com o estabelecimento",
-          "consultadoEm": "2026-09-14"
+          "fonte": "Fontes divergem: barembar.com.br indica terça a domingo a partir das 14h (segunda a partir das 19h); Yelp indica abertura já às 10h em vários dias; um terceiro agregador turístico ainda diverge desses dois. Perfis oficiais (Instagram @bardoarmando1963 e Facebook /BarDoArmando) foram consultados na tentativa de resolver a divergência, mas o horário publicado no perfil não pôde ser lido no conteúdo acessível — divergência não resolvida, verificar direto com o estabelecimento ou no Google Meu Negócio",
+          "consultadoEm": "2026-09-16"
         },
         "link": "https://www.facebook.com/BarDoArmando/",
         "cardapio": null,

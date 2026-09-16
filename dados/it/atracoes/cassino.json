@@ -95,10 +95,13 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": {
+        "adulto": 6,
+        "reduzido": 4
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "abbaziamontecassino.it (Visita il Museo) — bilhete do Museo Abbaziale: intero €6,00; crianças em idade escolar e grupos de 10+ pessoas €4,00 por pessoa; entrada gratuita no primeiro domingo de cada mês.",
+      "consultadoEm": "2026-09-16"
     },
     "oficial": "https://www.abbaziamontecassino.org",
     "desc": "Acervo do mosteiro e da destruição de 1944, no próprio conjunto da Abadia."

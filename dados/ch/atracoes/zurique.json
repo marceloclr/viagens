@@ -217,10 +217,12 @@
     "endereco": "Uetliberg, 8143 Uitikon/Zürich, Suíça (acesso pela estação Zürich HB via trem S10)",
     "desc": "Montanha de 871m conhecida como o 'telhado de Zurique', acessível de trem em cerca de 25 minutos, com torre-mirante e trilhas panorâmicas sobre a cidade, o lago e os Alpes.",
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": null,
-      "consultadoEm": null
+      "valor": {
+        "adulto": 0
+      },
+      "tipo": "CADASTRADO",
+      "fonte": "Acesso à montanha em si (cume, trilhas) é gratuito; o custo real é a tarifa do transporte público ZVV para subir de trem (S10/Uetlibergbahn a partir de Zürich HB, zonas 110/154/155). A torre-mirante Aussichtsturm no cume cobra separadamente uma taxa simbólica de administração privada (historicamente entre CHF 2 e 5, variável ao longo dos anos). Fontes: szu.ch (bilhetes/travelcards), de.wikipedia.org/wiki/Aussichtsturm_Uetliberg, derbund.ch e limmattalerzeitung.ch (preço da torre)",
+      "consultadoEm": "2026-09-16"
     },
     "horario": {
       "valor": "Trens partem da Estação Central de Zurique a cada 30 minutos",

@@ -247,10 +247,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Tarifa varia por nível de acesso — verificar no sítio oficial",
-      "consultadoEm": null
+      "valor": { "adulto": 14.8 },
+      "tipo": "CADASTRADO",
+      "fonte": "toureiffel.paris/fr/tarifs-horaires — sítio oficial: bilhete adulto (25 anos+) varia por nível de acesso e modo de subida, de €14,80 a €36,70",
+      "consultadoEm": "2026-09-16",
+      "nota": "Valor cadastrado é o piso (2º andar por escada, €14,80). 2º andar por elevador: €23,50. Topo por escada+elevador: €28,00. Topo por elevador (tarifa máxima): €36,70."
     },
     "oficial": "https://www.toureiffel.paris",
     "desc": "Grande experiência visual do roteiro. Reservar com antecedência e combinar com o Trocadéro no fim da tarde."
@@ -391,10 +392,11 @@
       "consultadoEm": "2026-08-27"
     },
     "custo": {
-      "valor": null,
-      "tipo": "INDISPONIVEL",
-      "fonte": "Coleção permanente e bilhetes específicos — verificar no sítio oficial",
-      "consultadoEm": null
+      "valor": { "adulto": 17 },
+      "tipo": "CADASTRADO",
+      "fonte": "museeairespace.fr/visiteurs/visiteurs-individuels/tarifs-individuels/ — sítio oficial: bilhete 'Check In & Boarding Pass' (Grande Galerie, coleção permanente, exposições temporárias e acesso ao Boeing 747, ao Douglas C-47 Dakota e aos dois Concorde) custa €17 tarifa cheia",
+      "consultadoEm": "2026-09-16",
+      "nota": "Tarifa reduzida de €14 existe, mas só é vendida na bilheteria presencial, não online."
     },
     "oficial": "https://www.museeairespace.fr",
     "desc": "História da aviação e da exploração espacial em Le Bourget. Deslocamento longo: reservar meio período inteiro."
